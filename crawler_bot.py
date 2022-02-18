@@ -40,7 +40,8 @@ def crawler_bot(seeds, max_pages):
             # outlinks.extend([link.get('href') for link in soup.findAll('link')])
 
             # Some links are full urls, others are hrefs so append the seed prefix to those
-            outlinks = [seed + link for link in outlinks if "https" not in link]
+            # To know if some links are full or not, we check if they contain https or www
+            outlinks = [seed + link for link in outlinks if not any(s in link for s in ["https", "www"])]
 
             # write url and outlinks count to relevant reports.csv
             write_links_count(url, len(outlinks), "reports{}.csv".format(seeds.index(seed) + 1))
@@ -52,7 +53,7 @@ def crawler_bot(seeds, max_pages):
 
             index += 1
 
-            # At this point, the domain might not have any more outlinks and we've visited all pages
+            # If we go through here, the domain might not have any more outlinks and we've visited all pages
             if index >= len(urls):
                 break
 
