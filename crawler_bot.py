@@ -52,6 +52,7 @@ def crawler_bot(seeds, max_pages):
 
             index += 1
 
+            # At this point, the domain might not have any more outlinks and we've visited all pages
             if index >= len(urls):
                 break
 
