@@ -1,6 +1,6 @@
 from bs4.element import Comment
 from langdetect import detect, DetectorFactory
-from tests import *
+from crawler_bot import get_soup
 
 
 def detect_language(soup):
@@ -26,5 +26,5 @@ def tag_visible(element):
         return True
 
 
-s = get_test_soup("https://www.coupang.com/")
-run_test(detect_language, s)
+s = get_soup("https://www.coupang.com/")
+print(detect_language(s))

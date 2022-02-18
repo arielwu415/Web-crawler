@@ -28,9 +28,7 @@ def crawler_bot(seeds, max_pages):
             visited_pages += 1
 
             # headers are required for https://www.coupang.com/
-            source_code = requests.get(url, headers={'User-Agent': 'test_spider'})
-            html_text = source_code.text
-            soup = BeautifulSoup(html_text, features="html.parser")
+            soup = get_soup(url)
 
             # get all the domain links from current page and add seed url to hrefs
             # we also remove duplicates using a set then converting back to list
@@ -57,6 +55,13 @@ def crawler_bot(seeds, max_pages):
             if index >= len(urls):
                 break
 
+def get_soup(url):
+    source_code = requests.get(url, headers={'User-Agent': 'test_spider'})
+    html_text = source_code.text
+    soup = BeautifulSoup(html_text, features="html.parser")
+    
+    return soup
+    
 
 links = ["https://www.coupang.com/"]
 crawler_bot(links, 10)
