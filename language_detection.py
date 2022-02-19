@@ -7,6 +7,7 @@ lang_dict = {"ko":"Korean",
              "en":"English",
              "fr":"French"}
 
+
 def detect_language(soup):
     # check if lang attribute exists
     if soup.html.has_attr('lang'):
@@ -14,12 +15,12 @@ def detect_language(soup):
         lang = soup.html['lang'][0:2]
         
         # use iso-639 code module to get the language name
-        lang = languages.get(alpha2 = lang).name
+        lang = languages.get(alpha2=lang).name
         return lang
     
     # if  attribute does not exist, detect content text
     else:
-        # fix langdetect's instable results
+        # fix langdetect's unstable results
         DetectorFactory.seed = 0
     
         txt = soup.findAll(text=True)
@@ -29,7 +30,7 @@ def detect_language(soup):
         visible_txt = str(u" ".join(t.strip() for t in filtered_txt))
         
         # use iso-639 code module to get the language name
-        lang = languages.get(alpha2 = detect(visible_txt)).name
+        lang = languages.get(alpha2=detect(visible_txt)).name
         return lang
 
 
@@ -43,4 +44,3 @@ def tag_visible(element):
 
 
 s = get_soup("https://www.coupang.com/")
-print("This webstie is in", detect_language(s))
