@@ -33,7 +33,7 @@ def clean_words(words):
     return cleaned_words
 
 # creates a dictionary where each key is a unique word
-# and each value is the count of that word in the domain
+# and each value is the count of that respective word
 def get_word_count(word_list):
     word_count = {}
 
@@ -48,3 +48,5 @@ def get_word_count(word_list):
 
     top_100_words = counter.most_common(100)
     print(top_100_words)
+
+    return word_count
