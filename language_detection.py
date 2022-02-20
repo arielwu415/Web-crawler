@@ -1,11 +1,8 @@
 from bs4.element import Comment
 from langdetect import detect, DetectorFactory
 from iso639 import languages
-from crawler_bot import get_soup
-
-lang_dict = {"ko":"Korean",
-             "en":"English",
-             "fr":"French"}
+import requests
+from bs4 import BeautifulSoup
 
 
 def detect_language(soup):
@@ -15,22 +12,22 @@ def detect_language(soup):
         lang = soup.html['lang'][0:2]
         
         # use iso-639 code module to get the language name
-        lang = languages.get(alpha2=lang).name
+        # lang = languages.get(alpha2=lang).name
+        print(lang)
         return lang
     
     # if  attribute does not exist, detect content text
     else:
         # fix langdetect's unstable results
         DetectorFactory.seed = 0
-    
-        txt = soup.findAll(text=True)
-        # exclude unneeded tags
-        filtered_txt = filter(tag_visible, txt)
         
-        visible_txt = str(u" ".join(t.strip() for t in filtered_txt))
+        visible_txt = get_visible_text(soup)
+        print(visible_txt)
         
         # use iso-639 code module to get the language name
-        lang = languages.get(alpha2=detect(visible_txt)).name
+        # lang = languages.get(alpha2=detect(visible_txt)).name
+        lang = detect(visible_txt)
+        print(lang)
         return lang
 
 
@@ -43,4 +40,19 @@ def tag_visible(element):
         return True
 
 
-s = get_soup("https://www.coupang.com/")
+def get_visible_text(soup):
+    txt = soup.findAll(text=True)
+    # exclude unneeded tags
+    filter_obj = filter(tag_visible, txt)
+    
+    visible_txt = str(u" ".join(t.strip() for t in filter_obj))
+    return visible_txt
+
+
+'''
+source_code = requests.get("https://www.stackoverflow.com", headers={'User-Agent': 'test_spider'})
+html_text = source_code.text
+soup = BeautifulSoup(html_text, features="html.parser")
+detect_language(soup)
+'''
+
