@@ -12,6 +12,7 @@ from requests.packages.urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from outlinks_count import *
 from download_page import *
+from language_detection import detect_language
 
 
 def crawler_bot(seeds, max_pages):
@@ -39,6 +40,8 @@ def crawler_bot(seeds, max_pages):
             visited_pages += 1
 
             soup = make_request(session, url)
+            if index == 0:
+                detect_language(soup)
 
             # download current page and save to appropriate folder
             write_to_repository(folder, "page{}.txt".format(visited_pages), soup.getText())
@@ -74,7 +77,8 @@ def make_request(sesh, url):
     source_code = sesh.get(url, headers={'User-Agent': 'test_spider'})
     html_text = source_code.text
     source_code.close()
-    return get_soup(html_text)
+    soup = BeautifulSoup(html_text, features="html.parser")
+    return soup
 
 
 def build_session():
@@ -86,7 +90,3 @@ def build_session():
     session.mount('https://', adapter)
     return session
 
-
-def get_soup(html_text):
-    soup = BeautifulSoup(html_text, features="html.parser")
-    return soup
