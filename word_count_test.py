@@ -20,5 +20,6 @@ gouvernement_word_count = get_word_count(word_lists[2])
 
 counter = Counter(stackoverflow_word_count)
 top_10_words = counter.most_common(10)
+print("Top 10 most common words from stack overflow:")
 print(top_10_words)
 
