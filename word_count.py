@@ -3,6 +3,7 @@ from glob import glob
 # tuple containing domain names for repository/{domain_directory}
 directories = ('stackoverflow', 'coupang', 'gouvernement')
 
+
 # gets the word lists for each domain returned as a list of lists
 # e.g. [ ['stack', 'overflow', 'words'], ['coupang', 'words'], ['gouvernement', 'words'] ]
 def get_wordlists(directories):
@@ -28,6 +29,7 @@ def get_wordlists(directories):
 
     return word_lists
 
+
 # removes unwanted symbols from a list of words (strings)
 def clean_words(words):
     cleaned_words = []
@@ -44,6 +46,7 @@ def clean_words(words):
             cleaned_words.append(word)
 
     return cleaned_words
+
 
 # creates a dictionary where each key is a unique word
 # and each value is the count of that respective word

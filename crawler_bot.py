@@ -44,7 +44,7 @@ def crawler_bot(seeds, max_pages):
                 detect_language(soup)
 
             # download current page and save to appropriate folder
-            write_to_repository(folder, "page{}.txt".format(visited_pages), soup.getText())
+            write_to_repository(folder, "page{}.txt".format(visited_pages), soup.prettify())
 
             # get all the domain links from current page and add seed url to hrefs
             # we also remove duplicates using a set then converting back to list
