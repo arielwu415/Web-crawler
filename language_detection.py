@@ -1,9 +1,9 @@
 from bs4.element import Comment
 from langdetect import detect, DetectorFactory
 
-lang_dict = {"ko":"Korean",
-             "en":"English",
-             "fr":"French"}
+lang_dict = {"ko": "Korean",
+             "en": "English",
+             "fr": "French"}
 
 
 def detect_language(soup):
@@ -30,6 +30,10 @@ def detect_language(soup):
         # use iso-639 code module to get the language name
         # lang = languages.get(alpha2=detect(visible_txt)).name
         lang = detect(visible_txt)
+
+        visible_txt = get_visible_text(soup)
+
+        lang = detect(visible_txt)
         return lang
 
 
@@ -40,3 +44,12 @@ def tag_visible(element):
         return False
     else:
         return True
+
+
+def get_visible_text(soup):
+    txt = soup.findAll(text=True)
+    # exclude unneeded tags
+    filter_obj = filter(tag_visible, txt)
+    
+    visible_txt = str(u" ".join(t.strip() for t in filter_obj))
+    return visible_txt
