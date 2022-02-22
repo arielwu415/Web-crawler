@@ -20,6 +20,13 @@ import urllib.robotparser
 def crawler_bot(seeds, max_pages):
     # One session will be active for all requests, as opposed to creating a new one at every iteration
     session = build_session()
+    
+    # A list to store language names as strings
+    # for checking if each page we crawl is in the same language as the seed
+    # In our case, lang_list = ["en", "fr", "ko"]
+    lang_list = []
+    # An index variable to indicate the language of current seed
+    lang_index = 0
 
     for seed in seeds:
         report_filename = "reports{}.csv".format(seeds.index(seed) + 1)
@@ -53,15 +60,24 @@ def crawler_bot(seeds, max_pages):
 
         while visited_pages < max_pages:
             url = urls[index]
-
+            
+            # if page can be crawled
             if robot.can_fetch("*", url):
 
-                visited_pages += 1
-
                 soup = make_request(session, url)
+                
+                # adding language to lang_list when crawling a new domain
                 if index == 0:
-                    detect_language(soup)
-
+                    lang_list.append(detect_language(soup))
+                else:
+                    # if the language of the outlink is different from the current language in the list
+                    # skip crawling the page
+                    # assume langdetect method is 100% accurate while in fact it may detect the wrong language and skip the page
+                    if detect_language(soup) != lang_list[lang_index]:
+                        continue
+                    
+                visited_pages += 1
+                
                 # download current page and save to appropriate folder
                 write_to_repository(folder, "page{}.txt".format(visited_pages), soup.prettify())
 
@@ -92,6 +108,9 @@ def crawler_bot(seeds, max_pages):
             if index >= len(urls):
                 break
         write_to_domain_count(word_count_filename, domain_word_count_filename)
+            
+        # go to the next seed
+        lang_index += 1
 
 
 def make_request(sesh, url):
