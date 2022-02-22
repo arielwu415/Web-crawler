@@ -1,34 +1,19 @@
-from glob import glob
-
 # tuple containing domain names for repository/{domain_directory}
 directories = ('stackoverflow', 'coupang', 'gouvernement')
 
+# gets the word list for the page passed
+# page is assumed to be soup.getText()
+def get_wordlist(page):
+    word_list = []
+    lines = page.splitlines()
+    for line in lines:
+        if line == '\n':
+            continue
+        words = line.lower().split()
+        cleaned_words = clean_words(words)
+        word_list.extend(cleaned_words)
 
-# gets the word lists for each domain returned as a list of lists
-# e.g. [ ['stack', 'overflow', 'words'], ['coupang', 'words'], ['gouvernement', 'words'] ]
-def get_wordlists(directories):
-    word_lists = []
-    # for each domain's directory
-    for directory in directories:
-        word_list = []
-        # get a list of filenames for the current directory
-        filenames = glob(f"repository/{directory}/*.txt")
-        # for each page in the current directory
-        for filename in filenames:
-            # open each page to parse the words then append any words
-            # to the word list for this domain
-            with open(f'{filename}', encoding='utf8') as f:
-                lines = f.readlines()
-                for line in lines:
-                    if line == '\n':
-                        continue
-                    words = line.lower().split()
-                    cleaned_words = clean_words(words)
-                    word_list.extend(cleaned_words)
-        word_lists.append(word_list)
-
-    return word_lists
-
+    return word_list
 
 # removes unwanted symbols from a list of words (strings)
 def clean_words(words):

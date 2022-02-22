@@ -12,6 +12,7 @@ from requests.packages.urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from outlinks_count import *
 from download_page import *
+from word_count import *
 from language_detection import detect_language
 import urllib.robotparser 
 
@@ -23,6 +24,12 @@ def crawler_bot(seeds, max_pages):
     for seed in seeds:
         report_filename = "reports{}.csv".format(seeds.index(seed) + 1)
         clear_report_file(report_filename)
+
+        word_count_filename = "wordcount{}.csv".format(seeds.index(seed) + 1)
+        clear_report_file(word_count_filename)
+
+        domain_word_count_filename = "{}.csv".format(seeds.index(seed) + 1)
+        clear_report_file(domain_word_count_filename)
 
         folder = get_folder_name(seed)
 
@@ -58,6 +65,8 @@ def crawler_bot(seeds, max_pages):
                 # download current page and save to appropriate folder
                 write_to_repository(folder, "page{}.txt".format(visited_pages), soup.prettify())
 
+                write_to_word_count(word_count_filename, soup.get_text())
+
                 # get all the domain links from current page and add seed url to hrefs
                 # we also remove duplicates using a set then converting back to list
                 outlinks = list(set([link.get('href') for link in soup.findAll('a') if link.get('href') is not None]))
@@ -82,6 +91,7 @@ def crawler_bot(seeds, max_pages):
             # If we go through here, the domain might not have any more outlinks and we've visited all pages
             if index >= len(urls):
                 break
+        write_to_domain_count(word_count_filename, domain_word_count_filename)
 
 
 def make_request(sesh, url):
