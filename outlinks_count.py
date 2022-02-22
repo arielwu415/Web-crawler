@@ -29,9 +29,9 @@ def write_to_domain_count(word_count_filename, domain_word_count_filename):
     with open(domain_word_count_filename, 'w', encoding='utf-8') as domain_word_count_file:
         _writer = csv.writer(domain_word_count_file)
         word_count = get_word_count(all_words)
-        print(word_count)
-        for key, value in word_count.items():
-            _writer.writerow([key, value])
+        sorted_word_count_tuple = sorted(word_count.items(), key=lambda item: item[1], reverse=True)
+        for tup in sorted_word_count_tuple:
+            _writer.writerow([tup[0], tup[1]])
 
 
 def clear_report_file(filename):
