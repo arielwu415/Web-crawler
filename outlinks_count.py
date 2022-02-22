@@ -21,6 +21,7 @@ def write_to_domain_count(word_count_filename, domain_word_count_filename):
         for line in lines:
             if line == '\n':
                 continue
+            print(line)
             words = line.lower().split(',')
             cleaned_words = clean_words(words)
             all_words.extend(cleaned_words)
@@ -28,8 +29,9 @@ def write_to_domain_count(word_count_filename, domain_word_count_filename):
     with open(domain_word_count_filename, 'w', encoding='utf-8') as domain_word_count_file:
         _writer = csv.writer(domain_word_count_file)
         word_count = get_word_count(all_words)
+        print(word_count)
         for key, value in word_count.items():
-            _writer.writerow("%s,%s\n"%(key, value))
+            _writer.writerow([key, value])
 
 
 def clear_report_file(filename):
