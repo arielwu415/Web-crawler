@@ -128,7 +128,7 @@ def make_request(sesh, url):
 def build_session():
     session = requests.Session()
     # This helps ease off the servers we are crawling by waiting between subsequent requests
-    retry = Retry(connect=3, backoff_factor=1.8)
+    retry = Retry(connect=3, backoff_factor=1.7)
     adapter = HTTPAdapter(max_retries=retry)
     # This will only request urls with https
     session.mount('https://', adapter)
