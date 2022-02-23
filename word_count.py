@@ -22,7 +22,7 @@ def clean_words(words):
     # a blank space (empty string)
     for word in words:
         # all the unwanted symbols
-        symbols = "!@#$%^&*()_-+={[}]|\;:\"<>«»?/.,… "
+        symbols = "!@#$%^&*()_-+={[}]|\;:\"<>«»?/.,…•–© "
         
         for i in range(len(symbols)):
             word = word.replace(symbols[i], '')

@@ -19,7 +19,11 @@ def detect_language(soup):
 
         visible_txt = get_visible_text(soup)
 
-        lang = detect(visible_txt)
+        try:
+            lang = detect(visible_txt)
+        except:
+            lang = "error"
+            print("This url throws an error:", soup.url)
         return lang
 
 
