@@ -9,10 +9,12 @@ def write_links_count(link, count, filename):
         _writer = csv.writer(report)
         _writer.writerow([link, count])
 
+
 def write_to_word_count(filename, page):
     with open(filename, 'a', encoding='utf-8') as word_count_file:
         _writer = csv.writer(word_count_file)
         _writer.writerow(get_wordlist(page))
+
 
 def write_to_domain_count(word_count_filename, domain_word_count_filename):
     all_words = []
@@ -21,7 +23,6 @@ def write_to_domain_count(word_count_filename, domain_word_count_filename):
         for line in lines:
             if line == '\n':
                 continue
-            print(line)
             words = line.lower().split(',')
             cleaned_words = clean_words(words)
             all_words.extend(cleaned_words)

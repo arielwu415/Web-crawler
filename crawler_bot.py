@@ -13,9 +13,8 @@ import ssl
 from bs4 import BeautifulSoup
 from outlinks_count import *
 from download_page import *
-from word_count import *
 from language_detection import detect_language
-import urllib.robotparser 
+import urllib.robotparser
 
 
 def crawler_bot(seeds, max_pages):
@@ -38,7 +37,7 @@ def crawler_bot(seeds, max_pages):
         word_count_filename = "wordcount{}.csv".format(seeds.index(seed) + 1)
         clear_report_file(word_count_filename)
 
-        domain_word_count_filename = "{}.csv".format(seeds.index(seed) + 1)
+        domain_word_count_filename = "words{}.csv".format(seeds.index(seed) + 1)
         clear_report_file(domain_word_count_filename)
 
         folder = get_folder_name(seed)
@@ -75,10 +74,10 @@ def crawler_bot(seeds, max_pages):
                 else:
                     # if the language of the outlink is different from the current language in the list
                     # skip crawling the page
-                    # assume langdetect method is 100% accurate while in fact it may detect the wrong language and skip the page
+                    # assume langdetect method is 100% accurate, but it may detect the wrong language and skip the page
                     if detect_language(soup) != lang_list[lang_index]:
                         continue
-                    
+
                 visited_pages += 1
                 
                 # download current page and save to appropriate folder
@@ -88,11 +87,11 @@ def crawler_bot(seeds, max_pages):
 
                 # get all the domain links from current page and add seed url to hrefs
                 # we also remove duplicates using a set then converting back to list
-                outlinks = list(set([link.get('href') for link in soup.findAll('a') if link.get('href') is not None]))
+                outlinks = list(set([link.get('href') for link in soup.findAll('a') if link.get('href') is not None and "javascript" not in link.get('href')]))
 
                 # Some links are full urls, others are hrefs so append the seed prefix to those
                 # To know if some urls are complete or not, we check if they contain https, www or .com
-                outlinks = [seed + link for link in outlinks if not any(s in link for s in ["https", "www", ".com"])]
+                outlinks = [seed+link for link in outlinks if not any(s in link for s in ["https", "www", ".com", ".ac.kr", ".fr"])]
 
                 # remove all links that would lead us outside the current domain
                 outlinks = [link for link in outlinks if seed.removeprefix('https://www.') in link]
@@ -128,7 +127,7 @@ def make_request(sesh, url):
 def build_session():
     session = requests.Session()
     # This helps ease off the servers we are crawling by waiting between subsequent requests
-    retry = Retry(connect=3, backoff_factor=1)
+    retry = Retry(connect=3, backoff_factor=1.5)
     adapter = HTTPAdapter(max_retries=retry)
     # This will only request urls with https
     session.mount('https://', adapter)
