@@ -17,7 +17,7 @@ def get_folder_name(seed):
     elif '.fr' in seed:
         name = seed.removesuffix('.fr')
     elif '.ac.kr' in seed:
-        name = seed.removesuffix('.ac.kr')
+        name = seed.removesuffix('.ac.kr/sc')
 
     name = name.removeprefix('https://www.')
     return name

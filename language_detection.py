@@ -1,11 +1,6 @@
 from bs4.element import Comment
 from langdetect import detect, DetectorFactory
 
-lang_dict = {"ko": "Korean",
-             "en": "English",
-             "fr": "French"}
-
-
 def detect_language(soup):
     # check if lang attribute exists
     if soup.html.has_attr('lang'):
@@ -20,16 +15,6 @@ def detect_language(soup):
     else:
         # fix langdetect's unstable results
         DetectorFactory.seed = 0
-
-        txt = soup.findAll(text=True)
-        # exclude unneeded tags
-        filtered_txt = filter(tag_visible, txt)
-
-        visible_txt = str(u" ".join(t.strip() for t in filtered_txt))
-
-        # use iso-639 code module to get the language name
-        # lang = languages.get(alpha2=detect(visible_txt)).name
-        lang = detect(visible_txt)
 
         visible_txt = get_visible_text(soup)
 
