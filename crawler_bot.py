@@ -104,6 +104,7 @@ def crawler_bot(seeds, max_pages):
                 # only if our list does not have more urls than max_pages
                 if len(urls) < max_pages:
                     urls.extend(outlinks)
+                    urls = list(set(urls))
 
             index += 1
 
