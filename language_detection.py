@@ -3,7 +3,7 @@ from langdetect import detect, DetectorFactory
 
 def detect_language(soup):
     # check if lang attribute exists
-    if soup.html.has_attr('lang'):
+    if soup.html is not None and soup.html.has_attr('lang'):
         # slice the value [0:2]. For example, "ko-KR" get "ko"
         lang = soup.html['lang'][0:2]
 
@@ -18,7 +18,11 @@ def detect_language(soup):
 
         visible_txt = get_visible_text(soup)
 
-        lang = detect(visible_txt)
+        try:
+            lang = detect(visible_txt)
+        except:
+            lang = "error"
+            print("This url throws an error:", soup.url)
         return lang
 
 
