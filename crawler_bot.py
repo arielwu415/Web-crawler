@@ -9,6 +9,7 @@ Created on Tue Feb 15 16:28:04 2022
 import requests
 from requests.adapters import HTTPAdapter
 from requests.packages.urllib3.util.retry import Retry
+import ssl
 from bs4 import BeautifulSoup
 from outlinks_count import *
 from download_page import *
@@ -20,6 +21,8 @@ import urllib.robotparser
 def crawler_bot(seeds, max_pages):
     # One session will be active for all requests, as opposed to creating a new one at every iteration
     session = build_session()
+
+    ssl._create_default_https_context = ssl._create_unverified_context
     
     # A list to store language names as strings
     # for checking if each page we crawl is in the same language as the seed
