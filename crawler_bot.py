@@ -68,14 +68,15 @@ def crawler_bot(seeds, max_pages):
 
                 soup = make_request(session, url)
                 
-                # adding language to lang_list when crawling a new domain
+                lang = detect_language(soup)
                 if index == 0:
-                    lang_list.append(detect_language(soup))
+                    # adding language to lang_list when crawling a new domain
+                    lang_list.append(lang)
                 else:
                     # if the language of the outlink is different from the current language in the list
                     # skip crawling the page
                     # assume langdetect method is 100% accurate, but it may detect the wrong language and skip the page
-                    if detect_language(soup) != lang_list[lang_index]:
+                    if lang != lang_list[lang_index]:
                         continue
 
                 visited_pages += 1
@@ -127,7 +128,7 @@ def make_request(sesh, url):
 def build_session():
     session = requests.Session()
     # This helps ease off the servers we are crawling by waiting between subsequent requests
-    retry = Retry(connect=3, backoff_factor=1.5)
+    retry = Retry(connect=3, backoff_factor=1.8)
     adapter = HTTPAdapter(max_retries=retry)
     # This will only request urls with https
     session.mount('https://', adapter)
