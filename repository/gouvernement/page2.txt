@@ -1,0 +1,1051 @@
+<!DOCTYPE html >
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="fr"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="fr"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="fr"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" dir="ltr" lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+ <!--<![endif]-->
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width" name="viewport"/>
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <link href="/mentions-legales" rel="canonical"/>
+    <link href="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <meta content="Mentions légales" property="og:title"/>
+    <meta content="https://www.gouvernement.fr/mentions-legales" property="og:url"/>
+    <meta content="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/img/thumbnail_site.png" property="og:image"/>
+    <meta content="Le site Gouvernement.fr est géré par le Service d’information du Gouvernement (SIG), service du Premier ministre." property="og:description"/>
+    <meta content="122600815096144" property="fb:app_id"/>
+    <meta content="Gouvernement.fr" property="og:site_name"/>
+    <meta content="fr_FR" property="og:locale"/>
+    <meta content="website" property="og:type"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="Mentions légales" name="twitter:title"/>
+    <meta content="https://www.gouvernement.fr/mentions-legales" name="twitter:url"/>
+    <meta content="@gouvernementfr" name="twitter:site"/>
+    <meta content="Le site Gouvernement.fr est géré par le Service d’information du Gouvernement (SIG), service du Premier ministre." name="twitter:description"/>
+    <meta content="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/img/thumbnail_site.png" name="twitter:image"/>
+    <link href="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/img/apple/touch-icon-iphone.png" rel="apple-touch-icon"/>
+    <link href="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/img/apple/touch-icon-ipad.png" rel="apple-touch-icon" sizes="76x76"/>
+    <meta content="Le site Gouvernement.fr est géré par le Service d’information du Gouvernement (SIG), service du Premier ministre.
+" name="description"/>
+    <link href="https://www.gouvernement.fr/rss.xml" rel="alternate" title="RSS" type="application/rss+xml"/>
+    <link href="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/marianne.png" rel="icon" type="image/png"/>
+    <link href="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/img/favicon/marianne.svg" rel="icon"/>
+    <link href="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/img/favicon/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+    <link href="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/img/favicon/favicon-64.png" rel="icon" sizes="64x64" type="image/png"/>
+    <title>
+     Mentions légales | Crédits | Confidentialité du site du gouvernement français | Gouvernement.fr
+    </title>
+    <style media="all" type="text/css">
+     @import url("https://www.gouvernement.fr/modules/system/system.base.css?r7pasp");
+@import url("https://www.gouvernement.fr/modules/system/system.messages.css?r7pasp");
+@import url("https://www.gouvernement.fr/modules/system/system.theme.css?r7pasp");
+    </style>
+    <style media="all" type="text/css">
+     @import url("https://www.gouvernement.fr/modules/field/theme/field.css?r7pasp");
+@import url("https://www.gouvernement.fr/modules/node/node.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/custom/pmv6_risques/css/unslider-dots.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/custom/pmv6_risques/css/unslider.css?r7pasp");
+@import url("https://www.gouvernement.fr/modules/search/search.css?r7pasp");
+@import url("https://www.gouvernement.fr/modules/user/user.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/contrib/nodeorder/css/nodeorder.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/contrib/views/css/views.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/contrib/ckeditor/css/ckeditor.css?r7pasp");
+    </style>
+    <style media="all" type="text/css">
+     @import url("https://www.gouvernement.fr/sites/all/modules/contrib/ctools/css/ctools.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/contrib/oembed/oembed.base.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/contrib/oembed/oembed.theme.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/custom/pmv6_admin/lightSlider/css/lightSlider.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/modules/custom/pmv6_tarteaucitron/js/tarteaucitron/css/tac-custom.min.css?r7pasp");
+    </style>
+    <style media="all" type="text/css">
+     @import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/fonts/opensans/opensans.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/fonts/remixicon/remixicon.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/slick/slick.min.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/slick/accessible-slick-theme.min.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/colorbox.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/tooltipster/tooltipster.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/css/style.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/css/all.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/css/custom/rf-b_footer.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/css/custom/rf-b_header.css?r7pasp");
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/css/custom/rf-b_transverse.css?r7pasp");
+    </style>
+    <style media="print" type="text/css">
+     @import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/css/print.css?r7pasp");
+    </style>
+    <!--[if lte IE 8]>
+<style type="text/css" media="all">
+@import url("https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/css/style-ie.css?r7pasp");
+</style>
+<![endif]-->
+    <!--[if lt IE 9]>
+         <script src="/sites/all/themes/custom/gouvernement/vendor/html5shiv.js"></script>
+      <![endif]-->
+    <!-- statgvt -->
+    <!-- static_css version -->
+    <script type="text/javascript">
+     var smarttag_js =  "/sites/all/modules/custom/pmv6_marquage/js/smarttag_gvt_prod.js";var smarttag_config = {secure: true};
+    </script>
+   </meta>
+  </meta>
+ </head>
+ <body class="html not-front not-logged-in no-sidebars page-node node-type-contenu sec- page-node-contenu page-node-56">
+  <div class="rf-skiplinks">
+   <div class="rf-container">
+    <ul class="rf-skiplinks__list">
+     <li>
+      <a class="rf-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22header%22,%20%22chapter2%22%20:%20%22evitements%22,%20%22name%22%20:%20%22Acc%C3%A9der%20au%20contenu%22%20,%20%22type%22%20:%20%22navigation%22%7D" href="#main">
+       Accéder au contenu
+      </a>
+     </li>
+     <li>
+      <a class="rf-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22header%22,%20%22chapter2%22%20:%20%22evitements%22,%20%22name%22%20:%20%22Acc%C3%A9der%20au%20menu%22%20,%20%22type%22%20:%20%22navigation%22%7D" href="#navigation-header">
+       Accéder au menu
+      </a>
+     </li>
+     <li>
+      <a class="rf-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22header%22,%20%22chapter2%22%20:%20%22evitements%22,%20%22name%22%20:%20%22Acc%C3%A9der%20%C3%A0%20la%20recherche%22%20,%20%22type%22%20:%20%22navigation%22%7D" href="#search-block-form">
+       Accéder à la recherche
+      </a>
+     </li>
+     <li>
+      <a class="rf-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22header%22,%20%22chapter2%22%20:%20%22evitements%22,%20%22name%22%20:%20%22Acc%C3%A9der%20au%20footer%22%20,%20%22type%22%20:%20%22navigation%22%7D" href="#footer">
+       Accéder au footer
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+  <header class="rf-header" role="banner">
+   <div class="rf-container rf-container__header">
+    <div class="rf-header__body">
+     <div class="rf-header__brand">
+      <a class="rf-logo" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22header%22,%20%22chapter2%22%20:%20%22marianne%22,%20%22name%22%20:%20%22accueil%22%20,%20%22type%22%20:%20%22navigation%22%7D" href="/" title="Gouvernement - Retour à l'accueil">
+       <span class="rf-logo__title">
+        Gouvernement
+       </span>
+      </a>
+     </div>
+     <div class="rf-header__navbar">
+     </div>
+     <div class="rf-header__tools">
+      <statgvt>
+       <form accept-charset="UTF-8" action="/search/site" class="" id="search-block-form" method="post" role="search">
+        <div>
+         <div class="rf-search-bar" id="header-search">
+          <input aria-label="Rechercher" autocomplete="off" class="rf-input form-text-keys form-text" id="edit-search-block-form--2" maxlength="128" name="search_block_form" placeholder="Rechercher" size="15" title="Rechercher" type="text" value=""/>
+          <button class="button rf-btn" id="edit-submit" name="op" type="submit" value="Rechercher">
+           <span>
+            Rechercher
+           </span>
+          </button>
+          <input name="form_build_id" type="hidden" value="form-_WX_ap6Wydy7abx-_DXKVU6-zA01cC7uWZFU_qi06SU">
+           <input name="form_id" type="hidden" value="search_block_form"/>
+          </input>
+         </div>
+        </div>
+       </form>
+      </statgvt>
+     </div>
+    </div>
+   </div>
+   <div class="rf-container" id="navigation-header">
+    <nav aria-label="Menu principal" class="rf-nav" id="header-navigation" role="navigation">
+     <ul class="rf-nav__list">
+      <li class="rf-nav__item">
+       <button aria-controls="rf-nav-item-0" aria-expanded="false" class="rf-btn">
+        L’actualité
+       </button>
+       <div class="rf-menu" id="rf-nav-item-0">
+        <ul class="rf-menu__list">
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/toute-l-actualite" target="_self">
+           Toute l'actualité
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/suivre-l-actualite-du-premier-ministre" target="_self">
+           L'actualité du Premier ministre
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/espace-presse" target="_self">
+           Espace presse
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="https://www.gouvernement.fr/agenda/ministre/jean-castex" target="_self">
+           Agenda
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/discours-et-rapports" target="_self">
+           Discours et rapports
+          </a>
+         </li>
+        </ul>
+       </div>
+      </li>
+      <li class="rf-nav__item">
+       <button aria-controls="rf-nav-item-1" aria-expanded="false" class="rf-btn">
+        Les actions du Gouvernement
+       </button>
+       <div class="rf-menu" id="rf-nav-item-1">
+        <ul class="rf-menu__list">
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/les-actions-du-gouvernement" target="_self">
+           Les actions
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="https://www.gouvernement.fr/portraits-de-la-relance" target="_self">
+           Les portraits de la relance
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/ministre/gabriel-attal" target="_self">
+           Le Porte-parole
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/comptes-rendus-du-conseil-des-ministres" target="_self">
+           Conseil des ministres
+          </a>
+         </li>
+        </ul>
+       </div>
+      </li>
+      <li class="rf-nav__item">
+       <button aria-controls="rf-nav-item-2" aria-expanded="false" class="rf-btn">
+        Le Gouvernement et les institutions
+       </button>
+       <div class="rf-menu" id="rf-nav-item-2">
+        <ul class="rf-menu__list">
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/ministre/jean-castex" target="_self">
+           Le Premier ministre
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/composition-du-gouvernement" target="_self">
+           Composition du Gouvernement
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/les-services-du-premier-ministre" target="_self">
+           Services du Premier ministre
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="https://www.gouvernement.fr/matignon-visite-virtuelle" target="_self">
+           Visite virtuelle de Matignon
+          </a>
+         </li>
+         <li class="rf-menu__item">
+          <a class="rf-link" href="/le-savez-vous" target="_self">
+           Le savez-vous ?
+          </a>
+         </li>
+        </ul>
+       </div>
+      </li>
+      <li class="rf-menu__item rf-menu__item--lang">
+       <a class="rf-link" href="/en/news" lang="en" target="_self" title="Display the english version of the site">
+        EN
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="style-default-gris" id="main" role="main">
+   <div class="limiter" id="content">
+    <div class="region region-content">
+     <div class="block block-system block-odd" id="block-system-main">
+      <div class="block-content">
+       <div class="node node-contenu clearfix" id="node-56">
+        <div class="content">
+         <div class="titre-zone field">
+          <div class="titre-zone-separateur haut">
+          </div>
+          <h1 class="titre-texte">
+           Mentions légales
+          </h1>
+          <div class="titre-zone-separateur">
+          </div>
+         </div>
+         <!-- /.titre-zone.field -->
+         <div class="field field-separateur">
+          <div class="entete-separateur">
+          </div>
+         </div>
+         <div class="field field-name-field-texte field-type-text-long field-label-hidden prose">
+          <div class="field-items">
+           <div class="field-item even first last">
+            <h2>
+             Directeur de la publication
+            </h2>
+            <p>
+             Michael Nathan, directeur du Service d’information du Gouvernement
+             <br/>
+             <a href="/sites/default/files/contenu/piece-jointe/2021/07/organigramme_sig_-_cts.pdf" target="_blank" title="Organigramme du SIG - nouvelle fenêtre">
+              Organigramme du SIG
+             </a>
+             <br/>
+            </p>
+            <h2>
+             Gestionnaire des statistiques
+            </h2>
+            <p>
+             AT Internet
+            </p>
+            <h2>
+             Crédits photographiques
+            </h2>
+            <p>
+             Les photos présentes sur ce site proviennent de sources différentes, mentionnées au cas par cas sur le crédit de chaque photo.
+             <br/>
+             Par défaut, elles proviennent du pôle de production photographique des services du Premier ministre.
+             <br/>
+             <a href="/credits-photographiques">
+              En savoir plus sur les crédits photos
+             </a>
+            </p>
+            <h2>
+             Conception et gestion du site
+            </h2>
+            <p>
+             Le suivi éditorial et graphique du site est assuré par le département Rédaction du Service d’information du Gouvernement.
+             <br/>
+             La conception technique du site et son ergonomie sont assurés par le département Écosystème Numérique du Service d’information du Gouvernement.
+            </p>
+            <p>
+             Responsable du département Rédaction : Julien Broca
+            </p>
+            <h2>
+             Hébergement
+            </h2>
+            <p>
+             Worldline
+            </p>
+            <h2>
+             Réutilisation des contenus et liens
+            </h2>
+            <p>
+             Sauf mention explicite de propriété intellectuelle détenue par des tiers, les contenus de ce site sont proposés sous
+             <a href="https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf">
+              licence ouverte Etalab 2.0
+             </a>
+             .
+            </p>
+            <p>
+             Vous êtes notamment libres de les reproduire, copier, modifier, extraire, transformer, communiquer diffuser, redistribuer, publier, transmettre et exploiter sous réserve de mentionner leur source, leur date de dernière mise à jour et ne pas induire en erreur des tiers quant aux informations qui y figurent.
+            </p>
+            <p>
+             Tout site public ou privé est autorisé à établir, sans autorisation préalable, un lien (y compris profond) vers les informations diffusées sur ce site.
+            </p>
+            <h2>
+             Liens hypertextes proposés par Gouvernement.fr
+            </h2>
+            <p>
+             De nombreux liens vers d’autres sites, privés ou officiels, français ou étrangers, sont proposés. Leur présence ne saurait engager le Service d’information du Gouvernement quant à leur contenu et ne vise qu’à permettre à l’internaute de trouver plus facilement d’autres ressources documentaires sur le sujet consulté.
+            </p>
+            <h2>
+             Clause de responsabilité
+            </h2>
+            <p>
+             Les informations proposées sur ce site le sont à titre de service rendu au public. Malgré tout le soin apporté à la transcription des textes officiels, à la vérification des contenus et des informations, les éléments mis en ligne ne sauraient, de quelque manière que ce soit, prétendre à l’exactitude et engager la responsabilité du Premier ministre et du Service d’information du Gouvernement.
+             <br/>
+             <br/>
+             Les informations et/ou documents disponibles sur ce site sont susceptibles d’être modifiés à tout moment, et peuvent faire l’objet de mises à jour.
+             <br/>
+             <br/>
+             Le Service d’information du Gouvernement ne pourra en aucun cas être tenu responsable de tout dommage de quelque nature qu’il soit résultant de l’interprétation ou de l’utilisation des informations et/ou documents disponibles sur ce site.
+            </p>
+            <h2>
+             Écrire au webmestre
+            </h2>
+            <p>
+             Il est possible de
+             <a href="mailto:redaction@pm.gouv.fr">
+              transmettre des observations ou des suggestions au webmestre du site
+             </a>
+             . Il s’efforcera d’en tenir compte. Il ne saurait pour autant répondre à des demandes particulières ou dépassant le cadre strict de la gestion administrative ou technique du site.
+             <br/>
+             <br/>
+             Pour écrire au Premier ministre
+             <a href="/contact/ecrire-au-premier-ministre">
+              cliquez sur ce lien
+             </a>
+            </p>
+            <h2>
+             Accessibilité
+            </h2>
+            <p>
+             Le site du gouvernement est développé selon les recommandations du Référentiel général d’accessibilité des administrations (RGAA) et les normes W3C. Vous pouvez retrouver la déclaration de conformité au RGAA sur l'
+             <a href="https://www.gouvernement.fr/accessibilite">
+              espace accessibilité du site
+             </a>
+             . Nous nous sommes engagés à améliorer en permanence l’accessibilité de nos contenus pour que l’accès à l’information de
+             <a href="http://www.gouvernement.fr">
+              Gouvernement.fr
+             </a>
+             soit facilité.
+            </p>
+            <p>
+             Pour toute question relative aux présentes informations, vous pouvez nous écrire à l’adresse suivante :
+             <br/>
+             Service d’information du Gouvernement
+             <br/>
+             Services du Premier ministre
+             <br/>
+             TSA 80724 – 75334 Paris Cedex 07
+            </p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- /.limiter -->
+  </main>
+  <!-- /#main -->
+  <footer class="rf-footer" id="footer" role="contentinfo">
+   <h2 class="rf-sr-only">
+    Pied de page
+   </h2>
+   <div id="rf-footer__top">
+    <div class="rf-container">
+     <div class="rf-grid-row rf-grid-row--start rf-grid-row--gutters">
+      <div class="rf-col-xs-12 rf-col-sm-4 rf-col-md-3 rf-col-lg-3">
+       <div class="rf-footer__top-cat first">
+        <h3>
+         <a class="mlid-332 rf-footer__top-link footer-top-menu-item-title footer-top-menu-item332" href="/toute-l-actualite">
+          L’actualité
+         </a>
+        </h3>
+       </div>
+       <ul class="rf-footer__top-list">
+        <li>
+         <a class="mlid-340 rf-footer__top-link" href="/toute-l-actualite" title="">
+          Toute l'actualité
+         </a>
+        </li>
+        <li>
+         <a class="mlid-339 rf-footer__top-link" href="/suivre-l-actualite-du-premier-ministre">
+          L'actualité du Premier ministre
+         </a>
+        </li>
+        <li>
+         <a class="mlid-341 rf-footer__top-link" href="/espace-presse">
+          Espace presse
+         </a>
+        </li>
+        <li>
+         <a class="mlid-773 rf-footer__top-link" href="https://www.gouvernement.fr/agenda/ministre/jean-castex" title="">
+          Agenda
+         </a>
+        </li>
+        <li>
+         <a class="mlid-343 rf-footer__top-link" href="/discours-et-rapports">
+          Discours et rapports
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="rf-col-xs-12 rf-col-sm-4 rf-col-md-3 rf-col-lg-3">
+       <div class="rf-footer__top-cat">
+        <h3>
+         <a class="mlid-331 rf-footer__top-link footer-top-menu-item-title footer-top-menu-item331" href="/rename_les-actions-du-gouvernement">
+          Les actions du Gouvernement
+         </a>
+        </h3>
+       </div>
+       <ul class="rf-footer__top-list">
+        <li>
+         <a class="menu-node-unpublished menu-node-unpublished mlid-336 rf-footer__top-link" href="/les-actions-du-gouvernement">
+          Les actions
+         </a>
+        </li>
+        <li>
+         <a class="mlid-8589 rf-footer__top-link" href="https://www.gouvernement.fr/portraits-de-la-relance" title="">
+          Les portraits de la relance
+         </a>
+        </li>
+        <li>
+         <a class="mlid-338 rf-footer__top-link" href="/ministre/gabriel-attal" title="">
+          Le Porte-parole
+         </a>
+        </li>
+        <li>
+         <a class="mlid-514 rf-footer__top-link" href="/comptes-rendus-du-conseil-des-ministres">
+          Conseil des ministres
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="rf-col-xs-12 rf-col-sm-4 rf-col-md-3 rf-col-lg-3">
+       <div class="rf-footer__top-cat last">
+        <h3>
+         <a class="mlid-333 rf-footer__top-link footer-top-menu-item-title footer-top-menu-item333" href="/composition-du-gouvernement">
+          Le Gouvernement et les institutions
+         </a>
+        </h3>
+       </div>
+       <ul class="rf-footer__top-list">
+        <li>
+         <a class="mlid-8581 rf-footer__top-link" href="/ministre/jean-castex" title="">
+          Le Premier ministre
+         </a>
+        </li>
+        <li>
+         <a class="mlid-345 rf-footer__top-link" href="/composition-du-gouvernement">
+          Composition du Gouvernement
+         </a>
+        </li>
+        <li>
+         <a class="mlid-346 rf-footer__top-link" href="/les-services-du-premier-ministre">
+          Services du Premier ministre
+         </a>
+        </li>
+        <li>
+         <a class="mlid-8597 rf-footer__top-link" href="https://www.gouvernement.fr/matignon-visite-virtuelle" title="">
+          Visite virtuelle de Matignon
+         </a>
+        </li>
+        <li>
+         <a class="mlid-347 rf-footer__top-link" href="/le-savez-vous">
+          Le savez-vous ?
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="rf-col-xs-12 rf-col-sm-4 rf-col-md-3 rf-col-lg-3 social_gov">
+       <div class="rf-footer__top-cat">
+        <h3 class="rf-text--xs rf-b_footer-rs">
+         Les réseaux sociaux du Gouvernement
+        </h3>
+       </div>
+       <ul class="rf-footer__top-list social_gov--list rf-grid-row">
+        <li class="0 odd first">
+         <a class="footer-menu-item-8571 rf-footer__top-link rf-margin-right-2N ri-xl rf-mr-3v ri-facebook-circle-fill" href="https://www.facebook.com/gouvernement.fr" target="_blank" title="Rejoignez-nous sur Facebook - nouvelle fenêtre">
+          <span class="sr-only">
+           Facebook
+          </span>
+         </a>
+        </li>
+        <li class="1 even">
+         <a class="footer-menu-item-8572 rf-footer__top-link rf-margin-right-2N ri-xl rf-mr-3v ri-twitter-fill" href="https://twitter.com/gouvernementfr" target="_blank" title="Retrouvez-nous sur Twitter - nouvelle fenêtre">
+          <span class="sr-only">
+           Twitter
+          </span>
+         </a>
+        </li>
+        <li class="2 odd avant-dernier">
+         <a class="footer-menu-item-8573 rf-footer__top-link rf-margin-right-2N ri-xl rf-mr-3v ri-linkedin-box-fill" href="https://www.linkedin.com/company/gouvernementfr" target="_blank" title="Rejoignez-nous sur Linkedin - nouvelle fenêtre">
+          <span class="sr-only">
+           Linkedin
+          </span>
+         </a>
+        </li>
+        <li class="3 even last">
+         <a class="footer-menu-item-8574 rf-footer__top-link rf-margin-right-2N ri-xl rf-mr-3v ri-instagram-fill" href="https://www.instagram.com/gouvernementfr/" target="_blank" title="Retrouvez nous sur Instagram - nouvelle fenêtre">
+          <span class="sr-only">
+           Instagram
+          </span>
+         </a>
+        </li>
+       </ul>
+       <p class="rf-mt-8v rf-text--xs">
+        Sauf mention contraire, tous les contenus de ce site sont sous licence
+        <a class="rf-link-licence" href="https://www.etalab.gouv.fr/licence-ouverte-open-licence" target="_blank" title="Licence etalab-2.0 sur le site etalab - nouvelle fenêtre">
+         etalab-2.0
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- /.rf-footer__top -->
+   <div class="rf-container">
+    <div class="rf-footer__body">
+     <div class="rf-footer__brand">
+      <a class="rf-logo" href="/" title="Gouvernement - Retour à l'accueil">
+       <span class="rf-logo__title">
+        Gouvernement
+       </span>
+      </a>
+     </div>
+     <div class="rf-footer__content">
+      <ul class="rf-footer__content-list">
+       <li class="0 odd first">
+        <a class="rf-footer__content-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22footer%22,%20%22chapter2%22%20:%20%22sites_publics%22,%20%22name%22%20:%20%22elysee.fr%22,%20%22type%22%20:%20%22exit%22%7D" href="http://www.elysee.fr/" target="_blank" title="Accèder au site elysee.fr nouvelle fenêtre">
+         elysee.fr
+        </a>
+       </li>
+       <li class="1 even">
+        <a class="rf-footer__content-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22footer%22,%20%22chapter2%22%20:%20%22sites_publics%22,%20%22name%22%20:%20%22service_public.fr%22,%20%22type%22%20:%20%22exit%22%7D" href="http://www.service-public.fr" target="_blank" title="Accèder au site service-public.fr nouvelle fenêtre">
+         service-public.fr
+        </a>
+       </li>
+       <li class="2 odd">
+        <a class="rf-footer__content-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22footer%22,%20%22chapter2%22%20:%20%22sites_publics%22,%20%22name%22%20:%20%22legifrance.gouv.fr%22,%20%22type%22%20:%20%22exit%22%7D" href="http://legifrance.gouv.fr" target="_blank" title="Accèder au site legifrance.gouv.fr nouvelle fenêtre">
+         legifrance.gouv.fr
+        </a>
+       </li>
+       <li class="3 even avant-dernier">
+        <a class="rf-footer__content-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22footer%22,%20%22chapter2%22%20:%20%22sites_publics%22,%20%22name%22%20:%20%22data.gouv.fr%22,%20%22type%22%20:%20%22exit%22%7D" href="http://data.gouv.fr" target="_blank" title="Accèder au site data.gouv.fr nouvelle fenêtre">
+         data.gouv.fr
+        </a>
+       </li>
+       <li class="4 odd last">
+        <a class="rf-footer__content-link" data-smarttag-click="%7B%20%22level2%22%20:%208,%20%22chapter1%22%20:%20%22footer%22,%20%22chapter2%22%20:%20%22sites_publics%22,%20%22name%22%20:%20%22france.fr%22,%20%22type%22%20:%20%22exit%22%7D" href="http://france.fr" target="_blank" title="Accèder au site france.fr nouvelle fenêtre">
+         france.fr
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="rf-footer__bottom">
+     <ul class="rf-footer__bottom-list">
+      <li class="rf-footer__bottom-item 0 odd first">
+       <a class="rf-footer__bottom-link footer-menu-item-7573" href="/donnees-personnelles-et-cookies">
+        Données personnelles et cookies
+       </a>
+      </li>
+      <li class="rf-footer__bottom-item 1 even">
+       <a class="rf-footer__bottom-link statgvt footer-menu-item-371" href="/contact/ecrire-au-premier-ministre">
+        Écrire au Premier ministre
+       </a>
+      </li>
+      <li class="rf-footer__bottom-item 2 odd">
+       <a class="rf-footer__bottom-link footer-menu-item-7219" href="/contact/presse">
+        Contact presse
+       </a>
+      </li>
+      <li class="rf-footer__bottom-item 3 even active">
+       <a class="rf-footer__bottom-link footer-menu-item-8564 active" href="/mentions-legales">
+        Mentions légales
+       </a>
+      </li>
+      <li class="rf-footer__bottom-item 4 odd avant-dernier">
+       <a class="rf-footer__bottom-link footer-menu-item-8565" href="/accessibilite">
+        Accessibilité : partiellement conforme
+       </a>
+      </li>
+      <li class="rf-footer__bottom-item 5 even last">
+       <a class="rf-footer__bottom-link footer-menu-item-8566" href="/marque-Etat">
+        Marque de l'État
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </footer>
+  <script src="https://www.gouvernement.fr/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/misc/jquery-extend-3.4.0.js?v=1.7.2" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.7.2" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/misc/jquery.once.js?v=1.2" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/misc/drupal.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/modules/contrib/hashcash/js/hashcash.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/modules/custom/pmv6_risques/js/unslider-min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/default/files/languages/fr_K_wsLwgRQ_j7vI_s4z9k3ABSG65EgmXppXEphV-sYV8.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/libraries/colorbox/jquery.colorbox-min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/modules/contrib/colorbox/js/colorbox.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/modules/contrib/colorbox/js/colorbox_load.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/modules/contrib/colorbox/js/colorbox_inline.js?r7pasp" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   <!--//--><![CDATA[//><!--
+var tarteaucitronForceLanguage = "fr"
+//--><!]]>
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/modules/custom/pmv6_tarteaucitron/js/tarteaucitron/tarteaucitron.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/modules/custom/pmv6_tarteaucitron/js/tarteaucitron/tarteaucitron-init.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/slick/slick.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/jquery.cookie.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/sticky-sidebar.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/placeholders.jquery.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/imagesloaded.pkgd.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/list.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/tooltipster/jquery.tooltipster.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/vendor/libgif.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/js/jquery.rwdImageMaps.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/js/partage.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/js/refcom.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/js/all.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/js/custom/rf-b_accordion.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/themes/custom/gouvernement/js/script.js?r7pasp" type="text/javascript">
+  </script>
+  <script src="https://www.gouvernement.fr/sites/all/modules/custom/pmv6_admin/lightSlider/js/jquery.lightSlider.min.js?r7pasp" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   <!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"gouvernement","theme_token":"BfUuC0TJJc6cjfmE6GYP5Bk4rna0A8VGhoqTeyDOeFE","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/hashcash\/js\/hashcash.js":1,"sites\/all\/modules\/custom\/pmv6_risques\/js\/unslider-min.js":1,"public:\/\/languages\/fr_K_wsLwgRQ_j7vI_s4z9k3ABSG65EgmXppXEphV-sYV8.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"0":1,"sites\/all\/modules\/custom\/pmv6_tarteaucitron\/js\/tarteaucitron\/tarteaucitron.js":1,"sites\/all\/modules\/custom\/pmv6_tarteaucitron\/js\/tarteaucitron\/tarteaucitron-init.js":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/slick\/slick.min.js":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/jquery.cookie.js":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/sticky-sidebar.min.js":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/placeholders.jquery.min.js":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/imagesloaded.pkgd.min.js":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/list.min.js":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/tooltipster\/jquery.tooltipster.min.js":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/libgif.js":1,"sites\/all\/themes\/custom\/gouvernement\/js\/jquery.rwdImageMaps.min.js":1,"sites\/all\/themes\/custom\/gouvernement\/js\/partage.js":1,"sites\/all\/themes\/custom\/gouvernement\/js\/refcom.js":1,"sites\/all\/themes\/custom\/gouvernement\/js\/all.min.js":1,"sites\/all\/themes\/custom\/gouvernement\/js\/custom\/rf-b_accordion.js":1,"sites\/all\/themes\/custom\/gouvernement\/js\/script.js":1,"sites\/all\/modules\/custom\/pmv6_admin\/lightSlider\/js\/jquery.lightSlider.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/pmv6_risques\/css\/unslider-dots.css":1,"sites\/all\/modules\/custom\/pmv6_risques\/css\/unslider.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/nodeorder\/css\/nodeorder.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.base.css":1,"sites\/all\/modules\/contrib\/oembed\/oembed.theme.css":1,"sites\/all\/modules\/custom\/pmv6_admin\/lightSlider\/css\/lightSlider.css":1,"sites\/all\/modules\/custom\/pmv6_tarteaucitron\/js\/tarteaucitron\/css\/tac-custom.min.css":1,"sites\/all\/themes\/custom\/gouvernement\/fonts\/opensans\/opensans.css":1,"sites\/all\/themes\/custom\/gouvernement\/fonts\/fonts\/marianne\/marianne.css":1,"sites\/all\/themes\/custom\/gouvernement\/fonts\/remixicon\/remixicon.css":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/slick\/slick.min.css":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/slick\/accessible-slick-theme.min.css":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/colorbox.css":1,"sites\/all\/themes\/custom\/gouvernement\/vendor\/tooltipster\/tooltipster.css":1,"sites\/all\/themes\/custom\/gouvernement\/css\/style.css":1,"sites\/all\/themes\/custom\/gouvernement\/css\/projet-investissement-avenir.css":1,"sites\/all\/themes\/custom\/gouvernement\/css\/all.css":1,"sites\/all\/themes\/custom\/gouvernement\/css\/custom\/rf-b_footer.css":1,"sites\/all\/themes\/custom\/gouvernement\/css\/custom\/rf-b_header.css":1,"sites\/all\/themes\/custom\/gouvernement\/css\/custom\/rf-b_transverse.css":1,"sites\/all\/themes\/custom\/gouvernement\/css\/print.css":1,"sites\/all\/themes\/custom\/gouvernement\/css\/style-ie.css":1}},"colorbox":{"transition":"none","speed":"200","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} sur {total}","previous":"\u00ab Pr\u00e9c\u00e9dent","next":"Suivant \u00bb","close":"Fermer","overlayClose":true,"returnFocus":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"300","initialHeight":"250","fixed":false,"scrolling":false,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"hashcash":{"url":"https:\/\/www.gouvernement.fr\/hashcash"},"pmv6tarteaucitron":{"services":{"youtube":1,"dailymotion":1,"timelinejs":1,"facebook":1,"twitter":1,"twitterembed":1,"instagram":1,"tagcommanderpmv6":0,"doubleclick":1,"infogram":1,"storify":1,"mapbox":1,"googlemaps":1,"spark":1,"slideshare":1,"wemap":1,"twittertimeline":1,"calameo":0,"smarttag":0,"linkedininsight":1,"snapchatpixel":1,"twitterpixel":1,"facebookpixel":1,"atinternetcnil":1,"atinternethybride":1,"vimeo":1},"language":"fr"},"urlIsAjaxTrusted":{"\/search\/site":true},"pmv6_keys":{"facebookAppId":"122600815096144"}});
+//--><!]]>
+  </script>
+  <div id="fb-root">
+  </div>
+  <script type="text/javascript">
+   //<![CDATA[
+
+      function setDataSmartClick(selection=null){
+
+        selection = (selection!=null)?selection:'#main a';
+        var links = document.querySelectorAll(selection)
+        for(var i = 0, len = links.length; i < len; i++){
+          if(!links[i].hasAttribute('data-smarttag-click')){
+            var link = links[i].getAttribute('href');
+            if(link){
+            var filename = link.replace(/:/g, "");
+            filename = filename.replace('#', '');
+            var action = filename.indexOf('http') > -1 && !(filename.indexOf(window.location.hostname) >-1) ? 'exit' :  endsWith(link,'.pdf') ? 'download' : 'navigation';
+            if(links[i].classList.contains('call') || links[i].classList.contains('cta')){ filename = 'CTA_' + filename; }
+            var chapter1 = ',"chapter1":"'+pmv6.atPageVars.name+'"' ;
+            var chapter2 = '';
+            if(links[i].classList.contains('rf-pagination__link')){ chapter2 = ',"chapter2":"pagination"'; }
+
+            var datasmarttagclick = '{"name": "' + filename+'", "type": "' + action +'"' + chapter1 + chapter2 +'}';
+            links[i].setAttribute('data-smarttag-click', datasmarttagclick );
+            }
+          }
+        }
+      }
+
+
+     function endsWith(text,target){
+        return text.indexOf(target) == text.length - target.length;
+     }
+        var pmv6 =  {};
+        pmv6.atPageVars = window.atPage || {
+          name: 'mentions_legales',  //nom de la page au format AT
+          level2: '8',
+          chapter1: '',  //Main Category
+          chapter2: '',  //Main Category
+            //Main Category
+        }
+;
+        pmv6.atCustomVars = {
+          site : {
+            1 : 'fr',  //Website language
+            2 : '',
+            3 : '20140622',  // date publication
+            4 : '20210830',  // date last update
+            14 : '',  // date last update
+            15 : document.location.href,
+          },
+          page : {
+            1 : '',  //secteur d'activité - depreciated
+            2 : '',  //Thematiques - depreciated
+            3 : '',  // Thematiques
+            4 : '',  // RS
+          }
+        }
+;
+        pmv6.atEventPageVars = false;
+        pmv6.setATClicks = function(){ // TO DO
+            // Ajax Page Load on filters
+            pmv6_tags_attach_event('data-smarttag-ajax',function(element, data){
+              chapter = !pmv6.loadPageVars.chapter1 ? 'chapter1' : !pmv6.loadPageVars.chapter2 ?  'chapter2' : !pmv6.loadPageVars.chapter3 ? 'chapter3' : '';
+              if(data.name){
+                data['name'] = data.name;
+              }
+              if(data.chaptername){
+                if(!data[chapter])
+                  data[chapter] = data.chaptername;
+                  delete data.chaptername;
+              }
+              else{
+                  data[chapter] = pmv6.loadPageVars.name;
+              }
+              pmv6.atPageVars = jQuery.extend(true,{}, pmv6.loadPageVars, data);
+            });
+            pmv6_tags_attach_event('data-smarttag-click', function(element,  data, e){
+              method = data['method'] ? data['method'] : 'click';
+              chapter = !pmv6.atPageVars.chapter1 ? 'chapter1' : !pmv6.atPageVars.chapter2 ?  'chapter2' : !pmv6.atPageVars.chapter3 ? 'chapter3' : '';
+              if(!data[chapter] && chapter !='chapter3'){
+                  data[chapter] = pmv6.atPageVars.name;
+              }
+               data = jQuery.extend(true,{}, pmv6.atPageVars, data);
+               var tag = window.tag || new ATInternet.Tracker.Tag(smarttag_config);
+               tag[method].send(data);
+               pmv6.blockTag = true;
+            });
+            //Form
+           var nlForm = document.querySelector('#infoAtGouvForm ');
+           if(nlForm){
+              var nlFormSubmit = nlForm.querySelector('#aButton');
+              if(nlFormSubmit){
+                nlFormSubmit.addEventListener('click', function (e) {
+                var formValidated = sendForm() ? sendForm() : false;
+                if(formValidated){
+                  pmv6.atCustomVars.page['3'] = pmv6_form_get_checked_options('formItem-mbmultiple-121','id');
+                  pmv6.atCustomVars.page['4'] = pmv6_form_get_checked_options('formItem-mbmultiple-120','id');
+                  pmv6.atPageVars['chapter1'] = 'newsletter_form_submit';
+                  var pageFormSubmit = jQuery.extend(true, {}, pmv6.atPageVars, { customVars : pmv6.atCustomVars });
+                  var tag = window.tag || new ATInternet.Tracker.Tag(smarttag_config);
+                  tag.page.send(pageFormSubmit);
+                }
+              });
+              }
+            }
+           function pmv6_form_get_checked_options(selector, type) {
+              var options = [];
+              var elselector = '['+ type + '*="'+ selector + '"]:checked';
+              var elems = document.querySelectorAll(elselector);
+              for(var i = 0; i < elems.length; i++){
+                var val = elems[i].getAttribute('data-smarttag-value') || elems[i].getAttribute('id');
+                options.push(val);
+              }
+              return options.length > 0 ? options.join(',') : '';
+            }
+          function pmv6_tags_attach_event(selectorId, callback){
+            if(!pmv6.atPageVars){
+                return;
+            }
+            var elems = document.querySelectorAll('['+ selectorId +']');
+            if(elems && elems.length > 0){
+              for(var i=0; i<elems.length; i++){
+                 (function(){
+                    var link = elems[i];
+                    if(!link.classList.contains('atClass')){
+                      link.classList.add('atClass');
+
+                      link.addEventListener('click', function (e) {
+                          at = decodeURI(this.getAttribute(selectorId));
+                          one = true;
+                          if(this.classList.contains('link-filter-ajax')){
+                            if(!this.classList.contains('active')){
+                              one=false;
+                            }
+                          }
+                          if(at && at != '' && one ){
+                            var pageVars = JSON.parse(at);
+                            if(callback){
+                              callback(this, pageVars, e);
+                            }
+                          }
+                      });
+                    }
+                 })();
+              }
+            }
+           }
+        };
+        setDataSmartClick('#main a');
+        //]]>
+  </script>
+  <!-- start - block-block-41 -->
+  <style>
+   .bouttonds.hidden, .boutonds.hidden{
+display:none;
+}
+@media only screen and (min-width:768px){.bouttonds.button-a2hs,.boutonds.button-a2hs{display:none;}}
+
+    .boutonds,
+    .bouttonds {
+overflow-wrap: break-word;
+        margin-bottom: 1em;
+        text-align: center;
+        padding: .75em;
+        color: #000091;
+        border: 1px solid #000091;
+        text-decoration: none !important;
+/*font-size: 14px;*/
+background-color: white;
+display: inline-block;
+    }
+
+    .boutonds:hover,
+    .boutonds:active,
+    .bouttonds:active,
+    .bouttonds:hover {
+
+        color: #ffffff;
+        background-color: #000091;
+    }
+  </style>
+  <!-- end - block-block-41 -->
+  <!-- start - block-block-42 -->
+  <style type="text/css">
+   @media (max-width:700px){
+.facebooklive iframe {
+    height: 322px;
+}
+}
+@media (max-width:500px){
+.facebooklive iframe {
+    height: 322px;
+}
+}
+@media (max-width:300px){
+.facebooklive iframe {
+    height: 200px;
+}
+}
+  </style>
+  <!-- end - block-block-42 -->
+  <!-- start - block-block-48 -->
+  <script>
+   function isIE() {
+    const ua = window.navigator.userAgent; //Check the userAgent property of the window.navigator object
+    const msie = ua.indexOf('MSIE '); // IE 10 or older
+    const trident = ua.indexOf('Trident/'); //IE 11
+
+    return (msie > 0 || trident > 0);
+}
+
+if(isIE()){
+  var newDiv = document.createElement("div");
+  newDiv.className = 'limiter'
+ newDiv.innerHTML = '<p style="padding:20px">Nous sommes désolés ...<br>Ce site n’est pas accessible sur Internet Explorer.<br>Pour continuer, vous pouvez utiliser ou télécharger l’un de ces navigateurs : </p><ul style="padding:20px"><li><a href="https://www.mozilla.org/fr/firefox/new/">firefox</a></li><li><a href="https://www.microsoft.com/fr-fr/edge">edge</a></li><li><a href="https://www.google.com/intl/fr_fr/chrome/">chrome</a></li><li>safari</li></ul>';
+
+  var referenceNode = document.querySelector('header');
+  referenceNode.parentNode.insertBefore(newDiv, referenceNode.nextSibling);
+
+  var elem = document.querySelector('#main');
+  if(elem!='undefined'){
+    elem.parentNode.removeChild(elem);
+  }
+  var elem = document.querySelector('.rf-header__tools');
+  if(elem!='undefined'){
+    elem.parentNode.removeChild(elem);
+  }
+  var elem = document.querySelector('#footer');
+  if(elem!='undefined'){
+    elem.parentNode.removeChild(elem);
+  }
+  var elem = document.querySelector('nav.rf-nav');
+  if(elem!='undefined'){
+    elem.parentNode.removeChild(elem);
+  }
+
+  var elem = document.querySelector('#zone-de-rebond');
+  if(elem!='undefined'){
+    elem.parentNode.removeChild(elem);
+  }
+  var elem = document.querySelector('#banniere');
+  if(elem!='undefined'){
+    elem.parentNode.removeChild(elem);
+  }
+
+
+
+}
+  </script>
+  <!-- end - block-block-48 -->
+  <!-- start - block-block-76 -->
+  <style>
+   @media (max-width: 62em) {
+  .node-type-contenu figure.pm-reset-figure img {
+    width: 100%;
+    height: auto;
+  }
+}
+  </style>
+  <!-- end - block-block-76 -->
+  <!-- start - block-block-79 -->
+  <style>
+   @media screen and (min-width: 75rem){
+  body.page-term-ministre #content{
+    position:relative;
+    overflow-x:hidden
+  }
+html{
+ overflow-x:hidden;
+}
+}
+  </style>
+  <!-- end - block-block-79 -->
+  <!-- start - block-block-1 -->
+  <script>
+   //window.onload = init;
+function init(){
+var ban = new SurveyBanner({
+ cookieName: 'pmv6-ban-v3',
+ banMaxViews : 7,
+ banEndDate : '2018/03/20 18:00',
+});
+}
+(function(doc){
+var elem = doc.querySelectorAll(".player\\/-wrapper");
+for(var i=0; i < elem.length;i++){
+  elem[i].className += ' player-wrapper';
+}
+var cab = doc.querySelectorAll(".collaborateur-collaborateur");
+if(cab.length > 0){
+for(var j=0; j < cab.length;j++){
+   if(j%3===0){
+  cab[j].style.clear+= 'left';
+}
+}
+}
+})(document)
+  </script>
+  <!-- end - block-block-1 -->
+  <!-- start - block-block-38 -->
+  <script>
+   function getCookie (name) {
+	let value = `; ${document.cookie}`;
+	let parts = value.split(`; ${name}=`);
+	if (parts.length === 2) return parts.pop().split(';').shift();
+}
+var cilhaspopin = getCookie('cilpopin');
+console.log(cilhaspopin)
+setTimeout(function() {
+          annonce = '<div id="splashscreen" style="background-color:#FFF;"><p><a href="https://www.gouvernement.fr/prix-de-la-laicite-de-la-republique-francaise-2021-0"><img src="/sites/default/files/contenu/illustration/2021/12/prix.laicite.2021.png" width="960" height="489"></a></p></div>';
+          
+          if ((jQuery(window).width() > 900) && typeof cilhaspopin === 'undefined'  && 
+(jQuery('.subsec-spm .titre-zone h1.titre-texte').text() == "Comité interministériel de la laïcité" || jQuery('.subsec-spm .titre-zone h2.titre-texte a').text() == "Comité interministériel de la laïcité")
+&& !jQuery('body').hasClass('page-node-11694') 
+) {
+            jQuery.colorbox( {html: annonce, width: '960px', height: '500px'});
+            jQuery('#cboxTitle').hide();
+ jQuery('#cboxOverlay').css('opacity','0.25');
+jQuery('#colorbox, #cboxOverlay, #cboxWrapper').css('z-index','20000');
+
+jQuery('#cboxClose').click(function(){
+document.cookie = 'cilpopin=true;';
+});
+          
+          }
+        }, 1000);
+  </script>
+  <!-- end - block-block-38 -->
+  <script async="" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&amp;ns=1&amp;cb=382371030" type="text/javascript">
+  </script>
+ </body>
+</html>
