@@ -68,43 +68,44 @@ def crawler_bot(seeds, max_pages):
 
                 soup = make_request(session, url)
                 
-                lang = detect_language(soup)
-                if index == 0:
-                    # adding language to lang_list when crawling a new domain
-                    lang_list.append(lang)
-                else:
-                    # if the language of the outlink is different from the current language in the list
-                    # skip crawling the page
-                    # assume langdetect method is 100% accurate, but it may detect the wrong language and skip the page
-                    if lang != lang_list[lang_index]:
-                        continue
-
-                visited_pages += 1
-                
-                # download current page and save to appropriate folder
-                write_to_repository(folder, "page{}.txt".format(visited_pages), soup.prettify())
-
-                write_to_word_count(word_count_filename, soup.get_text())
-
-                # get all the domain links from current page and add seed url to hrefs
-                # we also remove duplicates using a set then converting back to list
-                outlinks = list(set([link.get('href') for link in soup.findAll('a') if link.get('href') is not None and "javascript" not in link.get('href')]))
-
-                # Some links are full urls, others are hrefs so append the seed prefix to those
-                # To know if some urls are complete or not, we check if they contain https, www or .com
-                outlinks = [seed+link for link in outlinks if not any(s in link for s in ["https", "www", ".com", ".ac.kr", ".fr"])]
-
-                # remove all links that would lead us outside the current domain
-                outlinks = [link for link in outlinks if seed.removeprefix('https://www.') in link]
-
-                # write url and outlinks count to relevant reports.csv
-                write_links_count(url, len(outlinks), report_filename)
-
-                # add new links at the end of urls list, as we will eventually scrape them as well
-                # only if our list does not have more urls than max_pages
-                if len(urls) < max_pages:
-                    urls.extend(outlinks)
-                    urls = list(set(urls))
+                if soup is not None:
+                    lang = detect_language(soup)
+                    if index == 0:
+                        # adding language to lang_list when crawling a new domain
+                        lang_list.append(lang)
+                    else:
+                        # if the language of the outlink is different from the current language in the list
+                        # skip crawling the page
+                        # assume langdetect method is 100% accurate, but it may detect the wrong language and skip the page
+                        if lang != lang_list[lang_index]:
+                            continue
+    
+                    visited_pages += 1
+                    
+                    # download current page and save to appropriate folder
+                    write_to_repository(folder, "page{}.txt".format(visited_pages), soup.prettify())
+    
+                    write_to_word_count(word_count_filename, soup.get_text())
+    
+                    # get all the domain links from current page and add seed url to hrefs
+                    # we also remove duplicates using a set then converting back to list
+                    outlinks = list(set([link.get('href') for link in soup.findAll('a') if link.get('href') is not None and "javascript" not in link.get('href')]))
+    
+                    # Some links are full urls, others are hrefs so append the seed prefix to those
+                    # To know if some urls are complete or not, we check if they contain https, www or .com
+                    outlinks = [seed+link for link in outlinks if not any(s in link for s in ["https", "www", ".com", ".ac.kr", ".fr"])]
+    
+                    # remove all links that would lead us outside the current domain
+                    outlinks = [link for link in outlinks if seed.removeprefix('https://www.') in link]
+    
+                    # write url and outlinks count to relevant reports.csv
+                    write_links_count(url, len(outlinks), report_filename)
+    
+                    # add new links at the end of urls list, as we will eventually scrape them as well
+                    # only if our list does not have more urls than max_pages
+                    if len(urls) < max_pages:
+                        urls.extend(outlinks)
+                        urls = list(set(urls))
 
             index += 1
 
@@ -119,17 +120,22 @@ def crawler_bot(seeds, max_pages):
 
 def make_request(sesh, url):
     # headers are required for certain websites
-    source_code = sesh.get(url, headers={'User-Agent': 'test_spider'})
-    html_text = source_code.text
-    source_code.close()
-    soup = BeautifulSoup(html_text, features="html.parser")
-    return soup
+    try:
+        source_code = sesh.get(url, headers={'User-Agent': 'test_spider'})
+        html_text = source_code.text
+        source_code.close()
+        soup = BeautifulSoup(html_text, features="html.parser")
+        return soup
+    except:
+        print("Error on this request")
+        return None
+    
 
 
 def build_session():
     session = requests.Session()
     # This helps ease off the servers we are crawling by waiting between subsequent requests
-    retry = Retry(connect=3, backoff_factor=1.7)
+    retry = Retry(connect=3, backoff_factor=1.8)
     adapter = HTTPAdapter(max_retries=retry)
     # This will only request urls with https
     session.mount('https://', adapter)
