@@ -27,7 +27,7 @@ def crawler_bot(seeds, max_pages):
     # for checking if each page we crawl is in the same language as the seed
     # In our case, lang_list = ["en", "fr", "ko"]
     lang_list = []
-    # An index variable to indicate the language of current seed
+    # An index.pkl variable to indicate the language of current seed
     lang_index = 0
 
     for seed in seeds:
@@ -77,6 +77,7 @@ def crawler_bot(seeds, max_pages):
                     # skip crawling the page
                     # assume langdetect method is 100% accurate, but it may detect the wrong language and skip the page
                     if lang != lang_list[lang_index]:
+                        print(url)
                         continue
 
                 visited_pages += 1
@@ -90,8 +91,10 @@ def crawler_bot(seeds, max_pages):
                 # we also remove duplicates using a set then converting back to list
                 outlinks = list(set([link.get('href') for link in soup.findAll('a') if link.get('href') is not None and "javascript" not in link.get('href')]))
 
+                outlinks = [link for link in outlinks if not any(s in link for s in ["backslash", "tagged", "javascript", "jobs", ".org"])]
+
                 # Some links are full urls, others are hrefs so append the seed prefix to those
-                # To know if some urls are complete or not, we check if they contain https, www or .com
+                # To know if some urls are complete or not, we check if they contain https, www or domain extensions
                 outlinks = [seed+link for link in outlinks if not any(s in link for s in ["https", "www", ".com", ".ac.kr", ".fr"])]
 
                 # remove all links that would lead us outside the current domain
