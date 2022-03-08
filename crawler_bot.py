@@ -97,8 +97,9 @@ def crawler_bot(seeds, max_pages):
                 # To know if some urls are complete or not, we check if they contain https, www or domain extensions
                 outlinks = [seed+link for link in outlinks if not any(s in link for s in ["https", "www", ".com", ".ac.kr", ".fr"])]
 
-                # remove all links that would lead us outside the current domain
-                outlinks = [link for link in outlinks if seed.removeprefix('https://www.') in link]
+                # remove all links that would lead us outside the current domain.
+                # This also removes the seed url if it is put back in the list. We don't need to parse it again
+                outlinks = [link for link in outlinks if seed.removeprefix('https://www.') in link and link != seed]
 
                 # write url and outlinks count to relevant reports.csv
                 write_links_count(url, len(outlinks), report_filename)
