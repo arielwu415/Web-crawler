@@ -1,0 +1,3129 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"/>
+  <title>
+   연세대학교 홈페이지에 오신것을 환영합니다.
+  </title>
+  <script type="text/javascript">
+   var _TRK_CP=  "^연세대학교홈페이지에오신것을환영합니다.";
+   	
+_TRK_MVT1="OUTIP";
+  </script>
+  <script defer="defer">
+   //<!--<![CDATA[
+/* COPYRIGHT 2002-2020 BIZSPRING INC. *//*X*//* DO NOT MODIFY THIS SCRIPT. *//*X*//* INSIGHT TRACKING FUNCTION SCRIPT V.5 : 8301 *//*X*/var ApsndCr = String.fromCharCode(38);var _TRK_DOMAIN="";var uuid="",sid="",guuid="",exp="";var _las=new Object({p:"8301",c:"cookie",u:undefined,w:window,d:document,n:navigator,un:"unknown",dm:"log.yonsei.ac.kr",sslDm:"log.yonsei.ac.kr",m:Math,trU:"/InsightTrk/tracker.do",ciU:"/InsightTrk/click.do",czU:"/InsightTrk/clickzone.do",cIo:function(a){return (a!=_las.u && a>0)?new Object(a):new Object()},cIi:function(){return new Image()},iX:function(s,t){return s.indexOf(t)},cI:function(){ var n=_las.n; var sa=[n.platform,n.cpuClass?n.cpuClass:n.oscpu,n.appName,n.version?n.version:n.appVersion,n.language?n.language:n.browserLanguage,n.userAgent,n.cookieEnabled?'Y':'N',n.javaEnabled()?'Y':'N']; return sa;},bmsie:(document.all)?true:false,bjs12:(window.screen)?true:false,ec:function(_s_){ var str, ch; var bEncURI="N"; eval("try{bEncURI=encodeURI('Y');}catch(_e){ }"); if(bEncURI=="Y") str=encodeURI(_s_); else str=escape(_s_); str=str.split("+").join("%2B"); str=str.split("/").join("%2F"); str=str.split(ApsndCr).join("%26"); str=str.split("?").join("%3F"); str=str.split(":").join("%3A"); str=str.split("#").join("%23"); return str;},sc:function(n,v,e,d){ var a=_las.d, td=new Date(); td.setTime(td.getTime()+e); if( e > 0 ){  a.cookie=n+"="+v+"; path=/; expires="+td.toGMTString()+"; domain="+d+";"; }else{  a.cookie=n+"="+v+"; path=/; domain="+d+";"; }},rc:function(n){ var a=_las.d, td=new Date(); td.setTime(td.getTime()-1); a.cookie=n+"=; path=/; expires="+td.toGMTString()+"; domain="+_las.gRDm()+";";},gc:function(n){ var cn=n+"=",x=0,a=_las.d; while(x <= a.cookie.length){ var y=(x+cn.length); if(a.cookie.substring(x,y)==cn){  if((eoc=a.cookie.indexOf(";",y))==-1) eoc=a.cookie.length;  return unescape(a.cookie.substring(y,eoc)); } x=a.cookie.indexOf(" ",x)+1; if(x==0) break; } return "";},gp:function(n){ var a=_las.d, pN=n+"="; var U=""+a.location.search; var tU=""; eval("try{tU=top.document.location.search;}catch(_e){}"); U=U+ApsndCr+tU; if(U.indexOf(pN)!=-1){ var x=U.indexOf(pN)+pN.length; var y=U.substr(x).indexOf(ApsndCr); if(y!=-1) return U.substring(x,x+y); else return U.substr(x); } return "";},gsc:function(c1,s1,s2,c2){ var a=_las.gc(c1).split(s1); var r=""; for(var i=0;i < a.length;i++){ if(a[i].indexOf(c2)==0){  var c=a[i].split(s2);  r=c[1];  break; } } return r;},gsp:function(c1,s1,s2,c2){ var a=_las.gp(c1).split(s1); var r=""; for(var i=0;i < a.length; i++){ if(a[i].indexOf(c2)==0){  var c=a[i].split(s2);  r=c[1];  break; } } return r;},guuidMk:function(){  var _guuidN=""; _guuidN=_muk.gen({ v: 3 }); _guuidN=_guuidN.substr(0,48); return _guuidN;},mK:function(){ var _tm=new Date; var _tp=_tm.getTime(); var _tpp=Math.floor(_tp/1000,0)*1000; var _TRK_S_LIFE=30*60*1000; var _TRK_L_LIFE=30*365*24*60*60*1000; var _INSIGHT_CK=_las.gc("_INSIGHT_CK_8301"); var _INSIGHT_CK_CNFR = _INSIGHT_CK.split("="); if ( _INSIGHT_CK_CNFR.length > 1){ _INSIGHT_CK = _INSIGHT_CK_CNFR[_INSIGHT_CK_CNFR.length-1]; } var _CK=""; var _sidA=""; var _ckT=""; var _uuid=""; var _sid=""; var _uuidN=""; var _sidN=""; var _rT=""; if(_INSIGHT_CK==""){ _uuidN=_muk.gen({ v: 3 }); _uuidN=_uuidN.substr(0,48); _sidN=_muk.gen({ v: 4 }); _sidN=_sidN.substr(0,48); _INSIGHT_CK=_uuidN+"|"+_sidN+":"+parseInt(_tpp+_TRK_S_LIFE); _las.sc("_INSIGHT_CK_8301",_INSIGHT_CK,_TRK_L_LIFE,_TRK_DOMAIN); uuid=_uuidN; sid=_sidN; exp=parseInt(_tpp+_TRK_S_LIFE)/1000; _rT="Y"; }else{ _CK=_INSIGHT_CK.split("|"); _sidA=_CK[1].split(":"); _uuid=_CK[0]; _sid=_sidA[0]; _sidE=_sidA[1]; _ckT=parseInt(_tpp-_sidE); if(_ckT>0){  _sidN=_muk.gen({ v: 4 });  _sidN=_sidN.substr(0,48);  _INSIGHT_CK=_uuid+"|"+_sidN+":"+parseInt(_tpp+_TRK_S_LIFE);  _las.sc("_INSIGHT_CK_8301",_INSIGHT_CK,_TRK_L_LIFE,_TRK_DOMAIN);  uuid=_uuid;  sid=_sidN;  exp=parseInt(_tpp+_TRK_S_LIFE)/1000;  _rT="Y"; }else{  _INSIGHT_CK=_uuid+"|"+_sid+":"+parseInt(_tpp+_TRK_S_LIFE);  _las.sc("_INSIGHT_CK_8301",_INSIGHT_CK,_TRK_L_LIFE,_TRK_DOMAIN);  uuid=_uuid;  sid=_sid;  exp=parseInt(_tpp+_TRK_S_LIFE)/1000;  _rT="N"; } } if( guuid == "" ){ guuid = uuid; } return _rT;},gRDm:function(){ var _host=document.domain; if(_las.gChk(_host)) { var so=_host.split('.'); var dm=so[so.length-2]+'.'+so[so.length-1]; return (so[so.length-1].length==2)?so[so.length-3]+'.'+dm:dm; }else{ return _host; }},gChk:function(host){ var arr = new Array( '.com','.net','.org','.biz','.coop','.info','.museum','.name', '.pro','.edu','.gov','.int','.mil','.ac','.ad','.ae','.af','.ag', '.ai','.al','.am','.an','.ao','.aq','.ar','.as','.at','.au','.aw', '.az','.ba','.bb','.bd','.be','.bf','.bg','.bh','.bi','.bj','.bm', '.bn','.bo','.br','.bs','.bt','.bv','.bw','.by','.bz','.ca','.cc', '.cd','.cf','.cg','.ch','.ci','.ck','.cl','.cm','.cn','.co','.cr', '.cu','.cv','.cx','.cy','.cz','.de','.dj','.dk','.dm','.do','.dz', '.ec','.ee','.eg','.eh','.er','.es','.et','.fi','.fj','.fk','.fm', '.fo','.fr','.ga','.gd','.ge','.gf','.gg','.gh','.gi','.gl','.gm', '.gn','.gp','.gq','.gr','.gs','.gt','.gu','.gv','.gy','.hk','.hm', '.hn','.hr','.ht','.hu','.id','.ie','.il','.im','.in','.io','.iq', '.ir','.is','.it','.je','.jm','.jo','.jp','.ke','.kg','.kh','.ki', '.km','.kn','.kp','.kr','.kw','.ky','.kz','.la','.lb','.lc','.li', '.lk','.lr','.ls','.lt','.lu','.lv','.ly','.ma','.mc','.md','.mg', '.mh','.mk','.ml','.mm','.mn','.mo','.mp','.mq','.mr','.ms','.mt', '.mu','.mv','.mw','.mx','.my','.mz','.na','.nc','.ne','.nf','.ng', '.ni','.nl','.no','.np','.nr','.nu','.nz','.om','.pa','.pe','.pf', '.pg','.ph','.pk','.pl','.pm','.pn','.pr','.ps','.pt','.pw','.py', '.qa','.re','.ro','.rw','.ru','.sa','.sb','.sc','.sd','.se','.sg', '.sh','.si','.sj','.sk','.sl','.sm','.sn','.so','.sr','.st','.sv', '.sy','.sz','.tc','.td','.tf','.tg','.th','.tj','.tk','.tm','.tn', '.to','.tp','.tr','.tt','.tv','.tw','.tz','.ua','.ug','.uk','.um', '.us','.uy','.uz','.va','.vc','.ve','.vg','.vi','.vn','.vu','.ws', '.wf','.ye','.yt','.yu','.za','.zm','.zw'); var mai = host; var val = true; var dot = mai.lastIndexOf("."); var dname = mai.substring(0,dot); var ext = mai.substring(dot,mai.length); if(dot>2 && dot<57){ for(var i=0; i < arr.length; i++){  if(ext == arr[i]){ val = true; break;  }else{ val = false;  } } if(val == false){  return false; }else{  for(var j=0; j < dname.length; j++){ var dh = dname.charAt(j); var hh = dh.charCodeAt(0); if((hh > 47 && hh<59) || (hh > 64 && hh<91) || (hh > 96 && hh<123) || hh==45 || hh==46){ if((j==0 || j==dname.length-1) && hh == 45){  return false; } }else{ return false; }  } } }else{ return false; } return true;}});var _muk=new Object({st:null,gen:function(o){ var rand = _muk.rnd, h = _muk.iH; if (o && (o.v == 1)) { var t = new Date() - Date.UTC(1582, 9, 15); if (_muk.st == null) {  _muk.st = { t: t, s: rand(16384), nd: h(rand(256) | 1, 2) + h(rand(1099511627776), 10) }; } else {  if (t <= _muk.st.t) { _muk.st.s++;  } else { _muk.st.t = t;  } } var ts = h(t * 10000, 15); var sq = 32768 | (16383 & _muk.st.s); return [  ts.substr(7),  ts.substr(3, 4),  '1' + ts.substr(0, 3),  h(sq, 4),  this.st.nd ].join(''); } else if(o && (o.v == 2)) { return [  h(rand(4294967296), 8),  h(rand(65536), 4),  '4' + h(rand(4096), 3),  h(8 | rand(4), 1) + h(rand(4096), 3),  h(rand(281474976710656), 12) ].join(''); } else if(o && (o.v == 3)) { var t1 = new Date() * 1; var t2 = t1 * Math.random(); if (_muk.st == null) {  _muk.st = { t: t2, s: rand(16384), nd: h(rand(256) | 1, 2) + h(rand(1099511627776), 10)  }; } else {  if (t2 <= _muk.st.t) { _muk.st.s++;  } else { _muk.st.t = t2;  } } var ts = h(Math.ceil(t2 * 10000, 0), 13); var sq = 32768 | (16383 & _muk.st.s); var rkey1 = "" + Math.random(new Date()); var rkey2 = "" + Math.random("" + (_las.d.body != null ? _las.d.body.clientWidth + _las.d.body.clientHeight : new Date())); return [  ts.substr(6, 6),  h(rkey1.substr(2, 4) | 1, 4),  ts.substr(3, 3),  h(rkey2.substr(3, 4) | 2, 4),  ts.substr(0, 3),  this.st.nd,  '_',  ('' + t1).substr(5, 5) ].join(''); } else { var t1 = new Date() * 1; var t2 = t1 * Math.random(); if (_muk.st == null) {  _muk.st = { t: t2, s: rand(16384), nd: h(rand(281474976710656), 12)  }; } else {  if (t2 <= _muk.st.t) { _muk.st.s++;  } else { _muk.st.t = t2;  } } var ts = h(Math.ceil(t2 * 10000, 0), 13); var sq = 32768 | (16383 & _muk.st.s); var rkey1 = "" + Math.random(new Date()); var rkey2 = "" + Math.random("" + (_las.d.body != null ? _las.d.body.clientWidth + _las.d.body.clientHeight : new Date())); return [  ts.substr(6, 6),  h(rkey1.substr(2, 4) | 1, 4),  ts.substr(3, 3),  h(rkey2.substr(3, 4) | 2, 4),  ts.substr(0, 3),  this.st.nd,  '_',  ('' + t1).substr(5, 5) ].join(''); }},rnd:function(mx) { var B32 = 4294967296; if (mx <= B32) { return Math.floor(Math.random() * mx); } else { var d0 = Math.floor(Math.random() * B32); var d1 = Math.floor(Math.random() * Math.floor(mx / B32)); return d0 + d1 * B32; }},iH:function(n, l) { var hx = n.toString(16); while (hx.length < l) { hx = '0' + hx; } return hx;}});function _lxmc(_TSV,_SDS){ var L=_las,d1=_las.d; var m=_las.m,gp=_las.gp; _TRK_DOMAIN=L.gRDm(); var _isnw=L.mK(); var dt=d1.title.toString(); dt=dt.substr(0,128); var dr=d1.referrer; var tdr=""; eval("try{ tdr=top.document.referrer; }catch(_e){}"); var tdu=""; eval("try{ tdu=top.document.location.href; }catch(_e){}"); var bFrm=false; if(dr==tdu) { dr=tdr; bFrm=true; } if(dr=="undefined") dr=""; var du=d1.location.href; if(du.substr(0,4)=="file") return "";var adKeyVal = ""; if(bFrm) { adKeyVal=gp("OVKEY"); if(adKeyVal!="" && du.indexOf("OVKEY=")<0){  if(du.indexOf("?")!=-1) du=du+ApsndCr+"OVKEY="+adKeyVal; else du=du+"?OVKEY="+adKeyVal;  adKeyVal=gp("OVRAW");  if(adKeyVal!="" && du.indexOf("OVRAW=")<0) if(du.indexOf("?")!=-1) du=du+ApsndCr+"OVRAW="+adKeyVal; else du=du+"?OVRAW="+adKeyVal; }else{  adKeyVal=gp("netpia");  if(adKeyVal!="" && du.indexOf("netpia=")<0) if(du.indexOf("?")!=-1) du=du+ApsndCr+"netpia="+adKeyVal; else du=du+"?netpia="+adKeyVal; } adKeyVal=gp("logger_kw"); if(adKeyVal!="" && du.indexOf("logger_kw=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"logger_kw="+adKeyVal; else du=du+"?logger_kw="+adKeyVal; adKeyVal=gp("source"); if(adKeyVal!="" && du.indexOf("source=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"source="+adKeyVal; else du=du+"?source="+adKeyVal; adKeyVal=gp("keywd"); if(adKeyVal!="" && du.indexOf("keywd=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"keywd="+adKeyVal; else du=du+"?keywd="+adKeyVal; adKeyVal=gp("NVADKWD");  if(adKeyVal!="" && du.indexOf("NVADKWD=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"NVADKWD="+adKeyVal; else du=du+"?NVADKWD="+adKeyVal;  adKeyVal=gp("NVKWD"); if(adKeyVal!="" && du.indexOf("NVKWD=")<0) if(du.indexOf("?")!=-1) du=du+ApsndCr+"NVKWD="+adKeyVal; else du=du+"?NVKWD="+adKeyVal;  adKeyVal = gp("n_query"); if(adKeyVal!="" && du.indexOf("n_query=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"n_query="+adKeyVal; else du=du+"?n_query="+adKeyVal; adKeyVal = gp("n_keyword"); if(adKeyVal!="" && du.indexOf("n_keyword=")<0)  if (du.indexOf("?")!=-1) du=du+ApsndCr+"n_keyword="+adKeyVal; else du=du+"?n_keyword="+adKeyVal; adKeyVal=gp("NVAR"); if(adKeyVal!="" && du.indexOf("NVAR=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"NVAR="+adKeyVal; else du=du+"?NVAR="+adKeyVal; adKeyVal=gp("NVADID"); if(adKeyVal!="" && du.indexOf("NVADID=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"NVADID="+adKeyVal; else du=du+"?NVADID="+adKeyVal; adKeyVal=gp("DWIT");  if(adKeyVal!="" && du.indexOf("DWIT=")<0) if(du.indexOf("?")!=-1) du=du+ApsndCr+"DWIT="+adKeyVal; else du=du+"?DWIT="+adKeyVal;  adKeyVal=gp("DWIC"); if(adKeyVal!="" && du.indexOf("DWIC=")<0) if(du.indexOf("?")!=-1) du=du+ApsndCr+"DWIC="+adKeyVal; else du=du+"?DWIC="+adKeyVal;  adKeyVal=gp("gad"); if(adKeyVal!="" && du.indexOf("gad=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"gad="+adKeyVal; else du=du+"?gad="+adKeyVal; adKeyVal=gp("gclid"); if(adKeyVal!="" && du.indexOf("gclid=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"gclid="+adKeyVal; else du=du+"?gclid="+adKeyVal; adKeyVal=gp("gkw"); if(adKeyVal!="" && du.indexOf("gkw=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"gkw="+adKeyVal; else du=du+"?gkw="+adKeyVal; adKeyVal=gp("rcsite"); if(adKeyVal!="" && du.indexOf("rcsite=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"rcsite="+adKeyVal; else du=du+"?rcsite="+adKeyVal; adKeyVal=gp("rctype"); if(adKeyVal!="" && du.indexOf("rctype=")<0) if(du.indexOf("?")!=-1) du=du+ApsndCr+"rctype="+adKeyVal; else du=du+"?rctype="+adKeyVal; adKeyVal=gp("rc_code"); if(adKeyVal!="" && du.indexOf("rc_code=")<0) if(du.indexOf("?")!=-1) du=du+ApsndCr+"rc_code="+adKeyVal; else du=du+"?rc_code="+adKeyVal; adKeyVal=gp("_OC_"); if( adKeyVal == "" ){ adKeyVal=gp("_C_"); } if(adKeyVal!="" && du.indexOf("_OC_=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"_OC_="+adKeyVal; else du=du+"?_OC_="+adKeyVal; adKeyVal=gp("_IC_"); if(adKeyVal!="" && du.indexOf("_IC_=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"_IC_="+adKeyVal; else du=du+"?_IC_="+adKeyVal; adKeyVal=gp("_OA_"); if(adKeyVal!="" && du.indexOf("_OA_=")<0)  if(du.indexOf("?")!=-1) du=du+ApsndCr+"_OA_="+adKeyVal; else du=du+"?_OA_="+adKeyVal; } var n=L.n; var w=L.w; var sp=L.cI(); var _pf =(sp[0])?sp[0]:""; var _cpu=(sp[1])?sp[1]:""; var _ap =(sp[2])?sp[2]:""; var _vr =(sp[3])?sp[3]:""; var _lng=(sp[4])?sp[4]:""; var _ck =(sp[6])?sp[6]:""; var _je =(sp[7])?sp[7]:""; var _sr="",_scd="",_brsz=""; if(w.screen){ _sr=w.screen.width+"x"+w.screen.height; _scd=w.screen.colorDepth; }else if(w.java){ var l=java.awt.Toolkit.getDefaultToolkit().getScreenSize(); _sr=l.screen.width+"x"+l.screen.height } if(w.innerWidth){ _brsz=w.innerWidth+"x"+w.innerHeight; }else if(d1.documentElement&&(d1.documentElement.clientWidth || d1.documentElement.clientHeight)){ _brsz=d1.documentElement.clientWidth+"x"+d1.documentElement.clientHeight; }else if(d1.body && (d1.body.clientWidth || d1.body.clientHeight)){ _brsz=d1.body.clientWidth+"x"+d1.body.clientHeight; }else{ _brsz=L.un; } if(!dt) dt=""; if(!dr) dr=""; if(!du) du=""; if(!_je) _je=""; var t=new Date; var tye=(L.bmsie)?(t.getYear()):(t.getFullYear()); var tmo=t.getMonth()+1; var tda=t.getDate(); var tho=t.getHours(); var tmi=t.getMinutes(); var tse=t.getSeconds(); var tz=(t.getTimezoneOffset()/60)*-1; var tc=""; var prtcl="https://"; if( prtcl == "https://"){ tc=tc+prtcl+_las.sslDm; }else{ tc=tc+prtcl+_TSV; } tc=tc+_SDS; tc=tc+"?pfno=8301"+ApsndCr+"uuid="+uuid+ApsndCr+"sid="+sid+ApsndCr+"guuid="+guuid+ApsndCr+"expired="+exp; tc=tc+ApsndCr+"dr="+L.ec(dr)+ApsndCr+"XDR="+ApsndCr+"dt="+L.ec(dt); if((typeof _TRK_DU)!="undefined" && _TRK_DU!="") { var _du=_TRK_DU; if(_du.indexOf("http://")<0&&_du.indexOf("https://")<0) {  _du=self.location.protocol+"://"+self.location.host+"/RIA/"+_du; } tc=tc+ApsndCr+"du="+L.ec(_du); } else { tc=tc+ApsndCr+"du="+L.ec(du); } if((typeof _TRK_OCMP)!="undefined" && _TRK_OCMP!=""){ tc=tc+ApsndCr+"ocmp="+L.ec(_TRK_OCMP); } else if((typeof _TRK_CC)!="undefined" && _TRK_CC!=""){ tc=tc+ApsndCr+"ocmp="+L.ec(_TRK_CC); } if((typeof _TRK_OCMP_NM)!="undefined" && _TRK_OCMP_NM!="") tc=tc+ApsndCr+"ocmpNm="+L.ec(_TRK_OCMP_NM); if((typeof _TRK_OCMP_PS)!="undefined" && _TRK_OCMP_PS!="") tc=tc+ApsndCr+"ocmpPs="+_TRK_OCMP_PS; if((typeof _TRK_OCMP_PE)!="undefined" && _TRK_OCMP_PE!="") tc=tc+ApsndCr+"ocmpPe="+_TRK_OCMP_PE; if((typeof _TRK_OCMP_AMT)!="undefined" && _TRK_OCMP_AMT!="") tc=tc+ApsndCr+"ocmpAmt="+_TRK_OCMP_AMT; if((typeof _TRK_ICMP)!="undefined" && _TRK_ICMP!="") tc=tc+ApsndCr+"icmp="+L.ec(_TRK_ICMP); if((typeof _TRK_ICMP_NM)!="undefined" && _TRK_ICMP_NM!="") tc=tc+ApsndCr+"icmpNm="+L.ec(_TRK_ICMP_NM); if((typeof _TRK_ICMP_PS)!="undefined" && _TRK_ICMP_PS!="") tc=tc+ApsndCr+"icmpPs="+_TRK_ICMP_PS; if((typeof _TRK_ICMP_PE)!="undefined" && _TRK_ICMP_PE!="") tc=tc+ApsndCr+"icmpPe="+_TRK_ICMP_PE; if((typeof _TRK_ICMP_AMT)!="undefined" && _TRK_ICMP_AMT!="") tc=tc+ApsndCr+"icmpAmt="+_TRK_ICMP_AMT; if((typeof _TRK_CMP_ATRC_1)!="undefined" && _TRK_CMP_ATRC_1!="") tc=tc+ApsndCr+"cmpAtc1="+L.ec(_TRK_CMP_ATRC_1); if((typeof _TRK_CMP_ATRC_2)!="undefined" && _TRK_CMP_ATRC_2!="") tc=tc+ApsndCr+"cmpAtc2="+L.ec(_TRK_CMP_ATRC_2); if((typeof _TRK_CMP_ATRC_3)!="undefined" && _TRK_CMP_ATRC_3!="") tc=tc+ApsndCr+"cmpAtc3="+L.ec(_TRK_CMP_ATRC_3); if((typeof _TRK_CMP_ATRC_4)!="undefined" && _TRK_CMP_ATRC_4!="") tc=tc+ApsndCr+"cmpAtc4="+L.ec(_TRK_CMP_ATRC_4); if((typeof _TRK_CMP_ATRC_5)!="undefined" && _TRK_CMP_ATRC_5!="") tc=tc+ApsndCr+"cmpAtc5="+L.ec(_TRK_CMP_ATRC_5); if((typeof _TRK_CMP_ATRC_6)!="undefined" && _TRK_CMP_ATRC_6!="") tc=tc+ApsndCr+"cmpAtc6="+L.ec(_TRK_CMP_ATRC_6); if((typeof _TRK_CMP_ATRC_7)!="undefined" && _TRK_CMP_ATRC_7!="") tc=tc+ApsndCr+"cmpAtc7="+L.ec(_TRK_CMP_ATRC_7); if((typeof _TRK_CMP_ATRC_8)!="undefined" && _TRK_CMP_ATRC_8!="") tc=tc+ApsndCr+"cmpAtc8="+L.ec(_TRK_CMP_ATRC_8); if((typeof _TRK_CMP_ATRC_9)!="undefined" && _TRK_CMP_ATRC_9!="") tc=tc+ApsndCr+"cmpAtc9="+L.ec(_TRK_CMP_ATRC_9); if((typeof _TRK_CMP_ATRC_10)!="undefined" && _TRK_CMP_ATRC_10!="") tc=tc+ApsndCr+"cmpAtc10="+L.ec(_TRK_CMP_ATRC_10); if((typeof _TRK_CMP_ATRN_1)!="undefined" && _TRK_CMP_ATRN_1!="") tc=tc+ApsndCr+"cmpAtn1="+L.ec(_TRK_CMP_ATRN_1); if((typeof _TRK_CMP_ATRN_2)!="undefined" && _TRK_CMP_ATRN_2!="") tc=tc+ApsndCr+"cmpAtn2="+L.ec(_TRK_CMP_ATRN_2); if((typeof _TRK_CMP_ATRN_3)!="undefined" && _TRK_CMP_ATRN_3!="") tc=tc+ApsndCr+"cmpAtn3="+L.ec(_TRK_CMP_ATRN_3); if((typeof _TRK_CMP_ATRN_4)!="undefined" && _TRK_CMP_ATRN_4!="") tc=tc+ApsndCr+"cmpAtn4="+L.ec(_TRK_CMP_ATRN_4); if((typeof _TRK_CMP_ATRN_5)!="undefined" && _TRK_CMP_ATRN_5!="") tc=tc+ApsndCr+"cmpAtn5="+L.ec(_TRK_CMP_ATRN_5); if((typeof _TRK_CMP_ATRN_6)!="undefined" && _TRK_CMP_ATRN_6!="") tc=tc+ApsndCr+"cmpAtn6="+L.ec(_TRK_CMP_ATRN_6); if((typeof _TRK_CMP_ATRN_7)!="undefined" && _TRK_CMP_ATRN_7!="") tc=tc+ApsndCr+"cmpAtn7="+L.ec(_TRK_CMP_ATRN_7); if((typeof _TRK_CMP_ATRN_8)!="undefined" && _TRK_CMP_ATRN_8!="") tc=tc+ApsndCr+"cmpAtn8="+L.ec(_TRK_CMP_ATRN_8); if((typeof _TRK_CMP_ATRN_9)!="undefined" && _TRK_CMP_ATRN_9!="") tc=tc+ApsndCr+"cmpAtn9="+L.ec(_TRK_CMP_ATRN_9); if((typeof _TRK_CMP_ATRN_10)!="undefined" && _TRK_CMP_ATRN_10!="") tc=tc+ApsndCr+"cmpAtn10="+L.ec(_TRK_CMP_ATRN_10); if((typeof _TRK_OAD)!="undefined" && _TRK_OAD!="") tc=tc+ApsndCr+"oad="+L.ec(_TRK_OAD); if((typeof _TRK_OAD_NM)!="undefined" && _TRK_OAD_NM!="") tc=tc+ApsndCr+"oadNm="+L.ec(_TRK_OAD_NM); if((typeof _TRK_OAD_PS)!="undefined" && _TRK_OAD_PS!="") tc=tc+ApsndCr+"oadPs="+_TRK_OAD_PS; if((typeof _TRK_OAD_PE)!="undefined" && _TRK_OAD_PE!="") tc=tc+ApsndCr+"oadPe="+_TRK_OAD_PE; if((typeof _TRK_OAD_AMT)!="undefined" && _TRK_OAD_AMT!="") tc=tc+ApsndCr+"oadAmt="+_TRK_OAD_AMT; if((typeof _TRK_IAD)!="undefined" && _TRK_IAD!="") tc=tc+ApsndCr+"iad="+L.ec(_TRK_IAD); if((typeof _TRK_IAD_NM)!="undefined" && _TRK_IAD_NM!="") tc=tc+ApsndCr+"iadNm="+L.ec(_TRK_IAD_NM); if((typeof _TRK_IAD_PS)!="undefined" && _TRK_IAD_PS!="") tc=tc+ApsndCr+"iadPs="+_TRK_IAD_PS; if((typeof _TRK_IAD_PE)!="undefined" && _TRK_IAD_PE!="") tc=tc+ApsndCr+"iadPe="+_TRK_IAD_PE; if((typeof _TRK_IAD_AMT)!="undefined" && _TRK_IAD_AMT!="") tc=tc+ApsndCr+"iadAmt="+_TRK_IAD_AMT; if((typeof _TRK_AD_ATRC_1)!="undefined" && _TRK_AD_ATRC_1!="") tc=tc+ApsndCr+"adAtc1="+L.ec(_TRK_AD_ATRC_1); if((typeof _TRK_AD_ATRC_2)!="undefined" && _TRK_AD_ATRC_2!="") tc=tc+ApsndCr+"adAtc2="+L.ec(_TRK_AD_ATRC_2); if((typeof _TRK_AD_ATRC_3)!="undefined" && _TRK_AD_ATRC_3!="") tc=tc+ApsndCr+"adAtc3="+L.ec(_TRK_AD_ATRC_3); if((typeof _TRK_AD_ATRC_4)!="undefined" && _TRK_AD_ATRC_4!="") tc=tc+ApsndCr+"adAtc4="+L.ec(_TRK_AD_ATRC_4); if((typeof _TRK_AD_ATRC_5)!="undefined" && _TRK_AD_ATRC_5!="") tc=tc+ApsndCr+"adAtc5="+L.ec(_TRK_AD_ATRC_5); if((typeof _TRK_AD_ATRC_6)!="undefined" && _TRK_AD_ATRC_6!="") tc=tc+ApsndCr+"adAtc6="+L.ec(_TRK_AD_ATRC_6); if((typeof _TRK_AD_ATRC_7)!="undefined" && _TRK_AD_ATRC_7!="") tc=tc+ApsndCr+"adAtc7="+L.ec(_TRK_AD_ATRC_7); if((typeof _TRK_AD_ATRC_8)!="undefined" && _TRK_AD_ATRC_8!="") tc=tc+ApsndCr+"adAtc8="+L.ec(_TRK_AD_ATRC_8); if((typeof _TRK_AD_ATRC_9)!="undefined" && _TRK_AD_ATRC_9!="") tc=tc+ApsndCr+"adAtc9="+L.ec(_TRK_AD_ATRC_9); if((typeof _TRK_AD_ATRC_10)!="undefined" && _TRK_AD_ATRC_10!="") tc=tc+ApsndCr+"adAtc10="+L.ec(_TRK_AD_ATRC_10); if((typeof _TRK_AD_ATRN_1)!="undefined" && _TRK_AD_ATRN_1!="") tc=tc+ApsndCr+"adAtn1="+L.ec(_TRK_AD_ATRN_1); if((typeof _TRK_AD_ATRN_2)!="undefined" && _TRK_AD_ATRN_2!="") tc=tc+ApsndCr+"adAtn2="+L.ec(_TRK_AD_ATRN_2); if((typeof _TRK_AD_ATRN_3)!="undefined" && _TRK_AD_ATRN_3!="") tc=tc+ApsndCr+"adAtn3="+L.ec(_TRK_AD_ATRN_3); if((typeof _TRK_AD_ATRN_4)!="undefined" && _TRK_AD_ATRN_4!="") tc=tc+ApsndCr+"adAtn4="+L.ec(_TRK_AD_ATRN_4); if((typeof _TRK_AD_ATRN_5)!="undefined" && _TRK_AD_ATRN_5!="") tc=tc+ApsndCr+"adAtn5="+L.ec(_TRK_AD_ATRN_5); if((typeof _TRK_AD_ATRN_6)!="undefined" && _TRK_AD_ATRN_6!="") tc=tc+ApsndCr+"adAtn6="+L.ec(_TRK_AD_ATRN_6); if((typeof _TRK_AD_ATRN_7)!="undefined" && _TRK_AD_ATRN_7!="") tc=tc+ApsndCr+"adAtn7="+L.ec(_TRK_AD_ATRN_7); if((typeof _TRK_AD_ATRN_8)!="undefined" && _TRK_AD_ATRN_8!="") tc=tc+ApsndCr+"adAtn8="+L.ec(_TRK_AD_ATRN_8); if((typeof _TRK_AD_ATRN_9)!="undefined" && _TRK_AD_ATRN_9!="") tc=tc+ApsndCr+"adAtn9="+L.ec(_TRK_AD_ATRN_9); if((typeof _TRK_AD_ATRN_10)!="undefined" && _TRK_AD_ATRN_10!="") tc=tc+ApsndCr+"adAtn10="+L.ec(_TRK_AD_ATRN_10); if((typeof _TRK_PI)!="undefined" && _TRK_PI!="") tc=tc+ApsndCr+"pi="+_TRK_PI; if((typeof _TRK_AMT)!="undefined" && _TRK_AMT!=""){ tc=tc+ApsndCr+"amt="+L.ec(_TRK_AMT); } else if((typeof _TRK_OA)!="undefined" && _TRK_OA!=""){ tc=tc+ApsndCr+"amt="+L.ec(_TRK_OA); } if((typeof _TRK_EA)!="undefined" && _TRK_EA!=""){ tc=tc+ApsndCr+"ea="+L.ec(_TRK_EA); } else if((typeof _TRK_OE)!="undefined" && _TRK_OE!=""){ tc=tc+ApsndCr+"ea="+L.ec(_TRK_OE); } if((typeof _TRK_ODN)!="undefined" && _TRK_ODN!="") tc=tc+ApsndCr+"ordNo="+L.ec(_TRK_ODN); if((typeof _TRK_G1)!="undefined" && _TRK_G1!="") tc=tc+ApsndCr+"g1="+L.ec(_TRK_G1); if((typeof _TRK_G2)!="undefined" && _TRK_G2!="") tc=tc+ApsndCr+"g2="+L.ec(_TRK_G2); if((typeof _TRK_G3)!="undefined" && _TRK_G3!="") tc=tc+ApsndCr+"g3="+L.ec(_TRK_G3); if((typeof _TRK_G4)!="undefined" && _TRK_G4!="") tc=tc+ApsndCr+"g4="+L.ec(_TRK_G4); if((typeof _TRK_G5)!="undefined" && _TRK_G5!="") tc=tc+ApsndCr+"g5="+L.ec(_TRK_G5); if((typeof _TRK_G6)!="undefined" && _TRK_G6!="") tc=tc+ApsndCr+"g6="+L.ec(_TRK_G6); if((typeof _TRK_G7)!="undefined" && _TRK_G7!="") tc=tc+ApsndCr+"g7="+L.ec(_TRK_G7); if((typeof _TRK_G8)!="undefined" && _TRK_G8!="") tc=tc+ApsndCr+"g8="+L.ec(_TRK_G8); if((typeof _TRK_G9)!="undefined" && _TRK_G9!="") tc=tc+ApsndCr+"g9="+L.ec(_TRK_G9); if((typeof _TRK_G10)!="undefined" && _TRK_G10!="") tc=tc+ApsndCr+"g10="+L.ec(_TRK_G10); if((typeof _TRK_G11)!="undefined" && _TRK_G11!="") tc=tc+ApsndCr+"g11="+L.ec(_TRK_G11); if((typeof _TRK_G12)!="undefined" && _TRK_G12!="") tc=tc+ApsndCr+"g12="+L.ec(_TRK_G12); if((typeof _TRK_G13)!="undefined" && _TRK_G13!="") tc=tc+ApsndCr+"g13="+L.ec(_TRK_G13); if((typeof _TRK_G14)!="undefined" && _TRK_G14!="") tc=tc+ApsndCr+"g14="+L.ec(_TRK_G14); if((typeof _TRK_G15)!="undefined" && _TRK_G15!="") tc=tc+ApsndCr+"g15="+L.ec(_TRK_G15); if((typeof _TRK_G16)!="undefined" && _TRK_G16!="") tc=tc+ApsndCr+"g16="+L.ec(_TRK_G16); if((typeof _TRK_G17)!="undefined" && _TRK_G17!="") tc=tc+ApsndCr+"g17="+L.ec(_TRK_G17); if((typeof _TRK_G18)!="undefined" && _TRK_G18!="") tc=tc+ApsndCr+"g18="+L.ec(_TRK_G18); if((typeof _TRK_G19)!="undefined" && _TRK_G19!="") tc=tc+ApsndCr+"g19="+L.ec(_TRK_G19); if((typeof _TRK_G20)!="undefined" && _TRK_G20!="") tc=tc+ApsndCr+"g20="+L.ec(_TRK_G20); if((typeof _TRK_G21)!="undefined" && _TRK_G21!="") tc=tc+ApsndCr+"g21="+L.ec(_TRK_G21); if((typeof _TRK_G22)!="undefined" && _TRK_G22!="") tc=tc+ApsndCr+"g22="+L.ec(_TRK_G22); if((typeof _TRK_G23)!="undefined" && _TRK_G23!="") tc=tc+ApsndCr+"g23="+L.ec(_TRK_G23); if((typeof _TRK_G24)!="undefined" && _TRK_G24!="") tc=tc+ApsndCr+"g24="+L.ec(_TRK_G24); if((typeof _TRK_G25)!="undefined" && _TRK_G25!="") tc=tc+ApsndCr+"g25="+L.ec(_TRK_G25); if((typeof _TRK_G26)!="undefined" && _TRK_G26!="") tc=tc+ApsndCr+"g26="+L.ec(_TRK_G26); if((typeof _TRK_G27)!="undefined" && _TRK_G27!="") tc=tc+ApsndCr+"g27="+L.ec(_TRK_G27); if((typeof _TRK_G28)!="undefined" && _TRK_G28!="") tc=tc+ApsndCr+"g28="+L.ec(_TRK_G28); if((typeof _TRK_G29)!="undefined" && _TRK_G29!="") tc=tc+ApsndCr+"g29="+L.ec(_TRK_G29); if((typeof _TRK_G30)!="undefined" && _TRK_G30!="") tc=tc+ApsndCr+"g30="+L.ec(_TRK_G30); if((typeof _TRK_PNC)!="undefined" && _TRK_PNC!=""){ tc=tc+ApsndCr+"pnc="+L.ec(_TRK_PNC); } if((typeof _TRK_PNC_SUB_TP)!="undefined" && _TRK_PNC_SUB_TP!=""){ tc=tc+ApsndCr+"pncSubTp="+L.ec(_TRK_PNC_SUB_TP); } if((typeof _TRK_PNC_NM)!="undefined" && _TRK_PNC_NM!=""){ tc=tc+ApsndCr+"pncNm="+L.ec(_TRK_PNC_NM); } else if((typeof _TRK_PN)!="undefined" && _TRK_PN!=""){ tc=tc+ApsndCr+"pncNm="+L.ec(_TRK_PN); }  else if((typeof _TRK_OP)!="undefined" && _TRK_OP!=""){ tc=tc+ApsndCr+"pncNm="+L.ec(_TRK_OP); }  if((typeof _TRK_PNG)!="undefined" && _TRK_PNG!=""){ tc=tc+ApsndCr+"png="+L.ec(_TRK_PNG); } else if((typeof _TRK_MF)!="undefined" && _TRK_MF!=""){ tc=tc+ApsndCr+"png="+L.ec(_TRK_MF); } if((typeof _TRK_PNG_NM)!="undefined" && _TRK_PNG_NM!="") tc=tc+ApsndCr+"pngNm="+L.ec(_TRK_PNG_NM); if((typeof _TRK_PNC_ATRC_1)!="undefined" && _TRK_PNC_ATRC_1!="") tc=tc+ApsndCr+"pncAtc1="+L.ec(_TRK_PNC_ATRC_1); if((typeof _TRK_PNC_ATRC_2)!="undefined" && _TRK_PNC_ATRC_2!="") tc=tc+ApsndCr+"pncAtc2="+L.ec(_TRK_PNC_ATRC_2); if((typeof _TRK_PNC_ATRC_3)!="undefined" && _TRK_PNC_ATRC_3!="") tc=tc+ApsndCr+"pncAtc3="+L.ec(_TRK_PNC_ATRC_3); if((typeof _TRK_PNC_ATRC_4)!="undefined" && _TRK_PNC_ATRC_4!="") tc=tc+ApsndCr+"pncAtc4="+L.ec(_TRK_PNC_ATRC_4); if((typeof _TRK_PNC_ATRC_5)!="undefined" && _TRK_PNC_ATRC_5!="") tc=tc+ApsndCr+"pncAtc5="+L.ec(_TRK_PNC_ATRC_5); if((typeof _TRK_PNC_ATRC_6)!="undefined" && _TRK_PNC_ATRC_6!="") tc=tc+ApsndCr+"pncAtc6="+L.ec(_TRK_PNC_ATRC_6); if((typeof _TRK_PNC_ATRC_7)!="undefined" && _TRK_PNC_ATRC_7!="") tc=tc+ApsndCr+"pncAtc7="+L.ec(_TRK_PNC_ATRC_7); if((typeof _TRK_PNC_ATRC_8)!="undefined" && _TRK_PNC_ATRC_8!="") tc=tc+ApsndCr+"pncAtc8="+L.ec(_TRK_PNC_ATRC_8); if((typeof _TRK_PNC_ATRC_9)!="undefined" && _TRK_PNC_ATRC_9!="") tc=tc+ApsndCr+"pncAtc9="+L.ec(_TRK_PNC_ATRC_9); if((typeof _TRK_PNC_ATRC_10)!="undefined" && _TRK_PNC_ATRC_10!="") tc=tc+ApsndCr+"pncAtc10="+L.ec(_TRK_PNC_ATRC_10); if((typeof _TRK_PNC_ATRN_1)!="undefined" && _TRK_PNC_ATRN_1!="") tc=tc+ApsndCr+"pncAtn1="+L.ec(_TRK_PNC_ATRN_1); if((typeof _TRK_PNC_ATRN_2)!="undefined" && _TRK_PNC_ATRN_2!="") tc=tc+ApsndCr+"pncAtn2="+L.ec(_TRK_PNC_ATRN_2); if((typeof _TRK_PNC_ATRN_3)!="undefined" && _TRK_PNC_ATRN_3!="") tc=tc+ApsndCr+"pncAtn3="+L.ec(_TRK_PNC_ATRN_3); if((typeof _TRK_PNC_ATRN_4)!="undefined" && _TRK_PNC_ATRN_4!="") tc=tc+ApsndCr+"pncAtn4="+L.ec(_TRK_PNC_ATRN_4); if((typeof _TRK_PNC_ATRN_5)!="undefined" && _TRK_PNC_ATRN_5!="") tc=tc+ApsndCr+"pncAtn5="+L.ec(_TRK_PNC_ATRN_5); if((typeof _TRK_PNC_ATRN_6)!="undefined" && _TRK_PNC_ATRN_6!="") tc=tc+ApsndCr+"pncAtn6="+L.ec(_TRK_PNC_ATRN_6); if((typeof _TRK_PNC_ATRN_7)!="undefined" && _TRK_PNC_ATRN_7!="") tc=tc+ApsndCr+"pncAtn7="+L.ec(_TRK_PNC_ATRN_7); if((typeof _TRK_PNC_ATRN_8)!="undefined" && _TRK_PNC_ATRN_8!="") tc=tc+ApsndCr+"pncAtn8="+L.ec(_TRK_PNC_ATRN_8); if((typeof _TRK_PNC_ATRN_9)!="undefined" && _TRK_PNC_ATRN_9!="") tc=tc+ApsndCr+"pncAtn9="+L.ec(_TRK_PNC_ATRN_9); if((typeof _TRK_PNC_ATRN_10)!="undefined" && _TRK_PNC_ATRN_10!="") tc=tc+ApsndCr+"pncAtn10="+L.ec(_TRK_PNC_ATRN_10); if((typeof _TRK_CP)!="undefined" && _TRK_CP!="") tc=tc+ApsndCr+"cp="+L.ec(_TRK_CP); if((typeof _TRK_IK)!="undefined" && _TRK_IK!="") tc=tc+ApsndCr+"ik="+L.ec(_TRK_IK); if((typeof _TRK_IKWDRS)!="undefined" && _TRK_IKWDRS!="") tc=tc+ApsndCr+"ikwdrs="+L.ec(_TRK_IKWDRS); if((typeof _TRK_IKWDG)!="undefined" && _TRK_IKWDG!="") tc=tc+ApsndCr+"ikwdg="+L.ec(_TRK_IKWDG); if((typeof _TRK_MVT1)!="undefined" && _TRK_MVT1!="") tc=tc+ApsndCr+"mvt1="+L.ec(_TRK_MVT1); if((typeof _TRK_MVT2)!="undefined" && _TRK_MVT2!="") tc=tc+ApsndCr+"mvt2="+L.ec(_TRK_MVT2); if((typeof _TRK_MVT3)!="undefined" && _TRK_MVT3!="") tc=tc+ApsndCr+"mvt3="+L.ec(_TRK_MVT3);  if((typeof _TRK_CNTR)!="undefined" && _TRK_CNTR!="") tc=tc+ApsndCr+"cntr="+L.ec(_TRK_CNTR); if((typeof _TRK_LCTN)!="undefined" && _TRK_LCTN!="") tc=tc+ApsndCr+"lctn="+L.ec(_TRK_LCTN); if((typeof _TRK_CMPN)!="undefined" && _TRK_CMPN!="") tc=tc+ApsndCr+"cmpn="+L.ec(_TRK_CMPN); if((typeof _TRK_UVP1)!="undefined" && _TRK_UVP1!="") tc=tc+ApsndCr+"uvp1="+L.ec(_TRK_UVP1); if((typeof _TRK_UVP2)!="undefined" && _TRK_UVP2!="") tc=tc+ApsndCr+"uvp2="+L.ec(_TRK_UVP2); if((typeof _TRK_UVP3)!="undefined" && _TRK_UVP3!="") tc=tc+ApsndCr+"uvp3="+L.ec(_TRK_UVP3); if((typeof _TRK_UVP4)!="undefined" && _TRK_UVP4!="") tc=tc+ApsndCr+"uvp4="+L.ec(_TRK_UVP4); if((typeof _TRK_UVP5)!="undefined" && _TRK_UVP5!="") tc=tc+ApsndCr+"uvp5="+L.ec(_TRK_UVP5); if((typeof _TRK_SX)!="undefined" && _TRK_SX!="") tc=tc+ApsndCr+"sx="+L.ec(_TRK_SX); if((typeof _TRK_AG)!="undefined" && _TRK_AG!="") tc=tc+ApsndCr+"ag="+L.ec(_TRK_AG); if((typeof _TRK_ID)!="undefined" && _TRK_ID!=""){ tc=tc+ApsndCr+"id="+L.ec(_TRK_ID); } else if((typeof _TRK_RK)!="undefined" && _TRK_RK!=""){ tc=tc+ApsndCr+"id="+L.ec(_TRK_RK); } if((typeof _TRK_MBR)!="undefined" && _TRK_MBR!="") tc=tc+ApsndCr+"mbr="+L.ec(_TRK_MBR); if((typeof _TRK_MMCD)!="undefined" && _TRK_MMCD!="") tc=tc+ApsndCr+"mmcd="+L.ec(_TRK_MMCD); if((typeof _TRK_MMLVL)!="undefined" && _TRK_MMLVL!="") tc=tc+ApsndCr+"mmlvl="+L.ec(_TRK_MMLVL); if((typeof _TRK_ISLOGIN)!="undefined" && _TRK_ISLOGIN!="") tc=tc+ApsndCr+"islogin="+L.ec(_TRK_ISLOGIN); if((typeof _TRK_ERR_CD)!="undefined" && _TRK_ERR_CD!="") tc=tc+ApsndCr+"trkErrCd="+L.ec(_TRK_ERR_CD);  tc=tc+ApsndCr+"js=Y"+ApsndCr+"sr="+L.ec(_sr)+ApsndCr+"scd="+L.ec(_scd)+ApsndCr+"je="+_je+ApsndCr+"tz="+tz+ApsndCr+"tye="+tye+ApsndCr+"tmo="+tmo+ApsndCr+"tda="+tda+ApsndCr+"tho="+tho+ApsndCr+"tmi="+tmi+ApsndCr+"tse="+tse+ApsndCr+"lng="+L.ec(_lng)+ApsndCr+"os="+L.ec(_pf)+ApsndCr+"cpu="+L.ec(_cpu)+ApsndCr+"vr="+L.ec(_vr)+ApsndCr+"ck="+_ck+ApsndCr+"brsz="+L.ec(_brsz)+ApsndCr+"isnw="+_isnw; return tc;}/*X*//* END OF TRACKING FUNCTION SCRIPT *//* INSIGHT ADDITIONAL TRACKING FUNCTION FOR FLASH *//*X*/function _trk_flashEnvView(env1, env2, env3, env4, env5, env6, env7, env8, env9, env10, env11, env12) { for(var envCnt = 1; envCnt <= 12; envCnt++) { if((eval("env" + envCnt) != "") && (typeof eval("env" + envCnt) != "undefined")) { var trk_str = eval("env" + envCnt); var trk_env = trk_str.split("="); if(trk_env.length == 2 && "|_TRK_OCMP|_TRK_OCMP_NM|_TRK_OCMP_PS|_TRK_OCMP_PE|_TRK_OCMP_AMT|_TRK_ICMP|_TRK_ICMP_NM|_TRK_ICMP_PS|_TRK_ICMP_PE|_TRK_ICMP_AMT|_TRK_CMP_ATRC_1|_TRK_CMP_ATRC_2|_TRK_CMP_ATRC_3|_TRK_CMP_ATRC_4|_TRK_CMP_ATRC_5|_TRK_CMP_ATRC_6|_TRK_CMP_ATRC_7|_TRK_CMP_ATRC_8|_TRK_CMP_ATRC_9|_TRK_CMP_ATRC_10|_TRK_CMP_ATRN_1|_TRK_CMP_ATRN_2|_TRK_CMP_ATRN_3|_TRK_CMP_ATRN_4|_TRK_CMP_ATRN_5|_TRK_CMP_ATRN_6|_TRK_CMP_ATRN_7|_TRK_CMP_ATRN_8|_TRK_CMP_ATRN_9|_TRK_CMP_ATRN_10|_TRK_OAD|_TRK_OAD_NM|_TRK_OAD_PS|_TRK_OAD_PE|_TRK_OAD_AMT|_TRK_IAD|_TRK_IAD_NM|_TRK_IAD_PS|_TRK_IAD_PE|_TRK_IAD_AMT|_TRK_AD_ATRC_1|_TRK_AD_ATRC_2|_TRK_AD_ATRC_3|_TRK_AD_ATRC_4|_TRK_AD_ATRC_5|_TRK_AD_ATRC_6|_TRK_AD_ATRC_7|_TRK_AD_ATRC_8|_TRK_AD_ATRC_9|_TRK_AD_ATRC_10|_TRK_AD_ATRN_1|_TRK_AD_ATRN_2|_TRK_AD_ATRN_3|_TRK_AD_ATRN_4|_TRK_AD_ATRN_5|_TRK_AD_ATRN_6|_TRK_AD_ATRN_7|_TRK_AD_ATRN_8|_TRK_AD_ATRN_9|_TRK_AD_ATRN_10|_TRK_PI|_TRK_AMT|_TRK_EA|_TRK_ODN|_TRK_G1|_TRK_G2|_TRK_G3|_TRK_G4|_TRK_G5|_TRK_G6|_TRK_G7|_TRK_G8|_TRK_G9|_TRK_G10|_TRK_G11|_TRK_G12|_TRK_G13|_TRK_G14|_TRK_G15|_TRK_G16|_TRK_G17|_TRK_G18|_TRK_G19|_TRK_G20|_TRK_G21|_TRK_G22|_TRK_G23|_TRK_G24|_TRK_G25|_TRK_G26|_TRK_G27|_TRK_G28|_TRK_G29|_TRK_G30|_TRK_PNC|_TRK_PNC_SUB_TP|_TRK_PNC_NM|_TRK_PNC_ATRC_1|_TRK_PNC_ATRC_2|_TRK_PNC_ATRC_3|_TRK_PNC_ATRC_4|_TRK_PNC_ATRC_5|_TRK_PNC_ATRC_6|_TRK_PNC_ATRC_7|_TRK_PNC_ATRC_8|_TRK_PNC_ATRC_9|_TRK_PNC_ATRC_10|_TRK_PNC_ATRN_1|_TRK_PNC_ATRN_2|_TRK_PNC_ATRN_3|_TRK_PNC_ATRN_4|_TRK_PNC_ATRN_5|_TRK_PNC_ATRN_6|_TRK_PNC_ATRN_7|_TRK_PNC_ATRN_8|_TRK_PNC_ATRN_9|_TRK_PNC_ATRN_10|_TRK_PNG|_TRK_PNG_NM|_TRK_CP|_TRK_IK|_TRK_IKWDRS|_TRK_IKWDG|_TRK_MVT1|_TRK_MVT2|_TRK_MVT3|_TRK_CNTR|_TRK_LCTN|_TRK_CMPN|_TRK_UVP1|_TRK_UVP2|_TRK_UVP3|_TRK_UVP4|_TRK_UVP5|_TRK_SX|_TRK_AG|_TRK_ID|_TRK_MBR|_TRK_MMCD|_TRK_MMLVL|_TRK_ISLOGIN|_TRK_DU|_TRK_ERR_CD|".indexOf("|"+trk_env[0]+"|") >= 0) {  _trk_set_env(trk_env[0], trk_env[1]); }else if( trk_env.length >= 2 &&"|_TRK_DU|".indexOf("|"+trk_env[0]+"|") >= 0) {  /* ONLY DU */  var tempDU = "";  for( var tix = 1; tix < trk_env.length; tix++ ){  if( tix > 1 ){ tempDU = ( tempDU + "=" );  } tempDU = ( tempDU + trk_env[tix] );  }  _trk_set_env(trk_env[0], tempDU); }else if(trk_env.length == 2 && "|_TRK_PN|_TRK_MF|_TRK_OA|_TRK_OP|_TRK_OE|_TRK_CC|_TRK_RK|".indexOf("|"+trk_env[0]+"|") >= 0) {  if(trk_env[0] == "_TRK_PN" ){ _trk_set_env("_TRK_PNC_NM", trk_env[1]); } else if(trk_env[0] == "_TRK_MF"){ _trk_set_env("_TRK_PNG", trk_env[1]); } else if(trk_env[0] == "_TRK_OA"){ _trk_set_env("_TRK_AMT", trk_env[1]); } else if(trk_env[0] == "_TRK_OP"){ _trk_set_env("_TRK_PNC", trk_env[1]); } else if(trk_env[0] == "_TRK_OE"){ _trk_set_env("_TRK_EA", trk_env[1]); } else if(trk_env[0] == "_TRK_CC"){ _trk_set_env("_TRK_OCMP", trk_env[1]); }  else if(trk_env[0] == "_TRK_RK"){ _trk_set_env("_TRK_ID", trk_env[1]); } } } } _trk_send_request();}function _trk_set_env(_name, _value) { var _TRK_S_LIFE=30*60*1000; var _tm=new Date; var _tp=_tm.getTime(); var _tpp=Math.floor(_tp/1000,0)*1000; var exp=parseInt(_tpp+_TRK_S_LIFE)/1000; if(_name == "_TRK_OCMP") { _TRK_OCMP = _value; _las.sc("_TRK_OCMP", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_OCMP_NM") { _TRK_OCMP_NM = _value; } else if(_name == "_TRK_OCMP_PS") { _TRK_OCMP_PS = _value; } else if(_name == "_TRK_OCMP_PE") { _TRK_OCMP_PE = _value; } else if(_name == "_TRK_OCMP_AMT") { _TRK_OCMP_AMT = _value; } else if(_name == "_TRK_ICMP") { _TRK_ICMP = _value; _las.sc("_TRK_ICMP", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_ICMP_NM") { _TRK_ICMP_NM = _value; } else if(_name == "_TRK_ICMP_PS") { _TRK_ICMP_PS = _value; } else if(_name == "_TRK_ICMP_PE") { _TRK_ICMP_PE = _value; } else if(_name == "_TRK_ICMP_AMT") { _TRK_ICMP_AMT = _value; } else if(_name == "_TRK_CMP_ATRC_1") { _TRK_CMP_ATRC_1 = _value; } else if(_name == "_TRK_CMP_ATRC_2") { _TRK_CMP_ATRC_2 = _value; } else if(_name == "_TRK_CMP_ATRC_3") { _TRK_CMP_ATRC_3 = _value; } else if(_name == "_TRK_CMP_ATRC_4") { _TRK_CMP_ATRC_4 = _value; } else if(_name == "_TRK_CMP_ATRC_5") { _TRK_CMP_ATRC_5 = _value; } else if(_name == "_TRK_CMP_ATRC_6") { _TRK_CMP_ATRC_6 = _value; } else if(_name == "_TRK_CMP_ATRC_7") { _TRK_CMP_ATRC_7 = _value; } else if(_name == "_TRK_CMP_ATRC_8") { _TRK_CMP_ATRC_8 = _value; } else if(_name == "_TRK_CMP_ATRC_9") { _TRK_CMP_ATRC_9 = _value; } else if(_name == "_TRK_CMP_ATRC_10") { _TRK_CMP_ATRC_10 = _value; } else if(_name == "_TRK_CMP_ATRN_1") { _TRK_CMP_ATRN_1 = _value; } else if(_name == "_TRK_CMP_ATRN_2") { _TRK_CMP_ATRN_2 = _value; } else if(_name == "_TRK_CMP_ATRN_3") { _TRK_CMP_ATRN_3 = _value; } else if(_name == "_TRK_CMP_ATRN_4") { _TRK_CMP_ATRN_4 = _value; } else if(_name == "_TRK_CMP_ATRN_5") { _TRK_CMP_ATRN_5 = _value; } else if(_name == "_TRK_CMP_ATRN_6") { _TRK_CMP_ATRN_6 = _value; } else if(_name == "_TRK_CMP_ATRN_7") { _TRK_CMP_ATRN_7 = _value; } else if(_name == "_TRK_CMP_ATRN_8") { _TRK_CMP_ATRN_8 = _value; } else if(_name == "_TRK_CMP_ATRN_9") { _TRK_CMP_ATRN_9 = _value; } else if(_name == "_TRK_CMP_ATRN_10") { _TRK_CMP_ATRN_10 = _value; } else if(_name == "_TRK_OAD") { _TRK_OAD = _value; _las.sc("_TRK_OAD", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_OAD_NM") { _TRK_OAD_NM = _value; } else if(_name == "_TRK_OAD_PS") { _TRK_OAD_PS = _value; } else if(_name == "_TRK_OAD_PE") { _TRK_OAD_PE = _value; } else if(_name == "_TRK_OAD_AMT") { _TRK_OAD_AMT = _value; } else if(_name == "_TRK_IAD") { _TRK_IAD = _value; _las.sc("_TRK_IAD", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_IAD_NM") { _TRK_IAD_NM = _value; } else if(_name == "_TRK_IAD_PS") { _TRK_IAD_PS = _value; } else if(_name == "_TRK_IAD_PE") { _TRK_IAD_PE = _value; } else if(_name == "_TRK_IAD_AMT") { _TRK_IAD_AMT = _value; } else if(_name == "_TRK_AD_ATRC_1") { _TRK_AD_ATRC_1 = _value; } else if(_name == "_TRK_AD_ATRC_2") { _TRK_AD_ATRC_2 = _value; } else if(_name == "_TRK_AD_ATRC_3") { _TRK_AD_ATRC_3 = _value; } else if(_name == "_TRK_AD_ATRC_4") { _TRK_AD_ATRC_4 = _value; } else if(_name == "_TRK_AD_ATRC_5") { _TRK_AD_ATRC_5 = _value; } else if(_name == "_TRK_AD_ATRC_6") { _TRK_AD_ATRC_6 = _value; } else if(_name == "_TRK_AD_ATRC_7") { _TRK_AD_ATRC_7 = _value; } else if(_name == "_TRK_AD_ATRC_8") { _TRK_AD_ATRC_8 = _value; } else if(_name == "_TRK_AD_ATRC_9") { _TRK_AD_ATRC_9 = _value; } else if(_name == "_TRK_AD_ATRC_10") { _TRK_AD_ATRC_10 = _value; } else if(_name == "_TRK_AD_ATRN_1") { _TRK_AD_ATRN_1 = _value; } else if(_name == "_TRK_AD_ATRN_2") { _TRK_AD_ATRN_2 = _value; } else if(_name == "_TRK_AD_ATRN_3") { _TRK_AD_ATRN_3 = _value; } else if(_name == "_TRK_AD_ATRN_4") { _TRK_AD_ATRN_4 = _value; } else if(_name == "_TRK_AD_ATRN_5") { _TRK_AD_ATRN_5 = _value; } else if(_name == "_TRK_AD_ATRN_6") { _TRK_AD_ATRN_6 = _value; } else if(_name == "_TRK_AD_ATRN_7") { _TRK_AD_ATRN_7 = _value; } else if(_name == "_TRK_AD_ATRN_8") { _TRK_AD_ATRN_8 = _value; } else if(_name == "_TRK_AD_ATRN_9") { _TRK_AD_ATRN_9 = _value; } else if(_name == "_TRK_AD_ATRN_10") { _TRK_AD_ATRN_10 = _value; } else if(_name == "_TRK_PI") { _TRK_PI = _value; } else if(_name == "_TRK_AMT") { _TRK_AMT = _value; } else if(_name == "_TRK_EA") { _TRK_EA = _value; } else if(_name == "_TRK_ODN") { _TRK_ODN = _value; } else if(_name == "_TRK_G1") { _TRK_G1 = _value; } else if(_name == "_TRK_G2") { _TRK_G2 = _value; } else if(_name == "_TRK_G3") { _TRK_G3 = _value; } else if(_name == "_TRK_G4") { _TRK_G4 = _value; } else if(_name == "_TRK_G5") { _TRK_G5 = _value; } else if(_name == "_TRK_G6") { _TRK_G6 = _value; } else if(_name == "_TRK_G7") { _TRK_G7 = _value; } else if(_name == "_TRK_G8") { _TRK_G8 = _value; } else if(_name == "_TRK_G9") { _TRK_G9 = _value; } else if(_name == "_TRK_G10") { _TRK_G10 = _value; } else if(_name == "_TRK_G11") { _TRK_G11 = _value; } else if(_name == "_TRK_G12") { _TRK_G12 = _value; } else if(_name == "_TRK_G13") { _TRK_G13 = _value; } else if(_name == "_TRK_G14") { _TRK_G14 = _value; } else if(_name == "_TRK_G15") { _TRK_G15 = _value; } else if(_name == "_TRK_G16") { _TRK_G16 = _value; } else if(_name == "_TRK_G17") { _TRK_G17 = _value; } else if(_name == "_TRK_G18") { _TRK_G18 = _value; } else if(_name == "_TRK_G19") { _TRK_G19 = _value; } else if(_name == "_TRK_G20") { _TRK_G20 = _value; } else if(_name == "_TRK_G21") { _TRK_G21 = _value; } else if(_name == "_TRK_G22") { _TRK_G22 = _value; } else if(_name == "_TRK_G23") { _TRK_G23 = _value; } else if(_name == "_TRK_G24") { _TRK_G24 = _value; } else if(_name == "_TRK_G25") { _TRK_G25 = _value; } else if(_name == "_TRK_G26") { _TRK_G26 = _value; } else if(_name == "_TRK_G27") { _TRK_G27 = _value; } else if(_name == "_TRK_G28") { _TRK_G28 = _value; } else if(_name == "_TRK_G29") { _TRK_G29 = _value; } else if(_name == "_TRK_G30") { _TRK_G30 = _value; } else if(_name == "_TRK_PNC") { _TRK_PNC = _value; } else if(_name == "_TRK_PNC_SUB_TP") { _TRK_PNC_SUB_TP = _value; } else if(_name == "_TRK_PNC_NM") { _TRK_PNC_NM = _value; } else if(_name == "_TRK_PNC_ATRC_1") { _TRK_PNC_ATRC_1 = _value; } else if(_name == "_TRK_PNC_ATRC_2") { _TRK_PNC_ATRC_2 = _value; } else if(_name == "_TRK_PNC_ATRC_3") { _TRK_PNC_ATRC_3 = _value; } else if(_name == "_TRK_PNC_ATRC_4") { _TRK_PNC_ATRC_4 = _value; } else if(_name == "_TRK_PNC_ATRC_5") { _TRK_PNC_ATRC_5 = _value; } else if(_name == "_TRK_PNC_ATRC_6") { _TRK_PNC_ATRC_6 = _value; } else if(_name == "_TRK_PNC_ATRC_7") { _TRK_PNC_ATRC_7 = _value; } else if(_name == "_TRK_PNC_ATRC_8") { _TRK_PNC_ATRC_8 = _value; } else if(_name == "_TRK_PNC_ATRC_9") { _TRK_PNC_ATRC_9 = _value; } else if(_name == "_TRK_PNC_ATRC_10") { _TRK_PNC_ATRC_10 = _value; } else if(_name == "_TRK_PNC_ATRN_1") { _TRK_PNC_ATRN_1 = _value; } else if(_name == "_TRK_PNC_ATRN_2") { _TRK_PNC_ATRN_2 = _value; } else if(_name == "_TRK_PNC_ATRN_3") { _TRK_PNC_ATRN_3 = _value; } else if(_name == "_TRK_PNC_ATRN_4") { _TRK_PNC_ATRN_4 = _value; } else if(_name == "_TRK_PNC_ATRN_5") { _TRK_PNC_ATRN_5 = _value; } else if(_name == "_TRK_PNC_ATRN_6") { _TRK_PNC_ATRN_6 = _value; } else if(_name == "_TRK_PNC_ATRN_7") { _TRK_PNC_ATRN_7 = _value; } else if(_name == "_TRK_PNC_ATRN_8") { _TRK_PNC_ATRN_8 = _value; } else if(_name == "_TRK_PNC_ATRN_9") { _TRK_PNC_ATRN_9 = _value; } else if(_name == "_TRK_PNC_ATRN_10") { _TRK_PNC_ATRN_10 = _value; } else if(_name == "_TRK_PNG") { _TRK_PNG = _value; } else if(_name == "_TRK_PNG_NM") { _TRK_PNG_NM = _value; } else if(_name == "_TRK_CP") { _TRK_CP = _value; } else if(_name == "_TRK_IK") { _TRK_IK = _value; } else if(_name == "_TRK_IKWDRS") { _TRK_IKWDRS = _value; } else if(_name == "_TRK_IKWDG") { _TRK_IKWDG = _value; } else if(_name == "_TRK_MVT1") { _TRK_MVT1 = _value; } else if(_name == "_TRK_MVT2") { _TRK_MVT2 = _value; } else if(_name == "_TRK_MVT3") { _TRK_MVT3 = _value; } else if(_name == "_TRK_CNTR") { _TRK_CNTR = _value; _las.sc("_TRK_CNTR", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_LCTN") { _TRK_LCTN = _value; _las.sc("_TRK_LCTN", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_CMPN") { _TRK_CMPN = _value; _las.sc("_TRK_CMPN", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_UVP1") { _TRK_UVP1 = _value; _las.sc("_TRK_UVP1", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_UVP2") { _TRK_UVP2 = _value; _las.sc("_TRK_UVP2", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_UVP3") { _TRK_UVP3 = _value; _las.sc("_TRK_UVP3", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_UVP4") { _TRK_UVP4 = _value; _las.sc("_TRK_UVP4", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_UVP5") { _TRK_UVP5 = _value; _las.sc("_TRK_UVP5", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_SX") { _TRK_SX = _value; _las.sc("_TRK_SX", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_AG") { _TRK_AG = _value; _las.sc("_TRK_AG", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_ID") { _TRK_ID = _value; } else if(_name == "_TRK_MBR") { _TRK_MBR = _value; _las.sc("_TRK_MBR", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_MMCD") { _TRK_MMCD = _value; _las.sc("_TRK_MMCD", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_MMLVL") { _TRK_MMLVL = _value; _las.sc("_TRK_MMLVL", _value, exp, _TRK_DOMAIN); } else if(_name == "_TRK_ISLOGIN") { _TRK_ISLOGIN = _value; } else if(_name == "_TRK_DU") { _TRK_DU = _value; } else if(_name == "_TRK_ERR_CD") { _TRK_ERR_CD = _value; }}function _trk_set_env_cp_pi(_cp, _pi) { if((typeof _cp)!="undefined" && _cp!="") _trk_set_env("_TRK_CP", _cp); if((typeof _pi)!="undefined" && _pi!="") _trk_set_env("_TRK_PI", _pi);}function _trk_set_env_member(_sx, _ag, _uvp1, _uvp2) { _trk_set_env("_TRK_MBR", "Y"); if((typeof _sx)!="undefined" && _sx!="") _trk_set_env("_TRK_SX", _sx); if((typeof _ag)!="undefined" && _ag!="") _trk_set_env("_TRK_AG", _ag); if((typeof _uvp1)!="undefined" && _uvp1!="") _trk_set_env("_TRK_UVP1", _uvp1); if((typeof _uvp2)!="undefined" && _uvp2!="") _trk_set_env("_TRK_UVP2", _uvp2);}var _scF;var _MF;var aDF;function _trk_send_request() { _scF=_lxmc(_las.dm,_las.trU); _MF=_las.cIi(); aDF=_las.d; if(_las.bjs12==true) { if(_las.bmsie){ _MF.src=_scF; }else{ setTimeout(function(){_MF.src=_scF;},1); } }else{ if(_las.bmsie) aDF.write(unescape('%3Cdiv style=\"display: none\"%3E')); aDF.write(unescape('%3Cimg src=\"'+_scF+'\" height=\"0\" width=\"0\"%3E')); if(_las.bmsie) aDF.write(unescape('%3C/div%3E')); } _trk_sweep_env();}function _trk_sweep_env() { _TRK_OCMP_NM = ""; _TRK_OCMP_PS = ""; _TRK_OCMP_PE = ""; _TRK_OCMP_AMT = ""; _TRK_ICMP_NM = ""; _TRK_ICMP_PS = ""; _TRK_ICMP_PE = ""; _TRK_ICMP_AMT = ""; _TRK_CMP_ATRC_1 = ""; _TRK_CMP_ATRC_2 = ""; _TRK_CMP_ATRC_3 = ""; _TRK_CMP_ATRC_4 = ""; _TRK_CMP_ATRC_5 = ""; _TRK_CMP_ATRC_6 = ""; _TRK_CMP_ATRC_7 = ""; _TRK_CMP_ATRC_8 = ""; _TRK_CMP_ATRC_9 = ""; _TRK_CMP_ATRC_10 = ""; _TRK_CMP_ATRN_1 = ""; _TRK_CMP_ATRN_2 = ""; _TRK_CMP_ATRN_3 = ""; _TRK_CMP_ATRN_4 = ""; _TRK_CMP_ATRN_5 = ""; _TRK_CMP_ATRN_6 = ""; _TRK_CMP_ATRN_7 = ""; _TRK_CMP_ATRN_8 = ""; _TRK_CMP_ATRN_9 = ""; _TRK_CMP_ATRN_10 = ""; _TRK_OAD_NM = ""; _TRK_OAD_PS = ""; _TRK_OAD_PE = ""; _TRK_OAD_AMT = ""; _TRK_IAD_NM = ""; _TRK_IAD_PS = ""; _TRK_IAD_PE = ""; _TRK_IAD_AMT = ""; _TRK_AD_ATRC_1 = ""; _TRK_AD_ATRC_2 = ""; _TRK_AD_ATRC_3 = ""; _TRK_AD_ATRC_4 = ""; _TRK_AD_ATRC_5 = ""; _TRK_AD_ATRC_6 = ""; _TRK_AD_ATRC_7 = ""; _TRK_AD_ATRC_8 = ""; _TRK_AD_ATRC_9 = ""; _TRK_AD_ATRC_10 = ""; _TRK_AD_ATRN_1 = ""; _TRK_AD_ATRN_2 = ""; _TRK_AD_ATRN_3 = ""; _TRK_AD_ATRN_4 = ""; _TRK_AD_ATRN_5 = ""; _TRK_AD_ATRN_6 = ""; _TRK_AD_ATRN_7 = ""; _TRK_AD_ATRN_8 = ""; _TRK_AD_ATRN_9 = ""; _TRK_AD_ATRN_10 = ""; _TRK_PI = ""; _TRK_AMT = ""; _TRK_EA = ""; _TRK_ODN = ""; _TRK_G1 = ""; _TRK_G2 = ""; _TRK_G3 = ""; _TRK_G4 = ""; _TRK_G5 = ""; _TRK_G6 = ""; _TRK_G7 = ""; _TRK_G8 = ""; _TRK_G9 = ""; _TRK_G10 = ""; _TRK_G11 = ""; _TRK_G12 = ""; _TRK_G13 = ""; _TRK_G14 = ""; _TRK_G15 = ""; _TRK_G16 = ""; _TRK_G17 = ""; _TRK_G18 = ""; _TRK_G19 = ""; _TRK_G20 = ""; _TRK_G21 = ""; _TRK_G22 = ""; _TRK_G23 = ""; _TRK_G24 = ""; _TRK_G25 = ""; _TRK_G26 = ""; _TRK_G27 = ""; _TRK_G28 = ""; _TRK_G29 = ""; _TRK_G30 = ""; _TRK_PNC = ""; _TRK_PNC_SUB_TP = ""; _TRK_PNC_NM = ""; _TRK_PNC_ATRC_1 = ""; _TRK_PNC_ATRC_2 = ""; _TRK_PNC_ATRC_3 = ""; _TRK_PNC_ATRC_4 = ""; _TRK_PNC_ATRC_5 = ""; _TRK_PNC_ATRC_6 = ""; _TRK_PNC_ATRC_7 = ""; _TRK_PNC_ATRC_8 = ""; _TRK_PNC_ATRC_9 = ""; _TRK_PNC_ATRC_10 = ""; _TRK_PNC_ATRN_1 = ""; _TRK_PNC_ATRN_2 = ""; _TRK_PNC_ATRN_3 = ""; _TRK_PNC_ATRN_4 = ""; _TRK_PNC_ATRN_5 = ""; _TRK_PNC_ATRN_6 = ""; _TRK_PNC_ATRN_7 = ""; _TRK_PNC_ATRN_8 = ""; _TRK_PNC_ATRN_9 = ""; _TRK_PNC_ATRN_10 = ""; _TRK_PNG = ""; _TRK_PNG_NM = ""; _TRK_CP = ""; _TRK_IK = ""; _TRK_IKWDRS = ""; _TRK_IKWDG = ""; _TRK_MVT1 = ""; _TRK_MVT2 = ""; _TRK_MVT3 = ""; _TRK_ID = ""; _TRK_DU = ""; _TRK_ERR_CD = ""; /*LOGGER VALUES*/ _TRK_PN = ""; _TRK_MF = ""; _TRK_OA = ""; _TRK_OP = ""; _TRK_OE = ""; _TRK_CC = ""; _TRK_RK = ""; }function getGuuidForBizspringInsight(skeletonUrl, callback) { try{ var callbackName = 'insightTracker_callback_' + Math.round(100000 * Math.random()); window[callbackName] = function(data) { try{delete window[callbackName];}catch(sTrkErr){}  document.body.removeChild(script);  callback(data);  };  var script = document.createElement('script'); script.src = skeletonUrl + (skeletonUrl.indexOf('?') >= 0 ? '&' : '?') + 'callback=' + callbackName; document.body.appendChild(script); }catch(trkEr1){ guuid = uuid;  execForBizTracker(); } }/*X*//* END OF ADDITIONAL TRACKING FUNCTION SCRIPT FOR FLASH */
+/* INSIGHT TRACKING BASIC SCRIPT V.5*//*X*/ function _trk_clickTrace(_TRK_CKFL,_TRK_CKDATA){ var _ctc="",L=_las; var _tcc=_lxmc(_las.dm,_las.ciU); if((typeof _TRK_CKFL)!="undefined" && _TRK_CKFL!="") _ctc=_ctc+ApsndCr+"cktype="+_TRK_CKFL; if((typeof _TRK_CKDATA)!="undefined" && _TRK_CKDATA!="") _ctc=_ctc+ApsndCr+"ckdata="+L.ec(_TRK_CKDATA); _tcc=_tcc+_ctc; _CtM.src=_tcc;} var _TRK_OCMP_C = _las.gc("_TRK_OCMP");var _TRK_OCMP_P = _las.gp("_OC_");if( _TRK_OCMP_P == "" ){ _TRK_OCMP_P=_las.gp("_C_"); }if((typeof _TRK_OCMP)!="undefined" && _TRK_OCMP!="") _TRK_OCMP_P=_TRK_OCMP;if(_TRK_OCMP_C!="") _TRK_OCMP=_TRK_OCMP_C;if(_TRK_OCMP_P!="") _TRK_OCMP=_TRK_OCMP_P;if(_TRK_OCMP_C!="") _las.rc("_TRK_OCMP");var _TRK_ICMP_C = _las.gc("_TRK_ICMP");var _TRK_ICMP_P = _las.gp("_IC_");if((typeof _TRK_ICMP)!="undefined" && _TRK_ICMP!="") _TRK_ICMP_P=_TRK_ICMP;if(_TRK_ICMP_C!="") _TRK_ICMP=_TRK_ICMP_C;if(_TRK_ICMP_P!="") _TRK_ICMP=_TRK_ICMP_P;if(_TRK_ICMP_C!="") _las.rc("_TRK_ICMP");var _TRK_OAD_C = _las.gc("_TRK_OAD");var _TRK_OAD_P = _las.gp("_OA_");if((typeof _TRK_OAD)!="undefined" && _TRK_OAD!="") _TRK_OAD_P=_TRK_OAD;if(_TRK_OAD_C!="") _TRK_OAD=_TRK_OAD_C;if(_TRK_OAD_P!="") _TRK_OAD=_TRK_OAD_P;if(_TRK_OAD_C!="") _las.rc("_TRK_OAD");var _TRK_IS_CK = _las.gc("_TRK_IS_COOKIE"); if( _TRK_IS_CK == "" ){ _TRK_IS_CK = _las.gc("%5FTRK%5FIS%5FCOOKIE"); _las.rc("%5FTRK%5FIS%5FCOOKIE"); } _las.rc("_TRK_IS_COOKIE");var _TRK_CK_ARR = new Array(); if((typeof _TRK_IS_CK) != "undefined" && _TRK_IS_CK != "") { _TRK_CK_ARR = _TRK_IS_CK.replace(/\"/g,"").split("^"); }for(var inx = 0; inx < _TRK_CK_ARR.length; inx++) {var cookieName = _TRK_CK_ARR[inx].substr(0, _TRK_CK_ARR[inx].indexOf("="));var cookieValue = _TRK_CK_ARR[inx].substr(_TRK_CK_ARR[inx].indexOf("=") + 1); if(((typeof _TRK_PI) == "undefined" || _TRK_PI == "") && cookieName == "_TRK_PI") { _TRK_PI = cookieValue; } if(((typeof _TRK_AMT) == "undefined" || _TRK_AMT == "") && cookieName == "_TRK_AMT") { _TRK_AMT = cookieValue; } if(((typeof _TRK_EA) == "undefined" || _TRK_EA == "") && cookieName == "_TRK_EA") { _TRK_EA = cookieValue; } if(((typeof _TRK_ODN) == "undefined" || _TRK_ODN == "") && cookieName == "_TRK_ODN") { _TRK_ODN = cookieValue; } if(((typeof _TRK_G1 ) == "undefined" || _TRK_G1 == "") && cookieName == "_TRK_G1") { _TRK_G1 = cookieValue; } if(((typeof _TRK_G2 ) == "undefined" || _TRK_G2 == "") && cookieName == "_TRK_G2") { _TRK_G2 = cookieValue; } if(((typeof _TRK_G3 ) == "undefined" || _TRK_G3 == "") && cookieName == "_TRK_G3") { _TRK_G3 = cookieValue; } if(((typeof _TRK_G4 ) == "undefined" || _TRK_G4 == "") && cookieName == "_TRK_G4") { _TRK_G4 = cookieValue; } if(((typeof _TRK_G5 ) == "undefined" || _TRK_G5 == "") && cookieName == "_TRK_G5") { _TRK_G5 = cookieValue; } if(((typeof _TRK_G6 ) == "undefined" || _TRK_G6 == "") && cookieName == "_TRK_G6") { _TRK_G6 = cookieValue; } if(((typeof _TRK_G7 ) == "undefined" || _TRK_G7 == "") && cookieName == "_TRK_G7") { _TRK_G7 = cookieValue; } if(((typeof _TRK_G8 ) == "undefined" || _TRK_G8 == "") && cookieName == "_TRK_G8") { _TRK_G8 = cookieValue; } if(((typeof _TRK_G9 ) == "undefined" || _TRK_G9 == "") && cookieName == "_TRK_G9") { _TRK_G9 = cookieValue; } if(((typeof _TRK_G10) == "undefined" || _TRK_G10 == "") && cookieName == "_TRK_G10") { _TRK_G10 = cookieValue; } if(((typeof _TRK_G11) == "undefined" || _TRK_G11 == "") && cookieName == "_TRK_G11") { _TRK_G11 = cookieValue; } if(((typeof _TRK_G12) == "undefined" || _TRK_G12 == "") && cookieName == "_TRK_G12") { _TRK_G12 = cookieValue; } if(((typeof _TRK_G13) == "undefined" || _TRK_G13 == "") && cookieName == "_TRK_G13") { _TRK_G13 = cookieValue; } if(((typeof _TRK_G14) == "undefined" || _TRK_G14 == "") && cookieName == "_TRK_G14") { _TRK_G14 = cookieValue; } if(((typeof _TRK_G15) == "undefined" || _TRK_G15 == "") && cookieName == "_TRK_G15") { _TRK_G15 = cookieValue; } if(((typeof _TRK_G16) == "undefined" || _TRK_G16 == "") && cookieName == "_TRK_G16") { _TRK_G16 = cookieValue; } if(((typeof _TRK_G17) == "undefined" || _TRK_G17 == "") && cookieName == "_TRK_G17") { _TRK_G17 = cookieValue; } if(((typeof _TRK_G18) == "undefined" || _TRK_G18 == "") && cookieName == "_TRK_G18") { _TRK_G18 = cookieValue; } if(((typeof _TRK_G19) == "undefined" || _TRK_G19 == "") && cookieName == "_TRK_G19") { _TRK_G19 = cookieValue; } if(((typeof _TRK_G20) == "undefined" || _TRK_G20 == "") && cookieName == "_TRK_G20") { _TRK_G20 = cookieValue; } if(((typeof _TRK_G21) == "undefined" || _TRK_G21 == "") && cookieName == "_TRK_G21") { _TRK_G21 = cookieValue; } if(((typeof _TRK_G22) == "undefined" || _TRK_G22 == "") && cookieName == "_TRK_G22") { _TRK_G22 = cookieValue; } if(((typeof _TRK_G23) == "undefined" || _TRK_G23 == "") && cookieName == "_TRK_G23") { _TRK_G23 = cookieValue; } if(((typeof _TRK_G24) == "undefined" || _TRK_G24 == "") && cookieName == "_TRK_G24") { _TRK_G24 = cookieValue; } if(((typeof _TRK_G25) == "undefined" || _TRK_G25 == "") && cookieName == "_TRK_G25") { _TRK_G25 = cookieValue; } if(((typeof _TRK_G26) == "undefined" || _TRK_G26 == "") && cookieName == "_TRK_G26") { _TRK_G26 = cookieValue; } if(((typeof _TRK_G27) == "undefined" || _TRK_G27 == "") && cookieName == "_TRK_G27") { _TRK_G27 = cookieValue; } if(((typeof _TRK_G28) == "undefined" || _TRK_G28 == "") && cookieName == "_TRK_G28") { _TRK_G28 = cookieValue; } if(((typeof _TRK_G29) == "undefined" || _TRK_G29 == "") && cookieName == "_TRK_G29") { _TRK_G29 = cookieValue; } if(((typeof _TRK_G30) == "undefined" || _TRK_G30 == "") && cookieName == "_TRK_G30") { _TRK_G30 = cookieValue; } if(((typeof _TRK_PNC) == "undefined" || _TRK_PNC == "") && cookieName == "_TRK_PNC") { _TRK_PNC = cookieValue; } if(((typeof _TRK_PNC_SUB_TP) == "undefined" || _TRK_PNC_SUB_TP == "") && cookieName == "_TRK_PNC_SUB_TP") { _TRK_PNC_SUB_TP = cookieValue; } if(((typeof _TRK_PNG) == "undefined" || _TRK_PNG == "") && cookieName == "_TRK_PNG") { _TRK_PNG = cookieValue; } if(((typeof _TRK_CP) == "undefined" || _TRK_CP == "") && cookieName == "_TRK_CP") { _TRK_CP = cookieValue; } if(((typeof _TRK_IK) == "undefined" || _TRK_IK == "") && cookieName == "_TRK_IK") { _TRK_IK = cookieValue; } if(((typeof _TRK_IKWDRS) == "undefined" || _TRK_IKWDRS == "") && cookieName == "_TRK_IKWDRS") { _TRK_IKWDRS = cookieValue; } if(((typeof _TRK_IKWDG) == "undefined" || _TRK_IKWDG == "") && cookieName == "_TRK_IKWDG") { _TRK_IKWDG = cookieValue; } if(((typeof _TRK_MVT1) == "undefined" || _TRK_MVT1 == "") && cookieName == "_TRK_MVT1") { _TRK_MVT1 = cookieValue; } if(((typeof _TRK_MVT2) == "undefined" || _TRK_MVT2 == "") && cookieName == "_TRK_MVT2") { _TRK_MVT2 = cookieValue; } if(((typeof _TRK_MVT3) == "undefined" || _TRK_MVT3 == "") && cookieName == "_TRK_MVT3") { _TRK_MVT3 = cookieValue; } if(((typeof _TRK_CNTR) == "undefined" || _TRK_CNTR == "") && cookieName == "_TRK_CNTR") { _TRK_CNTR = cookieValue; } if(((typeof _TRK_LCTN) == "undefined" || _TRK_LCTN == "") && cookieName == "_TRK_LCTN") { _TRK_LCTN = cookieValue; } if(((typeof _TRK_CMPN) == "undefined" || _TRK_CMPN == "") && cookieName == "_TRK_CMPN") { _TRK_CMPN = cookieValue; } if(((typeof _TRK_UVP1) == "undefined" || _TRK_UVP1 == "") && cookieName == "_TRK_UVP1") { _TRK_UVP1 = cookieValue; } if(((typeof _TRK_UVP2) == "undefined" || _TRK_UVP2 == "") && cookieName == "_TRK_UVP2") { _TRK_UVP2 = cookieValue; } if(((typeof _TRK_UVP3) == "undefined" || _TRK_UVP3 == "") && cookieName == "_TRK_UVP3") { _TRK_UVP3 = cookieValue; } if(((typeof _TRK_UVP4) == "undefined" || _TRK_UVP4 == "") && cookieName == "_TRK_UVP4") { _TRK_UVP4 = cookieValue; } if(((typeof _TRK_UVP5) == "undefined" || _TRK_UVP5 == "") && cookieName == "_TRK_UVP5") { _TRK_UVP5 = cookieValue; } if(((typeof _TRK_SX) == "undefined" || _TRK_SX == "") && cookieName == "_TRK_SX") { _TRK_SX = cookieValue; } if(((typeof _TRK_AG) == "undefined" || _TRK_AG == "") && cookieName == "_TRK_AG") { _TRK_AG = cookieValue; } if(((typeof _TRK_ID) == "undefined" || _TRK_ID == "") && cookieName == "_TRK_ID") { _TRK_ID = cookieValue; } if(((typeof _TRK_MBR) == "undefined" || _TRK_MBR == "") && cookieName == "_TRK_MBR") { _TRK_MBR = cookieValue; } if(((typeof _TRK_MMCD) == "undefined" || _TRK_MMCD == "") && cookieName == "_TRK_MMCD") { _TRK_MMCD = cookieValue; } if(((typeof _TRK_MMLVL) == "undefined" || _TRK_MMLVL == "") && cookieName == "_TRK_MMLVL") { _TRK_MMLVL = cookieValue; } if(((typeof _TRK_ISLOGIN) == "undefined" || _TRK_ISLOGIN == "") && cookieName == "_TRK_ISLOGIN") { _TRK_ISLOGIN = cookieValue; } if(((typeof _TRK_DU) == "undefined" || _TRK_DU == "") && cookieName == "_TRK_DU") { _TRK_DU = cookieValue; } if(((typeof _TRK_ERR_CD) == "undefined" || _TRK_ERR_CD == "") && cookieName == "_TRK_ERR_CD") { _TRK_ERR_CD = cookieValue; }} var _M=_las.cIi();var _CtM=_las.cIi();var aD=_las.d;var _InsightSc="";var _scC="";function execForBizTracker(){ _InsightSc=_lxmc(_las.dm,_las.trU); _scC=_lxmc(_las.dm,_las.czU); if((typeof _TRK_BP) != "undefined" && _TRK_BP == "Y"){ }else if(_las.bjs12==true){ if(_las.bmsie){ _M.src=_InsightSc; }else{ setTimeout(function(){_M.src=_InsightSc;},1); } }else{ if(_las.bmsie) aD.write(unescape('%3Cdiv style=\"display: none\"%3E')); aD.write(unescape('%3Cimg src=\"'+_InsightSc+'\" height=\"0\" width=\"0\"%3E')); if(_las.bmsie) aD.write(unescape('%3C/div%3E')); }}var xdBizTrkUrl = "";var xdBizTrkPrtcl="https://"; if( xdBizTrkPrtcl == "https://"){ xdBizTrkUrl=xdBizTrkPrtcl+_las.sslDm; }else{ xdBizTrkUrl=xdBizTrkPrtcl+_las.dm; } xdBizTrkUrl += '/InsightTrk/guuidSkeleton.do?guuid='+_las.guuidMk()+ "&domain="+document.domain ; getGuuidForBizspringInsight(xdBizTrkUrl, function(data) { guuid = data; execForBizTracker(); }); /*X*//* END OF TRACKING BASIC SCRIPT */
+//]]>-->
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-131078695-1">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131078695-1', { 'anonymize_ip': true });
+  </script>
+  <link href="https://www.yonsei.ac.kr/sc/" rel="canonical"/>
+  <link href="/_res/sc/etc/icon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="/_res/sc/_css/default.css" rel="stylesheet" type="text/css"/>
+  <link href="/_res/sc/_css/board.css" rel="stylesheet" type="text/css"/>
+  <link href="/_res/sc/_css/swiper.min.css" rel="stylesheet" type="text/css"/>
+  <link href="/_res/sc/_css/main.css" rel="stylesheet" type="text/css"/>
+  <link href="/_res/sc/_css/user.css" rel="stylesheet" type="text/css"/>
+  <link href="/_res/sc/_css/new-user.css" rel="stylesheet" type="text/css">
+   <script src="/_res/sc/_js/user/jquery.min.js">
+   </script>
+   <script src="/_res/sc/_js/user/jquery-ui.min.js">
+   </script>
+   <script src="/_res/sc/_js/user/imagesloaded.pkgd.min.js">
+   </script>
+   <script src="/_res/sc/_js/user/swiper.jquery.min.js">
+   </script>
+   <script src="/_res/sc/_js/user/common.js">
+   </script>
+   <script src="/_res/sc/_js/user/main.js">
+   </script>
+   <!--[if lte IE 9]>
+<script type="text/javascript" src="/_res/sc/_js/user/placeholder.js"></script>
+<script type="text/javascript">
+$(function(){$("input, textarea").placeholder()});
+</script>
+<![endif]-->
+   <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/_res/sc/_css/ie8.css">
+<![endif]-->
+   <!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/_res/sc/_css/ie7.css">
+<![endif]-->
+   <script type="text/javascript">
+    var _thisHost = location.protocol+'//'+location.host, _thisUrl = document.location.href,_so_ = false,_cur_menu_cd = '',_edit_content = false,front_page_edit = true,zooInOutMode = 'font',_reouscePath = '/_res/sc/',editorVendor = 'froala',sslYN = 'N',sslPort = '443',servicePort = '',developMode = false,_cfgUseDevMode = false,_siteId = 'sc',printSelector = '#jwxe_main_content',rootPath = '';
+   </script>
+   <script src="/_common/cms.js" type="text/javascript">
+   </script>
+   <script src="/_res/sc/_js/user.js" type="text/javascript">
+   </script>
+   <script src="/_res/sc/_js/user/new-user.js" type="text/javascript">
+   </script>
+   <script src="/_res/sc/_js/user/owl.js" type="text/javascript">
+   </script>
+  </link>
+ </head>
+ <body id="main">
+  <a href="#main01" id="skipnav">
+   본문 바로가기
+  </a>
+  <div id="wrap">
+   <div>
+    <script type="text/javascript">
+     <!--
+
+	cookiedata = document.cookie;    
+	if ( cookiedata.indexOf("sc_main_popup=done") < 0 ){      
+		$("#topbanner").show();
+	 } 
+	 else {
+		 $("#topbanner").hide(); 
+	}
+
+	$(function(){
+		
+		// 닫기
+		$(".inner .popup_close").click(function(){
+			
+			if ( document.getElementById("hide4aday").checked ){ 
+				  setCookie( "sc_main_popup", "done" , 1 ); 
+			}
+			$("#topbanner").hide();
+			
+		});
+		
+		function setCookie( name, value, expiredays ) { 
+			 var todayDate = new Date(); 
+			  todayDate.setDate( todayDate.getDate() + expiredays ); 
+			  document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";" 
+		}
+
+		
+	});
+//-->
+    </script>
+   </div>
+   <div id="header">
+    <!-- header -->
+    <div class="topmenu">
+     <div class="inner">
+      <div class="campus">
+       <a href="#selCampus">
+        신촌·국제
+        <span>
+        </span>
+       </a>
+       <ul id="selCampus">
+        <li>
+         <a href="/sc" onmousedown="_trk_clickTrace( 'EVT', '메인^캠퍼스선택^신촌캠퍼스' );">
+          신촌·국제
+          <span>
+           캠퍼스
+          </span>
+         </a>
+        </li>
+        <li>
+         <a href="/wj" onmousedown="_trk_clickTrace( 'EVT', '메인^캠퍼스선택^미래캠퍼스' );">
+          미래
+          <span>
+           캠퍼스
+          </span>
+         </a>
+        </li>
+        <li>
+         <a href="https://www.yonsein.net/" onmousedown="_trk_clickTrace( 'EVT', '메인^캠퍼스선택^총동문회' );" target="_blank" title="연세대학교 총동문회 사이트 새창 열림">
+          총동문회
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="toggle toggleUtil util">
+       <a class="fc" href="#utilmenu">
+        <span class="ir">
+         유틸메뉴 열기
+        </span>
+       </a>
+       <div class="lt">
+        <strong>
+         유틸메뉴
+        </strong>
+        <button class="close" type="button">
+         유틸메뉴 닫기
+        </button>
+       </div>
+       <div class="inner" id="utilmenu">
+        <a href="/sc/etc/calendar.jsp" onmousedown="_trk_clickTrace( 'EVT', '웹^헤더^연세캘린더' );">
+         연세캘린더
+         <span class="ir">
+         </span>
+        </a>
+        <a href="/sc/etc/faq.jsp" onmousedown="_trk_clickTrace( 'EVT', '웹^헤더^FAQ' );">
+         FAQ
+         <span class="ir">
+         </span>
+        </a>
+        <a class="login" href="/sc/login.jsp">
+         LOGIN
+         <span class="ir">
+         </span>
+        </a>
+        <div class="language">
+         <a href="#selLang">
+          LANGUAGE
+          <span class="ir">
+          </span>
+         </a>
+         <ul id="selLang">
+          <li class="active">
+           <a href="https://www.yonsei.ac.kr/sc/">
+            KOREAN
+           </a>
+          </li>
+          <li>
+           <a href="https://www.yonsei.ac.kr/en_sc/" target="_parent">
+            ENGLISH
+           </a>
+          </li>
+         </ul>
+        </div>
+        <div class="search">
+         <form action="https://ysearch.yonsei.ac.kr/RSA/front/Search.jsp" method="post" name="tSearchForm">
+          <fieldset>
+           <legend>
+            통합검색
+           </legend>
+           <button class="srchBtn" title="통합검색 입력창 열기" type="submit">
+            <span class="ir">
+             통합검색
+            </span>
+           </button>
+           <input class="srchIpt" name="qt" placeholder="검색어를 입력해 주세요." title="검색어를 입력해 주세요." type="text"/>
+          </fieldset>
+         </form>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="gnbwrap">
+     <div class="inner">
+      <h1 class="logo">
+       <a href="/index.jsp">
+        <span class="ir">
+         연세대학교
+        </span>
+       </a>
+      </h1>
+      <!-- 메인 메뉴 인클루드 -->
+      <ul class="gnb">
+       <li class="">
+        <a href="/sc/intro/greeting_2016.jsp">
+         <span>
+          <span>
+           연세소개
+          </span>
+         </span>
+        </a>
+        <div class="menuwrap">
+         <div class="inner">
+          <ul>
+           <li>
+            <a href="/sc/intro/greeting_2016.jsp">
+             열린총장실
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_248">
+              <a href="/sc/intro/greeting_2016.jsp">
+               <span>
+               </span>
+               인사말/프로필
+              </a>
+             </li>
+             <li class="2dep_249">
+              <a href="/sc/intro/speech.jsp">
+               <span>
+               </span>
+               연설문
+              </a>
+             </li>
+             <li class="2dep_250">
+              <a href="/sc/intro/sympathy.jsp">
+               <span>
+               </span>
+               동정
+              </a>
+             </li>
+             <li class="2dep_251">
+              <a href="/sc/intro/president1.jsp">
+               <span>
+               </span>
+               역대총장
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="https://www.yonsei.ac.kr/sc/intro/ideology.jsp">
+             연세비전
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_253">
+              <a href="/sc/intro/ideology.jsp">
+               <span>
+               </span>
+               건학정신, 연세이념
+              </a>
+             </li>
+             <li class="2dep_4879">
+              <a href="/sc/intro/vision-yonsei.jsp">
+               <span>
+               </span>
+               VISION-YONSEI 150
+              </a>
+             </li>
+             <li class="2dep_4880">
+              <a href="/sc/vision-declaration.jsp">
+               <span>
+               </span>
+               비전선언문
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/intro/history1.jsp">
+             연세연혁
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_626">
+              <a href="/sc/intro/history1.jsp">
+               <span>
+               </span>
+               연세의 발자취
+              </a>
+             </li>
+             <li class="2dep_627">
+              <a href="/sc/intro/history2.jsp">
+               <span>
+               </span>
+               연표
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/intro/pressrel.jsp">
+             미디어센터
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_256">
+              <a href="/sc/intro/pressrel.jsp">
+               <span>
+               </span>
+               보도자료
+              </a>
+             </li>
+             <li class="2dep_3543">
+              <a href="/sc/intro/pressrel_exp.jsp">
+               <span>
+               </span>
+               사실은 이렇습니다
+              </a>
+             </li>
+             <li class="2dep_257">
+              <a href="/sc/intro/media1.jsp">
+               <span>
+               </span>
+               언론 속 연세
+              </a>
+             </li>
+             <li class="2dep_2059">
+              <a href="/sc/intro/promotionvideo.jsp">
+               <span>
+               </span>
+               홍보갤러리
+              </a>
+             </li>
+             <li class="2dep_2077">
+              <a href="/sc/intro/smedia.jsp">
+               <span>
+               </span>
+               소셜미디어
+              </a>
+             </li>
+             <li class="2dep_261">
+              <a href="/sc/intro/ymedia.jsp">
+               <span>
+               </span>
+               학생언론
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/intro/status1_1510.jsp">
+             대학현황
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_263">
+              <a href="/sc/intro/status1_1510.jsp">
+               <span>
+               </span>
+               현황
+              </a>
+             </li>
+             <li class="2dep_264">
+              <a href="/sc/intro/evaluation1.jsp">
+               <span>
+               </span>
+               평가
+              </a>
+             </li>
+             <li class="2dep_265">
+              <a href="/sc/intro/share1.jsp">
+               <span>
+               </span>
+               나눔활동
+              </a>
+             </li>
+             <li class="2dep_266">
+              <a href="/sc/intro/endowedschool2.jsp">
+               <span>
+               </span>
+               학교법인
+              </a>
+             </li>
+             <li class="2dep_2866">
+              <a href="/sc/intro/senate1.jsp">
+               <span>
+               </span>
+               대학평의원회
+              </a>
+             </li>
+             <li class="2dep_267">
+              <a href="/sc/intro/orchart2016_1.jsp">
+               <span>
+               </span>
+               조직도
+              </a>
+             </li>
+             <li class="2dep_2094">
+              <a href="https://rules.yonsei.ac.kr/" target="_blank">
+               <span>
+               </span>
+               규정집
+              </a>
+             </li>
+             <li class="2dep_4175">
+              <a href="/sc/intro/opensharedcampus.jsp">
+               <span>
+               </span>
+               연세대-POSTECH 개방·공유캠퍼스
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/intro/symbol2.jsp">
+             연세상징
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_583">
+              <a href="/sc/intro/symbol2.jsp">
+               <span>
+               </span>
+               상징
+              </a>
+             </li>
+             <li class="2dep_584">
+              <a href="/sc/intro/symbol3.jsp">
+               <span>
+               </span>
+               UI
+              </a>
+             </li>
+             <li class="2dep_4905">
+              <a href="/sc/intro/UI-history.jsp">
+               <span>
+               </span>
+               UI 연대기
+              </a>
+             </li>
+             <li class="2dep_585">
+              <a href="/sc/intro/symbol-135.jsp">
+               <span>
+               </span>
+               기념엠블렘
+              </a>
+             </li>
+             <li class="2dep_586">
+              <a href="/sc/intro/symbol10.jsp">
+               <span>
+               </span>
+               노래
+              </a>
+             </li>
+             <li class="2dep_587">
+              <a href="/sc/intro/symbol11.jsp">
+               <span>
+               </span>
+               구호
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/intro/campus1.jsp">
+             캠퍼스안내
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_269">
+              <a href="/sc/intro/campus1.jsp">
+               <span>
+               </span>
+               캠퍼스소개
+              </a>
+             </li>
+             <li class="2dep_4871">
+              <a href="https://www.yonsei.ac.kr/yonsei_univ/index.html" target="_blank">
+               <span>
+               </span>
+               캠퍼스 VR
+              </a>
+             </li>
+             <li class="2dep_270">
+              <a href="/sc/intro/guide.jsp">
+               <span>
+               </span>
+               캠퍼스가이드
+              </a>
+             </li>
+             <li class="2dep_588">
+              <a href="/sc/intro/building2016.jsp">
+               <span>
+               </span>
+               건물과 길
+              </a>
+             </li>
+             <li class="2dep_271">
+              <a href="/sc/intro/visit1.jsp">
+               <span>
+               </span>
+               캠퍼스 견학코스 안내
+              </a>
+             </li>
+             <li class="2dep_272">
+              <a href="/sc/intro/trip_request.jsp">
+               <span>
+               </span>
+               캠퍼스 견학/신청
+              </a>
+             </li>
+             <li class="2dep_273">
+              <a href="/sc/intro/outreach.jsp">
+               <span>
+               </span>
+               학생홍보대사
+              </a>
+             </li>
+             <li class="2dep_274">
+              <a href="/sc/intro/phone.jsp">
+               <span>
+               </span>
+               교내전화번호
+              </a>
+             </li>
+             <li class="2dep_275">
+              <a href="/sc/intro/website.jsp">
+               <span>
+               </span>
+               교내홈페이지
+              </a>
+             </li>
+             <li class="2dep_276">
+              <a href="/sc/intro/directions1.jsp">
+               <span>
+               </span>
+               학교오시는길
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <button class="close" type="button">
+           <img alt="메뉴 닫기" src="/_res/sc/img/common/btn_gnbclose.png"/>
+          </button>
+         </div>
+        </div>
+       </li>
+       <li class="">
+        <a href="/sc/research/research.jsp">
+         <span>
+          <span>
+           연구·산학
+          </span>
+         </span>
+        </a>
+        <div class="menuwrap">
+         <div class="inner">
+          <ul>
+           <li>
+            <a href="/sc/research/research.jsp">
+             연구활동
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_5221">
+              <a href="/sc/research/research-statistics.jsp">
+               <span>
+               </span>
+               연구성과 통계
+              </a>
+             </li>
+             <li class="2dep_5222">
+              <a href="/sc/research/research-magazine.jsp">
+               <span>
+               </span>
+               연세리서치매거진
+              </a>
+             </li>
+             <li class="2dep_5223">
+              <a href="https://yonsei.pure.elsevier.com" target="_blank">
+               <span>
+               </span>
+               연구자 연구정보(PURE)
+              </a>
+             </li>
+             <li class="2dep_5284">
+              <a href="https://yscholarhub.yonsei.ac.kr/" target="_blank">
+               <span>
+               </span>
+               대학원생 연구정보(Y-Scholar Hub)
+              </a>
+             </li>
+             <li class="2dep_5224">
+              <a href="/sc/research/research-site.jsp">
+               <span>
+               </span>
+               관련사이트
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/research/achieve.jsp">
+             개별연구자성과
+             <span>
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="/sc/research/lab_intro.jsp">
+             연구기관
+             <span>
+             </span>
+            </a>
+           </li>
+          </ul>
+          <button class="close" type="button">
+           <img alt="메뉴 닫기" src="/_res/sc/img/common/btn_gnbclose.png"/>
+          </button>
+         </div>
+        </div>
+       </li>
+       <li class="">
+        <a href="/sc/admission/admission.jsp">
+         <span>
+          <span>
+           입학·교육
+          </span>
+         </span>
+        </a>
+        <div class="menuwrap">
+         <div class="inner">
+          <ul>
+           <li>
+            <a href="/sc/admission/admission.jsp">
+             입학안내
+             <span>
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="/sc/admission/dep.jsp">
+             대학
+             <span>
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="/sc/admission/gradeintro.jsp">
+             대학원
+             <span>
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="/sc/admission/gradeprocess.jsp">
+             비학위과정
+             <span>
+             </span>
+            </a>
+           </li>
+          </ul>
+          <button class="close" type="button">
+           <img alt="메뉴 닫기" src="/_res/sc/img/common/btn_gnbclose.png"/>
+          </button>
+         </div>
+        </div>
+       </li>
+       <li class="">
+        <a href="/sc/support/notice.jsp">
+         <span>
+          <span>
+           대학생활
+          </span>
+         </span>
+        </a>
+        <div class="menuwrap">
+         <div class="inner">
+          <ul>
+           <li>
+            <a href="/sc/support/notice.jsp">
+             대학공지
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_311">
+              <a href="/sc/support/notice.jsp">
+               <span>
+               </span>
+               공지사항
+              </a>
+             </li>
+             <li class="2dep_671">
+              <a href="/sc/support/etc_notice.jsp">
+               <span>
+               </span>
+               외부기관공고
+              </a>
+             </li>
+             <li class="2dep_4868">
+              <a href="/sc/support/corona_notice.jsp">
+               <span>
+               </span>
+               코로나19관련 공지사항
+              </a>
+             </li>
+             <li class="2dep_4873">
+              <a href="/sc/president-notice.jsp">
+               <span>
+               </span>
+               연세가족 여러분들께
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/campus/department.jsp">
+             행정부서/기관
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_286">
+              <a href="/sc/campus/department.jsp">
+               <span>
+               </span>
+               행정부서
+              </a>
+             </li>
+             <li class="2dep_287">
+              <a href="/sc/campus/affiliated1.jsp">
+               <span>
+               </span>
+               부속기관
+              </a>
+             </li>
+             <li class="2dep_288">
+              <a href="/sc/campus/univer_aff1.jsp">
+               <span>
+               </span>
+               대학·대학원소속부속기관
+              </a>
+             </li>
+             <li class="2dep_289">
+              <a href="/sc/campus/affiliated_education.jsp">
+               <span>
+               </span>
+               부속교육기관
+              </a>
+             </li>
+             <li class="2dep_290">
+              <a href="/sc/campus/affiliated_etc.jsp">
+               <span>
+               </span>
+               기타기관
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/campus/facility1.jsp">
+             서비스이용안내
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_280">
+              <a href="/sc/campus/facility1.jsp">
+               <span>
+               </span>
+               IT시설
+              </a>
+             </li>
+             <li class="2dep_281">
+              <a href="/sc/campus/welfare1.jsp">
+               <span>
+               </span>
+               복지/체육시설
+              </a>
+             </li>
+             <li class="2dep_282">
+              <a href="/sc/campus/traffic1.jsp">
+               <span>
+               </span>
+               교통
+              </a>
+             </li>
+             <li class="2dep_283">
+              <a href="/sc/campus/convenience1.jsp">
+               <span>
+               </span>
+               편의시설
+              </a>
+             </li>
+             <li class="2dep_284">
+              <a href="/sc/campus/parking2.jsp">
+               <span>
+               </span>
+               주차안내
+              </a>
+             </li>
+             <li class="2dep_285">
+              <a href="/sc/campus/reservation.jsp">
+               <span>
+               </span>
+               대관 및 예약안내
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/campus/activity.jsp">
+             자치활동
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_292">
+              <a href="/sc/campus/activity.jsp">
+               <span>
+               </span>
+               소개
+              </a>
+             </li>
+             <li class="2dep_293">
+              <a href="/sc/campus/yonseibean.jsp">
+               <span>
+               </span>
+               연세POP
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/campus/scampus.jsp">
+             스마트캠퍼스
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_294">
+              <a href="/sc/campus/scampus.jsp">
+               <span>
+               </span>
+               S-캠퍼스 소개
+              </a>
+             </li>
+             <li class="2dep_2062">
+              <a href="/sc/campus/service.jsp">
+               <span>
+               </span>
+               서비스 이용안내
+              </a>
+             </li>
+             <li class="2dep_2826">
+              <a href="/sc/campus/smartcard.jsp">
+               <span>
+               </span>
+               학생증/신분증[ID 카드]
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <button class="close" type="button">
+           <img alt="메뉴 닫기" src="/_res/sc/img/common/btn_gnbclose.png"/>
+          </button>
+         </div>
+        </div>
+       </li>
+       <li class="">
+        <a href="/sc/support/calendar.jsp">
+         <span>
+          <span>
+           학사지원
+          </span>
+         </span>
+        </a>
+        <div class="menuwrap">
+         <div class="inner">
+          <ul>
+           <li>
+            <a href="/sc/support/calendar.jsp">
+             학사정보
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_377">
+              <a href="/sc/support/calendar.jsp">
+               <span>
+               </span>
+               학사일정
+              </a>
+             </li>
+             <li class="2dep_525">
+              <a href="/sc/support/college_admin2.jsp">
+               <span>
+               </span>
+               학사행정
+              </a>
+             </li>
+             <li class="2dep_296">
+              <a href="/sc/support/certificate1.jsp">
+               <span>
+               </span>
+               증명서 발급
+              </a>
+             </li>
+             <li class="2dep_1754">
+              <a href="/sc/support/college_bulletin.jsp">
+               <span>
+               </span>
+               대학요람
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/support/training_course1.jsp">
+             교육과정
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_297">
+              <a href="/sc/support/training_course1.jsp">
+               <span>
+               </span>
+               교과이수
+              </a>
+             </li>
+             <li class="2dep_298">
+              <a href="/sc/support/training_course2.jsp">
+               <span>
+               </span>
+               수강신청
+              </a>
+             </li>
+             <li class="2dep_5231">
+              <a href="/sc/support/training_course11.jsp">
+               <span>
+               </span>
+               성적 평가
+              </a>
+             </li>
+             <li class="2dep_5232">
+              <a href="/sc/support/training_course12.jsp">
+               <span>
+               </span>
+               성적에 따른 상벌
+              </a>
+             </li>
+             <li class="2dep_5233">
+              <a href="/sc/support/training_course13.jsp">
+               <span>
+               </span>
+               재수강
+              </a>
+             </li>
+             <li class="2dep_299">
+              <a href="/sc/support/training_course3.jsp">
+               <span>
+               </span>
+               전공신청/승인
+              </a>
+             </li>
+             <li class="2dep_300">
+              <a href="/sc/support/training_course4.jsp">
+               <span>
+               </span>
+               영어인증제
+              </a>
+             </li>
+             <li class="2dep_301">
+              <a href="/sc/support/training_course5.jsp">
+               <span>
+               </span>
+               유학 및 연수생
+              </a>
+             </li>
+             <li class="2dep_303">
+              <a href="/sc/support/training_course7.jsp">
+               <span>
+               </span>
+               교직과정
+              </a>
+             </li>
+             <li class="2dep_304">
+              <a href="/sc/support/training_course8.jsp">
+               <span>
+               </span>
+               평생교육사과정
+              </a>
+             </li>
+             <li class="2dep_305">
+              <a href="/sc/support/training_course9.jsp">
+               <span>
+               </span>
+               계절제 수업
+              </a>
+             </li>
+             <li class="2dep_306">
+              <a href="/sc/support/training_course10.jsp">
+               <span>
+               </span>
+               국내대학 교환프로그램
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/support/payment.jsp">
+             등록금
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_307">
+              <a href="/sc/support/payment.jsp">
+               <span>
+               </span>
+               등록금 일정
+              </a>
+             </li>
+             <li class="2dep_308">
+              <a href="/sc/support/payment_itemized1.jsp">
+               <span>
+               </span>
+               등록금 명세표
+              </a>
+             </li>
+             <li class="2dep_309">
+              <a href="/sc/support/payment1.jsp">
+               <span>
+               </span>
+               등록금납부/반환
+              </a>
+             </li>
+             <li class="2dep_310">
+              <a href="/sc/support/tuition1.jsp">
+               <span>
+               </span>
+               대상별 등록금 납부
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/support/scholarship.jsp">
+             장학금
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_2871">
+              <a href="/sc/support/scholarship.jsp">
+               <span>
+               </span>
+               장학금 안내
+              </a>
+             </li>
+             <li class="2dep_2872">
+              <a href="/sc/support/scholarship_board.jsp">
+               <span>
+               </span>
+               신문고 장학금
+              </a>
+             </li>
+            </ul>
+           </li>
+           <li>
+            <a href="/sc/support/support_onlineguide.jsp">
+             온라인도우미/건의함
+             <span>
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="/sc/support/formapplication.jsp">
+             각종 서식 및 기타
+             <span>
+             </span>
+            </a>
+            <ul>
+             <li class="2dep_313">
+              <a href="/sc/support/formapplication.jsp">
+               <span>
+               </span>
+               각종 신청서양식 모음
+              </a>
+             </li>
+             <li class="2dep_2877">
+              <a href="/sc/support/lost_found.jsp">
+               <span>
+               </span>
+               교내 분실물 게시판
+              </a>
+             </li>
+            </ul>
+           </li>
+          </ul>
+          <button class="close" type="button">
+           <img alt="메뉴 닫기" src="/_res/sc/img/common/btn_gnbclose.png"/>
+          </button>
+         </div>
+        </div>
+       </li>
+       <li class="">
+        <a href="/sc/intro/promotionvideo.jsp">
+         <span>
+          <span>
+           연세갤러리
+          </span>
+         </span>
+        </a>
+       </li>
+      </ul>
+      <!--
+			<div class="srv">
+				<strong>자주 찾는 서비스</strong>
+				<ul>
+					<li><a href="/sc/intro/president.jsp" class="s1 " >총장과의 대화</a></li>
+					<li><a href="/sc/etc/calendar.jsp" class="s2 " >연세 캘린더</a></li>
+					<li><a href="#noMenu" class="s3 " >연세 나눔백서</a></li>
+					<li><a href="#noMenu" class="s4 " >학교 발전기금</a></li>
+					<li><a href="#noMenu" class="s5 " >전화번호 통합검색</a></li>
+					<li><a href="#noMenu" class="s6 " >채용공고</a></li>
+				</ul>
+			</div>
+			-->
+     </div>
+    </div>
+    <div class="toggle toggleGnb">
+     <a class="fc" href="#mgnb">
+      <span class="ir">
+       전체메뉴
+      </span>
+     </a>
+     <div class="lt">
+      <strong>
+       전체메뉴
+      </strong>
+      <button class="close" type="button">
+       전체메뉴 닫기
+      </button>
+     </div>
+     <!-- mobile gnb -->
+     <div class="inner" id="mgnb">
+      <ul>
+       <li class="m1">
+        <a href="/sc/intro/greeting_2016.jsp">
+         연세소개
+        </a>
+        <div>
+         <ul>
+          <li>
+           <a href="/sc/intro/greeting_2016.jsp">
+            열린총장실
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/intro/greeting_2016.jsp">
+              인사말/프로필
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/speech.jsp">
+              연설문
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/sympathy.jsp">
+              동정
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/president1.jsp">
+              역대총장
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="https://www.yonsei.ac.kr/sc/intro/ideology.jsp">
+            연세비전
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/intro/ideology.jsp">
+              건학정신, 연세이념
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/vision-yonsei.jsp">
+              VISION-YONSEI 150
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/vision-declaration.jsp">
+              비전선언문
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/intro/history1.jsp">
+            연세연혁
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/intro/history1.jsp">
+              연세의 발자취
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/history2.jsp">
+              연표
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/intro/pressrel.jsp">
+            미디어센터
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/intro/pressrel.jsp">
+              보도자료
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/pressrel_exp.jsp">
+              사실은 이렇습니다
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/media1.jsp">
+              언론 속 연세
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/promotionvideo.jsp">
+              홍보갤러리
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/smedia.jsp">
+              소셜미디어
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/ymedia.jsp">
+              학생언론
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/intro/status1_1510.jsp">
+            대학현황
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/intro/status1_1510.jsp">
+              현황
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/evaluation1.jsp">
+              평가
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/share1.jsp">
+              나눔활동
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/endowedschool2.jsp">
+              학교법인
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/senate1.jsp">
+              대학평의원회
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/orchart2016_1.jsp">
+              조직도
+             </a>
+            </li>
+            <li class="">
+             <a href="https://rules.yonsei.ac.kr/" target="_blank">
+              규정집
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/opensharedcampus.jsp">
+              연세대-POSTECH 개방·공유캠퍼스
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/intro/symbol2.jsp">
+            연세상징
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/intro/symbol2.jsp">
+              상징
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/symbol3.jsp">
+              UI
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/UI-history.jsp">
+              UI 연대기
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/symbol-135.jsp">
+              기념엠블렘
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/symbol10.jsp">
+              노래
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/symbol11.jsp">
+              구호
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/intro/campus1.jsp">
+            캠퍼스안내
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/intro/campus1.jsp">
+              캠퍼스소개
+             </a>
+            </li>
+            <li class="">
+             <a href="https://www.yonsei.ac.kr/yonsei_univ/index.html" target="_blank">
+              캠퍼스 VR
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/guide.jsp">
+              캠퍼스가이드
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/building2016.jsp">
+              건물과 길
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/visit1.jsp">
+              캠퍼스 견학코스 안내
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/trip_request.jsp">
+              캠퍼스 견학/신청
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/outreach.jsp">
+              학생홍보대사
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/phone.jsp">
+              교내전화번호
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/website.jsp">
+              교내홈페이지
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/intro/directions1.jsp">
+              학교오시는길
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="m2">
+        <a href="/sc/research/research.jsp">
+         연구·산학
+        </a>
+        <div>
+         <ul>
+          <li>
+           <a href="/sc/research/research.jsp">
+            연구활동
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/research/research-statistics.jsp">
+              연구성과 통계
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/research/research-magazine.jsp">
+              연세리서치매거진
+             </a>
+            </li>
+            <li class="">
+             <a href="https://yonsei.pure.elsevier.com" target="_blank">
+              연구자 연구정보(PURE)
+             </a>
+            </li>
+            <li class="">
+             <a href="https://yscholarhub.yonsei.ac.kr/" target="_blank">
+              대학원생 연구정보(Y-Scholar Hub)
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/research/research-site.jsp">
+              관련사이트
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/research/achieve.jsp">
+            개별연구자성과
+            <span>
+            </span>
+           </a>
+          </li>
+          <li>
+           <a href="/sc/research/lab_intro.jsp">
+            연구기관
+            <span>
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="m3">
+        <a href="/sc/admission/admission.jsp">
+         입학·교육
+        </a>
+        <div>
+         <ul>
+          <li>
+           <a href="/sc/admission/admission.jsp">
+            입학안내
+            <span>
+            </span>
+           </a>
+          </li>
+          <li>
+           <a href="/sc/admission/dep.jsp">
+            대학
+            <span>
+            </span>
+           </a>
+          </li>
+          <li>
+           <a href="/sc/admission/gradeintro.jsp">
+            대학원
+            <span>
+            </span>
+           </a>
+          </li>
+          <li>
+           <a href="/sc/admission/gradeprocess.jsp">
+            비학위과정
+            <span>
+            </span>
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="m4">
+        <a href="/sc/support/notice.jsp">
+         대학생활
+        </a>
+        <div>
+         <ul>
+          <li>
+           <a href="/sc/support/notice.jsp">
+            대학공지
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/support/notice.jsp">
+              공지사항
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/etc_notice.jsp">
+              외부기관공고
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/corona_notice.jsp">
+              코로나19관련 공지사항
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/president-notice.jsp">
+              연세가족 여러분들께
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/campus/department.jsp">
+            행정부서/기관
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/campus/department.jsp">
+              행정부서
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/affiliated1.jsp">
+              부속기관
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/univer_aff1.jsp">
+              대학·대학원소속부속기관
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/affiliated_education.jsp">
+              부속교육기관
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/affiliated_etc.jsp">
+              기타기관
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/campus/facility1.jsp">
+            서비스이용안내
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/campus/facility1.jsp">
+              IT시설
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/welfare1.jsp">
+              복지/체육시설
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/traffic1.jsp">
+              교통
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/convenience1.jsp">
+              편의시설
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/parking2.jsp">
+              주차안내
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/reservation.jsp">
+              대관 및 예약안내
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/campus/activity.jsp">
+            자치활동
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/campus/activity.jsp">
+              소개
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/yonseibean.jsp">
+              연세POP
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/campus/scampus.jsp">
+            스마트캠퍼스
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/campus/scampus.jsp">
+              S-캠퍼스 소개
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/service.jsp">
+              서비스 이용안내
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/campus/smartcard.jsp">
+              학생증/신분증[ID 카드]
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="m5">
+        <a href="/sc/support/calendar.jsp">
+         학사지원
+        </a>
+        <div>
+         <ul>
+          <li>
+           <a href="/sc/support/calendar.jsp">
+            학사정보
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/support/calendar.jsp">
+              학사일정
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/college_admin2.jsp">
+              학사행정
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/certificate1.jsp">
+              증명서 발급
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/college_bulletin.jsp">
+              대학요람
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/support/training_course1.jsp">
+            교육과정
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/support/training_course1.jsp">
+              교과이수
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course2.jsp">
+              수강신청
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course11.jsp">
+              성적 평가
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course12.jsp">
+              성적에 따른 상벌
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course13.jsp">
+              재수강
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course3.jsp">
+              전공신청/승인
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course4.jsp">
+              영어인증제
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course5.jsp">
+              유학 및 연수생
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course7.jsp">
+              교직과정
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course8.jsp">
+              평생교육사과정
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course9.jsp">
+              계절제 수업
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/training_course10.jsp">
+              국내대학 교환프로그램
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/support/payment.jsp">
+            등록금
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/support/payment.jsp">
+              등록금 일정
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/payment_itemized1.jsp">
+              등록금 명세표
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/payment1.jsp">
+              등록금납부/반환
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/tuition1.jsp">
+              대상별 등록금 납부
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/support/scholarship.jsp">
+            장학금
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/support/scholarship.jsp">
+              장학금 안내
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/scholarship_board.jsp">
+              신문고 장학금
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <a href="/sc/support/support_onlineguide.jsp">
+            온라인도우미/건의함
+            <span>
+            </span>
+           </a>
+          </li>
+          <li>
+           <a href="/sc/support/formapplication.jsp">
+            각종 서식 및 기타
+            <span>
+            </span>
+           </a>
+           <ul>
+            <li class="">
+             <a href="/sc/support/formapplication.jsp">
+              각종 신청서양식 모음
+             </a>
+            </li>
+            <li class="">
+             <a href="/sc/support/lost_found.jsp">
+              교내 분실물 게시판
+             </a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="m6">
+        <a href="/sc/intro/promotionvideo.jsp">
+         연세갤러리
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <!-- <div class="gotoocx"><div><a href="/ocx/index.jsp"><span class="ir">연세공감</span></a></div></div>-->
+    <!-- //header -->
+   </div>
+   <div class="iwrap" id="main01">
+    <!-- issue -->
+    <div class="issue">
+     <h2 class="blind">
+      YONSEI ISSUE
+     </h2>
+     <button class="prev">
+      <img alt="이전" src="/_res/sc/img/main/btn_prevVisual.png"/>
+     </button>
+     <div class="inner">
+      <div class="pagination">
+       <ul>
+        <li>
+         <a class="on" href="#xxx">
+          1번 화면"&gt;
+         </a>
+        </li>
+        <li>
+         <a class="on" href="#xxx">
+          2번 화면"&gt;
+         </a>
+        </li>
+        <li>
+         <a class="on" href="#xxx">
+          3번 화면"&gt;
+         </a>
+        </li>
+        <li>
+         <a class="on" href="#xxx">
+          4번 화면"&gt;
+         </a>
+        </li>
+       </ul>
+       <button class="pause" type="button">
+        자동 넘김 멈춤
+       </button>
+       <button class="play" style="display:none;" type="button">
+        자동 넘김
+       </button>
+      </div>
+      <ul class="list">
+       <li>
+        <div class="inner">
+         <img alt="2022 상반기 메타버스 취업박람회" src="/_attach/image/sc/2022/03/thumb_b6ce52a9423b1eb3fd17c6684fa162f9.jpg"/>
+         <div class="txt">
+          <strong>
+           <a href="https://ys-jobfair.com" target="_blank">
+            2022 상반기 메타버스 취업박람회
+           </a>
+          </strong>
+          <span>
+          </span>
+          <p>
+           상반기 취업박람회가 메타버스 공간에서 열립니다. 본교 재학생(휴학생, 수료생) 및 졸업생 누구나 참여 가능합니다.
+          </p>
+         </div>
+         <div class="seethrough">
+         </div>
+        </div>
+       </li>
+       <li>
+        <div class="inner">
+         <img alt="2022학년도 입학식 축사" src="/_attach/image/sc/2022/02/thumb_44484599fe991fc6d6c20d5e06848bad.jpg"/>
+         <div class="txt">
+          <strong>
+           <a href="https://www.yonsei.ac.kr/ocx/movie_search.jsp?mode=view&amp;mv_seq=20220225111901878013" target="_blank">
+            2022학년도 입학식 축사
+           </a>
+          </strong>
+          <span>
+          </span>
+          <p>
+           치열한 입시경쟁을 뚫고 당당하게 연세인이 되신 신입생 여러분! 여러분이 바로 새로운 연세, 새로운 미래를 만들어갈 주역입니다.
+          </p>
+         </div>
+         <div class="seethrough">
+         </div>
+        </div>
+       </li>
+       <li>
+        <div class="inner">
+         <img alt="세계적 수준의 탁월한 연구 성과로 인류 발전에 기여" src="/_attach/image/sc/2022/02/thumb_4153d86dd49bbd29f20564bd02b674f9.jpg"/>
+         <div class="txt">
+          <strong>
+           <a href="https://www.yonsei.ac.kr/ocx/news.jsp?mode=view&amp;ar_seq=20220216103748373019&amp;sr_site=S&amp;sr_volume=631" target="_blank">
+            세계적 수준의 탁월한 연구 성과로 인류 발전에 기여
+           </a>
+          </strong>
+          <span>
+          </span>
+          <p>
+           '언더우드 특훈교수' 에 김재훈·반용선·이석구·이우영·조성배·천진우·최정혜·홍순만 교수 선정
+          </p>
+         </div>
+         <div class="seethrough">
+         </div>
+        </div>
+       </li>
+       <li>
+        <div class="inner">
+         <img alt="양자 컴퓨팅 활용 및 협업을 위한 퀀텀 심포지엄 개최" src="/_attach/image/sc/2022/02/thumb_577c2d285c9d186792efdf89cae090bc.jpg"/>
+         <div class="txt">
+          <strong>
+           <a href="https://www.yonsei.ac.kr/ocx/news.jsp?mode=view&amp;ar_seq=20220216092630880059&amp;sr_site=S&amp;sr_volume=631" target="_blank">
+            양자 컴퓨팅 활용 및 협업을 위한 퀀텀 심포지엄 개최
+           </a>
+          </strong>
+          <span>
+          </span>
+          <p>
+           우리대학교는 IBM과 함께 국내 양자 학술연구 및 소프트웨어 개발 등 교육과 연구에서 중추적인 역할을 수행할 계획입니다.
+          </p>
+         </div>
+         <div class="seethrough">
+         </div>
+        </div>
+       </li>
+      </ul>
+     </div>
+     <button class="next">
+      <img alt="다음" src="/_res/sc/img/main/btn_nextVisual.png"/>
+     </button>
+    </div>
+    <!-- //issue -->
+    <!-- issue mobile version -->
+    <div class="missue swiper-container">
+     <ul class="inner swiper-wrapper">
+      <li class="swiper-slide">
+       <a href="https://ys-jobfair.com" target="_blank">
+        <div class="img">
+         <img alt="2022 상반기 메타버스 취업박람회" src="/_attach/image/sc/2022/03/thumb_b6ce52a9423b1eb3fd17c6684fa162f9.jpg"/>
+        </div>
+        <div class="txt">
+         <strong>
+          2022 상반기 메타버스 취업박람회
+         </strong>
+         <span>
+         </span>
+         <p>
+          상반기 취업박람회가 메타버스 공간에서 열립니다. 본교 재학생(휴학생, 수료생) 및 졸업생 누구나 참여 가..
+         </p>
+        </div>
+       </a>
+      </li>
+      <li class="swiper-slide">
+       <a href="https://www.yonsei.ac.kr/ocx/movie_search.jsp?mode=view&amp;mv_seq=20220225111901878013" target="_blank">
+        <div class="img">
+         <img alt="2022학년도 입학식 축사" src="/_attach/image/sc/2022/02/thumb_44484599fe991fc6d6c20d5e06848bad.jpg"/>
+        </div>
+        <div class="txt">
+         <strong>
+          2022학년도 입학식 축사
+         </strong>
+         <span>
+         </span>
+         <p>
+          치열한 입시경쟁을 뚫고 당당하게 연세인이 되신 신입생 여러분! 여러분이 바로 새로운 연세, 새로운 미래..
+         </p>
+        </div>
+       </a>
+      </li>
+      <li class="swiper-slide">
+       <a href="https://www.yonsei.ac.kr/ocx/news.jsp?mode=view&amp;ar_seq=20220216103748373019&amp;sr_site=S&amp;sr_volume=631" target="_blank">
+        <div class="img">
+         <img alt="세계적 수준의 탁월한 연구 성과로 인류 발전에 기여" src="/_attach/image/sc/2022/02/thumb_4153d86dd49bbd29f20564bd02b674f9.jpg"/>
+        </div>
+        <div class="txt">
+         <strong>
+          세계적 수준의 탁월한 연구 성과로 인류 발전에 기여
+         </strong>
+         <span>
+         </span>
+         <p>
+          '언더우드 특훈교수' 에 김재훈·반용선·이석구·이우영·조성배·천진우·최정혜·홍순만 교수 선정
+         </p>
+        </div>
+       </a>
+      </li>
+      <li class="swiper-slide">
+       <a href="https://www.yonsei.ac.kr/ocx/news.jsp?mode=view&amp;ar_seq=20220216092630880059&amp;sr_site=S&amp;sr_volume=631" target="_blank">
+        <div class="img">
+         <img alt="양자 컴퓨팅 활용 및 협업을 위한 퀀텀 심포지엄 개최" src="/_attach/image/sc/2022/02/thumb_577c2d285c9d186792efdf89cae090bc.jpg"/>
+        </div>
+        <div class="txt">
+         <strong>
+          양자 컴퓨팅 활용 및 협업을 위한 퀀텀 심포지엄 개최
+         </strong>
+         <span>
+         </span>
+         <p>
+          우리대학교는 IBM과 함께 국내 양자 학술연구 및 소프트웨어 개발 등 교육과 연구에서 중추적인 역할을 수..
+         </p>
+        </div>
+       </a>
+      </li>
+     </ul>
+     <div class="paginationWrap">
+      <div class="swiper-pagination">
+      </div>
+      <button class="pause" type="button">
+       자동 넘김 멈춤
+      </button>
+      <button class="play" type="button">
+       자동 넘김
+      </button>
+     </div>
+    </div>
+    <!-- //issue mobile version -->
+    <!-- focus -->
+    <div class="focus">
+     <h2>
+      연세포커스
+     </h2>
+     <ul>
+      <li>
+       <a href="https://www.yonsei.ac.kr/sc/support/corona_notice.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^연세포커스^코로나19 관련 공지사항' );" target="_blank">
+        <img alt="코로나19 관련 공지사항" src="/_attach/image/sc/2020/02/thumb_5e97a588e5caae1fc2ec69db447c2a1f.jpg"/>
+        <p>
+         코로나19 관련 공지사항
+        </p>
+       </a>
+      </li>
+      <li>
+       <a href="https://www.yonsei.ac.kr/sc/recruit/notice03.jsp?mode=view&amp;article_no=201849&amp;board_wrapper=%2Fsc%2Frecruit%2Fnotice03.jsp&amp;pager.offset=0&amp;search:search_category:category=105&amp;board_no=329" onmousedown="_trk_clickTrace( 'EVT', '메인^연세포커스^연세대학교 정규직원 채용' );" target="_blank">
+        <img alt="연세대학교 정규직원 채용" src="/_attach/image/sc/2021/08/thumb_19edaaeb9d557e003516c02e37a71722.jpg"/>
+        <p>
+         연세대학교 정규직원 채용
+        </p>
+       </a>
+      </li>
+     </ul>
+    </div>
+    <!-- //focus -->
+   </div>
+   <div class="container">
+    <div class="content" id="jwxe_main_content">
+     <div class="main-con01-wrap">
+      <div class="main-content01">
+       <div class="left-box">
+        <ul>
+         <li>
+          <a href="https://fis.yonsei.ac.kr/faculty/index.do" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^교원정보시스템' );" target="_blank" title="교원정보시스템 바로가기">
+           교원정보시스템
+          </a>
+         </li>
+         <li>
+          <a href="https://portal.yonsei.ac.kr/main/" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^연세포탈' );" target="_blank" title="연세포탈 바로가기">
+           연세포탈
+          </a>
+         </li>
+         <li>
+          <a href="https://library.yonsei.ac.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^학술정보원' );" target="_blank" title="학술정보원 바로가기">
+           학술정보원
+          </a>
+         </li>
+         <li>
+          <a href="https://www.learnus.org" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^LearnUs' );" target="_blank" title="LearnUs 바로가기">
+           LearnUs
+          </a>
+         </li>
+         <li>
+          <a href="https://fund.yonsei.ac.kr/main/main.asp" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^교원정보시스템' );" target="_blank" title="학교발전기금 바로가기">
+           학교발전기금
+          </a>
+         </li>
+         <li>
+          <a href="http://mooc.yonsei.ac.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^MOOC' );" target="_blank" title="MOOC 바로가기">
+           MOOC
+          </a>
+         </li>
+         <li>
+          <a href="/sc/intro/phone.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^교내전화번호' );" target="_blank" title="교내전화번호 바로가기">
+           교내전화번호
+          </a>
+         </li>
+         <li>
+          <a href="/sc/intro/website.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^교내웹사이트' );" target="_blank" title="교내웹사이트 바로가기">
+           교내웹사이트
+          </a>
+         </li>
+         <li>
+          <a href="/sc/intro/campus1.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^주요사이트링크^캠퍼스안내' );" target="_blank" title="캠퍼스안내 바로가기">
+           캠퍼스안내
+          </a>
+         </li>
+        </ul>
+       </div>
+       <div class="right-box">
+        <div class="main-mini-box">
+         <ul class="mini-board-tab">
+          <li class="active" tabindex="0">
+           <p class="mini-board-tab-title">
+            <span>
+             공지사항
+            </span>
+            <a class="btn-more" href="/sc/support/notice.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^미니보드^공지사항 더보기' );" title="공지사항 더보기">
+             <span>
+              더보기
+             </span>
+            </a>
+           </p>
+           <div class="mini-board-content">
+            <ul>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202845">
+               <span>
+                [ 신촌/국제 ]
+               </span>
+               2022학년도 1학기 학부 수강인원 미달 최종 폐강 교과목 안내
+              </a>
+             </li>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202846">
+               <span>
+                [ 공통 ]
+               </span>
+               2022 IHEI WORKSTATION 신규 모집
+              </a>
+             </li>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202836">
+               <span>
+                [ 공통 ]
+               </span>
+               김수영시인 탄생 100주년 기념 기증유품 특별전 기간연장
+              </a>
+             </li>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202813">
+               <span>
+                [ 신촌/국제 ]
+               </span>
+               2022학년도 1학기 학부 수강인원 미달 폐강 교과목 안내
+              </a>
+             </li>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202802">
+               <span>
+                [ 공통 ]
+               </span>
+               연세PAY(페이) 서비스 이용 안내
+              </a>
+             </li>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202806">
+               <span>
+                [ 신촌/국제 ]
+               </span>
+               2022년 2월 졸업자 학위가운 추가대여 안내
+              </a>
+             </li>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202657">
+               <span>
+                [ 신촌/국제 ]
+               </span>
+               2022학년도 1학기 위드코로나 대면수업 운영 안내
+              </a>
+             </li>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202589">
+               <span>
+                [ 신촌 ]
+               </span>
+               [2022-1학기] 글쓰기 워크숍 안내
+              </a>
+             </li>
+             <li>
+              <a href="/sc/support/notice.jsp?mode=view&amp;article_no=202522">
+               <span>
+                [ 신촌/국제 ]
+               </span>
+               2022년 1학기 신촌캠퍼스 셔틀버스 운행 시간표
+              </a>
+             </li>
+            </ul>
+           </div>
+          </li>
+          <li tabindex="0">
+           <p class="mini-board-tab-title">
+            <span>
+             캘린더
+            </span>
+            <a class="btn-more" href="/sc/etc/calendar.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^미니보드^캘린더 더보기' );" title="캘린더 더보기">
+             <span>
+              더보기
+             </span>
+            </a>
+           </p>
+           <div class="mini-board-content">
+            <!-- 신촌국문 메인페이지 캘린더 -->
+            <script type="text/javascript">
+             <!--
+	
+	
+	/**
+	타입: 1 공지사항
+	    2 학사일정
+	    3 연세공감
+	    4 취업일정
+	    5 개인시간표 -- 사용안함
+	    6 YSCEC
+	    7 개인일정	 -- 사용안함
+	**/
+	var i = 0;
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1; //January is 0!
+	var yyyy = today.getFullYear();	
+	if(dd<10) { 	    dd='0'+dd; 	} 
+	if(mm<10) {	    mm='0'+mm;	} 
+
+	today = yyyy+mm+dd;
+	
+	var insert = function ( startdt , enddt , type , title , article_no  ) { 
+		
+		//if (  type !=5 && type !=7 &&  4 > i ){			
+			//if( ( parseInt(startdt) <= parseInt(today)) && ( parseInt(today)  <= parseInt(enddt)) ){			
+				
+				html = "";
+				
+				i += 1;
+				
+				//console.log( i );
+				
+				if ( type ==1 ){ 
+					
+					html = "<li class='ty"+type+"'><a href=\"\/sc\/support\/notice.jsp?mode=view&article_no=" + article_no +" \">"+title+"</a></li>";
+					
+				}else if (type ==3 ){
+					
+					html = "<li class='ty"+type+"'><a href=\"\/ocx\/event_info.jsp?mode=view&ev_seq=" + article_no +" \">"+title+"</a></li>";
+					
+				}else{
+					html = "<li class='ty"+type+"'><a href=\"#xxx\"><span>[ "+ mm + "." + dd +  " ]</span>"+title+"</a></li>";	
+				}
+				
+						
+				$(".mini_calendar").append(html);
+			//}
+		//}
+	};
+	
+	$(function(){
+		
+		$(document.body).append("<scr"+"ipt src='https://www.yonsei.ac.kr/_custom/yonsei/m/simple_calendar_202004.jsp?type=0&start=20220308&end=20220308&max=9'></scr"+"ipt>"); 
+     
+		
+	});
+	
+	function setToday(){}
+	
+	
+//-->
+            </script>
+            <ul class="mini_calendar">
+            </ul>
+           </div>
+          </li>
+          <li tabindex="0">
+           <p class="mini-board-tab-title">
+            <span>
+             보도자료
+            </span>
+            <a class="btn-more" href="/sc/intro/pressrel.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^미니보드^보도자료 더보기' );" title="보도자료 더보기">
+             <span>
+              더보기
+             </span>
+            </a>
+           </p>
+           <div class="mini-board-content">
+            <ul>
+             <li>
+              <a href="/sc/intro/pressrel.jsp?mode=view&amp;article_no=202898">
+               <span>
+               </span>
+               [2022. 3. 8.] 연세대 조정호 교수팀, 성균관대 조새벽 교수와 친환경 바인더를 사용한 금속 3D 프린팅 기..
+              </a>
+             </li>
+             <li>
+              <a href="/sc/intro/pressrel.jsp?mode=view&amp;article_no=202810">
+               <span>
+               </span>
+               [2022. 3. 3.] 연세대 로스쿨팀, ‘제12회 모의 국제상사중재 경연대회’ 우승
+              </a>
+             </li>
+             <li>
+              <a href="/sc/intro/pressrel.jsp?mode=view&amp;article_no=202754">
+               <span>
+               </span>
+               [2022. 3. 2.] 연세대, 2022 메타버스 취업박람회 개최
+              </a>
+             </li>
+             <li>
+              <a href="/sc/intro/pressrel.jsp?mode=view&amp;article_no=202751">
+               <span>
+               </span>
+               [2022. 3. 2.] 연세대 신용 교수팀, 소변 유래 세포 외 소포체를 이용한 전립선암 진단 기술 개발
+              </a>
+             </li>
+             <li>
+              <a href="/sc/intro/pressrel.jsp?mode=view&amp;article_no=202648">
+               <span>
+               </span>
+               [2022. 2. 25.] 연세대 초임계 소재 산업기술거점센터, 케미랜드와 업무제휴 및 기술이전 MOU 체결
+              </a>
+             </li>
+             <li>
+              <a href="/sc/intro/pressrel.jsp?mode=view&amp;article_no=202607">
+               <span>
+               </span>
+               [2022. 2. 25.] 연세대 안종현 교수팀, 인간의 망막을 모사한 스마트 이미지 센서 기술 개발
+              </a>
+             </li>
+             <li>
+              <a href="/sc/intro/pressrel.jsp?mode=view&amp;article_no=202563">
+               <span>
+               </span>
+               [2022. 2. 24.] 연세대 국가관리연구원, ‘해양안보 특별세미나’ 개최
+              </a>
+             </li>
+             <li>
+              <a href="/sc/intro/pressrel.jsp?mode=view&amp;article_no=202331">
+               <span>
+               </span>
+               [2022. 2. 21.] 연세대학교 2022년 2월 학위수여식 개최
+              </a>
+             </li>
+            </ul>
+           </div>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="main-con02-wrap">
+      <div class="main-content02">
+       <div class="left-box main-banner">
+        <h2>
+         연세소식
+        </h2>
+        <div class="main-banner-right-box carousel-wrap">
+         <div class="owl-carousel">
+          <div class="item">
+           <ul>
+            <li>
+             <p>
+              <a href="/ocx/news.jsp?mode=view&amp;ar_seq=20220308092614138030&amp;sr_site=S&amp;sr_volume=631" title="조정호 교수팀, 성균관대 조새벽 교수와 친환경 바인더를 사용한 금속 3D 프린팅 기술 개발">
+               <img alt="조정호 교수팀, 성균관대 조새벽 교수와 친환경 바인더를 사용한 금속 3D 프린팅 기술 개발" src="/_attach/file/ocx/news/2022/03/lflGFwvjOBsFmewRKNXcBZICD.jpg"/>
+              </a>
+             </p>
+             <div class="main-research-box">
+              <a href="/ocx/news.jsp?mode=view&amp;ar_seq=20220308092614138030&amp;sr_site=S&amp;sr_volume=631" title="게시글 바로가기">
+               <span class="tit">
+                조정호 교수팀, 성균관대 조새벽 교수와 친환경 바인더를 사용한 금속 3D 프린팅 기술 개발
+               </span>
+               <span class="sen">
+                데스크톱 3D 프린팅 기술에 적용 가능한 친환경 바인더 연구의 새로운 방향 제시, 세계적인 학술지 ‘Nature Communications’ 게재
+               </span>
+              </a>
+             </div>
+            </li>
+           </ul>
+          </div>
+          <div class="item">
+           <ul>
+            <li>
+             <p>
+              <a href="/ocx/news.jsp?mode=view&amp;ar_seq=20220224103238901018&amp;sr_site=S&amp;sr_volume=631" title="진화, 양자역학 그리고 의료인공지능">
+               <img alt="진화, 양자역학 그리고 의료인공지능" src="/_attach/file/ocx/news/2022/02/xtxpfuEElKTjCowhZuEOuKWST.png"/>
+              </a>
+             </p>
+             <div class="main-research-box">
+              <a href="/ocx/news.jsp?mode=view&amp;ar_seq=20220224103238901018&amp;sr_site=S&amp;sr_volume=631" title="게시글 바로가기">
+               <span class="tit">
+                진화, 양자역학 그리고 의료인공지능
+               </span>
+               <span class="sen">
+                전기전자공학과 황도식 교수, 인공신경망의 진화
+               </span>
+              </a>
+             </div>
+            </li>
+           </ul>
+          </div>
+          <div class="item">
+           <ul>
+            <li>
+             <p>
+              <a href="/ocx/news.jsp?mode=view&amp;ar_seq=20220223221315208006&amp;sr_site=S&amp;sr_volume=631" title="게임은 다시 시작된다">
+               <img alt="게임은 다시 시작된다" src="/_attach/file/ocx/news/2022/02/OLVthtacIZdhtTErVsjJlLjkP.png"/>
+              </a>
+             </p>
+             <div class="main-research-box">
+              <a href="/ocx/news.jsp?mode=view&amp;ar_seq=20220223221315208006&amp;sr_site=S&amp;sr_volume=631" title="게시글 바로가기">
+               <span class="tit">
+                게임은 다시 시작된다
+               </span>
+               <span class="sen">
+                승부를 가르는 파워 히터 기아타이거즈 외야수 나성범 선수(체육교육학 08)
+               </span>
+              </a>
+             </div>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="banner-control-wrap control-wrap">
+          <a class="prev" href="#" style="padding: 0 9px;" title="이전 보기">
+           <img alt="이전으로" src="/_res/sc/img/main/btn_prevSlide.png"/>
+          </a>
+          <a class="next" href="#" title="다음 보기">
+           <img alt="다음으로" src="/_res/sc/img/main/btn_nextSlide.png"/>
+          </a>
+         </div>
+         <!--<a class="mini-board-ctrl carousel-stop" href="#a" title="멈춤">
+			  <img src="/_res/micro/img/common/btn-banner-stop.gif" alt="정지">
+			  <img src="/_res/micro/img/common/btn-banner-play.gif" alt="재생">
+			</a> -->
+        </div>
+        <a class="btn-more01 mobile-hide" href="/ocx/news.jsp" title="연세소식 바로가기">
+         <img alt="연세소식 바로가기" src="/_res/sc/img/common/btn-more02.gif"/>
+        </a>
+       </div>
+       <!--<ul>
+      <li>
+          <p><a><img src="/_res/sc/img/common/thumb01.jpg"></a></p>
+          <div class="main-research-box">       
+             <a href="#a" title="게시글 바로가기">
+                <span class="tit">자발적인 구조 조정 프로세스를 수반하는 MOF 물질의 융합 현상 증명</span>
+                <span class="sen">화학과 오문현 교수와 이지현, 이수정, 오소진, 김두영 학생은 구성 성분이 다르고 격자길이가 다른 두 배위 고분자 물질(Metal-Organic Framework, 이하 MOF)을 융합하여 코어-쉘(Core-Shell) 형태의 혼성(Hybrid) MOF를 합성하는 데 성공했다. </span>
+             </a>
+          </div>
+      </li>
+       <li>
+          <p><a><img src="/_res/sc/img/common/thumb01.jpg"></a></p>
+          <div class="main-research-box">       
+             <a href="#a" title="게시글 바로가기">
+                <span class="tit">자발적인 구조 조정 프로세스를 수반하는 MOF 물질의 융합 현상 증명</span>
+                <span class="sen">화학과 오문현 교수와 이지현, 이수정, 오소진, 김두영 학생은 구성 성분이 다르고 격자길이가 다른 두 배위 고분자 물질(Metal-Organic Framework, 이하 MOF)을 융합하여 코어-쉘(Core-Shell) 형태의 혼성(Hybrid) MOF를 합성하는 데 성공했다. </span>
+             </a>
+          </div>
+      </li>
+       <li>
+          <p><a><img src="/_res/sc/img/common/thumb01.jpg"></a></p>
+          <div class="main-research-box">       
+             <a href="#a" title="게시글 바로가기">
+                <span class="tit">자발적인 구조 조정 프로세스를 수반하는 MOF 물질의 융합 현상 증명</span>
+                <span class="sen">화학과 오문현 교수와 이지현, 이수정, 오소진, 김두영 학생은 구성 성분이 다르고 격자길이가 다른 두 배위 고분자 물질(Metal-Organic Framework, 이하 MOF)을 융합하여 코어-쉘(Core-Shell) 형태의 혼성(Hybrid) MOF를 합성하는 데 성공했다. </span>
+             </a>
+          </div>
+      </li>
+    </ul>
+     <a class="btn-more01" href="/ocx/news.jsp" title="연세소식 바로가기"><img src="/_res/sc/img/common/btn-more02.gif" /></a>
+  </div>
+ -->
+      </div>
+     </div>
+     <div class="main-con03-wrap">
+      <div class="main-content03">
+       <div class="left-box">
+        <h2>
+         연구성과
+        </h2>
+        <p>
+         <a href="/sc/research/achieve.jsp?mode=view&amp;article_no=201244" title="문주호 교수, 2022년 1월 이달의 과학기술인상 선정 게시글 바로가기">
+          <img alt="문주호 교수, 2022년 1월 이달의 과학기술인상 선정" src="/_attach/image/jwxe/2022/01/4ecf7176e4f1426299aa216b02a85e88.png"/>
+         </a>
+        </p>
+        <div class="main-research-box">
+         <a href="/sc/research/achieve.jsp?mode=view&amp;article_no=201244" title="게시글 바로가기">
+          <span class="tit">
+           문주호 교수, 2022년 1월 이달의 과학기술인상 선정
+          </span>
+          <span class="sen">
+           신소재공학과 문주호 교수, 2022년 1월 이달의 과학기술인상 선정 - 저비용·고효율 태양전지 이용한 친환경(그린) 수소 생산기술 개발- ▲ 문주호 교수 신소재공학과 문주호 교수가 과학기술정보통신부(이하 ‘과기정통부’)와 한국연구재단(이하 ‘연구재단’)이 선정한 이달의 과학기술인상 1월 수상자로 선정됐다. ‘이달의 과학기술인상’은 우수한 연구개발 성과로 과학기술 발전에 공헌한 연구개발자를 매월 1명씩 선정하여 과기정통부 장관상과 상금 1천만 원을 수여하는 시상..
+          </span>
+         </a>
+        </div>
+        <a class="btn-more01" href="/sc/research/achieve.jsp" title="연구성과 바로가기">
+         <img alt="연구성과 바로가기" src="/_res/sc/img/common/btn-more01.gif"/>
+        </a>
+       </div>
+       <div class="left-box">
+        <h2>
+         지금 SNS에서는
+        </h2>
+        <p>
+         <a class="ty1" href="https://blog.naver.com/yonseiblog/222659900013" target="_blank" title="연세대학교, 윤동주 시인 서거 77주기 추모 행사 개최 게시글 바로가기">
+          <img alt="연세대학교, 윤동주 시인 서거 77주기 추모 행사 개최" src="/_attach/image/sc/2022/03/3b66cac8e6b2d1c4d1dcb025d8f323fc.png">
+          </img>
+         </a>
+        </p>
+        <div class="main-research-box">
+         <a href="https://blog.naver.com/yonseiblog/222659900013" target="_blank" title="게시글 바로가기">
+          <span class="tit">
+           연세대학교, 윤동주 시인 서거 77주기 추모 행사 개최
+          </span>
+          <span class="sen">
+           2022.03.07
+          </span>
+         </a>
+        </div>
+        <a class="btn-more01" href="/sc/intro/youtube.jsp" title="지금 SNS로 바로가기">
+         <img alt="지금 SNS로 바로가기" src="/_res/sc/img/common/btn-more01.gif"/>
+        </a>
+       </div>
+       <div class="last-box">
+        <h2>
+         연세공감
+        </h2>
+        <p>
+         <a href="/ocx/movie_search.jsp?mode=view&amp;mv_seq=20220225111901878013" target="_blank" title="2022학년도 입학식사 게시글 바로가기">
+          <img alt="2022학년도 입학식사 영상 썸네일 이미지" src="/_attach/file/ocx/movie/2022/02/WAqhQzHdAUdXOPqRJqWLfMJIB.jpg"/>
+         </a>
+        </p>
+        <div class="main-research-box">
+         <a href="/ocx/movie_search.jsp?mode=view&amp;mv_seq=20220225111901878013" title="2022학년도 입학식사 게시글 바로가기">
+          <span class="tit">
+           2022학년도 입학식사
+          </span>
+          <span class="sen">
+           2022-02-25
+          </span>
+         </a>
+        </div>
+        <a class="btn-more01" href="https://www.yonsei.ac.kr/ocx/movie_search.jsp" target="_blank" title="연세공감 바로가기">
+         <img alt="연세공감 바로가기" src="/_res/sc/img/common/btn-more01.gif"/>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="quick">
+     <!-- quick -->
+     <div class="inner">
+      <ul class="menu">
+       <li class="q1">
+        <a href="#xxx">
+         연세
+         <br/>
+         서비스
+        </a>
+        <div class="qwrap">
+         <div class="detail">
+          <ul class="smenu">
+           <li>
+            <a href="/sc/recruit/employment_list.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세서비스^채용공고');">
+             채용공고
+            </a>
+           </li>
+           <li>
+            <a href="/sc/campus/reservation.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세서비스^대관 및 예약안내');">
+             대관 및 예약안내
+            </a>
+           </li>
+           <li>
+            <a href="/sc/campus/traffic3.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세서비스^셔틀버스 예약');">
+             셔틀버스 예약
+            </a>
+           </li>
+           <li>
+            <a href="/sc/intro/phone.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세서비스^전화번호 통합검색');">
+             전화번호 통합검색
+            </a>
+           </li>
+           <li>
+            <a href="/sc/intro/guide.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세서비스^캠퍼스 가이드');">
+             캠퍼스 가이드
+            </a>
+           </li>
+           <li>
+            <a href="/sc/intro/directions1.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세서비스^오시는 길');">
+             오시는 길
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <p class="close">
+         <button>
+          <img alt="연세 서비스 닫기" src="/_res/sc/img/common/btn_qclose.png"/>
+         </button>
+        </p>
+       </li>
+       <!-- 20200316 추가 -->
+       <li class="q2">
+        <a href="/sc/support/support_onlineguide.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^온라인도우미');">
+         온라인
+         <br/>
+         도우미
+        </a>
+       </li>
+       <!-- 20180420 추가 -->
+       <li class="q3">
+        <a href="#xxx">
+         연세
+         <br/>
+         SNS
+        </a>
+        <div class="qwrap">
+         <div class="detail">
+          <ul class="smenu">
+           <li>
+            <a href="https://www.facebook.com/ysuniversity" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세SNS^페이스북');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             페이스북
+            </a>
+           </li>
+           <li>
+            <a href="https://blog.naver.com/yonseiblog" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세SNS^네이버 블로그');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             네이버 블로그
+            </a>
+           </li>
+           <li>
+            <a href="https://www.youtube.com/user/ysuniversity" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세SNS^Youtube');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             Youtube
+            </a>
+           </li>
+           <li>
+            <a href="https://www.instagram.com/yonsei_official/" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세SNS^인스타그램');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             인스타그램
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <p class="close">
+         <button>
+          <img alt="연세 서비스 닫기" src="/_res/sc/img/common/btn_qclose.png"/>
+         </button>
+        </p>
+       </li>
+       <li class="q4">
+        <a href="#xxx">
+         방문자
+         <br/>
+         서비스
+        </a>
+        <div class="qwrap">
+         <div class="detail">
+          <ul class="tab_info ty2">
+           <li class="on">
+            <a href="#qsrv1">
+             <span>
+              연세인
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="#qsrv2">
+             <span>
+              <span>
+               예비연세인
+              </span>
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="#qsrv3">
+             <span>
+              <span>
+               졸업생
+              </span>
+             </span>
+            </a>
+           </li>
+           <li>
+            <a href="#qsrv4">
+             <span>
+              <span>
+               일반인
+              </span>
+             </span>
+            </a>
+           </li>
+          </ul>
+          <div class="tab_cont" id="qsrv1">
+           <ul class="smenu">
+            <li>
+             <a href="/sc/support/certificate1.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세인^증명서발급');">
+              증명서발급
+             </a>
+            </li>
+            <li>
+             <a href="/sc/support/calendar.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세인^학사일정');">
+              학사일정
+             </a>
+            </li>
+            <li>
+             <a href="/sc/support/college_admin2.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세인^학사행정');">
+              학사행정
+             </a>
+            </li>
+            <li>
+             <a href="/sc/support/scholarship.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^연세인^장학금안내');">
+              장학금안내
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="tab_cont" id="qsrv2" style="display:none">
+           <ul class="smenu">
+            <li>
+             <a href="/sc/intro/greeting_2016.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^예비연세인^연세소개');">
+              연세소개
+             </a>
+            </li>
+            <li>
+             <a href="/sc/intro/guide.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^예비연세인^캠퍼스 가이드');">
+              캠퍼스 가이드
+             </a>
+            </li>
+            <li>
+             <a href="/sc/intro/trip_request.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^예비연세인^캠퍼스 견학신청');">
+              캠퍼스 견학신청
+             </a>
+            </li>
+            <li>
+             <a href="/sc/admission/dep.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^예비연세인^대학입학안내');">
+              대학입학안내
+             </a>
+            </li>
+            <li>
+             <a href="/sc/admission/gradeintro.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^예비연세인^대학원 입학안내');">
+              대학원 입학안내
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="tab_cont" id="qsrv3" style="display:none">
+           <ul class="smenu">
+            <li>
+             <a href="/sc/support/certificate1.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^졸업생^증명서 발급');">
+              증명서 발급
+             </a>
+            </li>
+            <li>
+             <a href="https://fund.yonsei.ac.kr/main/main.asp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^졸업생^연세대학교 발전기금');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+              연세대학교 발전기금
+             </a>
+            </li>
+            <li>
+             <a href="https://www.yonsein.net/home" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^졸업생^총동문회');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+              총동문회
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="tab_cont" id="qsrv4" style="display:none">
+           <ul class="smenu">
+            <li>
+             <a href="/sc/intro/pressrel.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^일반인^보도자료');">
+              보도자료
+             </a>
+            </li>
+            <li>
+             <a href="/sc/intro/brochures.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^일반인^홍보 브로슈어');">
+              홍보 브로슈어
+             </a>
+            </li>
+            <li>
+             <a href="" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^일반인^포토갤러리');">
+              포토갤러리
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <p class="close" id="q4close">
+         <button>
+          <img alt="방문자 서비스 닫기" src="/_res/sc/img/common/btn_qclose.png"/>
+         </button>
+        </p>
+       </li>
+       <li class="q5">
+        <a href="#xxx">
+         교내
+         <br/>
+         사이트
+        </a>
+        <div class="qwrap">
+         <div class="detail">
+          <ul class="smenu">
+           <li>
+            <a href="https://portal.yonsei.ac.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^연세포탈');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             연세포탈
+            </a>
+           </li>
+           <li>
+            <a href="https://mail.yonsei.ac.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^연세메일');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             연세메일
+            </a>
+           </li>
+           <li>
+            <a href="https://yscec.yonsei.ac.kr" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^YSCEC');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             YSCEC
+            </a>
+           </li>
+           <li>
+            <a href="https://library.yonsei.ac.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^학술정보원 도서관');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             학술정보원(도서관)
+            </a>
+           </li>
+           <li>
+            <a href="https://yis.yonsei.ac.kr" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^학술정보원 정보통신');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             정보통신서비스
+            </a>
+           </li>
+           <li>
+            <a href="https://admission.yonsei.ac.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^연세대학교 입학처');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             연세대학교 입학처
+            </a>
+           </li>
+           <li>
+            <a href="https://career.yonsei.ac.kr" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^커리어연세');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             커리어연세
+            </a>
+           </li>
+           <li>
+            <a href="https://fund.yonsei.ac.kr" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^연세대학교 발전기금');" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+             연세대학교 발전기금
+            </a>
+           </li>
+           <li>
+            <a href="/sc/intro/website.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^교내사이트^교내홈페이지 검색');">
+             교내홈페이지 검색
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <p class="close">
+         <button>
+          <img alt="교내 사이트 닫기" src="/_res/sc/img/common/btn_qclose.png"/>
+         </button>
+        </p>
+       </li>
+       <li class="q6">
+        <a href="/sc/campus/scampus.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^퀵배너^스마트캠퍼스');">
+         스마트
+         <br/>
+         캠퍼스
+        </a>
+       </li>
+      </ul>
+      <a class="top" href="#">
+       <img alt="TOP" src="/_res/sc/img/common/btn_top.png"/>
+      </a>
+     </div>
+     <a class="top" href="#">
+      <img alt="TOP" src="/_res/sc/img/common/btn_topM.png"/>
+     </a>
+     <!-- //quick -->
+    </div>
+   </div>
+   <div id="footer">
+    <div class="footermenu">
+     <div class="inner">
+      <ul>
+       <li>
+        <a href="/sc/recruit/notice.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^채용공고' );">
+         채용공고
+        </a>
+       </li>
+       <li>
+        <a href="/sc/etc/tender.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^입찰공고' );">
+         입찰공고
+        </a>
+       </li>
+       <li class="ty2">
+        <a href="https://www.academyinfo.go.kr/popup/pubinfo1690/list.do?schlId=0000149" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^대학정보공시' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         대학정보공시
+        </a>
+       </li>
+       <li>
+        <a href="/sc/immunity1.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^정보공개' );">
+         정보공개
+        </a>
+       </li>
+       <li class="ty2">
+        <a href="/sc/etc/privacy.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^개인정보처리방침' );">
+         개인정보처리방침
+        </a>
+       </li>
+       <li>
+        <a href="/sc/etc/legal.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^법적고지' );">
+         법적고지
+        </a>
+       </li>
+       <li>
+        <a href="https://igee.yonsei.ac.kr/igee_new/index.do" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^연세사회공헌' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         연세사회공헌
+        </a>
+       </li>
+       <li>
+        <a href="https://clean.yonsei.ac.kr" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^윤리인권위원회' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         윤리인권위원회
+        </a>
+       </li>
+       <li>
+        <a href="/sc/etc/sitemap.jsp" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^사이트맵' );" target="_blank">
+         사이트맵
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="inner">
+     <div class="relatedLinks">
+      <ul class="sns">
+       <li>
+        <a href="https://www.youtube.com/user/ysuniversity" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^SNS^유투브' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         <img alt="Youtube" src="/_res/sc/img/common/foot-icon01.png"/>
+        </a>
+       </li>
+       <li>
+        <a href="https://www.instagram.com/yonsei_official/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^SNS^인스타그램' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         <img alt="instagram" src="/_res/sc/img/common/foot-icon02.png"/>
+        </a>
+       </li>
+       <li>
+        <a href="https://www.facebook.com/ysuniversity" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^SNS^페이스북' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         <img alt="facebook" src="/_res/sc/img/common/foot-icon03.png"/>
+        </a>
+       </li>
+       <li>
+        <a href="https://blog.naver.com/yonseiblog" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^SNS^네이버블로그' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         <img alt="네이버 블로그" src="/_res/sc/img/common/foot-icon04.png"/>
+        </a>
+       </li>
+      </ul>
+      <div class="markAndfamilysites">
+       <ul class="sns ty1">
+        <li>
+         <a href="http://wa.or.kr/board/list.asp?search=title&amp;SearchString=%BF%AC%BC%BC%B4%EB&amp;BoardID=0006" target="_blank" title="웹접근성인증 새창이동">
+          <img alt="웹접근성인증 마크" src="/_res/test_sc/img/common/img_wa.png"/>
+         </a>
+        </li>
+        <li>
+         <a href="https://isms.kisa.or.kr/main/ispims/issue/?certificationMode=list&amp;crtfYear=2019&amp;searchCondition=2&amp;searchKeyword=%EC%97%B0%EC%84%B8%EB%8C%80" target="_blank" title="ISMS-P 새창이동">
+          <img alt="ISMSP 인증마크" src="/_res/test_sc/img/common/img_ismp.png" title="KISA 한국인터넷진흥원"/>
+          <span class="isms_info">
+           [인증범위] 연세대학교 학부대상 학사정보서비스
+           <br/>
+           [유효기간] 2019.07.11 ~ 2022.07.10
+          </span>
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <address>
+      <span>
+       신촌·국제/미래 : 1599-1885
+      </span>
+      <span>
+       의료원 : 1599-1004
+      </span>
+      <span class="address">
+       03722 서울특별시 서대문구 연세로 50 연세대학교
+      </span>
+      <br/>
+      <span>
+       COPYRIGHT© 2020 YONSEI UNIV. ALL RIGHTS RESERVED.
+      </span>
+     </address>
+     <div class="familysites">
+      <a href="#familysites">
+       관련 사이트
+      </a>
+      <ul id="familysites">
+       <li>
+        <a href="https://ysef.yonsei.ac.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^학교법인' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         학교법인
+        </a>
+       </li>
+       <li>
+        <a href="https://www.yskli.com/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^한국어학당' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         한국어학당
+        </a>
+       </li>
+       <li>
+        <a href="https://fli.yonsei.ac.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^외국어학당' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         외국어학당
+        </a>
+       </li>
+       <li>
+        <a href="https://go.yonsei.ac.kr:450/yonsei/main/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^미래교육원' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         미래교육원
+        </a>
+       </li>
+       <li>
+        <a href="https://sev.iseverance.com/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^신촌세브란스병원' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         신촌세브란스병원
+        </a>
+       </li>
+       <li>
+        <a href="https://gs.iseverance.com/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^강남세브란스병원' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         강남세브란스병원
+        </a>
+       </li>
+       <li>
+        <a href="https://www.ywmc.or.kr/web/www/home" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^원주세브란스기독병원' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         원주세브란스기독병원
+        </a>
+       </li>
+       <li>
+        <a href="https://yi.severance.healthcare/yi/index.do" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^용인세브란스병원' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         용인세브란스병원
+        </a>
+       </li>
+       <li>
+        <a href="https://www.yonseidairy.com/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^연세우유' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         연세유업
+        </a>
+       </li>
+       <li>
+        <a href="https://www.ysab.co.kr/" onmousedown="_trk_clickTrace( 'EVT', '메인^footer^관련사이트^동문회관' );" rel="noopener noreferrer" target="_blank" title="새창으로 열림">
+         동문회관
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <noscript>
+   <p>
+    이 사이트는 자바스크립트를 지원하지 않으면 정상적으로 보이지 않을수 있습니다.
+   </p>
+  </noscript>
+ </body>
+</html>
