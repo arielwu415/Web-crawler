@@ -1,62 +1,62 @@
+from indexer import Index
+
 class SearchEngine():
     
     def __init__(self, index):
         ''' use Index instance as its argument'''
         self.index = index
         self.results = []
+
     
-    def search(self, query, search_type = 'AND'):
+    def search(self, search_type = 'AND'):
         ''' search for term based on search type
         (only AND operator is required for this assignment)'''
+        
+        # get user input
+        query = input("Please enter your query: ").lower()
         
         # clear results
         self.results = []
         
-        
         # process term
-        # example: ["tropical", "fish"]
         terms = query.split(" ")
         
-        
-        # search from index
-        # example:
-        # { "tropical": ["doc1", "doc2", "doc5", ...],
-        #   "fish": ["doc2", "doc3", ...], ... }
+        # get indexes and turn lists into sets of documents
         file_index = self.index.get_index()
+        for i in file_index:
+            file_index[i] = set(file_index[i])
         
-        
-        # create dictionary to count number terms existing in doc_n
-        # example:
-        # {'doc1': 1, 'doc2': 2, 'doc5': 2, 'doc3': 1}
-        docs = {}
+        # perform set operations
+        result_set = set()
         for term in terms:
-            # if term exists in file_index
-            if term.lower() in file_index:
-                # iterate through ["doc1", "doc2", "doc5", ...]
-                for n in file_index[term]:
-                    if n not in docs:
-                        docs[n] = 1
-                    else:
-                        docs[n] += 1
+            if term in file_index:
+                if len(result_set) != 0:
+                    result_set = result_set & file_index[term]
+                else:
+                    result_set = file_index[term]
 
+        # print out results (unsorted)
         if search_type =='AND':
-            self.results = [n for n in docs if docs[n] == len(terms)]
-            print(query, self.results)
-
-        
-
-'''Testing'''
-class Index():
-    
-    def __init__(self):
-        self.index = {"tropical": ["doc1", "doc2", "doc5"],
-                      "fish": ["doc2", "doc3", "doc5"],
-                      "hi": ["doc2", "doc5"] }
-        
-    def get_index(self):
-        return self.index
+            
+            self.results = list(result_set)
+            result = "Relevant results are: "
+            for doc in self.results:
+                result += doc + " "
+                
+        print(result)
+   
 
 index = Index()
+index.create_index("wordcount1.csv")
 SE = SearchEngine(index)
-SE.search("tropical") # tropical ['doc1', 'doc2', 'doc5']
-SE.search("tropical fish") # tropical fish ['doc2', 'doc5']
+SE.search()
+
+index.create_index("wordcount2.csv")
+SE = SearchEngine(index)
+SE.search()
+
+index.create_index("wordcount3.csv")
+SE = SearchEngine(index)
+SE.search()
+
+
