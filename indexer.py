@@ -28,7 +28,6 @@ class Index:
 
         with open('index.pkl', 'wb') as f:
             pickle.dump(self.file_index, f)
-            
 
     def load_index(self, name):
         """ load index if it exists"""
@@ -37,7 +36,6 @@ class Index:
                 self.file_index = pickle.load(f)
         except:
             self.file_index = {}
-            
-            
+
     def get_index(self):
         return self.file_index

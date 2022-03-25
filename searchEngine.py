@@ -3,14 +3,13 @@ from indexer import Index
 class SearchEngine():
     
     def __init__(self, index):
-        ''' use Index instance as its argument'''
+        """ use Index instance as its argument """
         self.index = index
         self.results = []
 
-    
     def search(self, search_type = 'AND'):
-        ''' search for term based on search type
-        (only AND operator is required for this assignment)'''
+        """ search for term based on search type
+        (only AND operator is required for this assignment) """
         
         # get user input
         query = input("Please enter your query: ").lower()
@@ -36,7 +35,7 @@ class SearchEngine():
                     result_set = file_index[term]
 
         # print out results (unsorted)
-        if search_type =='AND':
+        if search_type == 'AND':
             
             self.results = list(result_set)
             result = "Relevant results are: "
