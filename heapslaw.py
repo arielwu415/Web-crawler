@@ -78,11 +78,12 @@ plt.show()
 
 lemonde_plot = sns.lineplot(x=X_lemonde, y=Y_lemonde)
 lemonde_plot.set_xlabel('Total Words in Collection Lemonde')
-stackoverflow_plot.ticklabel_format(style='plain', axis='x')
+lemonde_plot.ticklabel_format(style='plain', axis='x')
 lemonde_plot.set_ylabel('Unique Words in Vocabulary Lemonde')
 plt.show()
 
 yonsei_plot = sns.lineplot(x=X_yonsei, y=Y_yonsei)
 yonsei_plot.set_xlabel('Total Words in Collection Yonsei')
+yonsei_plot.ticklabel_format(style='plain', axis='x')
 yonsei_plot.set_ylabel('Unique Words in Vocabulary Yonsei')
 plt.show()
