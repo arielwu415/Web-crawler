@@ -24,14 +24,16 @@ with open('words1.csv', 'r', encoding='utf-8') as csvfile:
             x_stackOverFlow.append(count1)
             y_stackOverFlow.append(row[1])
             count1 += 1
+            
 
 plt.plot(x_stackOverFlow, y_stackOverFlow)
-ax = plt.gca()
-ax.invert_yaxis()
 plt.title('Zifs law for StackOverFlow')
 plt.xlabel('Rank (most frequent word to least)')
 plt.ylabel('Frequency (number of word appeared)')
 plt.grid()
+plt.yticks([0, 100, 200, 300, 400, 500, 589])
+ax = plt.gca()
+ax.invert_yaxis()
 plt.show()
 
 #Lemonde
@@ -46,6 +48,7 @@ with open('words2.csv', 'r', encoding='utf-8') as csvfile:
 plt.plot(x_lemonde, y_lemonde)
 ax = plt.gca()
 ax.invert_yaxis()
+plt.yticks([0, 100, 200, 300, 400, 500, 600, 712])
 plt.title('Zifs law for Lemonde')
 plt.xlabel('Rank (most frequent word to least)')
 plt.ylabel('Frequency (number of word appeared)')
