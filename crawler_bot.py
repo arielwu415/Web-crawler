@@ -17,7 +17,7 @@ from language_detection import detect_language
 import urllib.robotparser
 
 
-def crawler_bot(seeds, max_pages):
+def crawler_bot(seeds, max_pages, layer, num_of_report):
     # One session will be active for all requests, as opposed to creating a new one at every iteration
     session = build_session()
 
@@ -31,8 +31,12 @@ def crawler_bot(seeds, max_pages):
     lang_index = 0
 
     for seed in seeds:
-        report_filename = "reports{}.csv".format(seeds.index(seed) + 1)
-        clear_report_file(report_filename)
+        if layer == 1:
+            report_filename = "report{}.csv".format(seeds.index(seed) + 1)
+            clear_report_file(report_filename)
+        elif layer == 2:
+            report_filename = "doc{0}_{1}.csv".format(num_of_report, seeds.index(seed) + 1)
+            clear_report_file(report_filename)
 
         word_count_filename = "wordcount{}.csv".format(seeds.index(seed) + 1)
         clear_report_file(word_count_filename)
@@ -92,18 +96,18 @@ def crawler_bot(seeds, max_pages):
                 outlinks = list(set([link.get('href') for link in soup.findAll('a') if link.get('href') is not None and "javascript" not in link.get('href')]))
 
                 outlinks = [link for link in outlinks if not any(s in link for s in ["backslash", "tagged", "javascript", "jobs", ".org"])]
-
+                
                 # Some links are full urls, others are hrefs so append the seed prefix to those
                 # To know if some urls are complete or not, we check if they contain https, www or domain extensions
                 outlinks = [seed+link for link in outlinks if not any(s in link for s in ["https", "www", ".com", ".ac.kr", ".fr"])]
-
+                
                 # remove all links that would lead us outside the current domain.
                 # This also removes the seed url if it is put back in the list. We don't need to parse it again
                 outlinks = [link for link in outlinks if seed.removeprefix('https://www.') in link and link != seed]
-
+                
                 # write url and outlinks count to relevant reports.csv
                 write_links_count(url, len(outlinks), report_filename)
-
+                
                 # add new links at the end of urls list, as we will eventually scrape them as well
                 # only if our list does not have more urls than max_pages
                 if len(urls) < max_pages:
