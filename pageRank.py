@@ -4,16 +4,18 @@ Created on Sun May 1 15:27:04 2022
 
 @author: Ariel
 """
-
-import pandas as pd
+import csv
 import networkx as nx
 
-def read_csv_file(file_name, num):
-    # read data from "reports.csv" file
-    df = pd.read_csv("{0}{1}.csv".format(file_name, num))
-    
-    # get the fist column and make it a set to prevent duplicates
-    urls_from_csv = list(set(df.iloc[:, 0]))
-    
-    return urls_from_csv
-    
+
+def create_edge_list(url_nodes):
+    index = 0
+    for node_set in url_nodes:
+        index += 1
+        filename = "edge_list{}.csv".format(index)
+        for nodes in node_set:
+            for i in range(len(nodes)):
+                with open(filename, 'a', newline='') as report:
+                    _writer = csv.writer(report)
+                    _writer.writerow([nodes[0], nodes[i]])
+                
