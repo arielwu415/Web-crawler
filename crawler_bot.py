@@ -17,7 +17,7 @@ from language_detection import detect_language
 import urllib.robotparser
 
 
-def crawler_bot(seeds, max_pages, layer, num_of_report):
+def crawler_bot(seeds, max_pages):
     # One session will be active for all requests, as opposed to creating a new one at every iteration
     session = build_session()
 
@@ -29,14 +29,11 @@ def crawler_bot(seeds, max_pages, layer, num_of_report):
     lang_list = []
     # An index.pkl variable to indicate the language of current seed
     lang_index = 0
-
+    
+    seed_edges = []
     for seed in seeds:
-        if layer == 1:
-            report_filename = "report{}.csv".format(seeds.index(seed) + 1)
-            clear_report_file(report_filename)
-        elif layer == 2:
-            report_filename = "doc{0}_{1}.csv".format(num_of_report, seeds.index(seed) + 1)
-            clear_report_file(report_filename)
+        report_filename = "report{}.csv".format(seeds.index(seed) + 1)
+        clear_report_file(report_filename)
 
         word_count_filename = "wordcount{}.csv".format(seeds.index(seed) + 1)
         clear_report_file(word_count_filename)
@@ -56,7 +53,8 @@ def crawler_bot(seeds, max_pages, layer, num_of_report):
         
         # all the urls for the current domain (eng, fr, kr)
         urls = [seed]
-
+        edges = []
+        
         # professor wants us to go 500 to 1000 pages deep, with an absolute minimum of 100
         visited_pages = 0
 
@@ -66,6 +64,7 @@ def crawler_bot(seeds, max_pages, layer, num_of_report):
 
         while visited_pages < max_pages:
             url = urls[index]
+            neighbors = [url]
             
             # if page can be crawled
             if robot.can_fetch("*", url):
@@ -113,6 +112,10 @@ def crawler_bot(seeds, max_pages, layer, num_of_report):
                 if len(urls) < max_pages:
                     urls.extend(outlinks)
                     urls = list(set(urls))
+                    
+                neighbors.extend(set(outlinks))
+                edges.append(neighbors)
+                    
 
             index += 1
 
@@ -123,6 +126,10 @@ def crawler_bot(seeds, max_pages, layer, num_of_report):
             
         # go to the next seed
         lang_index += 1
+        
+        seed_edges.append(edges)
+        
+    return seed_edges
 
 
 def make_request(sesh, url):
