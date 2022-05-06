@@ -29,9 +29,10 @@ def crawler_bot(seeds, max_pages):
     lang_list = []
     # An index.pkl variable to indicate the language of current seed
     lang_index = 0
-
+    
+    seed_edges = []
     for seed in seeds:
-        report_filename = "reports{}.csv".format(seeds.index(seed) + 1)
+        report_filename = "report{}.csv".format(seeds.index(seed) + 1)
         clear_report_file(report_filename)
 
         word_count_filename = "wordcount{}.csv".format(seeds.index(seed) + 1)
@@ -52,7 +53,8 @@ def crawler_bot(seeds, max_pages):
         
         # all the urls for the current domain (eng, fr, kr)
         urls = [seed]
-
+        edges = []
+        
         # professor wants us to go 500 to 1000 pages deep, with an absolute minimum of 100
         visited_pages = 0
 
@@ -62,6 +64,7 @@ def crawler_bot(seeds, max_pages):
 
         while visited_pages < max_pages:
             url = urls[index]
+            neighbors = [url]
             
             # if page can be crawled
             if robot.can_fetch("*", url):
@@ -92,23 +95,27 @@ def crawler_bot(seeds, max_pages):
                 outlinks = list(set([link.get('href') for link in soup.findAll('a') if link.get('href') is not None and "javascript" not in link.get('href')]))
 
                 outlinks = [link for link in outlinks if not any(s in link for s in ["backslash", "tagged", "javascript", "jobs", ".org"])]
-
+                
                 # Some links are full urls, others are hrefs so append the seed prefix to those
                 # To know if some urls are complete or not, we check if they contain https, www or domain extensions
                 outlinks = [seed+link for link in outlinks if not any(s in link for s in ["https", "www", ".com", ".ac.kr", ".fr"])]
-
+                
                 # remove all links that would lead us outside the current domain.
                 # This also removes the seed url if it is put back in the list. We don't need to parse it again
                 outlinks = [link for link in outlinks if seed.removeprefix('https://www.') in link and link != seed]
-
+                
                 # write url and outlinks count to relevant reports.csv
                 write_links_count(url, len(outlinks), report_filename)
-
+                
                 # add new links at the end of urls list, as we will eventually scrape them as well
                 # only if our list does not have more urls than max_pages
                 if len(urls) < max_pages:
                     urls.extend(outlinks)
                     urls = list(set(urls))
+                    
+                neighbors.extend(set(outlinks))
+                edges.append(neighbors)
+                    
 
             index += 1
 
@@ -119,6 +126,10 @@ def crawler_bot(seeds, max_pages):
             
         # go to the next seed
         lang_index += 1
+        
+        seed_edges.append(edges)
+        
+    return seed_edges
 
 
 def make_request(sesh, url):

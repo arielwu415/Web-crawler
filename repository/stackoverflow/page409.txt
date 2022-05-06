@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html class="html__responsive">
+<html class="html__responsive" lang="en">
  <head>
   <title>
-   Inquisitive - Badge - Stack Overflow
+   Users - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,28 +10,84 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/badges/4128/inquisitive?userid=995862" property="og:url"/>
+   <meta content="https://stackoverflow.com/users?page=479617&amp;tab=reputation&amp;filter=all" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="Inquisitive - Badge" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Users" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
    </script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
    </script>
-   <script async="" src="https://cdn.sstatic.net/Js/third-party/stacks/stacks.min.js?v=636658ad2e24">
+   <script async="" src="https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=776313f9a094">
    </script>
-   <script src="https://cdn.sstatic.net/Js/stub.en.js?v=fce5f0cba23f">
+   <script src="https://cdn.sstatic.net/Js/stub.en.js?v=e700279bb0cc">
    </script>
-   <link href="https://cdn.sstatic.net/Shared/stacks.css?v=9b3c752346b4" rel="stylesheet" type="text/css"/>
-   <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=a8e5d46c6c14" rel="stylesheet" type="text/css"/>
-   <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=4cbb26526eb0" rel="stylesheet" type="text/css"/>
-   <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=b1915d2e6090" rel="stylesheet" type="text/css"/>
+   <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
+   <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
+   <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
+   <meta content="noindex" name="robots"/>
+   <script>
+    StackExchange.ready(function () {
+                $("#userfilter").val("").focus().typeWatch({ highlight: true, wait: 500, captureLength: -1, callback: finished(false) });
+        var request = null;
+        function finished(all) {
+
+            var showingAll = all;
+
+            return function (txt) {
+                var search = $.trim(txt.toLowerCase());
+                if (search.length < 3 && showingAll) { return; }
+
+                    var url = "/users/filter";
+                    if (search.length < 3) {
+                        url = "/users/filter/all";
+                        showingAll = true;
+                    }
+
+                    var spinner = $("#userfilter").addSpinnerAfter({ 'margin-left': "8px", 'margin-bottom': '-4px' }).next();
+
+                    if (request){ request.abort(); }
+                    request = $.ajax({
+                        url: url,
+                        data: {
+                            search: search,
+                            filter: 'All',
+                        tab: 'Reputation'
+                    },
+                    success: function (result) {
+                        $("#user-browser").replaceWith($(result).filter("#user-browser"));
+                        $("#tabs-interval").replaceWith($(result).find("#tabs-interval"));
+                        showingAll = url == "/users/filter/all";
+                    },
+                    complete: function () { spinner.remove(); }
+                });
+            };
+        }
+
+        $(".js-manage-users").on('click', function(event) {
+            event.preventDefault();
+            var href = $(this).data('href');
+            location.replace(href);
+        });
+
+         $(".js-share-team-url").on("click", function (e) {
+            Stacks.showModal($("#share-team-url-modal").get(0), e);
+         });
+
+        $('.js-add-admin-notice .js-dismiss')
+            .click(function () {
+                $('.js-add-admin-notice').addClass("dno");
+                StackExchange.helpers.toggleUserFlags(4096, true);
+            });
+        });
+   </script>
+   <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1646708408,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"92893ae334bccedf704d8852556a592536dcb6865f975b4c83b4b8e0f082a87e","tid":"ff43ce51-91e1-3eb3-ec05-deaed150c4ec","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"tour_signup_cta":{"v":"sortmenudropdown","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"cc5b3e0efea0"}}
+    {"options":{"locale":"en","serverTime":1651824213,"routeName":"Users/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,53 +96,51 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"js/adops.en.js":"6da43f5e0a84","js/ask.en.js":"7ff9a9068fd6","js/begin-edit-event.en.js":"dd955babf04d","js/copy-transpiled.en.js":"fc90b2ceaa3f","js/events.en.js":"","js/explore-qlist.en.js":"2b1f34938b8b","js/full-anon.en.js":"e7aa6d42f837","js/full.en.js":"a230c14f22c0","js/highlightjs-loader.en.js":"3c37abf5cb6d","js/inline-tag-editing.en.js":"c0cbc31e5702","js/keyboard-shortcuts.en.js":"7de4e127b6af","js/markdown-it-loader.en.js":"5818ef89ff9d","js/moderator.en.js":"eca4f384d4f7","js/postCollections-transpiled.en.js":"8126e59701f9","js/post-validation.en.js":"7b3d739a5447","js/question-editor.en.js":"","js/review-v2-transpiled.en.js":"d4e8ed8cd584","js/revisions.en.js":"839f528889ff","js/stacks-editor.en.js":"c0b20da0de98","js/tageditor.en.js":"825c9597ce2d","js/tageditornew.en.js":"857acd8b77e4","js/tagsuggestions.en.js":"1bcff7d98f97","js/unlimited-transpiled.en.js":"7ed67670b600","js/wmd.en.js":"cfa96439c425","js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
    </script>
    <noscript id="noscript-css">
     <style>
-     body,.top-bar{margin-top:1.9em}
+     body,.s-topbar{margin-top:1.9em}
     </style>
    </noscript>
   </meta>
  </head>
- <body class="badges-page unified-theme">
+ <body class="users-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
   </div>
-  <header class="top-bar js-top-bar top-bar__network">
-   <div class="wmx12 mx-auto d-flex ai-center h100" role="menubar">
-    <div class="-main flex--item">
-     <a aria-controls="left-sidebar" aria-expanded="false" aria-haspopup="true" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle" href="#" role="menuitem">
-      <span class="ps-relative">
-      </span>
-     </a>
-     <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
-      <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
-      </div>
+  <header class="s-topbar ps-fixed t0 l0 js-top-bar">
+   <div class="s-topbar--container">
+    <a aria-controls="left-sidebar" aria-expanded="false" aria-haspopup="true" class="s-topbar--menu-btn js-left-sidebar-toggle" href="#" role="menuitem">
+     <span>
+     </span>
+    </a>
+    <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+     <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
      </div>
-     <a class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:7, destination:8})" href="https://stackoverflow.com">
-      <span class="-img _glyph">
-       Stack Overflow
-      </span>
-     </a>
     </div>
-    <ol class="list-reset d-flex gs4" role="presentation">
-     <li class="flex--item md:d-none">
-      <a class="-marketing-link js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:7})" href="https://stackoverflow.co/">
+    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:25, destination:8})" href="https://stackoverflow.com">
+     <span class="-img _glyph">
+      Stack Overflow
+     </span>
+    </a>
+    <ol class="s-navigation" role="presentation">
+     <li class="md:d-none">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="https://stackoverflow.co/">
        About
       </a>
      </li>
-     <li class="flex--item">
-      <a aria-controls="products-popover" class="-marketing-link js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
+     <li>
+      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
        Products
       </a>
      </li>
-     <li class="flex--item md:d-none">
-      <a class="-marketing-link js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:7})" href="https://stackoverflow.co/teams">
+     <li class="md:d-none">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="/teams">
        For Teams
       </a>
      </li>
@@ -96,7 +150,7 @@
      </div>
      <ol class="list-reset s-anchors s-anchors__inherit">
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:2})" href="/questions">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:2})" href="/questions">
         <span class="fs-body1 d-block">
          Stack Overflow
         </span>
@@ -106,7 +160,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:3})" href="https://stackoverflow.co/teams">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:3})" href="/teams">
         <span class="fs-body1 d-block">
          Stack Overflow for Teams
         </span>
@@ -116,27 +170,17 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","jobs submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:9})" href="/jobs?so_source=ProductsMenu&amp;so_medium=StackOverflow">
-        <span class="fs-body1 d-block">
-         Jobs
-        </span>
-        <span class="fs-caption d-block fc-light">
-         Programming &amp; related technical career opportunities
-        </span>
-       </a>
-      </li>
-      <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:5})" href="https://stackoverflow.co/talent">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:5})" href="https://stackoverflow.co/talent">
         <span class="fs-body1 d-block">
          Talent
         </span>
         <span class="fs-caption d-block fc-light">
-         Recruit tech talent &amp; build your employer brand
+         Build your employer brand
         </span>
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:6})" href="https://stackoverflow.co/advertising">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:6})" href="https://stackoverflow.co/advertising">
         <span class="fs-body1 d-block">
          Advertising
         </span>
@@ -146,14 +190,14 @@
        </a>
       </li>
       <li class="bg-black-025 bt bc-black-075 py6 px6 bbr-md">
-       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:7})" href="https://stackoverflow.co/">
+       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="https://stackoverflow.co/">
         About the company
        </a>
       </li>
      </ol>
     </div>
-    <form action="/search" autocomplete="off" class="flex--item fl-grow1 searchbar px12 js-searchbar" id="search" role="search">
-     <div class="ps-relative">
+    <form action="/search" autocomplete="off" class="s-topbar--searchbar js-searchbar" id="search" role="search">
+     <div class="s-topbar--searchbar--input-group">
       <input aria-controls="top-search" aria-label="Search" autocomplete="off" class="s-input s-input__search js-search-field" data-action="focus-&gt;s-popover#show" data-controller="s-popover" data-s-popover-placement="bottom-start" maxlength="240" name="q" placeholder="Search…" type="text" value=""/>
       <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
@@ -178,23 +222,7 @@
       </div>
      </div>
     </form>
-    <ol class="overflow-x-auto ml-auto -secondary d-flex ai-center list-reset h100 user-logged-out" role="presentation">
-     <li class="-item searchbar-trigger">
-      <a aria-controls="search" aria-haspopup="true" aria-label="Search" class="-link js-searchbar-trigger" href="#" role="button" title="Click to show search">
-       <svg aria-hidden="true" class="svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
-        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
-        </path>
-       </svg>
-      </a>
-     </li>
-     <li class="-ctas">
-      <a class="login-link s-btn s-btn__filled py8 js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f4128%2finquisitive%3fuserid%3d995862" rel="nofollow">
-       Log in
-      </a>
-      <a class="login-link s-btn s-btn__primary py8" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f4128%2finquisitive%3fuserid%3d995862" rel="nofollow">
-       Sign up
-      </a>
-     </li>
+    <ol class="s-topbar--content" role="presentation">
      <li class="js-topbar-dialog-corral" role="presentation">
       <div class="topbar-dialog siteSwitcher-dialog dno" role="menu">
        <div class="header fw-wrap">
@@ -257,11 +285,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f4128%2finquisitive%3fuserid%3d995862">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d479617%26tab%3dreputation%26filter%3dall">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f4128%2finquisitive%3fuserid%3d995862">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d479617%26tab%3dreputation%26filter%3dall">
           log in
          </a>
          to customize your list.
@@ -283,6 +311,24 @@
        </div>
       </div>
      </li>
+     <li>
+      <a aria-controls="search" aria-haspopup="true" aria-label="Search" class="s-topbar--item s-btn s-btn__icon s-btn__muted d-none sm:d-inline-flex js-searchbar-trigger" href="#" role="button" title="Click to show search">
+       <svg aria-hidden="true" class="svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
+        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li>
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d479617%26tab%3dreputation%26filter%3dall" rel="nofollow">
+       Log in
+      </a>
+     </li>
+     <li>
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d479617%26tab%3dreputation%26filter%3dall" rel="nofollow">
+       Sign up
+      </a>
+     </li>
     </ol>
    </div>
   </header>
@@ -296,7 +342,7 @@
      <nav role="navigation">
       <ol class="nav-links">
        <li class="ps-relative">
-        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
+        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
          <div class="d-flex ai-center">
           <div class="flex--item truncate">
            Home
@@ -310,7 +356,7 @@
           Public
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
+          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
            <svg aria-hidden="true" class="svg-icon iconGlobe" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9 1C4.64 1 1 4.64 1 9c0 4.36 3.64 8 8 8 4.36 0 8-3.64 8-8 0-4.36-3.64-8-8-8ZM8 15.32a6.46 6.46 0 0 1-4.3-2.74 6.46 6.46 0 0 1-.93-5.01L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52Zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.45 6.45 0 0 1 3.83 4.51 6.45 6.45 0 0 1-1.51 5.73v.01Z">
             </path>
@@ -321,7 +367,7 @@
           </a>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Tags
@@ -329,8 +375,8 @@
            </div>
           </a>
          </li>
-         <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
+         <li class="ps-relative youarehere">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:true, location:25, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Users
@@ -338,12 +384,21 @@
            </div>
           </a>
          </li>
-         <li class="d-flex ml8 mt16 mb4 jc-space-between">
+         <li class="ps-relative">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
+           <div class="d-flex ai-center">
+            <div class="flex--item truncate">
+             Companies
+            </div>
+           </div>
+          </a>
+         </li>
+         <li class="d-flex ml8 mt16 jc-space-between">
           <div class="flex--item tt-uppercase tt-uppercase fs-fine fc-light">
            Collectives
           </div>
           <div class="flex--item fs-fine fc-light">
-           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:7, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
+           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:25, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
             <svg aria-hidden="true" class="svg-icon iconInfoSm" height="14" viewbox="0 0 14 14" width="14">
              <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z">
              </path>
@@ -352,7 +407,7 @@
           </div>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 ai-center js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
+          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
            <svg aria-hidden="true" class="mt-auto fc-orange-400 svg-icon iconStarVerified" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z">
             </path>
@@ -360,27 +415,6 @@
            <span class="-link--channel-name">
             Explore Collectives
            </span>
-          </a>
-         </li>
-         <li class="fs-fine tt-uppercase ml8 mt16 mb4 fc-light">
-          Find a Job
-         </li>
-         <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:6})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/jobs?so_medium=StackOverflow&amp;so_source=SiteNav" id="nav-jobs">
-           <div class="d-flex ai-center">
-            <div class="flex--item truncate">
-             Jobs
-            </div>
-           </div>
-          </a>
-         </li>
-         <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/jobs/companies?so_medium=StackOverflow&amp;so_source=SiteNav" id="nav-companies">
-           <div class="d-flex ai-center">
-            <div class="flex--item truncate">
-             Companies
-            </div>
-           </div>
           </a>
          </li>
         </ol>
@@ -395,13 +429,13 @@
            <strong class="fc-black-750 mb6">
             Stack Overflow for Teams
            </strong>
-           – Collaborate and share knowledge with a private group.
+           – Start collaborating and sharing organizational knowledge.
            <img alt="" class="wmx100 mx-auto my8 h-auto d-block" height="114" src="https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e" width="139"/>
-           <a class="w100 s-btn s-btn__primary s-btn__xs js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams/create/free",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 6 })" href="https://stackoverflow.com/teams/create/free?utm_source=so-owned&amp;utm_medium=side-bar&amp;utm_campaign=campaign-38&amp;utm_content=cta">
+           <a class="w100 s-btn s-btn__primary s-btn__xs bg-orange-400 js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams/create/free",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 6 })" href="https://try.stackoverflow.co/why-teams/?utm_source=so-owned&amp;utm_medium=side-bar&amp;utm_campaign=campaign-38&amp;utm_content=cta">
             Create a free Team
            </a>
            <a class="w100 s-btn s-btn__muted s-btn__xs js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 5 })" href="https://stackoverflow.co/teams">
-            What is Teams?
+            Why Teams?
            </a>
           </div>
          </div>
@@ -457,12 +491,12 @@
        </path>
       </svg>
       <div class="pt4 fw-bold">
-       Collectives on Stack Overflow
+       Collectives™ on Stack Overflow
       </div>
       <p class="my16 fs-caption fc-medium">
        Find centralized, trusted content and collaborate around the technologies you use most.
       </p>
-      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:7, destination:18})" href="/collectives">
+      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:25, destination:18})" href="/collectives">
        Learn more
       </a>
      </div>
@@ -501,180 +535,938 @@
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div id="mainbar">
-     <div class="s-page-title mb16">
-      <div class="s-page-title--text">
-       <nav aria-label="breadcrumb" class="s-breadcrumbs mb6 sm:mb2">
-        <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/">
-          Stack Overflow
-         </a>
-         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
-          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
-          </path>
-         </svg>
-        </div>
-        <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/help">
-          Help center
-         </a>
-         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
-          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
-          </path>
-         </svg>
-        </div>
-        <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/help/badges">
-          Badges
-         </a>
-        </div>
-       </nav>
-       <h1 class="s-page-title--header">
-        Inquisitive
-       </h1>
+    <div id="mainbar-full">
+     <h1 class="fs-headline1 mb24">
+      Users
+     </h1>
+     <div class="d-flex fw-wrap ai-stretch md:d-block">
+      <div class="flex--item mb12 ps-relative">
+       <input autocomplete="off" class="s-input s-input__search h100 wmx3" id="userfilter" name="userfilter" placeholder="Filter by user" type="text"/>
+       <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
+        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
+        </path>
+       </svg>
+      </div>
+      <div class="flex--item ml-auto mb12 h100 d-flex s-btn-group js-filter-btn">
+       <a class="js-sort-preference-change youarehere is-selected flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="reputation" href="/users?tab=reputation" title="Users with the highest reputation scores">
+        Reputation
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="newusers" href="/users?tab=newusers" title="Users who joined in the last 30 days">
+        New users
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="voters" href="/users?tab=voters" title="Users who voted more than 10 times">
+        Voters
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="editors" href="/users?tab=editors" title="Users who edited at least 5 posts">
+        Editors
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="moderators" href="/users?tab=moderators" title="Our current community moderators">
+        Moderators
+       </a>
       </div>
      </div>
-     <div class="single-badge-table">
-      <div class="single-badge-header">
-       <div class="single-badge-wrapper">
-        <div class="single-badge-badge">
-         <a class="badge" href="/help/badges/4128/inquisitive" title="silver badge: Ask a well-received question on 30 separate days, and maintain a positive question record">
-          <span class="badge2">
-          </span>
-          Inquisitive
+     <div class="fs-body2 mt8 mb12">
+      <div class="d-flex jc-space-between">
+       <div class="flex--item ml-auto md:ml0">
+        <div class="subtabs" id="tabs-interval">
+         <a class="js-sort-preference-change youarehere is-selected" data-nav-xhref="" data-shortcut="" data-value="all" href="/users?tab=Reputation&amp;filter=all" title="2000-01-01 to today">
+          all
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="year" href="/users?tab=Reputation&amp;filter=year" title="2022-01-01 to today">
+          year
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="quarter" href="/users?tab=Reputation&amp;filter=quarter" title="2022-04-01 to today">
+          quarter
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="month" href="/users?tab=Reputation&amp;filter=month" title="2022-05-01 to today">
+          month
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="week" href="/users?tab=Reputation&amp;filter=week" title="2022-05-01 to today">
+          week
          </a>
         </div>
-        <div class="single-badge-title">
-         Ask a well-received question on 30 separate days, and maintain a positive question record.
-        </div>
        </div>
-       <div class="single-badge-count">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/995862/kurt-peek">
-           <div class="gravatar-wrapper-32">
-            <img alt="" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/d5efb6c1054808f7a79aaefbc64cce76?s=64&amp;d=identicon&amp;r=PG" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/995862/kurt-peek">
-           Kurt Peek
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 41,994">
-            42k
-           </span>
-           <span aria-hidden="true" title="68 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             68
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            68 gold badges
-           </span>
-           <span aria-hidden="true" title="239 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             239
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            239 silver badges
-           </span>
-           <span aria-hidden="true" title="431 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             431
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            431 bronze badges
-           </span>
+      </div>
+     </div>
+     <div id="user-browser">
+      <div class="d-grid grid__4 lg:grid__3 md:grid__2 sm:grid__1 g12">
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/12426/kelvin-quee">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/f38acd3e70b91e9ce18d88d6f8d09b34?s=96&amp;d=identicon&amp;r=PG" width="48"/>
           </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/12426/kelvin-quee">
+          Kelvin Quee
+         </a>
+         <span class="user-location">
+          Singapore, Singapore
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="3 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3 bronze badges
+          </span>
          </div>
         </div>
-        <br/>
-        earned this badge 1 time.
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/12127/peter-yovich">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/38e08ad0d4b106ec4a4564fa517a92a8?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/12127/peter-yovich">
+          Peter Yovich
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/12028/droom">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/8d42891b01c809b50c9809d458c5c175?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/12028/droom">
+          droom
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/11724/peter-h">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/a245fdd159f948ec794405e79ae827df?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/11724/peter-h">
+          Peter H
+         </a>
+         <span class="user-location">
+          Switzerland
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/11715/rob">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/39baaa475e7ee1bbcc28a7f802548b89?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/11715/rob">
+          Rob
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/11254/dramaartwriting">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/e1e1ff755c74f0f0b79d0139cc45d68c?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/11254/dramaartwriting">
+          dramaartwriting
+         </a>
+         <span class="user-location">
+          Stockton, CA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/11139/duncane">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/092e086dc6e24f2811f78a3df343c9de?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/11139/duncane">
+          duncane
+         </a>
+         <span class="user-location">
+          Perth, Australia
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/226657/rob-archer">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/8a4cda5994ddb4e91adec44458c4757e?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/226657/rob-archer">
+          Rob Archer
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/9529/user9529">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/ce646c98497638903c601ceed565d88c?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/9529/user9529">
+          user9529
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/9442/user9442">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/9442/user9442">
+          user9442
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/9318/gtech33">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/855f1fa055b35efd6d6a64554aa341dc?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/9318/gtech33">
+          GTech33
+         </a>
+         <span class="user-location">
+          San Luis Obispo, CA, USA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/8632/user8632">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/8632/user8632">
+          user8632
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/8620/nidleb">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/50584682fb65e026890c36291a49a05b?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/8620/nidleb">
+          Nidleb
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/7662/dirigible">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/73eda51046faa1eda48802705c27ac20?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/7662/dirigible">
+          Dirigible
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/7458/user7458">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/7458/user7458">
+          user7458
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/5690/whatintheworldisthat">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/aca9472a0312d80644eb5453e744e3ca?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/5690/whatintheworldisthat">
+          whatintheworldisthat
+         </a>
+         <span class="user-location">
+          Georgia
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="3 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/5307/david-porter">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/440cc5180eba9dc897f525093145f208?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/5307/david-porter">
+          David Porter
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/5081/al-velella">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/10a094c3c631fb6e4f9482291f30a8a3?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/5081/al-velella">
+          Al Velella
+         </a>
+         <span class="user-location">
+          Boston, MA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/4461/bryan314">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/95e6244f5f88526a7ca81b08648889d3?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/4461/bryan314">
+          bryan314
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/4054/brian">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/505b2cd3a1dcafeacbbf02728cf71b14?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/4054/brian">
+          Brian
+         </a>
+         <span class="user-location">
+          Chicago, IL
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/2682/andrew">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/4e28027a2833fb1eff07ad7d70df46d8?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/2682/andrew">
+          Andrew
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/1788/matt-brewer">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/b88835732cbc71b47d1204c07333c413?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/1788/matt-brewer">
+          Matt Brewer
+         </a>
+         <span class="user-location">
+          Ohio
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/1352/marcas">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/200a751b8335a559a78d9ec2c67ebfc2?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/1352/marcas">
+          marcas
+         </a>
+         <span class="user-location">
+          Ireland
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="3 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/1114/jeremy">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/FFE8V.gif?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/1114/jeremy">
+          Jeremy
+         </a>
+         <span class="user-location">
+          Canada
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/915/jules">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/RBrPz.jpg?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/915/jules">
+          Jules
+         </a>
+         <span class="user-location">
+          France
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/499/bps">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/cbacb1bc48cb93568e4aa312b167abc4?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/499/bps">
+          bps
+         </a>
+         <span class="user-location">
+          Pittsburgh, PA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/-1/community">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/a007be5a61f6aa8f3e85ae2fc18dd66e?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/-1/community">
+          Community
+         </a>
+         <span class="flex--item s-badge ml2 s-badge__xs mtn2" title="Community Bot — not a real person. Replies to this bot are not monitored.">
+          Bot
+         </span>
+         <span class="user-location">
+          on the server farm
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 silver badge">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 silver badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+      </div>
+      <div class="s-pagination site1 themed pager float-right">
+       <a class="s-pagination--item js-pagination-item" href="/users?page=479616&amp;tab=reputation&amp;filter=all" rel="prev" title="Go to page 479616">
+        Prev
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=1&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 1">
+        1
+       </a>
+       <div class="s-pagination--item s-pagination--item__clear">
+        …
+       </div>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=479613&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479613">
+        479613
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=479614&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479614">
+        479614
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=479615&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479615">
+        479615
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=479616&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479616">
+        479616
+       </a>
+       <div class="s-pagination--item is-selected">
+        479617
        </div>
       </div>
      </div>
-     <div class="single-badge-table">
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2016-08-11 01:58:52Z">
-         Aug 11, 2016 at 1:58
-        </span>
-       </div>
-       <div class="single-badge-user">
-       </div>
-      </div>
+     <div id="users-legend" style="float: left; margin-top: 25px; margin-bottom: 10px;">
+      <b>
+       <a href="https://stackexchange.com/leagues/week/stackoverflow">
+        weekly / monthly / quarterly reputation leagues
+       </a>
+      </b>
      </div>
-     <div class="s-pagination site1 themed pager float-left">
-     </div>
-     <p style="padding-top: 2em;">
-      <a href="/help/badges/4128/inquisitive">
-       Others with this badge
-      </a>
-     </p>
-    </div>
-    <div class="faq-page" id="sidebar">
-     <nav class="s-sidebarwidget mb24" id="toc">
-      <ul class="s-sidebarwidget--content s-sidebarwidget__items">
-       <li class="s-sidebarwidget--item">
-        <a href="/help/asking">
-         Asking
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a aria-current="false" href="/help/privileges">
-         Privileges
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a aria-current="page" href="/help/badges">
-         Badges
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/stackexchange">
-         Our model
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/reputation">
-         Reputation &amp; Moderation
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/answering">
-         Answering
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/account">
-         My Account
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/review-queues">
-         Review Queues
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/collectives">
-         Collectives on Stack Overflow
-        </a>
-       </li>
-      </ul>
-     </nav>
     </div>
    </div>
   </div>
@@ -693,28 +1485,18 @@
     <nav class="site-footer--nav">
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 7, link: 15})" href="https://stackoverflow.com">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 15})" href="https://stackoverflow.com">
         Stack Overflow
        </a>
       </h5>
       <ul class="-list js-primary-footer-links">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 16})" href="/questions">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 16})" href="/questions">
          Questions
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 17})" href="https://stackoverflow.com/jobs">
-         Jobs
-        </a>
-       </li>
-       <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 11})" href="https://stackoverflow.com/jobs/directory/developer-jobs">
-         Developer Jobs Directory
-        </a>
-       </li>
-       <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 3 })" href="/help">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 3 })" href="/help">
          Help
         </a>
        </li>
@@ -722,82 +1504,82 @@
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 7, link: 19 })" href="https://stackoverflow.com/?products">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 19 })" href="https://stackoverflow.com/?products">
         Products
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 7, link: 29 })" href="https://stackoverflow.co/teams">
+        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 25, link: 29 })" href="https://stackoverflow.co/teams">
          Teams
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 20 })" href="https://stackoverflow.co/talent">
-         Talent
-        </a>
-       </li>
-       <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 21 })" href="https://stackoverflow.co/advertising">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 21 })" href="https://stackoverflow.co/advertising">
          Advertising
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 22 })" href="https://stackoverflow.co/explore-teams">
-         Enterprise
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 40 })" href="https://stackoverflow.co/collectives">
+         Collectives
+        </a>
+       </li>
+       <li>
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 20 })" href="https://stackoverflow.co/talent">
+         Talent
         </a>
        </li>
       </ul>
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 7, link: 1 })" href="https://stackoverflow.co/">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 1 })" href="https://stackoverflow.co/">
         Company
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 1 })" href="https://stackoverflow.co/">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 1 })" href="https://stackoverflow.co/">
          About
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 27 })" href="https://stackoverflow.co/company/press">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 27 })" href="https://stackoverflow.co/company/press">
          Press
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 9 })" href="https://stackoverflow.co/company/work-here">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 9 })" href="https://stackoverflow.co/company/work-here">
          Work Here
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 7 })" href="https://stackoverflow.com/legal">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 7 })" href="https://stackoverflow.com/legal">
          Legal
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
          Privacy Policy
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
          Terms of Service
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 13 })" href="https://stackoverflow.co/company/contact">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 13 })" href="https://stackoverflow.co/company/contact">
          Contact Us
         </a>
        </li>
        <li class="" id="consent-footer-link">
-        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 7, link: 38 })" href="#">
+        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 25, link: 38 })" href="#">
          Cookie Settings
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
          Cookie Policy
         </a>
        </li>
@@ -806,48 +1588,48 @@
      <div class="site-footer--col site-footer--categories-nav">
       <div>
        <h5 class="-title">
-        <a data-gps-track="footer.click({ location: 7, link: 30 })" href="https://stackexchange.com">
+        <a data-gps-track="footer.click({ location: 25, link: 30 })" href="https://stackexchange.com">
          Stack Exchange Network
         </a>
        </h5>
        <ul class="-list">
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#technology">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#technology">
           Technology
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
           Culture &amp; recreation
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#lifearts">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#lifearts">
           Life &amp; arts
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#science">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#science">
           Science
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#professional">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#professional">
           Professional
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#business">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#business">
           Business
          </a>
         </li>
         <li class="mt16 md:mt0">
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://api.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://api.stackexchange.com/">
           API
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://data.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://data.stackexchange.com/">
           Data
          </a>
         </li>
@@ -858,79 +1640,45 @@
     <div class="site-footer--copyright fs-fine md:mt24">
      <ul class="-list -social md:mb8">
       <li>
-       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link:4 })" href="https://stackoverflow.blog?blb=1">
+       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link:4 })" href="https://stackoverflow.blog?blb=1">
         Blog
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
         Facebook
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 32 })" href="https://twitter.com/stackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 32 })" href="https://twitter.com/stackoverflow">
         Twitter
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 33 })" href="https://linkedin.com/company/stack-overflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 33 })" href="https://linkedin.com/company/stack-overflow">
         LinkedIn
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 36 })" href="https://www.instagram.com/thestackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 36 })" href="https://www.instagram.com/thestackoverflow">
         Instagram
        </a>
       </li>
      </ul>
      <p class="md:mb0">
-      site design / logo © 2022 Stack Exchange Inc; user contributions licensed under
+      Site design / logo © 2022 Stack Exchange Inc; user contributions licensed under
       <a href="https://stackoverflow.com/help/licensing">
        cc by-sa
       </a>
       .
       <span id="svnrev">
-       rev 2022.3.7.41613
+       rev 2022.5.5.42046
       </span>
      </p>
     </div>
    </div>
   </footer>
-  <noscript>
-   <div id="noscript-warning">
-    Stack Overflow works best with JavaScript enabled
-    <img alt="" src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=17440561&amp;cv=3.6.0&amp;cj=1"/>
-   </div>
-  </noscript>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Badges/Detail');
-
-
-                StackExchange.ga.setDimension('dimension7', "1646708408.1121695187");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

@@ -1,50 +1,53 @@
 <!DOCTYPE html>
-<html class="html__responsive">
+<html class="html__responsive" lang="en">
  <head>
   <title>
-   User Javlon - Stack Overflow
+   User CommonsWare - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/users/12153321/javlon" rel="canonical">
+  <link href="https://stackoverflow.com/users/115145/commonsware" rel="canonical">
    <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
    <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/users/12153321/javlon" property="og:url"/>
+    <meta content="https://stackoverflow.com/users/115145/commonsware" property="og:url"/>
     <meta content="Stack Overflow" property="og:site_name"/>
     <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
     <meta content="summary" name="twitter:card"/>
     <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="User Javlon" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="User CommonsWare" itemprop="name" name="twitter:title" property="og:title"/>
     <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
     <script id="webpack-public-path" type="text/uri-list">
      https://cdn.sstatic.net/
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
     </script>
-    <script async="" src="https://cdn.sstatic.net/Js/third-party/stacks/stacks.min.js?v=636658ad2e24">
+    <script async="" src="https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=776313f9a094">
     </script>
-    <script src="https://cdn.sstatic.net/Js/stub.en.js?v=fce5f0cba23f">
+    <script src="https://cdn.sstatic.net/Js/stub.en.js?v=e700279bb0cc">
     </script>
-    <link href="https://cdn.sstatic.net/Shared/stacks.css?v=9b3c752346b4" rel="stylesheet" type="text/css"/>
-    <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=a8e5d46c6c14" rel="stylesheet" type="text/css"/>
-    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=4cbb26526eb0" rel="stylesheet" type="text/css"/>
-    <link href="https://cdn.sstatic.net/Shared/DevStory/story.css?v=2afdf441843b" rel="stylesheet" type="text/css"/>
-    <script src="https://cdn.sstatic.net/Js/user.en.js?v=b3c977297943">
+    <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.sstatic.net/Js/third-party/d3.v3.min.js?v=5edd8a88415d">
     </script>
-    <script src="https://cdn.sstatic.net/Js/story.en.js?v=2601f44bffe0">
+    <script src="https://cdn.sstatic.net/Js/image-upload.en.js?v=e292deedf755">
+    </script>
+    <script src="https://cdn.sstatic.net/Js/user.en.js?v=26739adf4697">
+    </script>
+    <script src="https://cdn.sstatic.net/Js/story.en.js?v=ae419bd3c978">
     </script>
     <script>
-     StackExchange.ready(function () {
-            StackExchange.user.init({ userId: 12153321, accountId: 16810116 });
-            styleCode.initializeSpoilers();
-            StackExchange.expandableOverflow.init(document.querySelector(".js-expandable-overflow"), document.querySelector(".js-expandable-overflow-btn"));
-        });
+     StackExchange.ready(function() {
+        StackExchange.user.init({ userId: 115145, accountId: 39846 });
+        StackExchange.user.initUserCards();
+    });
     </script>
-    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=b1915d2e6090" rel="stylesheet" type="text/css"/>
+    <link href="/feeds/user/115145" rel="alternate" title="Feed for user CommonsWare" type="application/atom+xml"/>
+    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
     <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1646708344,"routeName":"UsersShow/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"92893ae334bccedf704d8852556a592536dcb6865f975b4c83b4b8e0f082a87e","tid":"ff43ce51-91e1-3eb3-ec05-deaed150c4ec","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"tour_signup_cta":{"v":"sortmenudropdown","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"cc5b3e0efea0"}}
+     {"options":{"locale":"en","serverTime":1651824148,"routeName":"UsersShow/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
     </script>
     <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
      {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -53,14 +56,14 @@
      StackExchange.init();
     </script>
     <script>
-     StackExchange.using.setCacheBreakers({"js/adops.en.js":"6da43f5e0a84","js/ask.en.js":"7ff9a9068fd6","js/begin-edit-event.en.js":"dd955babf04d","js/copy-transpiled.en.js":"fc90b2ceaa3f","js/events.en.js":"","js/explore-qlist.en.js":"2b1f34938b8b","js/full-anon.en.js":"e7aa6d42f837","js/full.en.js":"a230c14f22c0","js/highlightjs-loader.en.js":"3c37abf5cb6d","js/inline-tag-editing.en.js":"c0cbc31e5702","js/keyboard-shortcuts.en.js":"7de4e127b6af","js/markdown-it-loader.en.js":"5818ef89ff9d","js/moderator.en.js":"eca4f384d4f7","js/postCollections-transpiled.en.js":"8126e59701f9","js/post-validation.en.js":"7b3d739a5447","js/question-editor.en.js":"","js/review-v2-transpiled.en.js":"d4e8ed8cd584","js/revisions.en.js":"839f528889ff","js/stacks-editor.en.js":"c0b20da0de98","js/tageditor.en.js":"825c9597ce2d","js/tageditornew.en.js":"857acd8b77e4","js/tagsuggestions.en.js":"1bcff7d98f97","js/unlimited-transpiled.en.js":"7ed67670b600","js/wmd.en.js":"cfa96439c425","js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
     </script>
     <noscript id="noscript-css">
      <style>
-      body,.top-bar{margin-top:1.9em}
+      body,.s-topbar{margin-top:1.9em}
      </style>
     </noscript>
    </meta>
@@ -71,36 +74,34 @@
   </div>
   <div id="custom-header">
   </div>
-  <header class="top-bar js-top-bar top-bar__network">
-   <div class="wmx12 mx-auto d-flex ai-center h100" role="menubar">
-    <div class="-main flex--item">
-     <a aria-controls="left-sidebar" aria-expanded="false" aria-haspopup="true" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle" href="#" role="menuitem">
-      <span class="ps-relative">
-      </span>
-     </a>
-     <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
-      <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
-      </div>
+  <header class="s-topbar ps-fixed t0 l0 js-top-bar">
+   <div class="s-topbar--container">
+    <a aria-controls="left-sidebar" aria-expanded="false" aria-haspopup="true" class="s-topbar--menu-btn js-left-sidebar-toggle" href="#" role="menuitem">
+     <span>
+     </span>
+    </a>
+    <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+     <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
      </div>
-     <a class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:4, destination:8})" href="https://stackoverflow.com">
-      <span class="-img _glyph">
-       Stack Overflow
-      </span>
-     </a>
     </div>
-    <ol class="list-reset d-flex gs4" role="presentation">
-     <li class="flex--item md:d-none">
-      <a class="-marketing-link js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="https://stackoverflow.co/">
+    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:4, destination:8})" href="https://stackoverflow.com">
+     <span class="-img _glyph">
+      Stack Overflow
+     </span>
+    </a>
+    <ol class="s-navigation" role="presentation">
+     <li class="md:d-none">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="https://stackoverflow.co/">
        About
       </a>
      </li>
-     <li class="flex--item">
-      <a aria-controls="products-popover" class="-marketing-link js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
+     <li>
+      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
        Products
       </a>
      </li>
-     <li class="flex--item md:d-none">
-      <a class="-marketing-link js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="https://stackoverflow.co/teams">
+     <li class="md:d-none">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="/teams">
        For Teams
       </a>
      </li>
@@ -120,7 +121,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:3})" href="https://stackoverflow.co/teams">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:3})" href="/teams">
         <span class="fs-body1 d-block">
          Stack Overflow for Teams
         </span>
@@ -130,22 +131,12 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","jobs submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:9})" href="/jobs?so_source=ProductsMenu&amp;so_medium=StackOverflow">
-        <span class="fs-body1 d-block">
-         Jobs
-        </span>
-        <span class="fs-caption d-block fc-light">
-         Programming &amp; related technical career opportunities
-        </span>
-       </a>
-      </li>
-      <li class="m6">
        <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:5})" href="https://stackoverflow.co/talent">
         <span class="fs-body1 d-block">
          Talent
         </span>
         <span class="fs-caption d-block fc-light">
-         Recruit tech talent &amp; build your employer brand
+         Build your employer brand
         </span>
        </a>
       </li>
@@ -166,9 +157,9 @@
       </li>
      </ol>
     </div>
-    <form action="/search" autocomplete="off" class="flex--item fl-grow1 searchbar px12 js-searchbar" id="search" role="search">
-     <div class="ps-relative">
-      <input aria-controls="top-search" aria-label="Search" autocomplete="off" class="s-input s-input__search js-search-field" data-action="focus-&gt;s-popover#show" data-controller="s-popover" data-s-popover-placement="bottom-start" maxlength="240" name="q" placeholder="Search…" type="text" value="user:12153321"/>
+    <form action="/search" autocomplete="off" class="s-topbar--searchbar js-searchbar" id="search" role="search">
+     <div class="s-topbar--searchbar--input-group">
+      <input aria-controls="top-search" aria-label="Search" autocomplete="off" class="s-input s-input__search js-search-field" data-action="focus-&gt;s-popover#show" data-controller="s-popover" data-s-popover-placement="bottom-start" maxlength="240" name="q" placeholder="Search…" type="text" value="user:115145"/>
       <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
        </path>
@@ -192,23 +183,7 @@
       </div>
      </div>
     </form>
-    <ol class="overflow-x-auto ml-auto -secondary d-flex ai-center list-reset h100 user-logged-out" role="presentation">
-     <li class="-item searchbar-trigger">
-      <a aria-controls="search" aria-haspopup="true" aria-label="Search" class="-link js-searchbar-trigger" href="#" role="button" title="Click to show search">
-       <svg aria-hidden="true" class="svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
-        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
-        </path>
-       </svg>
-      </a>
-     </li>
-     <li class="-ctas">
-      <a class="login-link s-btn s-btn__filled py8 js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f12153321%2fjavlon" rel="nofollow">
-       Log in
-      </a>
-      <a class="login-link s-btn s-btn__primary py8" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f12153321%2fjavlon" rel="nofollow">
-       Sign up
-      </a>
-     </li>
+    <ol class="s-topbar--content" role="presentation">
      <li class="js-topbar-dialog-corral" role="presentation">
       <div class="topbar-dialog siteSwitcher-dialog dno" role="menu">
        <div class="header fw-wrap">
@@ -271,11 +246,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f12153321%2fjavlon">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f115145%2fcommonsware%3ftab%3dtags">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f12153321%2fjavlon">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f115145%2fcommonsware%3ftab%3dtags">
           log in
          </a>
          to customize your list.
@@ -296,6 +271,24 @@
         </div>
        </div>
       </div>
+     </li>
+     <li>
+      <a aria-controls="search" aria-haspopup="true" aria-label="Search" class="s-topbar--item s-btn s-btn__icon s-btn__muted d-none sm:d-inline-flex js-searchbar-trigger" href="#" role="button" title="Click to show search">
+       <svg aria-hidden="true" class="svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
+        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li>
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f115145%2fcommonsware%3ftab%3dtags" rel="nofollow">
+       Log in
+      </a>
+     </li>
+     <li>
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f115145%2fcommonsware%3ftab%3dtags" rel="nofollow">
+       Sign up
+      </a>
      </li>
     </ol>
    </div>
@@ -352,12 +345,21 @@
            </div>
           </a>
          </li>
-         <li class="d-flex ml8 mt16 mb4 jc-space-between">
+         <li class="ps-relative">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
+           <div class="d-flex ai-center">
+            <div class="flex--item truncate">
+             Companies
+            </div>
+           </div>
+          </a>
+         </li>
+         <li class="d-flex ml8 mt16 jc-space-between">
           <div class="flex--item tt-uppercase tt-uppercase fs-fine fc-light">
            Collectives
           </div>
           <div class="flex--item fs-fine fc-light">
-           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:4, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
+           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:4, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
             <svg aria-hidden="true" class="svg-icon iconInfoSm" height="14" viewbox="0 0 14 14" width="14">
              <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z">
              </path>
@@ -366,7 +368,7 @@
           </div>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 ai-center js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
+          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
            <svg aria-hidden="true" class="mt-auto fc-orange-400 svg-icon iconStarVerified" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z">
             </path>
@@ -374,27 +376,6 @@
            <span class="-link--channel-name">
             Explore Collectives
            </span>
-          </a>
-         </li>
-         <li class="fs-fine tt-uppercase ml8 mt16 mb4 fc-light">
-          Find a Job
-         </li>
-         <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:6})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/jobs?so_medium=StackOverflow&amp;so_source=SiteNav" id="nav-jobs">
-           <div class="d-flex ai-center">
-            <div class="flex--item truncate">
-             Jobs
-            </div>
-           </div>
-          </a>
-         </li>
-         <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/jobs/companies?so_medium=StackOverflow&amp;so_source=SiteNav" id="nav-companies">
-           <div class="d-flex ai-center">
-            <div class="flex--item truncate">
-             Companies
-            </div>
-           </div>
           </a>
          </li>
         </ol>
@@ -409,13 +390,13 @@
            <strong class="fc-black-750 mb6">
             Stack Overflow for Teams
            </strong>
-           – Collaborate and share knowledge with a private group.
+           – Start collaborating and sharing organizational knowledge.
            <img alt="" class="wmx100 mx-auto my8 h-auto d-block" height="114" src="https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e" width="139"/>
-           <a class="w100 s-btn s-btn__primary s-btn__xs js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams/create/free",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 6 })" href="https://stackoverflow.com/teams/create/free?utm_source=so-owned&amp;utm_medium=side-bar&amp;utm_campaign=campaign-38&amp;utm_content=cta">
+           <a class="w100 s-btn s-btn__primary s-btn__xs bg-orange-400 js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams/create/free",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 6 })" href="https://try.stackoverflow.co/why-teams/?utm_source=so-owned&amp;utm_medium=side-bar&amp;utm_campaign=campaign-38&amp;utm_content=cta">
             Create a free Team
            </a>
            <a class="w100 s-btn s-btn__muted s-btn__xs js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 5 })" href="https://stackoverflow.co/teams">
-            What is Teams?
+            Why Teams?
            </a>
           </div>
          </div>
@@ -471,7 +452,7 @@
        </path>
       </svg>
       <div class="pt4 fw-bold">
-       Collectives on Stack Overflow
+       Collectives™ on Stack Overflow
       </div>
       <p class="my16 fs-caption fc-medium">
        Find centralized, trusted content and collaborate around the technologies you use most.
@@ -518,35 +499,32 @@
     <div class="user-show-new" id="mainbar-full">
      <div class="ps-relative mb16">
       <div class="d-flex ai-center fw-wrap gs16 md:fd-column md:ai-start">
-       <a class="flex--item" href="/users/12153321/javlon">
+       <a class="flex--item" href="/users/115145/commonsware">
         <div class="md:d-none js-usermini-avatar-container">
          <div class="bar-md bs-sm">
-          <img alt="" class="bar-sm bar-md d-block" height="128" src="https://www.gravatar.com/avatar/8ff31dc4d07d4262e50dc4141d6b4a89?s=256&amp;d=identicon&amp;r=PG&amp;f=1" width="128"/>
+          <img alt="user avatar" class="bar-sm bar-md d-block" height="128" src="https://i.stack.imgur.com/wDnd8.png?s=256&amp;g=1" width="128"/>
          </div>
         </div>
         <div class="d-none md:d-block sm:d-none js-usermini-avatar-container">
          <div class="bar-md bs-sm">
-          <img alt="" class="bar-sm bar-md d-block" height="96" src="https://www.gravatar.com/avatar/8ff31dc4d07d4262e50dc4141d6b4a89?s=192&amp;d=identicon&amp;r=PG&amp;f=1" width="96"/>
+          <img alt="user avatar" class="bar-sm bar-md d-block" height="96" src="https://i.stack.imgur.com/wDnd8.png?s=192&amp;g=1" width="96"/>
          </div>
         </div>
         <div class="d-none sm:d-block js-usermini-avatar-container">
          <div class="bar-md bs-sm">
-          <img alt="" class="bar-sm bar-md d-block" height="64" src="https://www.gravatar.com/avatar/8ff31dc4d07d4262e50dc4141d6b4a89?s=128&amp;d=identicon&amp;r=PG&amp;f=1" width="64"/>
+          <img alt="user avatar" class="bar-sm bar-md d-block" height="64" src="https://i.stack.imgur.com/wDnd8.png?s=128&amp;g=1" width="64"/>
          </div>
         </div>
        </a>
        <div class="flex--item">
         <div class="d-flex ai-center fw-wrap gs8 wmx4">
          <div class="flex--item mb12 fs-headline2 lh-xs">
-          Javlon
+          CommonsWare
          </div>
          <div class="flex--item">
           <div class="d-flex ai-center fw-nowrap gs4">
           </div>
          </div>
-        </div>
-        <div class="mb8 fc-light fs-title lh-xs">
-         Student
         </div>
         <ul class="list-reset s-anchors s-anchors__inherit d-flex fc-light gs8 mln4 fw-wrap">
          <li class="flex--item">
@@ -559,8 +537,8 @@
            </div>
            <div class="flex--item">
             Member for
-            <span title="2019-10-02 10:49:32Z">
-             2 years, 5 months
+            <span title="2009-05-31 16:20:08Z">
+             12 years, 11 months
             </span>
            </div>
           </div>
@@ -582,7 +560,7 @@ this week
         </ul>
         <ul class="list-reset s-anchors s-anchors__inherit d-flex fc-light gs8 mln4 fw-wrap">
          <li class="flex--item">
-          <a href="https://twitter.com/Javlon1212" rel="me" title="Javlon1212">
+          <a href="https://twitter.com/commonsguy" rel="me" title="commonsguy">
            <svg aria-hidden="true" class="fc-black-350 svg-icon iconTwitter" height="18" viewbox="0 0 18 18" width="18">
             <path d="M17 4.04c-.59.26-1.22.44-1.88.52a3.3 3.3 0 0 0 1.44-1.82c-.64.37-1.34.64-2.09.79a3.28 3.28 0 0 0-5.6 2.99A9.3 9.3 0 0 1 2.12 3.1a3.28 3.28 0 0 0 1.02 4.38 3.28 3.28 0 0 1-1.49-.4v.03a3.29 3.29 0 0 0 2.64 3.22 3.34 3.34 0 0 1-1.48.06 3.29 3.29 0 0 0 3.07 2.28 6.58 6.58 0 0 1-4.85 1.36 9.33 9.33 0 0 0 5.04 1.47c6.04 0 9.34-5 9.34-9.33v-.42a6.63 6.63 0 0 0 1.63-1.7L17 4.04Z" fill="#2AA3EF">
             </path>
@@ -593,7 +571,7 @@ this week
           </a>
          </li>
          <li class="flex--item">
-          <a href="https://github.com/javlonrahimov" rel="me" title="javlonrahimov">
+          <a href="https://github.com/commonsguy" rel="me" title="commonsguy">
            <svg aria-hidden="true" class="fc-black-350 svg-icon iconGitHub" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9 1a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48l-.01 2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 9 1Z" fill="#010101">
             </path>
@@ -606,14 +584,27 @@ this week
          <li class="flex--item">
           <div class="d-flex gs4 gsx ai-center">
            <div class="flex--item fc-black-350">
-            <svg aria-hidden="true" class="mrn2 svg-icon iconLocation" height="18" viewbox="0 0 18 18" width="18">
+            <svg aria-hidden="true" class="svg-icon iconLink" height="18" viewbox="0 0 18 18" width="18">
+             <path d="M7.22 11.83a6 6 0 0 0 1.62.85l.61-1.8a4.1 4.1 0 1 1 4.04-.8l1.26 1.42a6 6 0 1 0-7.53.33Zm3.43-5.6a6 6 0 0 0-1.6-.87L8.4 7.15a4.1 4.1 0 1 1-4.05.73L3.12 6.43a6 6 0 1 0 7.53-.2Z">
+             </path>
+            </svg>
+           </div>
+           <a class="flex--item" href="https://commonsware.com" rel="me noreferrer">
+            commonsware.com
+           </a>
+          </div>
+         </li>
+         <li class="flex--item">
+          <div class="d-flex gs4 gsx ai-center">
+           <div class="flex--item fc-black-350">
+            <svg aria-hidden="true" class="mrn2 svg-icon iconLocation" height="18" viewbox="0 0 17 18" width="17">
              <path d="M2 6.38C2 9.91 8.1 17.7 8.1 17.7c.22.29.58.29.8 0 0 0 6.1-7.8 6.1-11.32A6.44 6.44 0 0 0 8.5 0 6.44 6.44 0 0 0 2 6.38Zm9.25.12a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 0 1 5.5 0Z">
              </path>
             </svg>
            </div>
            <div class="flex--item">
-            <div class="wmx2 truncate" title="Tashkent, Uzbekistan">
-             Tashkent, Uzbekistan
+            <div class="wmx2 truncate" title="Pennsylvania, United States">
+             Pennsylvania, United States
             </div>
            </div>
           </div>
@@ -622,31 +613,48 @@ this week
        </div>
       </div>
       <div class="ps-absolute t0 r0 d-flex gs6 fw-wrap">
-       <ul class="flex--item list-reset">
-        <li role="menuitem">
-         <a class="d-flex ai-center ws-nowrap s-btn s-btn__outlined s-btn__muted s-btn__icon s-btn__sm" href="https://meta.stackoverflow.com/users/12153321/javlon">
-          <div class="favicon favicon-stackoverflowmeta" title="Meta site favicon">
-          </div>
-          <div class="ml4">
-           Meta user
-          </div>
-         </a>
-        </li>
-       </ul>
+       <button aria-controls="profiles-menu" class="flex--item s-btn s-btn__outlined s-btn__muted s-btn__icon s-btn__sm s-btn__dropdown" data-action="s-popover#toggle" data-controller="s-popover" data-s-popover-placement="bottom-end" data-s-popover-toggle-class="is-selected" role="button">
+        Profiles
+       </button>
+       <div class="s-popover px0 py4 w-auto" id="profiles-menu" role="menu">
+        <div class="s-popover--arrow">
+        </div>
+        <ul class="s-menu" role="menu">
+         <li role="menuitem">
+          <a class="s-block-link d-flex ai-center ws-nowrap" href="https://meta.stackoverflow.com/users/115145/commonsware">
+           <div class="favicon favicon-stackoverflowmeta" title="Meta site favicon">
+           </div>
+           <div class="ml4">
+            Meta user
+           </div>
+          </a>
+         </li>
+         <li role="menuitem">
+          <a class="s-block-link d-flex ai-center ws-nowrap d-flex ai-center" href="https://stackexchange.com/users/39846/commonsware">
+           <svg aria-hidden="true" class="native mln2 mr2 svg-icon iconLogoSEXxs" height="18" viewbox="0 0 18 18" width="18">
+            <path d="M3 4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2H3Z" fill="#8FD8F7">
+            </path>
+            <path d="M15 11H3c0 1.1.9 2 2 2h5v3l3-3a2 2 0 0 0 2-2Z" fill="#155397">
+            </path>
+            <path d="M3 5h12v2H3z" fill="#46A2D9">
+            </path>
+            <path d="M3 8h12v2H3z" fill="#2D6DB5">
+            </path>
+           </svg>
+           Network profile
+          </a>
+         </li>
+        </ul>
+       </div>
       </div>
      </div>
      <div class="d-flex ai-center jc-space-between fw-wrap mb16 js-user-header">
       <div class="flex--item s-navigation">
-       <a class="s-navigation--item is-selected" data-shortcut="P" href="/users/12153321/javlon?tab=profile">
+       <a class="s-navigation--item" data-shortcut="P" href="/users/115145/commonsware?tab=profile">
         Profile
        </a>
-       <a class="s-navigation--item" data-shortcut="A" href="/users/12153321/javlon?tab=topactivity">
+       <a class="s-navigation--item is-selected" data-shortcut="A" href="/users/115145/commonsware?tab=topactivity">
         Activity
-       </a>
-       <a class="s-navigation--item d-flex ai-center" href="/users/story/12153321">
-        <div class="flex--item">
-         Developer Story
-        </div>
        </a>
       </div>
       <div class="flex--item ml-auto">
@@ -654,843 +662,1886 @@ this week
        </div>
       </div>
      </div>
-     <div id="main-content">
-      <div class="d-flex gs24 md:fd-column">
-       <div class="flex--item3 fl-shrink0 md:order-last">
-        <div class="d-grid g24">
-         <div class="grid--item" data-is-here-when="lg" id="stats">
-          <div class="fs-title mb8">
-           Stats
+     <div class="d-none md:d-block">
+      <nav class="mb24">
+       <div class="d-flex gs4 gsy fd-column">
+        <label class="flex--item s-label" for="js-select-menu">
+         Navigation
+         <p class="mt2 s-description">
+          View all activity pages
+         </p>
+        </label>
+        <div class="flex--item s-select">
+         <select id="js-select-menu">
+          <option value="/users/115145/commonsware?tab=summary">
+           Summary
+          </option>
+          <option value="/users/115145/commonsware?tab=answers">
+           Answers
+          </option>
+          <option value="/users/115145/commonsware?tab=questions">
+           Questions
+          </option>
+          <option selected="selected" value="/users/115145/commonsware?tab=tags">
+           Tags
+          </option>
+          <option value="/users/115145/commonsware?tab=articles">
+           Articles
+          </option>
+          <option value="/users/115145/commonsware?tab=badges">
+           Badges
+          </option>
+          <option value="/users/115145/commonsware?tab=bookmarks">
+           Bookmarks
+          </option>
+          <option value="/users/115145/commonsware?tab=bounties">
+           Bounties
+          </option>
+          <option value="/users/115145/commonsware?tab=reputation">
+           Reputation
+          </option>
+          <option value="/users/115145/commonsware?tab=activity">
+           All actions
+          </option>
+         </select>
+        </div>
+       </div>
+      </nav>
+     </div>
+     <div class="d-flex mb48">
+      <nav class="flex--item fl-shrink0 mr32 wmn1 md:d-none js-settings-nav" role="navigation">
+       <ul class="ps-sticky t64 s-navigation s-navigation__muted s-navigation__vertical">
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="S" href="/users/115145/commonsware?tab=summary" title="This user’s overall summary">
+          Summary
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="A" href="/users/115145/commonsware?tab=answers" title="Answers this user provided">
+          Answers
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="Q" href="/users/115145/commonsware?tab=questions" title="Questions this user asked">
+          Questions
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item is-selected pr48 ps-relative" data-shortcut="T" href="/users/115145/commonsware?tab=tags" title="Tags this user has posts in">
+          Tags
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="I" href="/users/115145/commonsware?tab=articles" title="Articles this user has created">
+          Articles
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="B" href="/users/115145/commonsware?tab=badges" title="Badges this user has earned">
+          Badges
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="F" href="/users/115145/commonsware?tab=bookmarks" title="Questions this user has bookmarked">
+          Bookmarks
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="O" href="/users/115145/commonsware?tab=bounties" title="Bounties this user has participated in">
+          Bounties
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="R" href="/users/115145/commonsware?tab=reputation" title="Reputation this user has earned">
+          Reputation
+         </a>
+        </li>
+        <li>
+         <a class="s-navigation--item pr48 ps-relative" data-shortcut="L" href="/users/115145/commonsware?tab=activity" title="This user’s recent actions">
+          All actions
+         </a>
+        </li>
+       </ul>
+      </nav>
+      <section class="flex--item fl-grow1 wmx100">
+       <div class="js-user-tab" id="user-tab-tags">
+        <div class="d-flex ai-end jc-space-between mb8 fw-wrap">
+         <div class="flex--item fl-grow1">
+          <div class="d-flex fd-column">
+           <h2 class="flex--item fs-title mb0">
+            3,257 Tags
+           </h2>
           </div>
-          <div class="s-card fc-light bar-md">
-           <div class="d-flex flex__allitems6 gs16 fw-wrap md:jc-space-between">
-            <div class="flex--item md:fl-auto">
-             <div class="fs-body3 fc-dark">
-              211
-             </div>
-             reputation
-            </div>
-            <div class="flex--item md:fl-auto" title="Estimated number of times people viewed helpful posts by this user
-(based on page views of questions
-and questions where they wrote highly-ranked answers)">
-             <div class="fs-body3 fc-dark">
-              11k
-             </div>
-             reached
-            </div>
-            <div class="flex--item md:fl-auto">
-             <div class="fs-body3 fc-dark">
-              5
-             </div>
-             answers
-            </div>
-            <div class="flex--item md:fl-auto">
-             <div class="fs-body3 fc-dark">
-              12
-             </div>
-             questions
-            </div>
-            <div class="flex--item fl-auto m8 js-rank-container d-none">
-             <div class="fc-medium mt4 sm:mt2">
-              <svg aria-hidden="true" class="svg-icon iconAchievements" height="18" viewbox="0 0 18 18" width="18">
-               <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3ZM3 7c-.5 0-1-.5-1-1V4h1v3Zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1ZM16 6c0 .5-.5 1-1 1V4h1v2Z">
-               </path>
-              </svg>
-             </div>
-             <div class="s-anchors s-anchors__inherit js-rank-badge">
-             </div>
-            </div>
-            <div class="mt4 pl1 ml2 s-spinner s-spinner__xs js-ranked-loading-spinner">
-             <div class="v-visible-sr">
-              Loading…
-             </div>
-            </div>
-            <script>
-             StackExchange.ready(function () {
-                        $.get("/users/rank?userId=12153321", function (data) {
-                            $(".js-ranked-loading-spinner").remove();
-                            if (data && data.indexOf("unranked") == -1) { // if data returned and is not unranked
-                                $(".js-rank-badge").html(data).removeClass("d-none");
-                                $(".js-rank-container").removeClass("d-none");
-                            }
-                        });
-                    });
-            </script>
+         </div>
+         <div class="flex--item">
+          <div class="d-flex ai-end">
+           <div class="flex--item s-btn-group js-user-tab-sorts fl-shrink0 md:fl-shrink1">
+            <a class="as-center s-btn s-btn__muted s-btn__outlined s-btn__xs js-user-tab-sort is-selected js-selected" data-sort="votes" href="/users/115145/commonsware?tab=tags&amp;sort=votes">
+             Score
+            </a>
+            <a class="as-center s-btn s-btn__muted s-btn__outlined s-btn__xs js-user-tab-sort" data-sort="name" href="/users/115145/commonsware?tab=tags&amp;sort=name">
+             Name
+            </a>
            </div>
           </div>
          </div>
-         <div class="grid--item">
-          <div class="fs-title mb8">
-           Collectives
-          </div>
-          <div class="s-card bar-md p0">
-           <a class="d-block p12 s-link s-link__inherit" href="/collectives/go">
-            <div class="themed subcommunity-avatar subcommunity-go gs8 gsx d-flex ai-center">
-             <div class="flex--item ps-relative">
-              <svg aria-hidden="true" class="themed subcommunity-avatar subcommunity-go fc-theme-primary svg-spot spotStarBadge" height="48" viewbox="0 0 48 48" width="48">
-               <path d="M18 19a1 1 0 0 1 1-1h11.98a3 3 0 0 1 3 3L34 31a3 3 0 0 1-3 3H21a3 3 0 0 1-3-3V19Z" opacity=".2">
-               </path>
-               <path d="M24.38 1.05a.4.4 0 0 0-.76 0l-.88 2.7a.4.4 0 0 1-.38.27h-2.84a.4.4 0 0 0-.23.72l2.3 1.67c.14.1.2.28.14.45l-.88 2.7a.4.4 0 0 0 .62.45l2.3-1.67a.4.4 0 0 1 .47 0l2.3 1.67a.4.4 0 0 0 .6-.45l-.87-2.7a.4.4 0 0 1 .14-.45l2.3-1.67a.4.4 0 0 0-.23-.72h-2.84a.4.4 0 0 1-.38-.28l-.88-2.7ZM4 8a1 1 0 0 1 1-1h9.5a1 1 0 1 0 0-2H5a3 3 0 0 0-3 3v23.21a3 3 0 0 0 1.29 2.47l18.53 12.87a3 3 0 0 0 3.36.03l19.47-12.9a3 3 0 0 0 1.35-2.5l-.04-23.19a3 3 0 0 0-3-2.99H32.5a1 1 0 1 0 0 2h10.46a1 1 0 0 1 1 1L44 31.18a1 1 0 0 1-.45.84l-19.47 12.9a1 1 0 0 1-1.12-.02L4.43 32.03a1 1 0 0 1-.43-.82V8Z">
-               </path>
-              </svg>
-              <div class="themed subcommunity-avatar subcommunity-go s-avatar s-avatar__16 ps-absolute l16 t16">
+        </div>
+        <div class="ba bc-black-100 bar-md">
+         <div class="p12 bb bc-black-075" title="100 non-wiki questions (2140 score). 22456 non-wiki answers (98678 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android]" rel="tag" title="show questions tagged 'android'">
+             android
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/178/android" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               98,678
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
               </div>
              </div>
-             <div class="flex--item fl1">
-              <div class="fs-body2 mb2">
-               Go Language
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               22,560
               </div>
-              <div class="fs-caption fc-medium">
-               2021 • Member
+              <div class="fc-light">
+               posts
               </div>
              </div>
             </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="5 non-wiki questions (33 score). 3571 non-wiki answers (13019 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[java]" rel="tag" title="show questions tagged 'java'">
+             java
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/44/java" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               13,019
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               3,576
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="2 non-wiki questions (73 score). 1668 non-wiki answers (5673 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-intent]" rel="tag" title="show questions tagged 'android-intent'">
+             android-intent
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/2750/android-intent" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               5,673
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,670
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="4 non-wiki questions (92 score). 697 non-wiki answers (4643 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-studio]" rel="tag" title="show questions tagged 'android-studio'">
+             android-studio
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4311/android-studio" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               4,643
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               701
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="1 non-wiki questions (130 score). 475 non-wiki answers (4065 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-fragments]" rel="tag" title="show questions tagged 'android-fragments'">
+             android-fragments
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3611/android-fragments" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               4,065
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               476
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 746 non-wiki answers (3676 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-activity]" rel="tag" title="show questions tagged 'android-activity'">
+             android-activity
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4091/android-activity" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               3,676
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               746
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 488 non-wiki answers (2776 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-layout]" rel="tag" title="show questions tagged 'android-layout'">
+             android-layout
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4449/android-layout" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               2,776
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               488
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 638 non-wiki answers (2670 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[service]" rel="tag" title="show questions tagged 'service'">
+             service
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3165/service" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               2,670
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               638
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 537 non-wiki answers (2225 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[broadcastreceiver]" rel="tag" title="show questions tagged 'broadcastreceiver'">
+             broadcastreceiver
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4711/broadcastreceiver" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               2,225
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               537
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 114 non-wiki answers (2177 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[textview]" rel="tag" title="show questions tagged 'textview'">
+             textview
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/5514/textview" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               2,177
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               114
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 503 non-wiki answers (2164 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[sqlite]" rel="tag" title="show questions tagged 'sqlite'">
+             sqlite
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3471/sqlite" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               2,164
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               503
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="9 non-wiki questions (345 score). 170 non-wiki answers (2064 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-gradle-plugin]" rel="tag" title="show questions tagged 'android-gradle-plugin'">
+             android-gradle-plugin
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/9129/android-gradle-plugin" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               2,064
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               179
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="3 non-wiki questions (24 score). 255 non-wiki answers (1975 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[gradle]" rel="tag" title="show questions tagged 'gradle'">
+             gradle
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3456/gradle" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,975
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               258
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="1 non-wiki questions (14 score). 391 non-wiki answers (1867 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[eclipse]" rel="tag" title="show questions tagged 'eclipse'">
+             eclipse
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/156/eclipse" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,867
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               392
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 34 non-wiki answers (1858 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-assets]" rel="tag" title="show questions tagged 'android-assets'">
+             android-assets
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/6051/android-assets" title="Bronze badge">
+             <span class="badge3">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,858
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               34
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="1 non-wiki questions (203 score). 286 non-wiki answers (1658 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-manifest]" rel="tag" title="show questions tagged 'android-manifest'">
+             android-manifest
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/8257/android-manifest" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,658
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               287
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 216 non-wiki answers (1627 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-asynctask]" rel="tag" title="show questions tagged 'android-asynctask'">
+             android-asynctask
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/7164/android-asynctask" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,627
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               216
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="4 non-wiki questions (104 score). 272 non-wiki answers (1562 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-permissions]" rel="tag" title="show questions tagged 'android-permissions'">
+             android-permissions
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/7960/android-permissions" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,562
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               276
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 360 non-wiki answers (1517 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-service]" rel="tag" title="show questions tagged 'android-service'">
+             android-service
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/7208/android-service" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,517
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               360
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="2 non-wiki questions (21 score). 420 non-wiki answers (1415 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[kotlin]" rel="tag" title="show questions tagged 'kotlin'">
+             kotlin
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/6488/kotlin" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,415
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               422
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="2 non-wiki questions (77 score). 113 non-wiki answers (1406 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-support-library]" rel="tag" title="show questions tagged 'android-support-library'">
+             android-support-library
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/5619/android-support-library" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,406
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               115
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="1 non-wiki questions (1 score). 252 non-wiki answers (1395 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-actionbar]" rel="tag" title="show questions tagged 'android-actionbar'">
+             android-actionbar
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4714/android-actionbar" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,395
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               253
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 89 non-wiki answers (1386 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-edittext]" rel="tag" title="show questions tagged 'android-edittext'">
+             android-edittext
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/6683/android-edittext" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,386
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               89
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="2 non-wiki questions (8 score). 165 non-wiki answers (1362 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-room]" rel="tag" title="show questions tagged 'android-room'">
+             android-room
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/8081/android-room" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,362
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               167
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 345 non-wiki answers (1361 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[google-maps]" rel="tag" title="show questions tagged 'google-maps'">
+             google-maps
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/1909/google-maps" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,361
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               345
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 315 non-wiki answers (1232 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[xml]" rel="tag" title="show questions tagged 'xml'">
+             xml
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/822/xml" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,232
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               315
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 327 non-wiki answers (1153 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[listview]" rel="tag" title="show questions tagged 'listview'">
+             listview
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/6665/listview" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,153
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               327
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 228 non-wiki answers (1131 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[multithreading]" rel="tag" title="show questions tagged 'multithreading'">
+             multithreading
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/129/multithreading" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,131
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               228
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 165 non-wiki answers (1097 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[layout]" rel="tag" title="show questions tagged 'layout'">
+             layout
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/2530/layout" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,097
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               165
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 267 non-wiki answers (1096 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-widget]" rel="tag" title="show questions tagged 'android-widget'">
+             android-widget
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/8779/android-widget" title="Gold badge">
+             <span class="badge1">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,096
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               267
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="1 non-wiki questions (6 score). 57 non-wiki answers (1051 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-view]" rel="tag" title="show questions tagged 'android-view'">
+             android-view
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3316/android-view" title="Bronze badge">
+             <span class="badge3">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,051
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               58
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 130 non-wiki answers (1008 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-fileprovider]" rel="tag" title="show questions tagged 'android-fileprovider'">
+             android-fileprovider
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/8411/android-fileprovider" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               1,008
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               130
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 126 non-wiki answers (990 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-viewpager]" rel="tag" title="show questions tagged 'android-viewpager'">
+             android-viewpager
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4671/android-viewpager" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               990
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               126
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 245 non-wiki answers (958 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[alarmmanager]" rel="tag" title="show questions tagged 'alarmmanager'">
+             alarmmanager
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3917/alarmmanager" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               958
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               245
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 50 non-wiki answers (936 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[animation]" rel="tag" title="show questions tagged 'animation'">
+             animation
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/1794/animation" title="Bronze badge">
+             <span class="badge3">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               936
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               50
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="1 non-wiki questions (35 score). 200 non-wiki answers (925 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-contentprovider]" rel="tag" title="show questions tagged 'android-contentprovider'">
+             android-contentprovider
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/5615/android-contentprovider" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               925
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               201
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 4 non-wiki answers (923 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-build-type]" rel="tag" title="show questions tagged 'android-build-type'">
+             android-build-type
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               923
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               4
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 31 non-wiki answers (854 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[retrofit]" rel="tag" title="show questions tagged 'retrofit'">
+             retrofit
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4064/retrofit" title="Bronze badge">
+             <span class="badge3">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               854
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               31
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="4 non-wiki questions (131 score). 139 non-wiki answers (842 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-6.0-marshmallow]" rel="tag" title="show questions tagged 'android-6.0-marshmallow'">
+             android-6.0-marshmallow
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/6242/android-6-0-marshmallow" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               842
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               143
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 100 non-wiki answers (828 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-context]" rel="tag" title="show questions tagged 'android-context'">
+             android-context
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/7696/android-context" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               828
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               100
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 159 non-wiki answers (824 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[apk]" rel="tag" title="show questions tagged 'apk'">
+             apk
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/7831/apk" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               824
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               159
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 37 non-wiki answers (801 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[networking]" rel="tag" title="show questions tagged 'networking'">
+             networking
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/885/networking" title="Bronze badge">
+             <span class="badge3">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               801
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               37
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 82 non-wiki answers (800 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-lifecycle]" rel="tag" title="show questions tagged 'android-lifecycle'">
+             android-lifecycle
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/10577/android-lifecycle" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               800
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               82
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 215 non-wiki answers (792 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[notifications]" rel="tag" title="show questions tagged 'notifications'">
+             notifications
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4411/notifications" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               792
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               215
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 288 non-wiki answers (791 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[file]" rel="tag" title="show questions tagged 'file'">
+             file
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/1215/file" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               791
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               288
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 14 non-wiki answers (767 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-networking]" rel="tag" title="show questions tagged 'android-networking'">
+             android-networking
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               767
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               14
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 96 non-wiki answers (761 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[google-maps-android-api-2]" rel="tag" title="show questions tagged 'google-maps-android-api-2'">
+             google-maps-android-api-2
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/4965/google-maps-android-api-2" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               761
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               96
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 121 non-wiki answers (726 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[user-interface]" rel="tag" title="show questions tagged 'user-interface'">
+             user-interface
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3855/user-interface" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               726
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               121
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 47 non-wiki answers (713 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-drawable]" rel="tag" title="show questions tagged 'android-drawable'">
+             android-drawable
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/5274/android-drawable" title="Bronze badge">
+             <span class="badge3">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               713
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               47
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="1 non-wiki questions (23 score). 114 non-wiki answers (706 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[security]" rel="tag" title="show questions tagged 'security'">
+             security
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/217/security" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               706
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               115
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12 bb bc-black-075" title="0 non-wiki questions (0 score). 205 non-wiki answers (699 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[permissions]" rel="tag" title="show questions tagged 'permissions'">
+             permissions
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/6864/permissions" title="Silver badge">
+             <span class="badge2">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               699
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               205
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="p12" title="0 non-wiki questions (0 score). 36 non-wiki answers (657 score).">
+          <div class="d-flex ai-center jc-space-between gs16 fw-wrap">
+           <div class="flex--item ws-nowrap">
+            <a class="post-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:115145+[android-xml]" rel="tag" title="show questions tagged 'android-xml'">
+             android-xml
+            </a>
+            <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3728/android-xml" title="Bronze badge">
+             <span class="badge3">
+             </span>
+            </a>
+           </div>
+           <div class="flex--item">
+            <div class="d-flex gsx gs16">
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               657
+              </div>
+              <div class="fc-light tt-lowercase">
+               Score
+              </div>
+             </div>
+             <div class="flex--item d-flex ai-center">
+              <div class="fs-body3 mr4">
+               36
+              </div>
+              <div class="fc-light">
+               posts
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div>
+         <div class="js-user-tab-paging">
+          <div class="s-pagination site1 themed pager float-right">
+           <div class="s-pagination--item is-selected">
+            1
+           </div>
+           <a class="s-pagination--item js-pagination-item" href="/users/115145/commonsware?tab=tags&amp;sort=votes&amp;page=2" rel="" title="Go to page 2">
+            2
            </a>
-          </div>
-         </div>
-         <div class="grid--item">
-          <div class="d-flex ai-center jc-space-between mb8">
-           <div class="flex--item fs-title">
-            Communities
+           <a class="s-pagination--item js-pagination-item" href="/users/115145/commonsware?tab=tags&amp;sort=votes&amp;page=3" rel="" title="Go to page 3">
+            3
+           </a>
+           <a class="s-pagination--item js-pagination-item" href="/users/115145/commonsware?tab=tags&amp;sort=votes&amp;page=4" rel="" title="Go to page 4">
+            4
+           </a>
+           <a class="s-pagination--item js-pagination-item" href="/users/115145/commonsware?tab=tags&amp;sort=votes&amp;page=5" rel="" title="Go to page 5">
+            5
+           </a>
+           <div class="s-pagination--item s-pagination--item__clear">
+            …
            </div>
-          </div>
-          <div class="s-card bar-md">
-           <ul class="list-reset d-flex fd-column gs12 gsy">
-            <li class="flex--item">
-             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://stackoverflow.com/users/12153321/" title="Stack Overflow">
-              <div class="favicon favicon-stackoverflow flex--item fl-shrink0 favicon" title="Stack Overflow">
-              </div>
-              <div class="flex--item fl-grow1 wmn0 pr4">
-               <div class="truncate">
-                Stack Overflow
-               </div>
-              </div>
-              <div class="flex--item fl-shrink0 ml-auto fc-light">
-               211
-              </div>
-             </a>
-            </li>
-           </ul>
+           <a class="s-pagination--item js-pagination-item" href="/users/115145/commonsware?tab=tags&amp;sort=votes&amp;page=63" rel="" title="Go to page 63">
+            63
+           </a>
+           <a class="s-pagination--item js-pagination-item" href="/users/115145/commonsware?tab=tags&amp;sort=votes&amp;page=2" rel="next" title="Go to page 2">
+            Next
+           </a>
           </div>
          </div>
         </div>
        </div>
-       <div class="flex--item fl-grow1">
-        <div class="d-grid g24">
-         <div data-can-be="stats" data-is-here-when="sm md">
-         </div>
-         <div class="grid--item overflow-x-auto">
-          <div class="fs-title mb8">
-           About
-          </div>
-          <div class="js-expandable-overflow hmx3 overflow-hidden v-truncate-fade">
-           <div class="s-prose fc-medium js-about-me-content">
-            <p>
-             Hello there
-            </p>
-           </div>
-          </div>
-          <div class="d-flex jc-center">
-           <button class="s-btn s-btn__outlined s-btn__muted s-btn__xs v-hidden js-expandable-overflow-btn">
-            Read more
-           </button>
-          </div>
-         </div>
-         <div class="grid--item">
-          <div class="d-flex ai-center jc-space-between mb8">
-           <div class="flex--item fs-title">
-            Badges
-           </div>
-           <a class="s-link s-link__muted flex--item js-gps-track" data-gps-track="profile_link.click({ target: 1, type: 2 })" href="/users/12153321/javlon?tab=badges">
-            View all badges
-           </a>
-          </div>
-          <div class="d-flex flex__fl-equal fw-wrap gs24">
-           <div class="flex--item s-card bar-md">
-            <div class="d-flex fd-column jc-space-between h100 g12">
-             <div class="d-flex fd-column g12 my-auto">
-              <div class="flex--item mx-auto">
-               <svg aria-hidden="true" class="fc-gold svg-spot spotAwardLg" height="96" viewbox="0 0 96 96" width="96">
-                <path d="M60.76 7.6c1.96 1.5 3.82 3.32 4.96 5.53a11.2 11.2 0 0 1 .58 8.16 36.59 36.59 0 0 1 5.22 3.78c-.29-3.05.9-5.97 2.74-8.37.61-.79 1.21-1.42 1.66-1.86.48-.47.99-1.03 1.7-1.05.98-.01 1.43.85 1.82 1.6.3.58.68 1.4 1.06 2.38a17.6 17.6 0 0 1 1.3 7.25 10.81 10.81 0 0 1-3.84 7.38 35.97 35.97 0 0 1 2.84 5.14 12.83 12.83 0 0 1 4.82-5.7c.9-.6 1.83-1.14 2.82-1.57.3-.13.6-.24.94-.22.73.05 1.22.6 1.42 1.26.33 1.08.41 2.25.46 3.37.09 2-.07 4.72-1.12 7.1-1.06 2.4-2.77 4-4.18 4.99a13.3 13.3 0 0 1-2.25 1.28c.2 1.66.29 3.38.25 5.09a13.06 13.06 0 0 1 6.52-2.94 15.4 15.4 0 0 1 3.53-.25c.74.05 1.1.57 1.22.76.32.56.19 1.24.07 1.84-.61 3.1-2.03 6.26-4.34 8.45a11.63 11.63 0 0 1-6.19 2.9c-1.16.19-2.14.2-2.72.19a35.99 35.99 0 0 1-1.98 4.7c2.38-.76 4.89-.67 7.28-.03.97.26 1.78.58 2.35.82.74.32 1.59.63 1.74 1.53.1.52-.1 1.02-.33 1.48a11.14 11.14 0 0 1-6.55 5.5c-3.46 1.07-7.48.64-10.94-.31-1.01 1.03-2.08 2-3.21 2.91 2.47.38 4.58 1.7 6.03 2.86.78.62 1.4 1.22 1.84 1.67.61.64 1.33 1.32.95 2.3-.17.44-.55.77-.92 1.06a11.76 11.76 0 0 1-8.3 2.34c-3.49-.39-6.83-2.32-9.48-4.56a36.44 36.44 0 0 1-6 1.72 1.5 1.5 0 0 1-.57-2.94 33.37 33.37 0 0 0 27-32.7A33.16 33.16 0 0 0 63.98 23.4c-.86-.48-1.76-.9-2.62-1.39a15.52 15.52 0 0 1-5.2-4.9c-1.53-2.34-1.58-5.08-1.33-7.07.12-1.02.33-1.9.51-2.53.22-.76.45-1.68 1.3-1.94.72-.23 1.38.2 1.98.56.55.33 1.31.83 2.15 1.47Zm-2.78 1.69c-.43 2.03-.5 4.37.68 6.18a12.41 12.41 0 0 0 4.93 4.33 8.03 8.03 0 0 0-.55-5.31c-1.13-2.16-3.07-3.85-5.06-5.2Zm19.28 8.5c-1.42 1.6-2.61 3.57-2.77 5.74-.15 2.22.7 4.4 1.92 6.22a7.7 7.7 0 0 0 2.4-4.94c.17-2.4-.58-4.85-1.55-7.03Zm6.35 26.93a9.4 9.4 0 0 0 3.78-4.16c.93-2.1 1.03-4.53.8-6.8-1.9 1.12-3.63 2.64-4.52 4.7-.87 1.97-.66 4.25-.06 6.26Zm-.33 16.34a9.09 9.09 0 0 0 5.62-2.24c1.62-1.54 2.6-3.68 3.2-5.81-2.19.21-4.47.86-6.13 2.36-1.56 1.48-2.36 3.6-2.7 5.69Zm-6.9 14.26c2.38.41 4.96.62 7.3-.1a8.28 8.28 0 0 0 4.23-3.13c-2.2-.83-4.56-1.16-6.84-.47-1.94.6-3.5 2.08-4.69 3.7Zm-12.47 9.85c1.9 1.32 4.1 2.5 6.43 2.77a8.9 8.9 0 0 0 5.26-1.16c-1.63-1.53-3.65-2.9-5.92-3.16-2.03-.22-4.05.52-5.77 1.55ZM48.79 25.08a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm-3.21-1.45a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-6.46 2.7a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm-2.95.23a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0ZM30.3 30.8a1.66 1.66 0 1 0 0-3.31 1.66 1.66 0 0 0 0 3.32Zm-1.93 1.59a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm22.85 1.63a3.43 3.43 0 0 0-3.2-2.2c-1.31 0-2.64.77-3.1 2.3L41.6 44H31.57c-1.66 0-2.8 1.1-3.2 2.35a3.35 3.35 0 0 0 1.12 3.7l8.13 6.25-3 9.6v.02a3.33 3.33 0 0 0 5.12 3.67l8.43-5.95 8.27 5.78.02.02c2.63 1.77 6-.62 5.1-3.69l-.01-.02-3-9.6 8.13-6.25.08-.06A3.3 3.3 0 0 0 64.6 44H54.56l-3.31-9.9a1.64 1.64 0 0 0-.03-.08Zm-3.44.98c.03-.1.07-.13.09-.15a.27.27 0 0 1 .15-.04c.08 0 .16.03.23.07.05.04.12.1.17.22l3.64 10.88c.2.6.77 1.02 1.42 1.02H64.6c.1 0 .16.03.2.05a.3.3 0 0 1 .11.3c0 .04-.03.11-.11.2l-8.92 6.85a1.5 1.5 0 0 0-.51 1.63l3.31 10.58c.03.11.02.18 0 .22a.3.3 0 0 1-.1.15.32.32 0 0 1-.18.06c-.06 0-.14 0-.26-.09l-9.11-6.37a1.5 1.5 0 0 0-1.73 0l-9.28 6.54a.43.43 0 0 1-.25.09.32.32 0 0 1-.29-.2.36.36 0 0 1 0-.23L40.8 56.2a1.5 1.5 0 0 0-.52-1.64l-8.96-6.89a.24.24 0 0 1-.1-.14.5.5 0 0 1 .14-.47c.03-.03.09-.06.2-.06H42.7a1.5 1.5 0 0 0 1.42-1.02l3.65-10.93.01-.03V35ZM26.7 74.33a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm-1.4-5.48a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-4.1-2.6a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm0-6.41a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-2.5-3.23a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm1.67-6.51a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-.84-3.25a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm3.32-6.19a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm.65-2.82a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32ZM55.42 24a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm3.04 3.09a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm6.13.62a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm2.19 4.51a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm5.17 1.86a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm1.1 5.68a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm3.75 2.89a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-.48 6.38a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm2.12 3.32a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-2.02 6.71a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm.41 3.07a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-3.75 6.09a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm-1.05 2.53a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0ZM66.88 76a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm-2.31 1.21a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-6.09 3.85a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm-2.92-.16a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-6.54 2.3a1.66 1.66 0 1 0 0-3.33 1.66 1.66 0 0 0 0 3.32Zm-3.33-1.91a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-6.55.77a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32Zm-2.87-3.62a1.66 1.66 0 1 1-3.32 0 1.66 1.66 0 0 1 3.32 0Zm-6.19-.7a1.66 1.66 0 1 0 0-3.32 1.66 1.66 0 0 0 0 3.32ZM35.42 7.6c-1.96 1.5-3.83 3.32-4.96 5.53a11.2 11.2 0 0 0-.58 8.16 36.59 36.59 0 0 0-5.23 3.78c.3-3.05-.88-5.97-2.73-8.37a18.02 18.02 0 0 0-1.66-1.86c-.48-.47-.99-1.03-1.7-1.05-.98-.01-1.43.85-1.82 1.6-.3.58-.69 1.4-1.06 2.38a17.6 17.6 0 0 0-1.3 7.25c.2 2.88 1.67 5.52 3.84 7.38a35.96 35.96 0 0 0-2.84 5.14 12.83 12.83 0 0 0-4.82-5.7 18.1 18.1 0 0 0-2.82-1.57c-.3-.13-.6-.24-.94-.22-.73.05-1.22.6-1.42 1.26a13.85 13.85 0 0 0-.46 3.37c-.1 2 .07 4.72 1.12 7.1 1.05 2.4 2.77 4 4.18 4.99a13.3 13.3 0 0 0 2.25 1.28 35.8 35.8 0 0 0-.25 5.09A13.06 13.06 0 0 0 5.7 50.2a15.4 15.4 0 0 0-3.53-.25 1.5 1.5 0 0 0-1.22.76c-.32.56-.19 1.24-.07 1.84.61 3.1 2.03 6.26 4.34 8.45a11.63 11.63 0 0 0 6.18 2.9c1.17.19 2.15.2 2.72.19a36.2 36.2 0 0 0 1.99 4.7 12.76 12.76 0 0 0-7.28-.03c-.97.26-1.78.58-2.35.82-.74.32-1.59.63-1.74 1.53-.1.52.1 1.02.33 1.48a11.1 11.1 0 0 0 6.55 5.5c3.46 1.07 7.48.64 10.94-.31 1 1.03 2.08 2 3.2 2.91-2.47.38-4.57 1.7-6.03 2.86-.77.62-1.4 1.22-1.83 1.67-.62.64-1.33 1.32-.95 2.3.17.44.55.77.92 1.06a11.76 11.76 0 0 0 8.3 2.34c3.48-.39 6.83-2.32 9.48-4.56 1.92.74 3.92 1.32 6 1.72a1.5 1.5 0 0 0 .57-2.94 33.37 33.37 0 0 1-27.01-32.7 33.16 33.16 0 0 1 17-29.04c.86-.48 1.76-.9 2.62-1.39 2.08-1.2 3.88-2.9 5.2-4.9 1.53-2.34 1.58-5.08 1.33-7.07-.12-1.02-.33-1.9-.51-2.53-.22-.76-.45-1.68-1.3-1.94-.73-.23-1.38.2-1.98.56-.55.33-1.32.83-2.15 1.47Zm2.78 1.69c.43 2.03.5 4.37-.68 6.18a12.41 12.41 0 0 1-4.93 4.33 8.05 8.05 0 0 1 .55-5.31c1.13-2.16 3.07-3.85 5.06-5.2Zm-19.28 8.5c1.42 1.6 2.61 3.57 2.76 5.74.16 2.22-.7 4.4-1.91 6.22a7.7 7.7 0 0 1-2.4-4.94c-.17-2.4.58-4.85 1.55-7.03Zm-6.36 26.93a9.4 9.4 0 0 1-3.78-4.16c-.92-2.1-1.02-4.53-.8-6.8 1.9 1.12 3.64 2.64 4.53 4.7.87 1.97.66 4.25.05 6.26Zm.34 16.34a9.09 9.09 0 0 1-5.62-2.24c-1.62-1.54-2.6-3.68-3.2-5.81 2.19.21 4.46.86 6.13 2.36 1.56 1.48 2.36 3.6 2.7 5.69Zm6.9 14.26c-2.39.41-4.96.62-7.3-.1a8.28 8.28 0 0 1-4.23-3.13c2.2-.83 4.56-1.16 6.83-.47 1.95.6 3.51 2.08 4.7 3.7Zm12.47 9.85c-1.9 1.32-4.1 2.5-6.43 2.77a8.85 8.85 0 0 1-5.26-1.16c1.63-1.53 3.65-2.9 5.92-3.16 2.03-.22 4.05.52 5.77 1.55Z">
-                </path>
-               </svg>
-              </div>
-              <div class="flex--item ta-center fc-black-700">
-               This user doesn’t have any gold badges yet.
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="flex--item s-card bar-md">
-            <div class="d-flex fd-column jc-space-between h100 g12">
-             <div class="d-flex ai-center">
-              <div class="flex--item mr12">
-               <svg aria-hidden="true" class="fc-silver svg-spot spotAward" height="48" viewbox="0 0 48 48" width="48">
-                <path d="M32.87 7a8.85 8.85 0 0 0-2.49-2.79 10.5 10.5 0 0 0-1.41-.92.98.98 0 0 0-.74-.1c-.46.14-.6.62-.71 1.04-.09.31-.2.75-.26 1.27-.12 1-.1 2.4.68 3.58v.01c.83 1.24 1.83 2 2.62 2.46.43.25.88.45 1.3.7a16.38 16.38 0 0 1 8.4 14.34c0 8-5.72 14.66-13.34 16.15a.85.85 0 0 0 .33 1.67c.99-.2 1.95-.47 2.88-.82.23.18.7.55 1.32.94a8.46 8.46 0 0 0 3.38 1.29 5.96 5.96 0 0 0 3.26-.61c.5-.24 1.22-.6 1.43-1.15a.86.86 0 0 0-.04-.72c-.29-.53-.92-1-1.38-1.37a6.88 6.88 0 0 0-2.76-1.39c.49-.4.95-.82 1.39-1.26.56.14 1.12.24 1.7.31 1.03.13 2.43.19 3.67-.2a5.68 5.68 0 0 0 3.32-2.78c.12-.24.22-.53.18-.8a.86.86 0 0 0-.47-.63 9.14 9.14 0 0 0-1.64-.62 6.5 6.5 0 0 0-3.36-.08 18 18 0 0 0 .85-2.04c.4 0 .81-.03 1.21-.1a5.89 5.89 0 0 0 3.14-1.46 7.74 7.74 0 0 0 1.85-3.06c.17-.47.27-.9.33-1.2.07-.32.13-.68-.05-.99-.25-.44-.77-.44-1.22-.42a9.1 9.1 0 0 0-1.24.12c-.9.16-2.06.5-3.04 1.27v-.05c0-.73-.04-1.45-.13-2.15.25-.12.6-.31 1-.59a6.15 6.15 0 0 0 2.11-2.52 8.3 8.3 0 0 0 .57-3.58 9.7 9.7 0 0 0-.14-1.28c-.06-.33-.13-.69-.4-.92a.86.86 0 0 0-.5-.2c-.3-.02-.6.15-.85.28a9.3 9.3 0 0 0-1.08.63 6.63 6.63 0 0 0-2.3 2.58 18 18 0 0 0-1.26-2.24 5.46 5.46 0 0 0 1.82-3.63 8.85 8.85 0 0 0-.65-3.65c-.19-.5-.38-.9-.53-1.2-.21-.4-.47-.85-1-.85a.98.98 0 0 0-.64.3c-.2.18-.65.6-1.11 1.19a6.34 6.34 0 0 0-1.4 3.91c-.72-.6-1.47-1.13-2.27-1.62A5.47 5.47 0 0 0 32.88 7h-.01Zm-3.86-1.7a7.29 7.29 0 0 1 2.35 2.46 4 4 0 0 1 .29 2.44 5.96 5.96 0 0 1-2.29-2.06c-.54-.83-.53-1.9-.35-2.84Zm12.55 25.44c.17-.96.56-1.94 1.28-2.63A5.1 5.1 0 0 1 45.68 27a6.1 6.1 0 0 1-1.53 2.7c-.7.66-1.65.97-2.6 1.06Zm-3.37 7.13a4.55 4.55 0 0 1 2.18-1.66 5 5 0 0 1 3.2.19 4.02 4.02 0 0 1-1.97 1.4 7.6 7.6 0 0 1-3.4.07ZM32 42.86a4.57 4.57 0 0 1 2.66-.67c.89.1 1.73.58 2.38 1.1l.4.34a4.54 4.54 0 0 1-2.42.5A6.93 6.93 0 0 1 32 42.86Zm6.41-33.3a7.2 7.2 0 0 1 .7 3.29 3.68 3.68 0 0 1-1.07 2.3 4.88 4.88 0 0 1-.87-2.93c.07-1 .6-1.91 1.24-2.67Zm5.38 7.92a6.57 6.57 0 0 1-.4 3.16 4.55 4.55 0 0 1-1.73 1.95 4.4 4.4 0 0 1 .06-2.91c.4-.95 1.2-1.67 2.07-2.2Zm-19.95.55L22 23.38a1 1 0 0 1-.94.67h-5.71v.02l4.6 3.48a1 1 0 0 1 .34 1.1l-1.66 5.2 4.7-3.25a1 1 0 0 1 1.13 0l4.6 3.17-1.65-5.2a1 1 0 0 1 .35-1.1l4.52-3.42h-5.64a1 1 0 0 1-.94-.67l-1.85-5.35Zm-.03-2.1a2 2 0 0 1 1.88 1.32l1.66 4.8h5.04c1.81 0 2.62 2.28 1.26 3.46l-.06.05-4.07 3.07 1.5 4.72v.01c.56 1.83-1.48 3.13-2.96 2.15l-.02-.01-4.15-2.86-4.25 2.94-.01.01c-1.49.99-3.53-.31-2.97-2.14v-.02l1.5-4.71-4.07-3.08a1.98 1.98 0 0 1-.67-2.18c.22-.71.87-1.41 1.87-1.41h5.05l1.65-4.78a1.88 1.88 0 0 1 1.82-1.33Zm-9.58 20.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.53-1.9a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm-1.2-2.11a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm-.83-2.36a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.42-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm0-2.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.41-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.83-2.25a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.15-2.23a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.59-1.88a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0ZM16.02 15a.83.83 0 1 1-1.65.01.83.83 0 0 1 1.65 0Zm2.08-1.28a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.3-.94a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.38-.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.42-.11a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.48.29a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.33.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.22 1.14a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.92 1.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.75 1.75a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm1.37 2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.03 2.26a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm.6 2.34a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm.22 2.48a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.18 2.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.62 2.35a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.04 2.2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.35 2.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.73 1.78a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.98 1.43a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.19 1.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.28.75a.82.82 0 1 1-1.65 0 .82.82 0 0 1 1.65 0Zm-2.43.31a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.48-.12a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.43-.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.25-.99a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.26-1.16a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0ZM14.94 7a8.85 8.85 0 0 1 2.49-2.79 10.5 10.5 0 0 1 1.41-.92c.23-.12.5-.18.74-.1.46.14.6.62.71 1.04.1.31.2.75.26 1.27.12 1 .1 2.4-.68 3.58v.01a7.82 7.82 0 0 1-2.62 2.46c-.43.25-.88.45-1.3.7a16.38 16.38 0 0 0-8.4 14.34c0 8 5.73 14.66 13.34 16.15a.85.85 0 0 1-.33 1.67c-.99-.2-1.95-.47-2.88-.82-.23.18-.7.55-1.32.94a8.46 8.46 0 0 1-3.38 1.29 5.96 5.96 0 0 1-3.26-.61c-.5-.24-1.22-.6-1.43-1.15a.86.86 0 0 1 .04-.72c.29-.53.92-1 1.38-1.37a6.88 6.88 0 0 1 2.76-1.39c-.49-.4-.95-.82-1.39-1.26-.56.14-1.12.24-1.7.31a9.12 9.12 0 0 1-3.67-.2 5.68 5.68 0 0 1-3.32-2.78 1.35 1.35 0 0 1-.18-.8c.02-.1.1-.45.47-.63a9.13 9.13 0 0 1 1.64-.62 6.5 6.5 0 0 1 3.36-.08c-.32-.66-.6-1.34-.85-2.04-.4 0-.81-.03-1.21-.1a5.89 5.89 0 0 1-3.13-1.46 7.74 7.74 0 0 1-1.86-3.06 9.2 9.2 0 0 1-.33-1.2c-.07-.32-.13-.68.05-.99.25-.44.77-.44 1.22-.42.31 0 .75.04 1.24.12.9.16 2.06.5 3.04 1.27v-.05c0-.73.04-1.45.13-2.15-.25-.12-.6-.31-1-.59a6.15 6.15 0 0 1-2.11-2.52 8.22 8.22 0 0 1-.57-3.58c.03-.5.08-.95.14-1.28.06-.33.13-.69.4-.92a.86.86 0 0 1 .5-.2c.3-.02.6.15.85.28.28.14.67.35 1.08.63a6.63 6.63 0 0 1 2.3 2.58 18 18 0 0 1 1.26-2.24 5.46 5.46 0 0 1-1.82-3.63c-.1-1.34.28-2.69.65-3.65.19-.5.38-.9.53-1.2.21-.4.47-.85 1-.85.25 0 .45.13.64.3.2.18.65.6 1.11 1.19a6.34 6.34 0 0 1 1.4 3.91c.72-.6 1.47-1.13 2.27-1.62A5.47 5.47 0 0 1 14.93 7h.01Zm3.86-1.7a7.29 7.29 0 0 0-2.35 2.46 4.04 4.04 0 0 0-.29 2.44 5.96 5.96 0 0 0 2.29-2.06c.54-.83.53-1.9.35-2.84ZM6.25 30.75a4.77 4.77 0 0 0-1.28-2.63A5.1 5.1 0 0 0 2.13 27c.3.99.77 1.98 1.53 2.7.7.66 1.65.97 2.6 1.06Zm3.37 7.13a4.55 4.55 0 0 0-2.18-1.66 5 5 0 0 0-3.2.19 4.1 4.1 0 0 0 1.97 1.4c1.09.34 2.3.25 3.4.07Zm6.19 4.98a4.57 4.57 0 0 0-2.66-.67c-.89.1-1.73.58-2.38 1.1l-.4.34a4.54 4.54 0 0 0 2.42.5 6.93 6.93 0 0 0 3.02-1.27ZM9.4 9.56a7.26 7.26 0 0 0-.7 3.29 3.68 3.68 0 0 0 1.07 2.3c.55-.87.94-1.89.87-2.93A4.8 4.8 0 0 0 9.4 9.55Zm-5.38 7.92a6.57 6.57 0 0 0 .4 3.16 4.55 4.55 0 0 0 1.73 1.95c.26-.94.34-2-.06-2.91a4.99 4.99 0 0 0-2.07-2.2Z">
-                </path>
-               </svg>
-              </div>
-              <div class="flex--item fl1">
-               <div class="fs-title fw-bold fc-black-800">
-                5
-               </div>
-               <div class="fs-caption">
-                silver badges
-               </div>
-              </div>
-             </div>
-             <div class="flex--item mt-auto">
-              <ul class="list-reset d-grid g8">
-               <li class="d-flex ai-center">
-                <a class="badge d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/32/civic-duty?userid=12153321" title="silver badge: Vote 300 or more times">
-                 <span class="badge2">
-                 </span>
-                 <div class="d-inline-block truncate wmx1">
-                  Civic Duty
-                 </div>
-                </a>
-                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
-                 Mar 2
-                </div>
-               </li>
-               <li class="d-flex ai-center">
-                <a class="badge d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/6644/census?userid=12153321" title="silver badge: Completed the annual Stack Overflow survey; your responses are anonymous">
-                 <span class="badge2">
-                 </span>
-                 <div class="d-inline-block truncate wmx1">
-                  Census
-                 </div>
-                </a>
-                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
-                 May 30
-                </div>
-               </li>
-               <li class="d-flex ai-center">
-                <a class="badge d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/71/enthusiast?userid=12153321" title="silver badge: Visit the site each day for 30 consecutive days. (Days are counted in UTC.)">
-                 <span class="badge2">
-                 </span>
-                 <div class="d-inline-block truncate wmx1">
-                  Enthusiast
-                 </div>
-                </a>
-                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
-                 Mar 30, 2021
-                </div>
-               </li>
-              </ul>
-             </div>
-            </div>
-           </div>
-           <div class="flex--item s-card bar-md">
-            <div class="d-flex fd-column jc-space-between h100 g12">
-             <div class="d-flex ai-center">
-              <div class="flex--item mr12">
-               <svg aria-hidden="true" class="fc-bronze svg-spot spotAward" height="48" viewbox="0 0 48 48" width="48">
-                <path d="M32.87 7a8.85 8.85 0 0 0-2.49-2.79 10.5 10.5 0 0 0-1.41-.92.98.98 0 0 0-.74-.1c-.46.14-.6.62-.71 1.04-.09.31-.2.75-.26 1.27-.12 1-.1 2.4.68 3.58v.01c.83 1.24 1.83 2 2.62 2.46.43.25.88.45 1.3.7a16.38 16.38 0 0 1 8.4 14.34c0 8-5.72 14.66-13.34 16.15a.85.85 0 0 0 .33 1.67c.99-.2 1.95-.47 2.88-.82.23.18.7.55 1.32.94a8.46 8.46 0 0 0 3.38 1.29 5.96 5.96 0 0 0 3.26-.61c.5-.24 1.22-.6 1.43-1.15a.86.86 0 0 0-.04-.72c-.29-.53-.92-1-1.38-1.37a6.88 6.88 0 0 0-2.76-1.39c.49-.4.95-.82 1.39-1.26.56.14 1.12.24 1.7.31 1.03.13 2.43.19 3.67-.2a5.68 5.68 0 0 0 3.32-2.78c.12-.24.22-.53.18-.8a.86.86 0 0 0-.47-.63 9.14 9.14 0 0 0-1.64-.62 6.5 6.5 0 0 0-3.36-.08 18 18 0 0 0 .85-2.04c.4 0 .81-.03 1.21-.1a5.89 5.89 0 0 0 3.14-1.46 7.74 7.74 0 0 0 1.85-3.06c.17-.47.27-.9.33-1.2.07-.32.13-.68-.05-.99-.25-.44-.77-.44-1.22-.42a9.1 9.1 0 0 0-1.24.12c-.9.16-2.06.5-3.04 1.27v-.05c0-.73-.04-1.45-.13-2.15.25-.12.6-.31 1-.59a6.15 6.15 0 0 0 2.11-2.52 8.3 8.3 0 0 0 .57-3.58 9.7 9.7 0 0 0-.14-1.28c-.06-.33-.13-.69-.4-.92a.86.86 0 0 0-.5-.2c-.3-.02-.6.15-.85.28a9.3 9.3 0 0 0-1.08.63 6.63 6.63 0 0 0-2.3 2.58 18 18 0 0 0-1.26-2.24 5.46 5.46 0 0 0 1.82-3.63 8.85 8.85 0 0 0-.65-3.65c-.19-.5-.38-.9-.53-1.2-.21-.4-.47-.85-1-.85a.98.98 0 0 0-.64.3c-.2.18-.65.6-1.11 1.19a6.34 6.34 0 0 0-1.4 3.91c-.72-.6-1.47-1.13-2.27-1.62A5.47 5.47 0 0 0 32.88 7h-.01Zm-3.86-1.7a7.29 7.29 0 0 1 2.35 2.46 4 4 0 0 1 .29 2.44 5.96 5.96 0 0 1-2.29-2.06c-.54-.83-.53-1.9-.35-2.84Zm12.55 25.44c.17-.96.56-1.94 1.28-2.63A5.1 5.1 0 0 1 45.68 27a6.1 6.1 0 0 1-1.53 2.7c-.7.66-1.65.97-2.6 1.06Zm-3.37 7.13a4.55 4.55 0 0 1 2.18-1.66 5 5 0 0 1 3.2.19 4.02 4.02 0 0 1-1.97 1.4 7.6 7.6 0 0 1-3.4.07ZM32 42.86a4.57 4.57 0 0 1 2.66-.67c.89.1 1.73.58 2.38 1.1l.4.34a4.54 4.54 0 0 1-2.42.5A6.93 6.93 0 0 1 32 42.86Zm6.41-33.3a7.2 7.2 0 0 1 .7 3.29 3.68 3.68 0 0 1-1.07 2.3 4.88 4.88 0 0 1-.87-2.93c.07-1 .6-1.91 1.24-2.67Zm5.38 7.92a6.57 6.57 0 0 1-.4 3.16 4.55 4.55 0 0 1-1.73 1.95 4.4 4.4 0 0 1 .06-2.91c.4-.95 1.2-1.67 2.07-2.2Zm-19.95.55L22 23.38a1 1 0 0 1-.94.67h-5.71v.02l4.6 3.48a1 1 0 0 1 .34 1.1l-1.66 5.2 4.7-3.25a1 1 0 0 1 1.13 0l4.6 3.17-1.65-5.2a1 1 0 0 1 .35-1.1l4.52-3.42h-5.64a1 1 0 0 1-.94-.67l-1.85-5.35Zm-.03-2.1a2 2 0 0 1 1.88 1.32l1.66 4.8h5.04c1.81 0 2.62 2.28 1.26 3.46l-.06.05-4.07 3.07 1.5 4.72v.01c.56 1.83-1.48 3.13-2.96 2.15l-.02-.01-4.15-2.86-4.25 2.94-.01.01c-1.49.99-3.53-.31-2.97-2.14v-.02l1.5-4.71-4.07-3.08a1.98 1.98 0 0 1-.67-2.18c.22-.71.87-1.41 1.87-1.41h5.05l1.65-4.78a1.88 1.88 0 0 1 1.82-1.33Zm-9.58 20.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.53-1.9a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm-1.2-2.11a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm-.83-2.36a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.42-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm0-2.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.41-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.83-2.25a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.15-2.23a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.59-1.88a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0ZM16.02 15a.83.83 0 1 1-1.65.01.83.83 0 0 1 1.65 0Zm2.08-1.28a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.3-.94a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.38-.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.42-.11a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.48.29a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.33.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.22 1.14a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.92 1.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.75 1.75a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm1.37 2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.03 2.26a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm.6 2.34a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm.22 2.48a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.18 2.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.62 2.35a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.04 2.2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.35 2.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.73 1.78a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.98 1.43a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.19 1.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.28.75a.82.82 0 1 1-1.65 0 .82.82 0 0 1 1.65 0Zm-2.43.31a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.48-.12a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.43-.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.25-.99a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.26-1.16a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0ZM14.94 7a8.85 8.85 0 0 1 2.49-2.79 10.5 10.5 0 0 1 1.41-.92c.23-.12.5-.18.74-.1.46.14.6.62.71 1.04.1.31.2.75.26 1.27.12 1 .1 2.4-.68 3.58v.01a7.82 7.82 0 0 1-2.62 2.46c-.43.25-.88.45-1.3.7a16.38 16.38 0 0 0-8.4 14.34c0 8 5.73 14.66 13.34 16.15a.85.85 0 0 1-.33 1.67c-.99-.2-1.95-.47-2.88-.82-.23.18-.7.55-1.32.94a8.46 8.46 0 0 1-3.38 1.29 5.96 5.96 0 0 1-3.26-.61c-.5-.24-1.22-.6-1.43-1.15a.86.86 0 0 1 .04-.72c.29-.53.92-1 1.38-1.37a6.88 6.88 0 0 1 2.76-1.39c-.49-.4-.95-.82-1.39-1.26-.56.14-1.12.24-1.7.31a9.12 9.12 0 0 1-3.67-.2 5.68 5.68 0 0 1-3.32-2.78 1.35 1.35 0 0 1-.18-.8c.02-.1.1-.45.47-.63a9.13 9.13 0 0 1 1.64-.62 6.5 6.5 0 0 1 3.36-.08c-.32-.66-.6-1.34-.85-2.04-.4 0-.81-.03-1.21-.1a5.89 5.89 0 0 1-3.13-1.46 7.74 7.74 0 0 1-1.86-3.06 9.2 9.2 0 0 1-.33-1.2c-.07-.32-.13-.68.05-.99.25-.44.77-.44 1.22-.42.31 0 .75.04 1.24.12.9.16 2.06.5 3.04 1.27v-.05c0-.73.04-1.45.13-2.15-.25-.12-.6-.31-1-.59a6.15 6.15 0 0 1-2.11-2.52 8.22 8.22 0 0 1-.57-3.58c.03-.5.08-.95.14-1.28.06-.33.13-.69.4-.92a.86.86 0 0 1 .5-.2c.3-.02.6.15.85.28.28.14.67.35 1.08.63a6.63 6.63 0 0 1 2.3 2.58 18 18 0 0 1 1.26-2.24 5.46 5.46 0 0 1-1.82-3.63c-.1-1.34.28-2.69.65-3.65.19-.5.38-.9.53-1.2.21-.4.47-.85 1-.85.25 0 .45.13.64.3.2.18.65.6 1.11 1.19a6.34 6.34 0 0 1 1.4 3.91c.72-.6 1.47-1.13 2.27-1.62A5.47 5.47 0 0 1 14.93 7h.01Zm3.86-1.7a7.29 7.29 0 0 0-2.35 2.46 4.04 4.04 0 0 0-.29 2.44 5.96 5.96 0 0 0 2.29-2.06c.54-.83.53-1.9.35-2.84ZM6.25 30.75a4.77 4.77 0 0 0-1.28-2.63A5.1 5.1 0 0 0 2.13 27c.3.99.77 1.98 1.53 2.7.7.66 1.65.97 2.6 1.06Zm3.37 7.13a4.55 4.55 0 0 0-2.18-1.66 5 5 0 0 0-3.2.19 4.1 4.1 0 0 0 1.97 1.4c1.09.34 2.3.25 3.4.07Zm6.19 4.98a4.57 4.57 0 0 0-2.66-.67c-.89.1-1.73.58-2.38 1.1l-.4.34a4.54 4.54 0 0 0 2.42.5 6.93 6.93 0 0 0 3.02-1.27ZM9.4 9.56a7.26 7.26 0 0 0-.7 3.29 3.68 3.68 0 0 0 1.07 2.3c.55-.87.94-1.89.87-2.93A4.8 4.8 0 0 0 9.4 9.55Zm-5.38 7.92a6.57 6.57 0 0 0 .4 3.16 4.55 4.55 0 0 0 1.73 1.95c.26-.94.34-2-.06-2.91a4.99 4.99 0 0 0-2.07-2.2Z">
-                </path>
-               </svg>
-              </div>
-              <div class="flex--item fl1">
-               <div class="fs-title fw-bold fc-black-800">
-                14
-               </div>
-               <div class="fs-caption">
-                bronze badges
-               </div>
-              </div>
-             </div>
-             <div class="flex--item mt-auto">
-              <ul class="list-reset d-grid g8">
-               <li class="d-flex ai-center">
-                <a class="badge d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/221/benefactor?userid=12153321" title="bronze badge: First bounty you manually award on your own question">
-                 <span class="badge3">
-                 </span>
-                 <div class="d-inline-block truncate wmx1">
-                  Benefactor
-                 </div>
-                </a>
-                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
-                 Mar 2
-                </div>
-               </li>
-               <li class="d-flex ai-center">
-                <a class="badge d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/220/promoter?userid=12153321" title="bronze badge: First bounty you offer on your own question">
-                 <span class="badge3">
-                 </span>
-                 <div class="d-inline-block truncate wmx1">
-                  Promoter
-                 </div>
-                </a>
-                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
-                 Oct 1
-                </div>
-               </li>
-               <li class="d-flex ai-center">
-                <a class="badge d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/7/critic?userid=12153321" title="bronze badge: First down vote">
-                 <span class="badge3">
-                 </span>
-                 <div class="d-inline-block truncate wmx1">
-                  Critic
-                 </div>
-                </a>
-                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
-                 Nov 4
-                </div>
-               </li>
-              </ul>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="top-tags grid--item" id="top-tags">
-          <div class="d-flex ai-center jc-space-between mb8">
-           <div class="flex--item fs-title">
-            Top tags
-           </div>
-           <a class="s-link s-link__muted js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/users/12153321/javlon?tab=tags">
-            View all tags
-           </a>
-          </div>
-          <div class="s-card bar-md p0">
-           <div class="p12 bb bc-black-075" title="Asked 9 non-wiki questions with a total score of 14. Gave 5 non-wiki answers with a total score of 5.">
-            <div class="d-flex ai-center gs12 fw-wrap">
-             <div class="flex--item ws-nowrap">
-              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:12153321+[android]" rel="tag" title="show questions tagged 'android'">
-               android
-              </a>
-             </div>
-             <div class="flex--item ml-auto">
-              <div class="d-flex gsx gs16">
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 5
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Score
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 14
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 82
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts %
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075" title="Asked 1 non-wiki question with a total score of 4. Gave 1 non-wiki answer with a total score of 1.">
-            <div class="d-flex ai-center gs12 fw-wrap">
-             <div class="flex--item ws-nowrap">
-              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:12153321+[bottomsheetdialogfragment]" rel="tag" title="show questions tagged 'bottomsheetdialogfragment'">
-               bottomsheetdialogfragment
-              </a>
-             </div>
-             <div class="flex--item ml-auto">
-              <div class="d-flex gsx gs16">
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 1
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Score
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 2
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 12
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts %
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075" title="Asked 1 non-wiki question with a total score of 4. Gave 1 non-wiki answer with a total score of 1.">
-            <div class="d-flex ai-center gs12 fw-wrap">
-             <div class="flex--item ws-nowrap">
-              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:12153321+[gradle]" rel="tag" title="show questions tagged 'gradle'">
-               gradle
-              </a>
-             </div>
-             <div class="flex--item ml-auto">
-              <div class="d-flex gsx gs16">
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 1
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Score
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 2
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 12
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts %
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075" title="Asked 1 non-wiki question with a total score of 4. Gave 1 non-wiki answer with a total score of 1.">
-            <div class="d-flex ai-center gs12 fw-wrap">
-             <div class="flex--item ws-nowrap">
-              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:12153321+[dagger-hilt]" rel="tag" title="show questions tagged 'dagger-hilt'">
-               dagger-hilt
-              </a>
-             </div>
-             <div class="flex--item ml-auto">
-              <div class="d-flex gsx gs16">
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 1
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Score
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 2
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 12
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts %
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075" title="Asked 1 non-wiki question with a total score of 1. Gave 1 non-wiki answer with a total score of 0.">
-            <div class="d-flex ai-center gs12 fw-wrap">
-             <div class="flex--item ws-nowrap">
-              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:12153321+[android-diffutils]" rel="tag" title="show questions tagged 'android-diffutils'">
-               android-diffutils
-              </a>
-             </div>
-             <div class="flex--item ml-auto">
-              <div class="d-flex gsx gs16">
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 0
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Score
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 2
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 12
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts %
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-           <div class="p12" title="Asked 1 non-wiki question with a total score of 1. Gave 1 non-wiki answer with a total score of 0.">
-            <div class="d-flex ai-center gs12 fw-wrap">
-             <div class="flex--item ws-nowrap">
-              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:12153321+[android-livedata]" rel="tag" title="show questions tagged 'android-livedata'">
-               android-livedata
-              </a>
-             </div>
-             <div class="flex--item ml-auto">
-              <div class="d-flex gsx gs16">
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 0
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Score
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 2
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts
-                </div>
-               </div>
-               <div class="flex--item d-flex ai-center">
-                <div class="fs-body3 mr4">
-                 12
-                </div>
-                <div class="fc-light tt-lowercase">
-                 Posts %
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="grid--item" id="js-top-posts">
-          <div class="d-flex ai-end jc-space-between fw-wrap">
-           <div class="flex--item mb8">
-            <div class="fs-title">
-             Top posts
-            </div>
-            <div class="fc-light s-anchors">
-             View all
-             <a class="js-gps-track" data-gps-track="profile_link.click({target:3, type:2 })" href="/users/12153321?tab=questions">
-              questions
-             </a>
-             ,
-             <a class="js-gps-track" data-gps-track="profile_link.click({target:3, type:2 })" href="/users/12153321?tab=answers">
-              answers
-             </a>
-             , and
-             <a class="js-gps-track" data-gps-track="profile_link.click({target:3, type:2 })" href="/users/12153321?tab=articles">
-              articles
-             </a>
-            </div>
-           </div>
-           <div class="d-flex jc-end mb8">
-            <div class="s-btn-group js-post-filters">
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-selected is-selected js-post-filter-btn">
-              All
-             </a>
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="1">
-              Questions
-             </a>
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="2">
-              Answers
-             </a>
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="9">
-              Articles
-             </a>
-            </div>
-            <div class="s-btn-group ml8 js-post-sorts">
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-selected is-selected js-post-sort-btn" data-sort="Votes">
-              Score
-             </a>
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-sort-btn" data-sort="Newest">
-              Newest
-             </a>
-            </div>
-           </div>
-          </div>
-          <div class="s-card bar-md p0">
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-green-400 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconQuestion" height="18" viewbox="0 0 18 18" width="18">
-               <path d="m4 14-3 3V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
-              8
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/63776744/save-bitmap-image-to-specific-location-of-gallery-android-10">
-               Save bitmap image to specific location of gallery android 10
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2020-09-07 11:30:36Z">
-               Sep 7, 2020
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-green-400 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconQuestion" height="18" viewbox="0 0 18 18" width="18">
-               <path d="m4 14-3 3V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
-              4
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/69382013/dagger-hilt-androidentrypoint-is-not-working-with-bottomsheetdialogfragment">
-               Dagger-Hilt @AndroidEntryPoint is not working with BottomSheetDialogFragment()
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2021-09-29 18:56:11Z">
-               Sep 29, 2021
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-black-300 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
-               <path d="M14 14H3c-1.09 0-2-.91-2-2V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 3H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
-              2
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/68274359/stateflow-last-value-is-collected-again-in-ui/70721733#70721733">
-               StateFlow last value is collected again in ui
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2022-01-15 13:07:55Z">
-               Jan 15
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-black-300 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
-               <path d="M14 14H3c-1.09 0-2-.91-2-2V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 3H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
-              1
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/5466882/play-mp3-file-from-raw-resource-on-click-of-a-textview/60559938#60559938">
-               Play mp3 file from raw resource on click of a TextView
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2020-03-06 08:11:24Z">
-               Mar 6, 2020
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-black-300 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
-               <path d="M14 14H3c-1.09 0-2-.91-2-2V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 3H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
-              1
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/67453936/cannot-fetch-data-from-api-future-always-returns-null-flutter/67454719#67454719">
-               Cannot fetch data from api, Future always returns null - flutter
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2021-05-09 06:02:56Z">
-               May 9, 2021
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-green-400 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
-               <path d="M14 14H3c-1.09 0-2-.91-2-2V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 3H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
-              1
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/69382013/dagger-hilt-androidentrypoint-is-not-working-with-bottomsheetdialogfragment/69418336#69418336">
-               Dagger-Hilt @AndroidEntryPoint is not working with BottomSheetDialogFragment()
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2021-10-02 16:36:09Z">
-               Oct 2, 2021
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-green-400 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconQuestion" height="18" viewbox="0 0 18 18" width="18">
-               <path d="m4 14-3 3V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
-              1
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/64025766/recyclerview-sets-all-the-items-when-single-data-changed-in-database">
-               RecyclerView sets all the items when single data changed in database
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2020-09-23 10:17:47Z">
-               Sep 23, 2020
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-black-300 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconQuestion" height="18" viewbox="0 0 18 18" width="18">
-               <path d="m4 14-3 3V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
-              1
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/65451771/problem-with-implementing-viewpager2-the-right-way">
-               Problem with implementing ViewPager2. The right way
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2020-12-25 21:02:15Z">
-               Dec 25, 2020
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12 bb bc-black-075">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-green-400 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconQuestion" height="18" viewbox="0 0 18 18" width="18">
-               <path d="m4 14-3 3V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
-              1
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/67498689/python-beautifulsoup-select-div-class">
-               Python BeautifulSoup select div class [duplicate]
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2021-05-12 06:59:38Z">
-               May 12, 2021
-              </span>
-             </div>
-            </div>
-           </div>
-           <div class="p12">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-black-300 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconQuestion" height="18" viewbox="0 0 18 18" width="18">
-               <path d="m4 14-3 3V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
-              0
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/61228158/i-have-read-all-the-songs-from-external-storage-by-using-mediastore-audio-media">
-               I have read all the songs from external storage by using MediaStore.Audio.Media. But I cannot extract uri of the song
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2020-04-15 11:58:48Z">
-               Apr 15, 2020
-              </span>
-             </div>
-            </div>
-           </div>
-          </div>
-          <script>
-           $(function () {
-                function getPosts() {
-                    $.get("/users/profile/posts/12153321", {
-                        postType: $(".js-post-filters > .js-post-filter-btn.is-selected[data-type]").data("type"),
-                        sort: $(".js-post-sorts > .js-post-sort-btn.is-selected").data("sort")
-                    }).done(function (html) {
-                        $("#js-top-posts").replaceWith(html);
-                    });
-
-                }
-
-                $(".js-post-sorts .js-post-sort-btn:not(.js-selected)").click(function () {
-                    $(".js-post-sorts .js-post-sort-btn").removeClass("is-selected");
-                    $(this).addClass("is-selected");
-                    getPosts();
-                });
-                $(".js-post-filters .js-post-filter-btn:not(.js-selected)").click(function () {
-                    $(".js-post-filters .js-post-filter-btn").removeClass("is-selected");
-                    $(this).addClass("is-selected");
-                    getPosts();
-                });
-            })
-          </script>
-         </div>
-        </div>
-       </div>
-      </div>
+      </section>
      </div>
     </div>
     <script>
-     StackExchange.ready(function(){$.get('/users/ivc/12153321/1646');});
+     $("#js-select-menu").on("change", function(e) {
+        // navigate to the selected location
+        window.location = this.value;
+    });
+    </script>
+    <script>
+     StackExchange.ready(function(){$.get('/users/ivc/115145/7836');});
     </script>
     <noscript>
      <div>
-      <img alt="" class="dno" height="0" src="/users/ivc/12153321/1646" width="0"/>
+      <img alt="" class="dno" height="0" src="/users/ivc/115145/7836" width="0"/>
      </div>
     </noscript>
    </div>
@@ -1521,16 +2572,6 @@ and questions where they wrote highly-ranked answers)">
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 17})" href="https://stackoverflow.com/jobs">
-         Jobs
-        </a>
-       </li>
-       <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 11})" href="https://stackoverflow.com/jobs/directory/developer-jobs">
-         Developer Jobs Directory
-        </a>
-       </li>
-       <li>
         <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 3 })" href="/help">
          Help
         </a>
@@ -1550,18 +2591,18 @@ and questions where they wrote highly-ranked answers)">
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 20 })" href="https://stackoverflow.co/talent">
-         Talent
-        </a>
-       </li>
-       <li>
         <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 21 })" href="https://stackoverflow.co/advertising">
          Advertising
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 22 })" href="https://stackoverflow.co/explore-teams">
-         Enterprise
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 40 })" href="https://stackoverflow.co/collectives">
+         Collectives
+        </a>
+       </li>
+       <li>
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 20 })" href="https://stackoverflow.co/talent">
+         Talent
         </a>
        </li>
       </ul>
@@ -1701,53 +2742,19 @@ and questions where they wrote highly-ranked answers)">
       </li>
      </ul>
      <p class="md:mb0">
-      site design / logo © 2022 Stack Exchange Inc; user contributions licensed under
+      Site design / logo © 2022 Stack Exchange Inc; user contributions licensed under
       <a href="https://stackoverflow.com/help/licensing">
        cc by-sa
       </a>
       .
       <span id="svnrev">
-       rev 2022.3.7.41613
+       rev 2022.5.5.42046
       </span>
      </p>
     </div>
    </div>
   </footer>
-  <noscript>
-   <div id="noscript-warning">
-    Stack Overflow works best with JavaScript enabled
-    <img alt="" src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=17440561&amp;cv=3.6.0&amp;cj=1"/>
-   </div>
-  </noscript>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-
-
-                    StackExchange.ga.setDimension('dimension3', 'UsersShow/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1646708344.351384583");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

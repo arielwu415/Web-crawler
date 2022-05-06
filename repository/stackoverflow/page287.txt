@@ -1,106 +1,146 @@
 <!DOCTYPE html>
-<html class="html__responsive">
+<html class="html__responsive" lang="en">
  <head>
   <title>
-   User MagneticSphinx - Stack Overflow
+   Users - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/users/18403874/magneticsphinx" rel="canonical">
-   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
-   <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/users/18403874/magneticsphinx" property="og:url"/>
-    <meta content="Stack Overflow" property="og:site_name"/>
-    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
-    <meta content="summary" name="twitter:card"/>
-    <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="User MagneticSphinx" itemprop="name" name="twitter:title" property="og:title"/>
-    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
-    <script id="webpack-public-path" type="text/uri-list">
-     https://cdn.sstatic.net/
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-    </script>
-    <script async="" src="https://cdn.sstatic.net/Js/third-party/stacks/stacks.min.js?v=636658ad2e24">
-    </script>
-    <script src="https://cdn.sstatic.net/Js/stub.en.js?v=fce5f0cba23f">
-    </script>
-    <link href="https://cdn.sstatic.net/Shared/stacks.css?v=9b3c752346b4" rel="stylesheet" type="text/css"/>
-    <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=a8e5d46c6c14" rel="stylesheet" type="text/css"/>
-    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=4cbb26526eb0" rel="stylesheet" type="text/css"/>
-    <link href="https://cdn.sstatic.net/Shared/DevStory/story.css?v=2afdf441843b" rel="stylesheet" type="text/css"/>
-    <script src="https://cdn.sstatic.net/Js/user.en.js?v=b3c977297943">
-    </script>
-    <script src="https://cdn.sstatic.net/Js/story.en.js?v=2601f44bffe0">
-    </script>
-    <script>
-     StackExchange.ready(function () {
-            StackExchange.user.init({ userId: 18403874, accountId: 17018976 });
-            styleCode.initializeSpoilers();
-            StackExchange.expandableOverflow.init(document.querySelector(".js-expandable-overflow"), document.querySelector(".js-expandable-overflow-btn"));
+  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
+  <meta content="website" property="og:type">
+   <meta content="https://stackoverflow.com/users?tab=reputation&amp;filter=all" property="og:url"/>
+   <meta content="Stack Overflow" property="og:site_name"/>
+   <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
+   <meta content="summary" name="twitter:card"/>
+   <meta content="stackoverflow.com" name="twitter:domain"/>
+   <meta content="Users" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
+   <script id="webpack-public-path" type="text/uri-list">
+    https://cdn.sstatic.net/
+   </script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+   </script>
+   <script async="" src="https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=776313f9a094">
+   </script>
+   <script src="https://cdn.sstatic.net/Js/stub.en.js?v=e700279bb0cc">
+   </script>
+   <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
+   <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
+   <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
+   <meta content="noindex" name="robots"/>
+   <script>
+    StackExchange.ready(function () {
+                $("#userfilter").val("").focus().typeWatch({ highlight: true, wait: 500, captureLength: -1, callback: finished(false) });
+        var request = null;
+        function finished(all) {
+
+            var showingAll = all;
+
+            return function (txt) {
+                var search = $.trim(txt.toLowerCase());
+                if (search.length < 3 && showingAll) { return; }
+
+                    var url = "/users/filter";
+                    if (search.length < 3) {
+                        url = "/users/filter/all";
+                        showingAll = true;
+                    }
+
+                    var spinner = $("#userfilter").addSpinnerAfter({ 'margin-left': "8px", 'margin-bottom': '-4px' }).next();
+
+                    if (request){ request.abort(); }
+                    request = $.ajax({
+                        url: url,
+                        data: {
+                            search: search,
+                            filter: 'All',
+                        tab: 'Reputation'
+                    },
+                    success: function (result) {
+                        $("#user-browser").replaceWith($(result).filter("#user-browser"));
+                        $("#tabs-interval").replaceWith($(result).find("#tabs-interval"));
+                        showingAll = url == "/users/filter/all";
+                    },
+                    complete: function () { spinner.remove(); }
+                });
+            };
+        }
+
+        $(".js-manage-users").on('click', function(event) {
+            event.preventDefault();
+            var href = $(this).data('href');
+            location.replace(href);
         });
-    </script>
-    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=b1915d2e6090" rel="stylesheet" type="text/css"/>
-    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1646708341,"routeName":"UsersShow/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"92893ae334bccedf704d8852556a592536dcb6865f975b4c83b4b8e0f082a87e","tid":"ff43ce51-91e1-3eb3-ec05-deaed150c4ec","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"tour_signup_cta":{"v":"sortmenudropdown","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"cc5b3e0efea0"}}
-    </script>
-    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
-     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
-    </script>
-    <script>
-     StackExchange.init();
-    </script>
-    <script>
-     StackExchange.using.setCacheBreakers({"js/adops.en.js":"6da43f5e0a84","js/ask.en.js":"7ff9a9068fd6","js/begin-edit-event.en.js":"dd955babf04d","js/copy-transpiled.en.js":"fc90b2ceaa3f","js/events.en.js":"","js/explore-qlist.en.js":"2b1f34938b8b","js/full-anon.en.js":"e7aa6d42f837","js/full.en.js":"a230c14f22c0","js/highlightjs-loader.en.js":"3c37abf5cb6d","js/inline-tag-editing.en.js":"c0cbc31e5702","js/keyboard-shortcuts.en.js":"7de4e127b6af","js/markdown-it-loader.en.js":"5818ef89ff9d","js/moderator.en.js":"eca4f384d4f7","js/postCollections-transpiled.en.js":"8126e59701f9","js/post-validation.en.js":"7b3d739a5447","js/question-editor.en.js":"","js/review-v2-transpiled.en.js":"d4e8ed8cd584","js/revisions.en.js":"839f528889ff","js/stacks-editor.en.js":"c0b20da0de98","js/tageditor.en.js":"825c9597ce2d","js/tageditornew.en.js":"857acd8b77e4","js/tagsuggestions.en.js":"1bcff7d98f97","js/unlimited-transpiled.en.js":"7ed67670b600","js/wmd.en.js":"cfa96439c425","js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+
+         $(".js-share-team-url").on("click", function (e) {
+            Stacks.showModal($("#share-team-url-modal").get(0), e);
+         });
+
+        $('.js-add-admin-notice .js-dismiss')
+            .click(function () {
+                $('.js-add-admin-notice').addClass("dno");
+                StackExchange.helpers.toggleUserFlags(4096, true);
+            });
+        });
+   </script>
+   <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
+   <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
+    {"options":{"locale":"en","serverTime":1651824144,"routeName":"Users/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+   </script>
+   <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
+    {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
+   </script>
+   <script>
+    StackExchange.init();
+   </script>
+   <script>
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
-    </script>
-    <noscript id="noscript-css">
-     <style>
-      body,.top-bar{margin-top:1.9em}
-     </style>
-    </noscript>
-   </meta>
-  </link>
+   </script>
+   <noscript id="noscript-css">
+    <style>
+     body,.s-topbar{margin-top:1.9em}
+    </style>
+   </noscript>
+  </meta>
  </head>
- <body class="user-page unified-theme">
+ <body class="users-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
   </div>
-  <header class="top-bar js-top-bar top-bar__network">
-   <div class="wmx12 mx-auto d-flex ai-center h100" role="menubar">
-    <div class="-main flex--item">
-     <a aria-controls="left-sidebar" aria-expanded="false" aria-haspopup="true" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle" href="#" role="menuitem">
-      <span class="ps-relative">
-      </span>
-     </a>
-     <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
-      <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
-      </div>
+  <header class="s-topbar ps-fixed t0 l0 js-top-bar">
+   <div class="s-topbar--container">
+    <a aria-controls="left-sidebar" aria-expanded="false" aria-haspopup="true" class="s-topbar--menu-btn js-left-sidebar-toggle" href="#" role="menuitem">
+     <span>
+     </span>
+    </a>
+    <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+     <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
      </div>
-     <a class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:4, destination:8})" href="https://stackoverflow.com">
-      <span class="-img _glyph">
-       Stack Overflow
-      </span>
-     </a>
     </div>
-    <ol class="list-reset d-flex gs4" role="presentation">
-     <li class="flex--item md:d-none">
-      <a class="-marketing-link js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="https://stackoverflow.co/">
+    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:25, destination:8})" href="https://stackoverflow.com">
+     <span class="-img _glyph">
+      Stack Overflow
+     </span>
+    </a>
+    <ol class="s-navigation" role="presentation">
+     <li class="md:d-none">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="https://stackoverflow.co/">
        About
       </a>
      </li>
-     <li class="flex--item">
-      <a aria-controls="products-popover" class="-marketing-link js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
+     <li>
+      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
        Products
       </a>
      </li>
-     <li class="flex--item md:d-none">
-      <a class="-marketing-link js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="https://stackoverflow.co/teams">
+     <li class="md:d-none">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="/teams">
        For Teams
       </a>
      </li>
@@ -110,7 +150,7 @@
      </div>
      <ol class="list-reset s-anchors s-anchors__inherit">
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:2})" href="/questions">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:2})" href="/questions">
         <span class="fs-body1 d-block">
          Stack Overflow
         </span>
@@ -120,7 +160,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:3})" href="https://stackoverflow.co/teams">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:3})" href="/teams">
         <span class="fs-body1 d-block">
          Stack Overflow for Teams
         </span>
@@ -130,27 +170,17 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","jobs submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:9})" href="/jobs?so_source=ProductsMenu&amp;so_medium=StackOverflow">
-        <span class="fs-body1 d-block">
-         Jobs
-        </span>
-        <span class="fs-caption d-block fc-light">
-         Programming &amp; related technical career opportunities
-        </span>
-       </a>
-      </li>
-      <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:5})" href="https://stackoverflow.co/talent">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:5})" href="https://stackoverflow.co/talent">
         <span class="fs-body1 d-block">
          Talent
         </span>
         <span class="fs-caption d-block fc-light">
-         Recruit tech talent &amp; build your employer brand
+         Build your employer brand
         </span>
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:6})" href="https://stackoverflow.co/advertising">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:6})" href="https://stackoverflow.co/advertising">
         <span class="fs-body1 d-block">
          Advertising
         </span>
@@ -160,15 +190,15 @@
        </a>
       </li>
       <li class="bg-black-025 bt bc-black-075 py6 px6 bbr-md">
-       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="https://stackoverflow.co/">
+       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="https://stackoverflow.co/">
         About the company
        </a>
       </li>
      </ol>
     </div>
-    <form action="/search" autocomplete="off" class="flex--item fl-grow1 searchbar px12 js-searchbar" id="search" role="search">
-     <div class="ps-relative">
-      <input aria-controls="top-search" aria-label="Search" autocomplete="off" class="s-input s-input__search js-search-field" data-action="focus-&gt;s-popover#show" data-controller="s-popover" data-s-popover-placement="bottom-start" maxlength="240" name="q" placeholder="Search…" type="text" value="user:18403874"/>
+    <form action="/search" autocomplete="off" class="s-topbar--searchbar js-searchbar" id="search" role="search">
+     <div class="s-topbar--searchbar--input-group">
+      <input aria-controls="top-search" aria-label="Search" autocomplete="off" class="s-input s-input__search js-search-field" data-action="focus-&gt;s-popover#show" data-controller="s-popover" data-s-popover-placement="bottom-start" maxlength="240" name="q" placeholder="Search…" type="text" value=""/>
       <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
        </path>
@@ -192,23 +222,7 @@
       </div>
      </div>
     </form>
-    <ol class="overflow-x-auto ml-auto -secondary d-flex ai-center list-reset h100 user-logged-out" role="presentation">
-     <li class="-item searchbar-trigger">
-      <a aria-controls="search" aria-haspopup="true" aria-label="Search" class="-link js-searchbar-trigger" href="#" role="button" title="Click to show search">
-       <svg aria-hidden="true" class="svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
-        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
-        </path>
-       </svg>
-      </a>
-     </li>
-     <li class="-ctas">
-      <a class="login-link s-btn s-btn__filled py8 js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f18403874%2fmagneticsphinx" rel="nofollow">
-       Log in
-      </a>
-      <a class="login-link s-btn s-btn__primary py8" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f18403874%2fmagneticsphinx" rel="nofollow">
-       Sign up
-      </a>
-     </li>
+    <ol class="s-topbar--content" role="presentation">
      <li class="js-topbar-dialog-corral" role="presentation">
       <div class="topbar-dialog siteSwitcher-dialog dno" role="menu">
        <div class="header fw-wrap">
@@ -271,11 +285,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f18403874%2fmagneticsphinx">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3ftab%3dreputation%26filter%3dall">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f18403874%2fmagneticsphinx">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3ftab%3dreputation%26filter%3dall">
           log in
          </a>
          to customize your list.
@@ -297,6 +311,24 @@
        </div>
       </div>
      </li>
+     <li>
+      <a aria-controls="search" aria-haspopup="true" aria-label="Search" class="s-topbar--item s-btn s-btn__icon s-btn__muted d-none sm:d-inline-flex js-searchbar-trigger" href="#" role="button" title="Click to show search">
+       <svg aria-hidden="true" class="svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
+        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
+        </path>
+       </svg>
+      </a>
+     </li>
+     <li>
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3ftab%3dreputation%26filter%3dall" rel="nofollow">
+       Log in
+      </a>
+     </li>
+     <li>
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3ftab%3dreputation%26filter%3dall" rel="nofollow">
+       Sign up
+      </a>
+     </li>
     </ol>
    </div>
   </header>
@@ -310,7 +342,7 @@
      <nav role="navigation">
       <ol class="nav-links">
        <li class="ps-relative">
-        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
+        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
          <div class="d-flex ai-center">
           <div class="flex--item truncate">
            Home
@@ -324,7 +356,7 @@
           Public
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
+          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
            <svg aria-hidden="true" class="svg-icon iconGlobe" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9 1C4.64 1 1 4.64 1 9c0 4.36 3.64 8 8 8 4.36 0 8-3.64 8-8 0-4.36-3.64-8-8-8ZM8 15.32a6.46 6.46 0 0 1-4.3-2.74 6.46 6.46 0 0 1-.93-5.01L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52Zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.45 6.45 0 0 1 3.83 4.51 6.45 6.45 0 0 1-1.51 5.73v.01Z">
             </path>
@@ -335,7 +367,7 @@
           </a>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Tags
@@ -344,7 +376,7 @@
           </a>
          </li>
          <li class="ps-relative youarehere">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:true, location:4, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:true, location:25, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Users
@@ -352,12 +384,21 @@
            </div>
           </a>
          </li>
-         <li class="d-flex ml8 mt16 mb4 jc-space-between">
+         <li class="ps-relative">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
+           <div class="d-flex ai-center">
+            <div class="flex--item truncate">
+             Companies
+            </div>
+           </div>
+          </a>
+         </li>
+         <li class="d-flex ml8 mt16 jc-space-between">
           <div class="flex--item tt-uppercase tt-uppercase fs-fine fc-light">
            Collectives
           </div>
           <div class="flex--item fs-fine fc-light">
-           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:4, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
+           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:25, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
             <svg aria-hidden="true" class="svg-icon iconInfoSm" height="14" viewbox="0 0 14 14" width="14">
              <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z">
              </path>
@@ -366,7 +407,7 @@
           </div>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 ai-center js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
+          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
            <svg aria-hidden="true" class="mt-auto fc-orange-400 svg-icon iconStarVerified" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z">
             </path>
@@ -374,27 +415,6 @@
            <span class="-link--channel-name">
             Explore Collectives
            </span>
-          </a>
-         </li>
-         <li class="fs-fine tt-uppercase ml8 mt16 mb4 fc-light">
-          Find a Job
-         </li>
-         <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:6})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/jobs?so_medium=StackOverflow&amp;so_source=SiteNav" id="nav-jobs">
-           <div class="d-flex ai-center">
-            <div class="flex--item truncate">
-             Jobs
-            </div>
-           </div>
-          </a>
-         </li>
-         <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/jobs/companies?so_medium=StackOverflow&amp;so_source=SiteNav" id="nav-companies">
-           <div class="d-flex ai-center">
-            <div class="flex--item truncate">
-             Companies
-            </div>
-           </div>
           </a>
          </li>
         </ol>
@@ -409,13 +429,13 @@
            <strong class="fc-black-750 mb6">
             Stack Overflow for Teams
            </strong>
-           – Collaborate and share knowledge with a private group.
+           – Start collaborating and sharing organizational knowledge.
            <img alt="" class="wmx100 mx-auto my8 h-auto d-block" height="114" src="https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e" width="139"/>
-           <a class="w100 s-btn s-btn__primary s-btn__xs js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams/create/free",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 6 })" href="https://stackoverflow.com/teams/create/free?utm_source=so-owned&amp;utm_medium=side-bar&amp;utm_campaign=campaign-38&amp;utm_content=cta">
+           <a class="w100 s-btn s-btn__primary s-btn__xs bg-orange-400 js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams/create/free",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 6 })" href="https://try.stackoverflow.co/why-teams/?utm_source=so-owned&amp;utm_medium=side-bar&amp;utm_campaign=campaign-38&amp;utm_content=cta">
             Create a free Team
            </a>
            <a class="w100 s-btn s-btn__muted s-btn__xs js-gps-track" data-ga='["teams left navigation - anonymous","left nav free cta","stackoverflow.com/teams",null,null]' data-gps-track="teams.create.left-sidenav.click({ Action: 5 })" href="https://stackoverflow.co/teams">
-            What is Teams?
+            Why Teams?
            </a>
           </div>
          </div>
@@ -471,12 +491,12 @@
        </path>
       </svg>
       <div class="pt4 fw-bold">
-       Collectives on Stack Overflow
+       Collectives™ on Stack Overflow
       </div>
       <p class="my16 fs-caption fc-medium">
        Find centralized, trusted content and collaborate around the technologies you use most.
       </p>
-      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:4, destination:18})" href="/collectives">
+      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:25, destination:18})" href="/collectives">
        Learn more
       </a>
      </div>
@@ -515,347 +535,2039 @@
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div class="user-show-new" id="mainbar-full">
-     <div class="ps-relative mb16">
-      <div class="d-flex ai-center fw-wrap gs16">
-       <a class="flex--item" href="/users/18403874/magneticsphinx">
-        <div class="md:d-none js-usermini-avatar-container">
-         <div class="bar-md bs-sm">
-          <img alt="" class="bar-sm bar-md d-block" height="128" src="https://www.gravatar.com/avatar/7cf3f1a5aaef8fffcac170fd646a81d7?s=256&amp;d=identicon&amp;r=PG&amp;f=1" width="128"/>
-         </div>
-        </div>
-        <div class="d-none md:d-block sm:d-none js-usermini-avatar-container">
-         <div class="bar-md bs-sm">
-          <img alt="" class="bar-sm bar-md d-block" height="96" src="https://www.gravatar.com/avatar/7cf3f1a5aaef8fffcac170fd646a81d7?s=192&amp;d=identicon&amp;r=PG&amp;f=1" width="96"/>
-         </div>
-        </div>
-        <div class="d-none sm:d-block js-usermini-avatar-container">
-         <div class="bar-md bs-sm">
-          <img alt="" class="bar-sm bar-md d-block" height="64" src="https://www.gravatar.com/avatar/7cf3f1a5aaef8fffcac170fd646a81d7?s=128&amp;d=identicon&amp;r=PG&amp;f=1" width="64"/>
-         </div>
-        </div>
-       </a>
-       <div class="flex--item">
-        <div class="d-flex ai-center fw-wrap gs8 wmx4">
-         <div class="flex--item mb12 fs-headline2 lh-xs">
-          MagneticSphinx
-         </div>
-         <div class="flex--item">
-          <div class="d-flex ai-center fw-nowrap gs4">
-          </div>
-         </div>
-        </div>
-        <ul class="list-reset s-anchors s-anchors__inherit d-flex fc-light gs8 mln4 fw-wrap">
-         <li class="flex--item">
-          <div class="d-flex gs4 gsx ai-center">
-           <div class="flex--item fc-black-350">
-            <svg aria-hidden="true" class="svg-icon iconCake" height="18" viewbox="0 0 18 18" width="18">
-             <path d="M9 4.5a1.5 1.5 0 0 0 1.28-2.27L9 0 7.72 2.23c-.14.22-.22.48-.22.77 0 .83.68 1.5 1.5 1.5Zm3.45 7.5-.8-.81-.81.8c-.98.98-2.69.98-3.67 0l-.8-.8-.82.8c-.49.49-1.14.76-1.83.76-.55 0-1.3-.17-1.72-.46V15c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2v-2.7c-.42.28-1.17.45-1.72.45-.69 0-1.34-.27-1.83-.76Zm1.3-5H10V5H8v2H4.25C3 7 2 8 2 9.25v.9c0 .81.91 1.47 1.72 1.47.39 0 .77-.14 1.03-.42l1.61-1.6 1.6 1.6a1.5 1.5 0 0 0 2.08 0l1.6-1.6 1.6 1.6c.28.28.64.43 1.03.43.81 0 1.73-.67 1.73-1.48v-.9C16 8.01 15 7 13.75 7Z">
-             </path>
-            </svg>
-           </div>
-           <div class="flex--item">
-            <span title="2022-03-08 02:37:13Z">
-             Member since today
-            </span>
-           </div>
-          </div>
-         </li>
-         <li class="flex--item">
-          <div class="d-flex gs4 gsx ai-center">
-           <div class="flex--item fc-black-350">
-            <svg aria-hidden="true" class="svg-icon iconClock" height="18" viewbox="0 0 18 18" width="18">
-             <path d="M9 17c-4.36 0-8-3.64-8-8 0-4.36 3.64-8 8-8 4.36 0 8 3.64 8 8 0 4.36-3.64 8-8 8Zm0-2c3.27 0 6-2.73 6-6s-2.73-6-6-6-6 2.73-6 6 2.73 6 6 6ZM8 5h1.01L9 9.36l3.22 2.1-.6.93L8 10V5Z">
-             </path>
-            </svg>
-           </div>
-           <div class="flex--item">
-            Last seen
-this week
-           </div>
-          </div>
-         </li>
-        </ul>
-       </div>
+    <div id="mainbar-full">
+     <h1 class="fs-headline1 mb24">
+      Users
+     </h1>
+     <div class="d-flex fw-wrap ai-stretch md:d-block">
+      <div class="flex--item mb12 ps-relative">
+       <input autocomplete="off" class="s-input s-input__search h100 wmx3" id="userfilter" name="userfilter" placeholder="Filter by user" type="text"/>
+       <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
+        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
+        </path>
+       </svg>
       </div>
-      <div class="ps-absolute t0 r0 d-flex gs6 fw-wrap">
-       <button aria-controls="profiles-menu" class="flex--item s-btn s-btn__outlined s-btn__muted s-btn__icon s-btn__sm s-btn__dropdown" data-action="s-popover#toggle" data-controller="s-popover" data-s-popover-placement="bottom-end" data-s-popover-toggle-class="is-selected" role="button">
-        Profiles
-       </button>
-       <div class="s-popover px0 py4 w-auto" id="profiles-menu" role="menu">
-        <div class="s-popover--arrow">
+      <div class="flex--item ml-auto mb12 h100 d-flex s-btn-group js-filter-btn">
+       <a class="js-sort-preference-change youarehere is-selected flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="reputation" href="/users?tab=reputation" title="Users with the highest reputation scores">
+        Reputation
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="newusers" href="/users?tab=newusers" title="Users who joined in the last 30 days">
+        New users
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="voters" href="/users?tab=voters" title="Users who voted more than 10 times">
+        Voters
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="editors" href="/users?tab=editors" title="Users who edited at least 5 posts">
+        Editors
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="moderators" href="/users?tab=moderators" title="Our current community moderators">
+        Moderators
+       </a>
+      </div>
+     </div>
+     <div class="fs-body2 mt8 mb12">
+      <div class="d-flex jc-space-between">
+       <div class="flex--item ml-auto md:ml0">
+        <div class="subtabs" id="tabs-interval">
+         <a class="js-sort-preference-change youarehere is-selected" data-nav-xhref="" data-shortcut="" data-value="all" href="/users?tab=Reputation&amp;filter=all" title="2000-01-01 to today">
+          all
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="year" href="/users?tab=Reputation&amp;filter=year" title="2022-01-01 to today">
+          year
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="quarter" href="/users?tab=Reputation&amp;filter=quarter" title="2022-04-01 to today">
+          quarter
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="month" href="/users?tab=Reputation&amp;filter=month" title="2022-05-01 to today">
+          month
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="week" href="/users?tab=Reputation&amp;filter=week" title="2022-05-01 to today">
+          week
+         </a>
         </div>
-        <ul class="s-menu" role="menu">
-         <li role="menuitem">
-          <a class="s-block-link d-flex ai-center ws-nowrap" href="https://meta.stackoverflow.com/users/18403874/magneticsphinx">
-           <div class="favicon favicon-stackoverflowmeta" title="Meta site favicon">
-           </div>
-           <div class="ml4">
-            Meta user
-           </div>
-          </a>
-         </li>
-         <li role="menuitem">
-          <a class="s-block-link d-flex ai-center ws-nowrap d-flex ai-center" href="https://stackexchange.com/users/17018976/magneticsphinx">
-           <svg aria-hidden="true" class="native mln2 mr2 svg-icon iconLogoSEXxs" height="18" viewbox="0 0 18 18" width="18">
-            <path d="M3 4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2H3Z" fill="#8FD8F7">
-            </path>
-            <path d="M15 11H3c0 1.1.9 2 2 2h5v3l3-3a2 2 0 0 0 2-2Z" fill="#155397">
-            </path>
-            <path d="M3 5h12v2H3z" fill="#46A2D9">
-            </path>
-            <path d="M3 8h12v2H3z" fill="#2D6DB5">
-            </path>
-           </svg>
-           Network profile
-          </a>
-         </li>
-        </ul>
        </div>
       </div>
      </div>
-     <div class="d-flex ai-center jc-space-between fw-wrap mb16 js-user-header">
-      <div class="flex--item s-navigation">
-       <a class="s-navigation--item is-selected" data-shortcut="P" href="/users/18403874/magneticsphinx?tab=profile">
-        Profile
-       </a>
-       <a class="s-navigation--item" data-shortcut="A" href="/users/18403874/magneticsphinx?tab=topactivity">
-        Activity
-       </a>
-       <a class="s-navigation--item d-flex ai-center" href="/users/story/18403874">
-        <div class="flex--item">
-         Developer Story
+     <div id="user-browser">
+      <div class="d-grid grid__4 lg:grid__3 md:grid__2 sm:grid__1 g12">
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/22656/jon-skeet">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/6d8ebb117e8d83d74ea95fbdd0f87e13?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
         </div>
-       </a>
-      </div>
-      <div class="flex--item ml-auto">
-       <div class="s-navigation s-navigation__muted ai-center">
+        <div class="user-details">
+         <a href="/users/22656/jon-skeet">
+          Jon Skeet
+         </a>
+         <span class="user-location">
+          Reading, United Kingdom
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 1,329,933">
+           1.3m
+          </span>
+          <span aria-hidden="true" title="820 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            820
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           820 gold badges
+          </span>
+          <span aria-hidden="true" title="8916 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            8916
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           8916 silver badges
+          </span>
+          <span aria-hidden="true" title="9046 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            9046
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           9046 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
        </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/1144035/gordon-linoff">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/e514b017977ebf742a418cac697d8996?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/1144035/gordon-linoff">
+          Gordon Linoff
+         </a>
+         <span class="user-location">
+          New York, United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 1,195,126">
+           1.2m
+          </span>
+          <span aria-hidden="true" title="53 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            53
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           53 gold badges
+          </span>
+          <span aria-hidden="true" title="564 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            564
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           564 silver badges
+          </span>
+          <span aria-hidden="true" title="700 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            700
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           700 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/6309/vonc">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/I4fiW.jpg?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/6309/vonc">
+          VonC
+         </a>
+         <span class="user-location">
+          France
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 1,122,305">
+           1.1m
+          </span>
+          <span aria-hidden="true" title="476 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            476
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           476 gold badges
+          </span>
+          <span aria-hidden="true" title="4002 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            4002
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           4002 silver badges
+          </span>
+          <span aria-hidden="true" title="4717 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            4717
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           4717 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/157882/balusc">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/89927e2f4bde24991649b353a37678b9?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/157882/balusc">
+          BalusC
+         </a>
+         <span class="user-location">
+          Willemstad, Curaçao
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 1,036,938">
+           1.0m
+          </span>
+          <span aria-hidden="true" title="361 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            361
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           361 gold badges
+          </span>
+          <span aria-hidden="true" title="3545 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            3545
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3545 silver badges
+          </span>
+          <span aria-hidden="true" title="3505 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3505
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3505 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/29407/darin-dimitrov">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/e3a181e9cdd4757a8b416d93878770c5?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/29407/darin-dimitrov">
+          Darin Dimitrov
+         </a>
+         <span class="user-location">
+          Sofia, Bulgaria
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 992,536">
+           993k
+          </span>
+          <span aria-hidden="true" title="263 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            263
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           263 gold badges
+          </span>
+          <span aria-hidden="true" title="3239 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            3239
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3239 silver badges
+          </span>
+          <span aria-hidden="true" title="2899 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2899
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2899 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/23354/marc-gravell">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/CrVFH.png?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/23354/marc-gravell">
+          Marc Gravell
+         </a>
+         <span class="user-location">
+          Forest of Dean, United Kingdom
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 972,764">
+           973k
+          </span>
+          <span aria-hidden="true" title="250 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            250
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           250 gold badges
+          </span>
+          <span aria-hidden="true" title="2471 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            2471
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2471 silver badges
+          </span>
+          <span aria-hidden="true" title="2826 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2826
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2826 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/100297/martijn-pieters">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/24780fb6df85a943c7aea0402c843737?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/100297/martijn-pieters">
+          Martijn Pieters
+         </a>
+         <span class="mod-flair mtn2" title="Moderator">
+          ♦
+         </span>
+         <span class="user-location">
+          Cambridge, UK
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 957,446">
+           957k
+          </span>
+          <span aria-hidden="true" title="265 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            265
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           265 gold badges
+          </span>
+          <span aria-hidden="true" title="3787 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            3787
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3787 silver badges
+          </span>
+          <span aria-hidden="true" title="3173 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3173
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3173 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/157247/t-j-crowder">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/yRCih.jpg?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/157247/t-j-crowder">
+          T.J. Crowder
+         </a>
+         <span class="user-location">
+          United Kingdom
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 953,188">
+           953k
+          </span>
+          <span aria-hidden="true" title="172 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            172
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           172 gold badges
+          </span>
+          <span aria-hidden="true" title="1766 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1766
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1766 silver badges
+          </span>
+          <span aria-hidden="true" title="1759 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1759
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1759 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/115145/commonsware">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/wDnd8.png?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/115145/commonsware">
+          CommonsWare
+         </a>
+         <span class="user-location">
+          Pennsylvania, United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 951,527">
+           952k
+          </span>
+          <span aria-hidden="true" title="185 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            185
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           185 gold badges
+          </span>
+          <span aria-hidden="true" title="2307 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            2307
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2307 silver badges
+          </span>
+          <span aria-hidden="true" title="2361 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2361
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2361 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/17034/hans-passant">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/Cii6b.png?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/17034/hans-passant">
+          Hans Passant
+         </a>
+         <span class="user-location">
+          Madison, WI
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 895,916">
+           896k
+          </span>
+          <span aria-hidden="true" title="140 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            140
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           140 gold badges
+          </span>
+          <span aria-hidden="true" title="1630 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1630
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1630 silver badges
+          </span>
+          <span aria-hidden="true" title="2450 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2450
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2450 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/893/greg-hewgill">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/747ffa5da3538e66840ebc0548b8fd58?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/893/greg-hewgill">
+          Greg Hewgill
+         </a>
+         <span class="user-location">
+          Christchurch, New Zealand
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 886,117">
+           886k
+          </span>
+          <span aria-hidden="true" title="177 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            177
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           177 gold badges
+          </span>
+          <span aria-hidden="true" title="1124 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1124
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1124 silver badges
+          </span>
+          <span aria-hidden="true" title="1258 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1258
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1258 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/19068/quentin">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/1d2d3229ed1961d2bd81853242493247?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/19068/quentin">
+          Quentin
+         </a>
+         <span class="user-location">
+          United Kingdom
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 853,851">
+           854k
+          </span>
+          <span aria-hidden="true" title="118 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            118
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           118 gold badges
+          </span>
+          <span aria-hidden="true" title="1147 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1147
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1147 silver badges
+          </span>
+          <span aria-hidden="true" title="1260 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1260
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1260 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/34397/slaks">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/7deca8ec973c3c0875e9a36e1e3e2c44?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/34397/slaks">
+          SLaks
+         </a>
+         <span class="user-location">
+          New Jersey
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 834,652">
+           835k
+          </span>
+          <span aria-hidden="true" title="173 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            173
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           173 gold badges
+          </span>
+          <span aria-hidden="true" title="1860 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1860
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1860 silver badges
+          </span>
+          <span aria-hidden="true" title="1932 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1932
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1932 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/14860/paxdiablo">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/vXG1F.png?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/14860/paxdiablo">
+          paxdiablo
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 811,903">
+           812k
+          </span>
+          <span aria-hidden="true" title="224 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            224
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           224 gold badges
+          </span>
+          <span aria-hidden="true" title="1530 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1530
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1530 silver badges
+          </span>
+          <span aria-hidden="true" title="1892 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1892
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1892 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/95810/alex-martelli">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/e8d5fe90f1fe2148bf130cccd4dc311c?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/95810/alex-martelli">
+          Alex Martelli
+         </a>
+         <span class="user-location">
+          Sunnyvale, CA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 808,047">
+           808k
+          </span>
+          <span aria-hidden="true" title="162 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            162
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           162 gold badges
+          </span>
+          <span aria-hidden="true" title="1195 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1195
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1195 silver badges
+          </span>
+          <span aria-hidden="true" title="1373 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1373
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1373 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/3732271/akrun">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/ee6e12042dc31b1ef27471482f9ff91f?s=96&amp;d=identicon&amp;r=PG&amp;f=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/3732271/akrun">
+          akrun
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 781,060">
+           781k
+          </span>
+          <span aria-hidden="true" title="32 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            32
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           32 gold badges
+          </span>
+          <span aria-hidden="true" title="452 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            452
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           452 silver badges
+          </span>
+          <span aria-hidden="true" title="568 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            568
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           568 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/190597/unutbu">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/aabc98d5c6482ca0e1405ec97710f30a?s=96&amp;d=identicon&amp;r=PG&amp;f=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/190597/unutbu">
+          unutbu
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 772,611">
+           773k
+          </span>
+          <span aria-hidden="true" title="164 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            164
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           164 gold badges
+          </span>
+          <span aria-hidden="true" title="1688 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1688
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1688 silver badges
+          </span>
+          <span aria-hidden="true" title="1608 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1608
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1608 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/5445/christian-c-salvad%c3%b3">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/932fb89b9d4049cec5cba357bf0ae388?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/5445/christian-c-salvad%c3%b3">
+          Christian C. Salvadó
+         </a>
+         <span class="user-location">
+          Guatemala
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 766,319">
+           766k
+          </span>
+          <span aria-hidden="true" title="179 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            179
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           179 gold badges
+          </span>
+          <span aria-hidden="true" title="909 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            909
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           909 silver badges
+          </span>
+          <span aria-hidden="true" title="832 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            832
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           832 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/61974/mark-byers">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/ad240ed5cc406759f0fd72591dc8ca47?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/61974/mark-byers">
+          Mark Byers
+         </a>
+         <span class="user-location">
+          Denmark
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 764,314">
+           764k
+          </span>
+          <span aria-hidden="true" title="176 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            176
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           176 gold badges
+          </span>
+          <span aria-hidden="true" title="1540 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1540
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1540 silver badges
+          </span>
+          <span aria-hidden="true" title="1433 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1433
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1433 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/218196/felix-kling">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/4P5DY.jpg?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/218196/felix-kling">
+          Felix Kling
+         </a>
+         <span class="user-location">
+          Germany
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 752,792">
+           753k
+          </span>
+          <span aria-hidden="true" title="169 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            169
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           169 gold badges
+          </span>
+          <span aria-hidden="true" title="1058 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1058
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1058 silver badges
+          </span>
+          <span aria-hidden="true" title="1108 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1108
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1108 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/20862/ignacio-vazquez-abrams">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/2343ae368d3241278581ce6c87f62a25?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/20862/ignacio-vazquez-abrams">
+          Ignacio Vazquez-Abrams
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 737,286">
+           737k
+          </span>
+          <span aria-hidden="true" title="145 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            145
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           145 gold badges
+          </span>
+          <span aria-hidden="true" title="1294 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1294
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1294 silver badges
+          </span>
+          <span aria-hidden="true" title="1325 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1325
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1325 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/2901002/jezrael">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/hMDvl.jpg?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/2901002/jezrael">
+          jezrael
+         </a>
+         <span class="user-location">
+          Bratislava, Slovakia
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 721,734">
+           722k
+          </span>
+          <span aria-hidden="true" title="76 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            76
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           76 gold badges
+          </span>
+          <span aria-hidden="true" title="1130 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1130
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1130 silver badges
+          </span>
+          <span aria-hidden="true" title="1080 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1080
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1080 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/548225/anubhava">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/dab08478b226280d4a30894c9a7ed719?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/548225/anubhava">
+          anubhava
+         </a>
+         <span class="user-location">
+          Bangalore, India
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 710,540">
+           711k
+          </span>
+          <span aria-hidden="true" title="59 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            59
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           59 gold badges
+          </span>
+          <span aria-hidden="true" title="512 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            512
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           512 silver badges
+          </span>
+          <span aria-hidden="true" title="588 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            588
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           588 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/13302/marc-s">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/b4779212f57ff2e9549ea90a4499c2d7?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/13302/marc-s">
+          marc_s
+         </a>
+         <span class="user-location">
+          Bern, Switzerland
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 702,995">
+           703k
+          </span>
+          <span aria-hidden="true" title="168 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            168
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           168 gold badges
+          </span>
+          <span aria-hidden="true" title="1301 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1301
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1301 silver badges
+          </span>
+          <span aria-hidden="true" title="1424 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1424
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1424 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/23283/jaredpar">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/529ba429a58902bef56c2fcb672d5ccb?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/23283/jaredpar">
+          JaredPar
+         </a>
+         <span class="user-location">
+          Redmond, WA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 701,081">
+           701k
+          </span>
+          <span aria-hidden="true" title="142 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            142
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           142 gold badges
+          </span>
+          <span aria-hidden="true" title="1209 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1209
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1209 silver badges
+          </span>
+          <span aria-hidden="true" title="1437 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1437
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1437 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/19563/cb-bailey">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/a8db27c91db97757a829c7971fd62b84?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/19563/cb-bailey">
+          CB Bailey
+         </a>
+         <span class="user-location">
+          United Kingdom
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 696,030">
+           696k
+          </span>
+          <span aria-hidden="true" title="99 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            99
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           99 gold badges
+          </span>
+          <span aria-hidden="true" title="619 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            619
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           619 silver badges
+          </span>
+          <span aria-hidden="true" title="646 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            646
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           646 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/15168/jonathan-leffler">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/WtEI9.png?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/15168/jonathan-leffler">
+          Jonathan Leffler
+         </a>
+         <span class="user-location">
+          Colorado, USA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 695,894">
+           696k
+          </span>
+          <span aria-hidden="true" title="130 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            130
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           130 gold badges
+          </span>
+          <span aria-hidden="true" title="853 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            853
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           853 silver badges
+          </span>
+          <span aria-hidden="true" title="1224 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1224
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1224 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/335858/sergey-kalinichenko">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/4af3541c00d591e9a518b9c0b3b1190a?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/335858/sergey-kalinichenko">
+          Sergey Kalinichenko
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 695,381">
+           695k
+          </span>
+          <span aria-hidden="true" title="78 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            78
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           78 gold badges
+          </span>
+          <span aria-hidden="true" title="1047 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1047
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1047 silver badges
+          </span>
+          <span aria-hidden="true" title="1460 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1460
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1460 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/139985/stephen-c">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/147c5a9cc1feec049c50da791ac7d144?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/139985/stephen-c">
+          Stephen C
+         </a>
+         <span class="user-location">
+          Australia
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 666,891">
+           667k
+          </span>
+          <span aria-hidden="true" title="91 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            91
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           91 gold badges
+          </span>
+          <span aria-hidden="true" title="768 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            768
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           768 silver badges
+          </span>
+          <span aria-hidden="true" title="1158 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1158
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1158 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/69083/guffa">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/1db0cdfd3fe268e270ec481a73046c2f?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/69083/guffa">
+          Guffa
+         </a>
+         <span class="user-location">
+          Virsbo, Sweden
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 664,471">
+           664k
+          </span>
+          <span aria-hidden="true" title="105 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            105
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           105 gold badges
+          </span>
+          <span aria-hidden="true" title="702 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            702
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           702 silver badges
+          </span>
+          <span aria-hidden="true" title="982 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            982
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           982 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/1491895/barmar">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/82f9e178a16364bf561d0ed4da09a35d?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/1491895/barmar">
+          Barmar
+         </a>
+         <span class="user-location">
+          Arlington, MA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 663,465">
+           663k
+          </span>
+          <span aria-hidden="true" title="51 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            51
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           51 gold badges
+          </span>
+          <span aria-hidden="true" title="451 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            451
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           451 silver badges
+          </span>
+          <span aria-hidden="true" title="556 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            556
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           556 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/106224/boltclock">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/a2d818d801ce38a33807f68fdd92043a?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/106224/boltclock">
+          BoltClock
+         </a>
+         <span class="user-location">
+          Singapore
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 662,078">
+           662k
+          </span>
+          <span aria-hidden="true" title="155 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            155
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           155 gold badges
+          </span>
+          <span aria-hidden="true" title="1338 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1338
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1338 silver badges
+          </span>
+          <span aria-hidden="true" title="1324 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1324
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1324 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/571407/jb-nizet">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/2f0d9dec16bae1e06552af55ddefc11f?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/571407/jb-nizet">
+          JB Nizet
+         </a>
+         <span class="user-location">
+          Saint-Etienne, France
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 655,682">
+           656k
+          </span>
+          <span aria-hidden="true" title="86 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            86
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           86 gold badges
+          </span>
+          <span aria-hidden="true" title="1174 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1174
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1174 silver badges
+          </span>
+          <span aria-hidden="true" title="1223 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1223
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1223 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/816620/jfriend00">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/Xu7hp.jpg?s=96&amp;g=1" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/816620/jfriend00">
+          jfriend00
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 633,420">
+           633k
+          </span>
+          <span aria-hidden="true" title="85 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            85
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           85 gold badges
+          </span>
+          <span aria-hidden="true" title="890 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            890
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           890 silver badges
+          </span>
+          <span aria-hidden="true" title="899 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            899
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           899 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/88656/eric-lippert">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/6fbdff3ffb6f111d172759b4f05bea0e?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/88656/eric-lippert">
+          Eric Lippert
+         </a>
+         <span class="user-location">
+          Seattle, WA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 629,617">
+           630k
+          </span>
+          <span aria-hidden="true" title="172 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            172
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           172 gold badges
+          </span>
+          <span aria-hidden="true" title="1209 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1209
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1209 silver badges
+          </span>
+          <span aria-hidden="true" title="2051 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2051
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2051 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/53114/gumbo">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/cd501083459cbc21fccae78e2d03bee2?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/53114/gumbo">
+          Gumbo
+         </a>
+         <span class="user-location">
+          Ulm, Germany
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score 618,950">
+           619k
+          </span>
+          <span aria-hidden="true" title="103 gold badges">
+           <span class="badge1">
+           </span>
+           <span class="badgecount">
+            103
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           103 gold badges
+          </span>
+          <span aria-hidden="true" title="758 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            758
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           758 silver badges
+          </span>
+          <span aria-hidden="true" title="827 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            827
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           827 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+      </div>
+      <div class="s-pagination site1 themed pager float-right">
+       <div class="s-pagination--item is-selected">
+        1
+       </div>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=2&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 2">
+        2
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=3&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 3">
+        3
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=4&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 4">
+        4
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=5&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 5">
+        5
+       </a>
+       <div class="s-pagination--item s-pagination--item__clear">
+        …
+       </div>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=479617&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479617">
+        479617
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=2&amp;tab=reputation&amp;filter=all" rel="next" title="Go to page 2">
+        Next
+       </a>
       </div>
      </div>
-     <div id="main-content">
-      <div class="d-flex gs24 md:fd-column">
-       <div class="flex--item3 fl-shrink0 md:order-last">
-        <div class="d-grid g24">
-         <div class="grid--item" data-is-here-when="lg" id="stats">
-          <div class="fs-title mb8">
-           Stats
-          </div>
-          <div class="s-card fc-light bar-md">
-           <div class="d-flex flex__allitems6 gs16 fw-wrap md:jc-space-between">
-            <div class="flex--item md:fl-auto">
-             <div class="fs-body3 fc-dark">
-              1
-             </div>
-             reputation
-            </div>
-            <div class="flex--item md:fl-auto" title="Estimated number of times people viewed helpful posts by this user
-(based on page views of questions
-and questions where they wrote highly-ranked answers)">
-             <div class="fs-body3 fc-dark">
-              4
-             </div>
-             reached
-            </div>
-            <div class="flex--item md:fl-auto">
-             <div class="fs-body3 fc-dark">
-              0
-             </div>
-             answers
-            </div>
-            <div class="flex--item md:fl-auto">
-             <div class="fs-body3 fc-dark">
-              1
-             </div>
-             question
-            </div>
-           </div>
-          </div>
-         </div>
-         <div class="grid--item">
-          <div class="d-flex ai-center jc-space-between mb8">
-           <div class="flex--item fs-title">
-            Communities
-           </div>
-          </div>
-          <div class="s-card bar-md">
-           <ul class="list-reset d-flex fd-column gs12 gsy">
-            <li class="flex--item">
-             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://math.stackexchange.com/users/721172/" title="Mathematics">
-              <div class="favicon favicon-math flex--item fl-shrink0 favicon" title="Mathematics Stack Exchange">
-              </div>
-              <div class="flex--item fl-grow1 wmn0 pr4">
-               <div class="truncate">
-                Mathematics
-               </div>
-              </div>
-              <div class="flex--item fl-shrink0 ml-auto fc-light">
-               31
-              </div>
-             </a>
-            </li>
-            <li class="flex--item">
-             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://physics.stackexchange.com/users/281340/" title="Physics">
-              <div class="favicon favicon-physics flex--item fl-shrink0 favicon" title="Physics Stack Exchange">
-              </div>
-              <div class="flex--item fl-grow1 wmn0 pr4">
-               <div class="truncate">
-                Physics
-               </div>
-              </div>
-              <div class="flex--item fl-shrink0 ml-auto fc-light">
-               1
-              </div>
-             </a>
-            </li>
-            <li class="flex--item">
-             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://stackoverflow.com/users/18403874/" title="Stack Overflow">
-              <div class="favicon favicon-stackoverflow flex--item fl-shrink0 favicon" title="Stack Overflow">
-              </div>
-              <div class="flex--item fl-grow1 wmn0 pr4">
-               <div class="truncate">
-                Stack Overflow
-               </div>
-              </div>
-              <div class="flex--item fl-shrink0 ml-auto fc-light">
-               1
-              </div>
-             </a>
-            </li>
-           </ul>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div class="flex--item fl-grow1">
-        <div class="d-grid g24">
-         <div data-can-be="stats" data-is-here-when="sm md">
-         </div>
-         <div class="grid--item">
-          <div class="d-flex ai-center jc-space-between mb8">
-           <div class="flex--item fs-title">
-            Badges
-           </div>
-          </div>
-          <div class="s-empty-state p32 bg-black-025 bar-md ba bc-black-075 ta-center">
-           <p class="mx-auto wmx3 mb0">
-            This user has not earned any
-            <a href="/help/badges">
-             badges
-            </a>
-            .
-           </p>
-          </div>
-         </div>
-         <div class="top-tags grid--item" id="top-tags">
-          <div class="d-flex ai-center jc-space-between mb8">
-           <div class="flex--item fs-title">
-            Top tags
-           </div>
-          </div>
-          <div class="s-card bar-md">
-           This user has not participated in any
-           <a href="/tags">
-            tags
-           </a>
-           .
-          </div>
-         </div>
-         <div class="grid--item" id="js-top-posts">
-          <div class="d-flex ai-end jc-space-between fw-wrap">
-           <div class="flex--item mb8">
-            <div class="fs-title">
-             Top posts
-            </div>
-           </div>
-           <div class="d-flex jc-end mb8">
-            <div class="s-btn-group js-post-filters">
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-selected is-selected js-post-filter-btn">
-              All
-             </a>
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="1">
-              Questions
-             </a>
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="2">
-              Answers
-             </a>
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="9">
-              Articles
-             </a>
-            </div>
-            <div class="s-btn-group ml8 js-post-sorts">
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-selected is-selected js-post-sort-btn" data-sort="Votes">
-              Score
-             </a>
-             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-sort-btn" data-sort="Newest">
-              Newest
-             </a>
-            </div>
-           </div>
-          </div>
-          <div class="s-card bar-md p0">
-           <div class="p12">
-            <div class="d-flex gs12 gsx ai-center">
-             <div class="flex--item fc-black-300 fl-shrink0">
-              <svg aria-hidden="true" class="svg-icon iconQuestion" height="18" viewbox="0 0 18 18" width="18">
-               <path d="m4 14-3 3V3c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z">
-               </path>
-              </svg>
-             </div>
-             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
-              0
-             </div>
-             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
-              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/71389461/producing-a-subplot-of-multiple-matshow-plots">
-               Producing a Subplot of Multiple Matshow plots
-              </a>
-             </div>
-             <div class="flex--item ml-auto fc-light ws-nowrap">
-              <span class="relativetime" title="2022-03-08 02:44:48Z">
-               14 mins ago
-              </span>
-             </div>
-            </div>
-           </div>
-          </div>
-          <script>
-           $(function () {
-                function getPosts() {
-                    $.get("/users/profile/posts/18403874", {
-                        postType: $(".js-post-filters > .js-post-filter-btn.is-selected[data-type]").data("type"),
-                        sort: $(".js-post-sorts > .js-post-sort-btn.is-selected").data("sort")
-                    }).done(function (html) {
-                        $("#js-top-posts").replaceWith(html);
-                    });
-
-                }
-
-                $(".js-post-sorts .js-post-sort-btn:not(.js-selected)").click(function () {
-                    $(".js-post-sorts .js-post-sort-btn").removeClass("is-selected");
-                    $(this).addClass("is-selected");
-                    getPosts();
-                });
-                $(".js-post-filters .js-post-filter-btn:not(.js-selected)").click(function () {
-                    $(".js-post-filters .js-post-filter-btn").removeClass("is-selected");
-                    $(this).addClass("is-selected");
-                    getPosts();
-                });
-            })
-          </script>
-         </div>
-        </div>
-       </div>
-      </div>
+     <div id="users-legend" style="float: left; margin-top: 25px; margin-bottom: 10px;">
+      <b>
+       <a href="https://stackexchange.com/leagues/week/stackoverflow">
+        weekly / monthly / quarterly reputation leagues
+       </a>
+      </b>
      </div>
     </div>
-    <script>
-     StackExchange.ready(function(){$.get('/users/ivc/18403874/1646');});
-    </script>
-    <noscript>
-     <div>
-      <img alt="" class="dno" height="0" src="/users/ivc/18403874/1646" width="0"/>
-     </div>
-    </noscript>
    </div>
   </div>
   <footer class="site-footer js-footer" id="footer" role="contentinfo">
@@ -873,28 +2585,18 @@ and questions where they wrote highly-ranked answers)">
     <nav class="site-footer--nav">
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 4, link: 15})" href="https://stackoverflow.com">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 15})" href="https://stackoverflow.com">
         Stack Overflow
        </a>
       </h5>
       <ul class="-list js-primary-footer-links">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 16})" href="/questions">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 16})" href="/questions">
          Questions
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 17})" href="https://stackoverflow.com/jobs">
-         Jobs
-        </a>
-       </li>
-       <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 11})" href="https://stackoverflow.com/jobs/directory/developer-jobs">
-         Developer Jobs Directory
-        </a>
-       </li>
-       <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 3 })" href="/help">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 3 })" href="/help">
          Help
         </a>
        </li>
@@ -902,82 +2604,82 @@ and questions where they wrote highly-ranked answers)">
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 4, link: 19 })" href="https://stackoverflow.com/?products">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 19 })" href="https://stackoverflow.com/?products">
         Products
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 4, link: 29 })" href="https://stackoverflow.co/teams">
+        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 25, link: 29 })" href="https://stackoverflow.co/teams">
          Teams
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 20 })" href="https://stackoverflow.co/talent">
-         Talent
-        </a>
-       </li>
-       <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 21 })" href="https://stackoverflow.co/advertising">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 21 })" href="https://stackoverflow.co/advertising">
          Advertising
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 22 })" href="https://stackoverflow.co/explore-teams">
-         Enterprise
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 40 })" href="https://stackoverflow.co/collectives">
+         Collectives
+        </a>
+       </li>
+       <li>
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 20 })" href="https://stackoverflow.co/talent">
+         Talent
         </a>
        </li>
       </ul>
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 4, link: 1 })" href="https://stackoverflow.co/">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 1 })" href="https://stackoverflow.co/">
         Company
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 1 })" href="https://stackoverflow.co/">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 1 })" href="https://stackoverflow.co/">
          About
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 27 })" href="https://stackoverflow.co/company/press">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 27 })" href="https://stackoverflow.co/company/press">
          Press
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 9 })" href="https://stackoverflow.co/company/work-here">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 9 })" href="https://stackoverflow.co/company/work-here">
          Work Here
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 7 })" href="https://stackoverflow.com/legal">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 7 })" href="https://stackoverflow.com/legal">
          Legal
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
          Privacy Policy
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
          Terms of Service
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 13 })" href="https://stackoverflow.co/company/contact">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 13 })" href="https://stackoverflow.co/company/contact">
          Contact Us
         </a>
        </li>
        <li class="" id="consent-footer-link">
-        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 4, link: 38 })" href="#">
+        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 25, link: 38 })" href="#">
          Cookie Settings
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
          Cookie Policy
         </a>
        </li>
@@ -986,48 +2688,48 @@ and questions where they wrote highly-ranked answers)">
      <div class="site-footer--col site-footer--categories-nav">
       <div>
        <h5 class="-title">
-        <a data-gps-track="footer.click({ location: 4, link: 30 })" href="https://stackexchange.com">
+        <a data-gps-track="footer.click({ location: 25, link: 30 })" href="https://stackexchange.com">
          Stack Exchange Network
         </a>
        </h5>
        <ul class="-list">
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#technology">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#technology">
           Technology
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
           Culture &amp; recreation
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#lifearts">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#lifearts">
           Life &amp; arts
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#science">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#science">
           Science
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#professional">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#professional">
           Professional
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#business">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#business">
           Business
          </a>
         </li>
         <li class="mt16 md:mt0">
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://api.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://api.stackexchange.com/">
           API
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://data.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://data.stackexchange.com/">
           Data
          </a>
         </li>
@@ -1038,79 +2740,45 @@ and questions where they wrote highly-ranked answers)">
     <div class="site-footer--copyright fs-fine md:mt24">
      <ul class="-list -social md:mb8">
       <li>
-       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link:4 })" href="https://stackoverflow.blog?blb=1">
+       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link:4 })" href="https://stackoverflow.blog?blb=1">
         Blog
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
         Facebook
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 32 })" href="https://twitter.com/stackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 32 })" href="https://twitter.com/stackoverflow">
         Twitter
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 33 })" href="https://linkedin.com/company/stack-overflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 33 })" href="https://linkedin.com/company/stack-overflow">
         LinkedIn
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 36 })" href="https://www.instagram.com/thestackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 36 })" href="https://www.instagram.com/thestackoverflow">
         Instagram
        </a>
       </li>
      </ul>
      <p class="md:mb0">
-      site design / logo © 2022 Stack Exchange Inc; user contributions licensed under
+      Site design / logo © 2022 Stack Exchange Inc; user contributions licensed under
       <a href="https://stackoverflow.com/help/licensing">
        cc by-sa
       </a>
       .
       <span id="svnrev">
-       rev 2022.3.7.41613
+       rev 2022.5.5.42046
       </span>
      </p>
     </div>
    </div>
   </footer>
-  <noscript>
-   <div id="noscript-warning">
-    Stack Overflow works best with JavaScript enabled
-    <img alt="" src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=17440561&amp;cv=3.6.0&amp;cj=1"/>
-   </div>
-  </noscript>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-
-
-                    StackExchange.ga.setDimension('dimension3', 'UsersShow/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1646708341.1034683182");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">
