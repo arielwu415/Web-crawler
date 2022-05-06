@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Minimize distractions and improve time to code | ROI calculator
+  </title>
+  <meta content="Stack Overflow for Teams is a knowledge sharing and collaboration platform that helps to minimize distractions and improve time to code." name="description"/>
+  <meta content="8HAY7r7sq8KcZRigfMHwyKmIJnBsu_5roLvgXvdq_Jg" name="google-site-verification"/>
+  <meta content="Minimize distractions and improve time to code | ROI calculator" property="og:title"/>
+  <meta content="https://stackoverflowsolutions.com/attract-and-retain-talent" property="og:url"/>
+  <meta content="Stack Overflow for Teams is a knowledge sharing and collaboration platform that helps to minimize distractions and improve time to code." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Minimize distractions and improve time to code | ROI calculator" name="twitter:title"/>
+  <meta content="https://stackoverflowsolutions.com/attract-and-retain-talent" name="twitter:url"/>
+  <meta content="Stack Overflow for Teams is a knowledge sharing and collaboration platform that helps to minimize distractions and improve time to code." name="twitter:description"/>
+  <link href="/assets/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="/assets/img/favicon.ico" rel="icon" type="image/x-icon"/>
+  <meta content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1" name="viewport"/>
+  <link href="/assets/css/bundle.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Source+Sans+Pro:400,400i,600,600i&amp;display=swap" media="all" rel="stylesheet" type="text/css"/>
+  <script src="/assets/js/bundle.js">
+  </script>
+  <script src="/assets/js/stacks.min.js">
+  </script>
+  <script src="https://cdn.optimizely.com/js/17886291049.js">
+  </script>
+  <script async="" src="https://cdn.bizible.com/scripts/bizible.js">
+  </script>
+  <script>
+   !function(e,t,a,n){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});n=t.getElementsByTagName(a)[0],a=t.createElement(a);a.async=!0,a.src="https://www.googletagmanager.com/gtm.js?id=GTM-NCPLSQQ",n.parentNode.insertBefore(a,n)}(window,document,"script","dataLayer")
+  </script>
+ </head>
+ <body class="unified-theme pt0">
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NCPLSQQ" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <div class="wmx100 w100 p0 bg-black-025 snippet-hidden p-ff-source p-bg-swoosh btr-lg" id="content">
+   <style>
+    .p-wrapper{max-width:1150px}.bg-highlight{font-weight:700;padding:3px 20px;background-size:100% 100%;background-repeat:no-repeat;background-position:50% 50%;background-image:url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" width="119" height="36" viewBox="0 0 119 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.6672 0.299169L100.048 0C105.533 0 109.423 4.18837 107.03 7.77839C105.833 9.57341 106.132 11.7673 107.628 13.3629L111.917 17.7507L117.702 24.133C119.497 26.1274 119.198 28.8199 117.403 30.5152L114.41 33.4072C112.914 34.7036 110.82 35.6011 108.326 35.6011L13 36C4.82122 36 0.233103 29.3186 4.82122 24.4321L5.41967 23.8338L2.42742 19.8449C-0.56483 15.856 0.0336201 10.7701 3.92354 7.18006C9.60881 2.69252 17.4884 0.299169 25.6672 0.299169Z" fill="url(%23paint0_linear)"/><defs><linearGradient id="paint0_linear" x1="-267" y1="18" x2="118.907" y2="18" gradientUnits="userSpaceOnUse"><stop stop-color="%23FFB935"/><stop offset="1" stop-color="%23FFD943"/></linearGradient></defs></svg>')}.p-bg-swoosh{background-position:50% 150px;background-attachment:fixed}
+   </style>
+   <header class="p-wrapper ta-left mx-auto">
+    <div class="d-flex ai-end w100">
+     <div class="flex--item pt64 pb32">
+      <a href="https://stackoverflow.com/teams">
+       <svg aria-hidden="true" class="svg-icon iconLogoTeamsAlt native mb32" height="30" viewbox="0 0 143 30" width="143">
+        <path d="M21 27v-8h3v11H0V19h3v8h18Z" fill="#BCBBBB">
+        </path>
+        <path d="m5.4 19.1 13.56 1.96.17-2.38-13.26-2.55-.47 2.97Zm1.8-6.8 12 5.6 1.1-2.4-12-5.6-1.1 2.4Zm3.4-5.9 10.2 8.5 1.7-2-10.2-8.5-1.7 2ZM17.1.2 15 1.8l7.9 10.6 2.1-1.6L17.1.2ZM5 25h14v-3H5v3Z" fill="#F48024">
+        </path>
+        <path d="M59.14 11h-7.77c-.24 0-.4.16-.4.4v12.18c0 .23.16.39.4.39h1.86c.24 0 .4-.16.4-.39v-4.75h4.66c.23 0 .38-.16.38-.39v-1.67c0-.24-.15-.4-.38-.4h-4.67v-2.91h5.56c.23 0 .39-.16.39-.4V11.4c-.04-.2-.23-.39-.43-.39Zm10.29 2.73a3.9 3.9 0 0 0-.9-1.4 4.8 4.8 0 0 0-3.49-1.4 4.72 4.72 0 0 0-4.2 2.41 5.54 5.54 0 0 0-.54 2.38c-.04.42-.04 1.05-.04 1.79 0 .97.04 1.7.08 2.25s.15 1.06.35 1.56c.2.5.5.94.9 1.4.92.94 2.09 1.4 3.45 1.4a4.51 4.51 0 0 0 4.7-4.4c.04-.5.04-1.28.04-2.25 0-.98 0-1.72-.04-2.26a4 4 0 0 0-.3-1.48ZM63.02 15c.08-.42.23-.77.47-1.05.15-.2.38-.35.66-.46.27-.12.58-.16.85-.16.31 0 .59.08.86.16.27.11.5.27.66.46.23.28.39.59.46 1.02a18 18 0 0 1 .12 2.49c0 .78 0 1.4-.04 1.87a3.1 3.1 0 0 1-.2 1 1.94 1.94 0 0 1-1.9 1.25 2.09 2.09 0 0 1-1.51-.58 1.1 1.1 0 0 1-.31-.47 1.88 1.88 0 0 1-.16-.58l-.12-.97c0-.4-.03-.9-.03-1.52.07-1.13.11-1.99.19-2.46Zm15.05 3.44a3.58 3.58 0 0 0 2.25-3.47 3.66 3.66 0 0 0-1.98-3.43 4.39 4.39 0 0 0-2.17-.5h-4.75c-.23 0-.38.16-.38.4v12.18c0 .23.15.39.38.39h1.87c.23 0 .39-.16.39-.4v-4.74h1.67l2.45 4.9c.08.12.2.24.35.24h2.14c.11 0 .27-.08.35-.2a.35.35 0 0 0 0-.39l-2.57-4.98Zm-4.4-4.98h2.34c.55 0 .93.11 1.25.42.3.28.42.63.42 1.13 0 .47-.15.82-.42 1.1-.32.27-.7.42-1.25.42h-2.33v-3.07ZM95.88 11h-8.55c-.24 0-.4.16-.4.4v1.67c0 .23.16.39.4.39h2.95v10.12c0 .23.16.39.39.39h1.83c.23 0 .38-.16.38-.39V13.46h2.96c.23 0 .39-.16.39-.4V11.4c.04-.2-.16-.39-.35-.39Zm10.26 0h-7.77c-.24 0-.4.16-.4.4v12.18c0 .23.16.39.4.39h7.77c.23 0 .39-.16.39-.39v-1.67c0-.24-.16-.4-.4-.4h-5.55v-2.87h4.67c.23 0 .38-.16.38-.4v-1.63c0-.23-.15-.39-.38-.39h-4.67v-2.76h5.56c.23 0 .39-.16.39-.4V11.4c0-.2-.2-.39-.4-.39Zm8.13.28a.37.37 0 0 0-.35-.28h-1.48a.37.37 0 0 0-.35.28l-4.47 12.18a.38.38 0 0 0 .04.35c.08.12.2.16.31.16h1.99c.15 0 .3-.12.35-.27l.73-2.18h4.24l.74 2.18c.04.15.2.27.35.27h1.98c.12 0 .23-.08.31-.16a.38.38 0 0 0 .04-.35l-4.43-12.18Zm.23 7.9h-2.64l1.36-3.82 1.28 3.82ZM131.22 11h-1.86c-.16 0-.27.08-.35.24l-3.11 6.81-3.19-6.81c-.08-.16-.2-.24-.35-.24h-1.86c-.24 0-.4.16-.4.4v12.18c0 .23.16.39.4.39h1.86c.23 0 .4-.16.4-.39v-6.42l2.13 4.4c.08.11.2.23.35.23h1.36c.16 0 .27-.08.35-.23l2.06-4.37v6.43c0 .23.16.39.39.39h1.86c.24 0 .4-.16.4-.4V11.44c-.05-.23-.2-.43-.44-.43Zm10.46 6.35a2.95 2.95 0 0 0-1.01-.62 5.98 5.98 0 0 0-1.44-.35l-1.4-.2a2.35 2.35 0 0 1-.7-.2c-.2-.07-.39-.19-.46-.27-.24-.19-.31-.46-.31-.85 0-.31.07-.55.19-.78.16-.23.35-.39.58-.5.28-.12.63-.2 1.01-.2.35 0 .66.04.94.08.27.04.54.15.77.27.24.12.47.27.7.5.16.16.4.16.55 0l1.2-1.16c.08-.08.12-.2.12-.28a.36.36 0 0 0-.12-.27c-.54-.5-1.16-.9-1.79-1.13a6.53 6.53 0 0 0-2.25-.35c-.9 0-1.67.16-2.33.47-.66.31-1.2.82-1.56 1.4a3.98 3.98 0 0 0-.54 2.07c0 1.09.35 1.98 1.01 2.6.62.59 1.44.94 2.53 1.1l1.43.19c.31.04.59.12.74.15.16.04.28.12.4.28.22.2.34.54.34.97 0 .47-.15.82-.5 1.05a2.8 2.8 0 0 1-1.64.43 4.55 4.55 0 0 1-2.02-.47 3.8 3.8 0 0 1-.81-.62.35.35 0 0 0-.28-.12.36.36 0 0 0-.27.12l-1.24 1.2a.35.35 0 0 0-.12.28c0 .12.04.2.12.27a5.52 5.52 0 0 0 2.02 1.33c.74.27 1.6.39 2.56.39a5.7 5.7 0 0 0 3.39-1.06 3.63 3.63 0 0 0 1.36-2.92c-.04-1.24-.43-2.18-1.17-2.8Z" fill="var(--black-800)">
+        </path>
+        <path d="M38 11h1v13h-1z" fill="#D6D9DC">
+        </path>
+       </svg>
+      </a>
+      <h1 class="fw-normal fs-headline2 lh-sm p-ff-roboto-slab wmx5 mb24">
+       Minimize distractions and improve time to code
+      </h1>
+      <p class="fs-subheading fc-black-600">
+       You can save
+       <strong>
+        time
+       </strong>
+       and
+       <strong>
+        money
+       </strong>
+       with Stack Overflow for Teams
+      </p>
+     </div>
+     <div class="flex--item ml-auto mtn96 sm:ml0">
+      <svg class="wmx100" fill="none" height="351" viewbox="0 0 351 351" width="351">
+       <circle cx="171.038" cy="177.038" fill="url(#paint0_linear)" r="102.637">
+       </circle>
+       <g filter="url(#filter0_d)">
+        <circle cx="173.731" cy="176.367" fill="url(#paint1_linear)" r="92.2441">
+        </circle>
+       </g>
+       <circle cx="173.731" cy="176.367" r="65.7078" stroke="url(#paint2_linear)" stroke-dasharray="3.28 3.28" stroke-width="7.64498">
+       </circle>
+       <path d="M182.925 192.403C182.925 189.92 182.235 187.951 180.857 186.497C179.508 185.013 177.2 183.651 173.934 182.409C170.667 181.167 167.85 179.94 165.482 178.729C163.114 177.487 161.076 176.079 159.368 174.504C157.69 172.899 156.371 171.021 155.412 168.871C154.483 166.721 154.019 164.162 154.019 161.193C154.019 156.075 155.637 151.881 158.874 148.61C162.11 145.339 166.411 143.431 171.776 142.886V133.164H178.969V143.022C184.273 143.779 188.424 146.02 191.421 149.745C194.418 153.44 195.917 158.241 195.917 164.146H182.925C182.925 160.512 182.175 157.801 180.677 156.015C179.208 154.197 177.23 153.289 174.743 153.289C172.285 153.289 170.382 154.001 169.034 155.424C167.685 156.817 167.011 158.755 167.011 161.239C167.011 163.541 167.67 165.388 168.989 166.781C170.307 168.174 172.75 169.598 176.316 171.052C179.913 172.505 182.865 173.883 185.172 175.186C187.48 176.458 189.428 177.911 191.017 179.547C192.605 181.152 193.819 182.999 194.658 185.089C195.497 187.149 195.917 189.556 195.917 192.312C195.917 197.461 194.328 201.64 191.151 204.851C187.975 208.061 183.599 209.954 178.025 210.529V219.57H170.877V210.575C164.733 209.908 159.968 207.713 156.581 203.988C153.224 200.232 151.546 195.25 151.546 189.041H164.538C164.538 192.645 165.377 195.417 167.055 197.355C168.764 199.263 171.206 200.217 174.383 200.217C177.021 200.217 179.103 199.52 180.632 198.127C182.16 196.704 182.925 194.796 182.925 192.403Z" fill="url(#paint3_linear)">
+       </path>
+       <path clip-rule="evenodd" d="M230.407 55.4775C197.36 40.1241 161.183 39.8586 129.665 51.4668C98.1476 63.075 70.6783 86.7814 55.2567 119.975C45.2281 141.56 41.5074 164.152 43.2817 186.37C43.4258 188.174 45.0048 189.52 46.8086 189.376C48.6124 189.232 49.9578 187.653 49.8138 185.849C48.1272 164.73 51.6586 143.272 61.1995 122.736C75.8567 91.1874 101.96 68.654 131.93 57.6159C161.899 46.5778 196.263 46.84 227.646 61.4202C247.687 70.7315 264.124 84.8355 276.15 101.513L276.154 101.518C278.077 104.175 279.912 106.714 281.502 109.286L269.76 103.937C268.113 103.187 266.17 103.914 265.42 105.561C264.67 107.208 265.397 109.151 267.044 109.901L286.958 118.971C287.85 119.378 288.877 119.363 289.757 118.932C290.638 118.501 291.279 117.698 291.504 116.744L296.526 95.5278C296.942 93.7669 295.853 92.0016 294.092 91.5848C292.331 91.1681 290.566 92.2577 290.149 94.0186L287.274 106.164C285.482 103.229 283.46 100.435 281.526 97.7645L281.465 97.6802L281.462 97.6756C268.806 80.1265 251.505 65.2796 230.407 55.4775Z" fill="url(#paint4_linear)" fill-rule="evenodd">
+       </path>
+       <path clip-rule="evenodd" d="M307.239 169.012C307.118 167.206 305.557 165.841 303.751 165.962C301.946 166.082 300.58 167.644 300.701 169.45C302.032 189.344 298.155 209.606 289.355 228.547C274.769 259.941 248.886 281.954 218.897 292.887C188.92 303.815 154.51 303.469 123.045 288.85C104.83 280.388 89.7127 268.3 78.0765 253.701C78.0456 253.662 78.0138 253.624 77.9812 253.587C76.2672 251.626 74.6184 249.502 73.0359 247.212L85.8051 251.909C87.5034 252.534 89.3865 251.664 90.0112 249.965C90.6358 248.267 89.7655 246.384 88.0672 245.759L67.5297 238.205C66.6097 237.867 65.5865 237.958 64.741 238.454C63.8955 238.95 63.3164 239.798 63.1627 240.766L59.7442 262.299C59.4605 264.086 60.6793 265.765 62.4664 266.049C64.2535 266.333 65.9323 265.114 66.216 263.327L68.0832 251.566C69.6512 253.79 71.2893 255.883 72.9981 257.843C85.2621 273.212 101.173 285.914 120.284 294.793C153.4 310.179 189.615 310.536 221.142 299.043C252.657 287.554 279.932 264.381 295.298 231.308C304.541 211.413 308.647 190.054 307.239 169.012Z" fill="url(#paint5_linear)" fill-rule="evenodd">
+       </path>
+       <circle cx="48.1617" cy="198.447" fill="#EDEDF2" r="3.50294" transform="rotate(24.9194 48.1617 198.447)">
+       </circle>
+       <circle cx="51.6385" cy="210.362" fill="#D3D4E1" opacity="0.75" r="3.50294" transform="rotate(24.9194 51.6385 210.362)">
+       </circle>
+       <circle cx="55.6073" cy="221.219" fill="#ADADC6" r="3.50294" transform="rotate(24.9194 55.6073 221.219)">
+       </circle>
+       <circle cx="60.6348" cy="232.567" fill="#2B2D6E" r="3.50294" transform="rotate(24.9194 60.6348 232.567)">
+       </circle>
+       <circle cx="302.776" cy="158.976" fill="#EDEDF2" r="3.50294" transform="rotate(-152.601 302.776 158.976)">
+       </circle>
+       <circle cx="299.818" cy="146.921" fill="#C6C7D8" opacity="0.75" r="3.50294" transform="rotate(-152.601 299.818 146.921)">
+       </circle>
+       <circle cx="296.323" cy="135.903" fill="#ADADC6" r="3.50294" transform="rotate(-152.601 296.323 135.903)">
+       </circle>
+       <circle cx="291.791" cy="124.348" fill="#2B2D6E" r="3.50294" transform="rotate(-152.601 291.791 124.348)">
+       </circle>
+       <defs>
+        <filter color-interpolation-filters="sRGB" filterunits="userSpaceOnUse" height="188.857" id="filter0_d" width="188.857" x="81.4872" y="84.1226">
+         <feflood flood-opacity="0" result="BackgroundImageFix">
+         </feflood>
+         <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0">
+         </fecolormatrix>
+         <feoffset dx="4.36856" dy="4.36856">
+         </feoffset>
+         <fecolormatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.72549 0 0 0 0 0.207843 0 0 0 1 0">
+         </fecolormatrix>
+         <feblend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow">
+         </feblend>
+         <feblend in="SourceGraphic" in2="effect1_dropShadow" mode="normal" result="shape">
+         </feblend>
+        </filter>
+        <lineargradient gradientunits="userSpaceOnUse" id="paint0_linear" x1="171.038" x2="171.038" y1="74.4004" y2="279.675">
+         <stop stop-color="#EFF0F1">
+         </stop>
+         <stop offset="1" stop-color="#FAFAFB" stop-opacity="0">
+         </stop>
+        </lineargradient>
+        <lineargradient gradientunits="userSpaceOnUse" id="paint1_linear" x1="81.4872" x2="265.975" y1="176.367" y2="176.367">
+         <stop stop-color="#FFB935">
+         </stop>
+         <stop offset="1" stop-color="#FFD943">
+         </stop>
+        </lineargradient>
+        <lineargradient gradientunits="userSpaceOnUse" id="paint2_linear" x1="120.019" x2="242.622" y1="209.061" y2="168.193">
+         <stop stop-color="#FFCB68">
+         </stop>
+         <stop offset="1" stop-color="#FFDF62">
+         </stop>
+        </lineargradient>
+        <lineargradient gradientunits="userSpaceOnUse" id="paint3_linear" x1="177.818" x2="222.189" y1="219.57" y2="251.096">
+         <stop stop-color="#FFB935">
+         </stop>
+        </lineargradient>
+        <lineargradient gradientunits="userSpaceOnUse" id="paint4_linear" x1="45.3636" x2="290.996" y1="182.749" y2="96.4431">
+         <stop stop-color="#EDEDF2">
+         </stop>
+         <stop offset="0.836874" stop-color="#2E3070">
+         </stop>
+        </lineargradient>
+        <lineargradient gradientunits="userSpaceOnUse" id="paint5_linear" x1="303.976" x2="65.4616" y1="165.621" y2="242.388">
+         <stop stop-color="#EDEDF2">
+         </stop>
+         <stop offset="1" stop-color="#2B2D6E">
+         </stop>
+        </lineargradient>
+       </defs>
+      </svg>
+     </div>
+    </div>
+   </header>
+   <main class="p-wrapper p-bs-wrapper bar-lg mx-auto bg-white px0 overflow-hidden">
+    <div class="p64 pb48 sm:p24">
+     <div class="d-flex md:fd-column gs64 gsx fs-body3 fc-black-700">
+      <div class="flex--item6">
+       <p>
+        The C-suite spends a lot of time thinking about attracting, retaining, and growing talent. According to a Gartner poll of CEOs, it’s the second highest area of financial/resource investment within their organization.
+       </p>
+       <p>
+        In order for employees to progress in their careers, they need to be able to offload redundant questions and tasks to focus on producing high quality work and growing their expertise. Repetitive tasks disrupt workflows, reduce ability to create impact, and decrease the feeling of productivity and growth.
+       </p>
+      </div>
+      <div class="flex--item6">
+       <p>
+        In this calculator we consider the cost of hiring, onboarding, and training, as well as the impact to productivity across an organization.
+        <strong>
+         Subject Matter Experts
+        </strong>
+        are most impacted when new hires are onboarded due to interruptions from questions and requested help.
+       </p>
+       <p>
+        The below calculations capture both the time saved when onboarding new employees and the time your
+        <strong>
+         Subject Matter Experts
+        </strong>
+        can take back by using
+        <a href="https://stackoverflow.com/teams">
+         Stack Overflow for Teams
+        </a>
+        .
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="p64 sm:p24 p-bg-blue-pastel bt bb bc-powder-100" id="calculators">
+     <div class="s-navigation mb32">
+      <a class="s-navigation--item is-selected" href="#time">
+       Onboarding time
+      </a>
+      <a class="s-navigation--item" href="#productivity">
+       Development gains
+      </a>
+     </div>
+     <div class="js-calculator" id="time">
+      <dl class="d-flex ai-center bg-white bar-lg bs-sm px32 py24 fs-subheading p-ff-roboto-slab mb0 mt0">
+       <dt class="fl1">
+        Estimated reduction in onboarding time per new hire
+       </dt>
+       <dd class="ws-nowrap bg-highlight">
+        <span id="time-onboarded">
+         0.9
+        </span>
+        weeks
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center bg-white bar-lg bs-sm px32 py24 fs-subheading p-ff-roboto-slab mb0 mt0 mb24 bt bc-powder-100">
+       <dt class="fl1">
+        Total hours recovered by employees who support a new hire
+       </dt>
+       <dd class="ws-nowrap bg-highlight">
+        <span id="time-saved">
+         288
+        </span>
+        hours
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center fc-black-500 fs-body3 px32 py8 mb0 mt0 sm:pl0 sm:pr0">
+       <dt class="fl1">
+        Typical time it takes to get a new employee up to speed (number of weeks)
+       </dt>
+       <dd>
+        <input class="js-calc-input fs-body2 py6 p-ff-roboto-slab s-input s-input__sm w80 ml-auto wmx1" id="time-onboarding" min="0" name="time-onboarding" type="number" value="6"/>
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center fc-black-500 fs-body3 px32 py8 mb0 mt0 sm:pl0 sm:pr0">
+       <dt class="fl1">
+        Number of employees who support onboarding new hires
+       </dt>
+       <dd>
+        <input class="js-calc-input fs-body2 py6 p-ff-roboto-slab s-input s-input__sm w80 ml-auto wmx1" id="time-employees" min="0" name="time-employees" type="number" value="12"/>
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center fc-black-500 fs-body3 px32 py8 mb0 mt0 sm:pl0 sm:pr0">
+       <dt class="fl1">
+        Estimated hours per week employees are supporting new hires
+       </dt>
+       <dd class="ps-relative">
+        <input class="js-calc-input fs-body2 py6 p-ff-roboto-slab s-input s-input__sm w80 ml-auto wmx1" id="time-support" min="0" name="time-support" type="number" value="4"/>
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center fc-black-500 fs-body3 px32 py8 mb0 mt0 sm:pl0 sm:pr0">
+       <dt class="fl1">
+        Estimated reduction in time to onboard
+       </dt>
+       <dd class="ps-relative">
+        <input class="js-calc-input fs-body2 py6 p-ff-roboto-slab s-input s-input__sm w80 ml-auto wmx1" disabled="disabled" id="time-percentage" min="0" name="time-percentage" type="number" value="85"/>
+        <span class="ps-absolute pl4">
+         %
+        </span>
+       </dd>
+      </dl>
+     </div>
+     <div class="js-calculator d-none" id="productivity">
+      <dl class="d-flex ai-center bg-white bar-lg bs-sm px32 py24 fs-subheading p-ff-roboto-slab mb0 mt0">
+       <dt class="fl1">
+        Development time gained per week for each Subject Matter Expert
+       </dt>
+       <dd class="ws-nowrap bg-highlight">
+        <span id="productivity-gained">
+         22.67
+        </span>
+        hours
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center bg-white bar-lg bs-sm px32 py24 fs-subheading p-ff-roboto-slab mb0 mt0 mb24 bt bc-powder-100">
+       <dt class="fl1">
+        Increase in development time for Subject Matter Experts
+       </dt>
+       <dd class="ws-nowrap bg-highlight">
+        <span id="productivity-devtime">
+         28.33
+        </span>
+        %
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center fc-black-500 fs-body3 px32 py8 mb0 mt0 sm:pl0 sm:pr0">
+       <dt class="fl1">
+        Average time it takes to answer a question (minutes)
+       </dt>
+       <dd>
+        <input class="js-calc-input fs-body2 py6 p-ff-roboto-slab s-input s-input__sm w80 ml-auto wmx1" id="productivity-time" min="0" name="productivity-time" type="number" value="20"/>
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center fc-black-500 fs-body3 px32 py8 mb0 mt0 sm:pl0 sm:pr0">
+       <dt class="fl1">
+        Average number of questions from new hires per day
+       </dt>
+       <dd>
+        <input class="js-calc-input fs-body2 py6 p-ff-roboto-slab s-input s-input__sm w80 ml-auto wmx1" id="productivity-questions" min="0" name="productivity-questions" type="number" value="8"/>
+       </dd>
+      </dl>
+      <dl class="d-flex ai-center fc-black-500 fs-body3 px32 py8 mb0 mt0 sm:pl0 sm:pr0">
+       <dt class="fl1">
+        Estimated reduction in number of questions asked with a knowledge sharing platform
+       </dt>
+       <dd class="ps-relative">
+        <input class="js-calc-input fs-body2 py6 p-ff-roboto-slab s-input s-input__sm w80 ml-auto wmx1" disabled="disabled" id="productivity-percentage" min="0" name="productivity-percentage" type="number" value="85"/>
+        <span class="ps-absolute pl4">
+         %
+        </span>
+       </dd>
+      </dl>
+     </div>
+    </div>
+    <div class="p64 sm:p32 ta-center">
+     <h2 class="fw-normal p-ff-roboto-slab p-fc-purple fs-headline1">
+      Email me the copy of ROI Calculator
+     </h2>
+     <p class="fs-body2 fc-black-500 mb32">
+      Enter your information for your customized ROI data to share with your colleagues.
+     </p>
+     <div class="ba bc-black-075 bar-lg sm:bar0 p32 wmx5 mx-auto ps-sticky tn12">
+      <script src="//info.stackoverflowsolutions.com/js/forms2/js/forms2.min.js">
+      </script>
+      <form class="js-form-style-light" id="mktoForm_1191">
+      </form>
+      <script>
+       MktoForms2.loadForm("https://app-sj28.marketo.com","719-EMH-566",1191,function(t){t.onSuccess(function(t,o){return!(location.href="https://info.stackoverflowsolutions.com/Teams-ROI-Calculator-Attract-and-Retain-Talent_Contact-Link-Mrkt-Contact-Confirmation-Page.html")})})
+      </script>
+     </div>
+    </div>
+   </main>
+   <div class="d-flex p-wrapper py32 mx-auto fc-black-400">
+    <svg aria-hidden="true" class="svg-icon iconInfoSm fl-shrink0 va-middle mr8" height="14" viewbox="0 0 14 14" width="14">
+     <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z">
+     </path>
+    </svg>
+    <div>
+     ROI calculators are estimated based on industry statistics and The Total Economic Impact of Stack Overflow for Teams, a Forrester Total Economic Impact Study. The general accuracy of the estimate generated from the calculator will depend on how closely the inputs match your actual circumstances. The actual economic results realized as a result of a purchase Stack Overflow for Teams will vary and there is no guarantee that you will actually realize the economic results forecast by the calculator. Any estimate generated by the tool is not a promise of or contract for a given level of ROI or productivity gains.
+    </div>
+   </div>
+   <footer class="p-wrapper bar0 mx-auto pt48 pb64 fs-body2 overflow-hidden print:d-none">
+    <div class="d-flex sm:fd-column flex__fl-equal gs64">
+     <div class="flex--item">
+      <svg aria-hidden="true" class="svg-icon iconLogoGlyphMd native" height="37" viewbox="0 0 32 37" width="32">
+       <path d="M26 33v-9h4v13H0V24h4v9h22Z" fill="#BCBBBB">
+       </path>
+       <path d="m21.5 0-2.7 2 9.9 13.3 2.7-2L21.5 0ZM26 18.4 13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5ZM9.1 15.2l15 7 1.4-3-15-7-1.4 3Zm14 10.79.68-2.95-16.1-3.35L7 23l16.1 2.99ZM23 30H7v-3h16v3Z" fill="#F48024">
+       </path>
+      </svg>
+     </div>
+     <div class="flex--item">
+      <h3 class="tt-uppercase fs-body2 fc-black-600">
+       Stack Overflow
+      </h3>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.com/questions">
+       Questions
+      </a>
+     </div>
+     <div class="flex--item">
+      <h3 class="tt-uppercase fs-body2 fc-black-600">
+       Products
+      </h3>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.co/teams">
+       Teams
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.co/advertising">
+       Advertising
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.co/collectives">
+       Collectives
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.co/talent">
+       Talent
+      </a>
+     </div>
+     <div class="flex--item">
+      <h3 class="tt-uppercase fs-body2 fc-black-600">
+       Company
+      </h3>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.com/company/about">
+       About
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.com/company/press">
+       Press
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.com/company/work-here">
+       Work Here
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.com/legal">
+       Legal
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.com/legal/privacy-policy">
+       Privacy Policy
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.com/company/contact">
+       Contact Us
+      </a>
+     </div>
+     <div class="flex--item">
+      <h3 class="tt-uppercase fs-body2 fc-black-600">
+       Channels
+      </h3>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.blog/podcast">
+       Podcast
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://stackoverflow.blog/newsletter">
+       Newsletter
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://www.facebook.com/officialstackoverflow/">
+       Facebook
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://twitter.com/stackoverflow">
+       Twitter
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://linkedin.com/company/stack-overflow">
+       LinkedIn
+      </a>
+      <a class="fc-black-400 h:fc-black-750 py2 d-block" href="https://www.instagram.com/thestackoverflow/">
+       Instagram
+      </a>
+     </div>
+    </div>
+   </footer>
+   <aside aria-describedby="modal-description" aria-hidden="true" aria-labelledby="modal-title" class="s-modal js-modal-overlay js-modal-close" id="js-youtube-modal" role="dialog" tabindex="-1">
+    <div class="s-modal--dialog p0 wmx10 w90 overflow-visible bg-transparent" role="document">
+     <div class="p-player ps-relative w100 h0 bar-lg overflow-hidden" id="js-youtube-framer">
+     </div>
+     <a aria-label="Close" class="s-modal--close s-btn bg-orange-400 h:bg-orange-500 fc-white ps-absolute tn48 rn48 sm:mr48" href="#" id="js-youtube-close">
+      <svg aria-hidden="true" class="svg-icon iconClearSm" height="14" viewbox="0 0 14 14" width="14">
+       <path d="M12 3.41 10.59 2 7 5.59 3.41 2 2 3.41 5.59 7 2 10.59 3.41 12 7 8.41 10.59 12 12 10.59 8.41 7 12 3.41Z">
+       </path>
+      </svg>
+     </a>
+    </div>
+   </aside>
+   <script>
+    _linkedin_partner_id="19337",window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[],window._linkedin_data_partner_ids.push(_linkedin_partner_id),function(){var e=document.getElementsByTagName("script")[0],i=document.createElement("script");i.type="text/javascript",i.async=!0,i.src="https://snap.licdn.com/li.lms-analytics/insight.min.js",e.parentNode.insertBefore(i,e)}();var bust=Math.floor(1e14*Math.random()),img=document.createElement("img");img.src="https://www.googleadservices.com/pagead/conversion/961466557/?guid=ON&script=0&random="+bust+"&url="+encodeURI(window.location.href),img.width=0,img.height=0,img.border=0,img.style="display:none",document.body.appendChild(img)
+   </script>
+   <noscript>
+    <img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=1192068&amp;fmt=gif" style="display:none" width="1"/>
+    <img alt="" height="1" src="https://px.ads.linkedin.com/collect/?pid=19337&amp;fmt=gif" style="display:none" width="1"/>
+   </noscript>
+   <script>
+    var calcs=document.querySelectorAll(".js-calculator"),calcsNav=document.querySelectorAll(".s-navigation--item");function changeCalc(e){var t=(e||window.location.hash).replace("#",""),e=document.querySelector('a[href="#'+t+'"]'),t=document.getElementById(t);t&&(resetCalcNav(),e.classList.add("is-selected"),t.classList.remove("d-none"))}function resetCalcNav(){for(var e,t=0;e=calcs[t];t++)e.classList.add("d-none");for(var l,t=0;l=calcsNav[t];t++)l.classList.remove("is-selected")}for(var nav,i=0;nav=calcsNav[i];i++)nav.addEventListener("click",function(e){e.preventDefault();e=e.target.getAttribute("href");window.history.pushState?window.history.pushState(null,null,e):location.hash=e,changeCalc(e)});changeCalc();var formatCost=new Intl.NumberFormat("en-US",{style:"currency",currency:"USD"});function updateQs(e){var t,l=new URLSearchParams;for(t in e)l.set(t,e[t]);var i="?"+l.toString();window.history.replaceState({},document.title,i+window.location.hash);i=document.querySelector('input[name="teamsROIReportURL"]');i&&(i.value=window.location.href)}function getFieldValues(e){for(var t,l={},i={},a=document.querySelectorAll(".js-calc-input"),r=0;t=a[r];r++){var n=parseInt(document.getElementById(t.id).value)||0;l[t.id]=n,t.disabled||(i[t.id]=n)}return e&&e.target&&updateQs(i),l}function updateFieldsFromQs(){var e;for(e of new URLSearchParams(window.location.search)){var t=document.getElementById(e[0]);t&&!t.disabled&&(document.getElementById(e[0]).value=e[1])}}updateFieldsFromQs();var revImpactFields=document.querySelectorAll("#revenue .js-calc-input"),revTimeLost=document.getElementById("rev-time-lost"),revTtmValue=document.getElementById("rev-ttm-value");if(revTtmValue){function caclRevImpact(e){var t=getFieldValues(e),l=t["rev-est-interruptions"]*t["rev-num-employees"]*t["rev-min-refocus"]/60,e=8*t["rev-num-employees"],e=t["rev-est-ttm"]*(l/e),t=t["rev-av-revenue"]/261;revTtmValue.innerHTML=formatCost.format(Math.floor(e*t)).replace(".00",""),revTimeLost.innerHTML=Math.ceil(l)||0}caclRevImpact();for(i=0;field=revImpactFields[i];i++)field.addEventListener("input",caclRevImpact)}var timeImpactFields=document.querySelectorAll("#time .js-calc-input"),timeLost=document.getElementById("time-hours-lost"),timeTtmValue=document.getElementById("time-ttm-value"),timeSpeed=document.getElementById("time-speed");if(timeSpeed){function cacltimeImpact(e){var t=getFieldValues(e),l=8*t["time-est-ttm"],e=t["time-min-refocus"]/60*t["time-est-interruptions"]/8*l,l=e/l;timeLost.innerHTML=parseFloat(e*t["time-num-employees"]).toFixed(0)||0,timeTtmValue.innerHTML=parseFloat(t["time-est-ttm"]*l).toFixed(1)||0,timeSpeed.innerHTML=Math.ceil(100*l)||0}cacltimeImpact(!0);for(i=0;field=timeImpactFields[i];i++)field.addEventListener("input",cacltimeImpact)}var costsFields=document.querySelectorAll("#costs .js-calc-input"),costsLost=document.getElementById("costs-lost"),costsSavings=document.getElementById("costs-savings");if(costsLost){function caclCostSavings(e){var t=getFieldValues(e),e=t["costs-employees"]*t["costs-est-interruptions"]*t["costs-min-refocus"]/60,t=t["costs-est-ttm"]*(t["costs-salary"]/2080)*e;costsLost.innerHTML=Math.ceil(e),costsSavings.innerHTML=formatCost.format(Math.floor(t)).replace(".00","")}caclCostSavings(!0);for(i=0;field=costsFields[i];i++)field.addEventListener("input",caclCostSavings)}var timeFields=document.querySelectorAll("#time .js-calc-input"),timeOnboarded=document.getElementById("time-onboarded"),timeSaved=document.getElementById("time-saved");if(timeSaved){function timeCosts(e){e=getFieldValues(e);timeOnboarded.innerHTML=parseFloat(e["time-onboarding"]-e["time-percentage"]/100*e["time-onboarding"]).toFixed(1),timeSaved.innerHTML=parseFloat(e["time-support"]*e["time-employees"]*e["time-onboarding"])}timeCosts();for(i=0;field=timeFields[i];i++)field.addEventListener("input",timeCosts)}var productivityFields=document.querySelectorAll("#productivity .js-calc-input"),productivityGained=document.getElementById("productivity-gained"),productivityDevtime=document.getElementById("productivity-devtime");if(productivityDevtime){function productivityCosts(e){e=getFieldValues(e),e=e["productivity-questions"]*(e["productivity-percentage"]/100)*e["productivity-time"]*10/60;productivityGained.innerHTML=parseFloat(e).toFixed(2),productivityDevtime.innerHTML=parseFloat(e/80*100).toFixed(2)}productivityCosts();for(i=0;field=productivityFields[i];i++)field.addEventListener("input",productivityCosts)}var ticketsFields=document.querySelectorAll("#tickets .js-calc-input"),ticketsL1Saved=document.getElementById("l1-savings"),ticketsL2Saved=document.getElementById("l2-savings"),ticketsL3Saved=document.getElementById("l3-savings"),ticketsHSaved=document.getElementById("h-savings"),ticketsL1SavedYear=document.getElementById("l1-savings-year"),ticketsL2SavedYear=document.getElementById("l2-savings-year"),ticketsL3SavedYear=document.getElementById("l3-savings-year"),ticketsHSavedYear=document.getElementById("h-savings-year"),ticketsTotalSavings=document.getElementById("total-savings"),ticketsL1Increase=document.getElementById("l1-increase"),ticketsL2Increase=document.getElementById("l2-increase"),ticketsL3Increase=document.getElementById("l3-increase"),ticketsHIncrease=document.getElementById("h-increase"),ticketsL1Yearly=document.getElementById("l1-yearly"),ticketsL2Yearly=document.getElementById("l2-yearly"),ticketsL3Yearly=document.getElementById("l3-yearly"),ticketsHYearly=document.getElementById("h-yearly"),ticketsTotalYearly=document.getElementById("total-yearly");if(ticketsTotalYearly){function ticketsSaved(e){var t=getFieldValues(e),l=252,i=t.l1r/100*(t["av-tickets"]*t.l1t/100)*t.l1c*t.employees,a=t.l2r/100*(t["av-tickets"]*t.l2t/100)*t.l2c*t.employees,r=t.l3r/100*(t["av-tickets"]*t.l3t/100)*t.l3c*t.employees,e=t.hr/100*(t["av-tickets"]*t.ht/100)*t.hc*t.employees;ticketsL1Saved.innerHTML=formatCost.format(Math.floor(i)).replace(".00",""),ticketsL2Saved.innerHTML=formatCost.format(Math.floor(a)).replace(".00",""),ticketsL3Saved.innerHTML=formatCost.format(Math.floor(r)).replace(".00",""),ticketsHSaved.innerHTML=formatCost.format(Math.floor(e)).replace(".00",""),ticketsL1SavedYear.innerHTML=formatCost.format(Math.floor(i*l)).replace(".00",""),ticketsL2SavedYear.innerHTML=formatCost.format(Math.floor(a*l)).replace(".00",""),ticketsL3SavedYear.innerHTML=formatCost.format(Math.floor(r*l)).replace(".00",""),ticketsHSavedYear.innerHTML=formatCost.format(Math.floor(e*l)).replace(".00",""),ticketsTotalSavings.innerHTML=formatCost.format(Math.floor((i+a+r+e)*l)).replace(".00","");a=t["av-tickets"]*t.l1t/100*t.l1r/100,r=t["av-tickets"]*t.l2t/100*t.l2r/100,e=t["av-tickets"]*t.l3t/100*t.l3r/100,t=t["av-tickets"]*t.ht/100*t.hr/100;ticketsL1Increase.innerHTML=parseFloat(a).toFixed(1),ticketsL2Increase.innerHTML=parseFloat(r).toFixed(1),ticketsL3Increase.innerHTML=parseFloat(e).toFixed(2),ticketsHIncrease.innerHTML=parseFloat(t).toFixed(2),ticketsL1Yearly.innerHTML=Math.floor(a*l),ticketsL2Yearly.innerHTML=Math.floor(r*l),ticketsL3Yearly.innerHTML=Math.floor(e*l),ticketsHYearly.innerHTML=Math.floor(t*l),ticketsTotalYearly.innerHTML=Math.floor((a+r+e+t)*l)}ticketsSaved();for(i=0;field=ticketsFields[i];i++)field.addEventListener("input",ticketsSaved)}var billableFields=document.querySelectorAll("#billable .js-calc-input"),billableCurrentRev=document.getElementById("billable-current-rev"),billableEstRev=document.getElementById("billable-est-rev"),billableCurrentUnbillable=document.getElementById("billable-current-unbillable"),billableCurrentRevCost=document.getElementById("billable-current-rev-cost"),billableReduction=document.getElementById("billable-reduction"),billableEst=document.getElementById("billable-est"),billableIncrease=document.getElementById("billable-increase");if(billableCurrentRev){function billableCosts(e){var t=getFieldValues(e),l=2016*t["billable-rate"]*t["billable-employees"],i=8*t["billable-costs"]*t["billable-time"]*t["billable-employees"],a=l-i,r=t["billable-time"]*(1-t["billable-reduced"]/100)*(8*t["billable-costs"])*t["billable-employees"],n=l-r,e=(n-a)/a*100,t=e/100*l+l;billableCurrentRev.innerHTML=formatCost.format(Math.floor(l)).replace(".00",""),billableEstRev.innerHTML=formatCost.format(t).replace(".00",""),billableCurrentUnbillable.innerHTML=formatCost.format(Math.floor(i)).replace(".00",""),billableCurrentRevCost.innerHTML=formatCost.format(Math.floor(a)).replace(".00",""),billableReduction.innerHTML=formatCost.format(Math.floor(r)).replace(".00",""),billableEst.innerHTML=formatCost.format(Math.floor(n)).replace(".00",""),billableIncrease.innerHTML=parseFloat(e).toFixed(0)}billableCosts();for(var field,i=0;field=billableFields[i];i++)field.addEventListener("input",billableCosts)}
+   </script>
+  </div>
+ </body>
+</html>

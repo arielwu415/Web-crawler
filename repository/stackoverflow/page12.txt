@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   My Account - Help Center - Stack Overflow
+   Legendary - Badge - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/account" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/badges/146/legendary?userid=19563" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="My Account - Help Center" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Legendary - Badge" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1651798596,"routeName":"Help/SlugRouter","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"603fc82ed512f36797a653b8440441f96bf8312bb903e32df81215b0a55af97b","tid":"284ce501-5360-b527-5cf4-14ef587312c7","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"satisfaction_survey_anon":{"v":"anon","g":2},"hot_questions_sidebar":{"v":"signupoptincopy","g":3}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1651823928,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"37d6807637ae49187206ad27e0f8979fa8f01ab1af7600e3b824e20b7ab9b054","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"satisfaction_survey_anon":{"v":"anon","g":2},"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -52,7 +52,7 @@
    </noscript>
   </meta>
  </head>
- <body class="faq-page unified-theme">
+ <body class="badges-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2faccount">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f146%2flegendary%3fuserid%3d19563">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2faccount">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f146%2flegendary%3fuserid%3d19563">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2faccount" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f146%2flegendary%3fuserid%3d19563" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2faccount" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f146%2flegendary%3fuserid%3d19563" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -496,103 +496,114 @@
          <a class="s-breadcrumbs--link" href="/help">
           Help center
          </a>
+         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
+          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
+          </path>
+         </svg>
+        </div>
+        <div class="s-breadcrumbs--item">
+         <a class="s-breadcrumbs--link" href="/help/badges">
+          Badges
+         </a>
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        My Account
+        Legendary
        </h1>
       </div>
      </div>
-     <div class="help-center">
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/merging-accounts">
-         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-          </path>
-         </svg>
-         I accidentally created two accounts; how do I merge them?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/edit-credentials">
-         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-          </path>
-         </svg>
-         How do I add or remove login credentials from my account?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/reset-password">
-         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-          </path>
-         </svg>
-         I lost my password; how do I reset it?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/deleting-account">
-         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-          </path>
-         </svg>
-         How do I delete my account?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/abuse-block">
-         Why has my post been blocked due to "spam and abuse from my network"?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/licensing">
-         What is the license for the content I post?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/security-reports">
-         How do I report a possible security vulnerability?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/question-limited">
-         Why have I been limited to one question per week?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/creating-accounts">
-         How do I create an account?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/why-register">
-         Why should I create an account?
-        </a>
-       </p>
+     <div class="single-badge-table">
+      <div class="single-badge-header">
+       <div class="single-badge-wrapper">
+        <div class="single-badge-badge">
+         <a class="badge" href="/help/badges/146/legendary" title="gold badge: Earn 200 daily reputation 150 times">
+          <span class="badge1">
+          </span>
+          Legendary
+         </a>
+        </div>
+        <div class="single-badge-title">
+         Earn 200 daily reputation 150 times.
+        </div>
+       </div>
+       <div class="single-badge-count">
+        <div class="user-info user-hover">
+         <div class="user-action-time">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/19563/cb-bailey">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/a8db27c91db97757a829c7971fd62b84?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/19563/cb-bailey">
+           CB Bailey
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 696,030">
+            696k
+           </span>
+           <span aria-hidden="true" title="99 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             99
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            99 gold badges
+           </span>
+           <span aria-hidden="true" title="619 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             619
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            619 silver badges
+           </span>
+           <span aria-hidden="true" title="646 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             646
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            646 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+        <br/>
+        earned this badge 1 time.
+       </div>
       </div>
      </div>
+     <div class="single-badge-table">
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2012-01-11 21:17:25Z">
+         Jan 11, 2012 at 21:17
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+     </div>
+     <div class="s-pagination site1 themed pager float-left">
+     </div>
+     <p style="padding-top: 2em;">
+      <a href="/help/badges/146/legendary">
+       Others with this badge
+      </a>
+     </p>
     </div>
-    <div class="help-center" id="sidebar">
+    <div class="faq-page" id="sidebar">
      <nav class="s-sidebarwidget mb24" id="toc">
       <ul class="s-sidebarwidget--content s-sidebarwidget__items">
        <li class="s-sidebarwidget--item">
@@ -606,7 +617,7 @@
         </a>
        </li>
        <li class="s-sidebarwidget--item">
-        <a aria-current="false" href="/help/badges">
+        <a aria-current="page" href="/help/badges">
          Badges
         </a>
        </li>
@@ -625,62 +636,10 @@
          Answering
         </a>
        </li>
-       <li class="s-sidebarwidget--item d-block">
-        <a aria-current="true" href="/help/account">
+       <li class="s-sidebarwidget--item">
+        <a href="/help/account">
          My Account
         </a>
-        <ul class="s-sidebarwidget--subnav ml8">
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/merging-accounts">
-           I accidentally created two accounts; how do I merge them?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/edit-credentials">
-           How do I add or remove login credentials from my account?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/reset-password">
-           I lost my password; how do I reset it?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/deleting-account">
-           How do I delete my account?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/abuse-block">
-           Why has my post been blocked due to "spam and abuse from my network"?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/licensing">
-           What is the license for the content I post?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/security-reports">
-           How do I report a possible security vulnerability?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/question-limited">
-           Why have I been limited to one question per week?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/creating-accounts">
-           How do I create an account?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/why-register">
-           Why should I create an account?
-          </a>
-         </li>
-        </ul>
        </li>
        <li class="s-sidebarwidget--item">
         <a href="/help/review-queues">
