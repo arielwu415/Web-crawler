@@ -113,9 +113,8 @@ def crawler_bot(seeds, max_pages):
                     urls.extend(outlinks)
                     urls = list(set(urls))
                     
-                neighbors.extend(set(outlinks))
-                edges.append(neighbors)
-                    
+                    neighbors.extend(set(outlinks))
+                    edges.append(neighbors)
 
             index += 1
 
@@ -144,7 +143,7 @@ def make_request(sesh, url):
 def build_session():
     session = requests.Session()
     # This helps ease off the servers we are crawling by waiting between subsequent requests
-    retry = Retry(connect=3, backoff_factor=1.7)
+    retry = Retry(connect=3, backoff_factor=2)
     adapter = HTTPAdapter(max_retries=retry)
     # This will only request urls with https
     session.mount('https://', adapter)
