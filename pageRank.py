@@ -14,7 +14,7 @@ def create_edge_list(url_nodes):
         filename = "edge_list{}.csv".format(index)
         for nodes in node_set:
             for i in range(len(nodes)):
-                with open(filename, 'a', newline='') as report:
+                with open(filename, 'a', newline='', encoding="utf-8") as report:
                     _writer = csv.writer(report)
                     _writer.writerow([nodes[0], nodes[i]])
 
