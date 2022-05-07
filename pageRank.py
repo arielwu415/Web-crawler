@@ -22,12 +22,11 @@ def create_edge_list(seed_edges):
                     _writer = csv.writer(csvfile)
                     _writer.writerow([center_node, neighbors[i]])
 
-lst = [[["hello", "world", "I", "hate", "you"], ["I", "hate", "this", "too"], ["work", "harder"]]]
-create_edge_list(lst)
 
 # read edge_list file and create a graph G
-with open("edge_list1.csv", "rb") as edges:
+with open("edge_list2.csv", "rb") as edges:
     G = nx.read_edgelist(edges, delimiter=",", encoding="utf-8")
     
 # make an adjacency matrix
 A = nx.adjacency_matrix(G)
+print(nx.info(G))
