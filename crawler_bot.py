@@ -57,14 +57,18 @@ def crawler_bot(seeds, max_pages):
         
         # professor wants us to go 500 to 1000 pages deep, with an absolute minimum of 100
         visited_pages = 0
-
+        
+        # create pageID dictionary to store url as a key and ID as a value
+        # eg. {"https://www.stackoverflow.com": "page1"
+        #       "https://www.stackoverflow.com/teams/pricing": "page2"}
+        pageID = {}
+        
         # iterate through the urls list
         # it constantly increases size (StackOverFlow says not to alter iterables when looping over them)
         index = 0
-
+        
         while visited_pages < max_pages:
             url = urls[index]
-            neighbors = [url]
             
             # if page can be crawled
             if robot.can_fetch("*", url):
@@ -84,6 +88,9 @@ def crawler_bot(seeds, max_pages):
                         continue
 
                 visited_pages += 1
+                neighbors = [url]
+                
+                pageID[url] = "page{}".format(visited_pages)
                 
                 # download current page and save to appropriate folder
                 write_to_repository(folder, "page{}.txt".format(visited_pages), soup.prettify())
@@ -113,9 +120,8 @@ def crawler_bot(seeds, max_pages):
                     urls.extend(outlinks)
                     urls = list(set(urls))
                     
-                neighbors.extend(set(outlinks))
-                edges.append(neighbors)
-                    
+                    neighbors.extend(outlinks)
+                    edges.append(neighbors)
 
             index += 1
 
@@ -123,11 +129,12 @@ def crawler_bot(seeds, max_pages):
             if index >= len(urls):
                 break
         write_to_domain_count(word_count_filename, domain_word_count_filename)
-            
-        # go to the next seed
-        lang_index += 1
         
-        seed_edges.append(edges)
+        lang_index += 1
+        edges_ID = [[pageID[link] for link in links if link in pageID] for links in edges]
+        
+        # go to the next seed
+        seed_edges.append(edges_ID)
         
     return seed_edges
 
@@ -144,7 +151,7 @@ def make_request(sesh, url):
 def build_session():
     session = requests.Session()
     # This helps ease off the servers we are crawling by waiting between subsequent requests
-    retry = Retry(connect=3, backoff_factor=1.7)
+    retry = Retry(connect=5, backoff_factor=5)
     adapter = HTTPAdapter(max_retries=retry)
     # This will only request urls with https
     session.mount('https://', adapter)
