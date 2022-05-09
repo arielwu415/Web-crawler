@@ -32,14 +32,14 @@ class Index:
                                     self.file_index[word].append((f"doc{index}", 1))
                                 else:
                                     self.file_index[word].remove(output[0])
-                                    self.file_index[word].append((f"doc{index}", output[0][1]))
+                                    self.file_index[word].append((f"doc{index}", output[0][1] + 1))
                 self.documents_count = index
 
         with open('index.pkl', 'wb') as f:
             pickle.dump(self.file_index, f)
 
     def load_index(self, name):
-        """ load index if it exists"""
+        """ load index if it exists """
         try:
             with open(name, 'rb') as f:
                 self.file_index = pickle.load(f)
