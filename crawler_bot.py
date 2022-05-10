@@ -73,7 +73,7 @@ def crawler_bot(seeds, max_pages):
             # if page can be crawled
             if robot.can_fetch("*", url):
 
-                soup = make_request(session, url)
+                soup = make_request(session, url)  # soup can be null, case might not be properly handled
                 
                 lang = detect_language(soup)
                 if index == 0:
@@ -117,8 +117,8 @@ def crawler_bot(seeds, max_pages):
                 # add new links at the end of urls list, as we will eventually scrape them as well
                 # only if our list does not have more urls than max_pages
                 if len(urls) < max_pages:
-                    urls.extend(outlinks)
-                    urls = list(set(urls))
+                    unique = [link for link in outlinks if link not in urls]
+                    urls.extend(unique)
                     
                     neighbors.extend(outlinks)
                     edges.append(neighbors)
@@ -128,6 +128,7 @@ def crawler_bot(seeds, max_pages):
             # If we go through here, the domain might not have any more outlinks and we've visited all pages
             if index >= len(urls):
                 break
+        breakpoint()
         write_to_domain_count(word_count_filename, domain_word_count_filename)
         
         lang_index += 1
@@ -140,11 +141,16 @@ def crawler_bot(seeds, max_pages):
 
 
 def make_request(sesh, url):
+    soup = None
     # headers are required for certain websites
-    source_code = sesh.get(url, headers={'User-Agent': 'test_spider'})
-    html_text = source_code.text
-    source_code.close()
-    soup = BeautifulSoup(html_text, features="html.parser")
+    try:
+        source_code = sesh.get(url, headers={'User-Agent': 'test_spider'})
+
+        html_text = source_code.text
+        source_code.close()
+        soup = BeautifulSoup(html_text, features="html.parser")
+    except:
+        print("Error in make_request")
     return soup
 
 

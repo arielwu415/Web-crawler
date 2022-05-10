@@ -91,5 +91,3 @@ print(SE.search())
 index.create_index("wordcount3.csv")
 SE = SearchEngine(index)
 print(SE.search())
-
-

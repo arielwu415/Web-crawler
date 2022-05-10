@@ -3,6 +3,6 @@ from pageRank import *
 
 links = ["https://www.stackoverflow.com", "https://www.lemonde.fr", "https://www.wconcept.co.kr"]
 
-seed_edges = crawler_bot(links, 600)
+seed_edges = crawler_bot(links, 100)
 
 create_edge_list(seed_edges)

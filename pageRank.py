@@ -8,6 +8,7 @@ import csv
 import networkx as nx
 from outlinks_count import clear_report_file
 
+
 def create_edge_list(seed_edges):
     index = 0
     for node_sets in seed_edges:
