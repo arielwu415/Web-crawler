@@ -21,44 +21,41 @@
   <meta charset="utf-8"/>
   <meta content="width=1440" name="viewport"/>
   <meta content="유니크 디자이너 편집샵 W컨셉! 단독, 콜라보 상품, 기획특가, 신규회원 10%" name="description"/>
-  <meta content="eyo18xnzIK2sEwN8BXCFe2NmDc7fcWsKEmRnGivTbvY" name="google-site-verification">
-   <meta content="y9QctAqewrRODBILHv-dekFRAuq-GFshH_LTfR2xLP8" name="google-site-verification">
-    <meta content="am3129bbk8ltms7h0yhojano599msw" name="facebook-domain-verification">
-     <link href="//static.wconcept.co.kr/favicon.ico" rel="shortcut icon" sizes="16x16" type="image/x-icon"/>
-     <link href="//static.wconcept.co.kr/favicon.ico" rel="icon" sizes="16x16" type="image/x-icon"/>
-     <link href="//static.wconcept.co.kr/web/css/wconcept.desktop.min.css?v=0d4c6b93797b4aaf8a6bf671e7951531" rel="stylesheet"/>
-     <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.min.js?v=0d4c6b93797b4aaf8a6bf671e7951531">
-     </script>
-     <meta content="유니크 디자이너 편집샵 W컨셉! 단독, 콜라보 상품, 기획특가, 신규회원 10%" name="description"/>
-     <meta content="" name="title" property="og:title">
-      <meta content="website" property="og:type">
-       <meta content="WCONCEPT" property="og:site_name"/>
-       <meta content="" property="fb:app_id"/>
-       <meta content="" name="shareurl" property="og:url"/>
-       <meta content="" name="keyword" property="og:description"/>
-       <meta content="" name="mainimage" property="og:image"/>
-       <link href="/assets/css/event_AppDn.css" rel="stylesheet"/>
-       <!-- 카카오비즈보드 PV 트래킹 -->
-       <script charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js" type="text/javascript">
-       </script>
-       <script type="text/javascript">
-        kakaoPixel('4785664593446063564').pageView();
-       </script>
-       <!-- End 카카오비즈보드 PV 트래킹 -->
-       <!-- Google Ads -->
-       <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-856703668">
-       </script>
-       <script>
-        window.dataLayer = window.dataLayer || [];
+  <meta content="website" property="og:type"/>
+  <meta content="W Concept" property="og:title"/>
+  <meta content="W Concept" property="og:site_name">
+   <meta content="유니크 디자이너 편집샵 W컨셉! 단독, 콜라보 상품, 기획특가, 신규회원 10%" property="og:description"/>
+   <meta content="//static.wconcept.co.kr/favicon/touch-icon-ipad-retina.png" property="og:image"/>
+   <meta content="https://www.wconcept.co.kr" property="og:url"/>
+   <meta content="eyo18xnzIK2sEwN8BXCFe2NmDc7fcWsKEmRnGivTbvY" name="google-site-verification">
+    <meta content="y9QctAqewrRODBILHv-dekFRAuq-GFshH_LTfR2xLP8" name="google-site-verification">
+     <meta content="am3129bbk8ltms7h0yhojano599msw" name="facebook-domain-verification">
+      <link href="//static.wconcept.co.kr/favicon.ico" rel="shortcut icon" sizes="16x16" type="image/x-icon"/>
+      <link href="//static.wconcept.co.kr/favicon.ico" rel="icon" sizes="16x16" type="image/x-icon"/>
+      <link href="//static.wconcept.co.kr/web/css/wconcept.desktop.min.css?v=3a63d18532184aa5a20eb00b6842de83" rel="stylesheet"/>
+      <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.min.js?v=3a63d18532184aa5a20eb00b6842de83">
+      </script>
+      <!-- 카카오비즈보드 PV 트래킹 -->
+      <script charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js" type="text/javascript">
+      </script>
+      <script type="text/javascript">
+       kakaoPixel('4785664593446063564').pageView();
+      </script>
+      <!-- End 카카오비즈보드 PV 트래킹 -->
+      <!-- Google Ads -->
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-856703668">
+      </script>
+      <script>
+       window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'AW-856703668');
-       </script>
-       <!-- End Google Ads -->
-       <!--마케팅로그:Head:구글 GA//-->
-       <script type="text/javascript">
-        try {
+      </script>
+      <!-- End Google Ads -->
+      <!--마케팅로그:Head:구글 GA//-->
+      <script type="text/javascript">
+       try {
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                     (i[r].q = i[r].q || []).push(arguments)
@@ -73,32 +70,32 @@
             ga('send', 'pageview');
             ga('require', 'ec');
         } catch (e) { }
-       </script>
-       <!--//마케팅로그:Head:구글 GA-->
-       <!--마케팅로그:Head:페이스북//-->
-       <script type="text/javascript">
-        try {
+      </script>
+      <!--//마케팅로그:Head:구글 GA-->
+      <!--마케팅로그:Head:페이스북//-->
+      <script type="text/javascript">
+       try {
             !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', '//connect.facebook.net/en_US/fbevents.js');
             fbq('init', '602779483174145');
             fbq('track', "PageView");
         } catch (e) { }
-       </script>
-       <noscript>
-        <img height="1" src="https://www.facebook.com/tr?id=602779483174145&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/>
-       </noscript>
-       <!--//마케팅로그:Head:페이스북-->
-       <script src="/assets/js/wck.braze.js">
-       </script>
-       <script src="/assets/js/WiseTrackerTaggingClickEventAssembler.js">
-       </script>
-       <script>
-        WCKHistory = new WCKHistory();
+      </script>
+      <noscript>
+       <img height="1" src="https://www.facebook.com/tr?id=602779483174145&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/>
+      </noscript>
+      <!--//마케팅로그:Head:페이스북-->
+      <script src="/assets/js/wck.braze.js">
+      </script>
+      <script src="/assets/js/WiseTrackerTaggingClickEventAssembler.js">
+      </script>
+      <script>
+       WCKHistory = new WCKHistory();
         var WCKBraze = new WCKBraze();
-       </script>
-       <!-- Braze Script 위치 이동 특정 페이지에서 appboy호출 못하는 문제가 있음.-->
-       <!-- 마케팅로그:Braze-Appboy-->
-       <script type="text/javascript">
-        +function (a, p, P, b, y) { appboy = {}; appboyQueue = []; for (var s = "initialize destroy getDeviceId toggleAppboyLogging setLogger openSession changeUser requestImmediateDataFlush requestFeedRefresh subscribeToFeedUpdates requestContentCardsRefresh subscribeToContentCardsUpdates logCardImpressions logCardClick logCardDismissal logFeedDisplayed logContentCardsDisplayed logInAppMessageImpression logInAppMessageClick logInAppMessageButtonClick logInAppMessageHtmlClick subscribeToNewInAppMessages removeSubscription removeAllSubscriptions logCustomEvent logPurchase isPushSupported isPushBlocked isPushGranted isPushPermissionGranted registerAppboyPushMessages unregisterAppboyPushMessages submitFeedback trackLocation stopWebTracking resumeWebTracking wipeData ab ab.DeviceProperties ab.User ab.User.Genders ab.User.NotificationSubscriptionTypes ab.User.prototype.getUserId ab.User.prototype.setFirstName ab.User.prototype.setLastName ab.User.prototype.setEmail ab.User.prototype.setGender ab.User.prototype.setDateOfBirth ab.User.prototype.setCountry ab.User.prototype.setHomeCity ab.User.prototype.setLanguage ab.User.prototype.setEmailNotificationSubscriptionType ab.User.prototype.setPushNotificationSubscriptionType ab.User.prototype.setPhoneNumber ab.User.prototype.setAvatarImageUrl ab.User.prototype.setLastKnownLocation ab.User.prototype.setUserAttribute ab.User.prototype.setCustomUserAttribute ab.User.prototype.addToCustomAttributeArray ab.User.prototype.removeFromCustomAttributeArray ab.User.prototype.incrementCustomUserAttribute ab.User.prototype.addAlias ab.User.prototype.setCustomLocationAttribute ab.InAppMessage ab.InAppMessage.SlideFrom ab.InAppMessage.ClickAction ab.InAppMessage.DismissType ab.InAppMessage.OpenTarget ab.InAppMessage.ImageStyle ab.InAppMessage.TextAlignment ab.InAppMessage.Orientation ab.InAppMessage.CropType ab.InAppMessage.prototype.subscribeToClickedEvent ab.InAppMessage.prototype.subscribeToDismissedEvent ab.InAppMessage.prototype.removeSubscription ab.InAppMessage.prototype.removeAllSubscriptions ab.InAppMessage.Button ab.InAppMessage.Button.prototype.subscribeToClickedEvent ab.InAppMessage.Button.prototype.removeSubscription ab.InAppMessage.Button.prototype.removeAllSubscriptions ab.SlideUpMessage ab.ModalMessage ab.FullScreenMessage ab.HtmlMessage ab.ControlMessage ab.Feed ab.Feed.prototype.getUnreadCardCount ab.ContentCards ab.ContentCards.prototype.getUnviewedCardCount ab.Card ab.ClassicCard ab.CaptionedImage ab.Banner ab.ControlCard ab.WindowUtils display display.automaticallyShowNewInAppMessages display.showInAppMessage display.showFeed display.destroyFeed display.toggleFeed display.showContentCards display.hideContentCards display.toggleContentCards sharedLib".split(" "), i = 0; i < s.length; i++) { for (var m = s[i], k = appboy, l = m.split("."), j = 0; j < l.length - 1; j++)k = k[l[j]]; k[l[j]] = (new Function("return function " + m.replace(/\./g, "_") + "(){appboyQueue.push(arguments); return true}"))() } appboy.getUser = function () { return new appboy.ab.User }; appboy.getCachedFeed = function () { return new appboy.ab.Feed }; appboy.getCachedContentCards = function () { return new appboy.ab.ContentCards }; (y = p.createElement(P)).type = 'text/javascript'; y.src = 'https://js.appboycdn.com/web-sdk/2.3/appboy.min.js'; y.async = 1; (b = p.getElementsByTagName(P)[0]).parentNode.insertBefore(y, b) }(window, document, 'script');
+      </script>
+      <!-- Braze Script 위치 이동 특정 페이지에서 appboy호출 못하는 문제가 있음.-->
+      <!-- 마케팅로그:Braze-Appboy-->
+      <script type="text/javascript">
+       +function (a, p, P, b, y) { appboy = {}; appboyQueue = []; for (var s = "initialize destroy getDeviceId toggleAppboyLogging setLogger openSession changeUser requestImmediateDataFlush requestFeedRefresh subscribeToFeedUpdates requestContentCardsRefresh subscribeToContentCardsUpdates logCardImpressions logCardClick logCardDismissal logFeedDisplayed logContentCardsDisplayed logInAppMessageImpression logInAppMessageClick logInAppMessageButtonClick logInAppMessageHtmlClick subscribeToNewInAppMessages removeSubscription removeAllSubscriptions logCustomEvent logPurchase isPushSupported isPushBlocked isPushGranted isPushPermissionGranted registerAppboyPushMessages unregisterAppboyPushMessages submitFeedback trackLocation stopWebTracking resumeWebTracking wipeData ab ab.DeviceProperties ab.User ab.User.Genders ab.User.NotificationSubscriptionTypes ab.User.prototype.getUserId ab.User.prototype.setFirstName ab.User.prototype.setLastName ab.User.prototype.setEmail ab.User.prototype.setGender ab.User.prototype.setDateOfBirth ab.User.prototype.setCountry ab.User.prototype.setHomeCity ab.User.prototype.setLanguage ab.User.prototype.setEmailNotificationSubscriptionType ab.User.prototype.setPushNotificationSubscriptionType ab.User.prototype.setPhoneNumber ab.User.prototype.setAvatarImageUrl ab.User.prototype.setLastKnownLocation ab.User.prototype.setUserAttribute ab.User.prototype.setCustomUserAttribute ab.User.prototype.addToCustomAttributeArray ab.User.prototype.removeFromCustomAttributeArray ab.User.prototype.incrementCustomUserAttribute ab.User.prototype.addAlias ab.User.prototype.setCustomLocationAttribute ab.InAppMessage ab.InAppMessage.SlideFrom ab.InAppMessage.ClickAction ab.InAppMessage.DismissType ab.InAppMessage.OpenTarget ab.InAppMessage.ImageStyle ab.InAppMessage.TextAlignment ab.InAppMessage.Orientation ab.InAppMessage.CropType ab.InAppMessage.prototype.subscribeToClickedEvent ab.InAppMessage.prototype.subscribeToDismissedEvent ab.InAppMessage.prototype.removeSubscription ab.InAppMessage.prototype.removeAllSubscriptions ab.InAppMessage.Button ab.InAppMessage.Button.prototype.subscribeToClickedEvent ab.InAppMessage.Button.prototype.removeSubscription ab.InAppMessage.Button.prototype.removeAllSubscriptions ab.SlideUpMessage ab.ModalMessage ab.FullScreenMessage ab.HtmlMessage ab.ControlMessage ab.Feed ab.Feed.prototype.getUnreadCardCount ab.ContentCards ab.ContentCards.prototype.getUnviewedCardCount ab.Card ab.ClassicCard ab.CaptionedImage ab.Banner ab.ControlCard ab.WindowUtils display display.automaticallyShowNewInAppMessages display.showInAppMessage display.showFeed display.destroyFeed display.toggleFeed display.showContentCards display.hideContentCards display.toggleContentCards sharedLib".split(" "), i = 0; i < s.length; i++) { for (var m = s[i], k = appboy, l = m.split("."), j = 0; j < l.length - 1; j++)k = k[l[j]]; k[l[j]] = (new Function("return function " + m.replace(/\./g, "_") + "(){appboyQueue.push(arguments); return true}"))() } appboy.getUser = function () { return new appboy.ab.User }; appboy.getCachedFeed = function () { return new appboy.ab.Feed }; appboy.getCachedContentCards = function () { return new appboy.ab.ContentCards }; (y = p.createElement(P)).type = 'text/javascript'; y.src = 'https://js.appboycdn.com/web-sdk/2.3/appboy.min.js'; y.async = 1; (b = p.getElementsByTagName(P)[0]).parentNode.insertBefore(y, b) }(window, document, 'script');
 
         appboy.initialize('65fe4688-7456-4173-99bd-7715541b6e88', {
             enableLogging: false,
@@ -108,10 +105,10 @@
         appboy.display.automaticallyShowNewInAppMessages();
         appboy.openSession();
         appboy.registerAppboyPushMessages();
-       </script>
-       <!-- 마케팅로그:Braze-Appboy-->
-       <script type="application/ld+json">
-        {
+      </script>
+      <!-- 마케팅로그:Braze-Appboy-->
+      <script type="application/ld+json">
+       {
         "@context": "http://schema.org",
         "@type": "Organization",
         "name": "W Concept",
@@ -122,8 +119,7 @@
         "https://www.youtube.com/channel/UCZjTWc0OTtcgKZ1rD-dMI7g"
         ]
         }
-       </script>
-      </meta>
+      </script>
      </meta>
     </meta>
    </meta>
@@ -335,31 +331,28 @@
            그로브
           </a>
          </li>
-         <li onclick='javascript:WCKELKCookie.add("나이키"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "나이키", keyword_no : "2", newyn : "N"});'>
+         <li onclick='javascript:WCKELKCookie.add("원피스"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "원피스", keyword_no : "2", newyn : "N"});'>
           <span>
            2
-          </span>
-          <a onclick='WCKELKSCH.GoSearchClick("popular","나이키")' style="cursor:pointer">
-           나이키
-          </a>
-         </li>
-         <li onclick='javascript:WCKELKCookie.add("원피스"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "원피스", keyword_no : "3", newyn : "N"});'>
-          <span>
-           3
           </span>
           <a onclick='WCKELKSCH.GoSearchClick("popular","원피스")' style="cursor:pointer">
            원피스
           </a>
          </li>
-         <li onclick='javascript:WCKELKCookie.add("이미스"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "이미스", keyword_no : "4", newyn : "Y"});'>
+         <li onclick='javascript:WCKELKCookie.add("나이키"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "나이키", keyword_no : "3", newyn : "N"});'>
+          <span>
+           3
+          </span>
+          <a onclick='WCKELKSCH.GoSearchClick("popular","나이키")' style="cursor:pointer">
+           나이키
+          </a>
+         </li>
+         <li onclick='javascript:WCKELKCookie.add("이미스"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "이미스", keyword_no : "4", newyn : "N"});'>
           <span>
            4
           </span>
           <a onclick='WCKELKSCH.GoSearchClick("popular","이미스")' style="cursor:pointer">
            이미스
-           <strong>
-            NEW
-           </strong>
           </a>
          </li>
          <li onclick='javascript:WCKELKCookie.add("던스트"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "던스트", keyword_no : "5", newyn : "N"});'>
@@ -378,39 +371,39 @@
            마뗑킴
           </a>
          </li>
-         <li onclick='javascript:WCKELKCookie.add("키티"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "키티", keyword_no : "7", newyn : "Y"});'>
+         <li onclick='javascript:WCKELKCookie.add("렉토"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "렉토", keyword_no : "7", newyn : "N"});'>
           <span>
            7
-          </span>
-          <a onclick='WCKELKSCH.GoSearchClick("popular","키티")' style="cursor:pointer">
-           키티
-           <strong>
-            NEW
-           </strong>
-          </a>
-         </li>
-         <li onclick='javascript:WCKELKCookie.add("렉토"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "렉토", keyword_no : "8", newyn : "N"});'>
-          <span>
-           8
           </span>
           <a onclick='WCKELKSCH.GoSearchClick("popular","렉토")' style="cursor:pointer">
            렉토
           </a>
          </li>
-         <li onclick='javascript:WCKELKCookie.add("샌들"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "샌들", keyword_no : "9", newyn : "N"});'>
+         <li onclick='javascript:WCKELKCookie.add("블라우스"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "블라우스", keyword_no : "8", newyn : "Y"});'>
+          <span>
+           8
+          </span>
+          <a onclick='WCKELKSCH.GoSearchClick("popular","블라우스")' style="cursor:pointer">
+           블라우스
+           <strong>
+            NEW
+           </strong>
+          </a>
+         </li>
+         <li onclick='javascript:WCKELKCookie.add("수영복"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "수영복", keyword_no : "9", newyn : "N"});'>
           <span>
            9
           </span>
-          <a onclick='WCKELKSCH.GoSearchClick("popular","샌들")' style="cursor:pointer">
-           샌들
+          <a onclick='WCKELKSCH.GoSearchClick("popular","수영복")' style="cursor:pointer">
+           수영복
           </a>
          </li>
-         <li onclick='javascript:WCKELKCookie.add("수영복"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "수영복", keyword_no : "10", newyn : "N"});'>
+         <li onclick='javascript:WCKELKCookie.add("샌들"); AMPLITUDE.LogClickSearchItem("click_search_pop_ranking_keyword",{ click_module: "search_pop_ranking_keyword", keyword : "샌들", keyword_no : "10", newyn : "N"});'>
           <span>
            10
           </span>
-          <a onclick='WCKELKSCH.GoSearchClick("popular","수영복")' style="cursor:pointer">
-           수영복
+          <a onclick='WCKELKSCH.GoSearchClick("popular","샌들")' style="cursor:pointer">
+           샌들
           </a>
          </li>
         </ul>
@@ -493,7 +486,7 @@
             WOMEN
            </span>
            <span class="pull-right">
-            4,165
+            3,271
            </span>
           </li>
           <li class="clearfix">
@@ -501,7 +494,7 @@
             MEN
            </span>
            <span class="pull-right">
-            1,199
+            879
            </span>
           </li>
           <li class="clearfix">
@@ -509,7 +502,7 @@
             BEAUTY
            </span>
            <span class="pull-right">
-            195
+            166
            </span>
           </li>
           <li class="clearfix">
@@ -517,7 +510,7 @@
             LIFE
            </span>
            <span class="pull-right">
-            712
+            602
            </span>
           </li>
          </ul>
@@ -2211,2044 +2204,1813 @@
     {{/this}}
   </script>
   <section id="container">
-   <div id="wdna">
-    <!-- wck-819 20190620// -->
-    <!-- //wck-819 20190620 -->
-    <div class="wdna wdna_main" id="video_slide">
-     <h2>
-      W
-      <span class="kr">
-       컨셉
-      </span>
-      TV
-     </h2>
-     <div class="slide-wrap">
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6303887072001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         WAKE UP YOUR CONCEPT X 배두나 : CONCEPTING
-        </h2>
-        <p>
-         옷보다 컨셉이 먼저죠
-        </p>
-        <a class="link" href="/issue/20081" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 1,"/issue/20081","WAKE UP YOUR CONCEPT X 배두나 : CONCEPTING");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6255317137001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         FRONTROW X FRUTA
-        </h2>
-        <p>
-         COLOR YOUR LIFE
-        </p>
-        <a class="link" href="/issue/14305" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 2,"/issue/14305","FRONTROW X FRUTA");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6250424944001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         FRONTROW X Lee SungKyoung
-        </h2>
-        <p>
-         앰버서더 이성경과 함께 떠나는 호캉스
-        </p>
-        <a class="link" href="/issue/13746" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 3,"/issue/13746","FRONTROW X Lee SungKyoung");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6241507429001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         FRONTROW 21SS Denim Collection
-        </h2>
-        <p>
-         매일 입고 싶은, 클래식한 프론트로우의 데님 컬렉션
-        </p>
-        <a class="link" href="/issue/13249" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 4,"/issue/13249","FRONTROW 21SS Denim Collection");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6239337580001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         INSIDE YOUR DRAMA
-        </h2>
-        <p>
-         드라마 시그니처, 그 시작과 끝
-        </p>
-        <a class="link" href="/Issue/13092" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 5,"/Issue/13092","INSIDE YOUR DRAMA");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6236836231001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         How to live a sustainable life
-        </h2>
-        <p>
-         의식있는 착한 소비의 시작, 프론트로우 컨셔스 컬렉션
-        </p>
-        <a class="link" href="/issue/12994" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 6,"/issue/12994","How to live a sustainable life");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6233581283001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         FRONTROW X Lee SungKyoung
-        </h2>
-        <p>
-         이성경과 함께하는 '21 드라마 캠페인 'ON THE STAGE'
-        </p>
-        <a class="link" href="/issue/12804" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 7,"/issue/12804","FRONTROW X Lee SungKyoung");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6233253885001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         DAY to NIGHT in FRONTROW
-        </h2>
-        <p>
-         프론트로우 '21SS 드라마 시그니처 컬렉션
-        </p>
-        <a class="link" href="/Issue/12817" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 8,"/Issue/12817","DAY to NIGHT in FRONTROW");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://www.youtube.com/embed/D9vtDMPypv4" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         BIBI X HI SEOUL SHOWROOM
-        </h2>
-        <p>
-         비비X하이서울쇼룸 랜선 콘서트
-        </p>
-        <a class="link" href="/issue/11939" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 9,"/issue/11939","BIBI X HI SEOUL SHOWROOM");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6209513321001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W.COLLECTION
-        </h2>
-        <p>
-         인스턴트펑크의 에코 레더 컬렉션
-        </p>
-        <a class="link" href="/issue/11585" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 10,"/issue/11585","W.COLLECTION");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6194921330001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         DENIM FIT REVIEW
-        </h2>
-        <p>
-         인플루언서 6인과 함께 한 프론트로우 데님 핏 리뷰
-        </p>
-        <a class="link" href="/Issue/10710" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 11,"/Issue/10710","DENIM FIT REVIEW");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6189705541001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W.SHOPPING
-        </h2>
-        <p>
-         옆집 언니 최실장이 소개하는 20F/W 트렌드 키워드
-        </p>
-        <a class="link" href="/Issue/10570" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 12,"/Issue/10570","W.SHOPPING");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6188714470001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W.COLLECTION
-        </h2>
-        <p>
-         W컨셉이 재해석한 NEUL의 20FW&amp;캡슐컬렉션
-        </p>
-        <a class="link" href="/issue/10493" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 13,"/issue/10493","W.COLLECTION");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6180328477001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. STYLE
-        </h2>
-        <p>
-         모델 케찹이 소개하는 100% 체크 활용법
-        </p>
-        <a class="link" href="/issue/10086" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 14,"/issue/10086","W. STYLE");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6176851410001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         D.SHOPPING
-        </h2>
-        <p>
-         스타일리스트 구동현과 함께한 디스탠스 티셔츠&amp;팬츠 스타일링
-        </p>
-        <a class="link" href="/issue/9958" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 15,"/issue/9958","D.SHOPPING");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6171707037001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         D.STYLE
-        </h2>
-        <p>
-         뜨거운 여름, 배우 손민호의  써머 출근룩 스타일링
-        </p>
-        <a class="link" href="/ISSUE/9985" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 16,"/ISSUE/9985","D.STYLE");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6175383872001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. STYLE
-        </h2>
-        <p>
-         톱모델 곽지영의 스윔웨어 스타일링
-        </p>
-        <a class="link" href="/issue/9913" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 17,"/issue/9913","W. STYLE");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6173473423001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W.SHOPPING
-        </h2>
-        <p>
-         옆집언니 최실장이 소개하는  호캉스룩  스타일링
-        </p>
-        <a class="link" href="/issue/9699" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 18,"/issue/9699","W.SHOPPING");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6169562510001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. STYLE
-        </h2>
-        <p>
-         조미영의 상큼한 써머 스타일링
-        </p>
-        <a class="link" href="/issue/9705" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 19,"/issue/9705","W. STYLE");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6166804785001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. STYLE
-        </h2>
-        <p>
-         이혜주의 파스텔 컬러 스타일링
-        </p>
-        <a class="link" href="/issue/9553" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 20,"/issue/9553","W. STYLE");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6166228648001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. SHOPPING
-        </h2>
-        <p>
-         옆집언니 최실장이 제안하는 티셔츠 TPO STYLING
-        </p>
-        <a class="link" href="/Issue/9504" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 21,"/Issue/9504","W. SHOPPING");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6162288024001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. STYLE
-        </h2>
-        <p>
-         김장미의 특별한 캐주얼 스타일링
-        </p>
-        <a class="link" href="/Issue/9393" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 22,"/Issue/9393","W. STYLE");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6158986442001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. STYLE
-        </h2>
-        <p>
-         스타일링 지수 UP! 진정선의 데님 활용법
-        </p>
-        <a class="link" href="/Issue/9177" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 23,"/Issue/9177","W. STYLE");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6158478316001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. COLLECTION
-        </h2>
-        <p>
-         메종마레 20SS 디지털 런웨이 공개!
-        </p>
-        <a class="link" href="/Issue/9235" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 24,"/Issue/9235"," W. COLLECTION");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6156485635001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. SHOPPING
-        </h2>
-        <p>
-         옆집언니 최실장이 전해주는 린넨# SHOPPING TIPS!
-        </p>
-        <a class="link" href="/Issue/9131" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 25,"/Issue/9131","W. SHOPPING");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6155716090001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         W. STYLE
-        </h2>
-        <p>
-         젤라비의 봄 스타일링
-        </p>
-        <a class="link" href="/Issue/9020" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 26,"/Issue/9020","W. STYLE");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6144272538001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         WDNA SHOPPING HAUL 김도영
-        </h2>
-        <p>
-         WDNA 김도영의 리얼 데일리 룩이 궁금하다면?!
-        </p>
-        <a class="link" href="/Issue/8065" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 27,"/Issue/8065","WDNA SHOPPING HAUL 김도영");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6140003956001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         WDNA SHOPPING HAUL 엄유진
-        </h2>
-        <p>
-         W컨셉 직원들은 무얼 입을까?
-        </p>
-        <a class="link" href="/issue/8062" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 28,"/issue/8062","WDNA SHOPPING HAUL 엄유진");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6136027901001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         WDNA SHOPPING HAUL 디디한
-        </h2>
-        <p>
-         WDNA 디디한의 스타일을 드레스업해줄 비장의 아이템!
-        </p>
-        <a class="link" href="/Issue/8063" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 29,"/Issue/8063","WDNA SHOPPING HAUL 디디한");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6133058071001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         conTAGyou #91. FACADE PATTERN
-        </h2>
-        <p>
-         매일 입어도 과함이 없는 옷
-        </p>
-        <a class="link" href="/issue/7881" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 30,"/issue/7881","conTAGyou #91. FACADE PATTERN");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6129376312001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         WDNA SHOPPING HAUL 임기용 &amp; 박예림
-        </h2>
-        <p>
-         스타일리시한 WDNA 커플의 발렌타인데이 선물은?
-        </p>
-        <a class="link" href="/issue/7879" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 31,"/issue/7879","WDNA SHOPPING HAUL 임기용 &amp; 박예림");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net//6010958340001/default_default/index.html?videoId=6128528113001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         WDNA SHOPPING HAUL 유비
-        </h2>
-        <p>
-         '고간지' 우승자 유비가 평소에 시도해보고 싶었던 아이템은?
-        </p>
-        <a class="link" href="/Issue/7878" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 32,"/Issue/7878","WDNA SHOPPING HAUL 유비");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-      <div class="slide-item">
-       <div class="movie">
-        <div class="inner">
-         <iframe allow="autoplay; encrypted-media; gyroscope" allowfullscreen="" frameborder="0" mozallowfullscreen="" src="https://players.brightcove.net/6010958340001/default_default/index.html?videoId=6122710152001" webkitallowfullscreen="">
-         </iframe>
-        </div>
-       </div>
-       <div class="txt">
-        <h2>
-         conTAGyou #89.BETTERKIND
-        </h2>
-        <p>
-         절제된 여성스러움을 섬세하게 풀어내는 브랜드
-        </p>
-        <a class="link" href="/Issue/7769" onclick='javascript:AMPLITUDE.LogClickIssueAndBrand("click_wdna_tvbanner","tv_banner", 33,"/Issue/7769","conTAGyou #89.BETTERKIND ");' target="_blank">
-         바로가기
-        </a>
-       </div>
-      </div>
-     </div>
-     <button class="slick-arrow main-prev" id="main-prev">
-      prev
-     </button>
-     <button class="slick-arrow main-next" id="main-next">
-      next
-     </button>
-    </div>
-    <div class="wdna wdna_on">
-     <div class="keyword">
-      <h3>
-       KEYWORD
+   <div class="sub_title_wrap">
+    <h2 class="sub_title">
+     <span>
+      brand
+     </span>
+    </h2>
+    <ol id="breadcrumb">
+     <li>
+      <a href="/">
+       home
+      </a>
+     </li>
+     <li>
+      <a href="/Brand">
+       BRAND
+      </a>
+     </li>
+     <li>
+      <a href="/Brand/105345">
+       vunque
+      </a>
+     </li>
+    </ol>
+   </div>
+   <div class="brand">
+    <div class="brand_visual only_banner">
+     <div class="brand_info">
+      <h3 class="tit_brand">
+       vunque
       </h3>
-      <ul class="tags">
-       <li class="">
-        <a href="javascript:WDNA.GetWONList('0', 1);">
-         #전체보기
-        </a>
-       </li>
-      </ul>
-     </div>
-     <div id="WON">
-      <div id="WON_cont">
-       <ul class="thumbnail">
-        <li data-video="">
-         <a href="issue/11939">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20201223182424.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           Brand Contents
-          </p>
-          <p>
-           비비X하이서울쇼룸 랜선 콘서트
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/Issue/15327">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/banner_resize_txt_20210716104018.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           Brand Contents
-          </p>
-          <p>
-           유라 X 하이서울쇼룸 드림 라이브
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="Issue/12130">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20201223180909.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           Brand Contents
-          </p>
-          <p>
-           다양한 일상에 녹아든 윈터 데일리룩
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="Issue/11786">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20201116095652.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           W.COLLECTION
-          </p>
-          <p>
-           인스턴트펑크의 에코 레더 컬렉션
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/issue/11069">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20201019094921.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           W.COLLECTION
-          </p>
-          <p>
-           렉토 20FW 디지털 런웨이
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/issue/11410">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_re_20201102121238.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           Brand Contents
-          </p>
-          <p>
-           유네미 언니 김민정 대표와 함께한 랜선 쇼룸 투어
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/Issue/11077">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20201102121441.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           FRONTROW
-          </p>
-          <p>
-           프리미엄 캐시미어 컬렉션 활용팁
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/Issue/10710">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200928102540.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           FRONTROW
-          </p>
-          <p>
-           인플루언서 6인과 함께 한 프론트로우 데님 핏 리뷰
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/Issue/10570">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200914102939.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           W.SHOPPING
-          </p>
-          <p>
-           옆집 언니 최실장이 소개하는 20F/W 트렌드 키워드
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/issue/10493">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200909164348.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           W.COLLECTION
-          </p>
-          <p>
-           W컨셉이 재해석한 NEUL의 20FW&amp;캡슐컬렉션
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/Issue/10087">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200901092730.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           W.STYLE
-          </p>
-          <p>
-           인플루언서 초록의 센스 있는 간절기 스타일링
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/issue/10345">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200828172716.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           W.PRE-ORDER
-          </p>
-          <p>
-           프리오더로 만나는 모한의 캐시미어 니트 컬렉션
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/Issue/10086">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200814181554.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           W.STYLE
-          </p>
-          <p>
-           모델 케찹이 소개하는 100% 체크 활용법
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/Issue/9937">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200805102349.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           W.STYLE
-          </p>
-          <p>
-           모델 강초원의  여름 원피스 스타일링
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/issue/9958">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200803185311.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           D.SHOPPING
-          </p>
-          <p>
-           스타일리스트 구동현과 함께한 디스탠스 티셔츠&amp;팬츠 스타일링
-          </p>
-         </a>
-        </li>
-        <li data-video="">
-         <a href="/ISSUE/9985">
-          <div class="wdna_on-item-thumb" style="background-image: url(//image.wconcept.co.kr/images/builder/PD4_372x208_20200728105432.jpg)">
-           <img src="//static.wconcept.co.kr/web/images/wdna/blank-372x208.gif"/>
-          </div>
-          <p class="tit">
-           D.STYLE
-          </p>
-          <p>
-           뜨거운 여름, 배우 손민호의  써머 출근룩 스타일링
-          </p>
-         </a>
-        </li>
-       </ul>
-       <ul class="pagination">
-        <li class="active" data-tagging-click-key="" name="elk_pagination">
-         <a data-page="1" data-scope="1" href="javascript:;">
-          1
-         </a>
-        </li>
-        <li class="" data-tagging-click-key="" name="elk_pagination">
-         <a data-page="2" data-scope="1" href="javascript:;">
-          2
-         </a>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-    <div class="wdna wdna_bottom">
-    </div>
-    <div class="wdna wdna_style" id="pjax_container">
-     <h2>
-      WDNA STYLE
-     </h2>
-     <p style="display:block;">
-      스타일을 공유하면 W POINT 즉시 지급!
-     </p>
-     <div class="wrap">
-      <ul class="wdna_style--category">
-       <li class="">
-        <button type="button" value="">
-         All
-        </button>
-       </li>
-       <li class="">
-        <button type="button" value="1">
-         WOMEN
-        </button>
-       </li>
-       <li class="">
-        <button type="button" value="2">
-         MEN
-        </button>
-       </li>
-       <li class="">
-        <button type="button" value="3">
-         LIFE
-        </button>
-       </li>
-       <li class="active">
-        <button type="button" value="4">
-         BEAUTY
-        </button>
-       </li>
-      </ul>
-      <button class="btn_share" type="button">
-       + 스타일 공유하기
+      <p class="desc ellipsis multiline">
+       vunque(분크)는 디자이너 석정혜가 전개하는 브랜드로, '어디에서라도' 라는 뜻의 이탈리아어 Ovunque 에서 시작되었다. 어디에서든지 고객과 함께하는 Style &amp; Life를 제안하는 브랜드이다.
+      </p>
+      <p class="like">
+       <em>
+        6,694명
+       </em>
+       이 이 브랜드를 좋아합니다.
+      </p>
+      <a class="brand_info--more" href="" onclick="MoveIssue(this);" target="_blank">
+       + 관련기획전 더보기
+      </a>
+      <button class="heart" name="button" onclick="javascript:WCK_COMMON_RENEWAL_FN.myBrandClick('105345', 'D', $(this));return false;" type="button">
       </button>
      </div>
-     <ul class="content">
-      <li id="1260">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T190830160214_2NU.jpg"/>
+     <div class="brand_visual only_banner">
+      <div class="carousel brand_banner ix-slide-max-apply" data-ix-options="view-length:1; auto-play:true;">
+       <div class="ix-list-viewport">
+        <ul class="ix-list-items">
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/20762'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T220428155956_LWT.jpg"/>
+           <p class="txt">
+            스트릿 패션 속 분크 백 스타일링
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/20270'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T220407142010_4JF.jpg"/>
+           <p class="txt">
+            페스토네 뉴 라인 오픈
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/20033'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T220325163043_ZZQ.jpg"/>
+           <p class="txt">
+            페스토네 바스켓 미듐 단독 재입고
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/19668'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T220311170248_SWM.jpg"/>
+           <p class="txt">
+            봄을 부르는 컬러 팔레트
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/19324'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T220224175335_KEL.jpg"/>
+           <p class="txt">
+            다가오는 봄을 위한 추천 미니백
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/18950'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T220208165637_QME.jpg"/>
+           <p class="txt">
+            22SS 트렌드 컬러로 살펴본 분크백
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/18751'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T220120170054_QK9.jpg"/>
+           <p class="txt">
+            신상백 만나보기
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/18245'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T211216182744_MC5.jpg"/>
+           <p class="txt">
+            겨울을 위한 분크의 추천 컬러백
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/18035'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T211206181150_UJO.jpg"/>
+           <p class="txt">
+            특별한 그녀들이 찜하고 추천하는 분크
+           </p>
+          </a>
+         </li>
+         <li class="ix-list-item">
+          <a href="javascript:;" onclick="location.href = '/Issue/17576'; return false;">
+           <img alt="" src="//image.wconcept.co.kr/images/disp_issue/T211111174446_M3V.jpg"/>
+           <p class="txt">
+            분크가 제안하는 SAME BAG, DIFFRENT MOOD
+           </p>
+          </a>
+         </li>
+        </ul>
        </div>
-       <p class="txt">
-        <span class="id">
-         @zee.hye
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('1260', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="1256">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T190830152553_JYX.jpg"/>
+       <div class="ix-controller">
+        <a class="ix-btn-prev" href="#">
+         이전
+        </a>
+        <a class="ix-btn-next" href="#">
+         다음
+        </a>
        </div>
-       <p class="txt">
-        <span class="id">
-         @hacuming
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('1256', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="1223">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T190801153137_VCA.jpg"/>
+      </div>
+     </div>
+     <script>
+      $('.carousel').ixSlideMax();
+     </script>
+    </div>
+    <div id="brandshop">
+     <div class="filter_wrap">
+      <div class="filter_lst">
+       <h4>
+        FILTER
+        <button class="btn_toggle" data-depth3="false" data-iscategory="false" data-target=".category_wrap" type="button">
+        </button>
+       </h4>
+       <ul class="lst_chk">
+        <li data-open="false" data-target=".depth.category_wrap" style="display: block">
+         <button type="button">
+          CATEGORY
+         </button>
+        </li>
+        <li data-open="false" data-target=".depth.brand" style="display: none">
+         <button type="button">
+          BRAND
+         </button>
+        </li>
+        <li data-open="false" data-target=".depth.price">
+         <button type="button">
+          PRICE
+         </button>
+        </li>
+        <li data-open="false" data-target=".depth.benefit">
+         <button type="button">
+          BENEFIT
+         </button>
+        </li>
+        <li data-open="false" data-target=".depth.color">
+         <button type="button">
+          COLOR
+         </button>
+        </li>
+        <li data-open="false" data-target=".depth.discount">
+         <button type="button">
+          DISCOUNT
+         </button>
+        </li>
+       </ul>
+      </div>
+      <div class="filter_con">
+       <!-- category -->
+       <div class="depth category_wrap">
+        <ul class="category_lst">
+         <li data-mediumcd="M33439436" data-mediumname="WOMEN" data-target=".category.women" name="elk_mediumcd">
+          <button type="button">
+           WOMEN
+          </button>
+         </li>
+         <li data-mediumcd="M64603019" data-mediumname="LIFE" data-target=".category.life" name="elk_mediumcd">
+          <button type="button">
+           LIFE
+          </button>
+         </li>
+         <li data-mediumcd="M83985861" data-mediumname="MEN" data-target=".category.men" name="elk_mediumcd">
+          <button type="button">
+           MEN
+          </button>
+         </li>
+        </ul>
+        <div class="category_con">
+         <ul class="category women">
+          <li>
+           <div class="lst_tit">
+            <p class="btn_group">
+             <button class="btn_sort" data-depth="1" data-depthcd="004000000" data-depthname="BAG" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+              BAG
+             </button>
+            </p>
+           </div>
+           <ul class="lst_chk">
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="004002000" data-depthname="토트백" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               토트백
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="004006000" data-depthname="백액세서리" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               백액세서리
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="004001000" data-depthname="숄더백" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               숄더백
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="004005000" data-depthname="지갑" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               지갑
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="004008000" data-depthname="크로스백" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               크로스백
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="004003000" data-depthname="클러치" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               클러치
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="004004000" data-depthname="백팩" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               백팩
+              </button>
+             </p>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <div class="lst_tit">
+            <p class="btn_group">
+             <button class="btn_sort" data-depth="1" data-depthcd="001000000" data-depthname="APPAREL" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+              APPAREL
+             </button>
+            </p>
+           </div>
+           <ul class="lst_chk">
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="001013000" data-depthname="셔츠" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               셔츠
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="001003000" data-depthname="티셔츠" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               티셔츠
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="001007000" data-depthname="스커트" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               스커트
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="001002000" data-depthname="니트" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               니트
+              </button>
+             </p>
+            </li>
+           </ul>
+          </li>
+          <li>
+           <div class="lst_tit">
+            <p class="btn_group">
+             <button class="btn_sort" data-depth="1" data-depthcd="003000000" data-depthname="ACC" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+              ACC
+             </button>
+            </p>
+           </div>
+           <ul class="lst_chk">
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="003009000" data-depthname="아이웨어" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               아이웨어
+              </button>
+             </p>
+            </li>
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="003006000" data-depthname="패션액세서리" data-mediumcd="M33439436" name="elk_categorycd" type="button">
+               패션액세서리
+              </button>
+             </p>
+            </li>
+           </ul>
+          </li>
+         </ul>
+         <ul class="category men">
+          <li>
+           <div class="lst_tit">
+            <p class="btn_group">
+             <button class="btn_sort" data-depth="1" data-depthcd="005000000" data-depthname="BAG" data-mediumcd="M83985861" name="elk_categorycd" type="button">
+              BAG
+             </button>
+            </p>
+           </div>
+           <ul class="lst_chk">
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="005006000" data-depthname="토트백" data-mediumcd="M83985861" name="elk_categorycd" type="button">
+               토트백
+              </button>
+             </p>
+            </li>
+           </ul>
+          </li>
+         </ul>
+         <ul class="category life">
+          <li>
+           <div class="lst_tit">
+            <p class="btn_group">
+             <button class="btn_sort" data-depth="1" data-depthcd="001000000" data-depthname="HOME" data-mediumcd="M64603019" name="elk_categorycd" type="button">
+              HOME
+             </button>
+            </p>
+           </div>
+           <ul class="lst_chk">
+            <li>
+             <p class="btn_group">
+              <button class="btn_sort" data-depth="2" data-depthcd="001024000" data-depthname="우산/양산" data-mediumcd="M64603019" name="elk_categorycd" type="button">
+               우산/양산
+              </button>
+             </p>
+            </li>
+           </ul>
+          </li>
+         </ul>
+         <ul class="category beauty">
+         </ul>
+        </div>
        </div>
-       <p class="txt">
-        <span class="id">
-         @uriyull
+       <!-- //category -->
+       <!-- brand -->
+       <ul class="depth brand">
+        <p class="tag_input">
+         <input id="elk_brand" placeholder="브랜드 검색" type="text"/>
+         <button class="icon icon-del" id="btnBrandDel" onclick="ELK.InitBrand();" type="button">
+          삭제
+         </button>
+         <button class="icon icon-search" id="btnBrand" type="submit">
+          검색
+         </button>
+        </p>
+        <ul class="tab_array">
+         <li class="active" data-type="best">
+          <a href="#chk_best">
+           BEST
+          </a>
+         </li>
+         <li data-type="en">
+          <a href="#chk_abc">
+           ABC
+          </a>
+         </li>
+         <li data-type="ko">
+          <a href="#chk_ko">
+           가나다
+          </a>
+         </li>
+        </ul>
+        <div class="array_wrap" data-ps-id="aef523b1-f0fa-c825-6ed6-d7fc04e1426f">
+         <!-- BEST -->
+         <div class="lst_chk best active" id="chk_best" style="display: block;">
+         </div>
+         <!-- ABC -->
+         <div class="lst_chk abc" id="chk_abc" style="display: none;">
+         </div>
+         <!-- 가나다 -->
+         <div class="lst_chk ko" id="chk_ko" style="display: none;">
+         </div>
+        </div>
+        <span class="all_brand">
+         <button onclick="ELK.ShowAllBrand();" style="display:none;" type="button">
+          브랜드 전체보기
+         </button>
         </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('1223', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="1153">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T190710143343_OE4.jpg"/>
+       </ul>
+       <!-- //brand -->
+       <!-- price -->
+       <ul class="depth price">
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-price="0" data-pricename="5만원 이하" name="elk_price" type="button">
+           5만원 이하
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-price="1" data-pricename="5만원 ~ 10만원" name="elk_price" type="button">
+           5만원 ~ 10만원
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-price="2" data-pricename="10만원 ~ 20만원" name="elk_price" type="button">
+           10만원 ~ 20만원
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-price="3" data-pricename="20만원 ~ 30만원" name="elk_price" type="button">
+           20만원 ~ 30만원
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-price="4" data-pricename="30만원 ~ 50만원" name="elk_price" type="button">
+           30만원 ~ 50만원
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-price="5" data-pricename="50만원 ~ 100만원" name="elk_price" type="button">
+           50만원 ~ 100만원
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-price="6" data-pricename="100만원 이상" name="elk_price" type="button">
+           100만원 이상
+          </button>
+         </p>
+        </li>
+       </ul>
+       <!-- //price -->
+       <!-- benefit -->
+       <ul class="depth benefit">
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-benefit="0" data-benefitname="무료배송" name="elk_benefit" type="button">
+           무료배송
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-benefit="1" data-benefitname="세일중" name="elk_benefit" type="button">
+           세일중
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-benefit="6" data-benefitname="단독상품" name="elk_benefit" type="button">
+           단독상품
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-benefit="2" data-benefitname="GIFT" name="elk_benefit" type="button">
+           GIFT
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-benefit="3" data-benefitname="쿠폰" name="elk_benefit" type="button">
+           쿠폰
+          </button>
+         </p>
+        </li>
+        <li>
+         <p class="btn_group">
+          <button class="btn_sort" data-benefit="5" data-benefitname="예약/주문 상품 제외" name="elk_benefit" type="button">
+           예약/주문 상품 제외
+          </button>
+         </p>
+        </li>
+       </ul>
+       <!-- //benefit -->
+       <!-- color -->
+       <ul class="depth color">
+        <li data-color="0" data-colorname="WHITE" name="elk_color">
+         <a class="WHITE" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="1" data-colorname="GREY" name="elk_color">
+         <a class="GRAY" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="2" data-colorname="BLACK" name="elk_color">
+         <a class="BLACK" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="3" data-colorname="RED" name="elk_color">
+         <a class="RED" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="4" data-colorname="CAMEL" name="elk_color">
+         <a class="CAMEL" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="5" data-colorname="YELLOW" name="elk_color">
+         <a class="YELLOW" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="6" data-colorname="GREEN" name="elk_color">
+         <a class="GREEN" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="7" data-colorname="BLUE" name="elk_color">
+         <a class="BLUE" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="8" data-colorname="NAVY" name="elk_color">
+         <a class="NAVY" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="9" data-colorname="PURPLE" name="elk_color">
+         <a class="PURPLE" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="10" data-colorname="PINK" name="elk_color">
+         <a class="PINK" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="11" data-colorname="BROWN" name="elk_color">
+         <a class="BROWN" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="12" data-colorname="PASTEL" name="elk_color">
+         <a class="PASTEL" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="13" data-colorname="PATTERN" name="elk_color">
+         <a class="PATTERN" href="javascript:;">
+         </a>
+        </li>
+        <li data-color="14" data-colorname="METALLIC" name="elk_color">
+         <a class="METALLIC" href="javascript:;">
+         </a>
+        </li>
+       </ul>
+       <!-- //color -->
+       <!-- discount -->
+       <ul class="depth discount">
+        <div class="disc">
+         <div class="disc_slider ix-range-slider-apply" data-ix-options="min:0; max:100; values:0 100; gap:1; number-format:true; add-last-str:%25;">
+          <div class="ix-slider-bar">
+           <div class="ix-progress" style="left: 0%; width: 100%;">
+           </div>
+           <a class="ix-min-icon" href="javascript:;" style="left: 0%;">
+           </a>
+           <a class="ix-max-icon" href="javascript:;" style="left: 100%;">
+           </a>
+           <span class="txt txt_min">
+            0
+           </span>
+           <span class="txt txt_mid">
+            50
+           </span>
+           <span class="txt txt_max">
+            100
+           </span>
+          </div>
+          <div class="bx_inp">
+           <input class="ix-min-input" id="elk_discount_s" maxlength="2" type="text"/>
+           <span>
+            ~
+           </span>
+           <input class="ix-max-input" id="elk_discount_e" maxlength="3" type="text"/>
+          </div>
+         </div>
+        </div>
+       </ul>
+       <!-- //discount -->
+      </div>
+      <ul class="filter_chk" style="display:none;">
+      </ul>
+      <div class="filter_apply">
+       <button class="reset" type="button">
+        초기화
+       </button>
+       <button class="apply" type="button">
+        필터 적용
+       </button>
+      </div>
+      <button class="filter_close" onclick="ELK.CloseFilter();" type="button">
+       닫기
+      </button>
+     </div>
+     <link href="/assets/css/HoldOn.min.css" rel="stylesheet"/>
+     <div class="sort_n_filter">
+      <div class="sort">
+       <span class="sort_total">
+        <em id="filterCnt">
+         346
+        </em>
+        개의 상품
+       </span>
+       <div class="sort_sel">
+        <button type="button">
+         21개씩
+        </button>
+        <ul>
+         <li data-size="21" data-sizename="21개씩" name="elk_size">
+          <a href="javascript:;">
+           21개씩
+          </a>
+         </li>
+         <li data-size="35" data-sizename="35개씩" name="elk_size">
+          <a href="javascript:;">
+           35개씩
+          </a>
+         </li>
+         <li data-size="49" data-sizename="49개씩" name="elk_size">
+          <a href="javascript:;">
+           49개씩
+          </a>
+         </li>
+        </ul>
        </div>
-       <p class="txt">
-        <span class="id">
-         @hacuming
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('1153', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="524">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T18082315039_58H.jpg"/>
+       <div class="sort_sel">
+        <button type="button">
+         신상품순
+        </button>
+        <ul>
+         <li data-sort="0" data-sortname="신상품순" name="elk_sort" onclick="AMPLITUDE.LogClickEvent(1,'click_search_array','search_array_new')">
+          <a href="javascript:;">
+           신상품순
+          </a>
+         </li>
+         <li class="sold" data-sort="1" data-sortname="판매순" name="elk_sort" onclick="AMPLITUDE.LogClickEvent(1,'click_search_array','search_array_sold')">
+          <a href="javascript:;">
+           판매순
+           <em>
+            i
+           </em>
+          </a>
+         </li>
+         <li data-sort="2" data-sortname="할인율순" name="elk_sort" onclick="AMPLITUDE.LogClickEvent(1,'click_search_array','search_array_sale')">
+          <a href="javascript:;">
+           할인율순
+          </a>
+         </li>
+         <li data-sort="3" data-sortname="낮은 가격 순" name="elk_sort" onclick="AMPLITUDE.LogClickEvent(1,'click_search_array','search_array_high_price')">
+          <a href="javascript:;">
+           낮은 가격 순
+          </a>
+         </li>
+         <li data-sort="4" data-sortname="높은 가격 순" name="elk_sort" onclick="AMPLITUDE.LogClickEvent(1,'click_search_array','search_array_low_price')">
+          <a href="javascript:;">
+           높은 가격 순
+          </a>
+         </li>
+         <li data-sort="5" data-sortname="리뷰순" name="elk_sort" onclick="AMPLITUDE.LogClickEvent(1,'click_search_array','search_array_review')">
+          <a href="javascript:;">
+           리뷰순
+          </a>
+         </li>
+        </ul>
+        <div class="sold_tooltip">
+         <p>
+          최근 한달간 많이 판매된 상품을 누적한 기준으로 정렬합니다.
+         </p>
+        </div>
        </div>
-       <p class="txt">
-        <span class="id">
-         @cream.berry24
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('524', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="520">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T180822162639_7V1.jpg"/>
-       </div>
-       <p class="txt">
-        <span class="id">
-         @from_seo_hyun
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('520', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="511">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T180821154538_D1D.jpg"/>
-       </div>
-       <p class="txt">
-        <span class="id">
-         @xoxodmswl
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('511', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="509">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T180821154239_5BX.jpg"/>
-       </div>
-       <p class="txt">
-        <span class="id">
-         @sanghee_0203
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('509', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="494">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T180817115138_GUZ.jpg"/>
-       </div>
-       <p class="txt">
-        <span class="id">
-         @h.sm.93
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('494', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-      <li id="480">
-       <div class="wdna_style--thumb">
-        <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//image.wconcept.co.kr/images/disp_Wicon/T180816155253_3D0.jpg"/>
-       </div>
-       <p class="txt">
-        <span class="id">
-         @coyudaily
-        </span>
-        <span class="heart" onclick="javascript:WDNA.myHeartLoginChk('480', 'W', 'D', $(this)); return false;">
-        </span>
-       </p>
-      </li>
-     </ul>
+      </div>
+     </div>
+     <div class="thumbnail_list">
+      <ul>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301721356', this);" type="button">
+        </button>
+        <a href="/Product/301721356">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/56/301721356.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Neige Bullet Chain (네즈 불렛 체인) SIlver
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            85,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             5
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301716115', this);" type="button">
+        </button>
+        <a href="/Product/301716115">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/15/301716115.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Toque Trophy Tote S (토크 트로피 토트 스몰) Clam White
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            325,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             81
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301716105', this);" type="button">
+        </button>
+        <a href="/Product/301716105">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/05/301716105.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Perfec Cosmetic Shoulder (퍼펙 코스메틱 숄더) White
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            285,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             31
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301712322', this);" type="button">
+        </button>
+        <a href="/Product/301712322">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/22/301712322.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="front">
+            [05/24 예약배송]
+           </div>
+           <div class="product ellipsis multiline">
+            Festone Saddle (페스토네 새들) White
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            235,000
+           </span>
+          </div>
+          <div class="labels">
+           <span class="reservation">
+            예약
+           </span>
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             251
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301711100', this);" type="button">
+        </button>
+        <a href="/Product/301711100">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/00/301711100.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Water Ball Long Strap (워터볼 롱 스트랩) Yellow
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            95,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             14
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301711102', this);" type="button">
+        </button>
+        <a href="/Product/301711102">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/02/301711102.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Water Ball Long Strap (워터볼 롱 스트랩) Pink
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            95,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             9
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301711103', this);" type="button">
+        </button>
+        <a href="/Product/301711103">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/03/301711103.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Toque Trophy Tote S (토크 트로피 토트 스몰) Black
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            325,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             90
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301690230', this);" type="button">
+        </button>
+        <a href="/Product/301690230">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/30/301690230.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Leash Charm (리쉬 참) Blue
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            45,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             4
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301707484', this);" type="button">
+        </button>
+        <a href="/Product/301707484">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/84/301707484.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Lifesaver Charm (라이프세이버 참) Green
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            65,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             41
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301696124', this);" type="button">
+        </button>
+        <a href="/Product/301696124">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/24/301696124.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Water Ball Short Strap (워터볼 숏 스트랩) Deep Green
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            65,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="review_count">
+            <span>
+             <em>
+              5.0
+             </em>
+             <b>
+              (1)
+             </b>
+            </span>
+           </div>
+           <div class="like_count">
+            <span>
+             10
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301696123', this);" type="button">
+        </button>
+        <a href="/Product/301696123">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/23/301696123.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Water Ball Short Strap (워터볼 숏 스트랩) Lemon Yellow
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            65,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             8
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301696122', this);" type="button">
+        </button>
+        <a href="/Product/301696122">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/22/301696122.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Water Ball Short Strap (워터볼 숏 스트랩) White
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            65,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             12
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301690232', this);" type="button">
+        </button>
+        <a href="/Product/301690232">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/32/301690232.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Leash Charm (리쉬 참) Rainbow
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            45,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             8
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301690231', this);" type="button">
+        </button>
+        <a href="/Product/301690231">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/31/301690231.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Leash Charm (리쉬 참) Red
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            45,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             4
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301707485', this);" type="button">
+        </button>
+        <a href="/Product/301707485">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/85/301707485.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="product ellipsis multiline">
+            Lifesaver Charm (라이프세이버 참) Red
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            65,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             9
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301691821', this);" type="button">
+        </button>
+        <a href="/Product/301691821">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/21/301691821.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="front">
+            [05/17 예약배송]
+           </div>
+           <div class="product ellipsis multiline">
+            Perfec Look At Me One Shoulder S (퍼펙 룩앳미 원 숄더 스몰) Martini Yellow
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            275,000
+           </span>
+          </div>
+          <div class="labels">
+           <span class="reservation">
+            예약
+           </span>
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             57
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301685737', this);" type="button">
+        </button>
+        <a href="/Product/301685737">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/37/301685737.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="front">
+            [포토후기 이벤트] | [2차: 05/24 예약배송]
+           </div>
+           <div class="product ellipsis multiline">
+            Festone Shoulder L (페스토네 숄더 라지) Brown
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            295,000
+           </span>
+          </div>
+          <div class="labels">
+           <span class="reservation">
+            예약
+           </span>
+          </div>
+          <div class="react">
+           <div class="review_count">
+            <span>
+             <em>
+              4.6
+             </em>
+             <b>
+              (5)
+             </b>
+            </span>
+           </div>
+           <div class="like_count">
+            <span>
+             1,088
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301685736', this);" type="button">
+        </button>
+        <a href="/Product/301685736">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/36/301685736.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="front">
+            [포토후기 이벤트] | [2차: 05/24 예약배송]
+           </div>
+           <div class="product ellipsis multiline">
+            Festone Shoulder L (페스토네 숄더 라지) Black
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            295,000
+           </span>
+          </div>
+          <div class="labels">
+           <span class="reservation">
+            예약
+           </span>
+          </div>
+          <div class="react">
+           <div class="review_count">
+            <span>
+             <em>
+              4.8
+             </em>
+             <b>
+              (8)
+             </b>
+            </span>
+           </div>
+           <div class="like_count">
+            <span>
+             1,024
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301685735', this);" type="button">
+        </button>
+        <a href="/Product/301685735">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/35/301685735.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="front">
+            [포토후기 이벤트] | [2차: 05/10 예약배송]
+           </div>
+           <div class="product ellipsis multiline">
+            Festone Basket Piccolo (페스토네 바스켓 피콜로) Blush Pink
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            235,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="like_count">
+            <span>
+             182
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301685716', this);" type="button">
+        </button>
+        <a href="/Product/301685716">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/16/301685716.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="front">
+            [포토후기 이벤트] | [1차: 05/10, 2차: 05/16, 3차: 05/24 예약배송]
+           </div>
+           <div class="product ellipsis multiline">
+            Festone Basket Piccolo (페스토네 바스켓 피콜로) Deep Green
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            235,000
+           </span>
+          </div>
+          <div class="labels">
+           <span class="reservation">
+            예약
+           </span>
+          </div>
+          <div class="react">
+           <div class="review_count">
+            <span>
+             <em>
+              4.7
+             </em>
+             <b>
+              (3)
+             </b>
+            </span>
+           </div>
+           <div class="like_count">
+            <span>
+             428
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+       <li>
+        <button class="heart" name="button" onclick="ELK.SetMyHeart('301685753', this);" type="button">
+        </button>
+        <a href="/Product/301685753">
+         <div class="img">
+          <img alt="" src="//image.wconcept.co.kr/productimg/image/img1/53/301685753.jpg?RS=300"/>
+         </div>
+         <div class="text max">
+          <div class="text_wrap">
+           <div class="brand">
+            vunque
+           </div>
+           <div class="front">
+            [포토후기 이벤트]
+           </div>
+           <div class="product ellipsis multiline">
+            Toque Baguette Square Shoulder M (토크 바게트 스퀘어 숄더 미듐) Martini Yellow
+           </div>
+          </div>
+          <div class="price">
+           <span class="discount_price">
+            345,000
+           </span>
+          </div>
+          <div class="labels">
+          </div>
+          <div class="react">
+           <div class="review_count">
+            <span>
+             <em>
+              5.0
+             </em>
+             <b>
+              (1)
+             </b>
+            </span>
+           </div>
+           <div class="like_count">
+            <span>
+             75
+            </span>
+           </div>
+          </div>
+         </div>
+        </a>
+       </li>
+      </ul>
+     </div>
      <ul class="pagination">
       <li class="active" data-tagging-click-key="" name="elk_pagination">
        <a data-page="1" data-scope="1" href="javascript:;">
         1
        </a>
       </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="2" data-scope="1" href="javascript:;">
+        2
+       </a>
+      </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="3" data-scope="1" href="javascript:;">
+        3
+       </a>
+      </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="4" data-scope="1" href="javascript:;">
+        4
+       </a>
+      </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="5" data-scope="1" href="javascript:;">
+        5
+       </a>
+      </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="6" data-scope="1" href="javascript:;">
+        6
+       </a>
+      </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="7" data-scope="1" href="javascript:;">
+        7
+       </a>
+      </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="8" data-scope="1" href="javascript:;">
+        8
+       </a>
+      </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="9" data-scope="1" href="javascript:;">
+        9
+       </a>
+      </li>
+      <li class="" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="10" data-scope="1" href="javascript:;">
+        10
+       </a>
+      </li>
+      <li class="next" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="11" data-scope="1" href="javascript:;">
+        next
+       </a>
+      </li>
+      <li class="last" data-tagging-click-key="" name="elk_pagination">
+       <a data-page="17" data-scope="1" href="javascript:;">
+        last
+       </a>
+      </li>
      </ul>
-     <input id="hdnLogin" type="hidden" value="N">
-      <script>
-       $("#hdnLogin").val(("False").toUpperCase());
-      </script>
-     </input>
+     <script src="/assets/js/libs/HoldOn.min.js">
+     </script>
     </div>
-   </div>
-   <div class="layer layer_wdna layer_wdna_style">
-    <button class="slick-arrow slick-prev" onclick="javascript: WDNA.PlayPrev();">
-     prev
-    </button>
-    <button class="slick-arrow slick-next" onclick="javascript: WDNA.PlayNext();">
-     next
-    </button>
-    <div class="container">
-     <button class="btn_close" type="button">
-      닫기
-     </button>
-     <div class="cont">
-     </div>
-    </div>
-    <span>
-    </span>
-   </div>
-   <!-- 최초 공유 레이어 -->
-   <div class="layer layer_wdna layer_wdna--upload">
-    <!-- js active -->
-    <div class="layer_cont">
-     <h1 class="layer_tit">
-      <span>
-       WDNA STYLE
-      </span>
-      공유
-     </h1>
-     <h3 class="layer_wdna--desc">
-      업로드한 스타일이 채택되면
-      <br/>
-      1,000 POINT가 즉시 지급됩니다!
-     </h3>
-     <div class="layer_wdna--choose">
-      <div class="layer_wdna--item insta">
-      </div>
-      <div class="layer_wdna--item camera">
-       <span class="" id="deviceSelect">
-        파일첨부
-       </span>
-      </div>
-     </div>
-     <div class="layer_wdna--notice">
-      <p>
-       스타일 공유 방법 및 혜택
-      </p>
-      <ul class="layer_wdna--list">
-       <li>
-        1. ‘인스타그램’ 또는 ‘파일찾기’를 통해 W컨셉 쇼핑상품 스타일링 업로드
-       </li>
-       <li>
-        2. 내부 승인절차 후 게시여부 결정 (MY PAGE &gt; 나의 활동 &gt; WDNA참여내역에서 진행상황 확인)
-       </li>
-       <li>
-        3. 채택이 완료되면 참여하신 ID로 1,000POINT 지급!
-       </li>
-       <li>
-        4. 인스타그램 등록은 Internet Explore 11 버전 이하에서는 지원하지 않습니다.
-       </li>
-       <li>
-        5. 본 컨텐츠는 마케팅 목적으로 활용 될 수도 있습니다.
-       </li>
-      </ul>
-     </div>
-     <button class="btn_close" type="button">
-      닫기
-     </button>
-    </div>
-   </div>
-   <div class="layer layer_wdna layer_wdna--sns">
-    <div class="layer_cont">
-     <h1 class="layer_tit">
-      <span>
-       WDNA STYLE
-      </span>
-      공유
-     </h1>
-     <div class="layer_wdna--body custom_scroll">
-      <ul class="layer_wdna--list">
-      </ul>
-     </div>
-     <div class="layer_wdna--foot">
-      <button class="btn btn_prev" type="button">
-       이전단계
-      </button>
-      <button class="btn black btn_complete select" type="button">
-       선택완료
-      </button>
-     </div>
-     <button class="btn_close" type="button">
-      닫기
-     </button>
-    </div>
-   </div>
-   <div class="layer layer_wdna layer_wdna--input">
-    <!-- js active -->
-    <div class="layer_cont">
-     <h1 class="layer_tit">
-      <span>
-       WDNA STYLE
-      </span>
-      공유
-     </h1>
-     <div class="layer_wdna--body custom_scroll ps-container ps-theme-default ps-active-y" data-ps-id="df544292-6516-363a-d04f-7575f9fde433">
-      <div class="layer_wdna--choose">
-       <h2 class="layer_wdna--title">
-        선택한 이미지
-       </h2>
-       <ul class="layer_wdna--select ui-sortable">
-        <li style="display:none;">
-         <input class="uploadfile0" data-index="0" id="uploadfile0" name="uploadfile0" style="display:none;" type="file"/>
-        </li>
-        <li style="display:none;">
-         <input class="uploadfile1" data-index="1" id="uploadfile1" name="uploadfile1" style="display:none;" type="file"/>
-        </li>
-        <li style="display:none;">
-         <input class="uploadfile2" data-index="2" id="uploadfile2" name="uploadfile2" style="display:none;" type="file"/>
-        </li>
-        <li style="display:none;">
-         <input class="uploadfile3" data-index="3" id="uploadfile3" name="uploadfile3" style="display:none;" type="file"/>
-        </li>
-        <li style="display:none;">
-         <input class="uploadfile4" data-index="4" id="uploadfile4" name="uploadfile4" style="display:none;" type="file"/>
-        </li>
-        <li class="layer_wdna--add ui-state-disabled">
-         <img src="//static.wconcept.co.kr/web/images/wdna/insta-thumb.jpg"/>
-         <span class="file_upload" id="btnFileUpload">
-          파일 첨부
-          <input type="file"/>
-         </span>
-        </li>
-       </ul>
-       <p class="layer_wdna--alert">
-        첫번째 사진이 대표이미지 입니다. 이미지를 드래그하여 순서를 변경해주세요.
-       </p>
-      </div>
-      <div class="layer_wdna--keyword">
-       <h2 class="layer_wdna--title">
-        키워드
-       </h2>
-       <div class="layer_wdna--form">
-        <input id="txtkeyword1" name="txtkeyword1" placeholder="키워드 입력 후 엔터를 누르세요.(최대10개)" type="text"/>
-        <div class="layer_wdna--alert layer_wdna--alert_tip">
-         키워드에 자신이 구매한 제품의 브랜드명을 입력하면 채택 가능성이 더 높아요!
-        </div>
-       </div>
-       <ul class="layer_wdna--keywordList">
-       </ul>
-      </div>
-      <div class="layer_wdna--instaID">
-       <h2 class="layer_wdna--title">
-        인스타그램 아이디
-       </h2>
-       <div class="layer_wdna--form">
-        <input id="txt_instaID" name="txt_instaID" placeholder="인스타그램 아이디가 있을 경우 입력해주세요." type="text"/>
-       </div>
-      </div>
-      <div class="layer_wdna--product">
-       <h2 class="layer_wdna--title">
-        관련상품
-       </h2>
-       <ul class="layer_wdna--select ui-sortable">
-        <li class="layer_wdna--add ui-state-disabled">
-         <img onerror="this.src='//static.wconcept.co.kr/mobile/images/common/onerror_img.png'" src="//static.wconcept.co.kr/web/images/wdna/insta-thumb.jpg"/>
-         <span class="file_upload" id="btnSelectSearchSelected">
-          파일 첨부
-         </span>
-        </li>
-       </ul>
-       <p class="layer_wdna--alert">
-        이미지를 드래그하여 순서를 변경해주세요.
-       </p>
-      </div>
-      <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
-       <div class="ps-scrollbar-x" style="left: 0px; width: 0px;" tabindex="0">
-       </div>
-      </div>
-      <div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px; height: 496px;">
-       <div class="ps-scrollbar-y" style="top: 0px; height: 235px;" tabindex="0">
-       </div>
-      </div>
-     </div>
-     <div class="layer_wdna--foot">
-      <button class="btn btn_prev" type="button">
-       이전단계
-      </button>
-      <button class="btn black btn_complete" type="button">
-       등록완료
-      </button>
-     </div>
-     <button class="btn_close" type="button">
-      닫기
-     </button>
-    </div>
-   </div>
-   <!-- layer_wdna--addProduct : empty -->
-   <!-- 관련상품 추가영역 -->
-   <div class="layer layer_wdna layer_wdna--addProduct">
-    <!-- js active -->
-    <div class="layer_cont">
-     <h1 class="layer_tit">
-      관련상품 추가
-     </h1>
-     <div class="layer_wdna--body custom_scroll">
-      <ul class="layer_wdna--tabs">
-       <li class="layer_wdna--tab active" data-target="#layerWdnaOrder">
-        주문내역
-       </li>
-       <li class="layer_wdna--tab" data-target="#layerWdnaSearch">
-        검색
-       </li>
-      </ul>
-      <!-- tabContents : 주문내역 -->
-      <div class="layer_wdna--tabContents active" id="layerWdnaOrder">
-       <!-- date -->
-       <div class="layer_wdna--datepicker">
-        <button class="btn_date_term active" onclick="javascript: WDNA.selectOrderList('lastMonth', 1, '');" title="최근 1개월" type="button">
-         최근 1개월
-        </button>
-        <button class="btn_date_term" onclick="javascript: WDNA.selectOrderList('oneMonth', 1, '');" title="1개월" type="button">
-         4 월
-        </button>
-        <button class="btn_date_term" onclick="javascript: WDNA.selectOrderList('twoMonth', '');" title="2개월" type="button">
-         3 월
-        </button>
-        <div class="date_input_wrap">
-         <div class="datepicker dp1">
-          <input type="text" value="2022-04-10"/>
-         </div>
-         <span>
-          ~
-         </span>
-         <div class="datepicker dp2">
-          <input type="text" value="2022-05-10"/>
-         </div>
-        </div>
-        <button class="btn_date_search" onclick="javascript: WDNA.selectOrderList('rangeInput', 1);" title="조회" type="submit">
-         조회
-        </button>
-       </div>
-       <div id="orderList">
-       </div>
-      </div>
-      <!-- tabContents : 검색 -->
-      <div class="layer_wdna--tabContents" id="layerWdnaSearch">
-       <div class="layer_wdna--form">
-        <input id="txtkeyword2" name="txtkeyword2" placeholder="상품을 검색해주세요." type="text"/>
-        <button class="icon icon-search icon-l">
-         검색
-        </button>
-       </div>
-       <div class="filter_wrap">
-        <div class="filter_lst">
-         <h4>
-          FILTER
-          <button class="btn_toggle" data-depth3="false" data-iscategory="false" data-target=".category_wrap" type="button">
-          </button>
-         </h4>
-         <ul class="lst_chk">
-          <li data-open="false" data-target=".depth.category_wrap" style="display: block">
-           <button type="button">
-            CATEGORY
-           </button>
-          </li>
-          <li data-open="false" data-target=".depth.brand" style="display: block">
-           <button type="button">
-            BRAND
-           </button>
-          </li>
-          <li data-open="false" data-target=".depth.price">
-           <button type="button">
-            PRICE
-           </button>
-          </li>
-          <li data-open="false" data-target=".depth.benefit">
-           <button type="button">
-            BENEFIT
-           </button>
-          </li>
-          <li data-open="false" data-target=".depth.color">
-           <button type="button">
-            COLOR
-           </button>
-          </li>
-          <li data-open="false" data-target=".depth.discount">
-           <button type="button">
-            DISCOUNT
-           </button>
-          </li>
-         </ul>
-        </div>
-        <div class="filter_con">
-         <!-- category -->
-         <div class="depth category_wrap">
-          <ul class="category_lst">
-          </ul>
-          <div class="category_con">
-           <ul class="category women">
-           </ul>
-           <ul class="category men">
-           </ul>
-           <ul class="category life">
-           </ul>
-           <ul class="category beauty">
-           </ul>
-          </div>
-         </div>
-         <!-- //category -->
-         <!-- brand -->
-         <ul class="depth brand">
-          <p class="tag_input">
-           <input id="elk_brand" placeholder="브랜드 검색" type="text"/>
-           <button class="icon icon-del" id="btnBrandDel" onclick="ELK.InitBrand();" type="button">
-            삭제
-           </button>
-           <button class="icon icon-search" id="btnBrand" type="submit">
-            검색
-           </button>
-          </p>
-          <ul class="tab_array">
-           <li class="active" data-type="best">
-            <a href="#chk_best">
-             BEST
-            </a>
-           </li>
-           <li data-type="en">
-            <a href="#chk_abc">
-             ABC
-            </a>
-           </li>
-           <li data-type="ko">
-            <a href="#chk_ko">
-             가나다
-            </a>
-           </li>
-          </ul>
-          <div class="array_wrap" data-ps-id="aef523b1-f0fa-c825-6ed6-d7fc04e1426f">
-           <!-- BEST -->
-           <div class="lst_chk best active" id="chk_best" style="display: block;">
-           </div>
-           <!-- ABC -->
-           <div class="lst_chk abc" id="chk_abc" style="display: none;">
-           </div>
-           <!-- 가나다 -->
-           <div class="lst_chk ko" id="chk_ko" style="display: none;">
-           </div>
-          </div>
-          <span class="all_brand">
-           <button onclick="ELK.ShowAllBrand();" style="display:none;" type="button">
-            브랜드 전체보기
-           </button>
-          </span>
-         </ul>
-         <!-- //brand -->
-         <!-- price -->
-         <ul class="depth price">
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-price="0" data-pricename="5만원 이하" name="elk_price" type="button">
-             5만원 이하
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-price="1" data-pricename="5만원 ~ 10만원" name="elk_price" type="button">
-             5만원 ~ 10만원
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-price="2" data-pricename="10만원 ~ 20만원" name="elk_price" type="button">
-             10만원 ~ 20만원
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-price="3" data-pricename="20만원 ~ 30만원" name="elk_price" type="button">
-             20만원 ~ 30만원
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-price="4" data-pricename="30만원 ~ 50만원" name="elk_price" type="button">
-             30만원 ~ 50만원
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-price="5" data-pricename="50만원 ~ 100만원" name="elk_price" type="button">
-             50만원 ~ 100만원
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-price="6" data-pricename="100만원 이상" name="elk_price" type="button">
-             100만원 이상
-            </button>
-           </p>
-          </li>
-         </ul>
-         <!-- //price -->
-         <!-- benefit -->
-         <ul class="depth benefit">
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-benefit="0" data-benefitname="무료배송" name="elk_benefit" type="button">
-             무료배송
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-benefit="1" data-benefitname="세일중" name="elk_benefit" type="button">
-             세일중
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-benefit="6" data-benefitname="단독상품" name="elk_benefit" type="button">
-             단독상품
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-benefit="2" data-benefitname="GIFT" name="elk_benefit" type="button">
-             GIFT
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-benefit="3" data-benefitname="쿠폰" name="elk_benefit" type="button">
-             쿠폰
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-benefit="4" data-benefitname="품절제외" name="elk_benefit" type="button">
-             품절제외
-            </button>
-           </p>
-          </li>
-          <li>
-           <p class="btn_group">
-            <button class="btn_sort" data-benefit="5" data-benefitname="예약/주문 상품 제외" name="elk_benefit" type="button">
-             예약/주문 상품 제외
-            </button>
-           </p>
-          </li>
-         </ul>
-         <!-- //benefit -->
-         <!-- color -->
-         <ul class="depth color">
-          <li data-color="0" data-colorname="WHITE" name="elk_color">
-           <a class="WHITE" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="1" data-colorname="GREY" name="elk_color">
-           <a class="GRAY" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="2" data-colorname="BLACK" name="elk_color">
-           <a class="BLACK" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="3" data-colorname="RED" name="elk_color">
-           <a class="RED" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="4" data-colorname="CAMEL" name="elk_color">
-           <a class="CAMEL" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="5" data-colorname="YELLOW" name="elk_color">
-           <a class="YELLOW" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="6" data-colorname="GREEN" name="elk_color">
-           <a class="GREEN" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="7" data-colorname="BLUE" name="elk_color">
-           <a class="BLUE" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="8" data-colorname="NAVY" name="elk_color">
-           <a class="NAVY" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="9" data-colorname="PURPLE" name="elk_color">
-           <a class="PURPLE" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="10" data-colorname="PINK" name="elk_color">
-           <a class="PINK" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="11" data-colorname="BROWN" name="elk_color">
-           <a class="BROWN" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="12" data-colorname="PASTEL" name="elk_color">
-           <a class="PASTEL" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="13" data-colorname="PATTERN" name="elk_color">
-           <a class="PATTERN" href="javascript:;">
-           </a>
-          </li>
-          <li data-color="14" data-colorname="METALLIC" name="elk_color">
-           <a class="METALLIC" href="javascript:;">
-           </a>
-          </li>
-         </ul>
-         <!-- //color -->
-         <!-- discount -->
-         <ul class="depth discount">
-          <div class="disc">
-           <div class="disc_slider ix-range-slider-apply" data-ix-options="min:0; max:100; values:0 100; gap:1; number-format:true; add-last-str:%25;">
-            <div class="ix-slider-bar">
-             <div class="ix-progress" style="left: 0%; width: 100%;">
-             </div>
-             <a class="ix-min-icon" href="javascript:;" style="left: 0%;">
-             </a>
-             <a class="ix-max-icon" href="javascript:;" style="left: 100%;">
-             </a>
-             <span class="txt txt_min">
-              0
-             </span>
-             <span class="txt txt_mid">
-              50
-             </span>
-             <span class="txt txt_max">
-              100
-             </span>
-            </div>
-            <div class="bx_inp">
-             <input class="ix-min-input" id="elk_discount_s" maxlength="2" type="text"/>
-             <span>
-              ~
-             </span>
-             <input class="ix-max-input" id="elk_discount_e" maxlength="3" type="text"/>
-            </div>
-           </div>
-          </div>
-         </ul>
-         <!-- //discount -->
-        </div>
-        <ul class="filter_chk" style="display:none;">
-        </ul>
-        <div class="filter_apply">
-         <button class="reset" type="button">
-          초기화
-         </button>
-         <button class="apply" type="button">
-          필터 적용
-         </button>
-        </div>
-        <button class="filter_close" onclick="ELK.CloseFilter();" type="button">
-         닫기
-        </button>
-       </div>
-       <!-- sort -->
-       <div class="sort">
-        <span class="sort_total">
-         <em id="searchTotalCount">
-         </em>
-         개의 상품
-        </span>
-        <div class="sort_sel">
-         <button type="button">
-          40개씩
-         </button>
-         <ul class="" id="elk_size">
-          <!-- js active -->
-          <li class="active" data-size="40" name="elk_size">
-           <a href="#">
-            40개씩
-           </a>
-          </li>
-          <li data-size="60" name="elk_size">
-           <a href="#">
-            60개씩
-           </a>
-          </li>
-          <li data-size="80" name="elk_size">
-           <a href="#">
-            80개씩
-           </a>
-          </li>
-         </ul>
-        </div>
-        <div class="sort_sel">
-         <button class="" type="button">
-          판매순
-          <em>
-           i
-          </em>
-         </button>
-         <!-- 판매순(.sold)선택시 $('button').addClass('.sold_active')처리 부탁드립니다. -->
-         <ul id="elk_sort">
-          <!-- js active -->
-          <li class="active" data-sort="0" name="elk_sort">
-           <a href="#">
-            신상품순
-           </a>
-          </li>
-          <li class="sold" data-sort="1" name="elk_sort">
-           <a href="#">
-            판매순
-            <em>
-             i
-            </em>
-           </a>
-          </li>
-          <!-- 판매순(.sold)선택시 $('button').addClass('.sold_active')처리 부탁드립니다. -->
-          <li data-sort="3" name="elk_sort">
-           <a href="#">
-            낮은 가격 순
-           </a>
-          </li>
-          <li data-sort="4" name="elk_sort">
-           <a href="#">
-            높은 가격 순
-           </a>
-          </li>
-          <li data-sort="5" name="elk_sort">
-           <a href="#">
-            리뷰 순
-           </a>
-          </li>
-         </ul>
-         <div class="sold_tooltip">
-          <p>
-           최근 한달간 많이 판매된 상품을 누적한 기준으로 정렬합니다.
-          </p>
-         </div>
-        </div>
-       </div>
-       <div class="productList" id="productList">
-       </div>
-      </div>
-     </div>
-     <div class="layer_wdna--foot">
-      <button class="btn btn_prev" id="btnResetSearchSelected" type="button">
-       이전 단계
-      </button>
-      <button class="btn black btn_complete" type="button">
-       선택완료
-      </button>
-     </div>
-     <button class="btn_close" type="button">
-      닫기
-     </button>
-    </div>
-   </div>
-   <!-- layer_wdna--end -->
-   <div class="layer layer_wdna layer_wdna--complete">
-    <div class="layer_cont">
-     <h1 class="layer_tit">
-      <span>
-       WDNA STYLE
-      </span>
-      공유
-     </h1>
-     <div class="layer_wdna--body">
-      <h2 class="layer_wdna--greeting">
-       공유해주셔서 감사합니다.
-      </h2>
-      <p class="layer_wdna--info">
-       공유해주신 스타일은 내부 승인 절차를 걸쳐 게시여부가 결정됩니다.
-       <br/>
-       채택이 완료되면 1,000point를 지급해드립니다!
-       <span>
-        (MY PAGE &gt; 나의 활동 &gt; WDNA 참여내역에서 진행상황 확인)
-       </span>
-      </p>
-      <button class="layer_wdna--button" type="button">
-       + 스타일 더 공유하기
-      </button>
-     </div>
-     <button class="btn_close" type="button">
-      닫기
-     </button>
-    </div>
-   </div>
-   <!-- layer_wdna_on -->
-   <div class="layer layer_wdna layer_wdna_on">
-    <div class="container">
-     <button class="btn_window" type="button">
-      창작게/창크게
-     </button>
-     <button class="btn_close" type="button">
-      닫기
-     </button>
-     <div class="cont">
-      <div class="movie">
-       <iframe allow="autoplay;" allowfullscreen="" class="video-wdna" data-ready="true" frameborder="0" height="505" mozallowfullscreen="" src="" webkitallowfullscreen="" width="932">
-       </iframe>
-      </div>
-      <p>
-       [ W컨셉 X 슈스스 TV 한혜연 ]
-      </p>
-     </div>
-    </div>
-    <span>
-    </span>
    </div>
   </section>
-  <input id="AccessToken" name="access_token" type="hidden" value="">
-   <input id="dispNo" name="dispno" type="hidden">
-    <form id="frmwdnaimage" name="frmwdnaimage">
-     <input id="file1" name="file1" type="hidden" value=""/>
-     <input id="file2" name="file2" type="hidden" value=""/>
-     <input id="file3" name="file3" type="hidden" value=""/>
-     <input id="file4" name="file4" type="hidden" value=""/>
-     <input id="file5" name="file5" type="hidden" value=""/>
+  <footer>
+   <div class="footer-wrap">
+    <!-- footer nav //-->
+    <nav class="footer footer_nav">
+     <ul>
+      <li>
+       <a href="/Etc/Company" target="_blank">
+        회사소개
+       </a>
+      </li>
+      <li>
+       <a href="/Etc/eBuyer" target="_blank">
+        입점상담
+       </a>
+      </li>
+      <li>
+       <a href="/Etc/Marketting" target="_blank">
+        제휴문의
+       </a>
+      </li>
+      <li>
+       <a href="/CustomerAgreement" target="_blank">
+        이용약관
+       </a>
+      </li>
+      <li>
+       <a class="bold" href="/CustomerPrivacy" target="_blank">
+        개인정보처리방침
+       </a>
+      </li>
+      <li>
+       <a href="/CustomerCenter/" target="_blank">
+        고객센터
+       </a>
+      </li>
+      <li>
+       <a href="/Etc/Incruit" target="_blank">
+        채용정보
+       </a>
+      </li>
+      <li>
+       <a class="en" href="//us.wconcept.com/" target="_blank">
+        GLOBAL
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <!--// footer nav -->
+    <!-- footer 하단 //-->
+    <div class="footer footer_content">
+     <div class="copyright">
+      상호명 : ㈜더블유컨셉코리아 ㅣ 대표자 : 이은철 ㅣ 주소 : 서울특별시 강남구 테헤란로 14길 16, 5층 (역삼동 라인빌딩)
+      <br/>
+      사업자등록번호 : 211-88-19183 ㅣ 통신판매업신고 : 제2009호-서울강남-00847호
+      <a class="micro_btn" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2118819183&amp;apv_perm_no=" target="_blank">
+       사업자정보확인
+      </a>
+      │ 개인정보보호책임자 : 허선희 │ 호스팅서비스 : ㈜ 더블유컨셉코리아
+      <br/>
+      COPYRIGHT ⓒ 2020 ㈜더블유컨셉코리아 ALL RIGHTS RESERVED
+     </div>
+     <div class="aside">
+      <h3>
+       소비자피해보상보험
+      </h3>
+      <p>
+       고객님은 안전거래를 위해 현금 결제 시, Wconcept 에서 가입한
+       <br/>
+       소비자피해보상보험 서비스를 이용하실 수 있습니다.
+      </p>
+      <span>
+       보상대상 : 미배송/반품, 환불거부/쇼핑몰부도
+      </span>
+      <a class="micro_btn" href="https://mall.sgic.co.kr/csh/iutf/sh/shop/CSHINFO004VM0.mvc?tm=3&amp;q_sk=2&amp;q_sv=2118819183" target="_blank">
+       서비스 가입사실 확인
+      </a>
+     </div>
+    </div>
+    <!--// footer 하단 -->
+   </div>
+  </footer>
+  <div id="quick_menu">
+   <div class="side-bar">
+    <ul>
+     <li>
+      <button id="btnQuickAlarm" name="button" type="button">
+       <span class="icon icon-commenting">
+       </span>
+       <span class="number" id="alarmCnt">
+        0
+       </span>
+      </button>
+     </li>
+     <li>
+      <button id="btnQuickHistory" name="button" type="button">
+       <span class="icon icon-clock">
+       </span>
+       <span class="number" id="historyCnt">
+        0
+       </span>
+      </button>
+     </li>
+    </ul>
+    <div class="to-direction">
+     <span class="to-top">
+      <span class="icon icon-arrow-up">
+      </span>
+     </span>
+     <span class="to-bottom">
+      <span class="icon icon-arrow-down">
+      </span>
+     </span>
+    </div>
+   </div>
+   <div class="quick_content item1 active" id="quick_content_notice">
+    <form id="frmNotice">
+     <input name="totalCount" type="hidden" value="0">
+      <input id="isLogin" name="isLogin" type="hidden" value="False">
+      </input>
+     </input>
     </form>
-    <footer>
-     <div class="footer-wrap">
-      <!-- footer nav //-->
-      <nav class="footer footer_nav">
-       <ul>
-        <li>
-         <a href="/Etc/Company" target="_blank">
-          회사소개
-         </a>
-        </li>
-        <li>
-         <a href="/Etc/eBuyer" target="_blank">
-          입점상담
-         </a>
-        </li>
-        <li>
-         <a href="/Etc/Marketting" target="_blank">
-          제휴문의
-         </a>
-        </li>
-        <li>
-         <a href="/CustomerAgreement" target="_blank">
-          이용약관
-         </a>
-        </li>
-        <li>
-         <a class="bold" href="/CustomerPrivacy" target="_blank">
-          개인정보처리방침
-         </a>
-        </li>
-        <li>
-         <a href="/CustomerCenter/" target="_blank">
-          고객센터
-         </a>
-        </li>
-        <li>
-         <a href="/Etc/Incruit" target="_blank">
-          채용정보
-         </a>
-        </li>
-        <li>
-         <a class="en" href="//us.wconcept.com/" target="_blank">
-          GLOBAL
-         </a>
-        </li>
-       </ul>
-      </nav>
-      <!--// footer nav -->
-      <!-- footer 하단 //-->
-      <div class="footer footer_content">
-       <div class="copyright">
-        상호명 : ㈜더블유컨셉코리아 ㅣ 대표자 : 이은철 ㅣ 주소 : 서울특별시 강남구 테헤란로 14길 16, 5층 (역삼동 라인빌딩)
-        <br>
-         사업자등록번호 : 211-88-19183 ㅣ 통신판매업신고 : 제2009호-서울강남-00847호
-         <a class="micro_btn" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=2118819183&amp;apv_perm_no=" target="_blank">
-          사업자정보확인
-         </a>
-         │ 개인정보보호책임자 : 허선희 │ 호스팅서비스 : ㈜ 더블유컨셉코리아
-         <br>
-          COPYRIGHT ⓒ 2020 ㈜더블유컨셉코리아 ALL RIGHTS RESERVED
-         </br>
-        </br>
-       </div>
-       <div class="aside">
+    <div class="header">
+     <h2>
+      알림
+     </h2>
+     <button class="close" name="button" onclick="javascript:closing('btnQuickAlarm');" type="button">
+     </button>
+    </div>
+    <div class="body">
+     <ul class="tab" id="NoticeTab" style="cursor:pointer;">
+      <li class="active" onclick="javascript:getNoticeList('');">
+       ALL
+      </li>
+      <li onclick="javascript:getNoticeList('01');">
+       MY
+       <i aria-hidden="true" class="fa fa-heart" style="font-size: 10px;">
+       </i>
+      </li>
+      <li onclick="javascript:getNoticeList('02');">
+       쇼핑
+      </li>
+     </ul>
+     <div class="no_alram" style="display:none;">
+      <p>
+       <span id="noticeCont">
+       </span>
+       알림 설정이 꺼져 있습니다.
+      </p>
+      <button id="goNoticePopup" name="button" type="button">
+       설정 바로가기
+      </button>
+     </div>
+     <div class="day_list" id="divAlarm">
+     </div>
+     <div class="footer">
+      <button class="btn_set" name="button" type="button">
+       설정
+      </button>
+      <button class="del_all_alram" name="button" onclick="javascript: delUserNotice(-1); return false;" type="button">
+       전체 삭제
+      </button>
+      <div class="layer_alarm_set">
+       <div class="in">
         <h3>
-         소비자피해보상보험
+         알림설정
         </h3>
-        <p>
-         고객님은 안전거래를 위해 현금 결제 시, Wconcept 에서 가입한
-         <br/>
-         소비자피해보상보험 서비스를 이용하실 수 있습니다.
-        </p>
-        <span>
-         보상대상 : 미배송/반품, 환불거부/쇼핑몰부도
-        </span>
-        <a class="micro_btn" href="https://mall.sgic.co.kr/csh/iutf/sh/shop/CSHINFO004VM0.mvc?tm=3&amp;q_sk=2&amp;q_sv=2118819183" target="_blank">
-         서비스 가입사실 확인
-        </a>
-       </div>
-      </div>
-      <!--// footer 하단 -->
-     </div>
-    </footer>
-    <div id="quick_menu">
-     <div class="side-bar">
-      <ul>
-       <li>
-        <button id="btnQuickAlarm" name="button" type="button">
-         <span class="icon icon-commenting">
-         </span>
-         <span class="number" id="alarmCnt">
-          0
-         </span>
-        </button>
-       </li>
-       <li>
-        <button id="btnQuickHistory" name="button" type="button">
-         <span class="icon icon-clock">
-         </span>
-         <span class="number" id="historyCnt">
-          0
-         </span>
-        </button>
-       </li>
-      </ul>
-      <div class="to-direction">
-       <span class="to-top">
-        <span class="icon icon-arrow-up">
-        </span>
-       </span>
-       <span class="to-bottom">
-        <span class="icon icon-arrow-down">
-        </span>
-       </span>
-      </div>
-     </div>
-     <div class="quick_content item1 active" id="quick_content_notice">
-      <form id="frmNotice">
-       <input name="totalCount" type="hidden" value="0">
-        <input id="isLogin" name="isLogin" type="hidden" value="False">
-        </input>
-       </input>
-      </form>
-      <div class="header">
-       <h2>
-        알림
-       </h2>
-       <button class="close" name="button" onclick="javascript:closing('btnQuickAlarm');" type="button">
-       </button>
-      </div>
-      <div class="body">
-       <ul class="tab" id="NoticeTab" style="cursor:pointer;">
-        <li class="active" onclick="javascript:getNoticeList('');">
-         ALL
-        </li>
-        <li onclick="javascript:getNoticeList('01');">
-         MY
-         <i aria-hidden="true" class="fa fa-heart" style="font-size: 10px;">
-         </i>
-        </li>
-        <li onclick="javascript:getNoticeList('02');">
-         쇼핑
-        </li>
-       </ul>
-       <div class="no_alram" style="display:none;">
-        <p>
-         <span id="noticeCont">
-         </span>
-         알림 설정이 꺼져 있습니다.
-        </p>
-        <button id="goNoticePopup" name="button" type="button">
-         설정 바로가기
-        </button>
-       </div>
-       <div class="day_list" id="divAlarm">
-       </div>
-       <div class="footer">
-        <button class="btn_set" name="button" type="button">
-         설정
-        </button>
-        <button class="del_all_alram" name="button" onclick="javascript: delUserNotice(-1); return false;" type="button">
-         전체 삭제
-        </button>
-        <div class="layer_alarm_set">
-         <div class="in">
-          <h3>
-           알림설정
-          </h3>
-          <ul class="alarm_set">
-           <li>
-            <span class="tooltip tooltip_icon_notice" title="MY♥ 상품의 세일, 쿠폰소식과 MY♥ 브랜드의 신상품 입고, 세일, 쿠폰 소식을 알림으로 확인하실 수 있습니다.">
-            </span>
-            <strong>
-             MY
-             <i aria-hidden="true" class="fa fa-heart" style="font-size: 10px;">
-             </i>
-             알림
-            </strong>
-            <button class="check" id="is_heartpush" name="button" type="button">
-             off
-            </button>
-           </li>
-           <li>
-            <span class="tooltip tooltip_icon_notice" title="재입고 요청상품에 대한 알림과 쇼핑백에 담긴상품의 세일, 쿠폰소식을 확인하실 수 있습니다.">
-            </span>
-            <strong>
-             쇼핑 알림
-            </strong>
-            <button class="check" id="is_shoppush" name="button" type="button">
-             off
-            </button>
-           </li>
-          </ul>
-          <button class="btn small black" id="btnSave" name="button" onclick="javascript: setUserNotice(); return false;" type="button">
-           설정저장
+        <ul class="alarm_set">
+         <li>
+          <span class="tooltip tooltip_icon_notice" title="MY♥ 상품의 세일, 쿠폰소식과 MY♥ 브랜드의 신상품 입고, 세일, 쿠폰 소식을 알림으로 확인하실 수 있습니다.">
+          </span>
+          <strong>
+           MY
+           <i aria-hidden="true" class="fa fa-heart" style="font-size: 10px;">
+           </i>
+           알림
+          </strong>
+          <button class="check" id="is_heartpush" name="button" type="button">
+           off
           </button>
-          <button class="btn_del" id="btnDel" name="button" type="button">
-           삭제
+         </li>
+         <li>
+          <span class="tooltip tooltip_icon_notice" title="재입고 요청상품에 대한 알림과 쇼핑백에 담긴상품의 세일, 쿠폰소식을 확인하실 수 있습니다.">
+          </span>
+          <strong>
+           쇼핑 알림
+          </strong>
+          <button class="check" id="is_shoppush" name="button" type="button">
+           off
           </button>
-         </div>
-        </div>
+         </li>
+        </ul>
+        <button class="btn small black" id="btnSave" name="button" onclick="javascript: setUserNotice(); return false;" type="button">
+         설정저장
+        </button>
+        <button class="btn_del" id="btnDel" name="button" type="button">
+         삭제
+        </button>
        </div>
-      </div>
-     </div>
-     <div class="quick_content item2" id="quick_content_history">
-      <form id="frmHistory">
-       <input name="maxdisp" type="hidden" value="20">
-        <input name="pageIndex" type="hidden" value="1">
-         <input name="totalCount" type="hidden" value="0">
-         </input>
-        </input>
-       </input>
-      </form>
-      <div class="header">
-       <h2>
-        Shopping History
-       </h2>
-       <button class="close" name="button" onclick="javascript:closing('btnQuickHistory');" type="button">
-       </button>
-      </div>
-      <div class="body" id="divHistory">
-      </div>
-      <div class="del_all">
-       <button del_all="" name="button" onclick="WCKHistory.ClearHistory();" type="button">
-        전체 삭제
-       </button>
       </div>
      </div>
     </div>
-    <script id="history-nodata-template" type="text/x-handlebars-template">
-     <div class="day_list">
+   </div>
+   <div class="quick_content item2" id="quick_content_history">
+    <form id="frmHistory">
+     <input name="maxdisp" type="hidden" value="20">
+      <input name="pageIndex" type="hidden" value="1">
+       <input name="totalCount" type="hidden" value="0"/>
+      </input>
+     </input>
+    </form>
+    <div class="header">
+     <h2>
+      Shopping History
+     </h2>
+     <button class="close" name="button" onclick="javascript:closing('btnQuickHistory');" type="button">
+     </button>
+    </div>
+    <div class="body" id="divHistory">
+    </div>
+    <div class="del_all">
+     <button del_all="" name="button" onclick="WCKHistory.ClearHistory();" type="button">
+      전체 삭제
+     </button>
+    </div>
+   </div>
+  </div>
+  <script id="history-nodata-template" type="text/x-handlebars-template">
+   <div class="day_list">
         <h3>쇼핑 히스토리가 없습니다.</h3>
         <p>
             W concept 이곳 저곳을 둘러보세요. <br />
             다양한 소식과 상품들을 만나실 수 있습니다.
         </p>
     </div>
-    </script>
-    <script id="history-list-template" type="text/x-handlebars-template">
-     {{#each this}}
+  </script>
+  <script id="history-list-template" type="text/x-handlebars-template">
+   {{#each this}}
         <dl class="day_list" history-title="{{group}}">
             <dt>{{group}}</dt>
             {{> history}}
         </dl>
     {{/each}}
-    </script>
-    <script id="history-partial-template" type="text/x-handlebars-template">
-     {{#each this.item}}
+  </script>
+  <script id="history-partial-template" type="text/x-handlebars-template">
+   {{#each this.item}}
     <dd class="counter">
         <button type="button" name="button" class="del" onclick="WCKHistory.Delete({{idx}}, this);">삭제</button>
         {{#if_eq area "S"}}
@@ -4362,81 +4124,97 @@
         {{/if_eq}}
     </dd>
     {{/each}}
-    </script>
-    <script src="//developers.kakao.com/sdk/js/kakao.min.js">
-    </script>
-    <script async="" defer="" src="//assets.pinterest.com/js/pinit.js">
-    </script>
-    <script src="/assets/js/libs/jquery.pjax.js">
-    </script>
-    <script src="/assets/js/libs/HoldOn.min.js">
-    </script>
-    <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.shop.min.js?v=0d4c6b93797b4aaf8a6bf671e7951531">
-    </script>
-    <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.sns.min.js?v=0d4c6b93797b4aaf8a6bf671e7951531">
-    </script>
-    <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.elk.wdna.min.js?v=0d4c6b93797b4aaf8a6bf671e7951531">
-    </script>
-    <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.elk.min.js?v=0d4c6b93797b4aaf8a6bf671e7951531">
-    </script>
-    <script type="text/javascript">
-     var ELK = new WCKELK();
-        ELK.Initialize('category');
-        ELK.RenderCategory();
+  </script>
+  <script src="/assets/js/libs/jquery.pjax.js">
+  </script>
+  <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.elk.min.js?v=3a63d18532184aa5a20eb00b6842de83">
+  </script>
+  <script type="text/javascript">
+   var BrandHeartCnt = 0;
+        var BrandAllCnt = 6694;
+        var ELK = new WCKELK();
+        ELK.Initialize('brandshop');
+        brand_builder_type();
 
-        var WDNA = new WCKELK_WDNA();
-        WDNA.Initialize();
-        setTimeout(function () {
-            WDNA.GetWDNAContent(1256);
-        }, 800);
         $(document).on('pjax:start', function (e) {
-            HoldOn.open(WDNA.OPT_INDICATOR);
+            HoldOn.open(ELK.OPT_INDICATOR);
         });
 
         $(document).on('pjax:end', function (e) {
-            if (WDNA !== undefined) {
-                WDNA = null;
-                WDNA = new WCKELK_WDNA();
-                WDNA.Initialize(true);
+            if (ELK !== undefined) {
+                ELK = null;
+                ELK = new WCKELK();
+                ELK.Initialize('brandshop');
+                ELK.RenderPjax('brandshop');
+                brand_builder_type();
                 HoldOn.close();
+                $(window).scrollTop($('#brandshop').offset().top - 70);
             }
         });
-    </script>
-    <!--마케팅로그:Footer:BizSpring (CTS_로거스크립트)//-->
-    <!-- BS CTS TRACKING SCRIPT V.20 / 13816 : CTS / DO NOT ALTER THIS SCRIPT. -->
-    <!-- COPYRIGHT (C) 2002-2016 BIZSPRING INC. L4AD ALL RIGHTS RESERVED. -->
-    <script type="text/javascript">
-     _L_LALT = "1"; /* 간접전환 일수를 넣어주세요. 별도 설정 없으면 기본 30일입니다. */
+
+        function brand_builder_type() {
+            $(".brand_visual .about_brand_slide").slick();
+
+            var about_brand_slide_l = $(".brand_visual .about_brand_slide .slide_item:not('.slick-cloned')").length;
+            $(".brand_visual .about_brand_slide .slide_p span").text(about_brand_slide_l);
+            $(".brand_visual .about_brand_slide .slide_p em").text(1);
+
+            $(".brand_visual .about_brand_slide .slide_item:not('.slick-cloned')").each(function () {
+                $(this).find(".slide_p em").text($(this).attr("data-slick-index") * 1 + 1);
+            });
+
+            if ($("#brandIntrdVideo").length) {
+                var brandVideoSrc = $("#brandIntrdVideo").attr("src");
+
+                if (/youtube/.test(brandVideoSrc)) {
+                    $("#brandIntrdVideo").attr("src", brandVideoSrc + "?enablejsapi=1&rel=0&mute=1&playsinline=1");
+                } else if (/vimeo/.test(brandVideoSrc)) {
+                    $("#brandIntrdVideo").attr("src", brandVideoSrc + "?muted=1&playsinline=1&title=0&byline=0&portrait=0");
+                } else {
+                    $("#brandIntrdVideo").attr("src", brandVideoSrc + "&muted=1&playsinline=1");
+                }
+            }
+        }
+
+        function MoveIssue(obj) {
+            $(obj).attr("href", "/Issue?Keyword=" + encodeURIComponent("vunque"));
+        }
+  </script>
+  <!--마케팅로그:Footer:BizSpring (CTS_로거스크립트)//-->
+  <!-- BS CTS TRACKING SCRIPT V.20 / 13816 : CTS / DO NOT ALTER THIS SCRIPT. -->
+  <!-- COPYRIGHT (C) 2002-2016 BIZSPRING INC. L4AD ALL RIGHTS RESERVED. -->
+  <script type="text/javascript">
+   _L_LALT = "1"; /* 간접전환 일수를 넣어주세요. 별도 설정 없으면 기본 30일입니다. */
     (function (b, s, t, c, k) { b[k] = s; b[s] = b[s] || function () { (b[s].q = b[s].q || []).push(arguments) }; var f = t.getElementsByTagName(c)[0], j = t.createElement(c); j.async = true; j.src = '//fs.bizspring.net/fs4/l4cts.v4.2.js'; f.parentNode.insertBefore(j, f); })(window, '_tcts_m', document, 'script', 'BSAnalyticsObj');
     _tcts_m('13816', 'ADEF');
-    </script>
-    <!-- END OF BS CTS TRACKING SCRIPT -->
-    <!--//마케팅로그:Footer:BizSpring (CTS_로거스크립트)-->
-    <!--마케팅로그:Footer:구글 GDN//-->
-    <script type="text/javascript">
-     /* <![CDATA[ */
+  </script>
+  <!-- END OF BS CTS TRACKING SCRIPT -->
+  <!--//마케팅로그:Footer:BizSpring (CTS_로거스크립트)-->
+  <!--마케팅로그:Footer:구글 GDN//-->
+  <script type="text/javascript">
+   /* <![CDATA[ */
         var google_conversion_id = 1011283155;
         var google_conversion_label = "wVhqCM37xgIQ0-mb4gM";
         var google_custom_params = window.google_tag_params;
         var google_remarketing_only = true;
         /* ]]> */
-    </script>
-    <script src="//www.googleadservices.com/pagead/conversion.js" type="text/javascript">
-    </script>
-    <noscript>
-     <div style="display:inline;">
-      <img alt="" height="1" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1011283155/?value=1.00¤cy_code=KRW&amp;label=wVhqCM37xgIQ0-mb4gM&amp;guid=ON&amp;script=0" style="border-style:none;" width="1">
-      </img>
-     </div>
-    </noscript>
-    <!--//마케팅로그:Footer:구글 GDN-->
-    <!--마케팅로그:Footer:구글 태그매니저//-->
-    <noscript>
-     <iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-M4CSKF" style="display:none;visibility:hidden" width="0">
-     </iframe>
-    </noscript>
-    <script language="javascript" type="text/javascript">
-     <!--
+  </script>
+  <script src="//www.googleadservices.com/pagead/conversion.js" type="text/javascript">
+  </script>
+  <noscript>
+   <div style="display:inline;">
+    <img alt="" height="1" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1011283155/?value=1.00¤cy_code=KRW&amp;label=wVhqCM37xgIQ0-mb4gM&amp;guid=ON&amp;script=0" style="border-style:none;" width="1">
+    </img>
+   </div>
+  </noscript>
+  <!--//마케팅로그:Footer:구글 GDN-->
+  <!--마케팅로그:Footer:구글 태그매니저//-->
+  <noscript>
+   <iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-M4CSKF" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <script language="javascript" type="text/javascript">
+   <!--
     (function (w, d, s, l, i) {
         w[l] = w[l] || []; w[l].push({
             'gtm.start':
@@ -4446,26 +4224,26 @@
                 '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-M4CSKF');
     //-->
-    </script>
-    <!--//마케팅로그:Footer:구글 태그매니저-->
-    <!--마케팅로그:Footer:네이버//-->
-    <!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 -->
-    <script src="//wcs.naver.net/wcslog.js" type="text/javascript">
-    </script>
-    <script type="text/javascript">
-     if (!wcs_add) var wcs_add = {};
+  </script>
+  <!--//마케팅로그:Footer:구글 태그매니저-->
+  <!--마케팅로그:Footer:네이버//-->
+  <!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 -->
+  <script src="//wcs.naver.net/wcslog.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   if (!wcs_add) var wcs_add = {};
     wcs_add["wa"] = "s_15f31f60a89e";
     if (!_nasa) var _nasa = {};
     wcs.inflow();
     wcs_do(_nasa);
-    </script>
-    <!--//마케팅로그:Footer:네이버-->
-    <!--마케팅로그:Footer:레코벨//-->
-    <script type="text/javascript">
-     window._eglqueue = window._eglqueue || [];
+  </script>
+  <!--//마케팅로그:Footer:네이버-->
+  <!--마케팅로그:Footer:레코벨//-->
+  <script type="text/javascript">
+   window._eglqueue = window._eglqueue || [];
         _eglqueue.push(['setVar', 'cuid', '3a825a40-8183-43e6-afd5-3303a18c6d63']);
         _eglqueue.push(['setVar', 'userId', '']); // optional
-        _eglqueue.push(['setVar', 'serverId', '1']);
+        _eglqueue.push(['setVar', 'serverId', '7']);
         _eglqueue.push(['setVar', 'appPushId', '']);
         _eglqueue.push(['track', 'visit']);
 
@@ -4474,22 +4252,22 @@
             s.async = true; s.defer = true; s.src = (('https:' == document.location.protocol) ? 'https' : 'http') + '://logger.eigene.io/js/logger.min.js';
             x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
         })();
-    </script>
-    <!--//마케팅로그:Footer:레코벨-->
-    <!--마케팅로그 : 와이즈 트래커-->
-    <script type="text/javascript">
-     _TRK_PI = "WDNA";
-    _TRK_WTS = "P1562635036539";
-    _TRK_WTC = "C1561425620372";
-    </script>
-    <!--<script src="/assets/js/_WCKTrackingScript/10171_Insight_WebAnalytics.js" type="text/javascript"></script>-->
-    <!--마케팅로그 : 와이즈 트래커-->
-    <!--마케팅로그:Footer:타겟팅게이츠//-->
-    <!-- WIDERPLANET  SCRIPT START 2019.6.18 -->
-    <div id="wp_tg_cts" style="display:none;">
-    </div>
-    <script type="text/javascript">
-     var wptg_tagscript_vars = wptg_tagscript_vars || [];
+  </script>
+  <!--//마케팅로그:Footer:레코벨-->
+  <!--마케팅로그 : 와이즈 트래커-->
+  <script type="text/javascript">
+   _TRK_PI = "BRAND";
+    _TRK_WTS = "";
+    _TRK_WTC = "";
+  </script>
+  <!--<script src="/assets/js/_WCKTrackingScript/10171_Insight_WebAnalytics.js" type="text/javascript"></script>-->
+  <!--마케팅로그 : 와이즈 트래커-->
+  <!--마케팅로그:Footer:타겟팅게이츠//-->
+  <!-- WIDERPLANET  SCRIPT START 2019.6.18 -->
+  <div id="wp_tg_cts" style="display:none;">
+  </div>
+  <script type="text/javascript">
+   var wptg_tagscript_vars = wptg_tagscript_vars || [];
         wptg_tagscript_vars.push(
             (function () {
                 return {
@@ -4499,13 +4277,13 @@
                     device: "web"	/*디바이스 종류  (web 또는  mobile)*/
                 };
             }));
-    </script>
-    <script async="" src="//cdn-aitg.widerplanet.com/js/wp_astg_4.0.js" type="text/javascript">
-    </script>
-    <!-- // WIDERPLANET  SCRIPT END 2019.6.18 -->
-    <!--//마케팅로그:Footer:타겟팅게이츠-->
-    <script type="text/javascript">
-     (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+  </script>
+  <script async="" src="//cdn-aitg.widerplanet.com/js/wp_astg_4.0.js" type="text/javascript">
+  </script>
+  <!-- // WIDERPLANET  SCRIPT END 2019.6.18 -->
+  <!--//마케팅로그:Footer:타겟팅게이츠-->
+  <script type="text/javascript">
+   (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
 ;r.type="text/javascript"
 ;r.integrity="sha384-RsEu4WZflrqYcEacpfoGSib3qaSvdYwT4D+DrWqeBuDarSzjwUQR1jO8gDiXZd0E"
 ;r.crossOrigin="anonymous";r.async=true
@@ -4534,11 +4312,11 @@ if ('0' != '0' && '0' != '') {
 else {
     amplitude.getInstance().init('e2f466a22250642c95aec9d60d34da42', { includeReferrer: true, includeUtm: true }, function () { });
 }
-    </script>
-    <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.amplitude.min.js?v=0d4c6b93797b4aaf8a6bf671e7951531">
-    </script>
-    <script>
-     var referrer_url = '';
+  </script>
+  <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.amplitude.min.js?v=3a63d18532184aa5a20eb00b6842de83">
+  </script>
+  <script>
+   var referrer_url = '';
     var referrer_domain, tmp = '';
 
     if (referrer_url.indexOf("//") != -1) {
@@ -4551,7 +4329,7 @@ else {
             referrer_domain = '';
         }
     }
-    var AMP_EVENT_PAGEID = 'PV_wdna'
+    var AMP_EVENT_PAGEID = 'PV_brand_105345'
         , AMP_GENDER = ''
         , AMP_AGE = '-1'
         , AMP_AGE_GROUP = '99'
@@ -4578,29 +4356,27 @@ else {
     if ('WConcept.Front.Models.Display.AmplitudeInfo' != null) {
         AMPLITUDE.PageView();
     }
-    </script>
-    <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.kinesis.min.js?v=0d4c6b93797b4aaf8a6bf671e7951531">
-    </script>
-    <script>
-     var KINESIS_SERVICE_URL = 'https://data-logdelivery.wconcept.co.kr/log-delivery';
+  </script>
+  <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.kinesis.min.js?v=3a63d18532184aa5a20eb00b6842de83">
+  </script>
+  <script>
+   var KINESIS_SERVICE_URL = 'https://data-logdelivery.wconcept.co.kr/log-delivery';
     var KINESIS_PAGE = '';
     var KINESIS_USER = '0';
 
     var KINESIS = new WCKKINESIS();
 
     KINESIS.LogPageKinesisEvent();
-    </script>
-    <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.elk.search.min.js?v=0d4c6b93797b4aaf8a6bf671e7951531">
-    </script>
-    <script>
-     var WCKELKCookie = new WCKELKCookie('elk_lastest_keyword');
+  </script>
+  <script src="//static.wconcept.co.kr/web/js/wconcept.desktop.elk.search.min.js?v=3a63d18532184aa5a20eb00b6842de83">
+  </script>
+  <script>
+   var WCKELKCookie = new WCKELKCookie('elk_lastest_keyword');
         var latestKeywordList = new latestKeywordList("elk_lastest_keyword", '');
         var WCKELKSCH = new WCKELKSearch();
 
         WCKHistory.Initialize();
         WCKELKSCH.Initialize();
-    </script>
-   </input>
-  </input>
+  </script>
  </body>
 </html>

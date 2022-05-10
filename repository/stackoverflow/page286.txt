@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   Privileges - Vote up - Stack Overflow
+   Privileges - Set bounties - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/privileges/vote-up" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/privileges/set-bounties" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="Privileges - Vote up" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Privileges - Set bounties" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1652175856,"routeName":"Privileges/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652225246,"routeName":"Privileges/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,7 +40,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fvote-up">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fset-bounties">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fvote-up">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fset-bounties">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fvote-up" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fset-bounties" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fvote-up" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fset-bounties" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -508,180 +508,191 @@
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        vote up
+        set bounties
        </h1>
        <p class="s-page-title--description">
-        <svg aria-hidden="true" class="svg-icon iconPromoteDemote" height="18" viewbox="0 0 18 18" width="18">
-         <path d="M5.5 3.5 1 8h3v4h3V8h3L5.5 3.5Z">
-         </path>
-         <path d="M11 6v3H8l4.5 5.5L17 9h-3V6h-3Z" opacity=".5">
+        <svg aria-hidden="true" class="svg-icon iconPencil" height="18" viewbox="0 0 18 18" width="18">
+         <path d="m13.68 2.15 2.17 2.17c.2.2.2.51 0 .71L14.5 6.39l-2.88-2.88 1.35-1.36c.2-.2.51-.2.71 0ZM2 13.13l8.5-8.5 2.88 2.88-8.5 8.5H2v-2.88Z">
          </path>
         </svg>
-        Moderation privilege
-                awarded at 15 reputation
+        Creation privilege
+                awarded at 75 reputation
        </p>
       </div>
      </div>
      <div class="page-description s-prose js-post-body w100">
       <h3>
-       What is voting up?
+       What is bounty?
       </h3>
       <p>
-       Voting up is how the community indicates which questions and answers are most useful and appropriate. Both posts (questions and answers) and comments may be voted up.
+       A bounty is a reputation reward you can put on a question to get it more attention for exactly one week.
       </p>
       <h3>
-       When should I vote up?
+       When should I place a bounty?
       </h3>
       <p>
-       Whenever you encounter a question, answer or comment that you feel is especially useful, vote it up!
+       In order to get good answers, you have to put effort into the question. Edit the question to provide status and progress updates. Document your own continued efforts to answer the question. This will naturally bump the question and get more people interested in it.
       </p>
       <p>
-       You have a limited number of votes per day, so use them wisely.
+       However, if after doing this, you feel a particular question
+       <em>
+        still
+       </em>
+       isn't getting enough attention, adding a bounty may help.
       </p>
       <h3>
-       How do I vote up?
+       How do I place a bounty?
       </h3>
       <p>
-       Click the large up arrow to the left of a post, or the small up arrow to the left of a comment.
+       Place a bounty by clicking on the
+       <strong>
+        start a bounty
+       </strong>
+       button. It is found
+       <em>
+        below
+       </em>
+       the question's comment area.
       </p>
       <p>
-       You can undo your vote by clicking the same button you used to vote, so click the up arrow to undo an upvote or the down arrow to undo a downvote.  To change a vote from up to down, click the down arrow, and vice versa.  Votes can only be changed for a short period of time, so be careful with those clicks!
+       Use the drop-down menu to adjust the amount of reputation you are willing to award then click on
+       <strong>
+        Start Bounty
+       </strong>
+       .
       </p>
       <h3>
-       What happens when I vote up posts?
+       What happens when I place a bounty?
       </h3>
-      <p>
-       When you vote up, you are moving that content "up" so it will be seen by more people.
-      </p>
       <ul>
        <li>
-        By default, answers are sorted by number of votes.
-        <sup>
-         1
-        </sup>
+        The question is immediately bumped to the top of the active question list.
        </li>
        <li>
-        Upvotes on a question give the asker
-        <strong>
-         +10
-        </strong>
-        reputation.
+        The question gets placed in the home page's
+        <a href="/?tab=featured">
+         <strong>
+          Bountied
+         </strong>
+         tab
+        </a>
+        for seven days.
        </li>
        <li>
-        Upvotes on an answer give the answerer
-        <strong>
-         +10
-        </strong>
-        reputation.
+        The reputation you're using for the bounty is immediately and irreversibly deducted from your reputation.
        </li>
        <li>
-        You can vote on posts
-        <strong>
-         30
-        </strong>
-        times per UTC day, plus
-        <strong>
-         10
-        </strong>
-        more times on questions only.
+        If your new reputation brings you below the requirement for any privileges, you will lose access to those privileges.
        </li>
       </ul>
       <p>
-       <sup>
-        1
-       </sup>
-       Except for the accepted answer, which appears first unless it was written by the asker.
+       It is your responsibility to award the bounty during the seven-day period or the 24-hour grace period that follows it. You will receive several e-mail and site notifications as the bounty period draws to a close.
       </p>
       <h3>
-       What happens when I vote up comments?
+       Which questions are eligible?
       </h3>
       <p>
-       By voting up comments you help ensure the comment remains visible when there are many comments on a post.
+       If you don't see the bounty button on a question, one or more of the following applies:
       </p>
       <ul>
        <li>
-        Upvotes on comments don't award the author any reputation.
+        The question has been asked in the last
+        <strong>
+         48
+        </strong>
+        hours. Give the community a chance to answer your question normally first.
        </li>
        <li>
-        You can vote on comments
-        <strong>
-         30
-        </strong>
-        times per UTC day - this is separate from post upvotes.
+        You already have three outstanding bounties. You can only have three open bounties at any one time. To start a bounty on this question, you must award at least one of the previous bounties first.
+       </li>
+       <li>
+        The question already has a bounty. To start a second bounty on this question, you must wait for the current bounty to be awarded first.
+       </li>
+      </ul>
+      <p>
+       You do not need to be the asker of the question to offer a bounty on it.
+      </p>
+      <h3>
+       How do I award the bounty?
+      </h3>
+      <p>
+       You can award a bounty by clicking on the respective button below the upvote/downvote interface. Note that:
+      </p>
+      <ul>
+       <li>
+        <a href="/help/privileges/community-wiki">
+         Community wiki questions
+        </a>
+        are eligible for bounties.
+       </li>
+       <li>
+        You can accept an answer without awarding a bounty to it.
+       </li>
+       <li>
+        You can award a bounty on an answer without accepting it.
+       </li>
+       <li>
+        You must wait 24 hours before awarding a bounty.
+       </li>
+       <li>
+        Awarding a bounty cannot be undone.
        </li>
       </ul>
       <h3>
-       Badges
+       When does a bounty expire?
       </h3>
       <p>
-       There are several badges you can receive for voting - but only votes on posts count towards badge progression:
+       Bounties expire after seven days. You will receive several notifications a few days before this happens.
       </p>
+      <p>
+       If you do not award the bounty within 24 hours of the bounty period ending,
+       <em>
+        half
+       </em>
+       the bounty value will be automatically awarded to the top voted answer posted after the bounty start, provided it has a score of at least 2. If no new answer matches this requirement, no reputation will be awarded at all, and the reputation used on the bounty will be lost forever.
+      </p>
+      <p>
+       Please note that once a bounty is started, the reputation is non-refundable under any circumstances.
+      </p>
+      <h3>
+       What badges are related to bounties?
+      </h3>
       <ul>
        <li>
-        <p>
-         The bronze
-         <strong>
-          Supporter
-         </strong>
-         badge.
-         <br/>
-         First upvote.
-        </p>
+        The bronze
+        <strong>
+         Promoter
+        </strong>
+        badge.
+        <br/>
+        First bounty you offer on your own question.
        </li>
        <li>
-        <p>
-         The bronze
-         <strong>
-          Suffrage
-         </strong>
-         badge.
-         <br/>
-         Used 30 votes in a day.
-        </p>
+        The bronze
+        <strong>
+         Investor
+        </strong>
+        badge.
+        <br/>
+        First bounty you offer on another person's question.
        </li>
        <li>
-        <p>
-         The bronze
-         <strong>
-          Vox Populi
-         </strong>
-         badge.
-         <br/>
-         Used the maximum 40 votes in a day.
-        </p>
+        The bronze
+        <strong>
+         Altruist
+        </strong>
+        badge.
+        <br/>
+        First bounty you manually award on another person's question.
        </li>
        <li>
-        <p>
-         The silver
-         <strong>
-          Civic Duty
-         </strong>
-         badge.
-         <br/>
-         Voted 300 or more times.
-        </p>
-       </li>
-       <li>
-        <p>
-         The silver
-         <strong>
-          Sportsmanship
-         </strong>
-         badge.
-         <br/>
-         Upvoted 100 competing answers.
-        </p>
-       </li>
-       <li>
-        <p>
-         The gold
-         <strong>
-          Electorate
-         </strong>
-         badge.
-         <br/>
-         Voted on 600 questions and 25% or more of total votes are on questions.
-        </p>
+        The bronze
+        <strong>
+         Benefactor
+        </strong>
+        badge.
+        <br/>
+        First bounty you manually award on your own question.
        </li>
       </ul>
      </div>
@@ -741,7 +752,7 @@
        This privilege
       </h4>
       <p>
-       Indicate when questions and answers are useful
+       Offer some of your reputation as bounty on a question
       </p>
       <div class="d-flex ai-center">
        <div class="s-progress flex--item">
@@ -749,7 +760,7 @@
         </div>
        </div>
        <div class="flex--item ml12">
-        0/15
+        0/75
        </div>
       </div>
      </div>
@@ -963,41 +974,13 @@
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Privileges/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175856.1112344626");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

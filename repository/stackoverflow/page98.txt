@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   Tags - Stack Overflow
+   Users - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/tags?page=2&amp;tab=popular" property="og:url"/>
+   <meta content="https://stackoverflow.com/users?page=480649&amp;tab=reputation&amp;filter=all" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="Tags" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Users" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -30,9 +30,64 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <meta content="noindex" name="robots"/>
+   <script>
+    StackExchange.ready(function () {
+                $("#userfilter").val("").focus().typeWatch({ highlight: true, wait: 500, captureLength: -1, callback: finished(false) });
+        var request = null;
+        function finished(all) {
+
+            var showingAll = all;
+
+            return function (txt) {
+                var search = $.trim(txt.toLowerCase());
+                if (search.length < 3 && showingAll) { return; }
+
+                    var url = "/users/filter";
+                    if (search.length < 3) {
+                        url = "/users/filter/all";
+                        showingAll = true;
+                    }
+
+                    var spinner = $("#userfilter").addSpinnerAfter({ 'margin-left': "8px", 'margin-bottom': '-4px' }).next();
+
+                    if (request){ request.abort(); }
+                    request = $.ajax({
+                        url: url,
+                        data: {
+                            search: search,
+                            filter: 'All',
+                        tab: 'Reputation'
+                    },
+                    success: function (result) {
+                        $("#user-browser").replaceWith($(result).filter("#user-browser"));
+                        $("#tabs-interval").replaceWith($(result).find("#tabs-interval"));
+                        showingAll = url == "/users/filter/all";
+                    },
+                    complete: function () { spinner.remove(); }
+                });
+            };
+        }
+
+        $(".js-manage-users").on('click', function(event) {
+            event.preventDefault();
+            var href = $(this).data('href');
+            location.replace(href);
+        });
+
+         $(".js-share-team-url").on("click", function (e) {
+            Stacks.showModal($("#share-team-url-modal").get(0), e);
+         });
+
+        $('.js-add-admin-notice .js-dismiss')
+            .click(function () {
+                $('.js-add-admin-notice').addClass("dno");
+                StackExchange.helpers.toggleUserFlags(4096, true);
+            });
+        });
+   </script>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1652175626,"routeName":"Tags/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"34d2de7c93ba9279a67c25e0f713ebbbf9cd2ec89e3234c33db03733984514f8","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652225019,"routeName":"Users/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -41,7 +96,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -53,7 +108,7 @@
    </noscript>
   </meta>
  </head>
- <body class="tags-page unified-theme">
+ <body class="users-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
@@ -68,24 +123,24 @@
      <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
      </div>
     </div>
-    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:24, destination:8})" href="https://stackoverflow.com">
+    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:25, destination:8})" href="https://stackoverflow.com">
      <span class="-img _glyph">
       Stack Overflow
      </span>
     </a>
     <ol class="s-navigation" role="presentation">
      <li class="md:d-none">
-      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:24, destination:7})" href="https://stackoverflow.co/">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="https://stackoverflow.co/">
        About
       </a>
      </li>
      <li>
-      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:24, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
+      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
        Products
       </a>
      </li>
      <li class="md:d-none">
-      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:24, destination:7})" href="/teams">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="/teams">
        For Teams
       </a>
      </li>
@@ -95,7 +150,7 @@
      </div>
      <ol class="list-reset s-anchors s-anchors__inherit">
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:24, destination:2})" href="/questions">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:2})" href="/questions">
         <span class="fs-body1 d-block">
          Stack Overflow
         </span>
@@ -105,7 +160,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:24, destination:3})" href="/teams">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:3})" href="/teams">
         <span class="fs-body1 d-block">
          Stack Overflow for Teams
         </span>
@@ -115,7 +170,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:24, destination:5})" href="https://stackoverflow.co/talent">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:5})" href="https://stackoverflow.co/talent">
         <span class="fs-body1 d-block">
          Talent
         </span>
@@ -125,7 +180,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:24, destination:6})" href="https://stackoverflow.co/advertising">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:6})" href="https://stackoverflow.co/advertising">
         <span class="fs-body1 d-block">
          Advertising
         </span>
@@ -135,7 +190,7 @@
        </a>
       </li>
       <li class="bg-black-025 bt bc-black-075 py6 px6 bbr-md">
-       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:24, destination:7})" href="https://stackoverflow.co/">
+       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="https://stackoverflow.co/">
         About the company
        </a>
       </li>
@@ -230,11 +285,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftags%3fpage%3d2%26tab%3dpopular">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d480649%26tab%3dreputation%26filter%3dall">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftags%3fpage%3d2%26tab%3dpopular">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d480649%26tab%3dreputation%26filter%3dall">
           log in
          </a>
          to customize your list.
@@ -265,12 +320,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftags%3fpage%3d2%26tab%3dpopular" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d480649%26tab%3dreputation%26filter%3dall" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftags%3fpage%3d2%26tab%3dpopular" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d480649%26tab%3dreputation%26filter%3dall" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -287,7 +342,7 @@
      <nav role="navigation">
       <ol class="nav-links">
        <li class="ps-relative">
-        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:24, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
+        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
          <div class="d-flex ai-center">
           <div class="flex--item truncate">
            Home
@@ -301,7 +356,7 @@
           Public
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:24, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
+          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
            <svg aria-hidden="true" class="svg-icon iconGlobe" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9 1C4.64 1 1 4.64 1 9c0 4.36 3.64 8 8 8 4.36 0 8-3.64 8-8 0-4.36-3.64-8-8-8ZM8 15.32a6.46 6.46 0 0 1-4.3-2.74 6.46 6.46 0 0 1-.93-5.01L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52Zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.45 6.45 0 0 1 3.83 4.51 6.45 6.45 0 0 1-1.51 5.73v.01Z">
             </path>
@@ -311,8 +366,8 @@
            </span>
           </a>
          </li>
-         <li class="ps-relative youarehere">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:true, location:24, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
+         <li class="ps-relative">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Tags
@@ -320,8 +375,8 @@
            </div>
           </a>
          </li>
-         <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:24, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
+         <li class="ps-relative youarehere">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:true, location:25, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Users
@@ -330,7 +385,7 @@
           </a>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:24, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Companies
@@ -343,7 +398,7 @@
            Collectives
           </div>
           <div class="flex--item fs-fine fc-light">
-           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:24, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
+           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:25, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
             <svg aria-hidden="true" class="svg-icon iconInfoSm" height="14" viewbox="0 0 14 14" width="14">
              <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z">
              </path>
@@ -352,7 +407,7 @@
           </div>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:24, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
+          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
            <svg aria-hidden="true" class="mt-auto fc-orange-400 svg-icon iconStarVerified" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z">
             </path>
@@ -441,7 +496,7 @@
       <p class="my16 fs-caption fc-medium">
        Find centralized, trusted content and collaborate around the technologies you use most.
       </p>
-      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:24, destination:18})" href="/collectives">
+      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:25, destination:18})" href="/collectives">
        Learn more
       </a>
      </div>
@@ -481,1038 +536,1246 @@
    </div>
    <div class="snippet-hidden" id="content">
     <div id="mainbar-full">
-     <h1 class="fs-headline1 mb16">
-      Tags
+     <h1 class="fs-headline1 mb24">
+      Users
      </h1>
-     <p class="fs-body2 wmx6 mb16">
-      A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question.
-     </p>
-     <div class="d-flex fw-wrap gs4 mb24 ai-center">
-      <a class="flex--item s-link fs-body1" href="/tags/synonyms">
-       Show all tag synonyms
-      </a>
-     </div>
-     <div class="d-flex fw-wrap">
-      <div class="flex--item ps-relative mb12">
-       <input autocomplete="off" autofocus="" class="s-input s-input__search h100" id="tagfilter" maxlength="35" name="tagfilter" placeholder="Filter by tag name" type="text"/>
+     <div class="d-flex fw-wrap ai-stretch md:d-block">
+      <div class="flex--item mb12 ps-relative">
+       <input autocomplete="off" class="s-input s-input__search h100 wmx3" id="userfilter" name="userfilter" placeholder="Filter by user" type="text"/>
        <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
         <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
         </path>
        </svg>
       </div>
-      <div class="flex--item ml-auto mb12 d-flex s-btn-group js-filter-btn">
-       <a class="js-sort-preference-change youarehere is-selected flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="popular" href="/tags?tab=popular" title="most popular tags">
-        Popular
+      <div class="flex--item ml-auto mb12 h100 d-flex s-btn-group js-filter-btn">
+       <a class="js-sort-preference-change youarehere is-selected flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="reputation" href="/users?tab=reputation" title="Users with the highest reputation scores">
+        Reputation
        </a>
-       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="name" href="/tags?tab=name" title="tags in alphabetical order">
-        Name
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="newusers" href="/users?tab=newusers" title="Users who joined in the last 30 days">
+        New users
        </a>
-       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="new" href="/tags?tab=new" title="recently created tags">
-        New
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="voters" href="/users?tab=voters" title="Users who voted more than 10 times">
+        Voters
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="editors" href="/users?tab=editors" title="Users who edited at least 5 posts">
+        Editors
+       </a>
+       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="moderators" href="/users?tab=moderators" title="Our current community moderators">
+        Moderators
        </a>
       </div>
      </div>
-     <div id="tags_list">
-      <div class="d-grid grid__4 lg:grid__3 md:grid__2 sm:grid__1 g12" id="tags-browser">
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/xml" rel="tag" title="show questions tagged 'xml'">
-           xml
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         XML (Extensible Markup Language) is a structured document format defining text encoding rules. When using this tag include additional tags such as programming language, tool sets, XML technologies bei…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          207978 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/xml?sort=newest&amp;days=1" title="32 questions tagged xml in the last 24 hours">
-           32 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/xml?sort=newest&amp;days=7" title="195 questions tagged xml in the last 7 days">
-           195 this week
-          </a>
-         </div>
+     <div class="fs-body2 mt8 mb12">
+      <div class="d-flex jc-space-between">
+       <div class="flex--item ml-auto md:ml0">
+        <div class="subtabs" id="tabs-interval">
+         <a class="js-sort-preference-change youarehere is-selected" data-nav-xhref="" data-shortcut="" data-value="all" href="/users?tab=Reputation&amp;filter=all" title="2000-01-01 to today">
+          all
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="year" href="/users?tab=Reputation&amp;filter=year" title="2022-01-01 to today">
+          year
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="quarter" href="/users?tab=Reputation&amp;filter=quarter" title="2022-04-01 to today">
+          quarter
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="month" href="/users?tab=Reputation&amp;filter=month" title="2022-05-01 to today">
+          month
+         </a>
+         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="week" href="/users?tab=Reputation&amp;filter=week" title="2022-05-08 to today">
+          week
+         </a>
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/vba" rel="tag" title="show questions tagged 'vba'">
-           vba
-          </a>
+      </div>
+     </div>
+     <div id="user-browser">
+      <div class="d-grid grid__4 lg:grid__3 md:grid__2 sm:grid__1 g12">
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/17513/paul-arnold">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/e1d74fc54a19ccff35e1bf0eead1ddec?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/17513/paul-arnold">
+          Paul Arnold
+         </a>
+         <span class="user-location">
+          United Kingdom
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Visual Basic for Applications (VBA) is an event-driven, object-oriented programming language for writing macros, used for the entire Office suite as well as other applications. VBA is not equivalent t…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          198838 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/vba?sort=newest&amp;days=1" title="57 questions tagged vba in the last 24 hours">
-           57 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/vba?sort=newest&amp;days=7" title="324 questions tagged vba in the last 7 days">
-           324 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/asp.net-mvc" rel="tag" title="show questions tagged 'asp.net-mvc'">
-           asp.net-mvc
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         The ASP.NET MVC Framework is an open source web application framework and tooling that implements a version of the model-view-controller (MVC) pattern tailored towards web applications and built upon …
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          197774 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/asp.net-mvc?sort=newest&amp;days=1" title="24 questions tagged asp.net-mvc in the last 24 hours">
-           24 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/asp.net-mvc?sort=newest&amp;days=7" title="103 questions tagged asp.net-mvc in the last 7 days">
-           103 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/spring" rel="tag" title="show questions tagged 'spring'">
-           spring
-          </a>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/17387/mikko">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/19e50897331892cc6d93fbde99f2a056?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/17387/mikko">
+          Mikko
+         </a>
+         <span class="user-location">
+          Finland
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         The Spring Framework is an open source framework for application development on the Java platform. At its core is rich support for component-based architectures, and it currently has over twenty highl…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          196026 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/spring?sort=newest&amp;days=1" title="51 questions tagged spring in the last 24 hours">
-           51 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/spring?sort=newest&amp;days=7" title="312 questions tagged spring in the last 7 days">
-           312 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/laravel" rel="tag" title="show questions tagged 'laravel'">
-           laravel
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         The Laravel framework is an open-sourced PHP web framework that allows developers to create dynamic and scalable web applications. The source code of Laravel is hosted on GitHub and released under the…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          191611 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/laravel?sort=newest&amp;days=1" title="72 questions tagged laravel in the last 24 hours">
-           72 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/laravel?sort=newest&amp;days=7" title="459 questions tagged laravel in the last 7 days">
-           459 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/database" rel="tag" title="show questions tagged 'database'">
-           database
-          </a>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/17094/cemsbr">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/c7462c029e12aa2e0f92a0035abb45a9?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/17094/cemsbr">
+          cemsbr
+         </a>
+         <span class="user-location">
+          Sao Paulo, Brazil
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="3 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         A database is an organized collection of data. It is the collection of schemas, tables, queries, reports, views, and other objects. The data are typically organized to model aspects of reality in a wa…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          186419 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/database?sort=newest&amp;days=1" title="63 questions tagged database in the last 24 hours">
-           63 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/database?sort=newest&amp;days=7" title="335 questions tagged database in the last 7 days">
-           335 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/wordpress" rel="tag" title="show questions tagged 'wordpress'">
-           wordpress
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Consider using https://wordpress.stackexchange.com . This tag is for programming-specific questions about the WordPress content management system. Off-topic questions include those about theme develop…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          183520 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/wordpress?sort=newest&amp;days=1" title="63 questions tagged wordpress in the last 24 hours">
-           63 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/wordpress?sort=newest&amp;days=7" title="338 questions tagged wordpress in the last 7 days">
-           338 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/typescript" rel="tag" title="show questions tagged 'typescript'">
-           typescript
-          </a>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/17006/acacio">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/de9a1e0fc7d34789268cc3f09090219e?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/17006/acacio">
+          acacio
+         </a>
+         <span class="user-location">
+          Switzerland
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         TypeScript is a typed superset of JavaScript that transpiles to plain JavaScript. It adds optional types, classes, interfaces, and modules to JavaScript. This tag is for questions specific to TypeScri…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          181833 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/typescript?sort=newest&amp;days=1" title="122 questions tagged typescript in the last 24 hours">
-           122 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/typescript?sort=newest&amp;days=7" title="816 questions tagged typescript in the last 7 days">
-           816 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/string" rel="tag" title="show questions tagged 'string'">
-           string
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         A string is a finite sequence of symbols, commonly used for text, though sometimes for arbitrary data.
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          174570 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/string?sort=newest&amp;days=1" title="33 questions tagged string in the last 24 hours">
-           33 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/string?sort=newest&amp;days=7" title="231 questions tagged string in the last 7 days">
-           231 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/wpf" rel="tag" title="show questions tagged 'wpf'">
-           wpf
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/16355/jgkelly">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/b0d1ce82ffa8840b8384eff3600ce1d8?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/16355/jgkelly">
+          JGKelly
+         </a>
+         <span class="user-location">
+          Jacksonville, FL
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 silver badges">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 silver badges
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Windows Presentation Foundation, or WPF, is a subsystem for rendering user interfaces in Windows-based applications.
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          165350 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/wpf?sort=newest&amp;days=1" title="20 questions tagged wpf in the last 24 hours">
-           20 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/wpf?sort=newest&amp;days=7" title="104 questions tagged wpf in the last 7 days">
-           104 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/mongodb" rel="tag" title="show questions tagged 'mongodb'">
-           mongodb
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         MongoDB is a scalable, high-performance, open source, document-oriented NoSQL database. It supports a large number of languages and application development platforms. Questions about server administra…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          161759 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/mongodb?sort=newest&amp;days=1" title="79 questions tagged mongodb in the last 24 hours">
-           79 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/mongodb?sort=newest&amp;days=7" title="576 questions tagged mongodb in the last 7 days">
-           576 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/windows" rel="tag" title="show questions tagged 'windows'">
-           windows
-          </a>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/16174/netazen">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/16174/netazen">
+          netazen
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Writing software specific to the Microsoft Windows operating system: APIs, behaviors, etc. GENERAL WINDOWS SUPPORT IS OFF-TOPIC. Support questions may be asked on https://superuser.com
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          157321 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/windows?sort=newest&amp;days=1" title="56 questions tagged windows in the last 24 hours">
-           56 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/windows?sort=newest&amp;days=7" title="265 questions tagged windows in the last 7 days">
-           265 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/xcode" rel="tag" title="show questions tagged 'xcode'">
-           xcode
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Xcode is Apple's integrated development environment (IDE). USAGE NOTE: Use this tag only for questions about the Xcode IDE itself, and not for general Mac or iOS programming topics. Use [cocoa] for Ma…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          154771 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/xcode?sort=newest&amp;days=1" title="30 questions tagged xcode in the last 24 hours">
-           30 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/xcode?sort=newest&amp;days=7" title="141 questions tagged xcode in the last 7 days">
-           141 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/postgresql" rel="tag" title="show questions tagged 'postgresql'">
-           postgresql
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/15898/flakekun">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/aef3621b8bdeaf149fa68cdc997eeb09?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/15898/flakekun">
+          flakekun
+         </a>
+         <span class="user-location">
+          Minsk, Belarus
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         PostgreSQL is an open-source, relational database management system (RDBMS) available for all major platforms including Linux, UNIX, Windows and OS X. Mention your version of Postgres when asking ques…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          153690 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/postgresql?sort=newest&amp;days=1" title="73 questions tagged postgresql in the last 24 hours">
-           73 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/postgresql?sort=newest&amp;days=7" title="418 questions tagged postgresql in the last 7 days">
-           418 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/bash" rel="tag" title="show questions tagged 'bash'">
-           bash
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/15502/nslindtner">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/77533c4710bd7a289fe2f7c86c90935a?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/15502/nslindtner">
+          nslindtner
+         </a>
+         <span class="user-location">
+          Copenhagen, Denmark
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         for questions about scripts written for the Bash command shell.  For shell scripts with syntax or other errors, please check them at https://shellcheck.net before posting here.  Questions …
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          144603 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/bash?sort=newest&amp;days=1" title="49 questions tagged bash in the last 24 hours">
-           49 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/bash?sort=newest&amp;days=7" title="244 questions tagged bash in the last 7 days">
-           244 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/oracle" rel="tag" title="show questions tagged 'oracle'">
-           oracle
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Oracle Database is a Multi-Model Database Management System created by Oracle Corporation. Do NOT use this tag for other products owned by Oracle, such as Java and MySQL.
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          142048 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/oracle?sort=newest&amp;days=1" title="41 questions tagged oracle in the last 24 hours">
-           41 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/oracle?sort=newest&amp;days=7" title="201 questions tagged oracle in the last 7 days">
-           201 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/git" rel="tag" title="show questions tagged 'git'">
-           git
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/15418/tommy">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/9a4fa20f1391fe60153eb01d50c17a8d?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/15418/tommy">
+          Tommy
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Git is an open-source distributed version control system (DVCS). Use this tag for questions related to Git usage and workflows. DO NOT USE the [github] tag for Git-related issues simply because a repo…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          141340 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/git?sort=newest&amp;days=1" title="40 questions tagged git in the last 24 hours">
-           40 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/git?sort=newest&amp;days=7" title="208 questions tagged git in the last 7 days">
-           208 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/vb.net" rel="tag" title="show questions tagged 'vb.net'">
-           vb.net
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/15215/user15215">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/0050826468986d722af364a1a5515621?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/15215/user15215">
+          user15215
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Visual Basic.NET (VB.NET) is a multi-paradigm, managed, type-safe, object-oriented computer programming language. Along with C# and F#, it is one of the main languages targeting the .NET Framework. VB…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          137028 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/vb.net?sort=newest&amp;days=1" title="14 questions tagged vb.net in the last 24 hours">
-           14 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/vb.net?sort=newest&amp;days=7" title="97 questions tagged vb.net in the last 7 days">
-           97 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/amazon-web-services" rel="tag" title="show questions tagged 'amazon-web-services'">
-           <img alt="" class="sponsor-tag-img" height="16" src="//i.stack.imgur.com/VQh8Y.png" width="18"/>
-           amazon-web-services
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Amazon Web Services (AWS) is a public-cloud: IaaS (Infrastructure as a Service) and SaaS (Software as a Service) provided by Amazon. Questions about programming and architecture are on topic. General …
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          135190 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/amazon-web-services?sort=newest&amp;days=1" title="86 questions tagged amazon-web-services in the last 24 hours">
-           86 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/amazon-web-services?sort=newest&amp;days=7" title="479 questions tagged amazon-web-services in the last 7 days">
-           479 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/multithreading" rel="tag" title="show questions tagged 'multithreading'">
-           multithreading
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/14764/rjbsmith">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/a81acdd5df93e21c39f3bda18b481049?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/14764/rjbsmith">
+          rjbsmith
+         </a>
+         <span class="user-location">
+          Sydney, Australia
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         For questions regarding multi-threading, the ability of a computer or a program to perform work concurrently or asynchronously by utilizing multiple concurrent streams of execution (generally referred…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          134374 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/multithreading?sort=newest&amp;days=1" title="24 questions tagged multithreading in the last 24 hours">
-           24 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/multithreading?sort=newest&amp;days=7" title="141 questions tagged multithreading in the last 7 days">
-           141 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/list" rel="tag" title="show questions tagged 'list'">
-           list
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/14264/maximillian">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/7c2330f1abab2e55d57235f3e540f5d0?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/14264/maximillian">
+          Maximillian
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 silver badge">
+           <span class="badge2">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 silver badge
+          </span>
+          <span aria-hidden="true" title="3 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         may refer to: a linked list (an ordered set of nodes, each referencing its successor), or a form of dynamic array. Not to be used for HTML lists, use [html-lists] instead.
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          129446 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/list?sort=newest&amp;days=1" title="52 questions tagged list in the last 24 hours">
-           52 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/list?sort=newest&amp;days=7" title="331 questions tagged list in the last 7 days">
-           331 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/firebase" rel="tag" title="show questions tagged 'firebase'">
-           firebase
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Firebase is a serverless platform for unified development of applications for mobile devices and for the web.
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          126595 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/firebase?sort=newest&amp;days=1" title="70 questions tagged firebase in the last 24 hours">
-           70 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/firebase?sort=newest&amp;days=7" title="520 questions tagged firebase in the last 7 days">
-           520 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/flutter" rel="tag" title="show questions tagged 'flutter'">
-           flutter
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/12550/beingdevious">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/78d21afd370e72fc70dd6471ce6aaaf8?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/12550/beingdevious">
+          beingdevious
+         </a>
+         <span class="user-location">
+          Florida
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         for questions about the Flutter cross-platform UI toolkit.  If your question is platform-specific, tag the platform as well (e.g., [android], [ios], etc.).  You may also wish to include t…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          125516 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/flutter?sort=newest&amp;days=1" title="182 questions tagged flutter in the last 24 hours">
-           182 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/flutter?sort=newest&amp;days=7" title="970 questions tagged flutter in the last 7 days">
-           970 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/eclipse" rel="tag" title="show questions tagged 'eclipse'">
-           eclipse
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Eclipse is an open source IDE and platform for building applications. There is a wide variety of plugins for various programming languages and other development-oriented tools (such as modeling, datab…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          123651 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/eclipse?sort=newest&amp;days=1" title="6 questions tagged eclipse in the last 24 hours">
-           6 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/eclipse?sort=newest&amp;days=7" title="49 questions tagged eclipse in the last 7 days">
-           49 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/spring-boot" rel="tag" title="show questions tagged 'spring-boot'">
-           spring-boot
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/12426/kelvin-quee">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/f38acd3e70b91e9ce18d88d6f8d09b34?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/12426/kelvin-quee">
+          Kelvin Quee
+         </a>
+         <span class="user-location">
+          Singapore, Singapore
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="3 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Spring Boot is a framework that allows to easily create Spring-powered, production-grade applications and services with the absolute minimum fuss. It takes an opinionated view of the Spring platform d…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          121493 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/spring-boot?sort=newest&amp;days=1" title="92 questions tagged spring-boot in the last 24 hours">
-           92 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/spring-boot?sort=newest&amp;days=7" title="473 questions tagged spring-boot in the last 7 days">
-           473 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/dataframe" rel="tag" title="show questions tagged 'dataframe'">
-           dataframe
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         A data frame is a 2D tabular data structure. Usually, it contains data where rows are observations and columns are variables and are allowed to be of different types (as distinct from an array or matr…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          119020 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/dataframe?sort=newest&amp;days=1" title="96 questions tagged dataframe in the last 24 hours">
-           96 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/dataframe?sort=newest&amp;days=7" title="573 questions tagged dataframe in the last 7 days">
-           573 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/azure" rel="tag" title="show questions tagged 'azure'">
-           azure
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/12127/peter-yovich">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/38e08ad0d4b106ec4a4564fa517a92a8?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/12127/peter-yovich">
+          Peter Yovich
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Microsoft Azure is a Platform as a Service and Infrastructure as a Service cloud computing platform. Use this tag for programming questions concerning Azure. General server help can be obtained at Sup…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          117872 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/azure?sort=newest&amp;days=1" title="66 questions tagged azure in the last 24 hours">
-           66 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/azure?sort=newest&amp;days=7" title="333 questions tagged azure in the last 7 days">
-           333 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/react-native" rel="tag" title="show questions tagged 'react-native'">
-           react-native
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         React Native is a JavaScript library used to build native mobile apps using React. The focus of React Native is on developer efficiency across all the platforms you care about - learn once, write anyw…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          116128 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/react-native?sort=newest&amp;days=1" title="92 questions tagged react-native in the last 24 hours">
-           92 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/react-native?sort=newest&amp;days=7" title="506 questions tagged react-native in the last 7 days">
-           506 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/algorithm" rel="tag" title="show questions tagged 'algorithm'">
-           algorithm
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/12028/droom">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/8d42891b01c809b50c9809d458c5c175?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/12028/droom">
+          droom
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         An algorithm is a sequence of well-defined steps that defines an abstract solution to a problem. Use this tag when your issue is related to algorithm design.
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          114036 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/algorithm?sort=newest&amp;days=1" title="26 questions tagged algorithm in the last 24 hours">
-           26 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/algorithm?sort=newest&amp;days=7" title="173 questions tagged algorithm in the last 7 days">
-           173 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/docker" rel="tag" title="show questions tagged 'docker'">
-           docker
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         For questions about building and running Docker containers. DOCKER QUESTIONS MUST BE SPECIFICALLY RELATED TO SOFTWARE DEVELOPMENT. Suitable topics include Dockerfiles, Docker Compose, and architecture…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          113963 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/docker?sort=newest&amp;days=1" title="86 questions tagged docker in the last 24 hours">
-           86 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/docker?sort=newest&amp;days=7" title="494 questions tagged docker in the last 7 days">
-           494 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/macos" rel="tag" title="show questions tagged 'macos'">
-           macos
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/11724/peter-h">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/a245fdd159f948ec794405e79ae827df?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/11724/peter-h">
+          Peter H
+         </a>
+         <span class="user-location">
+          Switzerland
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         macOS (formerly known as OS X or Mac OS X) is the desktop operating system from Apple, found on Macintosh computers.
-
-Use this tag only if your question relates to using macOS APIs or macOS-specific…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          111655 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/macos?sort=newest&amp;days=1" title="23 questions tagged macos in the last 24 hours">
-           23 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/macos?sort=newest&amp;days=7" title="166 questions tagged macos in the last 7 days">
-           166 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/forms" rel="tag" title="show questions tagged 'forms'">
-           forms
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/11715/rob">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/39baaa475e7ee1bbcc28a7f802548b89?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/11715/rob">
+          Rob
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         A form is essentially a container that can be used to hold any amount of any subset of several types of data. HTML forms are used to pass data to a server. VB and C# forms are the windows used to inte…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          109936 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/forms?sort=newest&amp;days=1" title="21 questions tagged forms in the last 24 hours">
-           21 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/forms?sort=newest&amp;days=7" title="109 questions tagged forms in the last 7 days">
-           109 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/image" rel="tag" title="show questions tagged 'image'">
-           image
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         for questions related to the loading, formatting, saving, compression, and display of images in the context of source code. This tag should also be used for assistance using various i…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          109391 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/image?sort=newest&amp;days=1" title="23 questions tagged image in the last 24 hours">
-           23 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/image?sort=newest&amp;days=7" title="167 questions tagged image in the last 7 days">
-           167 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/visual-studio" rel="tag" title="show questions tagged 'visual-studio'">
-           visual-studio
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/11254/dramaartwriting">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/e1e1ff755c74f0f0b79d0139cc45d68c?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/11254/dramaartwriting">
+          dramaartwriting
+         </a>
+         <span class="user-location">
+          Stockton, CA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         if you have a specific question about Visual Studio features and functionality. DO NOT use this tag on questions regarding code which merely happened to be written in Visual Studio.  Cons…
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          108689 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/visual-studio?sort=newest&amp;days=1" title="34 questions tagged visual-studio in the last 24 hours">
-           34 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/visual-studio?sort=newest&amp;days=7" title="195 questions tagged visual-studio in the last 7 days">
-           195 this week
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/scala" rel="tag" title="show questions tagged 'scala'">
-           scala
-          </a>
-         </div>
-        </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         Scala is a general-purpose programming language principally targeting the Java Virtual Machine. Designed to express common programming patterns in a concise, elegant, and type-safe way, it fuses both …
-        </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          108401 questions
-         </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/scala?sort=newest&amp;days=1" title="14 questions tagged scala in the last 24 hours">
-           14 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/scala?sort=newest&amp;days=7" title="95 questions tagged scala in the last 7 days">
-           95 this week
-          </a>
-         </div>
+        <div class="user-tags">
         </div>
        </div>
-       <div class="grid--item s-card js-tag-cell d-flex fd-column">
-        <div class="d-flex jc-space-between ai-center mb12">
-         <div class="flex--item">
-          <a class="post-tag" href="/questions/tagged/powershell" rel="tag" title="show questions tagged 'powershell'">
-           powershell
-          </a>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/11139/duncane">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/092e086dc6e24f2811f78a3df343c9de?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/11139/duncane">
+          duncane
+         </a>
+         <span class="user-location">
+          Perth, Australia
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
          </div>
         </div>
-        <div class="flex--item fc-medium mb12 v-truncate4">
-         PowerShell is a cross-platform command line and scripting utility from Microsoft. Use this tag for questions about writing and executing PowerShell scripts ONLY. Programming questions specific to the …
+        <div class="user-tags">
         </div>
-        <div class="mt-auto d-flex jc-space-between fs-caption fc-black-400">
-         <div class="flex--item">
-          102851 questions
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/226657/rob-archer">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/8a4cda5994ddb4e91adec44458c4757e?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/226657/rob-archer">
+          Rob Archer
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
          </div>
-         <div class="flex--item s-anchors s-anchors__inherit">
-          <a href="/questions/tagged/powershell?sort=newest&amp;days=1" title="44 questions tagged powershell in the last 24 hours">
-           44 asked today
-          </a>
-          ,
-          <a href="/questions/tagged/powershell?sort=newest&amp;days=7" title="272 questions tagged powershell in the last 7 days">
-           272 this week
-          </a>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/9529/user9529">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/ce646c98497638903c601ceed565d88c?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/9529/user9529">
+          user9529
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
          </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/9442/user9442">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/9442/user9442">
+          user9442
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/9318/gtech33">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/855f1fa055b35efd6d6a64554aa341dc?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/9318/gtech33">
+          GTech33
+         </a>
+         <span class="user-location">
+          San Luis Obispo, CA, USA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/8632/user8632">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/8632/user8632">
+          user8632
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/8620/nidleb">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/50584682fb65e026890c36291a49a05b?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/8620/nidleb">
+          Nidleb
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/7662/dirigible">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/73eda51046faa1eda48802705c27ac20?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/7662/dirigible">
+          Dirigible
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/7458/user7458">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/7458/user7458">
+          user7458
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="2 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            2
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           2 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/5690/whatintheworldisthat">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/aca9472a0312d80644eb5453e744e3ca?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/5690/whatintheworldisthat">
+          whatintheworldisthat
+         </a>
+         <span class="user-location">
+          Georgia
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="3 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/5307/david-porter">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/440cc5180eba9dc897f525093145f208?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/5307/david-porter">
+          David Porter
+         </a>
+         <span class="user-location">
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/5081/al-velella">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/10a094c3c631fb6e4f9482291f30a8a3?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/5081/al-velella">
+          Al Velella
+         </a>
+         <span class="user-location">
+          Boston, MA
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/4461/bryan314">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/95e6244f5f88526a7ca81b08648889d3?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/4461/bryan314">
+          bryan314
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/4054/brian">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/505b2cd3a1dcafeacbbf02728cf71b14?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/4054/brian">
+          Brian
+         </a>
+         <span class="user-location">
+          Chicago, IL
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info">
+        <div class="user-gravatar48">
+         <a href="/users/2682/andrew">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/4e28027a2833fb1eff07ad7d70df46d8?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/2682/andrew">
+          Andrew
+         </a>
+         <span class="user-location">
+          United States
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/1788/matt-brewer">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/b88835732cbc71b47d1204c07333c413?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/1788/matt-brewer">
+          Matt Brewer
+         </a>
+         <span class="user-location">
+          Ohio
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="1 bronze badge">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            1
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           1 bronze badge
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
+        </div>
+       </div>
+       <div class="grid--item user-info user-hover">
+        <div class="user-gravatar48">
+         <a href="/users/1352/marcas">
+          <div class="gravatar-wrapper-48">
+           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/200a751b8335a559a78d9ec2c67ebfc2?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+          </div>
+         </a>
+        </div>
+        <div class="user-details">
+         <a href="/users/1352/marcas">
+          marcas
+         </a>
+         <span class="user-location">
+          Ireland
+         </span>
+         <div class="-flair">
+          <span class="reputation-score" dir="ltr" title="reputation score ">
+           1
+          </span>
+          <span aria-hidden="true" title="3 bronze badges">
+           <span class="badge3">
+           </span>
+           <span class="badgecount">
+            3
+           </span>
+          </span>
+          <span class="v-visible-sr">
+           3 bronze badges
+          </span>
+         </div>
+        </div>
+        <div class="user-tags">
         </div>
        </div>
       </div>
       <div class="s-pagination site1 themed pager float-right">
-       <a class="s-pagination--item js-pagination-item" href="/tags?page=1&amp;tab=popular" rel="prev" title="Go to page 1">
+       <a class="s-pagination--item js-pagination-item" href="/users?page=480648&amp;tab=reputation&amp;filter=all" rel="prev" title="Go to page 480648">
         Prev
        </a>
-       <a class="s-pagination--item js-pagination-item" href="/tags?page=1&amp;tab=popular" rel="" title="Go to page 1">
+       <a class="s-pagination--item js-pagination-item" href="/users?page=1&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 1">
         1
-       </a>
-       <div class="s-pagination--item is-selected">
-        2
-       </div>
-       <a class="s-pagination--item js-pagination-item" href="/tags?page=3&amp;tab=popular" rel="" title="Go to page 3">
-        3
-       </a>
-       <a class="s-pagination--item js-pagination-item" href="/tags?page=4&amp;tab=popular" rel="" title="Go to page 4">
-        4
-       </a>
-       <a class="s-pagination--item js-pagination-item" href="/tags?page=5&amp;tab=popular" rel="" title="Go to page 5">
-        5
        </a>
        <div class="s-pagination--item s-pagination--item__clear">
         …
        </div>
-       <a class="s-pagination--item js-pagination-item" href="/tags?page=1861&amp;tab=popular" rel="" title="Go to page 1861">
-        1861
+       <a class="s-pagination--item js-pagination-item" href="/users?page=480645&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 480645">
+        480645
        </a>
-       <a class="s-pagination--item js-pagination-item" href="/tags?page=3&amp;tab=popular" rel="next" title="Go to page 3">
-        Next
+       <a class="s-pagination--item js-pagination-item" href="/users?page=480646&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 480646">
+        480646
        </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=480647&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 480647">
+        480647
+       </a>
+       <a class="s-pagination--item js-pagination-item" href="/users?page=480648&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 480648">
+        480648
+       </a>
+       <div class="s-pagination--item is-selected">
+        480649
+       </div>
       </div>
      </div>
-     <script>
-      StackExchange.ready(function() {
-            $("#tagfilter").typeWatch({ highlight:true, wait:500, captureLength: -1, callback: finished });
-        });
-
-        var request = null;
-        function finished(txt) {
-            if (request) { request.abort(); }
-            request = $.ajax({
-                type: "POST",
-                url: "/filter/tags-for-index",
-                data: { filter: txt, tab: 'Popular', fkey: StackExchange.options.user.fkey },
-                dataType: "html",
-                success: function (result) {
-                    var domelement = $(result);
-                    $("#tags_list > *").remove();
-                    $("#tags_list").prepend(domelement);
-
-                    if (txt == "") {
-                        $(".pager").show();
-                    } else
-                    {
-                        $(".pager").hide();
-                    }
-
-                }
-            });
-        }
-     </script>
+     <div id="users-legend" style="float: left; margin-top: 25px; margin-bottom: 10px;">
+      <b>
+       <a href="https://stackexchange.com/leagues/week/stackoverflow">
+        weekly / monthly / quarterly reputation leagues
+       </a>
+      </b>
+     </div>
     </div>
    </div>
   </div>
@@ -1531,18 +1794,18 @@ Use this tag only if your question relates to using macOS APIs or macOS-specific
     <nav class="site-footer--nav">
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 24, link: 15})" href="https://stackoverflow.com">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 15})" href="https://stackoverflow.com">
         Stack Overflow
        </a>
       </h5>
       <ul class="-list js-primary-footer-links">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 16})" href="/questions">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 16})" href="/questions">
          Questions
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 3 })" href="/help">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 3 })" href="/help">
          Help
         </a>
        </li>
@@ -1550,28 +1813,28 @@ Use this tag only if your question relates to using macOS APIs or macOS-specific
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 24, link: 19 })" href="https://stackoverflow.com/?products">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 19 })" href="https://stackoverflow.com/?products">
         Products
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 24, link: 29 })" href="https://stackoverflow.co/teams">
+        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 25, link: 29 })" href="https://stackoverflow.co/teams">
          Teams
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 21 })" href="https://stackoverflow.co/advertising">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 21 })" href="https://stackoverflow.co/advertising">
          Advertising
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 40 })" href="https://stackoverflow.co/collectives">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 40 })" href="https://stackoverflow.co/collectives">
          Collectives
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 20 })" href="https://stackoverflow.co/talent">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 20 })" href="https://stackoverflow.co/talent">
          Talent
         </a>
        </li>
@@ -1579,53 +1842,53 @@ Use this tag only if your question relates to using macOS APIs or macOS-specific
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 24, link: 1 })" href="https://stackoverflow.co/">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 1 })" href="https://stackoverflow.co/">
         Company
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 1 })" href="https://stackoverflow.co/">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 1 })" href="https://stackoverflow.co/">
          About
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 27 })" href="https://stackoverflow.co/company/press">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 27 })" href="https://stackoverflow.co/company/press">
          Press
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 9 })" href="https://stackoverflow.co/company/work-here">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 9 })" href="https://stackoverflow.co/company/work-here">
          Work Here
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 7 })" href="https://stackoverflow.com/legal">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 7 })" href="https://stackoverflow.com/legal">
          Legal
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
          Privacy Policy
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
          Terms of Service
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 13 })" href="https://stackoverflow.co/company/contact">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 13 })" href="https://stackoverflow.co/company/contact">
          Contact Us
         </a>
        </li>
        <li class="" id="consent-footer-link">
-        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 24, link: 38 })" href="#">
+        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 25, link: 38 })" href="#">
          Cookie Settings
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
          Cookie Policy
         </a>
        </li>
@@ -1634,48 +1897,48 @@ Use this tag only if your question relates to using macOS APIs or macOS-specific
      <div class="site-footer--col site-footer--categories-nav">
       <div>
        <h5 class="-title">
-        <a data-gps-track="footer.click({ location: 24, link: 30 })" href="https://stackexchange.com">
+        <a data-gps-track="footer.click({ location: 25, link: 30 })" href="https://stackexchange.com">
          Stack Exchange Network
         </a>
        </h5>
        <ul class="-list">
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" href="https://stackexchange.com/sites#technology">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#technology">
           Technology
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
           Culture &amp; recreation
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" href="https://stackexchange.com/sites#lifearts">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#lifearts">
           Life &amp; arts
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" href="https://stackexchange.com/sites#science">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#science">
           Science
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" href="https://stackexchange.com/sites#professional">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#professional">
           Professional
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" href="https://stackexchange.com/sites#business">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#business">
           Business
          </a>
         </li>
         <li class="mt16 md:mt0">
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" href="https://api.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://api.stackexchange.com/">
           API
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" href="https://data.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://data.stackexchange.com/">
           Data
          </a>
         </li>
@@ -1686,27 +1949,27 @@ Use this tag only if your question relates to using macOS APIs or macOS-specific
     <div class="site-footer--copyright fs-fine md:mt24">
      <ul class="-list -social md:mb8">
       <li>
-       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link:4 })" href="https://stackoverflow.blog?blb=1">
+       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link:4 })" href="https://stackoverflow.blog?blb=1">
         Blog
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
         Facebook
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 32 })" href="https://twitter.com/stackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 32 })" href="https://twitter.com/stackoverflow">
         Twitter
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 33 })" href="https://linkedin.com/company/stack-overflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 33 })" href="https://linkedin.com/company/stack-overflow">
         LinkedIn
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 24, link: 36 })" href="https://www.instagram.com/thestackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 36 })" href="https://www.instagram.com/thestackoverflow">
         Instagram
        </a>
       </li>
@@ -1718,41 +1981,13 @@ Use this tag only if your question relates to using macOS APIs or macOS-specific
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Tags/List');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175626.871440044");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

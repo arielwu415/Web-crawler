@@ -6,7 +6,8 @@ Created on Sun May 1 15:27:04 2022
 """
 import csv
 import networkx as nx
-import numpy
+import numpy 
+import numpy as np
 from outlinks_count import clear_report_file
 
 
@@ -61,7 +62,7 @@ def get_pageRank(matrix, vector):
 
 
 # read edge_list file and create a graph G
-with open("edge_list2.csv", "rb") as edges:
+with open("edge_list1.csv", "rb") as edges:
     G = nx.read_edgelist(edges, delimiter=",", create_using=nx.DiGraph, encoding="utf-8")
     
 # make an adjacency matrix
@@ -104,3 +105,27 @@ def get_pageRank(matrix, v):
     
     return new_v
 '''
+
+# A[:, 1] : second column
+# len(A[:,1]) <-- size of column
+
+
+for x in range(A.shape[1]):
+    #counting number of page occurence
+    count = np.count_nonzero(A == 1, axis = 0)
+    #print(count)
+            
+print(count)
+    
+for row in range(len(A)):
+    for column in range(len(A[row])):
+        print("matrix value", A[row,column])
+        print("count", count[column])
+        if (count[column] != 0):
+            A[row,column] /= count[column]
+        
+print(A)
+    
+#numpy.savetxt("prob_matrix.csv", A, delimiter=",")
+
+    

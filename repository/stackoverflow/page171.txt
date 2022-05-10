@@ -2,22 +2,22 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   r - RStudio portfolioAnalytics is not working - Stack Overflow
+   javascript - React imports since src - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/questions/72183912/rstudio-portfolioanalytics-is-not-working" rel="canonical">
+  <link href="https://stackoverflow.com/questions/72193804/react-imports-since-src" rel="canonical">
    <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
    <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/questions/72183912/rstudio-portfolioanalytics-is-not-working" property="og:url"/>
+    <meta content="https://stackoverflow.com/questions/72193804/react-imports-since-src" property="og:url"/>
     <meta content="Stack Overflow" property="og:site_name"/>
     <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
     <meta content="summary" name="twitter:card"/>
     <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="RStudio portfolioAnalytics is not working" itemprop="name" name="twitter:title" property="og:title"/>
-    <meta content="I have used the following r code for plotting the maximum drawdown of a stock in the past. But since a few days my code is not working anymore. It seems that the PortfolioAnalytics package is not w..." itemprop="description" name="twitter:description" property="og:description"/>
+    <meta content="React imports since src" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="I have one problem with imports on React App when I add imports since src folder. I want to make this imports because when I am using visual studio code I go to other files through one clic on the ..." itemprop="description" name="twitter:description" property="og:description"/>
     <script id="webpack-public-path" type="text/uri-list">
      https://cdn.sstatic.net/
     </script>
@@ -29,16 +29,16 @@
     </script>
     <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
-    <link href="/feeds/question/72183912" rel="alternate" title="Feed for question 'RStudio portfolioAnalytics is not working'" type="application/atom+xml"/>
+    <link href="/feeds/question/72193804" rel="alternate" title="Feed for question 'React imports since src'" type="application/atom+xml"/>
     <meta content="US" name="twitter:app:country"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:iphone"/>
     <meta content="871299723" name="twitter:app:id:iphone"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183912/rstudio-portfolioanalytics-is-not-working" name="twitter:app:url:iphone"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193804/react-imports-since-src" name="twitter:app:url:iphone"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:ipad"/>
     <meta content="871299723" name="twitter:app:id:ipad"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183912/rstudio-portfolioanalytics-is-not-working" name="twitter:app:url:ipad"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193804/react-imports-since-src" name="twitter:app:url:ipad"/>
     <meta content="Stack Exchange Android" name="twitter:app:name:googleplay"/>
-    <meta content="https://stackoverflow.com/questions/72183912/rstudio-portfolioanalytics-is-not-working" name="twitter:app:url:googleplay"/>
+    <meta content="https://stackoverflow.com/questions/72193804/react-imports-since-src" name="twitter:app:url:googleplay"/>
     <meta content="com.stackexchange.marvin" name="twitter:app:id:googleplay"/>
     <script>
      StackExchange.ready(function () {
@@ -52,11 +52,11 @@
                 });
 
 
-                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:1,shownCommentCount:1,enableTables:true,questionId:72183912});
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72193804});
 
                 styleCode();
 
-                    StackExchange.realtime.subscribeToQuestion('1', '72183912');
+                    StackExchange.realtime.subscribeToQuestion('1', '72193804');
                     StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.js-post-body'); });
 
 
@@ -64,7 +64,7 @@
     </script>
     <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
     <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1652175661,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+     {"options":{"locale":"en","serverTime":1652225052,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
     </script>
     <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
      {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -73,7 +73,7 @@
      StackExchange.init();
     </script>
     <script>
-     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -263,11 +263,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183912%2frstudio-portfolioanalytics-is-not-working">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193804%2freact-imports-since-src">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183912%2frstudio-portfolioanalytics-is-not-working">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193804%2freact-imports-since-src">
           log in
          </a>
          to customize your list.
@@ -298,12 +298,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183912%2frstudio-portfolioanalytics-is-not-working" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193804%2freact-imports-since-src" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183912%2frstudio-portfolioanalytics-is-not-working" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193804%2freact-imports-since-src" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -518,8 +518,8 @@
      <div class="inner-content clearfix">
       <div class="d-flex sm:fd-column" id="question-header">
        <h1 class="fs-headline1 ow-break-word mb8 flex--item fl1" itemprop="name">
-        <a class="question-hyperlink" href="/questions/72183912/rstudio-portfolioanalytics-is-not-working">
-         RStudio portfolioAnalytics is not working
+        <a class="question-hyperlink" href="/questions/72193804/react-imports-since-src">
+         React imports since src
         </a>
        </h1>
        <div class="ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end">
@@ -529,11 +529,11 @@
        </div>
       </div>
       <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075">
-       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 09:33:36Z">
+       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 23:07:36Z">
         <span class="fc-light mr2">
          Asked
         </span>
-        <time datetime="2022-05-10T09:33:36" itemprop="dateCreated">
+        <time datetime="2022-05-10T23:07:36" itemprop="dateCreated">
          today
         </time>
        </div>
@@ -541,19 +541,19 @@
         <span class="fc-light mr2">
          Modified
         </span>
-        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 09:33:36Z">
+        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 23:07:36Z">
          today
         </a>
        </div>
-       <div class="flex--item ws-nowrap mb8" title="Viewed 5 times">
+       <div class="flex--item ws-nowrap mb8" title="Viewed 4 times">
         <span class="fc-light mr2">
          Viewed
         </span>
-        5 times
+        4 times
        </div>
       </div>
       <div aria-label="question and answers" id="mainbar" role="main">
-       <div class="question" data-position-on-page="0" data-questionid="72183912" data-score="-1" id="question">
+       <div class="question" data-position-on-page="0" data-questionid="72193804" data-score="0" id="question">
         <style>
         </style>
         <div class="js-zone-container zone-container-main">
@@ -564,15 +564,15 @@
         </div>
         <div class="post-layout">
          <div class="votecell post-layout--left">
-          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72183912">
+          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72193804">
            <button aria-label="Up vote" aria-pressed="false" class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This question shows research effort; it is useful and clear">
             <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
              <path d="M2 25h32L18 9 2 25Z">
              </path>
             </svg>
            </button>
-           <div class="js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title" data-value="-1" itemprop="upvoteCount">
-            -1
+           <div class="js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title" data-value="0" itemprop="upvoteCount">
+            0
            </div>
            <button aria-label="Down vote" aria-pressed="false" class="js-vote-down-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This question does not show any research effort; it is unclear or not useful">
             <svg aria-hidden="true" class="svg-icon iconArrowDownLg" height="36" viewbox="0 0 36 36" width="36">
@@ -588,7 +588,7 @@
             <div class="js-bookmark-count mt4 d-none" data-value="">
             </div>
            </button>
-           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72183912/timeline" title="Show activity on this post.">
+           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72193804/timeline" title="Show activity on this post.">
             <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" height="18" viewbox="0 0 19 18" width="19">
              <path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z">
              </path>
@@ -599,62 +599,77 @@
          <div class="postcell post-layout--right">
           <div class="s-prose js-post-body" itemprop="text">
            <p>
-            I have used the following r code for plotting the maximum drawdown of a stock in the past. But since a few days my code is not working anymore. It seems that the PortfolioAnalytics package is not working. Does anybody know what is wrong here. Or maybe someone can test my code if it works on it own pc:
+            I have one problem with imports on React App when I add imports since src folder. I want to make this imports because when I am using visual studio code I go to other files through one clic on the import.
            </p>
-           <pre><code>library(ROI)
-library(ROI.plugin.quadprog)
-library(MASS)
-library(dplyr)
-library(caTools)
-library(quantmod)
-library(timeSeries)
-library(astsa)
-library(forecast)
-library(ggplot2)
-library(tidyquant)
-library(timetk)
-library(tibble)
-library(corrplot)
-library(tidyr)
-
-# Get risk-free rate (1 month T-Bond rate) from FRED
-rf &lt;- getSymbols('DGS1MO', src = 'FRED', auto.assign = FALSE)
-
-# ticker for Stock
-ndx_symbol &lt;- '^GSPC'
-
-
-ndx &lt;- getSymbols(ndx_symbol, from = "1950-01-01", auto.assign = FALSE)
-
-str(ndx)
-
-any(is.na(ndx))
-dailyReturn
-
-ndx_daily &lt;- to.daily(ndx)
-
-ndx_returns &lt;- Return.calculate(ndx_daily$ndx.Adjusted)
-ndx_returns &lt;- ndx_returns[(-1),]
-names(ndx_returns) &lt;- 'NDX_daily'
-
-plot.zoo(ndx_returns, main = 'SBUX Daily Returns', xlab = 'Date')
-
-chart.Drawdown(ndx_returns, plot.engine = "ggplot2") +
-  geom_hline(yintercept = -0.55, size = 1) +
-  theme_minimal() +
-  theme(legend.position = "none", 
-        axis.text.x = element_text(angle = 45, hjust = 1),
-        plot.caption = element_text(hjust = 0, lineheight = 0.5)) +
-            scale_y_continuous(labels = scales::percent, limits=c(-1,0))+
-ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
-          subtitle = "Black line indicates bear markets") ``` 
+           <p>
+            I am using ViteJS as launcher.
+           </p>
+           <p>
+            I show below the structure of files and content of some of them
+           </p>
+           <h4>
+            Tree files
+           </h4>
+           <pre><code>.
+├── index.html
+├── jsconfig.json
+├── package-lock.json
+├── package.json
+├── src
+│   ├── App.jsx
+│   ├── context
+│   │   └── index.jsx
+│   ├── index.jsx
+└── vite.config.js
 </code></pre>
+           <h4>
+            jsconfig.json
+           </h4>
+           <pre class="lang-json prettyprint-override"><code>{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"]
+    }
+  }
+}
+</code></pre>
+           <h4>
+            App.js
+           </h4>
+           <pre><code>// Import I want to use
+import { Provider } from "src/context";
+
+// Import without errors
+import { Provider } from "context";
+
+</code></pre>
+           <h4>
+            Bash error
+           </h4>
+           <pre class="lang-sh prettyprint-override"><code>[vite] Internal server error: Failed to resolve import "src/context" from "src/index.jsx". Does the file exist?
+</code></pre>
+           <p>
+            I don't know how configure this option. ¿Some help?
+           </p>
+           <p>
+            Thanks
+           </p>
           </div>
           <div class="mt24 mb12">
            <div class="post-taglist d-flex gs4 gsy fd-column">
             <div class="d-flex ps-relative fw-wrap">
-             <a class="post-tag" href="/questions/tagged/r" rel="tag" title="show questions tagged 'r'">
-              r
+             <a class="post-tag" href="/questions/tagged/javascript" rel="tag" title="show questions tagged 'javascript'">
+              javascript
+             </a>
+             <a class="post-tag" href="/questions/tagged/reactjs" rel="tag" title="show questions tagged 'reactjs'">
+              reactjs
+             </a>
+             <a class="post-tag" href="/questions/tagged/import" rel="tag" title="show questions tagged 'import'">
+              import
+             </a>
+             <a class="post-tag" href="/questions/tagged/vite" rel="tag" title="show questions tagged 'vite'">
+              vite
              </a>
             </div>
            </div>
@@ -662,15 +677,20 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
           <div class="mb0">
            <div class="mt16 d-flex gs8 gsy fw-wrap jc-end ai-start pt4 mb16">
             <div class="flex--item mr16 fl1 w96">
-             <div class="js-post-menu pt2" data-post-id="72183912">
+             <div class="js-post-menu pt2" data-post-id="72193804">
               <div class="d-flex gs8 s-anchors s-anchors__muted fw-wrap">
                <div class="flex--item">
-                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72183912" itemprop="url" rel="nofollow" title="Short permalink to this question">
+                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72193804" itemprop="url" rel="nofollow" title="Short permalink to this question">
                  Share
                 </a>
                </div>
                <div class="flex--item">
-                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72183912" title="Follow this question to receive notifications" type="button">
+                <a class="js-suggest-edit-post js-gps-track" data-gps-track="post.click({ item: 6, priv: 0, post_type: 1 })" href="/posts/72193804/edit" title="">
+                 Improve this question
+                </a>
+               </div>
+               <div class="flex--item">
+                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72193804" title="Follow this question to receive notifications" type="button">
                  Follow
                 </button>
                </div>
@@ -683,39 +703,55 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
              <div class="user-info">
               <div class="user-action-time truncate">
                asked
-               <span class="relativetime" title="2022-05-10 09:33:36Z">
-                7 mins ago
+               <span class="relativetime" title="2022-05-10 23:07:36Z">
+                16 mins ago
                </span>
               </div>
               <div class="user-gravatar32">
-               <a href="/users/14607480/john-black">
+               <a href="/users/12872381/srgiil">
                 <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GjJUnwQOSjVXzXS79Pob8yZYvrjs6Vf9ZF0qwnI=k-s64" width="32"/>
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/e728bc20559dca421301324803321717?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
                 </div>
                </a>
               </div>
               <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-               <a href="/users/14607480/john-black">
-                John Black
+               <a href="/users/12872381/srgiil">
+                SrGiiL
                </a>
                <span class="d-none" itemprop="name">
-                John Black
+                SrGiiL
                </span>
                <div class="-flair">
                 <span class="reputation-score" dir="ltr" title="reputation score ">
-                 7
-                </span>
-                <span aria-hidden="true" title="4 bronze badges">
-                 <span class="badge3">
-                 </span>
-                 <span class="badgecount">
-                  4
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 4 bronze badges
+                 1
                 </span>
                </div>
+              </div>
+             </div>
+             <div class="js-new-contributor-indicator ps-relative">
+              <div class="new-contributor-indicator fc-medium py6 px8 bbr-sm">
+               <span class="js-new-contributor-label">
+                <svg aria-hidden="true" class="svg-icon iconWave" height="18" viewbox="0 0 18 18" width="18">
+                 <path d="M10.7 17c-2.3 0-3.9-2.05-5.07-3.54l-.49-.6c-.67-.8-1.59-1.63-2.4-2.36A10.91 10.91 0 0 1 1.1 8.87a.79.79 0 0 1-.09-.56c.04-.19.14-.34.27-.4.14-.07.29-.1.45-.1.35 0 .67.18.87.34l3.5 2.75c.04.03.1.03.13 0a.09.09 0 0 0 .02-.13l-.02-.02c-.57-.8-3.42-4.77-3.71-5.15-.21-.27-.3-.58-.24-.84.05-.2.2-.37.4-.48.18-.09.35-.13.52-.13.44 0 .76.28.96.51l3.6 4.42c.04.04.07.06.14.02.05-.02.06-.07.03-.12L4.41 2.96a.94.94 0 0 1-.1-.73.92.92 0 0 1 .47-.57 1.06 1.06 0 0 1 1.4.39l3.8 6.14c.03.04.07.07.14.04.04-.03.06-.07.04-.13A153.8 153.8 0 0 0 8.1 2.54c-.31-.68-.2-1.14.36-1.42.52-.27 1.14-.07 1.47.48l3.69 8.3c.02.04.05.05.1.06a.1.1 0 0 0 .09-.07l.66-2.28c.1-.3.31-.56.62-.72.3-.15.65-.18.98-.1.7.2 1.09.87.89 1.52-.1.37-.46 1.73-.99 3.43l-.1.33c-.58 1.86-1.03 3.33-3.11 4.4-.7.35-1.38.53-2.05.53Z" fill="#FFC166">
+                 </path>
+                 <path d="M14 .37a.5.5 0 0 0-.88.45l1.96 3.9a.5.5 0 0 0 .9-.45L14 .37Zm-1.17 2.17a.5.5 0 0 0-.91.42l.84 1.87a.5.5 0 1 0 .91-.41l-.84-1.88Zm-10.6 9.74a.5.5 0 0 1 .7-.02l1.7 1.6a.5.5 0 0 1-.7.72l-1.68-1.6a.5.5 0 0 1-.02-.7Zm-1.39.98a.5.5 0 1 0-.68.73l3.03 2.84a.5.5 0 0 0 .68-.73L.84 13.26Z" opacity=".4">
+                 </path>
+                </svg>
+                New contributor
+               </span>
+              </div>
+              <div class="js-new-contributor-popover s-popover fs-caption">
+               <div class="s-popover--arrow s-popover--arrow__tc">
+               </div>
+               <a href="/users/12872381/srgiil">
+                SrGiiL
+               </a>
+               is a new contributor to this site. Take care in asking for clarification, commenting, and answering.
+Check out our
+               <a href="/conduct">
+                Code of Conduct
+               </a>
+               .
               </div>
              </div>
             </div>
@@ -723,38 +759,13 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
           </div>
          </div>
          <span class="d-none" itemprop="commentCount">
-          1
          </span>
          <div class="post-layout--right js-post-comments-component">
-          <div class="comments js-comments-container bt bc-black-075 mt12" data-min-length="15" data-post-id="72183912" id="comments-72183912">
+          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72193804" id="comments-72193804">
            <ul class="comments-list js-comments-list" data-addlink-disabled="true" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-remaining-comments-count="0">
-            <li class="comment js-comment" data-comment-id="127536818" data-comment-owner-id="5784757" data-comment-score="0" id="comment-127536818">
-             <div class="js-comment-actions comment-actions">
-              <div class="comment-score js-comment-edit-hide">
-              </div>
-             </div>
-             <div class="comment-text js-comment-text-and-form">
-              <div class="comment-body js-comment-edit-hide">
-               <span class="comment-copy">
-                'not working' - please explain exactly what this means.
-               </span>
-               <div class="d-inline-flex ai-center">
-                –
-                <a class="comment-user" href="/users/5784757/user438383" title="4,275 reputation">
-                 user438383
-                </a>
-               </div>
-               <span class="comment-date" dir="ltr">
-                <span class="relativetime-clean" title="2022-05-10 09:35:48Z, License: CC BY-SA 4.0">
-                 5 mins ago
-                </span>
-               </span>
-              </div>
-             </div>
-            </li>
            </ul>
           </div>
-          <div data-anon="true" data-rep="50" id="comments-link-72183912">
+          <div data-anon="true" data-rep="50" id="comments-link-72193804">
            <a class="js-add-link comments-link disabled-link" href="#" role="button" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">
             Add a comment
            </a>
@@ -791,7 +802,7 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
              <label class="flex--item fs-caption" for="answer-sort-dropdown-select-menu">
               Sorted by:
              </label>
-             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72183912/rstudio-portfolioanalytics-is-not-working?answertab=scoredesc#tab-top">
+             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72193804/react-imports-since-src?answertab=scoredesc#tab-top">
               Reset to default
              </a>
             </div>
@@ -814,27 +825,27 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
         </div>
         <h2 class="bottom-notice bottom-share-links" style="padding-top: 8px; margin-bottom: -8px;">
          Know someone who can answer? Share a link to this
-         <a href="https://stackoverflow.com/questions/72183912/rstudio-portfolioanalytics-is-not-working">
+         <a href="https://stackoverflow.com/questions/72193804/react-imports-since-src">
           question
          </a>
          via
-         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=RStudio%20portfolioAnalytics%20is%20not%20working%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72183912%3fsem%3d2">
+         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=React%20imports%20since%20src%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72193804%3fsem%3d2">
           email
          </a>
          ,
-         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72183912%3fstw%3d2">
+         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72193804%3fstw%3d2">
           Twitter
          </a>
          , or
-         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72183912%3fsfb%3d2">
+         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72193804%3fsfb%3d2">
           Facebook
          </a>
          .
         </h2>
         <a name="new-answer">
         </a>
-        <form action="/questions/72183912/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
-         <input id="post-id" type="hidden" value="72183912"/>
+        <form action="/questions/72193804/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
+         <input id="post-id" type="hidden" value="72193804"/>
          <input id="qualityBanWarningShown" name="qualityBanWarningShown" type="hidden" value="false"/>
          <input name="referrer" type="hidden" value=""/>
          <h2 class="space">
@@ -896,6 +907,22 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
           <div class="ps-relative">
            <div class="wmd-container mb8">
             <div class="wmd-button-bar btr-sm" id="wmd-button-bar">
+            </div>
+            <div class="new-contributor-indicator fc-black py12 ta-center bl br bc-black-200">
+             <svg aria-hidden="true" class="svg-icon iconWave" height="18" viewbox="0 0 18 18" width="18">
+              <path d="M10.7 17c-2.3 0-3.9-2.05-5.07-3.54l-.49-.6c-.67-.8-1.59-1.63-2.4-2.36A10.91 10.91 0 0 1 1.1 8.87a.79.79 0 0 1-.09-.56c.04-.19.14-.34.27-.4.14-.07.29-.1.45-.1.35 0 .67.18.87.34l3.5 2.75c.04.03.1.03.13 0a.09.09 0 0 0 .02-.13l-.02-.02c-.57-.8-3.42-4.77-3.71-5.15-.21-.27-.3-.58-.24-.84.05-.2.2-.37.4-.48.18-.09.35-.13.52-.13.44 0 .76.28.96.51l3.6 4.42c.04.04.07.06.14.02.05-.02.06-.07.03-.12L4.41 2.96a.94.94 0 0 1-.1-.73.92.92 0 0 1 .47-.57 1.06 1.06 0 0 1 1.4.39l3.8 6.14c.03.04.07.07.14.04.04-.03.06-.07.04-.13A153.8 153.8 0 0 0 8.1 2.54c-.31-.68-.2-1.14.36-1.42.52-.27 1.14-.07 1.47.48l3.69 8.3c.02.04.05.05.1.06a.1.1 0 0 0 .09-.07l.66-2.28c.1-.3.31-.56.62-.72.3-.15.65-.18.98-.1.7.2 1.09.87.89 1.52-.1.37-.46 1.73-.99 3.43l-.1.33c-.58 1.86-1.03 3.33-3.11 4.4-.7.35-1.38.53-2.05.53Z" fill="#FFC166">
+              </path>
+              <path d="M14 .37a.5.5 0 0 0-.88.45l1.96 3.9a.5.5 0 0 0 .9-.45L14 .37Zm-1.17 2.17a.5.5 0 0 0-.91.42l.84 1.87a.5.5 0 1 0 .91-.41l-.84-1.88Zm-10.6 9.74a.5.5 0 0 1 .7-.02l1.7 1.6a.5.5 0 0 1-.7.72l-1.68-1.6a.5.5 0 0 1-.02-.7Zm-1.39.98a.5.5 0 1 0-.68.73l3.03 2.84a.5.5 0 0 0 .68-.73L.84 13.26Z" opacity=".4">
+              </path>
+             </svg>
+             <a href="/users/12872381/srgiil">
+              SrGiiL
+             </a>
+             is a new contributor. Be nice, and check out our
+             <a href="/conduct">
+              Code of Conduct
+             </a>
+             .
             </div>
             <div class="js-stacks-validation">
              <div class="ps-relative">
@@ -963,7 +990,7 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
           <div>
           </div>
           <div class="edit-block">
-           <input id="fkey" name="fkey" type="hidden" value="8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded"/>
+           <input id="fkey" name="fkey" type="hidden" value="bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2"/>
            <input id="author" name="author" type="text"/>
           </div>
          </div>
@@ -973,14 +1000,28 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
             <div class="d-flex fd-column w50 md:w-auto gsy gs8 jc-space-between new-login-left">
              <h3 class="flex--item fs-title">
               Sign up or
-              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183912%2frstudio-portfolioanalytics-is-not-working%23new-answer" id="login-link">
+              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193804%2freact-imports-since-src%23new-answer" id="login-link">
                log in
               </a>
              </h3>
              <script>
               StackExchange.ready(function () {
                                 StackExchange.helpers.onClickDraftSave('#login-link');
-                            });
+
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                                                });
              </script>
              <div class="flex--item s-btn s-btn__muted s-btn__outlined s-btn__icon google-login" data-ga='["sign up","Sign Up Started - Google","New Post",null,null]'>
               <svg aria-hidden="true" class="native svg-icon iconGoogle" height="18" viewbox="0 0 18 18" width="18">
@@ -1056,7 +1097,7 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
           <script>
            StackExchange.ready(
                     function () {
-                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72183912%2frstudio-portfolioanalytics-is-not-working%23new-answer', 'question_page');
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72193804%2freact-imports-since-src%23new-answer', 'question_page');
                     }
                 );
           </script>
@@ -1121,8 +1162,17 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
         </form>
         <h2 class="bottom-notice" data-loc="1">
          Browse other questions tagged
-         <a class="post-tag" href="/questions/tagged/r" rel="tag" title="show questions tagged 'r'">
-          r
+         <a class="post-tag" href="/questions/tagged/javascript" rel="tag" title="show questions tagged 'javascript'">
+          javascript
+         </a>
+         <a class="post-tag" href="/questions/tagged/reactjs" rel="tag" title="show questions tagged 'reactjs'">
+          reactjs
+         </a>
+         <a class="post-tag" href="/questions/tagged/import" rel="tag" title="show questions tagged 'import'">
+          import
+         </a>
+         <a class="post-tag" href="/questions/tagged/vite" rel="tag" title="show questions tagged 'vite'">
+          vite
          </a>
          or
          <a href="/questions/ask">
@@ -1151,19 +1201,6 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
            </a>
           </div>
          </li>
-         <li class="s-sidebarwidget--item d-flex px16">
-          <div class="flex--item1 fl-shrink0">
-           <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-            <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-            </path>
-           </svg>
-          </div>
-          <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","The Overflow Blog","https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/",null,null]' data-gps-track="communitybulletin.click({ priority: 1, position: 1 })" href="https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/">
-            Security needs to shift left into the software development lifecycle
-           </a>
-          </div>
-         </li>
          <div class="s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1">
           Featured on Meta
          </div>
@@ -1173,7 +1210,7 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 1 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
             Staging Ground: Reviewer Motivation, Scaling, and Open Questions
            </a>
           </div>
@@ -1184,7 +1221,7 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 3 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
             Overhauling our community's closure reasons and guidance
            </a>
           </div>
@@ -1211,83 +1248,103 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
         </h4>
         <div class="related js-gps-related-questions" data-tracker="rq=1">
          <div class="spacer">
-          <a href="/q/13656699" title="Question score (upvotes - downvotes)">
+          <a href="/q/14132789" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1312
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/14132789/relative-imports-for-the-billionth-time">
+           Relative imports for the billionth time
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/22876978" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1730
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/22876978/loop-inside-react-jsx">
+           Loop inside React JSX
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/27928372" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1052
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually">
+           React-router URLs don't work when refreshing or writing manually
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/29810914" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            307
+            842
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/13656699/update-r-using-rstudio">
-           Update R using RStudio
+          <a class="question-hyperlink" href="/questions/29810914/react-js-onclick-cant-pass-value-to-method">
+           React js onClick can't pass value to method
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/13672720" title="Question score (upvotes - downvotes)">
+          <a href="/q/31048953" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1317
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/31048953/what-are-these-three-dots-in-react-doing">
+           What are these three dots in React doing?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/31079081" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2018
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/31079081/programmatically-navigate-using-react-router">
+           Programmatically navigate using React router
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/31163693" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            160
+            857
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/13672720/r-command-for-setting-working-directory-to-source-file-location-in-rstudio">
-           R command for setting working directory to source file location in Rstudio
+          <a class="question-hyperlink" href="/questions/31163693/how-do-i-conditionally-add-attributes-to-react-components">
+           How do I conditionally add attributes to React components?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/14260340" title="Question score (upvotes - downvotes)">
+          <a href="/q/34641582" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            346
+            927
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/14260340/function-to-clear-the-console-in-r-and-rstudio">
-           Function to clear the console in R and RStudio
+          <a class="question-hyperlink" href="/questions/34641582/what-is-the-difference-between-react-native-and-react">
+           What is the difference between React Native and React?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/25721884" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted large">
-            654
+          <a href="/q/38892771" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1865
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/25721884/how-should-i-deal-with-package-xxx-is-not-available-for-r-version-x-y-z-wa">
-           How should I deal with "package 'xxx' is not available (for R version x.y.z)" warning?
+          <a class="question-hyperlink" href="/questions/38892771/cant-bind-to-ngmodel-since-it-isnt-a-known-property-of-input">
+           Can't bind to 'ngModel' since it isn't a known property of 'input'
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/28732232" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            2
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/28732232/rstudio-viewer-pane-not-working">
-           RStudio Viewer Pane not working?
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/30522686" title="Question score (upvotes - downvotes)">
+          <a href="/q/63436008" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted default">
             1
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/30522686/portfolioanalytics-dollar-neutral-constraint">
-           PortfolioAnalytics "dollar_neutral" constraint
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/37748516" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            7
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/37748516/rstudio-snippet-not-working">
-           RStudio snippet not working
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/38750356" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            1
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/38750356/subscript-a-title-in-a-graph-ggplot2-with-label-of-another-file">
-           Subscript a title in a Graph (ggplot2) with label of another file
+          <a class="question-hyperlink" href="/questions/63436008/how-to-import-libraries-as-plugins-in-a-vite-application">
+           How to import libraries as plugins in a Vite application?
           </a>
          </div>
         </div>
@@ -1300,122 +1357,122 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
         </h4>
         <ul>
          <li>
-          <div class="favicon favicon-hermeneutics" title="Biblical Hermeneutics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:320 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://hermeneutics.stackexchange.com/questions/76203/what-does-jesus-mean-by-hot-cold-and-lukewarm-in-revelation-316">
-           What does Jesus mean by "hot", "cold" and "lukewarm" in Revelation 3:16?
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/249002/safe-breakout-for-an-rv-outlet">
-           Safe breakout for an RV outlet
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-superuser" title="Super User">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720216/chown-operation-not-permitted-even-as-root-user">
-           chown - Operation not permitted even as root user
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-bicycles" title="Bicycles Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bicycles.stackexchange.com/questions/83819/do-rotational-symmetric-looking-front-lights-usually-throw-half-their-light-into">
-           Do rotational-symmetric-looking front lights usually throw half their light into oncoming traffic? How To dinstiguish?
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-askubuntu" title="Ask Ubuntu">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://askubuntu.com/questions/1407633/using-grep-to-find-tag-and-get-arbitrary-string-after-it">
-           Using grep to find tag and get arbitrary string after it
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-german" title="German Language Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://german.stackexchange.com/questions/70546/unexpected-use-of-kater-instead-of-katze">
-           Unexpected use of 'Kater' instead of 'Katze'
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707698/at-which-point-is-the-magnetic-field-in-a-current-carrying-loop-the-strongest">
-           At which point is the magnetic field in a current carrying loop the strongest?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-japanese" title="Japanese Language Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:257 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://japanese.stackexchange.com/questions/94444/can-%e3%81%99%e3%82%8b-substitute-a-previously-used-verb">
-           Can する substitute a previously used verb?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314832/heavens-gate-vs-the-gates-of-hell">
-           "Heaven's Gate" vs "The Gates of Hell"
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-codegolf" title="Code Golf Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codegolf.stackexchange.com/questions/247087/ascii-art-nth-root">
-           ASCII-Art n'th Root
-          </a>
-         </li>
-         <li class="dno js-hidden">
           <div class="favicon favicon-blender" title="Blender Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://blender.stackexchange.com/questions/263072/are-render-results-hardware-dependent">
-           Are render results hardware dependent?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://blender.stackexchange.com/questions/263176/no-rgba-option-in-render-output-panel">
+           No RGBA option in Render Output panel
           </a>
          </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-law" title="Law Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80056/what-possible-penalties-can-there-be-for-failing-to-comply-with-rule-286-of-the">
-           What possible penalties can there be for failing to comply with rule 286 of the UK highway code?
-          </a>
-         </li>
-         <li class="dno js-hidden">
+         <li>
           <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
           </div>
           <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263076/why-did-this-character-need-america-chavez">
            Why did this character need America Chavez?
           </a>
          </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+         <li>
+          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263050/what-changes-were-made-for-the-second-edition-of-the-martian">
-           What changes were made for the second edition of 'The Martian'?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198279/how-many-people-can-be-poisoned-with-ingested-poison-in-pathfinder-2e">
+           How many people can be poisoned with ingested poison in Pathfinder 2e?
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-gis" title="Geographic Information Systems Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:79 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://gis.stackexchange.com/questions/430837/calculating-two-columns-at-once-in-qgis">
+           Calculating two columns at once in QGIS
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://unix.stackexchange.com/questions/701944/bash-how-to-compare-arg-to-one-of-the-disks-in-linux-machine">
+           bash + how to compare arg to one of the disks in linux machine
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
+          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314851/must-i-use-my-when-referring-to-my-own-bodypart-or-can-i-use-the-without-tec">
-           Must I use "my" when referring to my own bodypart or can I use "the" without technically breaking any rules?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184698/should-the-company-pay-the-tips-i-gave">
+           Should the company pay the tips I gave?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-blender" title="Blender Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://blender.stackexchange.com/questions/263202/can-i-create-a-large-videogame-map-in-blender-like-9-5-kilometers-in-size">
+           Can I create a large videogame map in Blender like 9.5 kilometers in size?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-superuser" title="Super User">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720216/chown-operation-not-permitted-even-as-root-user">
+           chown - Operation not permitted even as root user
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184681/invited-to-give-talk-but-want-to-refuse">
+           Invited to give talk but want to refuse
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229759/do-androids-left-on-their-own-have-any-hope-of-replicating">
+           Do androids left on their own have any hope of replicating?
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643476/how-can-i-draw-a-table-with-4-numbers-around-a-cross-x-shape-for-the-diamond-m">
-           How can I draw a "table" with 4 numbers around a cross/X-shape for the diamond method?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643665/tikz-prevent-overlapping-boxes-when-using-fit">
+           TikZ: prevent overlapping boxes when using fit
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
+          <div class="favicon favicon-retrocomputing" title="Retrocomputing Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707452/wouldnt-the-cosmic-background-radiation-cmb-produce-drag-and-thus-create-a-pr">
-           Wouldn't the cosmic background radiation (CMB) produce drag and thus create a preferential inertial frame?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:648 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://retrocomputing.stackexchange.com/questions/24471/why-didnt-the-original-commodore-pet-computer-use-a-standard-typewriter-style-k">
+           Why didn't the original Commodore PET computer use a standard typewriter style keyboard?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-softwareengineering" title="Software Engineering Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:131 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://softwareengineering.stackexchange.com/questions/438534/is-it-true-that-switching-programming-languages-will-have-little-impact-on-the-s">
+           Is it true that switching programming languages will have little impact on the scalability of a CRUD API?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-hermeneutics" title="Biblical Hermeneutics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:320 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://hermeneutics.stackexchange.com/questions/76219/peace-and-jesus">
+           Peace and Jesus
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198264/can-locate-object-find-the-orb-of-a-scrying-sensor">
+           Can Locate Object find the orb of a Scrying sensor?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-travel" title="Travel Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173547/traveling-from-germany-to-austria-without-a-passport-at-hand-with-blue-card-p">
+           Traveling from Germany to Austria without a passport at hand, with Blue card - plastic card "Aufenthaltstitel" but also says Pass(Ersatz)
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-mathoverflow" title="MathOverflow">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422198/complex-vector-bundles-on-compact-complex-manifolds">
+           Complex vector bundles on compact complex manifolds
           </a>
          </li>
          <li class="dno js-hidden">
@@ -1426,6 +1483,27 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
           </a>
          </li>
          <li class="dno js-hidden">
+          <div class="favicon favicon-opensource" title="Open Source Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:619 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://opensource.stackexchange.com/questions/12857/agpl-library-usage-for-an-internal-software">
+           AGPL library usage for an internal software
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263050/what-changes-were-made-for-the-second-edition-of-the-martian">
+           What changes were made for the second edition of 'The Martian'?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-politics" title="Politics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73037/legality-of-nato-countries-freezing-assets-of-friends-and-family-of-putin">
+           Legality of NATO countries freezing assets of friends and family of Putin
+          </a>
+         </li>
+         <li class="dno js-hidden">
           <div class="favicon favicon-academia" title="Academia Stack Exchange">
           </div>
           <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185102/im-the-1st-author-of-a-paper-in-a-top-conference-in-my-field-and-even-then-my">
@@ -1433,38 +1511,17 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          <div class="favicon favicon-linguistics" title="Linguistics Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263051/why-did-mordo-introduce-this-character-this-way">
-           Why did Mordo introduce this character this way?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:312 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://linguistics.stackexchange.com/questions/44440/ncuti-gatwa-is-according-to-wikipedia-pronounced-%cb%88%ca%83u%cb%90ti-%cb%88%c9%a1%c3%a6tw%c9%91%cb%90-where-is-t">
+           Ncuti Gatwa is, according to Wikipedia, pronounced /ˈʃuːti ˈɡætwɑː/ - where is the NC orthography derived from?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
+          <div class="favicon favicon-crypto" title="Cryptography Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/248999/ceiling-fan-light-has-max-9w-led-sticker-but-doesnt-mention-incandescent">
-           Ceiling fan light has "MAX 9w LED" sticker, but doesn't mention incandescent
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mathoverflow" title="MathOverflow">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422144/does-the-first-laplacian-eigenfunction-on-a-homogeneous-space-have-a-unique-maxi">
-           Does the first Laplacian eigenfunction on a homogeneous space have a unique maximum?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619042/why-does-the-current-carrying-capability-of-a-cable-increase-with-temperature">
-           Why does the current carrying capability of a cable increase with temperature
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268040/working-around-memory-leak-from-hermitedecomposition">
-           Working around Memory Leak from HermiteDecomposition
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:281 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://crypto.stackexchange.com/questions/100067/doing-otp-two-or-more-times-with-a-biased-trng-will-this-have-the-same-security">
+           Doing OTP two or more times with a biased TRNG: Will this have the same security as if was done with a non-biased TRNG?
           </a>
          </li>
         </ul>
@@ -1473,7 +1530,7 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
         </a>
        </div>
        <div class="js-feed-link" id="feed-link">
-        <a href="/feeds/question/72183912" title="Feed of this question and its answers">
+        <a href="/feeds/question/72193804" title="Feed of this question and its answers">
          <svg aria-hidden="true" class="fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
           <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
           </path>
@@ -1496,7 +1553,7 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
            </label>
           </div>
           <div class="d-flex ps-relative">
-           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72183912"/>
+           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72193804"/>
            <svg aria-hidden="true" class="s-input-icon fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
             <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
             </path>
@@ -1514,15 +1571,15 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
       </div>
      </div>
      <script>
-      StackExchange.ready(function(){$.get('/posts/72183912/ivc/e944');});
+      StackExchange.ready(function(){$.get('/posts/72193804/ivc/bb37');});
      </script>
      <noscript>
       <div>
-       <img alt="" class="dno" height="0" src="/posts/72183912/ivc/e944" width="0"/>
+       <img alt="" class="dno" height="0" src="/posts/72193804/ivc/bb37" width="0"/>
       </div>
      </noscript>
      <div id="js-codeblock-lang" style="display:none">
-      lang-r
+      lang-js
      </div>
     </div>
    </div>
@@ -1541,9 +1598,9 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
     clc.options.targeting_consent = !1;
     clc.options.performance_consent = !1;
         clc.cmd = clc.cmd || [];
-        clc.cmd.push(function () { window.clc_request='A0dOxTFpMtoIAAAAAGhwTQQCAAAAAgAAAAAAAwAAAHxyfADA6P14cBp3R6Mh'; clc.load(); });
+        clc.cmd.push(function () { window.clc_request='AwdDPjHcMtoIAAAAAAyXTQQCAAAAAgAAAAAAIAAAAHxqYXZhc2NyaXB0fHJlYWN0anN8aW1wb3J0fHZpdGV8AAqqB1WOTZ7L3wU'; clc.load(); });
         clc.dfp = clc.dfp || {};
-        clc.dfp.targeting = {Registered:['false'],'so-tag':['r'],'tag-reportable':['r'],'tag-non-reportable':['r'],NumberOfAnswers:['0']};
+        clc.dfp.targeting = {Registered:['false'],'so-tag':['javascript','reactjs','import','vite'],'tag-reportable':['javascript','reactjs','import','vite'],'tag-non-reportable':['javascript','reactjs','import','vite'],NumberOfAnswers:['0']};
 
         if (window.location.hash.indexOf('ads:cat=cp') >= 0)
         {
@@ -1765,42 +1822,13 @@ ggtitle(paste0("Drawdowns of ",ndx_symbol,", monthly data"),
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-                    StackExchange.ga.setDimension('dimension2', '|r|');
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175661.1146226491");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

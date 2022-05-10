@@ -2,22 +2,22 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   plsql - How to create a report in XLS or CSV without accessing server - Stack Overflow
+   python - How to line up rectangles? - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/questions/72183972/how-to-create-a-report-in-xls-or-csv-without-accessing-server" rel="canonical">
+  <link href="https://stackoverflow.com/questions/72193796/how-to-line-up-rectangles" rel="canonical">
    <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
    <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/questions/72183972/how-to-create-a-report-in-xls-or-csv-without-accessing-server" property="og:url"/>
+    <meta content="https://stackoverflow.com/questions/72193796/how-to-line-up-rectangles" property="og:url"/>
     <meta content="Stack Overflow" property="og:site_name"/>
     <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
     <meta content="summary" name="twitter:card"/>
     <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="How to create a report in XLS or CSV without accessing server" itemprop="name" name="twitter:title" property="og:title"/>
-    <meta content="Generally when I'm asked to generate a report (for example a simple ASCII/CSV file) by means of a select from a table, I've always used the UTL_FILE for writing every row into a file on the server...." itemprop="description" name="twitter:description" property="og:description"/>
+    <meta content="How to line up rectangles?" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="I have a problem with printing lined up rectangles. The task is to implement function that generates an infinite sequence (however the professor said it's not necessarily, could be, for instance, 10 " itemprop="description" name="twitter:description" property="og:description"/>
     <script id="webpack-public-path" type="text/uri-list">
      https://cdn.sstatic.net/
     </script>
@@ -29,16 +29,16 @@
     </script>
     <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
-    <link href="/feeds/question/72183972" rel="alternate" title="Feed for question 'How to create a report in XLS or CSV without accessing server'" type="application/atom+xml"/>
+    <link href="/feeds/question/72193796" rel="alternate" title="Feed for question 'How to line up rectangles?'" type="application/atom+xml"/>
     <meta content="US" name="twitter:app:country"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:iphone"/>
     <meta content="871299723" name="twitter:app:id:iphone"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183972/how-to-create-a-report-in-xls-or-csv-without-accessing-server" name="twitter:app:url:iphone"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193796/how-to-line-up-rectangles" name="twitter:app:url:iphone"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:ipad"/>
     <meta content="871299723" name="twitter:app:id:ipad"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183972/how-to-create-a-report-in-xls-or-csv-without-accessing-server" name="twitter:app:url:ipad"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193796/how-to-line-up-rectangles" name="twitter:app:url:ipad"/>
     <meta content="Stack Exchange Android" name="twitter:app:name:googleplay"/>
-    <meta content="https://stackoverflow.com/questions/72183972/how-to-create-a-report-in-xls-or-csv-without-accessing-server" name="twitter:app:url:googleplay"/>
+    <meta content="https://stackoverflow.com/questions/72193796/how-to-line-up-rectangles" name="twitter:app:url:googleplay"/>
     <meta content="com.stackexchange.marvin" name="twitter:app:id:googleplay"/>
     <script>
      StackExchange.ready(function () {
@@ -52,11 +52,11 @@
                 });
 
 
-                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72183972});
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72193796});
 
                 styleCode();
 
-                    StackExchange.realtime.subscribeToQuestion('1', '72183972');
+                    StackExchange.realtime.subscribeToQuestion('1', '72193796');
                     StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.js-post-body'); });
 
 
@@ -64,7 +64,7 @@
     </script>
     <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
     <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1652175647,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+     {"options":{"locale":"en","serverTime":1652225039,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
     </script>
     <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
      {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -73,7 +73,7 @@
      StackExchange.init();
     </script>
     <script>
-     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -263,11 +263,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183972%2fhow-to-create-a-report-in-xls-or-csv-without-accessing-server">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193796%2fhow-to-line-up-rectangles">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183972%2fhow-to-create-a-report-in-xls-or-csv-without-accessing-server">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193796%2fhow-to-line-up-rectangles">
           log in
          </a>
          to customize your list.
@@ -298,12 +298,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183972%2fhow-to-create-a-report-in-xls-or-csv-without-accessing-server" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193796%2fhow-to-line-up-rectangles" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183972%2fhow-to-create-a-report-in-xls-or-csv-without-accessing-server" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193796%2fhow-to-line-up-rectangles" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -518,8 +518,8 @@
      <div class="inner-content clearfix">
       <div class="d-flex sm:fd-column" id="question-header">
        <h1 class="fs-headline1 ow-break-word mb8 flex--item fl1" itemprop="name">
-        <a class="question-hyperlink" href="/questions/72183972/how-to-create-a-report-in-xls-or-csv-without-accessing-server">
-         How to create a report in XLS or CSV without accessing server
+        <a class="question-hyperlink" href="/questions/72193796/how-to-line-up-rectangles">
+         How to line up rectangles?
         </a>
        </h1>
        <div class="ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end">
@@ -529,11 +529,11 @@
        </div>
       </div>
       <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075">
-       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 09:37:35Z">
+       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 23:05:53Z">
         <span class="fc-light mr2">
          Asked
         </span>
-        <time datetime="2022-05-10T09:37:35" itemprop="dateCreated">
+        <time datetime="2022-05-10T23:05:53" itemprop="dateCreated">
          today
         </time>
        </div>
@@ -541,7 +541,7 @@
         <span class="fc-light mr2">
          Modified
         </span>
-        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 09:37:35Z">
+        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 23:05:53Z">
          today
         </a>
        </div>
@@ -553,7 +553,7 @@
        </div>
       </div>
       <div aria-label="question and answers" id="mainbar" role="main">
-       <div class="question" data-position-on-page="0" data-questionid="72183972" data-score="0" id="question">
+       <div class="question" data-position-on-page="0" data-questionid="72193796" data-score="0" id="question">
         <style>
         </style>
         <div class="js-zone-container zone-container-main">
@@ -564,7 +564,7 @@
         </div>
         <div class="post-layout">
          <div class="votecell post-layout--left">
-          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72183972">
+          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72193796">
            <button aria-label="Up vote" aria-pressed="false" class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This question shows research effort; it is useful and clear">
             <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
              <path d="M2 25h32L18 9 2 25Z">
@@ -588,7 +588,7 @@
             <div class="js-bookmark-count mt4 d-none" data-value="">
             </div>
            </button>
-           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72183972/timeline" title="Show activity on this post.">
+           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72193796/timeline" title="Show activity on this post.">
             <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" height="18" viewbox="0 0 19 18" width="19">
              <path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z">
              </path>
@@ -599,27 +599,70 @@
          <div class="postcell post-layout--right">
           <div class="s-prose js-post-body" itemprop="text">
            <p>
-            Generally when I'm asked to generate a report (for example a simple ASCII/CSV file) by means of a select from a table, I've always used the UTL_FILE for writing every row into a file on the server.
-Let's suppose I don't have an access to a server. In this case, how can I write a procedure for generating the report directly on the database into a BLOB/CLOB colum of a table? Is it possible?
+            I have a problem with printing lined up rectangles. The task is to implement function that generates an infinite sequence (however the professor said it's not necessarily, could be, for instance, 10 rectangles) of not intersecting equal rectangles with different coordinates.
+It should look like the the lower straight line of hexagons (but I need rectangles) on the picture (with equal spaces).
            </p>
            <p>
-            Oracle version 10g
+            <a href="https://i.stack.imgur.com/0yiH9.png" rel="nofollow noreferrer">
+             <img alt="how it should look like" src="https://i.stack.imgur.com/0yiH9.png"/>
+            </a>
            </p>
            <p>
-            Thanks in advance!
+            For now I have this code:
            </p>
+           <pre><code>import matplotlib.pyplot as plt
+
+
+class Figure:
+    def __init__(self):
+        self.x = []
+        self.y = []
+
+    def show(self):
+        plt.plot(self.x, self.y)
+        plt.axis([-0.2, 10, -0.2, 5])
+        plt.show()
+
+
+class Rectangle(Figure):
+    def __init__(self):
+        self.x = [0, 0, 2, 2, 0]
+        self.y = [0, 1, 1, 0, 0]
+
+
+def show():
+    plot = Rectangle()
+    plot.show()
+
+show()
+</code></pre>
            <p>
-            Mark
+            I'm not allowed to use matplotlib to create figures, it should be done with my own classes and functions. Coordinates of the first rectangle are already in the code. Coordinates of the second one should be:
+           </p>
+           <pre><code>x = [3, 3, 5, 5, 3]
+y = [0, 1, 1, 0, 0]
+</code></pre>
+           <p>
+            Of the third one:
+           </p>
+           <pre><code>x = [6, 6, 8, 8, 6]
+y = [0, 1, 1, 0, 0]
+</code></pre>
+           <p>
+            And so on. I see that to every item in x 3 is added. But I don't understand how to make a function (or what library to use) that does it and shows all rectangles in one plot. Thanking you in advance for all the help!
            </p>
           </div>
           <div class="mt24 mb12">
            <div class="post-taglist d-flex gs4 gsy fd-column">
             <div class="d-flex ps-relative fw-wrap">
-             <a class="post-tag" href="/questions/tagged/plsql" rel="tag" title="show questions tagged 'plsql'">
-              plsql
+             <a class="post-tag" href="/questions/tagged/python" rel="tag" title="show questions tagged 'python'">
+              python
              </a>
-             <a class="post-tag" href="/questions/tagged/oracle10g" rel="tag" title="show questions tagged 'oracle10g'">
-              oracle10g
+             <a class="post-tag" href="/questions/tagged/matplotlib" rel="tag" title="show questions tagged 'matplotlib'">
+              matplotlib
+             </a>
+             <a class="post-tag" href="/questions/tagged/oop" rel="tag" title="show questions tagged 'oop'">
+              oop
              </a>
             </div>
            </div>
@@ -627,15 +670,20 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
           <div class="mb0">
            <div class="mt16 d-flex gs8 gsy fw-wrap jc-end ai-start pt4 mb16">
             <div class="flex--item mr16 fl1 w96">
-             <div class="js-post-menu pt2" data-post-id="72183972">
+             <div class="js-post-menu pt2" data-post-id="72193796">
               <div class="d-flex gs8 s-anchors s-anchors__muted fw-wrap">
                <div class="flex--item">
-                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72183972" itemprop="url" rel="nofollow" title="Short permalink to this question">
+                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72193796" itemprop="url" rel="nofollow" title="Short permalink to this question">
                  Share
                 </a>
                </div>
                <div class="flex--item">
-                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72183972" title="Follow this question to receive notifications" type="button">
+                <a class="js-suggest-edit-post js-gps-track" data-gps-track="post.click({ item: 6, priv: 0, post_type: 1 })" href="/posts/72193796/edit" title="">
+                 Improve this question
+                </a>
+               </div>
+               <div class="flex--item">
+                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72193796" title="Follow this question to receive notifications" type="button">
                  Follow
                 </button>
                </div>
@@ -648,37 +696,37 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
              <div class="user-info">
               <div class="user-action-time truncate">
                asked
-               <span class="relativetime" title="2022-05-10 09:37:35Z">
-                3 mins ago
+               <span class="relativetime" title="2022-05-10 23:05:53Z">
+                18 mins ago
                </span>
               </div>
               <div class="user-gravatar32">
-               <a href="/users/13642015/mark">
+               <a href="/users/17530310/hslt">
                 <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/6e30e4525c6b7682032365a285759414?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/6726e071b5136d933831231aedd2cb2a?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
                 </div>
                </a>
               </div>
               <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-               <a href="/users/13642015/mark">
-                Mark
+               <a href="/users/17530310/hslt">
+                hslt
                </a>
                <span class="d-none" itemprop="name">
-                Mark
+                hslt
                </span>
                <div class="-flair">
                 <span class="reputation-score" dir="ltr" title="reputation score ">
                  11
                 </span>
-                <span aria-hidden="true" title="3 bronze badges">
+                <span aria-hidden="true" title="1 bronze badge">
                  <span class="badge3">
                  </span>
                  <span class="badgecount">
-                  3
+                  1
                  </span>
                 </span>
                 <span class="v-visible-sr">
-                 3 bronze badges
+                 1 bronze badge
                 </span>
                </div>
               </div>
@@ -690,11 +738,11 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
          <span class="d-none" itemprop="commentCount">
          </span>
          <div class="post-layout--right js-post-comments-component">
-          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72183972" id="comments-72183972">
+          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72193796" id="comments-72193796">
            <ul class="comments-list js-comments-list" data-addlink-disabled="true" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-remaining-comments-count="0">
            </ul>
           </div>
-          <div data-anon="true" data-rep="50" id="comments-link-72183972">
+          <div data-anon="true" data-rep="50" id="comments-link-72193796">
            <a class="js-add-link comments-link disabled-link" href="#" role="button" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">
             Add a comment
            </a>
@@ -731,7 +779,7 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
              <label class="flex--item fs-caption" for="answer-sort-dropdown-select-menu">
               Sorted by:
              </label>
-             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72183972/how-to-create-a-report-in-xls-or-csv-without-accessing-server?answertab=scoredesc#tab-top">
+             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72193796/how-to-line-up-rectangles?answertab=scoredesc#tab-top">
               Reset to default
              </a>
             </div>
@@ -754,27 +802,27 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
         </div>
         <h2 class="bottom-notice bottom-share-links" style="padding-top: 8px; margin-bottom: -8px;">
          Know someone who can answer? Share a link to this
-         <a href="https://stackoverflow.com/questions/72183972/how-to-create-a-report-in-xls-or-csv-without-accessing-server">
+         <a href="https://stackoverflow.com/questions/72193796/how-to-line-up-rectangles">
           question
          </a>
          via
-         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=How%20to%20create%20a%20report%20in%20XLS%20or%20CSV%20without%20accessing%20server%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72183972%3fsem%3d2">
+         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=How%20to%20line%20up%20rectangles%3f%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72193796%3fsem%3d2">
           email
          </a>
          ,
-         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72183972%3fstw%3d2">
+         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72193796%3fstw%3d2">
           Twitter
          </a>
          , or
-         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72183972%3fsfb%3d2">
+         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72193796%3fsfb%3d2">
           Facebook
          </a>
          .
         </h2>
         <a name="new-answer">
         </a>
-        <form action="/questions/72183972/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
-         <input id="post-id" type="hidden" value="72183972"/>
+        <form action="/questions/72193796/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
+         <input id="post-id" type="hidden" value="72193796"/>
          <input id="qualityBanWarningShown" name="qualityBanWarningShown" type="hidden" value="false"/>
          <input name="referrer" type="hidden" value=""/>
          <h2 class="space">
@@ -903,7 +951,7 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
           <div>
           </div>
           <div class="edit-block">
-           <input id="fkey" name="fkey" type="hidden" value="8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded"/>
+           <input id="fkey" name="fkey" type="hidden" value="bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2"/>
            <input id="author" name="author" type="text"/>
           </div>
          </div>
@@ -913,14 +961,28 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
             <div class="d-flex fd-column w50 md:w-auto gsy gs8 jc-space-between new-login-left">
              <h3 class="flex--item fs-title">
               Sign up or
-              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183972%2fhow-to-create-a-report-in-xls-or-csv-without-accessing-server%23new-answer" id="login-link">
+              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193796%2fhow-to-line-up-rectangles%23new-answer" id="login-link">
                log in
               </a>
              </h3>
              <script>
               StackExchange.ready(function () {
                                 StackExchange.helpers.onClickDraftSave('#login-link');
-                            });
+
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                                                });
              </script>
              <div class="flex--item s-btn s-btn__muted s-btn__outlined s-btn__icon google-login" data-ga='["sign up","Sign Up Started - Google","New Post",null,null]'>
               <svg aria-hidden="true" class="native svg-icon iconGoogle" height="18" viewbox="0 0 18 18" width="18">
@@ -996,7 +1058,7 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
           <script>
            StackExchange.ready(
                     function () {
-                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72183972%2fhow-to-create-a-report-in-xls-or-csv-without-accessing-server%23new-answer', 'question_page');
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72193796%2fhow-to-line-up-rectangles%23new-answer', 'question_page');
                     }
                 );
           </script>
@@ -1061,11 +1123,14 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
         </form>
         <h2 class="bottom-notice" data-loc="1">
          Browse other questions tagged
-         <a class="post-tag" href="/questions/tagged/plsql" rel="tag" title="show questions tagged 'plsql'">
-          plsql
+         <a class="post-tag" href="/questions/tagged/python" rel="tag" title="show questions tagged 'python'">
+          python
          </a>
-         <a class="post-tag" href="/questions/tagged/oracle10g" rel="tag" title="show questions tagged 'oracle10g'">
-          oracle10g
+         <a class="post-tag" href="/questions/tagged/matplotlib" rel="tag" title="show questions tagged 'matplotlib'">
+          matplotlib
+         </a>
+         <a class="post-tag" href="/questions/tagged/oop" rel="tag" title="show questions tagged 'oop'">
+          oop
          </a>
          or
          <a href="/questions/ask">
@@ -1094,19 +1159,6 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
            </a>
           </div>
          </li>
-         <li class="s-sidebarwidget--item d-flex px16">
-          <div class="flex--item1 fl-shrink0">
-           <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-            <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-            </path>
-           </svg>
-          </div>
-          <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","The Overflow Blog","https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/",null,null]' data-gps-track="communitybulletin.click({ priority: 1, position: 1 })" href="https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/">
-            Security needs to shift left into the software development lifecycle
-           </a>
-          </div>
-         </li>
          <div class="s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1">
           Featured on Meta
          </div>
@@ -1116,7 +1168,7 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 1 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
             Staging Ground: Reviewer Motivation, Scaling, and Open Questions
            </a>
           </div>
@@ -1127,7 +1179,7 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 3 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
             Overhauling our community's closure reasons and guidance
            </a>
           </div>
@@ -1154,63 +1206,103 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
         </h4>
         <div class="related js-gps-related-questions" data-tracker="rq=1">
          <div class="spacer">
-          <a href="/q/2805459" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            2
+          <a href="/q/38987" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            6271
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/2805459/utl-file-fclose-is-slow-with-large-files">
-           utl_file.FCLOSE() is slow with large files
+          <a class="question-hyperlink" href="/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression-take-union-of-dictionari">
+           How do I merge two dictionaries in a single expression (take union of dictionaries)?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/7842025" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            0
+          <a href="/q/82831" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes extra-large">
+            6614
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/7842025/how-to-read-csv-data-from-a-clob-column-in-oracle-using-pl-sql">
-           How to read CSV data from a Clob column in Oracle using PL/SQL
+          <a class="question-hyperlink" href="/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions">
+           How do I check whether a file exists without exceptions?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/16295975" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            1
+          <a href="/q/89228" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            5671
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/16295975/oracle-xml-dom-writetoclob-does-ignore-the-character-set">
-           Oracle xml_dom.writeToClob does ignore the character set
+          <a class="question-hyperlink" href="/questions/89228/how-do-i-execute-a-program-or-call-a-system-command">
+           How do I execute a program or call a system command?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/40523343" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            0
+          <a href="/q/208105" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            7003
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/40523343/extracting-output-from-plsql-procedure-to-local-drive-of-my-laptop">
-           Extracting output from PLSQL procedure to local drive of my laptop
+          <a class="question-hyperlink" href="/questions/208105/how-do-i-remove-a-property-from-a-javascript-object">
+           How do I remove a property from a JavaScript object?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/65071745" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            0
+          <a href="/q/273192" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            5173
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/65071745/how-to-convert-json-into-xml-in-oracle-10g">
-           How to convert JSON into XML in Oracle 10g
+          <a class="question-hyperlink" href="/questions/273192/how-can-i-safely-create-a-nested-directory">
+           How can I safely create a nested directory?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/67367222" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            0
+          <a href="/q/332289" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes extra-large">
+            2859
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/67367222/the-new-line-doesnt-work-when-generating-xml">
-           The new line doesn't work when generating xml
+          <a class="question-hyperlink" href="/questions/332289/how-do-i-change-the-size-of-figures-drawn-with-matplotlib">
+           How do I change the size of figures drawn with Matplotlib?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/952914" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            4618
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/952914/how-to-make-a-flat-list-out-of-a-list-of-lists">
+           How to make a flat list out of a list of lists?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/3207219" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes extra-large">
+            3467
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/3207219/how-do-i-list-all-files-of-a-directory">
+           How do I list all files of a directory?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/3277503" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes extra-large">
+            2026
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/3277503/how-to-read-a-file-line-by-line-into-a-list">
+           How to read a file line-by-line into a list?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/6470428" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            3485
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/6470428/catch-multiple-exceptions-in-one-line-except-block">
+           Catch multiple exceptions in one line (except block)
           </a>
          </div>
         </div>
@@ -1223,45 +1315,59 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
         </h4>
         <ul>
          <li>
-          <div class="favicon favicon-travel" title="Travel Stack Exchange">
+          <div class="favicon favicon-or" title="Operations Research Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173534/esta-for-italian-spouse">
-           ESTA for Italian spouse
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:700 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://or.stackexchange.com/questions/8377/quadratically-constrained-convex-optimisation">
+           Quadratically constrained convex optimisation
           </a>
          </li>
          <li>
-          <div class="favicon favicon-gis" title="Geographic Information Systems Stack Exchange">
+          <div class="favicon favicon-superuser" title="Super User">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:79 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://gis.stackexchange.com/questions/430782/how-to-remove-rectangle-around-label">
-           How to remove rectangle around label
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720216/chown-operation-not-permitted-even-as-root-user">
+           chown - Operation not permitted even as root user
           </a>
          </li>
          <li>
-          <div class="favicon favicon-bricks" title="Bricks">
+          <div class="favicon favicon-academia" title="Academia Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:336 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bricks.stackexchange.com/questions/17115/which-bricks-are-still-protected-by-copyright-trademark-patent-law">
-           Which bricks are still protected by copyright / trademark / patent law?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185102/im-the-1st-author-of-a-paper-in-a-top-conference-in-my-field-and-even-then-my">
+           I'm the 1st author of a paper in a top conference in my field, and even then my PhD application got rejected from 5 out of 6 programs, is this normal?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-proofassistants" title="Proof Assistants Stack Exchange">
+          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:708 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://proofassistants.stackexchange.com/questions/1376/construction-of-recursive-types-the-hard-way">
-           Construction of recursive types "the hard way"
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643665/tikz-prevent-overlapping-boxes-when-using-fit">
+           TikZ: prevent overlapping boxes when using fit
           </a>
          </li>
          <li>
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
+          <div class="favicon favicon-apple" title="Ask Different">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707636/alternate-sky-colors">
-           Alternate sky colors?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:118 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://apple.stackexchange.com/questions/440882/why-does-previews-export-to-pdf-only-export-one-page">
+           Why does Preview's export to PDF only export one page?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-academia" title="Academia Stack Exchange">
+          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185085/what-is-the-meaning-when-the-editor-says-a-paper-is-provocative">
-           What is the meaning when the editor says a paper is "provocative"?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198230/how-to-help-a-player-create-a-character-with-more-long-term-motivations">
+           How to help a player create a character with more long term motivations?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-codegolf" title="Code Golf Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codegolf.stackexchange.com/questions/247109/matrix-meets-ascii-art">
+           Matrix Meets ASCII Art
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-stats" title="Cross Validated">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stats.stackexchange.com/questions/574444/if-p-values-are-random-why-not-decide-using-the-test-statistic-instead">
+           If p-values are random, why not decide using the test statistic instead?
           </a>
          </li>
          <li class="dno js-hidden">
@@ -1272,52 +1378,66 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-mathoverflow" title="MathOverflow">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422137/motivation-of-the-fundamental-theorem-of-covering-spaces">
-           Motivation of the fundamental theorem of covering spaces
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268019/solving-equation-over-truncateddistribution-findroot">
-           Solving equation over TruncatedDistribution (FindRoot)
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198242/can-i-rest-while-under-the-effects-of-the-meld-into-stone-spell">
-           Can I rest while under the effects of the Meld into Stone spell?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-history" title="History Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://history.stackexchange.com/questions/68935/when-did-horseback-riding-start-are-doosheh-cave-petroglyphs-authentic-and-corr">
-           When did horseback riding start? Are Doosheh cave petroglyphs authentic and correctly dated?
-          </a>
-         </li>
-         <li class="dno js-hidden">
           <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229739/can-a-birch-planet-send-information-out">
-           Can a Birch planet send information out?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229782/why-would-vampires-sire-vampires-of-lesser-blood-than-they-have-to">
+           Why would vampires sire vampires of lesser blood than they have to?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-blender" title="Blender Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://blender.stackexchange.com/questions/263176/no-rgba-option-in-render-output-panel">
+           No RGBA option in Render Output panel
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-academia" title="Academia Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185085/what-is-the-meaning-when-the-editor-says-a-paper-is-provocative">
+           What is the meaning when the editor says a paper is "provocative"?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-dsp" title="Signal Processing Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:295 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://dsp.stackexchange.com/questions/82968/given-a-signal-that-is-not-bandlimited-how-do-you-properly-take-the-fft">
+           Given a signal that is not bandlimited, how do you properly take the FFT?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-stats" title="Cross Validated">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stats.stackexchange.com/questions/574590/negative-prediction-values-from-linear-regression-in-r">
+           Negative prediction values from linear regression in R
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stackoverflow.com/questions/72188017/why-does-my-c-compiler-want-to-instantiate-my-parameter-pack-class-when-usin">
+           Why does my (C++) compiler want to instantiate my parameter pack class when using std::endl?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/249003/whats-the-cheapest-way-to-wire-these-lights">
+           What's the cheapest way to wire these lights?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-gis" title="Geographic Information Systems Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:79 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://gis.stackexchange.com/questions/430837/calculating-two-columns-at-once-in-qgis">
+           Calculating two columns at once in QGIS
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268044/fast-double-sum-involving-kronecker-symbol">
-           Fast double sum involving Kronecker symbol
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-cs" title="Computer Science Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:419 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://cs.stackexchange.com/questions/151400/finding-a-dfa-for-concatenation">
-           Finding a DFA for concatenation
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268060/writing-code-for-a-diagram">
+           Writing code for a diagram
           </a>
          </li>
          <li class="dno js-hidden">
@@ -1328,66 +1448,38 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          <div class="favicon favicon-history" title="History Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263049/why-were-mordos-group-of-heroes-so-disastrously-overconfident-in-confronting-th">
-           Why were Mordo's group of heroes so disastrously overconfident in confronting this enemy?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://history.stackexchange.com/questions/68935/when-did-horseback-riding-start-are-doosheh-cave-petroglyphs-authentic-and-corr">
+           When did horseback riding start? Are Doosheh cave petroglyphs authentic and correctly dated?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
+          <div class="favicon favicon-travel" title="Travel Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314832/heavens-gate-vs-the-gates-of-hell">
-           "Heaven's Gate" vs "The Gates of Hell"
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173537/help-identifying-this-landmark-and-road-in-los-angeles-1940s-residential-area">
+           Help identifying this landmark and road in "Los Angeles 1940s, Residential Area in color"
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-politics" title="Politics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73043/do-any-cities-formalize-preferential-homeless-services-to-locals">
+           Do any cities formalize preferential homeless services to "locals"?
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-law" title="Law Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80047/after-buying-from-a-brick-mortar-shop-theyve-contacted-me-to-say-buying-thing">
-           After buying from a brick &amp; mortar shop they've contacted me to say buying things from them is consent to arbitration. Is this legal?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80081/how-is-an-animal-defined-as-in-rule-286-of-the-uk-highway-code">
+           How is an animal defined as in rule 286 of the UK highway code?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
+          <div class="favicon favicon-travel" title="Travel Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643555/write-some-text-under-physic-chemistry-formula">
-           Write some text under physic-chemistry formula
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://money.stackexchange.com/questions/150834/can-you-just-cancel-a-health-insurance-plan-and-buy-a-new-one-at-any-time">
-           Can you just cancel a health insurance plan and buy a new one at any time?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-bicycles" title="Bicycles Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bicycles.stackexchange.com/questions/83826/searching-a-new-city-tyre-for-two-old-bikes-one-has-26x1-90-tyre-on-it-and-anot">
-           Searching a new city tyre for Two old bikes, one has 26x1,90 tyre on it and another has 37-622(28x1 3/8x1 5/8)
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-latin" title="Latin Language Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:644 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://latin.stackexchange.com/questions/18220/quae-haec-mihi-d%c5%8dna-dedist%c4%ab">
-           "quae haec mihi dōna dedistī"
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619031/charging-supercapacitors-with-reversed-polarity">
-           Charging supercapacitors with reversed polarity
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707827/why-arent-runge-kutta-methods-used-for-molecular-dynamics-simulations">
-           Why aren't Runge-Kutta methods used for molecular dynamics simulations?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173546/i-have-2-flights-by-ryanair-funchal-stansted-and-stansted-bologna-do-i-need-to">
+           I have 2 flights by Ryanair. Funchal-Stansted and Stansted-Bologna. Do I need to do passport control in Stansted? Or I can stay airside?
           </a>
          </li>
         </ul>
@@ -1396,7 +1488,7 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
         </a>
        </div>
        <div class="js-feed-link" id="feed-link">
-        <a href="/feeds/question/72183972" title="Feed of this question and its answers">
+        <a href="/feeds/question/72193796" title="Feed of this question and its answers">
          <svg aria-hidden="true" class="fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
           <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
           </path>
@@ -1419,7 +1511,7 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
            </label>
           </div>
           <div class="d-flex ps-relative">
-           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72183972"/>
+           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72193796"/>
            <svg aria-hidden="true" class="s-input-icon fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
             <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
             </path>
@@ -1437,15 +1529,15 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
       </div>
      </div>
      <script>
-      StackExchange.ready(function(){$.get('/posts/72183972/ivc/e944');});
+      StackExchange.ready(function(){$.get('/posts/72193796/ivc/bb37');});
      </script>
      <noscript>
       <div>
-       <img alt="" class="dno" height="0" src="/posts/72183972/ivc/e944" width="0"/>
+       <img alt="" class="dno" height="0" src="/posts/72193796/ivc/bb37" width="0"/>
       </div>
      </noscript>
      <div id="js-codeblock-lang" style="display:none">
-      lang-sql
+      lang-py
      </div>
     </div>
    </div>
@@ -1464,9 +1556,9 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
     clc.options.targeting_consent = !1;
     clc.options.performance_consent = !1;
         clc.cmd = clc.cmd || [];
-        clc.cmd.push(function () { window.clc_request='A_jlfilpMtoIAAAAAKRwTQQCAAAAAgAAAAAAEQAAAHxwbHNxbHxvcmFjbGUxMGd8ABqpMYo8ZhF7PCs'; clc.load(); });
+        clc.cmd.push(function () { window.clc_request='AwV_TCncMtoIAAAAAASXTQQCAAAAAgAAAAAAFwAAAHxweXRob258bWF0cGxvdGxpYnxvb3B8AGbnYLgvoGdAAIk'; clc.load(); });
         clc.dfp = clc.dfp || {};
-        clc.dfp.targeting = {Registered:['false'],'so-tag':['plsql','oracle10g'],'tag-reportable':['plsql','oracle10g'],'tag-non-reportable':['plsql','oracle10g'],NumberOfAnswers:['0']};
+        clc.dfp.targeting = {Registered:['false'],'so-tag':['python','matplotlib','oop'],'tag-reportable':['python','matplotlib','oop'],'tag-non-reportable':['python','matplotlib','oop'],NumberOfAnswers:['0']};
 
         if (window.location.hash.indexOf('ads:cat=cp') >= 0)
         {
@@ -1688,42 +1780,13 @@ Let's suppose I don't have an access to a server. In this case, how can I write 
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-                    StackExchange.ga.setDimension('dimension2', '|plsql|oracle10g|');
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175647.797256287");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">
