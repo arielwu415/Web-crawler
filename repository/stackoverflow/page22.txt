@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   What is Collectives on Stack Overflow? - Help Center
+   Our model - Help Center - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/collectives-what-are" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/stackexchange" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="What is Collectives on Stack Overflow? - Help Center" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Our model - Help Center" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1652146396,"routeName":"Help/SlugRouter","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"a16bcaba2df41bcf70377e5bf493900a57f904eca753e6ff1ad7227458a8d1db","tid":"c908c7c8-ea2a-c717-4e4f-e57c0be7175c","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":1}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652175540,"routeName":"Help/SlugRouter","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"05e82f4dc0f75332fd5036abf7fb909a59aae90b3aed4f94e34d83e9de18c706","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-what-are">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fstackexchange">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-what-are">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fstackexchange">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-what-are" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fstackexchange" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-what-are" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fstackexchange" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -479,7 +479,7 @@
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div class="help-center" id="mainbar">
+    <div id="mainbar">
      <div class="s-page-title mb16">
       <div class="s-page-title--text">
        <nav aria-label="breadcrumb" class="s-breadcrumbs mb6 sm:mb2">
@@ -496,29 +496,164 @@
          <a class="s-breadcrumbs--link" href="/help">
           Help center
          </a>
-         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
-          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
-          </path>
-         </svg>
-        </div>
-        <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/help/collectives">
-          Collectives on Stack Overflow
-         </a>
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        What is Collectives on Stack Overflow?
+        Our model
        </h1>
       </div>
      </div>
-     <div class="s-prose js-post-body w100">
-      <div class="js-edit-hide col-section">
+     <div class="help-center">
+      <div class="col-section">
        <p>
-        Collectives™ on Stack Overflow is a grouping of content around a product/service or product suite of a technology organization. Its grouping is based on tags, and together forms a home for this organization on Stack Overflow. It’s a place for users where they can find any content related to that product/service, both Q&amp;A and content that goes beyond regular Q&amp;A, such as Articles.
+        <a href="https://stackoverflow.com/help/conduct">
+         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
+          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
+          </path>
+         </svg>
+         Code of Conduct
+        </a>
        </p>
+      </div>
+      <div class="col-section">
        <p>
-        Collectives can also grant users specific permissions such as posting Articles within a Collective, recommending answers that are associated with a Collective, and having a user badge that highlights the users associated with the Collective.
+        <a href="https://stackoverflow.com/help/behavior">
+         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
+          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
+          </path>
+         </svg>
+         Expected Behavior
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/interesting-topics">
+         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
+          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
+          </path>
+         </svg>
+         How do I find topics I'm interested in?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/promotion">
+         How to not be a spammer
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/searching">
+         How do I search?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/harassment">
+         How do I report harassment?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/tag-excerpts">
+         What should a tag wiki excerpt contain?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/flair">
+         What is Flair?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/roomba">
+         The Community user deleted my question! What gives?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/advertising">
+         How do I advertise on Stack Overflow?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/formatting">
+         How do I format my posts using Markdown or HTML?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/browser-support">
+         What browsers do we support?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/product-support">
+         Can I support my product on this site?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/flagging">
+         What if I see someone doing something bad?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/give-feedback">
+         Where can I post feedback about something that’s broken or an idea I have for a feature?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/editing">
+         Why can people edit my posts? How does editing work?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/more-help">
+         What if I need more help?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/what-are-badges">
+         What are badges?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/whats-beta">
+         What does "beta" mean?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/whats-meta">
+         What is "meta"? How does it work?
+        </a>
        </p>
       </div>
      </div>
@@ -541,10 +676,112 @@
          Badges
         </a>
        </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/stackexchange">
+       <li class="s-sidebarwidget--item d-block">
+        <a aria-current="true" href="/help/stackexchange">
          Our model
         </a>
+        <ul class="s-sidebarwidget--subnav ml8">
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/conduct">
+           Code of Conduct
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/behavior">
+           Expected Behavior
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/interesting-topics">
+           How do I find topics I'm interested in?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/promotion">
+           How to not be a spammer
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/searching">
+           How do I search?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/harassment">
+           How do I report harassment?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/tag-excerpts">
+           What should a tag wiki excerpt contain?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/flair">
+           What is Flair?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/roomba">
+           The Community user deleted my question! What gives?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/advertising">
+           How do I advertise on Stack Overflow?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/formatting">
+           How do I format my posts using Markdown or HTML?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/browser-support">
+           What browsers do we support?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/product-support">
+           Can I support my product on this site?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/flagging">
+           What if I see someone doing something bad?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/give-feedback">
+           Where can I post feedback about something that’s broken or an idea I have for a feature?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/editing">
+           Why can people edit my posts? How does editing work?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/more-help">
+           What if I need more help?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/what-are-badges">
+           What are badges?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/whats-beta">
+           What does "beta" mean?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/whats-meta">
+           What is "meta"? How does it work?
+          </a>
+         </li>
+        </ul>
        </li>
        <li class="s-sidebarwidget--item">
         <a href="/help/reputation">
@@ -566,71 +803,14 @@
          Review Queues
         </a>
        </li>
-       <li class="s-sidebarwidget--item d-block">
-        <a aria-current="true" href="/help/collectives">
+       <li class="s-sidebarwidget--item">
+        <a href="/help/collectives">
          Collectives on Stack Overflow
         </a>
-        <ul class="s-sidebarwidget--subnav ml8">
-         <li aria-current="page">
-          <a href="https://stackoverflow.com/help/collectives-what-are">
-           What is Collectives on Stack Overflow?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/propose-article">
-           How do I propose and review new articles?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-join">
-           How do I join a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-tags">
-           How do you determine which tags are included in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-user-types">
-           What are the different types of users in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-recognized-member">
-           How can I become a Recognized Member?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-recommended-answer">
-           What is a recommended answer?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-visual-labels">
-           What are visual labels in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/article-feedback">
-           How to provide feedback on an article
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/article-guidelines">
-           Article guidelines
-          </a>
-         </li>
-        </ul>
        </li>
       </ul>
      </nav>
     </div>
-    <script>
-     StackExchange.ready(function () {
-        styleCode.initializeSpoilers();
-    });
-    </script>
    </div>
   </div>
   <footer class="site-footer js-footer" id="footer" role="contentinfo">
@@ -866,7 +1046,7 @@
                     StackExchange.ga.setDimension('dimension3', 'Help/SlugRouter');
 
 
-                StackExchange.ga.setDimension('dimension7', "1652146396.2027852964");
+                StackExchange.ga.setDimension('dimension7', "1652175540.1532841833");
 
                 StackExchange.ga.trackPageView();
             });

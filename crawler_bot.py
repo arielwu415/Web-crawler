@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Feb 15 16:28:04 2022
-
 @author: Ariel
 @author: Clarence
 @author: Yeonah
@@ -70,10 +69,17 @@ def crawler_bot(seeds, max_pages):
         while visited_pages < max_pages:
             url = urls[index]
             
+            # remove the .. thingy
+            if '..' in url:
+                url = url.removesuffix('..')
+                
             # if page can be crawled
             if robot.can_fetch("*", url):
 
-                soup = make_request(session, url)  # soup can be null, case might not be properly handled
+                soup = make_request(session, url)
+                if soup is None:
+                    index += 1
+                    continue
                 
                 lang = detect_language(soup)
                 if index == 0:
@@ -119,7 +125,7 @@ def crawler_bot(seeds, max_pages):
                 if len(urls) < max_pages:
                     unique = [link for link in outlinks if link not in urls]
                     urls.extend(unique)
-                    
+    
                     neighbors.extend(outlinks)
                     edges.append(neighbors)
 
@@ -128,7 +134,6 @@ def crawler_bot(seeds, max_pages):
             # If we go through here, the domain might not have any more outlinks and we've visited all pages
             if index >= len(urls):
                 break
-        breakpoint()
         write_to_domain_count(word_count_filename, domain_word_count_filename)
         
         lang_index += 1
@@ -142,6 +147,7 @@ def crawler_bot(seeds, max_pages):
 
 def make_request(sesh, url):
     soup = None
+    print(url)
     # headers are required for certain websites
     try:
         source_code = sesh.get(url, headers={'User-Agent': 'test_spider'})

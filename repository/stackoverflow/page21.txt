@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   What is a recommended answer? - Help Center - Stack Overflow
+   Answering - Help Center - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/collectives-recommended-answer" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/answering" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="What is a recommended answer? - Help Center" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Answering - Help Center" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1652146395,"routeName":"Help/SlugRouter","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"a16bcaba2df41bcf70377e5bf493900a57f904eca753e6ff1ad7227458a8d1db","tid":"c908c7c8-ea2a-c717-4e4f-e57c0be7175c","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":1}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652175540,"routeName":"Help/SlugRouter","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"99bdd652128ae4ca29161a4893278eed10363c1202d60ef4a14e9a915a0fe7dc","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":3}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-recommended-answer">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fanswering">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-recommended-answer">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fanswering">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-recommended-answer" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fanswering" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-recommended-answer" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fanswering" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -479,7 +479,7 @@
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div class="help-center" id="mainbar">
+    <div id="mainbar">
      <div class="s-page-title mb16">
       <div class="s-page-title--text">
        <nav aria-label="breadcrumb" class="s-breadcrumbs mb6 sm:mb2">
@@ -496,26 +496,62 @@
          <a class="s-breadcrumbs--link" href="/help">
           Help center
          </a>
-         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
-          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
-          </path>
-         </svg>
-        </div>
-        <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/help/collectives">
-          Collectives on Stack Overflow
-         </a>
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        What is a recommended answer?
+        Answering
        </h1>
       </div>
      </div>
-     <div class="s-prose js-post-body w100">
-      <div class="js-edit-hide col-section">
+     <div class="help-center">
+      <div class="col-section">
        <p>
-        A recommended answer is a new way for organizations to engage within Stack Overflow’s Q&amp;A experience. It’s a way for an organization to provide a stamp of approval on answers that are about the technologies of that organization. This way, they can highlight which answer, from their perspective, is the best way of solving the problem.
+        <a href="https://stackoverflow.com/help/how-to-answer">
+         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
+          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
+          </path>
+         </svg>
+         How do I write a good answer?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/accepted-answer">
+         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
+          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
+          </path>
+         </svg>
+         What does it mean when an answer is "accepted"?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/deleted-answers">
+         Why and how are some answers deleted?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/referencing">
+         How to reference material written by others
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/answer-bans">
+         Why are answers no longer being accepted from my account?
+        </a>
+       </p>
+      </div>
+      <div class="col-section">
+       <p>
+        <a href="https://stackoverflow.com/help/self-answer">
+         Can I answer my own question?
+        </a>
        </p>
       </div>
      </div>
@@ -548,10 +584,42 @@
          Reputation &amp; Moderation
         </a>
        </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/answering">
+       <li class="s-sidebarwidget--item d-block">
+        <a aria-current="true" href="/help/answering">
          Answering
         </a>
+        <ul class="s-sidebarwidget--subnav ml8">
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/how-to-answer">
+           How do I write a good answer?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/accepted-answer">
+           What does it mean when an answer is "accepted"?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/deleted-answers">
+           Why and how are some answers deleted?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/referencing">
+           How to reference material written by others
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/answer-bans">
+           Why are answers no longer being accepted from my account?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/self-answer">
+           Can I answer my own question?
+          </a>
+         </li>
+        </ul>
        </li>
        <li class="s-sidebarwidget--item">
         <a href="/help/account">
@@ -563,71 +631,14 @@
          Review Queues
         </a>
        </li>
-       <li class="s-sidebarwidget--item d-block">
-        <a aria-current="true" href="/help/collectives">
+       <li class="s-sidebarwidget--item">
+        <a href="/help/collectives">
          Collectives on Stack Overflow
         </a>
-        <ul class="s-sidebarwidget--subnav ml8">
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-what-are">
-           What is Collectives on Stack Overflow?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/propose-article">
-           How do I propose and review new articles?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-join">
-           How do I join a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-tags">
-           How do you determine which tags are included in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-user-types">
-           What are the different types of users in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-recognized-member">
-           How can I become a Recognized Member?
-          </a>
-         </li>
-         <li aria-current="page">
-          <a href="https://stackoverflow.com/help/collectives-recommended-answer">
-           What is a recommended answer?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-visual-labels">
-           What are visual labels in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/article-feedback">
-           How to provide feedback on an article
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/article-guidelines">
-           Article guidelines
-          </a>
-         </li>
-        </ul>
        </li>
       </ul>
      </nav>
     </div>
-    <script>
-     StackExchange.ready(function () {
-        styleCode.initializeSpoilers();
-    });
-    </script>
    </div>
   </div>
   <footer class="site-footer js-footer" id="footer" role="contentinfo">
@@ -863,7 +874,7 @@
                     StackExchange.ga.setDimension('dimension3', 'Help/SlugRouter');
 
 
-                StackExchange.ga.setDimension('dimension7', "1652146395.447957226");
+                StackExchange.ga.setDimension('dimension7', "1652175540.932323625");
 
                 StackExchange.ga.trackPageView();
             });

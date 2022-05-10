@@ -2,113 +2,70 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   Users - Stack Overflow
+   User Rob W - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
-  <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/users?page=479611&amp;tab=reputation&amp;filter=all" property="og:url"/>
-   <meta content="Stack Overflow" property="og:site_name"/>
-   <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
-   <meta content="summary" name="twitter:card"/>
-   <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="Users" itemprop="name" name="twitter:title" property="og:title"/>
-   <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
-   <script id="webpack-public-path" type="text/uri-list">
-    https://cdn.sstatic.net/
-   </script>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-   </script>
-   <script async="" src="https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=776313f9a094">
-   </script>
-   <script src="https://cdn.sstatic.net/Js/stub.en.js?v=e700279bb0cc">
-   </script>
-   <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
-   <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
-   <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
-   <meta content="noindex" name="robots"/>
-   <script>
-    StackExchange.ready(function () {
-                $("#userfilter").val("").focus().typeWatch({ highlight: true, wait: 500, captureLength: -1, callback: finished(false) });
-        var request = null;
-        function finished(all) {
-
-            var showingAll = all;
-
-            return function (txt) {
-                var search = $.trim(txt.toLowerCase());
-                if (search.length < 3 && showingAll) { return; }
-
-                    var url = "/users/filter";
-                    if (search.length < 3) {
-                        url = "/users/filter/all";
-                        showingAll = true;
-                    }
-
-                    var spinner = $("#userfilter").addSpinnerAfter({ 'margin-left': "8px", 'margin-bottom': '-4px' }).next();
-
-                    if (request){ request.abort(); }
-                    request = $.ajax({
-                        url: url,
-                        data: {
-                            search: search,
-                            filter: 'All',
-                        tab: 'Reputation'
-                    },
-                    success: function (result) {
-                        $("#user-browser").replaceWith($(result).filter("#user-browser"));
-                        $("#tabs-interval").replaceWith($(result).find("#tabs-interval"));
-                        showingAll = url == "/users/filter/all";
-                    },
-                    complete: function () { spinner.remove(); }
-                });
-            };
-        }
-
-        $(".js-manage-users").on('click', function(event) {
-            event.preventDefault();
-            var href = $(this).data('href');
-            location.replace(href);
+  <link href="https://stackoverflow.com/users/938089/rob-w" rel="canonical">
+   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
+   <meta content="website" property="og:type">
+    <meta content="https://stackoverflow.com/users/938089/rob-w" property="og:url"/>
+    <meta content="Stack Overflow" property="og:site_name"/>
+    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
+    <meta content="summary" name="twitter:card"/>
+    <meta content="stackoverflow.com" name="twitter:domain"/>
+    <meta content="User Rob W" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
+    <script id="webpack-public-path" type="text/uri-list">
+     https://cdn.sstatic.net/
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script async="" src="https://cdn.sstatic.net/Js/third-party/npm/@stackoverflow/stacks/dist/js/stacks.min.js?v=776313f9a094">
+    </script>
+    <script src="https://cdn.sstatic.net/Js/stub.en.js?v=e700279bb0cc">
+    </script>
+    <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.sstatic.net/Js/user.en.js?v=26739adf4697">
+    </script>
+    <script src="https://cdn.sstatic.net/Js/story.en.js?v=ae419bd3c978">
+    </script>
+    <script>
+     StackExchange.ready(function () {
+            StackExchange.user.init({ userId: 938089, accountId: 902274 });
+            styleCode.initializeSpoilers();
+            StackExchange.expandableOverflow.init(document.querySelector(".js-expandable-overflow"), document.querySelector(".js-expandable-overflow-btn"));
         });
-
-         $(".js-share-team-url").on("click", function (e) {
-            Stacks.showModal($("#share-team-url-modal").get(0), e);
-         });
-
-        $('.js-add-admin-notice .js-dismiss')
-            .click(function () {
-                $('.js-add-admin-notice').addClass("dno");
-                StackExchange.helpers.toggleUserFlags(4096, true);
-            });
-        });
-   </script>
-   <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
-   <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1651824258,"routeName":"Users/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
-   </script>
-   <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
-    {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
-   </script>
-   <script>
-    StackExchange.init();
-   </script>
-   <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    </script>
+    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
+    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
+     {"options":{"locale":"en","serverTime":1652175981,"routeName":"UsersShow/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    </script>
+    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
+     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
+    </script>
+    <script>
+     StackExchange.init();
+    </script>
+    <script>
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
-   </script>
-   <noscript id="noscript-css">
-    <style>
-     body,.s-topbar{margin-top:1.9em}
-    </style>
-   </noscript>
-  </meta>
+    </script>
+    <noscript id="noscript-css">
+     <style>
+      body,.s-topbar{margin-top:1.9em}
+     </style>
+    </noscript>
+   </meta>
+  </link>
  </head>
- <body class="users-page unified-theme">
+ <body class="user-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
@@ -123,24 +80,24 @@
      <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
      </div>
     </div>
-    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:25, destination:8})" href="https://stackoverflow.com">
+    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:4, destination:8})" href="https://stackoverflow.com">
      <span class="-img _glyph">
       Stack Overflow
      </span>
     </a>
     <ol class="s-navigation" role="presentation">
      <li class="md:d-none">
-      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="https://stackoverflow.co/">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="https://stackoverflow.co/">
        About
       </a>
      </li>
      <li>
-      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
+      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
        Products
       </a>
      </li>
      <li class="md:d-none">
-      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="/teams">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="/teams">
        For Teams
       </a>
      </li>
@@ -150,7 +107,7 @@
      </div>
      <ol class="list-reset s-anchors s-anchors__inherit">
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:2})" href="/questions">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:2})" href="/questions">
         <span class="fs-body1 d-block">
          Stack Overflow
         </span>
@@ -160,7 +117,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:3})" href="/teams">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:3})" href="/teams">
         <span class="fs-body1 d-block">
          Stack Overflow for Teams
         </span>
@@ -170,7 +127,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:5})" href="https://stackoverflow.co/talent">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:5})" href="https://stackoverflow.co/talent">
         <span class="fs-body1 d-block">
          Talent
         </span>
@@ -180,7 +137,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:6})" href="https://stackoverflow.co/advertising">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:6})" href="https://stackoverflow.co/advertising">
         <span class="fs-body1 d-block">
          Advertising
         </span>
@@ -190,7 +147,7 @@
        </a>
       </li>
       <li class="bg-black-025 bt bc-black-075 py6 px6 bbr-md">
-       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:25, destination:7})" href="https://stackoverflow.co/">
+       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:4, destination:7})" href="https://stackoverflow.co/">
         About the company
        </a>
       </li>
@@ -198,7 +155,7 @@
     </div>
     <form action="/search" autocomplete="off" class="s-topbar--searchbar js-searchbar" id="search" role="search">
      <div class="s-topbar--searchbar--input-group">
-      <input aria-controls="top-search" aria-label="Search" autocomplete="off" class="s-input s-input__search js-search-field" data-action="focus-&gt;s-popover#show" data-controller="s-popover" data-s-popover-placement="bottom-start" maxlength="240" name="q" placeholder="Search…" type="text" value=""/>
+      <input aria-controls="top-search" aria-label="Search" autocomplete="off" class="s-input s-input__search js-search-field" data-action="focus-&gt;s-popover#show" data-controller="s-popover" data-s-popover-placement="bottom-start" maxlength="240" name="q" placeholder="Search…" type="text" value="user:938089"/>
       <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
        </path>
@@ -285,11 +242,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d479611%26tab%3dreputation%26filter%3dall">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f938089%2frob-w">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d479611%26tab%3dreputation%26filter%3dall">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f938089%2frob-w">
           log in
          </a>
          to customize your list.
@@ -320,12 +277,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d479611%26tab%3dreputation%26filter%3dall" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f938089%2frob-w" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%3fpage%3d479611%26tab%3dreputation%26filter%3dall" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fusers%2f938089%2frob-w" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -342,7 +299,7 @@
      <nav role="navigation">
       <ol class="nav-links">
        <li class="ps-relative">
-        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
+        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
          <div class="d-flex ai-center">
           <div class="flex--item truncate">
            Home
@@ -356,7 +313,7 @@
           Public
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
+          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
            <svg aria-hidden="true" class="svg-icon iconGlobe" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9 1C4.64 1 1 4.64 1 9c0 4.36 3.64 8 8 8 4.36 0 8-3.64 8-8 0-4.36-3.64-8-8-8ZM8 15.32a6.46 6.46 0 0 1-4.3-2.74 6.46 6.46 0 0 1-.93-5.01L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52Zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.45 6.45 0 0 1 3.83 4.51 6.45 6.45 0 0 1-1.51 5.73v.01Z">
             </path>
@@ -367,7 +324,7 @@
           </a>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Tags
@@ -376,7 +333,7 @@
           </a>
          </li>
          <li class="ps-relative youarehere">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:true, location:25, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:true, location:4, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Users
@@ -385,7 +342,7 @@
           </a>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Companies
@@ -398,7 +355,7 @@
            Collectives
           </div>
           <div class="flex--item fs-fine fc-light">
-           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:25, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
+           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:4, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
             <svg aria-hidden="true" class="svg-icon iconInfoSm" height="14" viewbox="0 0 14 14" width="14">
              <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z">
              </path>
@@ -407,7 +364,7 @@
           </div>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:25, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
+          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:4, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
            <svg aria-hidden="true" class="mt-auto fc-orange-400 svg-icon iconStarVerified" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z">
             </path>
@@ -496,7 +453,7 @@
       <p class="my16 fs-caption fc-medium">
        Find centralized, trusted content and collaborate around the technologies you use most.
       </p>
-      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:25, destination:18})" href="/collectives">
+      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:4, destination:18})" href="/collectives">
        Learn more
       </a>
      </div>
@@ -535,1186 +492,1361 @@
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div id="mainbar-full">
-     <h1 class="fs-headline1 mb24">
-      Users
-     </h1>
-     <div class="d-flex fw-wrap ai-stretch md:d-block">
-      <div class="flex--item mb12 ps-relative">
-       <input autocomplete="off" class="s-input s-input__search h100 wmx3" id="userfilter" name="userfilter" placeholder="Filter by user" type="text"/>
-       <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
-        <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
-        </path>
-       </svg>
-      </div>
-      <div class="flex--item ml-auto mb12 h100 d-flex s-btn-group js-filter-btn">
-       <a class="js-sort-preference-change youarehere is-selected flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="reputation" href="/users?tab=reputation" title="Users with the highest reputation scores">
-        Reputation
+    <div class="user-show-new" id="mainbar-full">
+     <div class="ps-relative mb16">
+      <div class="d-flex ai-center fw-wrap gs16 md:fd-column md:ai-start">
+       <a class="flex--item" href="/users/938089/rob-w">
+        <div class="md:d-none js-usermini-avatar-container">
+         <div class="bar-md bs-sm">
+          <img alt="user avatar" class="bar-sm bar-md d-block" height="128" src="https://www.gravatar.com/avatar/c916d92c098426d84778a7910cc32b39?s=256&amp;d=identicon&amp;r=PG" width="128"/>
+         </div>
+        </div>
+        <div class="d-none md:d-block sm:d-none js-usermini-avatar-container">
+         <div class="bar-md bs-sm">
+          <img alt="user avatar" class="bar-sm bar-md d-block" height="96" src="https://www.gravatar.com/avatar/c916d92c098426d84778a7910cc32b39?s=192&amp;d=identicon&amp;r=PG" width="96"/>
+         </div>
+        </div>
+        <div class="d-none sm:d-block js-usermini-avatar-container">
+         <div class="bar-md bs-sm">
+          <img alt="user avatar" class="bar-sm bar-md d-block" height="64" src="https://www.gravatar.com/avatar/c916d92c098426d84778a7910cc32b39?s=128&amp;d=identicon&amp;r=PG" width="64"/>
+         </div>
+        </div>
        </a>
-       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="newusers" href="/users?tab=newusers" title="Users who joined in the last 30 days">
-        New users
-       </a>
-       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="voters" href="/users?tab=voters" title="Users who voted more than 10 times">
-        Voters
-       </a>
-       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="editors" href="/users?tab=editors" title="Users who edited at least 5 posts">
-        Editors
-       </a>
-       <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="moderators" href="/users?tab=moderators" title="Our current community moderators">
-        Moderators
-       </a>
-      </div>
-     </div>
-     <div class="fs-body2 mt8 mb12">
-      <div class="d-flex jc-space-between">
-       <div class="flex--item ml-auto md:ml0">
-        <div class="subtabs" id="tabs-interval">
-         <a class="js-sort-preference-change youarehere is-selected" data-nav-xhref="" data-shortcut="" data-value="all" href="/users?tab=Reputation&amp;filter=all" title="2000-01-01 to today">
-          all
-         </a>
-         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="year" href="/users?tab=Reputation&amp;filter=year" title="2022-01-01 to today">
-          year
-         </a>
-         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="quarter" href="/users?tab=Reputation&amp;filter=quarter" title="2022-04-01 to today">
-          quarter
-         </a>
-         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="month" href="/users?tab=Reputation&amp;filter=month" title="2022-05-01 to today">
-          month
-         </a>
-         <a class="js-sort-preference-change" data-nav-xhref="" data-shortcut="" data-value="week" href="/users?tab=Reputation&amp;filter=week" title="2022-05-01 to today">
-          week
-         </a>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div id="user-browser">
-      <div class="d-grid grid__4 lg:grid__3 md:grid__2 sm:grid__1 g12">
-       <div class="grid--item user-info user-hover">
-        <div class="user-gravatar48">
-         <a href="/users/117425/singularity">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/26813fb591df75ba16ddf4c33305adf4?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+       <div class="flex--item">
+        <div class="d-flex ai-center fw-wrap gs8 wmx4">
+         <div class="flex--item mb12 fs-headline2 lh-xs">
+          Rob W
+         </div>
+         <div class="flex--item">
+          <div class="d-flex ai-center fw-nowrap gs4">
           </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/117425/singularity">
-          Singularity
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 silver badge">
-           <span class="badge2">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 silver badge
-          </span>
-          <span aria-hidden="true" title="5 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            5
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           5 bronze badges
-          </span>
          </div>
         </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/117279/dominique-vocat">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/cad0e0fa1ed9f0d494dcb283ba0a35e3?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+        <ul class="list-reset s-anchors s-anchors__inherit d-flex fc-light gs8 mln4 fw-wrap">
+         <li class="flex--item">
+          <div class="d-flex gs4 gsx ai-center">
+           <div class="flex--item fc-black-350">
+            <svg aria-hidden="true" class="svg-icon iconCake" height="18" viewbox="0 0 18 18" width="18">
+             <path d="M9 4.5a1.5 1.5 0 0 0 1.28-2.27L9 0 7.72 2.23c-.14.22-.22.48-.22.77 0 .83.68 1.5 1.5 1.5Zm3.45 7.5-.8-.81-.81.8c-.98.98-2.69.98-3.67 0l-.8-.8-.82.8c-.49.49-1.14.76-1.83.76-.55 0-1.3-.17-1.72-.46V15c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2v-2.7c-.42.28-1.17.45-1.72.45-.69 0-1.34-.27-1.83-.76Zm1.3-5H10V5H8v2H4.25C3 7 2 8 2 9.25v.9c0 .81.91 1.47 1.72 1.47.39 0 .77-.14 1.03-.42l1.61-1.6 1.6 1.6a1.5 1.5 0 0 0 2.08 0l1.6-1.6 1.6 1.6c.28.28.64.43 1.03.43.81 0 1.73-.67 1.73-1.48v-.9C16 8.01 15 7 13.75 7Z">
+             </path>
+            </svg>
+           </div>
+           <div class="flex--item">
+            Member for
+            <span title="2011-09-10 10:44:59Z">
+             10 years, 8 months
+            </span>
+           </div>
           </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/117279/dominique-vocat">
-          Dominique Vocat
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="3 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            3
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           3 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/116829/zdyne">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/c9acdc1951b771e69d8a412b852c0855?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+         </li>
+         <li class="flex--item">
+          <div class="d-flex gs4 gsx ai-center">
+           <div class="flex--item fc-black-350">
+            <svg aria-hidden="true" class="svg-icon iconClock" height="18" viewbox="0 0 18 18" width="18">
+             <path d="M9 17c-4.36 0-8-3.64-8-8 0-4.36 3.64-8 8-8 4.36 0 8 3.64 8 8 0 4.36-3.64 8-8 8Zm0-2c3.27 0 6-2.73 6-6s-2.73-6-6-6-6 2.73-6 6 2.73 6 6 6ZM8 5h1.01L9 9.36l3.22 2.1-.6.93L8 10V5Z">
+             </path>
+            </svg>
+           </div>
+           <div class="flex--item">
+            Last seen
+more than 1 year ago
+           </div>
           </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/116829/zdyne">
-          zdyne
-         </a>
-         <span class="user-location">
-          California
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/116564/barog">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/7d1191cc4e769b32ef107e853b460571?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+         </li>
+        </ul>
+        <ul class="list-reset s-anchors s-anchors__inherit d-flex fc-light gs8 mln4 fw-wrap">
+         <li class="flex--item">
+          <a href="https://github.com/Rob--W" rel="me" title="Rob--W">
+           <svg aria-hidden="true" class="fc-black-350 svg-icon iconGitHub" height="18" viewbox="0 0 18 18" width="18">
+            <path d="M9 1a8 8 0 0 0-2.53 15.59c.4.07.55-.17.55-.38l-.01-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.42 7.42 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48l-.01 2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 9 1Z" fill="#010101">
+            </path>
+           </svg>
+           <div class="v-visible-sr">
+            GitHub
+           </div>
+          </a>
+         </li>
+         <li class="flex--item">
+          <div class="d-flex gs4 gsx ai-center">
+           <div class="flex--item fc-black-350">
+            <svg aria-hidden="true" class="svg-icon iconLink" height="18" viewbox="0 0 18 18" width="18">
+             <path d="M7.22 11.83a6 6 0 0 0 1.62.85l.61-1.8a4.1 4.1 0 1 1 4.04-.8l1.26 1.42a6 6 0 1 0-7.53.33Zm3.43-5.6a6 6 0 0 0-1.6-.87L8.4 7.15a4.1 4.1 0 1 1-4.05.73L3.12 6.43a6 6 0 1 0 7.53-.2Z">
+             </path>
+            </svg>
+           </div>
+           <a class="flex--item" href="https://robwu.nl" rel="me noreferrer">
+            robwu.nl
+           </a>
           </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/116564/barog">
-          barog
-         </a>
-         <span class="user-location">
-          England, United Kingdom
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="2 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            2
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           2 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/116530/friendl">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/3106321a17bec9723e46836ccfa6b744?s=96&amp;d=identicon&amp;r=PG" width="48"/>
+         </li>
+         <li class="flex--item">
+          <div class="d-flex gs4 gsx ai-center">
+           <div class="flex--item fc-black-350">
+            <svg aria-hidden="true" class="mrn2 svg-icon iconLocation" height="18" viewbox="0 0 17 18" width="17">
+             <path d="M2 6.38C2 9.91 8.1 17.7 8.1 17.7c.22.29.58.29.8 0 0 0 6.1-7.8 6.1-11.32A6.44 6.44 0 0 0 8.5 0 6.44 6.44 0 0 0 2 6.38Zm9.25.12a2.75 2.75 0 1 1-5.5 0 2.75 2.75 0 0 1 5.5 0Z">
+             </path>
+            </svg>
+           </div>
+           <div class="flex--item">
+            <div class="wmx2 truncate" title="The Netherlands">
+             The Netherlands
+            </div>
+           </div>
           </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/116530/friendl">
-          FriendL
-         </a>
-         <span class="user-location">
-          United Kingdom
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 bronze badge">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 bronze badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/116468/mhedberg">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/4a7f2bc60acd1296b51112ffffd389d1?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/116468/mhedberg">
-          mhedberg
-         </a>
-         <span class="user-location">
-          Stockholm, Sweden
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/116055/sigtryggur">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/e87afe5cbe1a5bf66293994a0c2cb634?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/116055/sigtryggur">
-          Sigtryggur
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info user-hover">
-        <div class="user-gravatar48">
-         <a href="/users/115993/hugo-hernan-buitrago-rios">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/25e718719a606969fc0d7c23effe3b8f?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/115993/hugo-hernan-buitrago-rios">
-          Hugo Hernan Buitrago Rios
-         </a>
-         <span class="user-location">
-          Bogota, Colombia
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 bronze badge">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 bronze badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/115811/pdkent">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/394e1e79c07e7d17b1c7e486f8303cb5?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/115811/pdkent">
-          pdkent
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info user-hover">
-        <div class="user-gravatar48">
-         <a href="/users/115632/henry">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/6f6decaae802ea7994b8914083a21f5b?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/115632/henry">
-          Henry
-         </a>
-         <span class="user-location">
-          United States
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="3 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            3
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           3 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/115566/chorn">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/97e53c2c5d7db1143eeecc9051805ec3?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/115566/chorn">
-          chorn
-         </a>
-         <span class="user-location">
-          Rochester, NY
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info user-hover">
-        <div class="user-gravatar48">
-         <a href="/users/1182029/akash-mahajan">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/94a40b2e94d694c8b0324114c13a35ef?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/1182029/akash-mahajan">
-          Akash Mahajan
-         </a>
-         <span class="user-location">
-          Bangalore, India
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="2 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            2
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           2 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/115302/algorhythm99">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/895aa94d222ec8ff364f9225f2fdbe17?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/115302/algorhythm99">
-          algoRhythm99
-         </a>
-         <span class="user-location">
-          Misery, ME
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/114734/kraszie">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/47efc1b9d8081d4d0af00bf7ce5b1073?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/114734/kraszie">
-          kraszie
-         </a>
-         <span class="user-location">
-          Hungary
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/114505/mikeg">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/b34cfdd0618be81977b5b607e591e434?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/114505/mikeg">
-          MikeG
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="2 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            2
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           2 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/114453/kingguppy">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/714e8b5c7fb0d5f62d1248ca9df36b6b?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/114453/kingguppy">
-          KingGuppy
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 silver badge">
-           <span class="badge2">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 silver badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/114433/derek">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/2f17f052f5afca8e391c674e2ce6f488?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/114433/derek">
-          Derek
-         </a>
-         <span class="user-location">
-          Grand Rapids, MI
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info user-hover">
-        <div class="user-gravatar48">
-         <a href="/users/114046/appdelivery">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/021a4b2f954590994d3dbbb0e588fd90?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/114046/appdelivery">
-          appdelivery
-         </a>
-         <span class="user-location">
-          New Jersey
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 bronze badge">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 bronze badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/112848/olioengr">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/de1caae5e9b015e711135002dfc76cca?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/112848/olioengr">
-          OlioEngr
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info user-hover">
-        <div class="user-gravatar48">
-         <a href="/users/112354/paul-mckee">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/be6673c83086bb8e962af7e8b6fff4ae?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/112354/paul-mckee">
-          Paul McKee
-         </a>
-         <span class="user-location">
-          Canberra ACT, Australia
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="2 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            2
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           2 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/111927/adam-may">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/00a2a9cf0b9a63f96e5826f8dac3d843?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/111927/adam-may">
-          Adam May
-         </a>
-         <span class="user-location">
-          Sydney, Australia
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/111518/liy">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/726a8ee850385649439a5e76ea269020?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/111518/liy">
-          Liy
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 silver badge">
-           <span class="badge2">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 silver badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/9207577/phil-plante">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://lh5.googleusercontent.com/-y8kBAgdNfl0/AAAAAAAAAAI/AAAAAAAABsQ/eZQX7j0_cD8/photo.jpg?sz=96" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/9207577/phil-plante">
-          Phil Plante
-         </a>
-         <span class="user-location">
-          Sacramento, CA, USA
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/111012/igor-carron">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/c69fc54e8890fa8a1f3c06ba2f2e5ef9?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/111012/igor-carron">
-          Igor Carron
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 bronze badge">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 bronze badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info user-hover">
-        <div class="user-gravatar48">
-         <a href="/users/110678/brian-drum">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/0c91535adf41d633250dd7f29223c8b6?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/110678/brian-drum">
-          Brian Drum
-         </a>
-         <span class="user-location">
-          Chagrin Falls, OH, United States
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="2 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            2
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           2 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/110663/mihai-mocanu">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/0d47b8011cc4304c1edcc8f2aa3dbf20?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/110663/mihai-mocanu">
-          Mihai Mocanu
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/110416/simon-capewell">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/39d65e5f1215534fe5da2db0d655b6eb?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/110416/simon-capewell">
-          Simon Capewell
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/109898/ari">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/8cc31aa576ba459f8af206bb3c8e24c8?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/109898/ari">
-          Ari
-         </a>
-         <span class="user-location">
-          Toronto, Canada
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/109865/mgz">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://i.stack.imgur.com/hG6Ht.jpg?s=96&amp;g=1" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/109865/mgz">
-          mgz
-         </a>
-         <span class="user-location">
-          Riga, Latvia
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 silver badge">
-           <span class="badge2">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 silver badge
-          </span>
-          <span aria-hidden="true" title="4 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            4
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           4 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/109598/yohan-lee">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/9e9588911fca3d0c8234fff6293cac1d?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/109598/yohan-lee">
-          Yohan Lee
-         </a>
-         <span class="user-location">
-          United States
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/109346/cookingcoder">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/540b82e024c73828cd859c043c06f7d9?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/109346/cookingcoder">
-          CookingCoder
-         </a>
-         <span class="user-location">
-          Toronto, Canada
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/108961/chawei">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/6d456d867943aa46b02026a6f9672b57?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/108961/chawei">
-          chawei
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 silver badge">
-           <span class="badge2">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 silver badge
-          </span>
-          <span aria-hidden="true" title="3 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            3
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           3 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/108939/mercan01">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/58f117bf6458c7dd7bf84b9e27f73747?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/108939/mercan01">
-          mercan01
-         </a>
-         <span class="user-location">
-          Fort Lauderdale, FL, United States
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 bronze badge">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 bronze badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/108547/josh-tegart">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/63714493e6793b1e3c717d2837615737?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/108547/josh-tegart">
-          Josh Tegart
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 silver badge">
-           <span class="badge2">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 silver badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info user-hover">
-        <div class="user-gravatar48">
-         <a href="/users/107881/steven-weber">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/8caba78ce8e6bc3027acffe25c930710?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/107881/steven-weber">
-          Steven Weber
-         </a>
-         <span class="user-location">
-          Dallas, TX
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="1 bronze badge">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            1
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           1 bronze badge
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
-       </div>
-       <div class="grid--item user-info">
-        <div class="user-gravatar48">
-         <a href="/users/107601/qwerty">
-          <div class="gravatar-wrapper-48">
-           <img alt="user avatar" class="bar-sm" height="48" src="https://www.gravatar.com/avatar/4d26d725fede039b743d276f2ade4077?s=96&amp;d=identicon&amp;r=PG" width="48"/>
-          </div>
-         </a>
-        </div>
-        <div class="user-details">
-         <a href="/users/107601/qwerty">
-          Qwerty
-         </a>
-         <span class="user-location">
-         </span>
-         <div class="-flair">
-          <span class="reputation-score" dir="ltr" title="reputation score ">
-           1
-          </span>
-          <span aria-hidden="true" title="2 bronze badges">
-           <span class="badge3">
-           </span>
-           <span class="badgecount">
-            2
-           </span>
-          </span>
-          <span class="v-visible-sr">
-           2 bronze badges
-          </span>
-         </div>
-        </div>
-        <div class="user-tags">
-        </div>
+         </li>
+        </ul>
        </div>
       </div>
-      <div class="s-pagination site1 themed pager float-right">
-       <a class="s-pagination--item js-pagination-item" href="/users?page=479610&amp;tab=reputation&amp;filter=all" rel="prev" title="Go to page 479610">
-        Prev
-       </a>
-       <a class="s-pagination--item js-pagination-item" href="/users?page=1&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 1">
-        1
-       </a>
-       <div class="s-pagination--item s-pagination--item__clear">
-        …
+      <div class="ps-absolute t0 r0 d-flex gs6 fw-wrap">
+       <button aria-controls="profiles-menu" class="flex--item s-btn s-btn__outlined s-btn__muted s-btn__icon s-btn__sm s-btn__dropdown" data-action="s-popover#toggle" data-controller="s-popover" data-s-popover-placement="bottom-end" data-s-popover-toggle-class="is-selected" role="button">
+        Profiles
+       </button>
+       <div class="s-popover px0 py4 w-auto" id="profiles-menu" role="menu">
+        <div class="s-popover--arrow">
+        </div>
+        <ul class="s-menu" role="menu">
+         <li role="menuitem">
+          <a class="s-block-link d-flex ai-center ws-nowrap" href="https://meta.stackoverflow.com/users/938089/rob-w">
+           <div class="favicon favicon-stackoverflowmeta" title="Meta site favicon">
+           </div>
+           <div class="ml4">
+            Meta user
+           </div>
+          </a>
+         </li>
+         <li role="menuitem">
+          <a class="s-block-link d-flex ai-center ws-nowrap d-flex ai-center" href="https://stackexchange.com/users/902274/rob-w">
+           <svg aria-hidden="true" class="native mln2 mr2 svg-icon iconLogoSEXxs" height="18" viewbox="0 0 18 18" width="18">
+            <path d="M3 4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2H3Z" fill="#8FD8F7">
+            </path>
+            <path d="M15 11H3c0 1.1.9 2 2 2h5v3l3-3a2 2 0 0 0 2-2Z" fill="#155397">
+            </path>
+            <path d="M3 5h12v2H3z" fill="#46A2D9">
+            </path>
+            <path d="M3 8h12v2H3z" fill="#2D6DB5">
+            </path>
+           </svg>
+           Network profile
+          </a>
+         </li>
+        </ul>
        </div>
-       <a class="s-pagination--item js-pagination-item" href="/users?page=479609&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479609">
-        479609
-       </a>
-       <a class="s-pagination--item js-pagination-item" href="/users?page=479610&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479610">
-        479610
-       </a>
-       <div class="s-pagination--item is-selected">
-        479611
-       </div>
-       <a class="s-pagination--item js-pagination-item" href="/users?page=479612&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479612">
-        479612
-       </a>
-       <a class="s-pagination--item js-pagination-item" href="/users?page=479613&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479613">
-        479613
-       </a>
-       <div class="s-pagination--item s-pagination--item__clear">
-        …
-       </div>
-       <a class="s-pagination--item js-pagination-item" href="/users?page=479617&amp;tab=reputation&amp;filter=all" rel="" title="Go to page 479617">
-        479617
-       </a>
-       <a class="s-pagination--item js-pagination-item" href="/users?page=479612&amp;tab=reputation&amp;filter=all" rel="next" title="Go to page 479612">
-        Next
-       </a>
       </div>
      </div>
-     <div id="users-legend" style="float: left; margin-top: 25px; margin-bottom: 10px;">
-      <b>
-       <a href="https://stackexchange.com/leagues/week/stackoverflow">
-        weekly / monthly / quarterly reputation leagues
+     <div class="d-flex ai-center jc-space-between fw-wrap mb16 js-user-header">
+      <div class="flex--item s-navigation">
+       <a class="s-navigation--item is-selected" data-shortcut="P" href="/users/938089/rob-w?tab=profile">
+        Profile
        </a>
-      </b>
+       <a class="s-navigation--item" data-shortcut="A" href="/users/938089/rob-w?tab=topactivity">
+        Activity
+       </a>
+      </div>
+      <div class="flex--item ml-auto">
+       <div class="s-navigation s-navigation__muted ai-center">
+       </div>
+      </div>
+     </div>
+     <div id="main-content">
+      <div class="d-flex gs24 md:fd-column">
+       <div class="flex--item3 fl-shrink0 md:order-last">
+        <div class="d-grid g24">
+         <div class="grid--item" data-is-here-when="lg" id="stats">
+          <div class="fs-title mb8">
+           Stats
+          </div>
+          <div class="s-card fc-light bar-md">
+           <div class="d-flex flex__allitems6 gs16 fw-wrap md:jc-space-between">
+            <div class="flex--item md:fl-auto">
+             <div class="fs-body3 fc-dark">
+              327,818
+             </div>
+             reputation
+            </div>
+            <div class="flex--item md:fl-auto" title="Estimated number of times people viewed helpful posts by this user
+(based on page views of questions
+and questions where they wrote highly-ranked answers)">
+             <div class="fs-body3 fc-dark">
+              26.3m
+             </div>
+             reached
+            </div>
+            <div class="flex--item md:fl-auto">
+             <div class="fs-body3 fc-dark">
+              2,756
+             </div>
+             answers
+            </div>
+            <div class="flex--item md:fl-auto">
+             <div class="fs-body3 fc-dark">
+              5
+             </div>
+             questions
+            </div>
+            <div class="flex--item fl-auto m8 js-rank-container d-none">
+             <div class="fc-medium mt4 sm:mt2">
+              <svg aria-hidden="true" class="svg-icon iconAchievements" height="18" viewbox="0 0 18 18" width="18">
+               <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3ZM3 7c-.5 0-1-.5-1-1V4h1v3Zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1ZM16 6c0 .5-.5 1-1 1V4h1v2Z">
+               </path>
+              </svg>
+             </div>
+             <div class="s-anchors s-anchors__inherit js-rank-badge">
+             </div>
+            </div>
+            <div class="mt4 pl1 ml2 s-spinner s-spinner__xs js-ranked-loading-spinner">
+             <div class="v-visible-sr">
+              Loading…
+             </div>
+            </div>
+            <script>
+             StackExchange.ready(function () {
+                        $.get("/users/rank?userId=938089", function (data) {
+                            $(".js-ranked-loading-spinner").remove();
+                            if (data && data.indexOf("unranked") == -1) { // if data returned and is not unranked
+                                $(".js-rank-badge").html(data).removeClass("d-none");
+                                $(".js-rank-container").removeClass("d-none");
+                            }
+                        });
+                    });
+            </script>
+           </div>
+          </div>
+         </div>
+         <div class="grid--item">
+          <div class="d-flex ai-center jc-space-between mb8">
+           <div class="flex--item fs-title">
+            Communities
+           </div>
+           <a class="flex--item s-link s-link__muted" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://stackexchange.com/users/902274/rob-w?tab=accounts" title="View more communities in which this user participates.">
+            View all
+            <svg aria-hidden="true" class="svg-icon iconShareSm" height="14" viewbox="0 0 14 14" width="14">
+             <path d="M5 1H3a2 2 0 0 0-2 2v8c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V9h-2v2H3V3h2V1Zm2 0h6v6h-2V4.5L6.5 9 5 7.5 9.5 3H7V1Z">
+             </path>
+            </svg>
+           </a>
+          </div>
+          <div class="s-card bar-md">
+           <ul class="list-reset d-flex fd-column gs12 gsy">
+            <li class="flex--item">
+             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://stackoverflow.com/users/938089/" title="Stack Overflow">
+              <div class="favicon favicon-stackoverflow flex--item fl-shrink0 favicon" title="Stack Overflow">
+              </div>
+              <div class="flex--item fl-grow1 wmn0 pr4">
+               <div class="truncate">
+                Stack Overflow
+               </div>
+              </div>
+              <div class="flex--item fl-shrink0 ml-auto fc-light">
+               327.8k
+              </div>
+             </a>
+            </li>
+            <li class="flex--item">
+             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://meta.stackexchange.com/users/169101/" title="Meta Stack Exchange">
+              <div class="favicon favicon-stackexchangemeta flex--item fl-shrink0 favicon" title="Meta Stack Exchange">
+              </div>
+              <div class="flex--item fl-grow1 wmn0 pr4">
+               <div class="truncate">
+                Meta Stack Exchange
+               </div>
+              </div>
+              <div class="flex--item fl-shrink0 ml-auto fc-light">
+               10.2k
+              </div>
+             </a>
+            </li>
+            <li class="flex--item">
+             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://stackapps.com/users/9699/" title="Stack Apps">
+              <div class="favicon favicon-stackapps flex--item fl-shrink0 favicon" title="Stack Apps">
+              </div>
+              <div class="flex--item fl-grow1 wmn0 pr4">
+               <div class="truncate">
+                Stack Apps
+               </div>
+              </div>
+              <div class="flex--item fl-shrink0 ml-auto fc-light">
+               2.5k
+              </div>
+             </a>
+            </li>
+            <li class="flex--item">
+             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://askubuntu.com/users/45058/" title="Ask Ubuntu">
+              <div class="favicon favicon-askubuntu flex--item fl-shrink0 favicon" title="Ask Ubuntu">
+              </div>
+              <div class="flex--item fl-grow1 wmn0 pr4">
+               <div class="truncate">
+                Ask Ubuntu
+               </div>
+              </div>
+              <div class="flex--item fl-shrink0 ml-auto fc-light">
+               2.2k
+              </div>
+             </a>
+            </li>
+            <li class="flex--item">
+             <a class="d-flex gs4 gsx ai-center js-gps-track" data-gps-track="profile_link.click({ target: 4, type: 2 })" href="https://security.stackexchange.com/users/24484/" title="Information Security">
+              <div class="favicon favicon-security flex--item fl-shrink0 favicon" title="Information Security Stack Exchange">
+              </div>
+              <div class="flex--item fl-grow1 wmn0 pr4">
+               <div class="truncate">
+                Information Security
+               </div>
+              </div>
+              <div class="flex--item fl-shrink0 ml-auto fc-light">
+               2.1k
+              </div>
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="flex--item fl-grow1">
+        <div class="d-grid g24">
+         <div data-can-be="stats" data-is-here-when="sm md">
+         </div>
+         <div class="grid--item overflow-x-auto">
+          <div class="fs-title mb8">
+           About
+          </div>
+          <div class="js-expandable-overflow hmx3 overflow-hidden v-truncate-fade">
+           <div class="s-prose fc-medium js-about-me-content">
+            <p>
+             I like to develop useful software, web apps and browser extensions.
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+             Reply faster by getting
+             <a href="http://stackapps.com/q/3780/9699?real-time-desktop-notifications-for-stack-exchange-inbox">
+              real-time Desktop notifications for your SE inbox
+             </a>
+             (for
+             <a href="https://addons.mozilla.org/en-US/firefox/addon/real-time-desktop-notificat/" rel="nofollow noreferrer">
+              Firefox
+             </a>
+             /
+             <a href="https://chrome.google.com/webstore/detail/ijglncoabcgieiokjmgdogpefdblmnle" rel="nofollow noreferrer">
+              Chrome
+             </a>
+             ) or install the user script /
+             <a href="https://chrome.google.com/webstore/detail/view-vote-totals-without/oibfliilcglieepgkdkahpfiiigdijdd" rel="nofollow noreferrer">
+              Chrome extension
+             </a>
+             to
+             <a href="http://stackapps.com/q/3082/9699?view-vote-totals-without-1000-rep">
+              “View Vote totals” without 1000 rep
+             </a>
+             .
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+           </div>
+          </div>
+          <div class="d-flex jc-center">
+           <button class="s-btn s-btn__outlined s-btn__muted s-btn__xs v-hidden js-expandable-overflow-btn">
+            Read more
+           </button>
+          </div>
+         </div>
+         <div class="grid--item">
+          <div class="d-flex ai-center jc-space-between mb8">
+           <div class="flex--item fs-title">
+            Badges
+           </div>
+           <a class="s-link s-link__muted flex--item js-gps-track" data-gps-track="profile_link.click({ target: 1, type: 2 })" href="/users/938089/rob-w?tab=badges">
+            View all badges
+           </a>
+          </div>
+          <div class="d-flex flex__fl-equal fw-wrap gs24">
+           <div class="flex--item s-card bar-md">
+            <div class="d-flex fd-column jc-space-between h100 g12">
+             <div class="d-flex ai-center">
+              <div class="flex--item mr12">
+               <svg aria-hidden="true" class="fc-gold svg-spot spotAward" height="48" viewbox="0 0 48 48" width="48">
+                <path d="M32.87 7a8.85 8.85 0 0 0-2.49-2.79 10.5 10.5 0 0 0-1.41-.92.98.98 0 0 0-.74-.1c-.46.14-.6.62-.71 1.04-.09.31-.2.75-.26 1.27-.12 1-.1 2.4.68 3.58v.01c.83 1.24 1.83 2 2.62 2.46.43.25.88.45 1.3.7a16.38 16.38 0 0 1 8.4 14.34c0 8-5.72 14.66-13.34 16.15a.85.85 0 0 0 .33 1.67c.99-.2 1.95-.47 2.88-.82.23.18.7.55 1.32.94a8.46 8.46 0 0 0 3.38 1.29 5.96 5.96 0 0 0 3.26-.61c.5-.24 1.22-.6 1.43-1.15a.86.86 0 0 0-.04-.72c-.29-.53-.92-1-1.38-1.37a6.88 6.88 0 0 0-2.76-1.39c.49-.4.95-.82 1.39-1.26.56.14 1.12.24 1.7.31 1.03.13 2.43.19 3.67-.2a5.68 5.68 0 0 0 3.32-2.78c.12-.24.22-.53.18-.8a.86.86 0 0 0-.47-.63 9.14 9.14 0 0 0-1.64-.62 6.5 6.5 0 0 0-3.36-.08 18 18 0 0 0 .85-2.04c.4 0 .81-.03 1.21-.1a5.89 5.89 0 0 0 3.14-1.46 7.74 7.74 0 0 0 1.85-3.06c.17-.47.27-.9.33-1.2.07-.32.13-.68-.05-.99-.25-.44-.77-.44-1.22-.42a9.1 9.1 0 0 0-1.24.12c-.9.16-2.06.5-3.04 1.27v-.05c0-.73-.04-1.45-.13-2.15.25-.12.6-.31 1-.59a6.15 6.15 0 0 0 2.11-2.52 8.3 8.3 0 0 0 .57-3.58 9.7 9.7 0 0 0-.14-1.28c-.06-.33-.13-.69-.4-.92a.86.86 0 0 0-.5-.2c-.3-.02-.6.15-.85.28a9.3 9.3 0 0 0-1.08.63 6.63 6.63 0 0 0-2.3 2.58 18 18 0 0 0-1.26-2.24 5.46 5.46 0 0 0 1.82-3.63 8.85 8.85 0 0 0-.65-3.65c-.19-.5-.38-.9-.53-1.2-.21-.4-.47-.85-1-.85a.98.98 0 0 0-.64.3c-.2.18-.65.6-1.11 1.19a6.34 6.34 0 0 0-1.4 3.91c-.72-.6-1.47-1.13-2.27-1.62A5.47 5.47 0 0 0 32.88 7h-.01Zm-3.86-1.7a7.29 7.29 0 0 1 2.35 2.46 4 4 0 0 1 .29 2.44 5.96 5.96 0 0 1-2.29-2.06c-.54-.83-.53-1.9-.35-2.84Zm12.55 25.44c.17-.96.56-1.94 1.28-2.63A5.1 5.1 0 0 1 45.68 27a6.1 6.1 0 0 1-1.53 2.7c-.7.66-1.65.97-2.6 1.06Zm-3.37 7.13a4.55 4.55 0 0 1 2.18-1.66 5 5 0 0 1 3.2.19 4.02 4.02 0 0 1-1.97 1.4 7.6 7.6 0 0 1-3.4.07ZM32 42.86a4.57 4.57 0 0 1 2.66-.67c.89.1 1.73.58 2.38 1.1l.4.34a4.54 4.54 0 0 1-2.42.5A6.93 6.93 0 0 1 32 42.86Zm6.41-33.3a7.2 7.2 0 0 1 .7 3.29 3.68 3.68 0 0 1-1.07 2.3 4.88 4.88 0 0 1-.87-2.93c.07-1 .6-1.91 1.24-2.67Zm5.38 7.92a6.57 6.57 0 0 1-.4 3.16 4.55 4.55 0 0 1-1.73 1.95 4.4 4.4 0 0 1 .06-2.91c.4-.95 1.2-1.67 2.07-2.2Zm-19.95.55L22 23.38a1 1 0 0 1-.94.67h-5.71v.02l4.6 3.48a1 1 0 0 1 .34 1.1l-1.66 5.2 4.7-3.25a1 1 0 0 1 1.13 0l4.6 3.17-1.65-5.2a1 1 0 0 1 .35-1.1l4.52-3.42h-5.64a1 1 0 0 1-.94-.67l-1.85-5.35Zm-.03-2.1a2 2 0 0 1 1.88 1.32l1.66 4.8h5.04c1.81 0 2.62 2.28 1.26 3.46l-.06.05-4.07 3.07 1.5 4.72v.01c.56 1.83-1.48 3.13-2.96 2.15l-.02-.01-4.15-2.86-4.25 2.94-.01.01c-1.49.99-3.53-.31-2.97-2.14v-.02l1.5-4.71-4.07-3.08a1.98 1.98 0 0 1-.67-2.18c.22-.71.87-1.41 1.87-1.41h5.05l1.65-4.78a1.88 1.88 0 0 1 1.82-1.33Zm-9.58 20.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.53-1.9a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm-1.2-2.11a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm-.83-2.36a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.42-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm0-2.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.41-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.83-2.25a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.15-2.23a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.59-1.88a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0ZM16.02 15a.83.83 0 1 1-1.65.01.83.83 0 0 1 1.65 0Zm2.08-1.28a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.3-.94a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.38-.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.42-.11a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.48.29a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.33.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.22 1.14a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.92 1.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.75 1.75a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm1.37 2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.03 2.26a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm.6 2.34a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm.22 2.48a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.18 2.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.62 2.35a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.04 2.2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.35 2.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.73 1.78a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.98 1.43a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.19 1.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.28.75a.82.82 0 1 1-1.65 0 .82.82 0 0 1 1.65 0Zm-2.43.31a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.48-.12a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.43-.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.25-.99a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.26-1.16a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0ZM14.94 7a8.85 8.85 0 0 1 2.49-2.79 10.5 10.5 0 0 1 1.41-.92c.23-.12.5-.18.74-.1.46.14.6.62.71 1.04.1.31.2.75.26 1.27.12 1 .1 2.4-.68 3.58v.01a7.82 7.82 0 0 1-2.62 2.46c-.43.25-.88.45-1.3.7a16.38 16.38 0 0 0-8.4 14.34c0 8 5.73 14.66 13.34 16.15a.85.85 0 0 1-.33 1.67c-.99-.2-1.95-.47-2.88-.82-.23.18-.7.55-1.32.94a8.46 8.46 0 0 1-3.38 1.29 5.96 5.96 0 0 1-3.26-.61c-.5-.24-1.22-.6-1.43-1.15a.86.86 0 0 1 .04-.72c.29-.53.92-1 1.38-1.37a6.88 6.88 0 0 1 2.76-1.39c-.49-.4-.95-.82-1.39-1.26-.56.14-1.12.24-1.7.31a9.12 9.12 0 0 1-3.67-.2 5.68 5.68 0 0 1-3.32-2.78 1.35 1.35 0 0 1-.18-.8c.02-.1.1-.45.47-.63a9.13 9.13 0 0 1 1.64-.62 6.5 6.5 0 0 1 3.36-.08c-.32-.66-.6-1.34-.85-2.04-.4 0-.81-.03-1.21-.1a5.89 5.89 0 0 1-3.13-1.46 7.74 7.74 0 0 1-1.86-3.06 9.2 9.2 0 0 1-.33-1.2c-.07-.32-.13-.68.05-.99.25-.44.77-.44 1.22-.42.31 0 .75.04 1.24.12.9.16 2.06.5 3.04 1.27v-.05c0-.73.04-1.45.13-2.15-.25-.12-.6-.31-1-.59a6.15 6.15 0 0 1-2.11-2.52 8.22 8.22 0 0 1-.57-3.58c.03-.5.08-.95.14-1.28.06-.33.13-.69.4-.92a.86.86 0 0 1 .5-.2c.3-.02.6.15.85.28.28.14.67.35 1.08.63a6.63 6.63 0 0 1 2.3 2.58 18 18 0 0 1 1.26-2.24 5.46 5.46 0 0 1-1.82-3.63c-.1-1.34.28-2.69.65-3.65.19-.5.38-.9.53-1.2.21-.4.47-.85 1-.85.25 0 .45.13.64.3.2.18.65.6 1.11 1.19a6.34 6.34 0 0 1 1.4 3.91c.72-.6 1.47-1.13 2.27-1.62A5.47 5.47 0 0 1 14.93 7h.01Zm3.86-1.7a7.29 7.29 0 0 0-2.35 2.46 4.04 4.04 0 0 0-.29 2.44 5.96 5.96 0 0 0 2.29-2.06c.54-.83.53-1.9.35-2.84ZM6.25 30.75a4.77 4.77 0 0 0-1.28-2.63A5.1 5.1 0 0 0 2.13 27c.3.99.77 1.98 1.53 2.7.7.66 1.65.97 2.6 1.06Zm3.37 7.13a4.55 4.55 0 0 0-2.18-1.66 5 5 0 0 0-3.2.19 4.1 4.1 0 0 0 1.97 1.4c1.09.34 2.3.25 3.4.07Zm6.19 4.98a4.57 4.57 0 0 0-2.66-.67c-.89.1-1.73.58-2.38 1.1l-.4.34a4.54 4.54 0 0 0 2.42.5 6.93 6.93 0 0 0 3.02-1.27ZM9.4 9.56a7.26 7.26 0 0 0-.7 3.29 3.68 3.68 0 0 0 1.07 2.3c.55-.87.94-1.89.87-2.93A4.8 4.8 0 0 0 9.4 9.55Zm-5.38 7.92a6.57 6.57 0 0 0 .4 3.16 4.55 4.55 0 0 0 1.73 1.95c.26-.94.34-2-.06-2.91a4.99 4.99 0 0 0-2.07-2.2Z">
+                </path>
+               </svg>
+              </div>
+              <div class="flex--item fl1">
+               <div class="fs-title fw-bold fc-black-800">
+                78
+               </div>
+               <div class="fs-caption">
+                gold badges
+               </div>
+              </div>
+             </div>
+             <div class="flex--item mt-auto">
+              <ul class="list-reset d-grid g8">
+               <li class="d-flex ai-center">
+                <a class="badge-tag d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/3591/google-chrome?userid=938089" title="gold badge: Earn at least 1000 total score for at least 200 non-community wiki answers in the google-chrome tag">
+                 <span class="badge1">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  google-chrome
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 Jan 6, 2014
+                </div>
+               </li>
+               <li class="d-flex ai-center">
+                <a class="badge-tag d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/2854/google-chrome-extension?userid=938089" title="gold badge: Earn at least 1000 total score for at least 200 non-community wiki answers in the google-chrome-extension tag">
+                 <span class="badge1">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  google-chrome-extension
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 Aug 12, 2013
+                </div>
+               </li>
+               <li class="d-flex ai-center">
+                <a class="badge-tag d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/247/css?userid=938089" title="gold badge: Earn at least 1000 total score for at least 200 non-community wiki answers in the css tag">
+                 <span class="badge1">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  css
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 May 23, 2014
+                </div>
+               </li>
+              </ul>
+             </div>
+            </div>
+           </div>
+           <div class="flex--item s-card bar-md">
+            <div class="d-flex fd-column jc-space-between h100 g12">
+             <div class="d-flex ai-center">
+              <div class="flex--item mr12">
+               <svg aria-hidden="true" class="fc-silver svg-spot spotAward" height="48" viewbox="0 0 48 48" width="48">
+                <path d="M32.87 7a8.85 8.85 0 0 0-2.49-2.79 10.5 10.5 0 0 0-1.41-.92.98.98 0 0 0-.74-.1c-.46.14-.6.62-.71 1.04-.09.31-.2.75-.26 1.27-.12 1-.1 2.4.68 3.58v.01c.83 1.24 1.83 2 2.62 2.46.43.25.88.45 1.3.7a16.38 16.38 0 0 1 8.4 14.34c0 8-5.72 14.66-13.34 16.15a.85.85 0 0 0 .33 1.67c.99-.2 1.95-.47 2.88-.82.23.18.7.55 1.32.94a8.46 8.46 0 0 0 3.38 1.29 5.96 5.96 0 0 0 3.26-.61c.5-.24 1.22-.6 1.43-1.15a.86.86 0 0 0-.04-.72c-.29-.53-.92-1-1.38-1.37a6.88 6.88 0 0 0-2.76-1.39c.49-.4.95-.82 1.39-1.26.56.14 1.12.24 1.7.31 1.03.13 2.43.19 3.67-.2a5.68 5.68 0 0 0 3.32-2.78c.12-.24.22-.53.18-.8a.86.86 0 0 0-.47-.63 9.14 9.14 0 0 0-1.64-.62 6.5 6.5 0 0 0-3.36-.08 18 18 0 0 0 .85-2.04c.4 0 .81-.03 1.21-.1a5.89 5.89 0 0 0 3.14-1.46 7.74 7.74 0 0 0 1.85-3.06c.17-.47.27-.9.33-1.2.07-.32.13-.68-.05-.99-.25-.44-.77-.44-1.22-.42a9.1 9.1 0 0 0-1.24.12c-.9.16-2.06.5-3.04 1.27v-.05c0-.73-.04-1.45-.13-2.15.25-.12.6-.31 1-.59a6.15 6.15 0 0 0 2.11-2.52 8.3 8.3 0 0 0 .57-3.58 9.7 9.7 0 0 0-.14-1.28c-.06-.33-.13-.69-.4-.92a.86.86 0 0 0-.5-.2c-.3-.02-.6.15-.85.28a9.3 9.3 0 0 0-1.08.63 6.63 6.63 0 0 0-2.3 2.58 18 18 0 0 0-1.26-2.24 5.46 5.46 0 0 0 1.82-3.63 8.85 8.85 0 0 0-.65-3.65c-.19-.5-.38-.9-.53-1.2-.21-.4-.47-.85-1-.85a.98.98 0 0 0-.64.3c-.2.18-.65.6-1.11 1.19a6.34 6.34 0 0 0-1.4 3.91c-.72-.6-1.47-1.13-2.27-1.62A5.47 5.47 0 0 0 32.88 7h-.01Zm-3.86-1.7a7.29 7.29 0 0 1 2.35 2.46 4 4 0 0 1 .29 2.44 5.96 5.96 0 0 1-2.29-2.06c-.54-.83-.53-1.9-.35-2.84Zm12.55 25.44c.17-.96.56-1.94 1.28-2.63A5.1 5.1 0 0 1 45.68 27a6.1 6.1 0 0 1-1.53 2.7c-.7.66-1.65.97-2.6 1.06Zm-3.37 7.13a4.55 4.55 0 0 1 2.18-1.66 5 5 0 0 1 3.2.19 4.02 4.02 0 0 1-1.97 1.4 7.6 7.6 0 0 1-3.4.07ZM32 42.86a4.57 4.57 0 0 1 2.66-.67c.89.1 1.73.58 2.38 1.1l.4.34a4.54 4.54 0 0 1-2.42.5A6.93 6.93 0 0 1 32 42.86Zm6.41-33.3a7.2 7.2 0 0 1 .7 3.29 3.68 3.68 0 0 1-1.07 2.3 4.88 4.88 0 0 1-.87-2.93c.07-1 .6-1.91 1.24-2.67Zm5.38 7.92a6.57 6.57 0 0 1-.4 3.16 4.55 4.55 0 0 1-1.73 1.95 4.4 4.4 0 0 1 .06-2.91c.4-.95 1.2-1.67 2.07-2.2Zm-19.95.55L22 23.38a1 1 0 0 1-.94.67h-5.71v.02l4.6 3.48a1 1 0 0 1 .34 1.1l-1.66 5.2 4.7-3.25a1 1 0 0 1 1.13 0l4.6 3.17-1.65-5.2a1 1 0 0 1 .35-1.1l4.52-3.42h-5.64a1 1 0 0 1-.94-.67l-1.85-5.35Zm-.03-2.1a2 2 0 0 1 1.88 1.32l1.66 4.8h5.04c1.81 0 2.62 2.28 1.26 3.46l-.06.05-4.07 3.07 1.5 4.72v.01c.56 1.83-1.48 3.13-2.96 2.15l-.02-.01-4.15-2.86-4.25 2.94-.01.01c-1.49.99-3.53-.31-2.97-2.14v-.02l1.5-4.71-4.07-3.08a1.98 1.98 0 0 1-.67-2.18c.22-.71.87-1.41 1.87-1.41h5.05l1.65-4.78a1.88 1.88 0 0 1 1.82-1.33Zm-9.58 20.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.53-1.9a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm-1.2-2.11a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm-.83-2.36a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.42-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm0-2.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.41-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.83-2.25a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.15-2.23a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.59-1.88a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0ZM16.02 15a.83.83 0 1 1-1.65.01.83.83 0 0 1 1.65 0Zm2.08-1.28a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.3-.94a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.38-.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.42-.11a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.48.29a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.33.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.22 1.14a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.92 1.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.75 1.75a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm1.37 2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.03 2.26a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm.6 2.34a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm.22 2.48a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.18 2.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.62 2.35a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.04 2.2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.35 2.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.73 1.78a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.98 1.43a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.19 1.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.28.75a.82.82 0 1 1-1.65 0 .82.82 0 0 1 1.65 0Zm-2.43.31a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.48-.12a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.43-.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.25-.99a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.26-1.16a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0ZM14.94 7a8.85 8.85 0 0 1 2.49-2.79 10.5 10.5 0 0 1 1.41-.92c.23-.12.5-.18.74-.1.46.14.6.62.71 1.04.1.31.2.75.26 1.27.12 1 .1 2.4-.68 3.58v.01a7.82 7.82 0 0 1-2.62 2.46c-.43.25-.88.45-1.3.7a16.38 16.38 0 0 0-8.4 14.34c0 8 5.73 14.66 13.34 16.15a.85.85 0 0 1-.33 1.67c-.99-.2-1.95-.47-2.88-.82-.23.18-.7.55-1.32.94a8.46 8.46 0 0 1-3.38 1.29 5.96 5.96 0 0 1-3.26-.61c-.5-.24-1.22-.6-1.43-1.15a.86.86 0 0 1 .04-.72c.29-.53.92-1 1.38-1.37a6.88 6.88 0 0 1 2.76-1.39c-.49-.4-.95-.82-1.39-1.26-.56.14-1.12.24-1.7.31a9.12 9.12 0 0 1-3.67-.2 5.68 5.68 0 0 1-3.32-2.78 1.35 1.35 0 0 1-.18-.8c.02-.1.1-.45.47-.63a9.13 9.13 0 0 1 1.64-.62 6.5 6.5 0 0 1 3.36-.08c-.32-.66-.6-1.34-.85-2.04-.4 0-.81-.03-1.21-.1a5.89 5.89 0 0 1-3.13-1.46 7.74 7.74 0 0 1-1.86-3.06 9.2 9.2 0 0 1-.33-1.2c-.07-.32-.13-.68.05-.99.25-.44.77-.44 1.22-.42.31 0 .75.04 1.24.12.9.16 2.06.5 3.04 1.27v-.05c0-.73.04-1.45.13-2.15-.25-.12-.6-.31-1-.59a6.15 6.15 0 0 1-2.11-2.52 8.22 8.22 0 0 1-.57-3.58c.03-.5.08-.95.14-1.28.06-.33.13-.69.4-.92a.86.86 0 0 1 .5-.2c.3-.02.6.15.85.28.28.14.67.35 1.08.63a6.63 6.63 0 0 1 2.3 2.58 18 18 0 0 1 1.26-2.24 5.46 5.46 0 0 1-1.82-3.63c-.1-1.34.28-2.69.65-3.65.19-.5.38-.9.53-1.2.21-.4.47-.85 1-.85.25 0 .45.13.64.3.2.18.65.6 1.11 1.19a6.34 6.34 0 0 1 1.4 3.91c.72-.6 1.47-1.13 2.27-1.62A5.47 5.47 0 0 1 14.93 7h.01Zm3.86-1.7a7.29 7.29 0 0 0-2.35 2.46 4.04 4.04 0 0 0-.29 2.44 5.96 5.96 0 0 0 2.29-2.06c.54-.83.53-1.9.35-2.84ZM6.25 30.75a4.77 4.77 0 0 0-1.28-2.63A5.1 5.1 0 0 0 2.13 27c.3.99.77 1.98 1.53 2.7.7.66 1.65.97 2.6 1.06Zm3.37 7.13a4.55 4.55 0 0 0-2.18-1.66 5 5 0 0 0-3.2.19 4.1 4.1 0 0 0 1.97 1.4c1.09.34 2.3.25 3.4.07Zm6.19 4.98a4.57 4.57 0 0 0-2.66-.67c-.89.1-1.73.58-2.38 1.1l-.4.34a4.54 4.54 0 0 0 2.42.5 6.93 6.93 0 0 0 3.02-1.27ZM9.4 9.56a7.26 7.26 0 0 0-.7 3.29 3.68 3.68 0 0 0 1.07 2.3c.55-.87.94-1.89.87-2.93A4.8 4.8 0 0 0 9.4 9.55Zm-5.38 7.92a6.57 6.57 0 0 0 .4 3.16 4.55 4.55 0 0 0 1.73 1.95c.26-.94.34-2-.06-2.91a4.99 4.99 0 0 0-2.07-2.2Z">
+                </path>
+               </svg>
+              </div>
+              <div class="flex--item fl1">
+               <div class="fs-title fw-bold fc-black-800">
+                779
+               </div>
+               <div class="fs-caption">
+                silver badges
+               </div>
+              </div>
+             </div>
+             <div class="flex--item mt-auto">
+              <ul class="list-reset d-grid g8">
+               <li class="d-flex ai-center">
+                <a class="badge-tag d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/97/regex?userid=938089" title="silver badge: Earn at least 400 total score for at least 80 non-community wiki answers in the regex tag">
+                 <span class="badge2">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  regex
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 May 6, 2016
+                </div>
+               </li>
+               <li class="d-flex ai-center">
+                <a class="badge d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/1656/research-assistant?userid=938089" title="silver badge: Edit 50 tag wikis">
+                 <span class="badge2">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  Research Assistant
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 Apr 16, 2012
+                </div>
+               </li>
+               <li class="d-flex ai-center">
+                <a class="badge-tag d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/84/html?userid=938089" title="silver badge: Earn at least 400 total score for at least 80 non-community wiki answers in the html tag">
+                 <span class="badge2">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  html
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 Jan 5, 2012
+                </div>
+               </li>
+              </ul>
+             </div>
+            </div>
+           </div>
+           <div class="flex--item s-card bar-md">
+            <div class="d-flex fd-column jc-space-between h100 g12">
+             <div class="d-flex ai-center">
+              <div class="flex--item mr12">
+               <svg aria-hidden="true" class="fc-bronze svg-spot spotAward" height="48" viewbox="0 0 48 48" width="48">
+                <path d="M32.87 7a8.85 8.85 0 0 0-2.49-2.79 10.5 10.5 0 0 0-1.41-.92.98.98 0 0 0-.74-.1c-.46.14-.6.62-.71 1.04-.09.31-.2.75-.26 1.27-.12 1-.1 2.4.68 3.58v.01c.83 1.24 1.83 2 2.62 2.46.43.25.88.45 1.3.7a16.38 16.38 0 0 1 8.4 14.34c0 8-5.72 14.66-13.34 16.15a.85.85 0 0 0 .33 1.67c.99-.2 1.95-.47 2.88-.82.23.18.7.55 1.32.94a8.46 8.46 0 0 0 3.38 1.29 5.96 5.96 0 0 0 3.26-.61c.5-.24 1.22-.6 1.43-1.15a.86.86 0 0 0-.04-.72c-.29-.53-.92-1-1.38-1.37a6.88 6.88 0 0 0-2.76-1.39c.49-.4.95-.82 1.39-1.26.56.14 1.12.24 1.7.31 1.03.13 2.43.19 3.67-.2a5.68 5.68 0 0 0 3.32-2.78c.12-.24.22-.53.18-.8a.86.86 0 0 0-.47-.63 9.14 9.14 0 0 0-1.64-.62 6.5 6.5 0 0 0-3.36-.08 18 18 0 0 0 .85-2.04c.4 0 .81-.03 1.21-.1a5.89 5.89 0 0 0 3.14-1.46 7.74 7.74 0 0 0 1.85-3.06c.17-.47.27-.9.33-1.2.07-.32.13-.68-.05-.99-.25-.44-.77-.44-1.22-.42a9.1 9.1 0 0 0-1.24.12c-.9.16-2.06.5-3.04 1.27v-.05c0-.73-.04-1.45-.13-2.15.25-.12.6-.31 1-.59a6.15 6.15 0 0 0 2.11-2.52 8.3 8.3 0 0 0 .57-3.58 9.7 9.7 0 0 0-.14-1.28c-.06-.33-.13-.69-.4-.92a.86.86 0 0 0-.5-.2c-.3-.02-.6.15-.85.28a9.3 9.3 0 0 0-1.08.63 6.63 6.63 0 0 0-2.3 2.58 18 18 0 0 0-1.26-2.24 5.46 5.46 0 0 0 1.82-3.63 8.85 8.85 0 0 0-.65-3.65c-.19-.5-.38-.9-.53-1.2-.21-.4-.47-.85-1-.85a.98.98 0 0 0-.64.3c-.2.18-.65.6-1.11 1.19a6.34 6.34 0 0 0-1.4 3.91c-.72-.6-1.47-1.13-2.27-1.62A5.47 5.47 0 0 0 32.88 7h-.01Zm-3.86-1.7a7.29 7.29 0 0 1 2.35 2.46 4 4 0 0 1 .29 2.44 5.96 5.96 0 0 1-2.29-2.06c-.54-.83-.53-1.9-.35-2.84Zm12.55 25.44c.17-.96.56-1.94 1.28-2.63A5.1 5.1 0 0 1 45.68 27a6.1 6.1 0 0 1-1.53 2.7c-.7.66-1.65.97-2.6 1.06Zm-3.37 7.13a4.55 4.55 0 0 1 2.18-1.66 5 5 0 0 1 3.2.19 4.02 4.02 0 0 1-1.97 1.4 7.6 7.6 0 0 1-3.4.07ZM32 42.86a4.57 4.57 0 0 1 2.66-.67c.89.1 1.73.58 2.38 1.1l.4.34a4.54 4.54 0 0 1-2.42.5A6.93 6.93 0 0 1 32 42.86Zm6.41-33.3a7.2 7.2 0 0 1 .7 3.29 3.68 3.68 0 0 1-1.07 2.3 4.88 4.88 0 0 1-.87-2.93c.07-1 .6-1.91 1.24-2.67Zm5.38 7.92a6.57 6.57 0 0 1-.4 3.16 4.55 4.55 0 0 1-1.73 1.95 4.4 4.4 0 0 1 .06-2.91c.4-.95 1.2-1.67 2.07-2.2Zm-19.95.55L22 23.38a1 1 0 0 1-.94.67h-5.71v.02l4.6 3.48a1 1 0 0 1 .34 1.1l-1.66 5.2 4.7-3.25a1 1 0 0 1 1.13 0l4.6 3.17-1.65-5.2a1 1 0 0 1 .35-1.1l4.52-3.42h-5.64a1 1 0 0 1-.94-.67l-1.85-5.35Zm-.03-2.1a2 2 0 0 1 1.88 1.32l1.66 4.8h5.04c1.81 0 2.62 2.28 1.26 3.46l-.06.05-4.07 3.07 1.5 4.72v.01c.56 1.83-1.48 3.13-2.96 2.15l-.02-.01-4.15-2.86-4.25 2.94-.01.01c-1.49.99-3.53-.31-2.97-2.14v-.02l1.5-4.71-4.07-3.08a1.98 1.98 0 0 1-.67-2.18c.22-.71.87-1.41 1.87-1.41h5.05l1.65-4.78a1.88 1.88 0 0 1 1.82-1.33Zm-9.58 20.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.53-1.9a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm-1.2-2.11a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm-.83-2.36a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.42-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm0-2.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.41-2.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm.83-2.25a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.15-2.23a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.59-1.88a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0ZM16.02 15a.83.83 0 1 1-1.65.01.83.83 0 0 1 1.65 0Zm2.08-1.28a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.3-.94a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.38-.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.42-.11a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm2.48.29a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.33.71a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm2.22 1.14a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.92 1.41a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.75 1.75a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm1.37 2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm1.03 2.26a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0Zm.6 2.34a.83.83 0 1 1-1.66 0 .83.83 0 0 1 1.65 0Zm.22 2.48a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.18 2.51a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-.62 2.35a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.04 2.2a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.35 2.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.73 1.78a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-1.98 1.43a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.19 1.09a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.28.75a.82.82 0 1 1-1.65 0 .82.82 0 0 1 1.65 0Zm-2.43.31a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.48-.12a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.43-.44a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.25-.99a.83.83 0 1 1-1.65 0 .83.83 0 0 1 1.65 0Zm-2.26-1.16a.83.83 0 1 1-1.64 0 .83.83 0 0 1 1.65 0ZM14.94 7a8.85 8.85 0 0 1 2.49-2.79 10.5 10.5 0 0 1 1.41-.92c.23-.12.5-.18.74-.1.46.14.6.62.71 1.04.1.31.2.75.26 1.27.12 1 .1 2.4-.68 3.58v.01a7.82 7.82 0 0 1-2.62 2.46c-.43.25-.88.45-1.3.7a16.38 16.38 0 0 0-8.4 14.34c0 8 5.73 14.66 13.34 16.15a.85.85 0 0 1-.33 1.67c-.99-.2-1.95-.47-2.88-.82-.23.18-.7.55-1.32.94a8.46 8.46 0 0 1-3.38 1.29 5.96 5.96 0 0 1-3.26-.61c-.5-.24-1.22-.6-1.43-1.15a.86.86 0 0 1 .04-.72c.29-.53.92-1 1.38-1.37a6.88 6.88 0 0 1 2.76-1.39c-.49-.4-.95-.82-1.39-1.26-.56.14-1.12.24-1.7.31a9.12 9.12 0 0 1-3.67-.2 5.68 5.68 0 0 1-3.32-2.78 1.35 1.35 0 0 1-.18-.8c.02-.1.1-.45.47-.63a9.13 9.13 0 0 1 1.64-.62 6.5 6.5 0 0 1 3.36-.08c-.32-.66-.6-1.34-.85-2.04-.4 0-.81-.03-1.21-.1a5.89 5.89 0 0 1-3.13-1.46 7.74 7.74 0 0 1-1.86-3.06 9.2 9.2 0 0 1-.33-1.2c-.07-.32-.13-.68.05-.99.25-.44.77-.44 1.22-.42.31 0 .75.04 1.24.12.9.16 2.06.5 3.04 1.27v-.05c0-.73.04-1.45.13-2.15-.25-.12-.6-.31-1-.59a6.15 6.15 0 0 1-2.11-2.52 8.22 8.22 0 0 1-.57-3.58c.03-.5.08-.95.14-1.28.06-.33.13-.69.4-.92a.86.86 0 0 1 .5-.2c.3-.02.6.15.85.28.28.14.67.35 1.08.63a6.63 6.63 0 0 1 2.3 2.58 18 18 0 0 1 1.26-2.24 5.46 5.46 0 0 1-1.82-3.63c-.1-1.34.28-2.69.65-3.65.19-.5.38-.9.53-1.2.21-.4.47-.85 1-.85.25 0 .45.13.64.3.2.18.65.6 1.11 1.19a6.34 6.34 0 0 1 1.4 3.91c.72-.6 1.47-1.13 2.27-1.62A5.47 5.47 0 0 1 14.93 7h.01Zm3.86-1.7a7.29 7.29 0 0 0-2.35 2.46 4.04 4.04 0 0 0-.29 2.44 5.96 5.96 0 0 0 2.29-2.06c.54-.83.53-1.9.35-2.84ZM6.25 30.75a4.77 4.77 0 0 0-1.28-2.63A5.1 5.1 0 0 0 2.13 27c.3.99.77 1.98 1.53 2.7.7.66 1.65.97 2.6 1.06Zm3.37 7.13a4.55 4.55 0 0 0-2.18-1.66 5 5 0 0 0-3.2.19 4.1 4.1 0 0 0 1.97 1.4c1.09.34 2.3.25 3.4.07Zm6.19 4.98a4.57 4.57 0 0 0-2.66-.67c-.89.1-1.73.58-2.38 1.1l-.4.34a4.54 4.54 0 0 0 2.42.5 6.93 6.93 0 0 0 3.02-1.27ZM9.4 9.56a7.26 7.26 0 0 0-.7 3.29 3.68 3.68 0 0 0 1.07 2.3c.55-.87.94-1.89.87-2.93A4.8 4.8 0 0 0 9.4 9.55Zm-5.38 7.92a6.57 6.57 0 0 0 .4 3.16 4.55 4.55 0 0 0 1.73 1.95c.26-.94.34-2-.06-2.91a4.99 4.99 0 0 0-2.07-2.2Z">
+                </path>
+               </svg>
+              </div>
+              <div class="flex--item fl1">
+               <div class="fs-title fw-bold fc-black-800">
+                666
+               </div>
+               <div class="fs-caption">
+                bronze badges
+               </div>
+              </div>
+             </div>
+             <div class="flex--item mt-auto">
+              <ul class="list-reset d-grid g8">
+               <li class="d-flex ai-center">
+                <a class="badge-tag d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/3024/content-script?userid=938089" title="bronze badge: Earn at least 100 total score for at least 20 non-community wiki answers in the content-script tag">
+                 <span class="badge3">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  content-script
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 Jun 10, 2013
+                </div>
+               </li>
+               <li class="d-flex ai-center">
+                <a class="badge-tag d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/4787/local-storage?userid=938089" title="bronze badge: Earn at least 100 total score for at least 20 non-community wiki answers in the local-storage tag">
+                 <span class="badge3">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  local-storage
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 Feb 24, 2015
+                </div>
+               </li>
+               <li class="d-flex ai-center">
+                <a class="badge-tag d-flex ai-center m0 mr4 lh-md fs-fine js-gps-track" data-gps-track="profile_link.click({target:1, type:2 })" href="/help/badges/4366/google-chrome-app?userid=938089" title="bronze badge: Earn at least 100 total score for at least 20 non-community wiki answers in the google-chrome-app tag">
+                 <span class="badge3">
+                 </span>
+                 <div class="d-inline-block truncate wmx1">
+                  google-chrome-app
+                 </div>
+                </a>
+                <div class="flex--item ml-auto fc-medium fs-fine ws-nowrap">
+                 Apr 5, 2015
+                </div>
+               </li>
+              </ul>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="top-tags grid--item" id="top-tags">
+          <div class="d-flex ai-center jc-space-between mb8">
+           <div class="flex--item fs-title">
+            Top tags
+           </div>
+           <a class="s-link s-link__muted js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/users/938089/rob-w?tab=tags">
+            View all tags
+           </a>
+          </div>
+          <div class="s-card bar-md p0">
+           <div class="p12 bb bc-black-075" title="Asked 1 non-wiki question with a total score of 44. Gave 1623 non-wiki answers with a total score of 18784.">
+            <div class="d-flex ai-center gs12 fw-wrap">
+             <div class="flex--item ws-nowrap">
+              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:938089+[javascript]" rel="tag" title="show questions tagged 'javascript'">
+               javascript
+              </a>
+              <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/78/javascript" title="Gold badge">
+               <span class="badge1">
+               </span>
+              </a>
+             </div>
+             <div class="flex--item ml-auto">
+              <div class="d-flex gsx gs16">
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 18,784
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Score
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 1,626
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 59
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts %
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075" title=" Gave 718 non-wiki answers with a total score of 9143.">
+            <div class="d-flex ai-center gs12 fw-wrap">
+             <div class="flex--item ws-nowrap">
+              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:938089+[google-chrome-extension]" rel="tag" title="show questions tagged 'google-chrome-extension'">
+               google-chrome-extension
+              </a>
+              <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/2854/google-chrome-extension" title="Gold badge">
+               <span class="badge1">
+               </span>
+              </a>
+             </div>
+             <div class="flex--item ml-auto">
+              <div class="d-flex gsx gs16">
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 9,143
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Score
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 718
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 26
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts %
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075" title=" Gave 433 non-wiki answers with a total score of 6626.">
+            <div class="d-flex ai-center gs12 fw-wrap">
+             <div class="flex--item ws-nowrap">
+              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:938089+[google-chrome]" rel="tag" title="show questions tagged 'google-chrome'">
+               google-chrome
+              </a>
+              <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/3591/google-chrome" title="Gold badge">
+               <span class="badge1">
+               </span>
+              </a>
+             </div>
+             <div class="flex--item ml-auto">
+              <div class="d-flex gsx gs16">
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 6,626
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Score
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 433
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 16
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts %
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075" title=" Gave 777 non-wiki answers with a total score of 5488.">
+            <div class="d-flex ai-center gs12 fw-wrap">
+             <div class="flex--item ws-nowrap">
+              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:938089+[jquery]" rel="tag" title="show questions tagged 'jquery'">
+               jquery
+              </a>
+              <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/79/jquery" title="Gold badge">
+               <span class="badge1">
+               </span>
+              </a>
+             </div>
+             <div class="flex--item ml-auto">
+              <div class="d-flex gsx gs16">
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 5,488
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Score
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 777
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 28
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts %
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075" title=" Gave 421 non-wiki answers with a total score of 3119.">
+            <div class="d-flex ai-center gs12 fw-wrap">
+             <div class="flex--item ws-nowrap">
+              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:938089+[html]" rel="tag" title="show questions tagged 'html'">
+               html
+              </a>
+              <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/134/html" title="Gold badge">
+               <span class="badge1">
+               </span>
+              </a>
+             </div>
+             <div class="flex--item ml-auto">
+              <div class="d-flex gsx gs16">
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 3,119
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Score
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 421
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 15
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts %
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="p12" title=" Gave 296 non-wiki answers with a total score of 2245.">
+            <div class="d-flex ai-center gs12 fw-wrap">
+             <div class="flex--item ws-nowrap">
+              <a class="s-tag js-gps-track" data-gps-track="profile_link.click({target:2, type:2 })" href="/search?q=user:938089+[css]" rel="tag" title="show questions tagged 'css'">
+               css
+              </a>
+              <a class="badge-tag bg-transparent bc-transparent m0" href="/help/badges/247/css" title="Gold badge">
+               <span class="badge1">
+               </span>
+              </a>
+             </div>
+             <div class="flex--item ml-auto">
+              <div class="d-flex gsx gs16">
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 2,245
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Score
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 296
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts
+                </div>
+               </div>
+               <div class="flex--item d-flex ai-center">
+                <div class="fs-body3 mr4">
+                 11
+                </div>
+                <div class="fc-light tt-lowercase">
+                 Posts %
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="grid--item" id="js-top-posts">
+          <div class="d-flex ai-end jc-space-between fw-wrap">
+           <div class="flex--item mb8">
+            <div class="fs-title">
+             Top posts
+            </div>
+            <div class="fc-light s-anchors">
+             View all
+             <a class="js-gps-track" data-gps-track="profile_link.click({target:3, type:2 })" href="/users/938089?tab=questions">
+              questions
+             </a>
+             ,
+             <a class="js-gps-track" data-gps-track="profile_link.click({target:3, type:2 })" href="/users/938089?tab=answers">
+              answers
+             </a>
+             , and
+             <a class="js-gps-track" data-gps-track="profile_link.click({target:3, type:2 })" href="/users/938089?tab=articles">
+              articles
+             </a>
+            </div>
+           </div>
+           <div class="d-flex jc-end mb8">
+            <div class="s-btn-group js-post-filters">
+             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-selected is-selected js-post-filter-btn">
+              All
+             </a>
+             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="1">
+              Questions
+             </a>
+             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="2">
+              Answers
+             </a>
+             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-filter-btn" data-type="9">
+              Articles
+             </a>
+            </div>
+            <div class="s-btn-group ml8 js-post-sorts">
+             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-selected is-selected js-post-sort-btn" data-sort="Votes">
+              Score
+             </a>
+             <a class="s-btn s-btn__muted s-btn__outlined s-btn__xs js-post-sort-btn" data-sort="Newest">
+              Newest
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="s-card bar-md p0">
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              1948
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/9847580/how-to-detect-safari-chrome-ie-firefox-and-opera-browser/9851769#9851769">
+               How to detect Safari, Chrome, IE, Firefox and Opera browser?
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2012-03-24 12:29:44Z">
+               Mar 24, 2012
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              1060
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/9515704/use-a-content-script-to-access-the-page-context-variables-and-functions/9517879#9517879">
+               Use a content script to access the page context variables and functions
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2012-03-01 14:24:41Z">
+               Mar 1, 2012
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              711
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/11616630/how-can-i-print-a-circular-structure-in-a-json-like-format/11616993#11616993">
+               How can I print a circular structure in a JSON-like format?
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2012-07-23 16:56:43Z">
+               Jul 23, 2012
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              661
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/8993773/contains-case-insensitive/8993788#8993788">
+               Contains case insensitive
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2012-01-24 20:38:55Z">
+               Jan 24, 2012
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              486
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/7394748/whats-the-right-way-to-decode-a-string-that-has-special-html-entities-in-it/7394787#7394787">
+               What's the right way to decode a string that has special HTML entities in it?
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2011-09-12 22:29:57Z">
+               Sep 12, 2011
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              415
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/10257301/accessing-console-and-devtools-of-extensions-background-js/10258029#10258029">
+               Accessing console and devtools of extension's background.js
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2012-04-21 10:12:34Z">
+               Apr 21, 2012
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              394
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/7398290/unable-to-understand-usecapture-parameter-in-addeventlistener/7398447#7398447">
+               Unable to understand useCapture parameter in addEventListener
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2011-09-13 07:45:25Z">
+               Sep 13, 2011
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              364
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/9719570/generate-random-password-string-with-requirements-in-javascript/9719815#9719815">
+               Generate random password string with requirements in javascript
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2012-03-15 12:35:55Z">
+               Mar 15, 2012
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              332
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/7443578/youtube-iframe-api-how-do-i-control-an-iframe-player-thats-already-in-the-html/7513356#7513356">
+               YouTube iframe API: how do I control an iframe player that's already in the HTML?
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2011-09-22 10:30:52Z">
+               Sep 22, 2011
+              </span>
+             </div>
+            </div>
+           </div>
+           <div class="p12">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item fc-green-400 fl-shrink0">
+              <svg class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+               <title>
+                answer
+               </title>
+               <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item s-badge s-badge__votes s-badge__answered" style="min-width: 38px;">
+              251
+             </div>
+             <div class="flex--item fl-grow1 pr12 js-gps-track" data-gps-track="profile_link.click({ target: 3, type: 2 })">
+              <a class="answer-hyperlink d-table tl-fixed w100 m0 ow-break-word" href="/questions/17377337/where-to-find-extensions-installed-folder-for-google-chrome-on-mac/17378420#17378420">
+               Where to find extensions installed folder for Google Chrome on Mac?
+              </a>
+             </div>
+             <div class="flex--item ml-auto fc-light ws-nowrap">
+              <span class="relativetime" title="2013-06-29 08:49:53Z">
+               Jun 29, 2013
+              </span>
+             </div>
+            </div>
+           </div>
+          </div>
+          <script>
+           $(function () {
+                function getPosts() {
+                    $.get("/users/profile/posts/938089", {
+                        postType: $(".js-post-filters > .js-post-filter-btn.is-selected[data-type]").data("type"),
+                        sort: $(".js-post-sorts > .js-post-sort-btn.is-selected").data("sort")
+                    }).done(function (html) {
+                        $("#js-top-posts").replaceWith(html);
+                    });
+
+                }
+
+                $(".js-post-sorts .js-post-sort-btn:not(.js-selected)").click(function () {
+                    $(".js-post-sorts .js-post-sort-btn").removeClass("is-selected");
+                    $(this).addClass("is-selected");
+                    getPosts();
+                });
+                $(".js-post-filters .js-post-filter-btn:not(.js-selected)").click(function () {
+                    $(".js-post-filters .js-post-filter-btn").removeClass("is-selected");
+                    $(this).addClass("is-selected");
+                    getPosts();
+                });
+            })
+          </script>
+         </div>
+         <div class="grid--item">
+          <div class="d-flex ai-center jc-space-between fw-wrap">
+           <div class="flex--item fs-title mb8">
+            Top Meta posts
+           </div>
+           <div class="d-flex ai-center mb8 fc-light">
+            <div class="ml8" title="asked 4 questions on meta">
+             <svg aria-hidden="true" class="svg-icon iconQuestion" height="18" viewbox="0 0 18 18" width="18">
+              <path d="m4 15-3 3V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v9c0 1.09-.91 2-2 2H4Zm7.75-3.97c.72-.83.98-1.86.98-2.94 0-1.65-.7-3.22-2.3-3.83a4.41 4.41 0 0 0-3.02 0 3.8 3.8 0 0 0-2.32 3.83c0 1.29.35 2.29 1.03 3a3.8 3.8 0 0 0 2.85 1.07c.62 0 1.2-.11 1.71-.34.65.44 1 .68 1.06.7.23.13.46.23.7.3l.59-1.13a5.2 5.2 0 0 1-1.28-.66Zm-1.27-.9a5.4 5.4 0 0 0-1.5-.8l-.45.9c.33.12.66.29.98.5-.2.07-.42.11-.65.11-.61 0-1.12-.23-1.52-.68-.86-1-.86-3.12 0-4.11.8-.9 2.35-.9 3.15 0 .9 1.01.86 3.03-.01 4.08Z">
+              </path>
+             </svg>
+             4
+            </div>
+            <div class="ml8" title="gave 2 answers on meta">
+             <svg aria-hidden="true" class="svg-icon iconAnswer" height="18" viewbox="0 0 18 18" width="18">
+              <path d="M14 15H3c-1.09 0-2-.91-2-2V4c0-1.1.9-2 2-2h12c1.09 0 2 .91 2 2v14l-3-3Zm-1.02-3L9.82 4H8.14l-3.06 8h1.68l.65-1.79h3.15l.69 1.79h1.73Zm-2.93-3.12H7.9l1.06-2.92 1.09 2.92Z">
+              </path>
+             </svg>
+             2
+            </div>
+           </div>
+          </div>
+          <div class="s-card bar-md p0">
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-stackoverflowmeta" title="Meta Stack Overflow">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              45
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 5, type: 2 })" href="https://meta.stackoverflow.com/q/257957">
+               Mass-edit link request: code.google.com/chrome/extensions -&gt; developer.chrome.com/extensions
+              </a>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-stackoverflowmeta" title="Meta Stack Overflow">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              41
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 5, type: 2 })" href="https://meta.stackoverflow.com/q/275358">
+               What is the policy for linking to zip files on file sharing websites?
+              </a>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-stackoverflowmeta" title="Meta Stack Overflow">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              33
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 5, type: 2 })" href="https://meta.stackoverflow.com/q/297048">
+               Add allow-modals to the sandbox of Stack Snippets, snippets are broken in Chrome 46+
+              </a>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-stackoverflowmeta" title="Meta Stack Overflow">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              13
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 5, type: 2 })" href="https://meta.stackoverflow.com/a/266571">
+               Can the Inbox/Achievements drop-downs be changed to protocol-relative links?
+              </a>
+             </div>
+            </div>
+           </div>
+           <div class="p12">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-stackoverflowmeta" title="Meta Stack Overflow">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              5
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 5, type: 2 })" href="https://meta.stackoverflow.com/a/255046">
+               General JavaScript asynchronicity reference for close voting?
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="grid--item">
+          <div class="d-flex ai-center jc-space-between mb8">
+           <div class="flex--item fs-title">
+            Top network posts
+           </div>
+           <a class="flex--item s-link s-link__muted js-gps-track" data-gps-track="profile_link.click({ target: 6, type: 2 })" href="https://stackexchange.com/users/902274/rob-w?tab=top" title="View a list of top questions and answers the user has posted across the network.">
+            View all network posts
+           </a>
+          </div>
+          <div class="s-card bar-md p0">
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-stackapps" title="Stack Apps">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              172
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 6, type: 2 })" href="https://stackapps.com/questions/3082/view-vote-totals-without-1000-rep">
+               "View Vote totals" without 1000 rep
+              </a>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-askubuntu" title="Ask Ubuntu">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              144
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 6, type: 2 })" href="https://askubuntu.com/questions/107726/how-to-create-animated-gif-images-of-a-screencast/201018#201018">
+               How to create animated GIF images of a screencast?
+              </a>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-webapps" title="Web Applications">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              100
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 6, type: 2 })" href="https://webapps.stackexchange.com/questions/22291/turning-off-google-search-results-indirection/22339#22339">
+               Turning off Google search results indirection
+              </a>
+             </div>
+            </div>
+           </div>
+           <div class="p12 bb bc-black-075">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-stackapps" title="Stack Apps">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              52
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 6, type: 2 })" href="https://stackapps.com/questions/3780/real-time-desktop-notifications-for-stack-exchange-inbox-chrome-firefox">
+               Real-time desktop notifications for Stack Exchange inbox ( Chrome / Firefox )
+              </a>
+             </div>
+            </div>
+           </div>
+           <div class="p12">
+            <div class="d-flex gs12 gsx ai-center">
+             <div class="flex--item px1">
+              <div class="favicon favicon-superuser" title="Super User">
+              </div>
+             </div>
+             <div class="flex--item s-badge s-badge__votes" style="min-width: 38px;">
+              46
+             </div>
+             <div class="flex--item">
+              <a class="question-hyperlink d-table tl-fixed w100 m0 ow-break-word js-gps-track" data-gps-track="profile_link.click({ target: 6, type: 2 })" href="https://superuser.com/questions/491180/how-do-i-embed-multiple-sizes-in-an-ico-file/683203#683203">
+               How do I embed multiple sizes in an .ico file?
+              </a>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
      </div>
     </div>
+    <script>
+     StackExchange.ready(function(){$.get('/users/ivc/938089/e944');});
+    </script>
+    <noscript>
+     <div>
+      <img alt="" class="dno" height="0" src="/users/ivc/938089/e944" width="0"/>
+     </div>
+    </noscript>
    </div>
   </div>
   <footer class="site-footer js-footer" id="footer" role="contentinfo">
@@ -1732,18 +1864,18 @@
     <nav class="site-footer--nav">
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 15})" href="https://stackoverflow.com">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 4, link: 15})" href="https://stackoverflow.com">
         Stack Overflow
        </a>
       </h5>
       <ul class="-list js-primary-footer-links">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 16})" href="/questions">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 16})" href="/questions">
          Questions
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 3 })" href="/help">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 3 })" href="/help">
          Help
         </a>
        </li>
@@ -1751,28 +1883,28 @@
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 19 })" href="https://stackoverflow.com/?products">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 4, link: 19 })" href="https://stackoverflow.com/?products">
         Products
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 25, link: 29 })" href="https://stackoverflow.co/teams">
+        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 4, link: 29 })" href="https://stackoverflow.co/teams">
          Teams
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 21 })" href="https://stackoverflow.co/advertising">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 21 })" href="https://stackoverflow.co/advertising">
          Advertising
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 40 })" href="https://stackoverflow.co/collectives">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 40 })" href="https://stackoverflow.co/collectives">
          Collectives
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 20 })" href="https://stackoverflow.co/talent">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 20 })" href="https://stackoverflow.co/talent">
          Talent
         </a>
        </li>
@@ -1780,53 +1912,53 @@
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 25, link: 1 })" href="https://stackoverflow.co/">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 4, link: 1 })" href="https://stackoverflow.co/">
         Company
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 1 })" href="https://stackoverflow.co/">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 1 })" href="https://stackoverflow.co/">
          About
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 27 })" href="https://stackoverflow.co/company/press">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 27 })" href="https://stackoverflow.co/company/press">
          Press
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 9 })" href="https://stackoverflow.co/company/work-here">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 9 })" href="https://stackoverflow.co/company/work-here">
          Work Here
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 7 })" href="https://stackoverflow.com/legal">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 7 })" href="https://stackoverflow.com/legal">
          Legal
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
          Privacy Policy
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
          Terms of Service
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 13 })" href="https://stackoverflow.co/company/contact">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 13 })" href="https://stackoverflow.co/company/contact">
          Contact Us
         </a>
        </li>
        <li class="" id="consent-footer-link">
-        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 25, link: 38 })" href="#">
+        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 4, link: 38 })" href="#">
          Cookie Settings
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
          Cookie Policy
         </a>
        </li>
@@ -1835,48 +1967,48 @@
      <div class="site-footer--col site-footer--categories-nav">
       <div>
        <h5 class="-title">
-        <a data-gps-track="footer.click({ location: 25, link: 30 })" href="https://stackexchange.com">
+        <a data-gps-track="footer.click({ location: 4, link: 30 })" href="https://stackexchange.com">
          Stack Exchange Network
         </a>
        </h5>
        <ul class="-list">
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#technology">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#technology">
           Technology
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
           Culture &amp; recreation
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#lifearts">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#lifearts">
           Life &amp; arts
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#science">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#science">
           Science
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#professional">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#professional">
           Professional
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://stackexchange.com/sites#business">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://stackexchange.com/sites#business">
           Business
          </a>
         </li>
         <li class="mt16 md:mt0">
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://api.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://api.stackexchange.com/">
           API
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 24 })" href="https://data.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 24 })" href="https://data.stackexchange.com/">
           Data
          </a>
         </li>
@@ -1887,27 +2019,27 @@
     <div class="site-footer--copyright fs-fine md:mt24">
      <ul class="-list -social md:mb8">
       <li>
-       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 25, link:4 })" href="https://stackoverflow.blog?blb=1">
+       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 4, link:4 })" href="https://stackoverflow.blog?blb=1">
         Blog
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
         Facebook
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 32 })" href="https://twitter.com/stackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 32 })" href="https://twitter.com/stackoverflow">
         Twitter
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 33 })" href="https://linkedin.com/company/stack-overflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 33 })" href="https://linkedin.com/company/stack-overflow">
         LinkedIn
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 25, link: 36 })" href="https://www.instagram.com/thestackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 4, link: 36 })" href="https://www.instagram.com/thestackoverflow">
         Instagram
        </a>
       </li>
@@ -1919,13 +2051,41 @@
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.5.42046
+       rev 2022.5.9.42071
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
+   (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ],
+                        checkDimension: 'dimension42'
+                });
+
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'UsersShow/Show');
+
+
+                StackExchange.ga.setDimension('dimension7', "1652175981.1841316060");
+
+                StackExchange.ga.trackPageView();
+            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   apache - Badge - Stack Overflow
+   Privileges - Create wiki posts - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/badges/3381/apache" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/privileges/community-wiki" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="apache - Badge" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Privileges - Create wiki posts" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1651824134,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652175851,"routeName":"Privileges/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,7 +40,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -52,7 +52,7 @@
    </noscript>
   </meta>
  </head>
- <body class="badges-page unified-theme">
+ <body class="faq-page unified-theme privileges-page">
   <div id="notify-container">
   </div>
   <div id="custom-header">
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f3381%2fapache">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fcommunity-wiki">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f3381%2fapache">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fcommunity-wiki">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f3381%2fapache" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fcommunity-wiki" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f3381%2fapache" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fcommunity-wiki" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -502,480 +502,67 @@
          </svg>
         </div>
         <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/help/badges">
-          Badges
+         <a class="s-breadcrumbs--link" href="/help/privileges">
+          Privileges
          </a>
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        Tags
+        create wiki posts
        </h1>
+       <p class="s-page-title--description">
+        <svg aria-hidden="true" class="svg-icon iconPencil" height="18" viewbox="0 0 18 18" width="18">
+         <path d="m13.68 2.15 2.17 2.17c.2.2.2.51 0 .71L14.5 6.39l-2.88-2.88 1.35-1.36c.2-.2.51-.2.71 0ZM2 13.13l8.5-8.5 2.88 2.88-8.5 8.5H2v-2.88Z">
+         </path>
+        </svg>
+        Creation privilege
+                awarded at 10 reputation
+       </p>
       </div>
      </div>
-     <div class="single-badge-table">
-      <div class="single-badge-header">
-       <div class="single-badge-wrapper">
-        <div class="single-badge-badge">
-         <a class="badge-tag" href="/help/badges/3381/apache" title="gold badge: Earn at least 1000 total score for at least 200 non-community wiki answers in the apache tag">
-          <span class="badge1">
-          </span>
-          apache
-         </a>
-        </div>
-        <div class="single-badge-title">
-         Earn at least 1000 total score for at least 200 non-community wiki answers in the
-         <a class="post-tag" href="/questions/tagged/apache" rel="tag" title="show questions tagged 'apache'">
-          apache
-         </a>
-         tag. These users can single-handedly mark
-         <a class="post-tag" href="/questions/tagged/apache" rel="tag" title="show questions tagged 'apache'">
-          apache
-         </a>
-         questions as duplicates and reopen them as needed.
-        </div>
-       </div>
-       <div class="single-badge-count">
-        Awarded 7 times.
-       </div>
-      </div>
-     </div>
-     <div class="single-badge-table">
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2021-04-04 04:02:54Z">
-         Apr 4, 2021 at 4:02
-        </span>
-        to
-       </div>
-       <div class="single-badge-user">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/3160747/amit-verma">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/p1Po4.jpg?s=64&amp;g=1" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/3160747/amit-verma">
-           Amit Verma
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 41,027">
-            41k
-           </span>
-           <span aria-hidden="true" title="19 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             19
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            19 gold badges
-           </span>
-           <span aria-hidden="true" title="86 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             86
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            86 silver badges
-           </span>
-           <span aria-hidden="true" title="108 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             108
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            108 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2020-12-04 04:03:17Z">
-         Dec 4, 2020 at 4:03
-        </span>
-        to
-       </div>
-       <div class="single-badge-user">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/550618/regilero">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/6dbbc19034f22896982dd7acee33ab26?s=64&amp;d=identicon&amp;r=PG" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/550618/regilero">
-           regilero
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 28,731">
-            28.7k
-           </span>
-           <span aria-hidden="true" title="6 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             6
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            6 gold badges
-           </span>
-           <span aria-hidden="true" title="58 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             58
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            58 silver badges
-           </span>
-           <span aria-hidden="true" title="97 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             97
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            97 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2018-08-23 04:08:30Z">
-         Aug 23, 2018 at 4:08
-        </span>
-        to
-       </div>
-       <div class="single-badge-user">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/2310830/riggsfolly">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/P6rM1.png?s=64&amp;g=1" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/2310830/riggsfolly">
-           RiggsFolly
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 89,418">
-            89.4k
-           </span>
-           <span aria-hidden="true" title="20 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             20
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            20 gold badges
-           </span>
-           <span aria-hidden="true" title="99 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             99
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            99 silver badges
-           </span>
-           <span aria-hidden="true" title="143 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             143
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            143 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2016-02-17 02:00:58Z">
-         Feb 17, 2016 at 2:00
-        </span>
-        to
-       </div>
-       <div class="single-badge-user">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/128141/graham-dumpleton">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/70dfb4afd84b106d0855184bf0ae4675?s=64&amp;d=identicon&amp;r=PG" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/128141/graham-dumpleton">
-           Graham Dumpleton
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 56,147">
-            56.1k
-           </span>
-           <span aria-hidden="true" title="6 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             6
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            6 gold badges
-           </span>
-           <span aria-hidden="true" title="110 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             110
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            110 silver badges
-           </span>
-           <span aria-hidden="true" title="129 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             129
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            129 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2013-12-17 03:11:11Z">
-         Dec 17, 2013 at 3:11
-        </span>
-        to
-       </div>
-       <div class="single-badge-user">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/548225/anubhava">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/dab08478b226280d4a30894c9a7ed719?s=64&amp;d=identicon&amp;r=PG" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/548225/anubhava">
-           anubhava
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 710,540">
-            711k
-           </span>
-           <span aria-hidden="true" title="59 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             59
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            59 gold badges
-           </span>
-           <span aria-hidden="true" title="512 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             512
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            512 silver badges
-           </span>
-           <span aria-hidden="true" title="588 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             588
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            588 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2013-11-22 03:04:44Z">
-         Nov 22, 2013 at 3:04
-        </span>
-        to
-       </div>
-       <div class="single-badge-user">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/53114/gumbo">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/cd501083459cbc21fccae78e2d03bee2?s=64&amp;d=identicon&amp;r=PG" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/53114/gumbo">
-           Gumbo
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 618,950">
-            619k
-           </span>
-           <span aria-hidden="true" title="103 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             103
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            103 gold badges
-           </span>
-           <span aria-hidden="true" title="758 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             758
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            758 silver badges
-           </span>
-           <span aria-hidden="true" title="827 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             827
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            827 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2013-10-28 03:03:47Z">
-         Oct 28, 2013 at 3:03
-        </span>
-        to
-       </div>
-       <div class="single-badge-user">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/851273/jon-lin">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/kGxQa.gif?s=64&amp;g=1" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/851273/jon-lin">
-           Jon Lin
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 139,414">
-            139k
-           </span>
-           <span aria-hidden="true" title="27 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             27
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            27 gold badges
-           </span>
-           <span aria-hidden="true" title="212 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             212
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            212 silver badges
-           </span>
-           <span aria-hidden="true" title="216 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             216
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            216 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="s-pagination site1 themed pager float-left">
+     <div class="page-description s-prose js-post-body w100">
+      <h3>
+       What are Community Wiki posts?
+      </h3>
+      <p>
+       Community wiki posts are more easily editable by all users, and do not confer any reputation.
+      </p>
+      <h3>
+       When should I make my answers Community Wiki?
+      </h3>
+      <ol>
+       <li>
+        <p>
+         When you want to enhance the "wiki" aspect of your post, so that it can be a continually evolving source of good information through repeated editing.
+        </p>
+       </li>
+       <li>
+        <p>
+         When you feel your post would benefit from less concern about voting affecting the reputation of those participating in it.
+        </p>
+       </li>
+      </ol>
+      <h3>
+       How do Community Wiki posts work?
+      </h3>
+      <p>
+       You can choose to make any answer you own a community wiki by ticking the checkbox under the edit area to the right.
+      </p>
+      <p>
+       Moderators can also choose to convert posts into community wiki mode if they feel
+       <a href="https://stackoverflow.blog/2011/08/19/the-future-of-community-wiki/">
+        it is appropriate
+       </a>
+       for the question or answer, generally after a discussion with the community and affected individuals.  Once a post is made community wiki, that mode can only be removed by a moderator under exceptional circumstances.
+      </p>
+      <p>
+       Also see
+       <em>
+        <a href="http://meta.stackexchange.com/q/11740/">
+         What are “Community Wiki” posts?
+        </a>
+       </em>
+      </p>
      </div>
     </div>
     <div class="faq-page" id="sidebar">
@@ -987,12 +574,12 @@
         </a>
        </li>
        <li class="s-sidebarwidget--item">
-        <a aria-current="false" href="/help/privileges">
+        <a aria-current="page" href="/help/privileges">
          Privileges
         </a>
        </li>
        <li class="s-sidebarwidget--item">
-        <a aria-current="page" href="/help/badges">
+        <a aria-current="false" href="/help/badges">
          Badges
         </a>
        </li>
@@ -1028,7 +615,29 @@
        </li>
       </ul>
      </nav>
+     <div class="module legend">
+      <h4>
+       This privilege
+      </h4>
+      <p>
+       Create answers that can be easily edited by most users
+      </p>
+      <div class="d-flex ai-center">
+       <div class="s-progress flex--item">
+        <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="s-progress--bar h12" role="progressbar" style="width: 0%;">
+        </div>
+       </div>
+       <div class="flex--item ml12">
+        0/10
+       </div>
+      </div>
+     </div>
     </div>
+    <script>
+     StackExchange.ready(function () {
+        styleCode.initializeSpoilers();
+    });
+    </script>
    </div>
   </div>
   <footer class="site-footer js-footer" id="footer" role="contentinfo">
@@ -1233,13 +842,41 @@
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.5.42046
+       rev 2022.5.9.42071
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
+   (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ],
+                        checkDimension: 'dimension42'
+                });
+
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Privileges/Show');
+
+
+                StackExchange.ga.setDimension('dimension7', "1652175851.157135322");
+
+                StackExchange.ga.trackPageView();
+            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   How do you determine which tags are included in a Collective? - Help Center - Stack Overflow
+   Badges - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/collectives-tags" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/badges" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="How do you determine which tags are included in a Collective? - Help Center" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Badges" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1652146397,"routeName":"Help/SlugRouter","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"a16bcaba2df41bcf70377e5bf493900a57f904eca753e6ff1ad7227458a8d1db","tid":"c908c7c8-ea2a-c717-4e4f-e57c0be7175c","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":1}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652175542,"routeName":"Badges/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"795166737eb1c732c610882ec5e77937c8f246acffb51bb1b1e86669665184af","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":3}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -52,7 +52,7 @@
    </noscript>
   </meta>
  </head>
- <body class="faq-page unified-theme">
+ <body class="badges-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-tags">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-tags">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-tags" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-tags" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -479,8 +479,8 @@
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div class="help-center" id="mainbar">
-     <div class="s-page-title mb16">
+    <div id="mainbar">
+     <div class="s-page-title fd-column mb16">
       <div class="s-page-title--text">
        <nav aria-label="breadcrumb" class="s-breadcrumbs mb6 sm:mb2">
         <div class="s-breadcrumbs--item">
@@ -496,31 +496,2739 @@
          <a class="s-breadcrumbs--link" href="/help">
           Help center
          </a>
-         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
-          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
-          </path>
-         </svg>
-        </div>
-        <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/help/collectives">
-          Collectives on Stack Overflow
-         </a>
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        How do you determine which tags are included in a Collective?
+        Badges
        </h1>
+       <p class="s-page-title--description">
+        Besides gaining reputation with your questions and answers, you receive badges for being especially helpful. Badges appear on your profile page, flair, and your posts.
+       </p>
+      </div>
+      <div class="s-page-title--actions mt8">
+       <div class="d-flex s-btn-group js-filter-btn">
+        <a class="js-sort-preference-change youarehere is-selected flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="all" href="?tab=General&amp;filter=all" title="All badges">
+         All
+        </a>
+        <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="earned" href="?tab=General&amp;filter=earned" title="Earned badges">
+         Earned
+        </a>
+        <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="unearned" href="?tab=General&amp;filter=unearned" title="Unearned badges">
+         Unearned
+        </a>
+        <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="gold" href="?tab=General&amp;filter=gold" title="Gold badges">
+         Gold
+        </a>
+        <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="silver" href="?tab=General&amp;filter=silver" title="Silver badges">
+         Silver
+        </a>
+        <a class="js-sort-preference-change flex--item s-btn s-btn__muted s-btn__outlined" data-nav-xhref="" data-shortcut="" data-value="bronze" href="?tab=General&amp;filter=bronze" title="Bronze badges">
+         Bronze
+        </a>
+       </div>
       </div>
      </div>
-     <div class="s-prose js-post-body w100">
-      <div class="js-edit-hide col-section">
-       <p>
-        Collective tags are based on technologies that are part of a certain organization through authority and support. This would usually mean that they are based around a product or product suite of an organization. The Stack Overflow team, in collaboration with a team from the client, collaborates on a list of tags prior to launching a Collective.
-       </p>
+     <div data-can-be="badges-legend-module" data-is-here-when="sm md">
+     </div>
+     <div>
+      <div class="general">
+       <h2 class="mt32">
+        Question Badges
+       </h2>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/222/altruist" title="bronze badge: First bounty you manually award on another person's question">
+            <span class="badge3">
+            </span>
+            Altruist
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First bounty you manually award on another person's question
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="10,661">
+            10.7k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/221/benefactor" title="bronze badge: First bounty you manually award on your own question">
+            <span class="badge3">
+            </span>
+            Benefactor
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First bounty you manually award on your own question
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="51,998">
+            52k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/4127/curious" title="bronze badge: Ask a well-received question on 5 separate days, and maintain a positive question record">
+            <span class="badge3">
+            </span>
+            Curious
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Ask a well-received question on 5 separate days, and maintain a positive question record
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="388,502">
+            388.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/4128/inquisitive" title="silver badge: Ask a well-received question on 30 separate days, and maintain a positive question record">
+            <span class="badge2">
+            </span>
+            Inquisitive
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Ask a well-received question on 30 separate days, and maintain a positive question record
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="38,921">
+            38.9k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/4129/socratic" title="gold badge: Ask a well-received question on 100 separate days, and maintain a positive question record">
+            <span class="badge1">
+            </span>
+            Socratic
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Ask a well-received question on 100 separate days, and maintain a positive question record
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="5,152">
+            5.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/33/favorite-question" title="silver badge: Question bookmarked by 25 users">
+            <span class="badge2">
+            </span>
+            Favorite Question
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Question bookmarked by 25 users
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="64,943">
+            64.9k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/36/stellar-question" title="gold badge: Question bookmarked by 100 users">
+            <span class="badge1">
+            </span>
+            Stellar Question
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Question bookmarked by 100 users
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="9,711">
+            9.7k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/219/investor" title="bronze badge: First bounty you offer on another person's question">
+            <span class="badge3">
+            </span>
+            Investor
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First bounty you offer on another person's question
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="22,363">
+            22.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/20/nice-question" title="bronze badge: Question score of 10 or more">
+            <span class="badge3">
+            </span>
+            Nice Question
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Question score of 10 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="755,262">
+            755.3k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/21/good-question" title="silver badge: Question score of 25 or more">
+            <span class="badge2">
+            </span>
+            Good Question
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Question score of 25 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="262,756">
+            262.8k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/22/great-question" title="gold badge: Question score of 100 or more">
+            <span class="badge1">
+            </span>
+            Great Question
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Question score of 100 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="50,175">
+            50.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/26/popular-question" title="bronze badge: Question with 1,000 views">
+            <span class="badge3">
+            </span>
+            Popular Question
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Question with 1,000 views
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="6,424,892">
+            6.4m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/27/notable-question" title="silver badge: Question with 2,500 views">
+            <span class="badge2">
+            </span>
+            Notable Question
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Question with 2,500 views
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="3,185,508">
+            3.2m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/28/famous-question" title="gold badge: Question with 10,000 views">
+            <span class="badge1">
+            </span>
+            Famous Question
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Question with 10,000 views
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="921,405">
+            921.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/220/promoter" title="bronze badge: First bounty you offer on your own question">
+            <span class="badge3">
+            </span>
+            Promoter
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First bounty you offer on your own question
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="96,216">
+            96.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/10/scholar" title="bronze badge: Ask a question and accept an answer">
+            <span class="badge3">
+            </span>
+            Scholar
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Ask a question and accept an answer
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,345,818">
+            2.3m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/2/student" title="bronze badge: First question with score of 1 or more">
+            <span class="badge3">
+            </span>
+            Student
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First question with score of 1 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,902,467">
+            2.9m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <h2 class="mt32">
+        Answer Badges
+       </h2>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/19/enlightened" title="silver badge: First to answer and accepted with score of 10 or more">
+            <span class="badge2">
+            </span>
+            Enlightened
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First to answer and accepted with score of 10 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="486,221">
+            486.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/4368/explainer" title="bronze badge: Edit and answer 1 question (both actions within 12 hours, answer score &gt; 0)">
+            <span class="badge3">
+            </span>
+            Explainer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Edit and answer 1 question (both actions within 12 hours, answer score &gt; 0)
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="74,891">
+            74.9k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/4369/refiner" title="silver badge: Edit and answer 50 questions (both actions within 12 hours, answer score &gt; 0)">
+            <span class="badge2">
+            </span>
+            Refiner
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Edit and answer 50 questions (both actions within 12 hours, answer score &gt; 0)
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,512">
+            2.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/4370/illuminator" title="gold badge: Edit and answer 500 questions (both actions within 12 hours, answer score &gt; 0)">
+            <span class="badge1">
+            </span>
+            Illuminator
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Edit and answer 500 questions (both actions within 12 hours, answer score &gt; 0)
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="159">
+            159
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/15/generalist" title="silver badge: Provide non-wiki answers of 15 total score in 20 of top 40 tags">
+            <span class="badge2">
+            </span>
+            Generalist
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Provide non-wiki answers of 15 total score in 20 of top 40 tags
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,056">
+            1.1k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/18/guru" title="silver badge: Accepted answer and score of 40 or more">
+            <span class="badge2">
+            </span>
+            Guru
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Accepted answer and score of 40 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="170,457">
+            170.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/8841/lifejacket" title="silver badge: Answer score of 5 or more to a question score of -2 or less that goes on to receive a score of 2 or more">
+            <span class="badge2">
+            </span>
+            Lifejacket
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer score of 5 or more to a question score of -2 or less that goes on to receive a score of 2 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="13,672">
+            13.7k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/8842/lifeboat" title="gold badge: Answer score of 20 or more to a question score of -3 or less that goes on to receive a score of 3 or more">
+            <span class="badge1">
+            </span>
+            Lifeboat
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer score of 20 or more to a question score of -3 or less that goes on to receive a score of 3 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,344">
+            1.3k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/23/nice-answer" title="bronze badge: Answer score of 10 or more">
+            <span class="badge3">
+            </span>
+            Nice Answer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer score of 10 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,558,315">
+            1.6m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/24/good-answer" title="silver badge: Answer score of 25 or more">
+            <span class="badge2">
+            </span>
+            Good Answer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer score of 25 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="555,506">
+            555.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/25/great-answer" title="gold badge: Answer score of 100 or more">
+            <span class="badge1">
+            </span>
+            Great Answer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer score of 100 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="105,707">
+            105.7k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/62/populist" title="gold badge: Highest scoring answer that outscored an accepted answer with score of more than 10 by more than 2x">
+            <span class="badge1">
+            </span>
+            Populist
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Highest scoring answer that outscored an accepted answer with score of more than 10 by more than 2x
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="27,134">
+            27.1k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/837/revival" title="bronze badge: Answer more than 30 days after a question was asked as first answer scoring 2 or more">
+            <span class="badge3">
+            </span>
+            Revival
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer more than 30 days after a question was asked as first answer scoring 2 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="530,189">
+            530.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/17/necromancer" title="silver badge: Answer a question more than 60 days later with score of 5 or more">
+            <span class="badge2">
+            </span>
+            Necromancer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer a question more than 60 days later with score of 5 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="831,478">
+            831.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/14/self-learner" title="bronze badge: Answer your own question with score of 3 or more">
+            <span class="badge3">
+            </span>
+            Self-Learner
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer your own question with score of 3 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="190,336">
+            190.3k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1/teacher" title="bronze badge: Answer a question with score of 1 or more">
+            <span class="badge3">
+            </span>
+            Teacher
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Answer a question with score of 1 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,859,961">
+            1.9m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/225/tenacious" title="silver badge: Zero score accepted answers: more than 5 and 20% of total">
+            <span class="badge2">
+            </span>
+            Tenacious
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Zero score accepted answers: more than 5 and 20% of total
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="65,336">
+            65.3k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/226/unsung-hero" title="gold badge: Zero score accepted answers: more than 10 and 25% of total">
+            <span class="badge1">
+            </span>
+            Unsung Hero
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Zero score accepted answers: more than 10 and 25% of total
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="26,399">
+            26.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <h2 class="mt32">
+        Participation Badges
+       </h2>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/9/autobiographer" title='bronze badge: Complete "About Me" section of user profile'>
+            <span class="badge3">
+            </span>
+            Autobiographer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Complete "About Me" section of user profile
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,259,286">
+            2.3m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1973/caucus" title="bronze badge: Visit an election during any phase of an active election and have enough reputation to cast a vote">
+            <span class="badge3">
+            </span>
+            Caucus
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Visit an
+           <a href="https://stackoverflow.com/election">
+            election
+           </a>
+           during any phase of an active election and have enough reputation to cast a vote
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="830,629">
+            830.6k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1974/constituent" title="silver badge: Vote for a candidate in the final phase of an election">
+            <span class="badge2">
+            </span>
+            Constituent
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Vote for a candidate in the final phase of an
+           <a href="https://stackoverflow.com/election">
+            election
+           </a>
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="275,770">
+            275.8k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/31/commentator" title="bronze badge: Leave 10 comments">
+            <span class="badge3">
+            </span>
+            Commentator
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Leave 10 comments
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,111,688">
+            1.1m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/94/pundit" title="silver badge: Leave 10 comments with score of 5 or more">
+            <span class="badge2">
+            </span>
+            Pundit
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Leave 10 comments with score of 5 or more
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="12,820">
+            12.8k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/71/enthusiast" title="silver badge: Visit the site each day for 30 consecutive days. (Days are counted in UTC.)">
+            <span class="badge2">
+            </span>
+            Enthusiast
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Visit the site each day for 30 consecutive days. (Days are counted in
+           <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time" rel="nofollow noreferrer">
+            UTC
+           </a>
+           .)
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="298,975">
+            299k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/83/fanatic" title="gold badge: Visit the site each day for 100 consecutive days. (Days are counted in UTC.)">
+            <span class="badge1">
+            </span>
+            Fanatic
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Visit the site each day for 100 consecutive days. (Days are counted in
+           <a href="https://en.wikipedia.org/wiki/Coordinated_Universal_Time" rel="nofollow noreferrer">
+            UTC
+           </a>
+           .)
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="41,250">
+            41.3k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/144/mortarboard" title="bronze badge: Earn at least 200 reputation (the daily maximum) in a single day">
+            <span class="badge3">
+            </span>
+            Mortarboard
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Earn at least 200 reputation (the
+           <a href="https://stackoverflow.com/help/whats-reputation">
+            daily maximum
+           </a>
+           ) in a single day
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="42,160">
+            42.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/145/epic" title="silver badge: Earn 200 daily reputation 50 times">
+            <span class="badge2">
+            </span>
+            Epic
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Earn 200 daily reputation 50 times
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="761">
+            761
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/146/legendary" title="gold badge: Earn 200 daily reputation 150 times">
+            <span class="badge1">
+            </span>
+            Legendary
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Earn 200 daily reputation 150 times
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="310">
+            310
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/892/precognitive" title="bronze badge: Followed the Area 51 proposal for this site before it entered the commitment phase">
+            <span class="badge3">
+            </span>
+            Precognitive
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Followed the
+           <a href="http://area51.stackexchange.com/">
+            Area 51
+           </a>
+           proposal for this site before it entered the commitment phase
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/30/beta" title="silver badge: Voted 10 times, added 3 posts score &gt; 0, and visited the site on 3 separate days during the private beta">
+            <span class="badge2">
+            </span>
+            Beta
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Voted 10 times, added 3 posts score &gt; 0, and visited the site on 3 separate days during the private beta
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,502">
+            2.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/900/quorum" title="bronze badge: One post with score of 2 on meta">
+            <span class="badge3">
+            </span>
+            Quorum
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           One post with score of 2 on
+           <a href="https://meta.stackoverflow.com">
+            meta
+           </a>
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="29,390">
+            29.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/901/convention" title="silver badge: 10 posts with score of 2 on meta">
+            <span class="badge2">
+            </span>
+            Convention
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           10 posts with score of 2 on
+           <a href="https://meta.stackoverflow.com">
+            meta
+           </a>
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,307">
+            2.3k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/884/talkative" title="bronze badge: Post 10 messages, with 1 or more starred, in chat">
+            <span class="badge3">
+            </span>
+            Talkative
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Post 10 messages, with 1 or more starred, in
+           <a href="https://chat.stackoverflow.com/">
+            chat
+           </a>
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="11,734">
+            11.7k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/998/outspoken" title="silver badge: Post 10 messages in chat starred by 10 different users">
+            <span class="badge2">
+            </span>
+            Outspoken
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Post 10 messages in
+           <a href="https://chat.stackoverflow.com/">
+            chat
+           </a>
+           starred by 10 different users
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,416">
+            1.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/13/yearling" title="silver badge: Active member for a year, earning at least 200 reputation">
+            <span class="badge2">
+            </span>
+            Yearling
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Active member for a year, earning at least 200 reputation
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,893,869">
+            2.9m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <h2 class="mt32">
+        Tag Badges
+       </h2>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge-tag" href="/help/badges?tab=tags&amp;filter=bronze" title="bronze badge: Earn at least 100 total score for at least 20 non-community wiki answers in the Bronze Badge tag">
+            <span class="badge3">
+            </span>
+            Bronze Badge
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           You must have a total score of 100 in at least 20 non-community wiki answers to achieve this badge.
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="175,396">
+            175.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge-tag" href="/help/badges?tab=tags&amp;filter=silver" title="silver badge: Earn at least 400 total score for at least 80 non-community wiki answers in the Silver Badge tag">
+            <span class="badge2">
+            </span>
+            Silver Badge
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           You must have a total score of 400 in at least 80 non-community wiki answers to achieve this badge.
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="35,102">
+            35.1k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge-tag" href="/help/badges?tab=tags&amp;filter=gold" title="gold badge: Earn at least 1000 total score for at least 200 non-community wiki answers in the Gold Badge tag">
+            <span class="badge1">
+            </span>
+            Gold Badge
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           You must have a total score of 1000 in at least 200 non-community wiki answers to achieve this badge.
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="11,181">
+            11.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <h2 class="mt32">
+        Moderation Badges
+       </h2>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/8/citizen-patrol" title="bronze badge: First flagged post">
+            <span class="badge3">
+            </span>
+            Citizen Patrol
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First flagged post
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="245,657">
+            245.7k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1002/deputy" title="silver badge: Raise 80 helpful flags">
+            <span class="badge2">
+            </span>
+            Deputy
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Raise 80 helpful flags
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="14,048">
+            14k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1298/marshal" title="gold badge: Raise 500 helpful flags">
+            <span class="badge1">
+            </span>
+            Marshal
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Raise 500 helpful flags
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="3,447">
+            3.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/32/civic-duty" title="silver badge: Vote 300 or more times">
+            <span class="badge2">
+            </span>
+            Civic Duty
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Vote 300 or more times
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="120,828">
+            120.8k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/4/cleanup" title="bronze badge: First rollback">
+            <span class="badge3">
+            </span>
+            Cleanup
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First rollback
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="63,142">
+            63.1k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/3108/constable" title="gold badge: Served as a pro-tem moderator for at least 1 year or through site graduation">
+            <span class="badge1">
+            </span>
+            Constable
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Served as a pro-tem moderator for at least 1 year or through site graduation
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/3109/sheriff" title="gold badge: Served as an elected moderator for at least 1 year">
+            <span class="badge1">
+            </span>
+            Sheriff
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Served as an elected moderator for at least 1 year
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="44">
+            44
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/7/critic" title="bronze badge: First down vote">
+            <span class="badge3">
+            </span>
+            Critic
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First down vote
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="498,852">
+            498.9k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/2278/custodian" title="bronze badge: Complete at least one review task. This badge is awarded once per review type">
+            <span class="badge3">
+            </span>
+            Custodian
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Complete at least one
+           <a href="https://stackoverflow.com/review">
+            review
+           </a>
+           task. This badge is awarded once per review type
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,118,240">
+            1.1m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1478/reviewer" title="silver badge: Complete at least 250 review tasks. This badge is awarded once per review type">
+            <span class="badge2">
+            </span>
+            Reviewer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Complete at least 250
+           <a href="https://stackoverflow.com/review">
+            review
+           </a>
+           tasks. This badge is awarded once per review type
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="44,675">
+            44.7k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/2279/steward" title="gold badge: Complete at least 1,000 review tasks. This badge is awarded multiple times per review type">
+            <span class="badge1">
+            </span>
+            Steward
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Complete at least 1,000
+           <a href="https://stackoverflow.com/review">
+            review
+           </a>
+           tasks. This badge is awarded multiple times per review type
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="22,082">
+            22.1k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/37/disciplined" title="bronze badge: Delete own post with score of 3 or higher">
+            <span class="badge3">
+            </span>
+            Disciplined
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Delete own post with score of 3 or higher
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="14,602">
+            14.6k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/3/editor" title="bronze badge: First edit">
+            <span class="badge3">
+            </span>
+            Editor
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First edit
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="3,058,134">
+            3.1m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/12/strunk-white" title="silver badge: Edit 80 posts">
+            <span class="badge2">
+            </span>
+            Strunk &amp; White
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Edit 80 posts
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="19,512">
+            19.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/223/copy-editor" title="gold badge: Edit 500 posts (excluding own or deleted posts and tag edits)">
+            <span class="badge1">
+            </span>
+            Copy Editor
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Edit 500 posts (excluding own or deleted posts and tag edits)
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="3,881">
+            3.9k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/155/electorate" title="gold badge: Vote on 600 questions and 25% or more of total votes are on questions">
+            <span class="badge1">
+            </span>
+            Electorate
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Vote on 600 questions and 25% or more of total votes are on questions
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="26,759">
+            26.8k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1287/excavator" title="bronze badge: Edit first post that was inactive for 6 months">
+            <span class="badge3">
+            </span>
+            Excavator
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Edit first post that was inactive for 6 months
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="170,073">
+            170.1k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1286/archaeologist" title="silver badge: Edit 100 posts that were inactive for 6 months">
+            <span class="badge2">
+            </span>
+            Archaeologist
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Edit 100 posts that were inactive for 6 months
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,711">
+            2.7k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/5/organizer" title="bronze badge: First retag">
+            <span class="badge3">
+            </span>
+            Organizer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First retag
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="144,522">
+            144.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/38/peer-pressure" title="bronze badge: Delete own post with score of -3 or lower">
+            <span class="badge3">
+            </span>
+            Peer Pressure
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Delete own post with score of -3 or lower
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="311,204">
+            311.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1276/proofreader" title="bronze badge: Approve or reject 100 suggested edits">
+            <span class="badge3">
+            </span>
+            Proofreader
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Approve or reject 100 suggested edits
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="20,337">
+            20.3k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/805/sportsmanship" title="silver badge: Up vote 100 answers on questions where an answer of yours has a positive score">
+            <span class="badge2">
+            </span>
+            Sportsmanship
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Up vote 100 answers on questions where an answer of yours has a positive score
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="3,176">
+            3.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/804/suffrage" title="bronze badge: Use 30 votes in a day">
+            <span class="badge3">
+            </span>
+            Suffrage
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Use 30 votes in a day
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="59,164">
+            59.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/6/supporter" title="bronze badge: First up vote">
+            <span class="badge3">
+            </span>
+            Supporter
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First up vote
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,813,920">
+            1.8m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1224/synonymizer" title="bronze badge: First approved tag synonym">
+            <span class="badge3">
+            </span>
+            Synonymizer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First approved
+           <a href="https://stackoverflow.com/tags/synonyms">
+            tag synonym
+           </a>
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,180">
+            1.2k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/254/tag-editor" title="bronze badge: First tag wiki edit">
+            <span class="badge3">
+            </span>
+            Tag Editor
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           First tag wiki edit
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="26,105">
+            26.1k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1656/research-assistant" title="silver badge: Edit 50 tag wikis">
+            <span class="badge2">
+            </span>
+            Research Assistant
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Edit 50 tag wikis
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="333">
+            333
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/11/taxonomist" title="silver badge: Create a tag used by 50 questions">
+            <span class="badge2">
+            </span>
+            Taxonomist
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Create a tag used by 50 questions
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="14,789">
+            14.8k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1108/vox-populi" title="bronze badge: Use the maximum 40 votes in a day">
+            <span class="badge3">
+            </span>
+            Vox Populi
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Use the maximum 40 votes in a day
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="39,825">
+            39.8k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <h2 class="mt32">
+        Other Badges
+       </h2>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/260/announcer" title="bronze badge: Share a link to a post later visited by 25 unique IP addresses">
+            <span class="badge3">
+            </span>
+            Announcer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Share a link to a post later visited by 25 unique IP addresses
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="260,406">
+            260.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/261/booster" title="silver badge: Share a link to a post later visited by 300 unique IP addresses">
+            <span class="badge2">
+            </span>
+            Booster
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Share a link to a post later visited by 300 unique IP addresses
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="38,452">
+            38.5k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/262/publicist" title="gold badge: Share a link to a post later visited by 1000 unique IP addresses">
+            <span class="badge1">
+            </span>
+            Publicist
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Share a link to a post later visited by 1000 unique IP addresses
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="10,759">
+            10.8k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/6644/census" title="silver badge: Completed the annual Stack Overflow survey; your responses are anonymous">
+            <span class="badge2">
+            </span>
+            Census
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Completed the annual Stack Overflow survey; your responses are anonymous
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="209,383">
+            209.4k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/2600/informed" title="bronze badge: Read the entire tour page">
+            <span class="badge3">
+            </span>
+            Informed
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Read the entire
+           <a href="https://stackoverflow.com/tour">
+            tour
+           </a>
+           page
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,886,386">
+            2.9m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/6381/not-a-robot" title="silver badge: Met a Stack Overflow employee at an event where Stack Overflow was an organizer or participant with 50 or more attendees">
+            <span class="badge2">
+            </span>
+            Not a Robot
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Met a Stack Overflow employee at an
+           <a href="https://stackoverflow.com/badges/get/events">
+            event where Stack Overflow was an organizer or participant
+           </a>
+           with 50 or more attendees
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,065">
+            1.1k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <h2 class="mt32">
+        Retired Badges
+       </h2>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/1306/analytical" title="bronze badge: Visited every section of the FAQ">
+            <span class="badge3">
+            </span>
+            Analytical
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Visited every section of the FAQ
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="43,553">
+            43.6k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/6157/documentation-beta" title="silver badge: Contributed 3+ substantive pieces of documentation during the private beta">
+            <span class="badge2">
+            </span>
+            Documentation Beta
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Contributed 3+ substantive pieces of documentation during the private beta
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="293">
+            293
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/6158/documentation-pioneer" title="silver badge: Contributed 3+ substantive pieces of documentation in the first month of documentation">
+            <span class="badge2">
+            </span>
+            Documentation Pioneer
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Contributed 3+ substantive pieces of documentation in the first month of documentation
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="2,345">
+            2.3k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/7358/documentation-user" title="silver badge: Earned at least one badge for contributing to Stack Overflow Documentation">
+            <span class="badge2">
+            </span>
+            Documentation User
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Earned at least one badge for contributing to
+           <a href="https://stackoverflow.com/documentation">
+            Stack Overflow Documentation
+           </a>
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="42,960">
+            43k
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/95/reversal" title="gold badge: Provide an answer of +20 score to a question of -5 score">
+            <span class="badge1">
+            </span>
+            Reversal
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Provide an answer of +20 score to a question of -5 score
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="301">
+            301
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="mb6 pt6 bt bc-black-075">
+        <div class="d-flex ai-center py4 btw0 md:fd-column md:ai-start">
+         <div class="d-flex ai-center wmn2 md:mb4">
+          <div class="flex--item w24">
+          </div>
+          <div class="flex--item">
+           <a class="badge m0" href="/help/badges/63/tumbleweed" title="bronze badge: Asked a question with zero score, no answers, no comments, and low views for a week">
+            <span class="badge3">
+            </span>
+            Tumbleweed
+           </a>
+          </div>
+         </div>
+         <div class="d-flex fl-grow1 ai-center md:w100">
+          <div class="w24 fl-shrink0 d-none md:d-block">
+          </div>
+          <div class="flex--item fl-grow1">
+           Asked a question with zero score, no answers, no comments, and low views for a week
+          </div>
+          <div class="flex--item ml6 wmn1 md:wmn-initial ta-right fc-light fl-shrink0">
+           <span title="1,150,788">
+            1.2m
+           </span>
+           awarded
+          </div>
+         </div>
+        </div>
+       </div>
       </div>
      </div>
     </div>
-    <div class="help-center" id="sidebar">
+    <div class="faq-page" id="sidebar">
      <nav class="s-sidebarwidget mb24" id="toc">
       <ul class="s-sidebarwidget--content s-sidebarwidget__items">
        <li class="s-sidebarwidget--item">
@@ -534,7 +3242,7 @@
         </a>
        </li>
        <li class="s-sidebarwidget--item">
-        <a aria-current="false" href="/help/badges">
+        <a aria-current="page" href="/help/badges">
          Badges
         </a>
        </li>
@@ -563,71 +3271,445 @@
          Review Queues
         </a>
        </li>
-       <li class="s-sidebarwidget--item d-block">
-        <a aria-current="true" href="/help/collectives">
+       <li class="s-sidebarwidget--item">
+        <a href="/help/collectives">
          Collectives on Stack Overflow
         </a>
-        <ul class="s-sidebarwidget--subnav ml8">
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-what-are">
-           What is Collectives on Stack Overflow?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/propose-article">
-           How do I propose and review new articles?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-join">
-           How do I join a Collective?
-          </a>
-         </li>
-         <li aria-current="page">
-          <a href="https://stackoverflow.com/help/collectives-tags">
-           How do you determine which tags are included in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-user-types">
-           What are the different types of users in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-recognized-member">
-           How can I become a Recognized Member?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-recommended-answer">
-           What is a recommended answer?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/collectives-visual-labels">
-           What are visual labels in a Collective?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/article-feedback">
-           How to provide feedback on an article
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/article-guidelines">
-           Article guidelines
-          </a>
-         </li>
-        </ul>
        </li>
       </ul>
      </nav>
+     <div class="module" data-is-here-when="lg" id="badges-legend-module">
+      <div class="d-flex flex__fl-grow1 fd-column gs16 md:fd-row sm:fd-column">
+       <div class="flex--item">
+        <div>
+         <a class="badge" href="/help/badges?tab=general&amp;filter=bronze" title="bronze badge: awarded frequently">
+          <span class="badge3">
+          </span>
+          Bronze Badge
+         </a>
+        </div>
+        <div>
+         Bronze badges encourage users to try out new features on the site. They are easy to get if you try!
+        </div>
+       </div>
+       <div class="flex--item">
+        <div>
+         <a class="badge" href="/help/badges?tab=general&amp;filter=silver" title="silver badge: awarded occasionally">
+          <span class="badge2">
+          </span>
+          Silver Badge
+         </a>
+        </div>
+        <div>
+         Silver badges are less common than bronze ones. You'll need to plan your strategy to get one of these.
+        </div>
+       </div>
+       <div class="flex--item">
+        <div>
+         <a class="badge" href="/help/badges?tab=general&amp;filter=gold" title="gold badge: awarded rarely">
+          <span class="badge1">
+          </span>
+          Gold Badge
+         </a>
+        </div>
+        <div>
+         Gold badges recognize important contributions from members of the community. They are rarely awarded.
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="module" id="recent-badges">
+      <h4 id="h-recent-badges">
+       Recent Badges
+      </h4>
+      <table>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/28/famous-question?userid=12541546" title="gold badge: Question with 10,000 views">
+          <span class="badge1">
+          </span>
+          Famous Question
+         </a>
+         <a href="/users/12541546/aarav-solanki">
+          Aarav Solanki
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/17/necromancer?userid=12488263" title="silver badge: Answer a question more than 60 days later with score of 5 or more">
+          <span class="badge2">
+          </span>
+          Necromancer
+         </a>
+         <a href="/users/12488263/jovan">
+          Jovan
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/17/necromancer?userid=3797630" title="silver badge: Answer a question more than 60 days later with score of 5 or more">
+          <span class="badge2">
+          </span>
+          Necromancer
+         </a>
+         <a href="/users/3797630/hitesh-dhamshaniya">
+          Hitesh Dhamshaniya
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/17/necromancer?userid=2214806" title="silver badge: Answer a question more than 60 days later with score of 5 or more">
+          <span class="badge2">
+          </span>
+          Necromancer
+         </a>
+         <a href="/users/2214806/michael">
+          Michael
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/27/notable-question?userid=2805238" title="silver badge: Question with 2,500 views">
+          <span class="badge2">
+          </span>
+          Notable Question
+         </a>
+         <a href="/users/2805238/sam-tubb">
+          Sam Tubb
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/27/notable-question?userid=1036908" title="silver badge: Question with 2,500 views">
+          <span class="badge2">
+          </span>
+          Notable Question
+         </a>
+         <a href="/users/1036908/user1036908">
+          user1036908
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/27/notable-question?userid=2135255" title="silver badge: Question with 2,500 views">
+          <span class="badge2">
+          </span>
+          Notable Question
+         </a>
+         <a href="/users/2135255/inane">
+          inane
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/27/notable-question?userid=9400974" title="silver badge: Question with 2,500 views">
+          <span class="badge2">
+          </span>
+          Notable Question
+         </a>
+         <a href="/users/9400974/jyl">
+          JYL
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/27/notable-question?userid=6513656" title="silver badge: Question with 2,500 views">
+          <span class="badge2">
+          </span>
+          Notable Question
+         </a>
+         <a href="/users/6513656/matthew">
+          Matthew
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/27/notable-question?userid=8101467" title="silver badge: Question with 2,500 views">
+          <span class="badge2">
+          </span>
+          Notable Question
+         </a>
+         <a href="/users/8101467/radhian-amri">
+          Radhian Amri
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/8842/lifeboat?userid=11270840" title="gold badge: Answer score of 20 or more to a question score of -3 or less that goes on to receive a score of 3 or more">
+          <span class="badge1">
+          </span>
+          Lifeboat
+         </a>
+         <a href="/users/11270840/ghoul-ahmed">
+          Ghoul Ahmed
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=6314392" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/6314392/timon-post">
+          Timon Post
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=337120" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/337120/kaskelotti">
+          kaskelotti
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=1386680" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/1386680/rohit416">
+          Rohit416
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=2019554" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/2019554/philip-otoole">
+          Philip O'Toole
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=3158571" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/3158571/frank">
+          Frank
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=2369428" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/2369428/yivo">
+          yivo
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=11264544" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/11264544/moluzhui">
+          moluzhui
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=717473" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/717473/andreas">
+          Andreas
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=10636988" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/10636988/weeehaaa">
+          WeeeHaaa
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=6911518" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/6911518/irfan-s">
+          Irfan S
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=6223491" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/6223491/sam-ewdala">
+          Sam Ewdala
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=746547" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/746547/louen">
+          Louen
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=8881535" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/8881535/mathiew-abbas">
+          Mathiew Abbas
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=1386703" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/1386703/skobaljic">
+          skobaljic
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=4883974" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/4883974/bright">
+          Bright
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=1964792" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/1964792/coderofsalvation">
+          coderofsalvation
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=3622940" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/3622940/unihedron">
+          Unihedron
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=1393696" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/1393696/swogger">
+          swogger
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=746537" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/746537/jin-ho">
+          Jin Ho
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/13/yearling?userid=2369464" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
+         </a>
+         <a href="/users/2369464/leandro-soares">
+          Leandro Soares
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a class="badge" href="/help/badges/21/good-question?userid=641467" title="silver badge: Question score of 25 or more">
+          <span class="badge2">
+          </span>
+          Good Question
+         </a>
+         <a href="/users/641467/pablosproject">
+          Pablosproject
+         </a>
+        </td>
+       </tr>
+      </table>
+     </div>
     </div>
-    <script>
-     StackExchange.ready(function () {
-        styleCode.initializeSpoilers();
-    });
-    </script>
    </div>
   </div>
   <footer class="site-footer js-footer" id="footer" role="contentinfo">
@@ -860,10 +3942,10 @@
 
 
 
-                    StackExchange.ga.setDimension('dimension3', 'Help/SlugRouter');
+                    StackExchange.ga.setDimension('dimension3', 'Badges/List');
 
 
-                StackExchange.ga.setDimension('dimension7', "1652146397.196697516");
+                StackExchange.ga.setDimension('dimension7', "1652175542.1969160473");
 
                 StackExchange.ga.trackPageView();
             });

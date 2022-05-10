@@ -68,10 +68,6 @@ with open("edge_list2.csv", "rb") as edges:
 A = nx.to_numpy_array(G)
 print(A)
 
-
-pr = get_pageRank(A, [.1, .1, .1, .1, .1, .1, .1, .1, .1, .1])
-print(pr)
-
 print(nx.info(G))
 
 '''

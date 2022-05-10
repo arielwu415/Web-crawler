@@ -3,15 +3,16 @@ from langdetect import detect, DetectorFactory
 
 
 def detect_language(soup):
+    
     # check if lang attribute exists
-    if soup.html is not None and soup.html.has_attr('lang'):
+    if soup.html.has_attr('lang'):
         # slice the value [0:2]. For example, "ko-KR" get "ko"
         lang = soup.html['lang'][0:2]
 
         # use iso-639 code module to get the language name
         # lang = languages.get(alpha2=lang).name
         return lang
-
+    
     # if  attribute does not exist, detect content text
     else:
         # fix langdetect's unstable results

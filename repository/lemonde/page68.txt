@@ -4,21 +4,20 @@
   <meta charset="utf-8"/>
   <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-  <link href="/manifest.json" rel="manifest"/>
   <script>
    if(sessionStorage.fontsFirst&&sessionStorage.fontsLast&&'fonts'in document){document.documentElement.classList.add('fonts-loaded');}
 if(typeof Promise==='undefined'){document.documentElement.classList.add('fonts-loaded');}
   </script>
   <script async="" src="https://news.google.com/swg/js/v1/swg.js" subscriptions-control="manual">
   </script>
-  <link as="style" href="https://secure.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/css/fonts_last.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
+  <link as="style" href="https://secure.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/css/fonts_last.css" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/>
   <noscript>
-   <link href="https://secure.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/css/fonts_last.css" rel="stylesheet"/>
+   <link href="https://secure.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/css/fonts_last.css" rel="stylesheet"/>
   </noscript>
   <script>
    !function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){function e(){t.media=a}var a=t.media||"all";t.addEventListener?t.addEventListener("load",e):t.attachEvent&&t.attachEvent("onload",e),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(e,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
   </script>
-  <link href="https://secure.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/css/newsletter.css" rel="stylesheet" type="text/css">
+  <link href="https://secure.lemonde.fr/dist/assets/css/newsletter.css" rel="stylesheet" type="text/css">
    <style>
     @font-face{font-family:"The Antiqua B";src:url(/dist/assets/fonts/the-antiqua-b/TheAntiquaB_LT_800.eot);src:local("TheAntiquaB_LT_800"),url(/dist/assets/fonts/the-antiqua-b/TheAntiquaB_LT_800.eot?#iefix) format("embedded-opentype"),url(/dist/assets/fonts/the-antiqua-b/TheAntiquaB_LT_800.woff2) format("woff2"),url(/dist/assets/fonts/the-antiqua-b/TheAntiquaB_LT_800.woff) format("woff"),url(/dist/assets/fonts/the-antiqua-b/TheAntiquaB_LT_800.svg#TheAntiquaB_LT_800) format("svg");font-display:swap;font-style:normal;font-weight:800}@font-face{font-family:"Marr Sans Condensed";src:url(/dist/assets/fonts/marr-sans-cond/MarrSansCondensed-Medium-Web.eot);src:url(/dist/assets/fonts/marr-sans-cond/MarrSansCondensed-Medium-Web.eot?#iefix) format("embedded-opentype"),url(/dist/assets/fonts/marr-sans-cond/MarrSansCondensed-Medium-Web.woff2) format("woff2"),url(/dist/assets/fonts/marr-sans-cond/MarrSansCondensed-Medium-Web.woff) format("woff");font-display:swap;font-style:normal;font-weight:500}
    </style>
@@ -314,7 +313,7 @@ if(typeof Promise==='undefined'){document.documentElement.classList.add('fonts-l
 /*! no static exports found */function(e,o,s){s(/*! /home/node/app/web/src/assets/js/common/load-fonts.js */"./assets/js/common/load-fonts.js"),e.exports=s(/*! /home/node/app/web/src/assets/scss/fonts.scss */"./assets/scss/fonts.scss")}});
    </script>
    <script>
-    var lmd={"device":"desktop","hosts":{"abo":"https:\/\/abo.lemonde.fr","cmp":"https:\/\/cmp.lemonde.fr","offers":"https:\/\/abo.lemonde.fr","sf":"https:\/\/secure.lemonde.fr","arvato_compte":"https:\/\/moncompte.lemonde.fr","moncompte":"https:\/\/compte.lemonde.fr","sf_secure":"https:\/\/secure.lemonde.fr","www":"https:\/\/www.lemonde.fr","www_en":"https:\/\/www.lemonde.fr\/en","feedbacks":"https:\/\/feedbacks.lemonde.fr","tunnel":"https:\/\/macommande.lemonde.fr","mailing":"https:\/\/mailing.lemonde.fr","back_office":"https:\/\/back-officelemonde.fr","phalcon_secure":"phalcon-secure.lemonde.fr","forecast":"https:\/\/forecast.lemonde.fr","assets":"https:\/\/asset.lemde.fr"},"lang":"en","country":"US","context":{"newsletter_id":6}};
+    var lmd={"device":"desktop","hosts":{"abo":"https:\/\/abo.lemonde.fr","cmp":"https:\/\/cmp.lemonde.fr","offers":"https:\/\/abo.lemonde.fr","sf":"https:\/\/secure.lemonde.fr","arvato_compte":"https:\/\/moncompte.lemonde.fr","moncompte":"https:\/\/compte.lemonde.fr","sf_secure":"https:\/\/secure.lemonde.fr","www":"https:\/\/www.lemonde.fr","www_en":"https:\/\/www.lemonde.fr\/en","feedbacks":"https:\/\/feedbacks.lemonde.fr","tunnel":"https:\/\/macommande.lemonde.fr","mailing":"https:\/\/mailing.lemonde.fr","back_office":"https:\/\/back-officelemonde.fr","phalcon_secure":"phalcon-secure.lemonde.fr","forecast":"https:\/\/forecast.lemonde.fr","assets":"https:\/\/asset.lemde.fr"},"lang":"en","country":"US","analytics":{"isPromo":false}};
    </script>
   </link>
  </head>
@@ -368,78 +367,677 @@ if(typeof Promise==='undefined'){document.documentElement.classList.add('fonts-l
     </section>
    </section>
   </header>
-  <section class="js-nl-single newsletter__landing" id="js-nl-landing">
-   <picture class="newsletter__top-container">
-    <img alt="Entrez dans le week-end sportif grâce à une sélection de nos articles." class="newsletter__cover" height="480" src="https://asset.lemde.fr/newsletters/covers/sport.png" title="Sport" width="1440"/>
-   </picture>
-   <section class="newsletter__landing-container">
-    <section class="newsletter__landing-bloc">
-     <h1 class="newsletter__title newsletter__title--landing">
-      Sport
+  <section class="form__banner form__banner-language" id="js-language-banner">
+   <section class="form__banner-language-container">
+    <p class="form__banner-language-description">
+     Vous préférez naviguer en français dans votre compte client ?
+    </p>
+    <button class="form__button form__banner-language-link" id="js-change-language" name="button" type="button" value="fr">
+     Passer en français
+    </button>
+   </section>
+   <button class="form__banner-language-close" id="js-close-language">
+   </button>
+  </section>
+  <main class="main main--free" id="js-nl-listing" role="main">
+   <section class="newsletter__header">
+    <section class="newsletter__wrapper">
+     <section class="newsletter__kicker">
+      Services
+     </section>
+     <h1 class="newsletter__heading">
+      <i>
+       Le Monde
+      </i>
+      newsletters
      </h1>
-     <p class="newsletter__detail newsletter__detail--landing">
-      Chaque samedi à 12 heures
+     <p class="newsletter__cta-text">
+      Subscribe to get
+      <i>
+       Le Monde
+      </i>
+      newsletters sent to your inbox
      </p>
-     <p class="newsletter__description newsletter__description--landing">
-      Entrez dans le week-end sportif grâce à une sélection de nos articles.
-     </p>
-     <a class="newsletter__link newsletter__link--landing" href="https://asset.lemde.fr/newsletters/sport/2022-04-30-wk1o6u4zw.html" rel="nofollow noopener" target="_blank">
-      See newsletter
+     <a class="button button--blue newsletter__cta" href="https://secure.lemonde.fr/sfuser/register" rel="nofollow">
+      Create an account
      </a>
-     <section class="newsletter__register-container" id="nl-success-message">
-      <p class="newsletter__register-success">
-       <strong>
-        You have successfully registered.
-       </strong>
-       An email was sent to you to complete your registration. If you don't see it, check your spam folder.
-      </p>
-     </section>
-     <button class="newsletter__cta-register newsletter__cta-register--landing-submit button button--subscribed newsletter__message--success" id="nl-subscribed-btn" type="button">
-      Followed
-     </button>
     </section>
-    <section class="newsletter__landing-content">
-     <p class="newsletter__engagement" id="nl-label-description">
-      Create an account to get the best of Le Monde sent straight to your inbox.
-     </p>
-     <section class="form__input-wrap form__input-wrap--newsletter" id="nl-form-container">
-      <section class="form__input">
-       <input class="form__input-field" data-check="email" data-valid="invalid" id="nl-register-email" name="nl_register_email" required="" type="text"/>
-       <label class="form__input-label" for="nl-register-email">
-        Your email address
-       </label>
+   </section>
+   <ul class="newsletter__filters" id="js-nl-triggers">
+    <li class="newsletter__item">
+     <button class="js-nl-filter newsletter__filter button button--white newsletter__filter--active" data-trigger="all">
+      All newsletters
+     </button>
+    </li>
+    <li class="newsletter__item">
+     <button class="js-nl-filter newsletter__filter button button--white" data-trigger="premium">
+      Subscribers only
+     </button>
+    </li>
+    <li class="newsletter__item">
+     <button class="js-nl-filter newsletter__filter button button--white" data-trigger="free">
+      Free access
+     </button>
+    </li>
+   </ul>
+   <section class="newsletter__list" data-section="mea">
+    <section class="newsletter__wrapper">
+     <div class="newsletter__sectionhead">
+      In English
+     </div>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="mea">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/le-monde-en-anglais.png"/>
+       <img alt="Sign up to the Le Monde in English newsletter and receive a daily selection of articles translated into English" class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/le-monde-en-anglais.png" height="160" title="Le Monde in English" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Le Monde in English
+       </h2>
+       <p class="newsletter__detail">
+        Daily
+       </p>
+       <p class="newsletter__description">
+        Sign up to the Le Monde in English newsletter and receive a daily selection of articles translated into English
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/le-monde-in-english/" data-subscribed="0" data-subscribed-label="Subscribed" data-target-id="0" data-title="le-monde-in-english" data-type="mea" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/le-monde-in-english/">
+         Sign up
+        </a>
+       </section>
       </section>
-      <span class="form__input-error" data-email-exists-message="You already own an account, log in" data-invalid-email-message="This email address appears to be incorrect" id="nl-register-email-error">
-      </span>
-     </section>
-     <section class="form__input-wrap form__input-wrap--newsletter" id="nl-checkbox-container">
-      <section class="form__input-checkbox-container">
-       <label class="form__input-label-checkbox">
-        Editorial news, editor's picks and special offers: keep up to date with news from Le Monde.
-        <input class="form__input-checkbox" hidden="" id="nl-register-optin" name="nl_register_optin" type="checkbox" value="optin_lemonde"/>
-        <span class="form__input-checkbox-mark">
-        </span>
-       </label>
-      </section>
-     </section>
-     <section class="newsletter__landing-actions">
-      <a class="button button--blue newsletter__cta-register newsletter__cta-register--landing newsletter__cta-register--disabled" href="#" id="nl-create-account-btn">
-       Create an account
-      </a>
-      <p class="newsletter__engagement newsletter__engagement--signin" id="nl-engagement-signin">
-       If you already have an account,
-       <a class="newsletter__link" href="https://secure.lemonde.fr/sfuser/connexion?newsletters[6]">
-        sign in
-       </a>
-       .
-      </p>
-      <a class="button button--void newsletter__cta-all" href="https://secure.lemonde.fr/newsletters">
-       Access all newsletters
-      </a>
      </section>
     </section>
    </section>
-  </section>
+   <section class="newsletter__list" data-section="newsletter">
+    <section class="newsletter__wrapper">
+     <div class="newsletter__sectionhead">
+      <i>
+       Le Monde
+      </i>
+      newsletters
+     </div>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/presidentielle.png"/>
+       <img alt="Chaque semaine, « Le Monde » décrypte pour vous les enjeux de l'actualité politique." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/presidentielle.png" height="160" title="Présidentielle" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Présidentielle
+       </h2>
+       <p class="newsletter__detail">
+        Le vendredi à 18h
+       </p>
+       <p class="newsletter__description">
+        Chaque semaine, « Le Monde » décrypte pour vous les enjeux de l'actualité politique.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/presidentielle/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="25" data-title="presidentielle" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/presidentielle/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/presidentielle/2022-05-06-0ms1dkm7a.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/le-monde-passe-a-table.png"/>
+       <img alt="Au menu : des reportages gourmands, des bonnes adresses, des recettes qui en jettent." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/le-monde-passe-a-table.png" height="160" title="Le Monde passe à table" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Le Monde passe à table
+       </h2>
+       <p class="newsletter__detail">
+        Chaque jeudi
+       </p>
+       <p class="newsletter__description">
+        Au menu : des reportages gourmands, des bonnes adresses, des recettes qui en jettent.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/le-monde-passe-a-table/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="28" data-title="le-monde-passe-a-table" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/le-monde-passe-a-table/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/le-monde-passe-a-table/2022-05-05-se6o6c1uq.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="exclusive">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/le-brief-du-monde.png"/>
+       <img alt="L’actualité internationale et française, résumée par la rédaction." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/le-brief-du-monde.png" height="160" title="Le Brief du Monde" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <span class="newsletter__premium">
+        <span class="icon__premium icon--outside-nl">
+         <span class="sr-only">
+          Subscribers only
+         </span>
+        </span>
+        <span class="newsletter__premium-label">
+         Subscribers only
+        </span>
+       </span>
+       <h2 class="newsletter__title">
+        Le Brief du Monde
+       </h2>
+       <p class="newsletter__detail">
+        Du lundi au vendredi, à 6 heures
+       </p>
+       <p class="newsletter__description">
+        L’actualité internationale et française, résumée par la rédaction.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/le-brief-du-monde/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="16" data-title="le-brief-du-monde" data-type="exclusive" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/le-brief-du-monde/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/leBrief/2022-04-11-2qs0y1gcf.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/m-le-magazine.png"/>
+       <img alt="Chaque dimanche, retrouvez le regard décalé de M Le magazine du Monde sur l’actualité et le style." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/m-le-magazine.png" height="160" title="M Le Magazine" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        M Le Magazine
+       </h2>
+       <p class="newsletter__detail">
+        Chaque dimanche à 8h30
+       </p>
+       <p class="newsletter__description">
+        Chaque dimanche, retrouvez le regard décalé de M Le magazine du Monde sur l’actualité et le style.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/m-le-magazine/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="7" data-title="m-le-magazine" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/m-le-magazine/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/m-le-mag/2022-05-08-565obdec1.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/la-revue-du-monde.png"/>
+       <img alt="Chaque week-end, la rédaction sélectionne pour vous les articles de la semaine qu’il ne fallait pas manquer." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/la-revue-du-monde.png" height="160" title="La revue du Monde" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        La revue du Monde
+       </h2>
+       <p class="newsletter__detail">
+        Chaque vendredi
+       </p>
+       <p class="newsletter__description">
+        Chaque week-end, la rédaction sélectionne pour vous les articles de la semaine qu’il ne fallait pas manquer.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/la-revue-du-monde/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="23" data-title="la-revue-du-monde" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/la-revue-du-monde/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/laRevueDuMonde/2022-05-06-ewbxtea4p.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/le-monde-des-religions.png"/>
+       <img alt="Connaître les religions pour comprendre le monde, dans une approche laïque et ouverte." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/le-monde-des-religions.png" height="160" title="Le Monde des religions" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Le Monde des religions
+       </h2>
+       <p class="newsletter__detail">
+        Bimensuelle
+       </p>
+       <p class="newsletter__description">
+        Connaître les religions pour comprendre le monde, dans une approche laïque et ouverte.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/le-monde-des-religions/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="27" data-title="le-monde-des-religions" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/le-monde-des-religions/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/religions/2022-05-05-jigz2el1m.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/cities.png"/>
+       <img alt="Le récit des mutations qui touchent l’urbanisme, l’habitat, les mobilités, l’énergie et la citoyenneté." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/cities.png" height="160" title="Cities" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Cities
+       </h2>
+       <p class="newsletter__detail">
+        Chaque lundi à 13 heures
+       </p>
+       <p class="newsletter__description">
+        Le récit des mutations qui touchent l’urbanisme, l’habitat, les mobilités, l’énergie et la citoyenneté.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/cities/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="24" data-title="cities" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/cities/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/cities/2022-05-09-09qkl5e1i.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/a-la-une.png"/>
+       <img alt="Les titres du Monde.fr en un coup d’oeil." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/a-la-une.png" height="160" title="A la une" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        A la une
+       </h2>
+       <p class="newsletter__detail">
+        7 jours sur 7, à 8 h 30
+       </p>
+       <p class="newsletter__description">
+        Les titres du Monde.fr en un coup d’oeil.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/a-la-une/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="1" data-title="a-la-une" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/a-la-une/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/a-la-une/2022-05-10-bep17q507.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/journal-numerique.png"/>
+       <img alt="Parcourez les titres du journal et lisez-le sur écran." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/journal-numerique.png" height="160" title="Journal numérique" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Journal numérique
+       </h2>
+       <p class="newsletter__detail">
+        Du lundi au samedi, à 13 heures
+       </p>
+       <p class="newsletter__description">
+        Parcourez les titres du journal et lisez-le sur écran.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/journal-numerique/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="4" data-title="journal-numerique" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/journal-numerique/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/jelec/2022-05-09-2z55froj1.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="exclusive">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/le-monde-de-l-education.png"/>
+       <img alt="Enseignants, parents, élèves : tout ce qu’il faut savoir sur l’actualité de l’éducation." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/le-monde-de-l-education.png" height="160" title="Le Monde de l’éducation" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <span class="newsletter__premium">
+        <span class="icon__premium icon--outside-nl">
+         <span class="sr-only">
+          Subscribers only
+         </span>
+        </span>
+        <span class="newsletter__premium-label">
+         Subscribers only
+        </span>
+       </span>
+       <h2 class="newsletter__title">
+        Le Monde de l’éducation
+       </h2>
+       <p class="newsletter__detail">
+        Chaque mardi à 7 heures
+       </p>
+       <p class="newsletter__description">
+        Enseignants, parents, élèves : tout ce qu’il faut savoir sur l’actualité de l’éducation.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/le-monde-de-l-education/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="17" data-title="le-monde-de-l-education" data-type="exclusive" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/le-monde-de-l-education/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/education/2022-04-12-ygr39iyn8.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/m-campus.png"/>
+       <img alt="Etudiants, jeunes diplômés : comment la jeunesse se forme et change la société." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/m-campus.png" height="160" title="M Campus" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        M Campus
+       </h2>
+       <p class="newsletter__detail">
+        Chaque mercredi à 12 heures
+       </p>
+       <p class="newsletter__description">
+        Etudiants, jeunes diplômés : comment la jeunesse se forme et change la société.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/m-campus/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="11" data-title="m-campus" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/m-campus/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/campus/2022-05-04-v2wguzcqz.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="exclusive">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/la-lettre-des-idees.png"/>
+       <img alt="Votre rendez-vous avec la vie intellectuelle." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/la-lettre-des-idees.png" height="160" title="La lettre des idées" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <span class="newsletter__premium">
+        <span class="icon__premium icon--outside-nl">
+         <span class="sr-only">
+          Subscribers only
+         </span>
+        </span>
+        <span class="newsletter__premium-label">
+         Subscribers only
+        </span>
+       </span>
+       <h2 class="newsletter__title">
+        La lettre des idées
+       </h2>
+       <p class="newsletter__detail">
+        Chaque vendredi à 9 heures
+       </p>
+       <p class="newsletter__description">
+        Votre rendez-vous avec la vie intellectuelle.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/la-lettre-des-idees/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="22" data-title="la-lettre-des-idees" data-type="exclusive" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/la-lettre-des-idees/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/lettreIdees/2022-04-15-4r3anrg84.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="exclusive">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/international.png"/>
+       <img alt="L’essentiel de l’actualité internationale de la semaine." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/international.png" height="160" title="International" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <span class="newsletter__premium">
+        <span class="icon__premium icon--outside-nl">
+         <span class="sr-only">
+          Subscribers only
+         </span>
+        </span>
+        <span class="newsletter__premium-label">
+         Subscribers only
+        </span>
+       </span>
+       <h2 class="newsletter__title">
+        International
+       </h2>
+       <p class="newsletter__detail">
+        Chaque vendredi à 13 h 30
+       </p>
+       <p class="newsletter__description">
+        L’essentiel de l’actualité internationale de la semaine.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/international/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="9" data-title="international" data-type="exclusive" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/international/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/international/2022-04-15-2sd2roe71.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="exclusive">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/la-lettre-eco.png"/>
+       <img alt="Le regard du &lt;i&gt;Monde&lt;/i&gt; sur l’actualité économique du jour." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/la-lettre-eco.png" height="160" title="La lettre éco" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <span class="newsletter__premium">
+        <span class="icon__premium icon--outside-nl">
+         <span class="sr-only">
+          Subscribers only
+         </span>
+        </span>
+        <span class="newsletter__premium-label">
+         Subscribers only
+        </span>
+       </span>
+       <h2 class="newsletter__title">
+        La lettre éco
+       </h2>
+       <p class="newsletter__detail">
+        Du lundi au vendredi, à 12 h 30
+       </p>
+       <p class="newsletter__description">
+        Le regard du
+        <i>
+         Monde
+        </i>
+        sur l’actualité économique du jour.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/la-lettre-eco/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="21" data-title="la-lettre-eco" data-type="exclusive" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/la-lettre-eco/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/la-lettre-eco/2022-04-11-r0ovsssyn.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="exclusive">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/les-debats-eco.png"/>
+       <img alt="Une plongée dans les débats économiques." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/les-debats-eco.png" height="160" title="Les débats éco" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <span class="newsletter__premium">
+        <span class="icon__premium icon--outside-nl">
+         <span class="sr-only">
+          Subscribers only
+         </span>
+        </span>
+        <span class="newsletter__premium-label">
+         Subscribers only
+        </span>
+       </span>
+       <h2 class="newsletter__title">
+        Les débats éco
+       </h2>
+       <p class="newsletter__detail">
+        Chaque samedi à 10 heures
+       </p>
+       <p class="newsletter__description">
+        Une plongée dans les débats économiques.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/les-debats-eco/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="20" data-title="les-debats-eco" data-type="exclusive" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/les-debats-eco/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/debatsEco/2022-04-16-8ss7wes36.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/le-monde-afrique.png"/>
+       <img alt="Une semaine d’actualité et de débats sur le continent africain." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/le-monde-afrique.png" height="160" title="Le Monde Afrique" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Le Monde Afrique
+       </h2>
+       <p class="newsletter__detail">
+        Chaque samedi à 6 heures
+       </p>
+       <p class="newsletter__description">
+        Une semaine d’actualité et de débats sur le continent africain.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/le-monde-afrique/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="12" data-title="le-monde-afrique" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/le-monde-afrique/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/afrique/2022-05-07-jibgq13bt.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/sport.png"/>
+       <img alt="Entrez dans le week-end sportif grâce à une sélection de nos articles." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/sport.png" height="160" title="Sport" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Sport
+       </h2>
+       <p class="newsletter__detail">
+        Chaque samedi à 12 heures
+       </p>
+       <p class="newsletter__description">
+        Entrez dans le week-end sportif grâce à une sélection de nos articles.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/sport/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="6" data-title="sport" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/sport/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/sport/2022-05-07-fhmvn4zkk.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="free">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/pixels.png"/>
+       <img alt="Réseaux sociaux, cyberattaques, jeux vidéo, mangas et culture geek." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/pixels.png" height="160" title="Pixels" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <h2 class="newsletter__title">
+        Pixels
+       </h2>
+       <p class="newsletter__detail">
+        Chaque samedi à 12 heures
+       </p>
+       <p class="newsletter__description">
+        Réseaux sociaux, cyberattaques, jeux vidéo, mangas et culture geek.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/pixels/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="10" data-title="pixels" data-type="newsletter" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/pixels/">
+         Sign up
+        </a>
+        <a class="newsletter__link" href="https://asset.lemde.fr/newsletters/pixels/2022-05-07-h8qpg4uht.html" rel="nofollow noopener" target="_blank">
+         See newsletter
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="premium">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/la-lettre-aux-abonnes.png"/>
+       <img alt="Les articles-phares du mois, des jeux-concours et des places de spectacles pour nos abonnés." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/la-lettre-aux-abonnes.png" height="160" title="La lettre aux abonnés" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <span class="newsletter__premium">
+        <span class="icon__premium icon--outside-nl">
+         <span class="sr-only">
+          Subscribers only
+         </span>
+        </span>
+        <span class="newsletter__premium-label">
+         Subscribers only
+        </span>
+       </span>
+       <h2 class="newsletter__title">
+        La lettre aux abonnés
+       </h2>
+       <p class="newsletter__detail">
+        Mensuelle
+       </p>
+       <p class="newsletter__description">
+        Les articles-phares du mois, des jeux-concours et des places de spectacles pour nos abonnés.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/la-lettre-aux-abonnes/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="18" data-title="la-lettre-aux-abonnes" data-type="premium" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/la-lettre-aux-abonnes/">
+         Sign up
+        </a>
+       </section>
+      </section>
+     </section>
+     <section class="js-nl-teaser newsletter__teaser" data-newsletter-type="exclusive">
+      <picture class="newsletter__media-container">
+       <source media="(min-width: 1024px)" srcset="https://asset.lemde.fr/newsletters/thumbnails/le-monde-evenements-abonnes.png"/>
+       <img alt="Le programme des spectacles et avant-premières réservés à nos abonnés." class="newsletter__media" data-src="https://asset.lemde.fr/newsletters/thumbnails/le-monde-evenements-abonnes.png" height="160" title="Le Monde événements abonnés" width="160"/>
+      </picture>
+      <section class="newsletter__content">
+       <span class="newsletter__premium">
+        <span class="icon__premium icon--outside-nl">
+         <span class="sr-only">
+          Subscribers only
+         </span>
+        </span>
+        <span class="newsletter__premium-label">
+         Subscribers only
+        </span>
+       </span>
+       <h2 class="newsletter__title">
+        Le Monde événements abonnés
+       </h2>
+       <p class="newsletter__detail">
+        Mensuelle
+       </p>
+       <p class="newsletter__description">
+        Le programme des spectacles et avant-premières réservés à nos abonnés.
+       </p>
+       <section class="newsletter__actions">
+        <a class="js-nl-subscribe newsletter__cta-register button button--blue" data-action="subscribe" data-href="/newsletters/le-monde-evenements-abonnes/" data-subscribed="0" data-subscribed-label="Followed" data-target-id="19" data-title="le-monde-evenements-abonnes" data-type="exclusive" data-unsubscribed-label="Sign up" data-update-label="Update" href="/newsletters/le-monde-evenements-abonnes/">
+         Sign up
+        </a>
+       </section>
+      </section>
+     </section>
+    </section>
+   </section>
+  </main>
   <footer class="footer__container">
    <section class="wrapper wrapper--footer">
     <a class="footer__logo" href="https://www.lemonde.fr/" target="_blank">
@@ -482,21 +1080,21 @@ if(typeof Promise==='undefined'){document.documentElement.classList.add('fonts-l
   </script>
   <script async="1" src="https://cmp.lemonde.fr/js/lemonde-en.min.js" type="text/javascript">
   </script>
-  <script async="1" src="//secure.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/js/common_account.bundle.js" type="text/javascript">
+  <script async="1" src="//secure.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/js/common_account.bundle.js" type="text/javascript">
   </script>
-  <script async="1" src="//secure.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/js/smartTag.bundle.js" type="text/javascript">
+  <script async="1" src="//secure.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/js/smartTag.bundle.js" type="text/javascript">
   </script>
   <script charset="ISO-8859-1" data-gdpr-purposes="personalization" data-gdpr-src="https://chatbox.my-tools.fr/WATConnect/watconob.min.js?guid=b9a3cc6d-51f0-4db7-9a0e-917050e0070b&amp;prov=GLM" defer="" id="watconnector">
   </script>
-  <script async="" data-gdpr-purposes="analytics" data-gdpr-src="https://macommande.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/js/anltcs.bundle.js" type="text/javascript">
+  <script async="" data-gdpr-purposes="analytics" data-gdpr-src="https://macommande.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/js/anltcs.bundle.js" type="text/javascript">
   </script>
-  <script async="" data-gdpr-purposes="social" data-gdpr-src="https://macommande.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/js/scls.bundle.js" type="text/javascript">
+  <script async="" data-gdpr-purposes="social" data-gdpr-src="https://macommande.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/js/scls.bundle.js" type="text/javascript">
   </script>
-  <script async="" data-gdpr-purposes="ads" data-gdpr-src="https://macommande.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/js/ads.bundle.js" type="text/javascript">
+  <script async="" data-gdpr-purposes="ads" data-gdpr-src="https://macommande.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/js/ads.bundle.js" type="text/javascript">
   </script>
-  <script async="" data-gdpr-purposes="personalization" data-gdpr-src="https://macommande.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/js/forecast.bundle.js" type="text/javascript">
+  <script async="" data-gdpr-purposes="personalization" data-gdpr-src="https://macommande.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/js/forecast.bundle.js" type="text/javascript">
   </script>
-  <script async="1" src="//secure.lemonde.fr/bucket/7d27c124dfc67f1e6b630c855c3e13f1a18bce66/js/newsletter.bundle.js" type="text/javascript">
+  <script async="1" src="//secure.lemonde.fr/bucket/5b48214b4d587c7c72756d7d3313ba960de88196/js/newsletter.bundle.js" type="text/javascript">
   </script>
  </body>
 </html>

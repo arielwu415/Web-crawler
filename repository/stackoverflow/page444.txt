@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   asp.net-mvc-4 - Badge - Stack Overflow
+   Talkative - Badge - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/badges/2714/asp-net-mvc-4" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/badges/884/talkative" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="asp.net-mvc-4 - Badge" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Talkative - Badge" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1651824232,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652175943,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,7 +40,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f2714%2fasp-net-mvc-4">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f884%2ftalkative">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f2714%2fasp-net-mvc-4">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f884%2ftalkative">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f2714%2fasp-net-mvc-4" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f884%2ftalkative" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f2714%2fasp-net-mvc-4" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f884%2ftalkative" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -508,7 +508,7 @@
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        Tags
+        Talkative
        </h1>
       </div>
      </div>
@@ -516,26 +516,22 @@
       <div class="single-badge-header">
        <div class="single-badge-wrapper">
         <div class="single-badge-badge">
-         <a class="badge-tag" href="/help/badges/2714/asp-net-mvc-4" title="gold badge: Earn at least 1000 total score for at least 200 non-community wiki answers in the asp.net-mvc-4 tag">
-          <span class="badge1">
+         <a class="badge" href="/help/badges/884/talkative" title="bronze badge: Post 10 messages, with 1 or more starred, in chat">
+          <span class="badge3">
           </span>
-          asp.net-mvc-4
+          Talkative
          </a>
         </div>
         <div class="single-badge-title">
-         Earn at least 1000 total score for at least 200 non-community wiki answers in the
-         <a class="post-tag" href="/questions/tagged/asp.net-mvc-4" rel="tag" title="show questions tagged 'asp.net-mvc-4'">
-          asp.net-mvc-4
+         Post 10 messages, with 1 or more starred, in
+         <a href="https://chat.stackoverflow.com/">
+          chat
          </a>
-         tag. These users can single-handedly mark
-         <a class="post-tag" href="/questions/tagged/asp.net-mvc-4" rel="tag" title="show questions tagged 'asp.net-mvc-4'">
-          asp.net-mvc-4
-         </a>
-         questions as duplicates and reopen them as needed.
+         .
         </div>
        </div>
        <div class="single-badge-count">
-        Awarded 3 times.
+        Awarded 11734 times.
        </div>
       </div>
      </div>
@@ -543,59 +539,59 @@
       <div class="single-badge-row-double">
        <div class="single-badge-awarded">
         Awarded
-        <span class="relativetime" title="2020-07-11 04:04:11Z">
-         Jul 11, 2020 at 4:04
+        <span class="relativetime" title="2022-05-09 09:01:07Z">
+         yesterday
         </span>
         to
        </div>
        <div class="single-badge-user">
         <div class="user-info user-hover">
-         <div class="user-action-time">
+         <div class="user-action-time truncate">
          </div>
          <div class="user-gravatar32">
-          <a href="/users/654031/chris-pratt">
+          <a href="/users/5734311/chris-g">
            <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/9d0a45dd92ecc2cb15cdbc5f80befb15?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/7iVq7.jpg?s=64&amp;g=1" width="32"/>
            </div>
           </a>
          </div>
          <div class="user-details">
-          <a href="/users/654031/chris-pratt">
-           Chris Pratt
+          <a href="/users/5734311/chris-g">
+           Chris G
           </a>
           <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 220,037">
-            220k
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            8,225
            </span>
-           <span aria-hidden="true" title="31 gold badges">
+           <span aria-hidden="true" title="4 gold badges">
             <span class="badge1">
             </span>
             <span class="badgecount">
-             31
+             4
             </span>
            </span>
            <span class="v-visible-sr">
-            31 gold badges
+            4 gold badges
            </span>
-           <span aria-hidden="true" title="353 silver badges">
+           <span aria-hidden="true" title="19 silver badges">
             <span class="badge2">
             </span>
             <span class="badgecount">
-             353
+             19
             </span>
            </span>
            <span class="v-visible-sr">
-            353 silver badges
+            19 silver badges
            </span>
-           <span aria-hidden="true" title="413 bronze badges">
+           <span aria-hidden="true" title="34 bronze badges">
             <span class="badge3">
             </span>
             <span class="badgecount">
-             413
+             34
             </span>
            </span>
            <span class="v-visible-sr">
-            413 bronze badges
+            34 bronze badges
            </span>
           </div>
          </div>
@@ -605,59 +601,59 @@
       <div class="single-badge-row-double">
        <div class="single-badge-awarded">
         Awarded
-        <span class="relativetime" title="2019-06-29 04:03:27Z">
-         Jun 29, 2019 at 4:03
+        <span class="relativetime" title="2022-05-06 16:00:05Z">
+         May 6 at 16:00
         </span>
         to
        </div>
        <div class="single-badge-user">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
+        <div class="user-info">
+         <div class="user-action-time truncate">
          </div>
          <div class="user-gravatar32">
-          <a href="/users/40521/shyju">
+          <a href="/users/16540390/jabaa">
            <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/8faa5e8a474933dd207c86fb886a7f28?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/GQyFH.jpg?s=64&amp;g=1" width="32"/>
            </div>
           </a>
          </div>
          <div class="user-details">
-          <a href="/users/40521/shyju">
-           Shyju
+          <a href="/users/16540390/jabaa">
+           jabaa
           </a>
           <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 205,616">
-            206k
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            3,652
            </span>
-           <span aria-hidden="true" title="101 gold badges">
+           <span aria-hidden="true" title="3 gold badges">
             <span class="badge1">
             </span>
             <span class="badgecount">
-             101
+             3
             </span>
            </span>
            <span class="v-visible-sr">
-            101 gold badges
+            3 gold badges
            </span>
-           <span aria-hidden="true" title="402 silver badges">
+           <span aria-hidden="true" title="6 silver badges">
             <span class="badge2">
             </span>
             <span class="badgecount">
-             402
+             6
             </span>
            </span>
            <span class="v-visible-sr">
-            402 silver badges
+            6 silver badges
            </span>
-           <span aria-hidden="true" title="491 bronze badges">
+           <span aria-hidden="true" title="24 bronze badges">
             <span class="badge3">
             </span>
             <span class="badgecount">
-             491
+             24
             </span>
            </span>
            <span class="v-visible-sr">
-            491 bronze badges
+            24 bronze badges
            </span>
           </div>
          </div>
@@ -667,59 +663,3172 @@
       <div class="single-badge-row-double">
        <div class="single-badge-awarded">
         Awarded
-        <span class="relativetime" title="2013-02-21 03:01:41Z">
-         Feb 21, 2013 at 3:01
+        <span class="relativetime" title="2022-05-06 03:02:37Z">
+         May 6 at 3:02
         </span>
         to
        </div>
        <div class="single-badge-user">
         <div class="user-info user-hover">
-         <div class="user-action-time">
+         <div class="user-action-time truncate">
          </div>
          <div class="user-gravatar32">
-          <a href="/users/29407/darin-dimitrov">
+          <a href="/users/5740243/kiynl">
            <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/e3a181e9cdd4757a8b416d93878770c5?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/a84de649451213c7d2dc312643ab236c?s=64&amp;d=identicon&amp;r=PG" width="32"/>
            </div>
           </a>
          </div>
          <div class="user-details">
-          <a href="/users/29407/darin-dimitrov">
-           Darin Dimitrov
+          <a href="/users/5740243/kiynl">
+           KiynL
           </a>
           <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 992,536">
-            993k
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            544
            </span>
-           <span aria-hidden="true" title="263 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             263
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            263 gold badges
-           </span>
-           <span aria-hidden="true" title="3239 silver badges">
+           <span aria-hidden="true" title="2 silver badges">
             <span class="badge2">
             </span>
             <span class="badgecount">
-             3239
+             2
             </span>
            </span>
            <span class="v-visible-sr">
-            3239 silver badges
+            2 silver badges
            </span>
-           <span aria-hidden="true" title="2899 bronze badges">
+           <span aria-hidden="true" title="18 bronze badges">
             <span class="badge3">
             </span>
             <span class="badgecount">
-             2899
+             18
             </span>
            </span>
            <span class="v-visible-sr">
-            2899 bronze badges
+            18 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-05 19:01:07Z">
+         May 5 at 19:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/16826661/navi">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/42e9ef1118d60626ca9fe67c42464235?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/16826661/navi">
+           navi
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            144
+           </span>
+           <span aria-hidden="true" title="9 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             9
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            9 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-05 08:00:24Z">
+         May 5 at 8:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/8099601/nitzan-daloomy">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/80674cb60fe7ee29958d352975a570fa?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/8099601/nitzan-daloomy">
+           Nitzan Daloomy
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            130
+           </span>
+           <span aria-hidden="true" title="3 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             3
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            3 silver badges
+           </span>
+           <span aria-hidden="true" title="19 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             19
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            19 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-04 08:01:03Z">
+         May 4 at 8:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/1671785/dimitris-papageorgiou">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/4ae344e0b6ab5b6375b145117e7434b5?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/1671785/dimitris-papageorgiou">
+           Dimitris Papageorgiou
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            419
+           </span>
+           <span aria-hidden="true" title="4 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             4
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            4 silver badges
+           </span>
+           <span aria-hidden="true" title="15 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             15
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            15 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-03 20:00:12Z">
+         May 3 at 20:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/18244921/catgirlkelly">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/gCJ4E.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/18244921/catgirlkelly">
+           catgirlkelly
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            1
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-03 14:01:07Z">
+         May 3 at 14:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/18748182/trytodoit">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/2a08977c83b04541d31f0c69137f947d?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/18748182/trytodoit">
+           TryToDoIt
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            46
+           </span>
+           <span aria-hidden="true" title="11 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             11
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            11 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-02 22:01:07Z">
+         May 2 at 22:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/9208887/the-fool">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/64b42a62830357a073f912ce786822e1?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/9208887/the-fool">
+           The Fool
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            9,715
+           </span>
+           <span aria-hidden="true" title="3 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             3
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            3 gold badges
+           </span>
+           <span aria-hidden="true" title="27 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             27
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            27 silver badges
+           </span>
+           <span aria-hidden="true" title="47 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             47
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            47 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-02 11:01:29Z">
+         May 2 at 11:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/16313303/mchowdam">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://graph.facebook.com/100007370855144/picture?type=large" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/16313303/mchowdam">
+           mchowdam
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            958
+           </span>
+           <span aria-hidden="true" title="2 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             2
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            2 silver badges
+           </span>
+           <span aria-hidden="true" title="20 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             20
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            20 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-02 08:00:52Z">
+         May 2 at 8:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/5256563/firetiti">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/eWfIu.gif?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/5256563/firetiti">
+           FiReTiTi
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            5,181
+           </span>
+           <span aria-hidden="true" title="12 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             12
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            12 gold badges
+           </span>
+           <span aria-hidden="true" title="24 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             24
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            24 silver badges
+           </span>
+           <span aria-hidden="true" title="55 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             55
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            55 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-02 02:00:54Z">
+         May 2 at 2:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/16997639/bekoyzc">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/VIdvX.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/16997639/bekoyzc">
+           bekoyzc
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            21
+           </span>
+           <span aria-hidden="true" title="6 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             6
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            6 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-02 00:01:08Z">
+         May 2 at 0:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/6106791/baduker">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/c6445.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/6106791/baduker">
+           baduker
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 14,466">
+            14.5k
+           </span>
+           <span aria-hidden="true" title="9 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             9
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            9 gold badges
+           </span>
+           <span aria-hidden="true" title="25 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             25
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            25 silver badges
+           </span>
+           <span aria-hidden="true" title="44 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             44
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            44 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-28 07:01:02Z">
+         Apr 28 at 7:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/17455524/liyun-zhang-msft">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/LPKrd.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/17455524/liyun-zhang-msft">
+           Liyun Zhang - MSFT
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            894
+           </span>
+           <span aria-hidden="true" title="1 gold badge">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             1
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            1 gold badge
+           </span>
+           <span aria-hidden="true" title="1 silver badge">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             1
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            1 silver badge
+           </span>
+           <span aria-hidden="true" title="6 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             6
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            6 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-26 10:01:57Z">
+         Apr 26 at 10:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/3151675/tam%c3%a1s-sengel">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/OP2d0.png?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/3151675/tam%c3%a1s-sengel">
+           Tamás Sengel
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 51,580">
+            51.6k
+           </span>
+           <span aria-hidden="true" title="28 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             28
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            28 gold badges
+           </span>
+           <span aria-hidden="true" title="154 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             154
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            154 silver badges
+           </span>
+           <span aria-hidden="true" title="197 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             197
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            197 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-24 02:00:58Z">
+         Apr 24 at 2:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/8800839/jffigk">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/50ab71298e09d7df19b9741966f9af09?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/8800839/jffigk">
+           JFFIGK
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            511
+           </span>
+           <span aria-hidden="true" title="7 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             7
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            7 silver badges
+           </span>
+           <span aria-hidden="true" title="21 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             21
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            21 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-21 04:02:42Z">
+         Apr 21 at 4:02
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/11832197/santosonit">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/5e1f3eba73d7ac61ccc2ba214f947566?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/11832197/santosonit">
+           santosOnit
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            1,309
+           </span>
+           <span aria-hidden="true" title="7 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             7
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            7 silver badges
+           </span>
+           <span aria-hidden="true" title="16 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             16
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            16 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-19 12:01:42Z">
+         Apr 19 at 12:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/12939557/j%c3%a9r%c3%b4me-richard">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/2bbe922f72d150896146509cf768491a?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/12939557/j%c3%a9r%c3%b4me-richard">
+           Jérôme Richard
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 23,503">
+            23.5k
+           </span>
+           <span aria-hidden="true" title="3 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             3
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            3 gold badges
+           </span>
+           <span aria-hidden="true" title="19 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             19
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            19 silver badges
+           </span>
+           <span aria-hidden="true" title="45 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             45
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            45 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-18 22:00:57Z">
+         Apr 18 at 22:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/13394817/ali-sh">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/f6d3de3259bc20db96532e5661e80f02?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/13394817/ali-sh">
+           Ali_Sh
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            1,315
+           </span>
+           <span aria-hidden="true" title="2 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             2
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            2 gold badges
+           </span>
+           <span aria-hidden="true" title="8 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             8
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            8 silver badges
+           </span>
+           <span aria-hidden="true" title="28 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             28
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            28 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-18 17:00:42Z">
+         Apr 18 at 17:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/15506407/jefferson">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/3a585daeb04504211a39e84f23f90cac?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/15506407/jefferson">
+           Jefferson
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            71
+           </span>
+           <span aria-hidden="true" title="9 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             9
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            9 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-15 03:01:53Z">
+         Apr 15 at 3:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/6859121/mr-squirrel-downy">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/YCTLp.png?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/6859121/mr-squirrel-downy">
+           Mr. Squirrel.Downy
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            671
+           </span>
+           <span aria-hidden="true" title="5 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             5
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            5 silver badges
+           </span>
+           <span aria-hidden="true" title="21 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             21
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            21 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-06 23:00:31Z">
+         Apr 6 at 23:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/4930913/carson">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/oORYi.png?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/4930913/carson">
+           Carson
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            1,759
+           </span>
+           <span aria-hidden="true" title="6 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             6
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            6 silver badges
+           </span>
+           <span aria-hidden="true" title="20 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             20
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            20 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-05 18:01:06Z">
+         Apr 5 at 18:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/12007040/pijes">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/20c2bdd36d27674efaa72ab6a2b052d9?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/12007040/pijes">
+           Pijes
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            65
+           </span>
+           <span aria-hidden="true" title="7 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             7
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            7 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-04 20:01:07Z">
+         Apr 4 at 20:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/2142071/philip">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/NIvNw.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/2142071/philip">
+           Philip
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            2,706
+           </span>
+           <span aria-hidden="true" title="2 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             2
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            2 gold badges
+           </span>
+           <span aria-hidden="true" title="18 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             18
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            18 silver badges
+           </span>
+           <span aria-hidden="true" title="35 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             35
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            35 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-04-03 21:01:12Z">
+         Apr 3 at 21:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/15339544/santiago-squarzon">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/aF40L.png?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/15339544/santiago-squarzon">
+           Santiago Squarzon
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 19,338">
+            19.3k
+           </span>
+           <span aria-hidden="true" title="4 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             4
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            4 gold badges
+           </span>
+           <span aria-hidden="true" title="10 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             10
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            10 silver badges
+           </span>
+           <span aria-hidden="true" title="27 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             27
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            27 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-30 18:01:52Z">
+         Mar 30 at 18:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/4205875/brank-victoria">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://lh4.googleusercontent.com/-tVU6CspMO1M/AAAAAAAAAAI/AAAAAAAADYU/RAEC1VgZbqM/photo.jpg?sz=64" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/4205875/brank-victoria">
+           Brank Victoria
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            1,407
+           </span>
+           <span aria-hidden="true" title="10 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             10
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            10 silver badges
+           </span>
+           <span aria-hidden="true" title="16 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             16
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            16 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-30 06:00:22Z">
+         Mar 30 at 6:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/17455119/puckloe">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/100cb7e79a38f4ae10b53e11d837f78a?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/17455119/puckloe">
+           puckloe
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            7
+           </span>
+           <span aria-hidden="true" title="4 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             4
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            4 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-29 22:01:13Z">
+         Mar 29 at 22:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/16254208/michael">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14Gj2RKv9NjEwpFA6JtIzaD5mt8kkWnf7HMZSFdUA8g=k-s64" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/16254208/michael">
+           Michael
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            153
+           </span>
+           <span aria-hidden="true" title="10 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             10
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            10 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-29 04:02:37Z">
+         Mar 29 at 4:02
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/13138080/ollie">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/jrcyEs.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/13138080/ollie">
+           Ollie
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            415
+           </span>
+           <span aria-hidden="true" title="2 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             2
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            2 gold badges
+           </span>
+           <span aria-hidden="true" title="8 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             8
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            8 silver badges
+           </span>
+           <span aria-hidden="true" title="25 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             25
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            25 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-28 23:00:31Z">
+         Mar 28 at 23:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/1243762/guy-coder">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/b9b83cf6ca76699d7abfbba07f4675a3?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/1243762/guy-coder">
+           Guy Coder
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 23,085">
+            23.1k
+           </span>
+           <span aria-hidden="true" title="7 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             7
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            7 gold badges
+           </span>
+           <span aria-hidden="true" title="62 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             62
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            62 silver badges
+           </span>
+           <span aria-hidden="true" title="122 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             122
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            122 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-28 10:00:52Z">
+         Mar 28 at 10:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/7920153/shaio">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/f5b95a7e3329f8b91c70ed51f0531d46?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/7920153/shaio">
+           ShaiO
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            123
+           </span>
+           <span aria-hidden="true" title="1 silver badge">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             1
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            1 silver badge
+           </span>
+           <span aria-hidden="true" title="8 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             8
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            8 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-28 01:00:32Z">
+         Mar 28 at 1:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/2872922/ron-rosenfeld">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/c99b8cacb44a4ada478397cb29da0cac?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/2872922/ron-rosenfeld">
+           Ron Rosenfeld
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 46,752">
+            46.8k
+           </span>
+           <span aria-hidden="true" title="7 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             7
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            7 gold badges
+           </span>
+           <span aria-hidden="true" title="25 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             25
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            25 silver badges
+           </span>
+           <span aria-hidden="true" title="55 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             55
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            55 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-27 21:01:02Z">
+         Mar 27 at 21:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/4122474/wasenshi">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/a9d8423695948deb9a6843bf588e1a43?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/4122474/wasenshi">
+           Wasenshi
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            33
+           </span>
+           <span aria-hidden="true" title="1 silver badge">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             1
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            1 silver badge
+           </span>
+           <span aria-hidden="true" title="8 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             8
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            8 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-27 18:01:33Z">
+         Mar 27 at 18:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/1974224/cristik">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/rQQMq.png?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/1974224/cristik">
+           Cristik
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 28,419">
+            28.4k
+           </span>
+           <span aria-hidden="true" title="24 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             24
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            24 gold badges
+           </span>
+           <span aria-hidden="true" title="83 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             83
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            83 silver badges
+           </span>
+           <span aria-hidden="true" title="118 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             118
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            118 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-26 20:01:58Z">
+         Mar 26 at 20:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/14265469/yuri-khristich">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14Ghn6uNIKZpb87W-nB-qUz5sSECJ04B_2pnX3V8tkg=k-s64" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/14265469/yuri-khristich">
+           Yuri Khristich
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 10,725">
+            10.7k
+           </span>
+           <span aria-hidden="true" title="2 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             2
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            2 gold badges
+           </span>
+           <span aria-hidden="true" title="6 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             6
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            6 silver badges
+           </span>
+           <span aria-hidden="true" title="23 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             23
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            23 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-24 10:01:47Z">
+         Mar 24 at 10:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/28376/philnash">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/8ec1383b240b5ba15ffb9743fceb3c0e?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/28376/philnash">
+           philnash
+          </a>
+          <a class="ml4 fc-gold va-text-bottom js-gps-track fc-gold" data-controller="s-tooltip" data-gps-track="subcommunity_link.click({ subcommunity_user_type: 0, subcommunity_slug: twilio, link_source: 4 })" data-s-tooltip-placement="right-end" href="/collectives/twilio" title="This user is first on the weekly Twilio leaderboard.">
+           <svg aria-hidden="true" class="svg-icon iconAchievementsSm" height="14" viewbox="0 0 14 14" width="14">
+            <path d="M11 2V1H3v1H0v3c0 1.6 1.4 3 3 3 0 0 .5 2 3 2v1H4s-1 1.5-1 2h8c0-.4-1-2-1-2H8v-1c2.5 0 3-2 3-2 1.6-.2 3-1.4 3-3V2h-3ZM3 6c-.5 0-1-.5-1-1V4h1v2Zm9-1c0 .5-.5 1-1 1V4h1v1ZM7 7a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z">
+            </path>
+           </svg>
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 63,501">
+            63.5k
+           </span>
+           <span aria-hidden="true" title="10 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             10
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            10 gold badges
+           </span>
+           <span aria-hidden="true" title="52 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             52
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            52 silver badges
+           </span>
+           <span aria-hidden="true" title="78 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             78
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            78 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-23 18:00:17Z">
+         Mar 23 at 18:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/1078009/dot">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/9e4fa2c01327f6719075f5eb908b1b7d?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/1078009/dot">
+           dot
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 13,120">
+            13.1k
+           </span>
+           <span aria-hidden="true" title="37 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             37
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            37 gold badges
+           </span>
+           <span aria-hidden="true" title="88 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             88
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            88 silver badges
+           </span>
+           <span aria-hidden="true" title="174 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             174
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            174 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-21 18:00:52Z">
+         Mar 21 at 18:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/5853292/re-za">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/vFnYg.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/5853292/re-za">
+           re-za
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            682
+           </span>
+           <span aria-hidden="true" title="4 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             4
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            4 silver badges
+           </span>
+           <span aria-hidden="true" title="10 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             10
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            10 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-18 23:02:07Z">
+         Mar 18 at 23:02
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/18477056/jokoko">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJxLccs7i_xjl0eIm9toG3Svld0LFlNGCvfERqvz=k-s64" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/18477056/jokoko">
+           Jokoko
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            11
+           </span>
+           <span aria-hidden="true" title="3 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             3
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            3 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-18 14:00:42Z">
+         Mar 18 at 14:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/17865804/chris">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/e745a24a67ba3366c2f6acd97072c532?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/17865804/chris">
+           Chris
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            4,645
+           </span>
+           <span aria-hidden="true" title="2 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             2
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            2 gold badges
+           </span>
+           <span aria-hidden="true" title="6 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             6
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            6 silver badges
+           </span>
+           <span aria-hidden="true" title="28 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             28
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            28 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-17 22:00:19Z">
+         Mar 17 at 22:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/16680213/spencerg">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/qu6sy.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/16680213/spencerg">
+           SpencerG
+          </a>
+          <span class="mod-flair mtn2" title="Moderator">
+           ♦
+          </span>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            101
+           </span>
+           <span aria-hidden="true" title="3 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             3
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            3 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-17 03:01:22Z">
+         Mar 17 at 3:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/790842/iphonic">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/Qz93N.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/790842/iphonic">
+           iphonic
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 12,170">
+            12.2k
+           </span>
+           <span aria-hidden="true" title="5 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             5
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            5 gold badges
+           </span>
+           <span aria-hidden="true" title="57 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             57
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            57 silver badges
+           </span>
+           <span aria-hidden="true" title="102 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             102
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            102 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-12 21:01:47Z">
+         Mar 12 at 21:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/1155209/jewelsea">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/5192e7cbcf2f72a847d6fb0d1552f049?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/1155209/jewelsea">
+           jewelsea
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 140,352">
+            140k
+           </span>
+           <span aria-hidden="true" title="12 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             12
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            12 gold badges
+           </span>
+           <span aria-hidden="true" title="350 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             350
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            350 silver badges
+           </span>
+           <span aria-hidden="true" title="390 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             390
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            390 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-09 02:01:57Z">
+         Mar 9 at 2:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/13583510/cmgchess">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/myTpQ.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/13583510/cmgchess">
+           cmgchess
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            3,315
+           </span>
+           <span aria-hidden="true" title="2 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             2
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            2 gold badges
+           </span>
+           <span aria-hidden="true" title="23 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             23
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            23 silver badges
+           </span>
+           <span aria-hidden="true" title="38 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             38
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            38 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-09 01:01:22Z">
+         Mar 9 at 1:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/1145388/stephen-ostermiller">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/HZ9CL.png?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/1145388/stephen-ostermiller">
+           Stephen Ostermiller
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 21,176">
+            21.2k
+           </span>
+           <span aria-hidden="true" title="12 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             12
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            12 gold badges
+           </span>
+           <span aria-hidden="true" title="79 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             79
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            79 silver badges
+           </span>
+           <span aria-hidden="true" title="104 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             104
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            104 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-07 10:00:27Z">
+         Mar 7 at 10:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/4333359/alollz">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/231e42e97a07b2937c1bf8a313dfa3f7?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/4333359/alollz">
+           ALollz
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 54,593">
+            54.6k
+           </span>
+           <span aria-hidden="true" title="7 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             7
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            7 gold badges
+           </span>
+           <span aria-hidden="true" title="53 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             53
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            53 silver badges
+           </span>
+           <span aria-hidden="true" title="76 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             76
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            76 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-06 17:00:46Z">
+         Mar 6 at 17:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/12368419/cizario">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/aaEN0.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/12368419/cizario">
+           cizario
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            3,562
+           </span>
+           <span aria-hidden="true" title="3 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             3
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            3 gold badges
+           </span>
+           <span aria-hidden="true" title="12 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             12
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            12 silver badges
+           </span>
+           <span aria-hidden="true" title="25 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             25
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            25 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-05 17:00:42Z">
+         Mar 5 at 17:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/13658816/jsn00b">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/wU5Nw.png?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/13658816/jsn00b">
+           jsN00b
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            2,718
+           </span>
+           <span aria-hidden="true" title="2 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             2
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            2 gold badges
+           </span>
+           <span aria-hidden="true" title="4 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             4
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            4 silver badges
+           </span>
+           <span aria-hidden="true" title="19 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             19
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            19 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-05 08:01:22Z">
+         Mar 5 at 8:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/13944524/soroush-bakhtiary">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/WedPz.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/13944524/soroush-bakhtiary">
+           SorousH Bakhtiary
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            7,277
+           </span>
+           <span aria-hidden="true" title="4 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             4
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            4 gold badges
+           </span>
+           <span aria-hidden="true" title="14 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             14
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            14 silver badges
+           </span>
+           <span aria-hidden="true" title="37 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             37
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            37 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-03 12:00:47Z">
+         Mar 3 at 12:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/2914140/coolmind">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/Ik94c.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/2914140/coolmind">
+           CoolMind
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 22,214">
+            22.2k
+           </span>
+           <span aria-hidden="true" title="12 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             12
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            12 gold badges
+           </span>
+           <span aria-hidden="true" title="166 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             166
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            166 silver badges
+           </span>
+           <span aria-hidden="true" title="196 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             196
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            196 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-03-02 17:01:12Z">
+         Mar 2 at 17:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/12431576/byiringiro-emmanuel">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/carJX.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/12431576/byiringiro-emmanuel">
+           BYIRINGIRO Emmanuel
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            1,986
+           </span>
+           <span aria-hidden="true" title="1 gold badge">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             1
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            1 gold badge
+           </span>
+           <span aria-hidden="true" title="5 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             5
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            5 silver badges
+           </span>
+           <span aria-hidden="true" title="9 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             9
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            9 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-25 20:01:22Z">
+         Feb 25 at 20:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/17479027/guhlis">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/5338f23ad389c6fb518b598567eaa79a?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/17479027/guhlis">
+           Guhlis
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            83
+           </span>
+           <span aria-hidden="true" title="7 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             7
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            7 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-25 17:00:52Z">
+         Feb 25 at 17:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/16752210/anye">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GiEjGizinwmZFpNDVZgERFH5_9s2wLGQbR9b6L9=k-s64" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/16752210/anye">
+           Anye
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            1
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-25 17:00:52Z">
+         Feb 25 at 17:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/5618326/mile-mijatovi%c4%87">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/iXxLF.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/5618326/mile-mijatovi%c4%87">
+           Mile Mijatović
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            2,515
+           </span>
+           <span aria-hidden="true" title="1 gold badge">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             1
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            1 gold badge
+           </span>
+           <span aria-hidden="true" title="21 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             21
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            21 silver badges
+           </span>
+           <span aria-hidden="true" title="35 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             35
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            35 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-24 13:00:37Z">
+         Feb 24 at 13:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/17820485/fixeddrill">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/977ded1d8d0c8f3bafce9aa1ac968f1d?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/17820485/fixeddrill">
+           fixedDrill
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            153
+           </span>
+           <span aria-hidden="true" title="12 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             12
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            12 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-23 15:00:57Z">
+         Feb 23 at 15:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/446594/darkbee">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/265aa3b3b575f011c853fc00f41eccfb?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/446594/darkbee">
+           DarkBee
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 15,408">
+            15.4k
+           </span>
+           <span aria-hidden="true" title="5 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             5
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            5 gold badges
+           </span>
+           <span aria-hidden="true" title="45 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             45
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            45 silver badges
+           </span>
+           <span aria-hidden="true" title="56 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             56
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            56 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-23 13:01:46Z">
+         Feb 23 at 13:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/10927323/user173420">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/49e96a59eeb04b2d1987766e52393c4f?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/10927323/user173420">
+           user173420
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            332
+           </span>
+           <span aria-hidden="true" title="1 silver badge">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             1
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            1 silver badge
+           </span>
+           <span aria-hidden="true" title="11 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             11
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            11 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-18 20:01:02Z">
+         Feb 18 at 20:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/12197178/casey">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/0bef4bbeebf465554481f059400c08d5?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/12197178/casey">
+           Casey
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            55
+           </span>
+           <span aria-hidden="true" title="7 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             7
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            7 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-18 08:00:25Z">
+         Feb 18 at 8:00
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/8495254/captain-yossarian">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/hZTpc.png?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/8495254/captain-yossarian">
+           captain-yossarian
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score 22,277">
+            22.3k
+           </span>
+           <span aria-hidden="true" title="3 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             3
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            3 gold badges
+           </span>
+           <span aria-hidden="true" title="17 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             17
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            17 silver badges
+           </span>
+           <span aria-hidden="true" title="47 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             47
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            47 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-02-17 19:01:27Z">
+         Feb 17 at 19:01
+        </span>
+        to
+       </div>
+       <div class="single-badge-user">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/11057988/rahul-bhobe">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/QNPs3.jpg?s=64&amp;g=1" width="32"/>
+           </div>
+          </a>
+         </div>
+         <div class="user-details">
+          <a href="/users/11057988/rahul-bhobe">
+           Rahul Bhobe
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            3,456
+           </span>
+           <span aria-hidden="true" title="4 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             4
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            4 gold badges
+           </span>
+           <span aria-hidden="true" title="14 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             14
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            14 silver badges
+           </span>
+           <span aria-hidden="true" title="30 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             30
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            30 bronze badges
            </span>
           </div>
          </div>
@@ -728,6 +3837,30 @@
       </div>
      </div>
      <div class="s-pagination site1 themed pager float-left">
+      <div class="s-pagination--item is-selected">
+       1
+      </div>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/884?page=2" rel="" title="Go to page 2">
+       2
+      </a>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/884?page=3" rel="" title="Go to page 3">
+       3
+      </a>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/884?page=4" rel="" title="Go to page 4">
+       4
+      </a>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/884?page=5" rel="" title="Go to page 5">
+       5
+      </a>
+      <div class="s-pagination--item s-pagination--item__clear">
+       …
+      </div>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/884?page=196" rel="" title="Go to page 196">
+       196
+      </a>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/884?page=2" rel="next" title="Go to page 2">
+       Next
+      </a>
      </div>
     </div>
     <div class="faq-page" id="sidebar">
@@ -985,13 +4118,41 @@
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.5.42046
+       rev 2022.5.9.42071
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
+   (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ],
+                        checkDimension: 'dimension42'
+                });
+
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Badges/Detail');
+
+
+                StackExchange.ga.setDimension('dimension7', "1652175943.1534788");
+
+                StackExchange.ga.trackPageView();
+            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

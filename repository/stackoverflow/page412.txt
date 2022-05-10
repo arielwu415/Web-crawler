@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html class="html__responsive html__unpinned-leftnav" lang="en">
+<html class="html__responsive" lang="en">
  <head>
   <title>
-   Help Center - Stack Overflow
+   Yearling - Badge - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/badges/13/yearling?userid=1386680" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="Help Center" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Yearling - Badge" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1651824214,"routeName":"Help/Index","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652175925,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,7 +40,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -52,7 +52,7 @@
    </noscript>
   </meta>
  </head>
- <body class="faq-page unified-theme">
+ <body class="badges-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
@@ -64,7 +64,7 @@
      </span>
     </a>
     <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
-     <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm md lg">
+     <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
      </div>
     </div>
     <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:7, destination:8})" href="https://stackoverflow.com">
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f13%2fyearling%3fuserid%3d1386680">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f13%2fyearling%3fuserid%3d1386680">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f13%2fyearling%3fuserid%3d1386680" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f13%2fyearling%3fuserid%3d1386680" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -280,84 +280,8 @@
    StackExchange.ready(function () { StackExchange.topbar.init(); });
         StackExchange.scrollPadding.setPaddingTop(50, 10);
   </script>
-  <div class="sm:d-none py24 bg-black-750 fc-black-200 ps-relative">
-   <div class="px12 d-flex ai-center jc-center mx-auto wmx12">
-    <div class="flex--item wmx3 fs-body2 mr64 md:mr32">
-     <p>
-      New to Stack Overflow? Find out everything you need to get started by taking the tour. If you still have questions, come back and check out the pinned articles.
-     </p>
-     <a class="s-btn s-btn__primary" href="/tour">
-      Take the 2-minute tour
-     </a>
-    </div>
-    <div class="d-flex fd-column ai-center wmn3 hero-background">
-     <div class="d-flex ai-center mb24">
-      <div class="flex--item mr16">
-       <img src="https://cdn.sstatic.net/Img/hero/anonymousHeroQuestions.svg?v=748bfb046b78" width="31"/>
-      </div>
-      <div class="flex--item">
-      </div>
-     </div>
-     <div class="d-flex ai-center mb24">
-      <div class="flex--item mr16">
-       <img src="https://cdn.sstatic.net/Img/hero/anonymousHeroAnswers.svg?v=d5348b00eddc" width="35"/>
-      </div>
-      <div class="flex--item">
-      </div>
-     </div>
-     <div class="d-flex ai-center">
-      <div class="flex--item mr16">
-       <img src="https://cdn.sstatic.net/Img/hero/anonymousHeroUpvote.svg?v=af2bb70d5d1b" width="24"/>
-      </div>
-      <div class="flex--item wmx2">
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
-  <script>
-   StackExchange.ready(function () {
-        StackExchange.Hero.init("hlp", "a");
-
-        var location = 0;
-        if ($("body").hasClass("questions-page")) {
-            location = 1;
-        } else if ($("body").hasClass("question-page")) {
-            location = 1;
-        } else if ($("body").hasClass("faq-page")) {
-            location = 5;
-        } else if ($("body").hasClass("home-page")) {
-            location = 3;
-        }
-
-        $('.js-cta-button').click(function () {
-            StackExchange.using("gps", function () {
-StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true);                StackExchange.gps.track("hero.action", { hero_action_type: 'cta', location: location }, true);
-            });
-        });
-
-        // TODO: we should review the class names and whatnot in use here. Older heroes use id selectors, the newer
-        // sticky question hero on SO has a .js-dismiss class instead, but it's apparently not used anywhere... 
-        // It's not great. Ideally we'd have a set of classes in the partials above that would correspond to 
-        // the behaviours we want here in a more clear way. 
-
-        // sticky question-page hero at the bottom of the page on SO
-        $('.js-dismiss').on('click', function () {
-            StackExchange.using("gps", function () {
-                StackExchange.gps.track("hero.action", { hero_action_type: "close", location: location }, true);
-            });
-            StackExchange.Hero.dismiss();
-            $(".js-dismissable-hero").fadeOut("fast");
-        });
-    });
-  </script>
-  <script>
-   StackExchange.using("gps", function () {
-            StackExchange.gps.track("hero.show", { hero_type: "helphero", location: 5 }, true);
-        });
-  </script>
   <div class="container">
-   <div class="left-sidebar js-pinned-left-sidebar ps-relative" data-is-here-when="" id="left-sidebar">
+   <div class="left-sidebar js-pinned-left-sidebar ps-relative" data-is-here-when="md lg" id="left-sidebar">
     <div class="left-sidebar--sticky-container js-sticky-leftnav">
      <nav role="navigation">
       <ol class="nav-links">
@@ -445,7 +369,7 @@ StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true
           <div class="fs-fine tt-uppercase ml8 mt16 mb8 fc-light">
            Teams
           </div>
-          <div class="px32 pt16 pb0 fc-black-600 blr-sm overflow-hidden">
+          <div class="bt bl bb bc-black-075 p12 pb6 fc-black-600 blr-sm overflow-hidden">
            <strong class="fc-black-750 mb6">
             Stack Overflow for Teams
            </strong>
@@ -555,436 +479,270 @@ StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div class="mainbar-full help-center" id="help-index">
+    <div id="mainbar">
      <div class="s-page-title mb16">
       <div class="s-page-title--text">
+       <nav aria-label="breadcrumb" class="s-breadcrumbs mb6 sm:mb2">
+        <div class="s-breadcrumbs--item">
+         <a class="s-breadcrumbs--link" href="/">
+          Stack Overflow
+         </a>
+         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
+          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
+          </path>
+         </svg>
+        </div>
+        <div class="s-breadcrumbs--item">
+         <a class="s-breadcrumbs--link" href="/help">
+          Help center
+         </a>
+         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
+          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
+          </path>
+         </svg>
+        </div>
+        <div class="s-breadcrumbs--item">
+         <a class="s-breadcrumbs--link" href="/help/badges">
+          Badges
+         </a>
+        </div>
+       </nav>
        <h1 class="s-page-title--header">
-        Help center
+        Yearling
        </h1>
       </div>
      </div>
-     <form action="/help/search" class="mx-auto mt48 mb64 wmx6" id="bigsearch" method="get">
-      <div class="d-flex">
-       <div class="flex--item fl1 ps-relative mr8">
-        <input class="s-input s-input__md s-input__search h100" maxlength="300" name="q" placeholder="Search help pages…" type="text"/>
-        <svg aria-hidden="true" class="s-input-icon s-input-icon__search svg-icon iconSearch" height="18" viewbox="0 0 18 18" width="18">
-         <path d="m18 16.5-5.14-5.18h-.35a7 7 0 1 0-1.19 1.19v.35L16.5 18l1.5-1.5ZM12 7A5 5 0 1 1 2 7a5 5 0 0 1 10 0Z">
-         </path>
-        </svg>
-       </div>
-       <div class="flex--item">
-        <button class="s-btn s-btn__primary s-btn__md" type="submit">
-         Search
-        </button>
-       </div>
-      </div>
-     </form>
-     <div class="wiki-ph" data-placeholder="WikiPlaceholder-HelpCenterIntro">
-      <div class="wiki-ph-content">
-       <p>
-        <br/>
-       </p>
-       <h2>
-        Welcome to the Stack Overflow Help Center!
-       </h2>
-       <p>
-        If you are unable to find the answer you need here, you can also search for or ask a question about Stack Overflow on
-        <a href="https://meta.stackoverflow.com">
-         Meta
-        </a>
-        !
-       </p>
-       <p>
-        <a href="https://meta.stackoverflow.com/questions/tagged/faq?tab=Votes">
-         Frequently Asked Questions
-        </a>
-        on Meta:
-        <br/>
-       </p>
-       <ul>
-        <li>
-         <a href="https://meta.stackoverflow.com/q/334822">
-          How do I ask and answer homework questions?
+     <div class="single-badge-table">
+      <div class="single-badge-header">
+       <div class="single-badge-wrapper">
+        <div class="single-badge-badge">
+         <a class="badge" href="/help/badges/13/yearling" title="silver badge: Active member for a year, earning at least 200 reputation">
+          <span class="badge2">
+          </span>
+          Yearling
          </a>
-         <li>
-          <a href="https://meta.stackoverflow.com/q/261592">
-           How much research effort is expected of Stack Overflow users?
+        </div>
+        <div class="single-badge-title">
+         Active member for a year, earning at least 200 reputation. This badge can be awarded multiple times.
+        </div>
+       </div>
+       <div class="single-badge-count">
+        <div class="user-info user-hover">
+         <div class="user-action-time truncate">
+         </div>
+         <div class="user-gravatar32">
+          <a href="/users/1386680/rohit416">
+           <div class="gravatar-wrapper-32">
+            <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/Hvnb7.png?s=64&amp;g=1" width="32"/>
+           </div>
           </a>
-          <li>
-           <a href="https://meta.stackoverflow.com/q/269653">
-            Why did I gain/lose reputation?
-           </a>
-           <li>
-            <a href="https://meta.stackoverflow.com/q/252252">
-             What can I do when I think my question is not a duplicate?
-            </a>
-            <li>
-             <a href="https://meta.stackoverflow.com/q/255583">
-              What can I do when getting “We are no longer accepting questions/answers from this account”?
-             </a>
-             <li>
-              <i>
-               see also
-              </i>
-              <a href="https://meta.stackoverflow.com/questions/251225/faq-index-for-stack-overflow">
-               FAQ index
-              </a>
-             </li>
-            </li>
-           </li>
-          </li>
-         </li>
-        </li>
-       </ul>
-       <p>
+         </div>
+         <div class="user-details">
+          <a href="/users/1386680/rohit416">
+           Rohit416
+          </a>
+          <div class="-flair">
+           <span class="reputation-score" dir="ltr" title="reputation score ">
+            3,248
+           </span>
+           <span aria-hidden="true" title="3 gold badges">
+            <span class="badge1">
+            </span>
+            <span class="badgecount">
+             3
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            3 gold badges
+           </span>
+           <span aria-hidden="true" title="23 silver badges">
+            <span class="badge2">
+            </span>
+            <span class="badgecount">
+             23
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            23 silver badges
+           </span>
+           <span aria-hidden="true" title="40 bronze badges">
+            <span class="badge3">
+            </span>
+            <span class="badgecount">
+             40
+            </span>
+           </span>
+           <span class="v-visible-sr">
+            40 bronze badges
+           </span>
+          </div>
+         </div>
+        </div>
         <br/>
-       </p>
+        earned this badge 10 times.
+       </div>
       </div>
      </div>
-     <h2>
-      Find out more about…
-     </h2>
-     <div class="help-center-index">
-      <div class="help-category-box help-category-big-box">
-       <h3>
-        Asking
-       </h3>
-       <ul>
-        <li>
-         <a href="https://stackoverflow.com/help/dont-ask">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          What types of questions should I avoid asking?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/on-topic">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          What topics can I ask about here?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/closed-questions">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          What does it mean if a question is "closed"?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/deleted-questions">
-          Why and how are some questions deleted?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/duplicates">
-          Why are some questions marked as duplicate?
-         </a>
-        </li>
-       </ul>
-       <a href="/help/asking">
-        » View more
-       </a>
-      </div>
-      <div class="help-category-box help-category-big-box">
-       <h3>
-        Our model
-       </h3>
-       <ul>
-        <li>
-         <a href="https://stackoverflow.com/help/conduct">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          Code of Conduct
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/behavior">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          Expected Behavior
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/interesting-topics">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          How do I find topics I'm interested in?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/promotion">
-          How to not be a spammer
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/searching">
-          How do I search?
-         </a>
-        </li>
-       </ul>
-       <a href="/help/stackexchange">
-        » View more
-       </a>
-      </div>
-      <div class="help-category-box help-category-big-box">
-       <h3>
-        Reputation &amp; Moderation
-       </h3>
-       <ul>
-        <li>
-         <a href="https://stackoverflow.com/help/site-moderators">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          Who are the site moderators, and what is their role here?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/why-vote">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          Why is voting important?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/whats-reputation">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          What is reputation? How do I earn (and lose) it?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/mod-agreement-policies">
-          Moderator Agreement policies
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/staff">
-          Who are the staff, and what is their role here?
-         </a>
-        </li>
-       </ul>
-       <a href="/help/reputation">
-        » View more
-       </a>
-      </div>
-      <div class="help-category-box help-category-big-box">
-       <h3>
-        Answering
-       </h3>
-       <ul>
-        <li>
-         <a href="https://stackoverflow.com/help/how-to-answer">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          How do I write a good answer?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/accepted-answer">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          What does it mean when an answer is "accepted"?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/deleted-answers">
-          Why and how are some answers deleted?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/referencing">
-          How to reference material written by others
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/answer-bans">
-          Why are answers no longer being accepted from my account?
-         </a>
-        </li>
-       </ul>
-       <a href="/help/answering">
-        » View more
-       </a>
-      </div>
-      <div class="help-category-big-box">
-       <div class="help-category-box">
-        <h3>
-         Badges
-        </h3>
-        <ul>
-         <li>
-          <a href="/help/badges">
-           View a full list of badges you can earn
-          </a>
-         </li>
-        </ul>
+     <div class="single-badge-table">
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2022-05-10 09:35:22Z">
+         10 mins ago
+        </span>
        </div>
-       <div class="help-category-box">
-        <h3>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2021-05-10 09:25:26Z">
+         May 10, 2021 at 9:25
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2020-05-10 09:37:19Z">
+         May 10, 2020 at 9:37
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2019-05-10 09:35:12Z">
+         May 10, 2019 at 9:35
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2018-05-10 09:26:43Z">
+         May 10, 2018 at 9:26
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2017-05-10 09:23:08Z">
+         May 10, 2017 at 9:23
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2016-05-10 09:56:18Z">
+         May 10, 2016 at 9:56
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2015-05-10 09:24:21Z">
+         May 10, 2015 at 9:24
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2014-05-10 09:24:16Z">
+         May 10, 2014 at 9:24
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+      <div class="single-badge-row-double">
+       <div class="single-badge-awarded">
+        Awarded
+        <span class="relativetime" title="2013-05-10 10:05:39Z">
+         May 10, 2013 at 10:05
+        </span>
+       </div>
+       <div class="single-badge-user">
+       </div>
+      </div>
+     </div>
+     <div class="s-pagination site1 themed pager float-left">
+     </div>
+     <p style="padding-top: 2em;">
+      <a href="/help/badges/13/yearling">
+       Others with this badge
+      </a>
+     </p>
+    </div>
+    <div class="faq-page" id="sidebar">
+     <nav class="s-sidebarwidget mb24" id="toc">
+      <ul class="s-sidebarwidget--content s-sidebarwidget__items">
+       <li class="s-sidebarwidget--item">
+        <a href="/help/asking">
+         Asking
+        </a>
+       </li>
+       <li class="s-sidebarwidget--item">
+        <a aria-current="false" href="/help/privileges">
          Privileges
-        </h3>
-        <ul>
-         <li>
-          <a href="/help/privileges">
-           View a full list of privileges you can earn
-          </a>
-         </li>
-        </ul>
-       </div>
-      </div>
-      <div class="help-category-box help-category-big-box">
-       <h3>
-        My Account
-       </h3>
-       <ul>
-        <li>
-         <a href="https://stackoverflow.com/help/merging-accounts">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          I accidentally created two accounts; how do I merge them?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/edit-credentials">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          How do I add or remove login credentials from my account?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/reset-password">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          I lost my password; how do I reset it?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/deleting-account">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          How do I delete my account?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/abuse-block">
-          Why has my post been blocked due to "spam and abuse from my network"?
-         </a>
-        </li>
-       </ul>
-       <a href="/help/account">
-        » View more
-       </a>
-      </div>
-      <div class="help-category-box help-category-big-box">
-       <h3>
-        Review Queues
-       </h3>
-       <ul>
-        <li>
-         <a href="https://stackoverflow.com/help/reviews-intro">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          What are review queues?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/review-close">
-          How do I use the Close votes queue?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/review-reopen">
-          How do I use the Reopen votes queue?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/review-low-quality">
-          How do I use the Low quality posts queue?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/review-suggested-edits">
-          How do I use the Suggested edits queue?
-         </a>
-        </li>
-       </ul>
-       <a href="/help/review-queues">
-        » View more
-       </a>
-      </div>
-      <div class="help-category-box help-category-big-box">
-       <h3>
-        Collectives on Stack Overflow
-       </h3>
-       <ul>
-        <li>
-         <a href="https://stackoverflow.com/help/collectives-what-are">
-          <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-           <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-           </path>
-          </svg>
-          What is Collectives on Stack Overflow?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/propose-article">
-          How do I propose and review new articles?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/collectives-join">
-          How do I join a Collective?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/collectives-tags">
-          How do you determine which tags are included in a Collective?
-         </a>
-        </li>
-        <li>
-         <a href="https://stackoverflow.com/help/collectives-user-types">
-          What are the different types of users in a Collective?
-         </a>
-        </li>
-       </ul>
-       <a href="/help/collectives">
-        » View more
-       </a>
-      </div>
-     </div>
+        </a>
+       </li>
+       <li class="s-sidebarwidget--item">
+        <a aria-current="page" href="/help/badges">
+         Badges
+        </a>
+       </li>
+       <li class="s-sidebarwidget--item">
+        <a href="/help/stackexchange">
+         Our model
+        </a>
+       </li>
+       <li class="s-sidebarwidget--item">
+        <a href="/help/reputation">
+         Reputation &amp; Moderation
+        </a>
+       </li>
+       <li class="s-sidebarwidget--item">
+        <a href="/help/answering">
+         Answering
+        </a>
+       </li>
+       <li class="s-sidebarwidget--item">
+        <a href="/help/account">
+         My Account
+        </a>
+       </li>
+       <li class="s-sidebarwidget--item">
+        <a href="/help/review-queues">
+         Review Queues
+        </a>
+       </li>
+       <li class="s-sidebarwidget--item">
+        <a href="/help/collectives">
+         Collectives on Stack Overflow
+        </a>
+       </li>
+      </ul>
+     </nav>
     </div>
    </div>
   </div>
@@ -1190,13 +948,41 @@ StackExchange.gps.track("aboutpage.click", { aboutclick_location: "hero" }, true
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.5.42046
+       rev 2022.5.9.42071
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
+   (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ],
+                        checkDimension: 'dimension42'
+                });
+
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Badges/Detail');
+
+
+                StackExchange.ga.setDimension('dimension7', "1652175925.194154209");
+
+                StackExchange.ga.trackPageView();
+            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

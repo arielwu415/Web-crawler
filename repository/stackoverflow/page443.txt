@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   redirect - Badge - Stack Overflow
+   Scholar - Badge - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/badges/4487/redirect?userid=548225" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/badges/10/scholar" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="redirect - Badge" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Scholar - Badge" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1651824232,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652175942,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,7 +40,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f4487%2fredirect%3fuserid%3d548225">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f10%2fscholar">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f4487%2fredirect%3fuserid%3d548225">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f10%2fscholar">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f4487%2fredirect%3fuserid%3d548225" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f10%2fscholar" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f4487%2fredirect%3fuserid%3d548225" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f10%2fscholar" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -508,7 +508,7 @@
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        Tags
+        Scholar
        </h1>
       </div>
      </div>
@@ -516,100 +516,2969 @@
       <div class="single-badge-header">
        <div class="single-badge-wrapper">
         <div class="single-badge-badge">
-         <a class="badge-tag" href="/help/badges/4487/redirect" title="gold badge: Earn at least 1000 total score for at least 200 non-community wiki answers in the redirect tag">
-          <span class="badge1">
+         <a class="badge" href="/help/badges/10/scholar" title="bronze badge: Ask a question and accept an answer">
+          <span class="badge3">
           </span>
-          redirect
+          Scholar
          </a>
         </div>
         <div class="single-badge-title">
-         Earn at least 1000 total score for at least 200 non-community wiki answers in the
-         <a class="post-tag" href="/questions/tagged/redirect" rel="tag" title="show questions tagged 'redirect'">
-          redirect
-         </a>
-         tag. These users can single-handedly mark
-         <a class="post-tag" href="/questions/tagged/redirect" rel="tag" title="show questions tagged 'redirect'">
-          redirect
-         </a>
-         questions as duplicates and reopen them as needed.
+         Ask a question and accept an answer.
         </div>
        </div>
        <div class="single-badge-count">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/548225/anubhava">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/dab08478b226280d4a30894c9a7ed719?s=64&amp;d=identicon&amp;r=PG" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/548225/anubhava">
-           anubhava
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 710,540">
-            711k
-           </span>
-           <span aria-hidden="true" title="59 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             59
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            59 gold badges
-           </span>
-           <span aria-hidden="true" title="512 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             512
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            512 silver badges
-           </span>
-           <span aria-hidden="true" title="588 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             588
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            588 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-        <br/>
-        earned this badge 1 time.
+        Awarded 2345820 times.
        </div>
       </div>
      </div>
      <div class="single-badge-table">
-      <div class="single-badge-row-double">
-       <div class="single-badge-awarded">
-        Awarded
-        <span class="relativetime" title="2014-11-15 03:07:47Z">
-         Nov 15, 2014 at 3:07
-        </span>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72176357/scrapy-parse-function-not-passing-found-values-to-the-parse-page2-function">
+         Scrapy Parse function not passing found values to the parse_page2 function
+        </a>
        </div>
-       <div class="single-badge-user">
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:41:57Z">
+          3 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19079017/stack-aswin">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/91bff8dfe843e32c8b06aaf7673578f9?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19079017/stack-aswin">
+            Stack-Aswin
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/71938206/calculating-dropped-packet-using-trace-json-for-a-simulation-in-unetstack3">
+         Calculating Dropped Packet using trace.json for a simulation in UnetStack3
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:41:57Z">
+          3 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/16490243/harendra-singh">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/ad8f8ee4e97268f0042c97ca7e65dc16?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/16490243/harendra-singh">
+            Harendra Singh
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             71
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72181798/why-does-nested-loop-start-from-0-and-how-to-change-it-to-start-from-where-it-ha">
+         why does nested loop start from 0 and how to change it to start from where it had left?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:35:22Z">
+          10 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19030808/mike-k">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/b6aab188b37b2d3fdff1a0a35f3f4d51?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19030808/mike-k">
+            Mike K.
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72166827/problem-with-load-function-cs50-problem-set-5-speller">
+         Problem with load() function (CS50 Problem Set 5: Speller)
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:30:27Z">
+          15 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19072324/hitsujee">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/d200e848f8f38404739b454bdfb93c08?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19072324/hitsujee">
+            hitsujee
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/66967127/how-to-run-sh-file-in-python-and-pass-input-to-it">
+         how to run .sh file in python and pass input to it?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:30:27Z">
+          15 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/9888988/ali-ganjbakhsh">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/3CzmG.jpg?s=64&amp;g=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/9888988/ali-ganjbakhsh">
+            Ali Ganjbakhsh
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             225
+            </span>
+            <span aria-hidden="true" title="1 silver badge">
+             <span class="badge2">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 silver badge
+            </span>
+            <span aria-hidden="true" title="7 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              7
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             7 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72166696/using-string-view-to-represent-the-string-key">
+         Using "string_view" to represent the "string" key
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:30:27Z">
+          15 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/7727322/derfei">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/985c2f93280adb31c8ca8463f8bffb34?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/7727322/derfei">
+            Derfei
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/71760703/huawei-mate20-webrtc-crash-issuefailed-to-set-remote-answer-sdp-failed-to-set">
+         HUAWEI Mate20 webrtc crash issue:Failed to set remote answer sdp: Failed to set remote video description send parameters
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:30:27Z">
+          15 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18678843/keqing">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/9de09736ceec803b7100fb78722f2981?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18678843/keqing">
+            KeQing
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/71956104/using-tshark-in-compiled-python-exe">
+         Using Tshark in compiled python exe
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:21:32Z">
+          24 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18438289/fabian-mrusek">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GhfV7l4li-mlA15nsaV5vRfi1B51tphrSc-tMOr=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18438289/fabian-mrusek">
+            Fabian Mrusek
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             1
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182791/how-to-combine-two-dataframe-based-on-column-route">
+         How to combine two dataframe based on column route?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:21:32Z">
+          24 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/9981598/xhexijke">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/e378fe7b94ef2c1e74c142654f1e0f56?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/9981598/xhexijke">
+            xhexijke
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182933/subprocess-popen-doesnt-work-with-swift">
+         Subprocess.popen() Doesn't Work With Swift
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:21:32Z">
+          24 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/12654644/john-hao">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh5.googleusercontent.com/-O1cdn4_ZQXc/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdK6Urvhuu1yG6bIQsinTi0_qHVdA/photo.jpg?sz=64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/12654644/john-hao">
+            John Hao
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72112937/api-request-in-post-man">
+         API request in post man
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:15:57Z">
+          29 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/17984403/mohamad-eibo">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GgODpevOquB9WOe4ZL1mKVTjwQTqnPkYgBiSSpXTQ=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/17984403/mohamad-eibo">
+            Mohamad Eibo
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72111239/adding-a-mmio-peripheral-to-a-small-rocket-core">
+         Adding a MMIO peripheral to a small rocket core
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:15:57Z">
+          29 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19032033/nachoge98">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/2cb2e94210c49cab4655cc305809e6a0?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19032033/nachoge98">
+            nachoge98
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72170511/css-class-with-nested-elements">
+         CSS class with nested elements
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:15:57Z">
+          29 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19075503/kgact">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJyBRjG7o9bnVUW6RHVY-l884dGT8e5333Fi-s29=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19075503/kgact">
+            KgACT
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72168932/to-fetch-a-instance-name-and-ip-from-the-gcp-compute-instance-info-module">
+         To fetch a instance name and IP from the gcp_compute_instance_info module
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:15:57Z">
+          29 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19074182/pugazhendhi-r">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/64800b0534217f0cf16818f106991844?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19074182/pugazhendhi-r">
+            pugazhendhi_r
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182488/php-how-to-clone-from-another-object-of-same-class-internally-clone-curren">
+         PHP: how to "clone from" another object of same class? 'Internally clone' current object from source obj, NOT clone another object from current
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:10:26Z">
+          35 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/13633474/nickn">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/4f36d33f556c07717aa242a046ad4146?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/13633474/nickn">
+            NickN
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/56551509/getting-and-setting-values-from-redux-store-with-redux-saga">
+         Getting and setting values from Redux Store with Redux Saga
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:05:12Z">
+          40 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/10894272/calvin-tiley">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/8200765d04a903f370c76da7f91c213b?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/10894272/calvin-tiley">
+            Calvin Tiley
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             168
+            </span>
+            <span aria-hidden="true" title="8 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              8
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             8 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72183094/distinct-substr-max-in-oracle-database">
+         DISTINCT, SUBSTR &amp; MAX in Oracle Database
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:05:12Z">
+          40 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/7229651/siddharth-karkhanis">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh5.googleusercontent.com/-vbEyhSBpraM/AAAAAAAAAAI/AAAAAAAAABM/dMVwsg-O2js/photo.jpg?sz=64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/7229651/siddharth-karkhanis">
+            Siddharth Karkhanis
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72150123/how-can-a-compile-a-c-codefile-as-a-efi-app">
+         How can a compile a c codefile as a efi app?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:05:12Z">
+          40 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/16565072/chegov">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/3112cff58ea98294ed4de6eab730aec6?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/16565072/chegov">
+            chegov
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72181596/validation-in-react-native">
+         Validation in React Native
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:05:12Z">
+          40 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18628737/dipesh-kumar-sah">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/69a889d5ffc7b8ab4c13fce24528a503?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18628737/dipesh-kumar-sah">
+            Dipesh Kumar Sah
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             33
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72174037/pyspark-write-to-trino-with-jdbc-connector">
+         PySpark write to Trino with JDBC connector
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 09:05:12Z">
+          40 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/12041391/ana-luiza-nigri">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/27a537fb5a6be69f973012dafc66c6a2?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/12041391/ana-luiza-nigri">
+            Ana Luiza Nigri
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72040960/how-to-avoid-the-box-in-legend-key-when-using-aesfill-kind-in-both-geom-bar-an">
+         How to avoid the box in legend key when using aes(fill=kind) in both geom_bar and geom_smooth?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:51:44Z">
+          53 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/7334572/cwind">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/c085712e7260cf13106e08961abcc608?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/7334572/cwind">
+            cwind
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             83
+            </span>
+            <span aria-hidden="true" title="6 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              6
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             6 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72171137/cannot-play-audio-in-replit">
+         Cannot play audio in replit
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:51:44Z">
+          53 mins ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18895850/anonymous">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/V3qH4.jpg?s=64&amp;g=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18895850/anonymous">
+            anonymous
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182586/merging-consecutive-dates-for-a-group-together">
+         Merging consecutive dates for a group together
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:41:02Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18481005/roxsara">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJwnwheXToqQdkwmIjSjF3MrZETkS3i_NpIPwh3b=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18481005/roxsara">
+            Roxsara
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72161405/input-0-of-layer-global-average-pooling1d-is-incompatible-with-the-layer-expe">
+         Input 0 of layer "global_average_pooling1d" is incompatible with the layer: expected ndim=3, found ndim=2. Full shape received: (None, 16)
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:35:34Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/17855046/havilash">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJyMo0OoNN010bKO8LJRrfSn3pMLhZSyiGAP0HEt=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/17855046/havilash">
+            Havilash
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/13035484/gridview-sorting-but-linkbuttons-commandargument-is-not">
+         GridView sorting but LinkButton's CommandArgument is not
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:35:34Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/1768958/ron-douglas">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/b09470d40930d7fa758aaae650beddfa?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/1768958/ron-douglas">
+            Ron Douglas
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             23
+            </span>
+            <span aria-hidden="true" title="5 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              5
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             5 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72025420/cant-figure-out-how-to-change-prometheus-content-type-header">
+         Can't figure out how to change Prometheus content type header
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:35:34Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18962103/jonaslav">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJzdcSyHy-x9J3ijuMA1QYN0viYt69wwUPSJVoji=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18962103/jonaslav">
+            Jonaslav
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/71778471/repeatable-collection-in-java">
+         Repeatable Collection in Java
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:35:34Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/15377596/sina-barakchi">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/75eba30d95a417d141d8628283926260?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/15377596/sina-barakchi">
+            Sina Barakchi
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72181726/is-it-possible-to-render-custom-extension-without-include-in-backend-in-template">
+         Is it possible to render custom extension without include in backend in template module of TYPO3
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:35:34Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info user-hover">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18844829/chetan-shah">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJyfgn33HZ2tYLzsbogkKvSWx7aM9GrO3CNMf60n=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18844829/chetan-shah">
+            Chetan Shah
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72142088/how-to-load-my-own-map-in-indoor-map-app">
+         How to load my own map in indoor map app?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:25:47Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/13214518/mayar-muhammad-yossef">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/-HZwEYht-HhQ/AAAAAAAAAAI/AAAAAAAAAAA/AAKWJJMIqnJmXlLWU5wrerHx8qwLateUrA/photo.jpg?sz=64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/13214518/mayar-muhammad-yossef">
+            Mayar Muhammad Yossef
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72181819/want-to-build-multiple-dockerfile-via-ansible">
+         Want to build multiple Dockerfile via Ansible
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:25:47Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/14180981/kyroo0">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh5.googleusercontent.com/-5qMJNWzdSIQ/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnn5q5cpVwej5mRaUUQPnD7niEgsg/photo.jpg?sz=64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/14180981/kyroo0">
+            Kyroo0
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             33
+            </span>
+            <span aria-hidden="true" title="5 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              5
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             5 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182740/changing-bot-language-in-middle-of-the-conversation">
+         Changing bot language in middle of the conversation
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:25:47Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19079915/trinath-vr">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/780c3d7771f720f269cf3069034af17c?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19079915/trinath-vr">
+            Trinath_VR
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/71709928/vue-cli-5-with-vuetify-scss-variables-and-css-imports">
+         Vue CLI 5 with Vuetify SCSS variables and CSS imports
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:25:47Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/12800668/kevinfabre">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/7b840e84f35def72d9d9ec36c04baa36?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/12800668/kevinfabre">
+            KevinFabre
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             33
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72181981/sql-group-by-count-using-two-columns">
+         SQL - Group by count - using two columns
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:17:22Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19072994/brody-condely">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://graph.facebook.com/1486855325066405/picture?type=large" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19072994/brody-condely">
+            Brody Condely
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182456/elasticsearch-how-do-i-search-on-2-fields-1-must-be-null-and-other-must-match">
+         Elasticsearch - How do i search on 2 fields. 1 must be null and other must match search text
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:17:22Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/11225593/a5vtech">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh5.googleusercontent.com/-f0HlTdwEHZw/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rer8JjMdbvgXIiSiqBhJDWAPDyeFA/mo/photo.jpg?sz=64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/11225593/a5vtech">
+            a5vTech
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             229
+            </span>
+            <span aria-hidden="true" title="1 silver badge">
+             <span class="badge2">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 silver badge
+            </span>
+            <span aria-hidden="true" title="9 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              9
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             9 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/68255756/error-while-connecting-to-stored-procedure-in-tableau">
+         Error while connecting to stored procedure in Tableau
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:05:57Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/16383368/mum">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/31ddcd26587445d2a7647db91cbd44df?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/16383368/mum">
+            MUM
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             23
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/71967755/how-to-save-each-output-by-iteration-of-a-loop-in-separate-csv-files">
+         How to save each output by iteration of a loop in separate csv files
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:05:57Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18906159/lily">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJyTIRYH96VmgabH2q8_Zj6vIZPlOct4oQeNehpf=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18906159/lily">
+            lily
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             23
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72178108/text-around-the-svg">
+         Text around the SVG
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:05:57Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/17653962/knelion">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://graph.facebook.com/3009876209285641/picture?type=large" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/17653962/knelion">
+            Knelion
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             23
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/71687630/how-to-make-player-stay-on-a-moving-object">
+         How to make player stay on a moving object
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:05:57Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/17103527/seiitkhan-otegali">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJxyBaluGAPkfGIBVUDm0t_DoGrb0Q8ok98IDOtZ=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/17103527/seiitkhan-otegali">
+            Seiitkhan Otegali
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72178435/check-the-answer">
+         Check the answer
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 08:05:57Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18389285/antisocialkid">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/2aaf1bde3d5d24308a32354d392fc891?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18389285/antisocialkid">
+            antisocialkid
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72154657/css-changing-scaleamount-depending-on-screensize-on-images">
+         CSS Changing scale(amount) depending on screensize on Images
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:56:53Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18825440/delta-gaming">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GhDmgfFlmvt5qng0f8mIpD1hNVRraJrVzMLxwQj3A=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18825440/delta-gaming">
+            Delta Gaming
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             1
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182133/wpf-mvvm-binding-in-usercontrol">
+         WPF - MVVM binding in UserControl
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:56:53Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/9712928/tuanphan">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/809ecdb8a446111cf241b51d6db60081?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/9712928/tuanphan">
+            tuanphan
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72181167/interpolation-of-missing-values-not-na">
+         interpolation of missing values not NA
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:56:53Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18951825/bamtu">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJx3qhNRlhJnH8bVIs8kZ6gF1tBDAbaUfebKKr9F=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18951825/bamtu">
+            bamtu
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             23
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72178515/failed-to-create-pod-sandbox-how-to-know-current-k8s-resource-declarations-and">
+         "Failed to create pod sandbox" How to know current K8s resource declarations and increase it if need? [closed]
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:56:53Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/15993896/mohab-alnajjar">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GjUpBULC4Oytw7P83hiBn8adFAlyiSKIz_7n2wtwg=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/15993896/mohab-alnajjar">
+            Mohab Alnajjar
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             7
+            </span>
+            <span aria-hidden="true" title="1 silver badge">
+             <span class="badge2">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 silver badge
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182194/how-to-create-a-copy-of-an-array-from-an-api-to-sort-it">
+         How to create a copy of an array from an API to sort it?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:51:22Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/17227387/displayname">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/f702ea548345287e67833f353ea809f4?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/17227387/displayname">
+            DisplayName
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="2 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72158295/sasi-standardanalyzed-tables-cannot-have-more-than-0-sasi-indexes-failed-to">
+         @SASI.StandardAnalyzed | Tables cannot have more than 0 SASI indexes, failed to create SASI index on table user
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:51:22Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18568738/prateek-mittal">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14Gg-qNb9Y2aWEHL6in8omEnQptgdwF37nMVGcqI8Hw=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18568738/prateek-mittal">
+            Prateek Mittal
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             53
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72179563/how-to-saving-image-by-raw-with-int-16-using-the-cv2-imwrite">
+         How to saving image by raw with int 16 using the cv2.imwrite?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:51:22Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/13973746/tim-do-it">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GgIfFm_UPOYNoeCqUOfZpNlBdNfA1aOH4IBuzjjQA=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/13973746/tim-do-it">
+            Tim Do it
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72182285/generics-in-typescript-with-typeof-for-type-guard">
+         generics in typescript with typeof for type guard
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:51:22Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18381916/zeyad-moamen">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GhG8yHDRmukA7nFT4i1FOb8HE8TPsoITEU74fLhZw=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18381916/zeyad-moamen">
+            Zeyad Moamen
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             18
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/69743088/issues-with-ignite-benchmark">
+         Issues with Ignite benchmark
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:46:07Z">
+          1 hour ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/17263430/raghavendra-h">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJwt7y0GL41K4ZtKWcu9Bn73JL7Pywzpz7ZRPljg=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/17263430/raghavendra-h">
+            Raghavendra H
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             9
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72145523/sql-query-how-to-find-the-average-number-of-rental-books-for-each-quarter">
+         SQL query how to find the average number of rental books for each quarter
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:40:15Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18609713/amber">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/f1a52b9937af7e4284a7885e3692e04c?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18609713/amber">
+            Amber_
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             11
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/71635603/angularjs-how-to-use-btn-group-or-radio-group-in-list">
+         AngularJS how to use btn-group or radio group in list
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:40:15Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18596514/water">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/7999e83f4ccd50957777ff5d1ba692b9?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18596514/water">
+            Water
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72181342/assignment-to-constant-variable-one-set-null-to-duedate">
+         Assignment to constant variable one set null to dueDate
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:40:15Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/18044289/user18044289">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/0fd93ac817319dfbee5408f3d17bea6d?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/18044289/user18044289">
+            user18044289
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             5
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/64332154/rabbitmq-showing-wrong-disk-free-limit-in-management-console">
+         rabbitmq showing wrong disk free limit in management console
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:40:15Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info user-hover">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/13135035/gustonator">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh4.googleusercontent.com/-ew7srqY1W-A/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfbHnE-aMFD4nx1YaWVLAM_UooYWA/mo/photo.jpg?sz=64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/13135035/gustonator">
+            Gustonator
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/70741904/why-my-tomcat-9-does-not-keep-the-jdbc-connections-open-as-it-is-specified-in-mi">
+         Why my Tomcat 9 does not keep the jdbc connections open as it is specified in minIdle?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:40:15Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/4800513/serxio">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh4.googleusercontent.com/-PCrCMeVfHlU/AAAAAAAAAAI/AAAAAAAAEEQ/cZdaXl6lvLM/photo.jpg?sz=64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/4800513/serxio">
+            serxio
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             308
+            </span>
+            <span aria-hidden="true" title="2 silver badges">
+             <span class="badge2">
+             </span>
+             <span class="badgecount">
+              2
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             2 silver badges
+            </span>
+            <span aria-hidden="true" title="6 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              6
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             6 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72174761/scroll-bar-is-automatically-added-to-figure-element">
+         Scroll bar is automatically added to figure element
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:31:12Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19078312/sjoerd-van-hoof">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJxVeIkW2ViYFqFbQxERMncCMFsPPb9MjFPVOfIJ=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19078312/sjoerd-van-hoof">
+            Sjoerd van Hoof
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72181092/intercept-keydown-event-on-input-element">
+         Intercept keydown event on input element
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:31:12Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/17950365/braydend">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/a3ca13311032d4933f2808659b6ae322?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/17950365/braydend">
+            braydend
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             13
+            </span>
+            <span aria-hidden="true" title="3 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              3
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             3 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72180244/how-to-pass-react-native-component-as-a-json-object">
+         How to pass React Native Component as a JSON object
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:31:12Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19082112/anna-cunnings">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/00713130502bbff403bf01709d450120?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19082112/anna-cunnings">
+            Anna Cunnings
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72141843/get-data-in-component-tree-using-rtk-query">
+         Get data in component tree using RTK Query
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:21:22Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info user-hover">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/15737270/tykhan">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/2518a50c3156d578446f1d9462b6d44f?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/15737270/tykhan">
+            tykhan
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             30
+            </span>
+            <span aria-hidden="true" title="6 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              6
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             6 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72161626/button-background-image-toggle-not-going-back-to-original-background-image">
+         Button background-image toggle not going back to original background-image
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:21:22Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19068708/disno">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/4cde5b23f9482ca24294841bab9621d1?s=64&amp;d=identicon&amp;r=PG" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19068708/disno">
+            Disno
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/72160472/how-can-i-add-loading-spinner-before-fetching-data-in-react">
+         How can i add loading spinner before fetching data in react?
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:21:22Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info user-hover">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/19067805/ali-imran">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/ph6VF.jpg?s=64&amp;g=1" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/19067805/ali-imran">
+            ali_imran
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             9
+            </span>
+            <span aria-hidden="true" title="4 bronze badges">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              4
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             4 bronze badges
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="single-badge-row-question">
+       <div class="single-badge-summary">
+        <a class="question-hyperlink" href="/questions/66801214/passing-input-into-powershell-script-from-ansible">
+         Passing input into powershell script from Ansible
+        </a>
+       </div>
+       <div class="single-badge-rightblock">
+        <div class="single-badge-awarded">
+         Awarded
+         <span class="relativetime" title="2022-05-10 07:21:22Z">
+          2 hours ago
+         </span>
+        </div>
+        <div class="single-badge-user">
+         <div class="user-info">
+          <div class="user-action-time truncate">
+          </div>
+          <div class="user-gravatar32">
+           <a href="/users/15478936/lazer">
+            <div class="gravatar-wrapper-32">
+             <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a-/AOh14GhjzSxHxs31UX5xOEpsrEvS620FUERUq1BVp-YBYA=k-s64" width="32"/>
+            </div>
+           </a>
+          </div>
+          <div class="user-details">
+           <a href="/users/15478936/lazer">
+            lazer
+           </a>
+           <div class="-flair">
+            <span class="reputation-score" dir="ltr" title="reputation score ">
+             3
+            </span>
+            <span aria-hidden="true" title="1 bronze badge">
+             <span class="badge3">
+             </span>
+             <span class="badgecount">
+              1
+             </span>
+            </span>
+            <span class="v-visible-sr">
+             1 bronze badge
+            </span>
+           </div>
+          </div>
+         </div>
+        </div>
        </div>
       </div>
      </div>
      <div class="s-pagination site1 themed pager float-left">
-     </div>
-     <p style="padding-top: 2em;">
-      <a href="/help/badges/4487/redirect">
-       Others with this badge
+      <div class="s-pagination--item is-selected">
+       1
+      </div>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/10?page=2" rel="" title="Go to page 2">
+       2
       </a>
-     </p>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/10?page=3" rel="" title="Go to page 3">
+       3
+      </a>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/10?page=4" rel="" title="Go to page 4">
+       4
+      </a>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/10?page=5" rel="" title="Go to page 5">
+       5
+      </a>
+      <div class="s-pagination--item s-pagination--item__clear">
+       …
+      </div>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/10?page=39097" rel="" title="Go to page 39097">
+       39097
+      </a>
+      <a class="s-pagination--item js-pagination-item" href="/help/badges/10?page=2" rel="next" title="Go to page 2">
+       Next
+      </a>
+     </div>
     </div>
     <div class="faq-page" id="sidebar">
      <nav class="s-sidebarwidget mb24" id="toc">
@@ -866,13 +3735,41 @@
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.5.42046
+       rev 2022.5.9.42071
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
+   (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ],
+                        checkDimension: 'dimension42'
+                });
+
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Badges/Detail');
+
+
+                StackExchange.ga.setDimension('dimension7', "1652175942.1210841550");
+
+                StackExchange.ga.trackPageView();
+            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

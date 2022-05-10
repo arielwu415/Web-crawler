@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   Nice Answer - Badge - Stack Overflow
+   How do you determine which tags are included in a Collective? - Help Center - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/badges/23/nice-answer?userid=548225" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/collectives-tags" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="Nice Answer - Badge" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="How do you determine which tags are included in a Collective? - Help Center" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1651823986,"routeName":"Badges/Detail","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"ce9acd18120b702dc81125fe3228c0bf5082101995a8b1f5448c08aafb03e976","tid":"4a4babeb-831f-1a6f-27b2-f674f7d5d09f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652175630,"routeName":"Help/SlugRouter","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,7 +40,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"90c6cf09b819","Js/full.en.js":"8cd41939475c","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -52,7 +52,7 @@
    </noscript>
   </meta>
  </head>
- <body class="badges-page unified-theme">
+ <body class="faq-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f23%2fnice-answer%3fuserid%3d548225">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-tags">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f23%2fnice-answer%3fuserid%3d548225">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-tags">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f23%2fnice-answer%3fuserid%3d548225" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-tags" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fbadges%2f23%2fnice-answer%3fuserid%3d548225" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fcollectives-tags" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -479,7 +479,7 @@
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div id="mainbar">
+    <div class="help-center" id="mainbar">
      <div class="s-page-title mb16">
       <div class="s-page-title--text">
        <nav aria-label="breadcrumb" class="s-breadcrumbs mb6 sm:mb2">
@@ -502,1142 +502,25 @@
          </svg>
         </div>
         <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/help/badges">
-          Badges
+         <a class="s-breadcrumbs--link" href="/help/collectives">
+          Collectives on Stack Overflow
          </a>
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        Nice Answer
+        How do you determine which tags are included in a Collective?
        </h1>
       </div>
      </div>
-     <div class="single-badge-table">
-      <div class="single-badge-header">
-       <div class="single-badge-wrapper">
-        <div class="single-badge-badge">
-         <a class="badge" href="/help/badges/23/nice-answer" title="bronze badge: Answer score of 10 or more">
-          <span class="badge3">
-          </span>
-          Nice Answer
-         </a>
-        </div>
-        <div class="single-badge-title">
-         Answer score of 10 or more. This badge can be awarded multiple times.
-        </div>
-       </div>
-       <div class="single-badge-count">
-        <div class="user-info user-hover">
-         <div class="user-action-time">
-         </div>
-         <div class="user-gravatar32">
-          <a href="/users/548225/anubhava">
-           <div class="gravatar-wrapper-32">
-            <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/dab08478b226280d4a30894c9a7ed719?s=64&amp;d=identicon&amp;r=PG" width="32"/>
-           </div>
-          </a>
-         </div>
-         <div class="user-details">
-          <a href="/users/548225/anubhava">
-           anubhava
-          </a>
-          <div class="-flair">
-           <span class="reputation-score" dir="ltr" title="reputation score 710,540">
-            711k
-           </span>
-           <span aria-hidden="true" title="59 gold badges">
-            <span class="badge1">
-            </span>
-            <span class="badgecount">
-             59
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            59 gold badges
-           </span>
-           <span aria-hidden="true" title="512 silver badges">
-            <span class="badge2">
-            </span>
-            <span class="badgecount">
-             512
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            512 silver badges
-           </span>
-           <span aria-hidden="true" title="588 bronze badges">
-            <span class="badge3">
-            </span>
-            <span class="badgecount">
-             588
-            </span>
-           </span>
-           <span class="v-visible-sr">
-            588 bronze badges
-           </span>
-          </div>
-         </div>
-        </div>
-        <br/>
-        earned this badge 440 times.
-       </div>
+     <div class="s-prose js-post-body w100">
+      <div class="js-edit-hide col-section">
+       <p>
+        Collective tags are based on technologies that are part of a certain organization through authority and support. This would usually mean that they are based around a product or product suite of an organization. The Stack Overflow team, in collaboration with a team from the client, collaborates on a list of tags prior to launching a Collective.
+       </p>
       </div>
      </div>
-     <div class="single-badge-table">
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/19497011/htaccess-rewriterule-difference-between-l-r-and-r-l/19497028#19497028">
-         .htaccess RewriteRule - Difference between [L,R] and [R,L]?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-05-03 12:05:29Z">
-          2 days ago
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/20537762/regex-to-match-d-or-e-followed-by-2-3-digits/20537786#20537786">
-         Regex to Match D or E followed by 2-3 digits
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-04-26 13:48:09Z">
-          Apr 26 at 13:48
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/17968020/how-to-match-digits-in-regex-in-bash-script/17968074#17968074">
-         How to match digits in regex in bash script
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-04-25 12:16:38Z">
-          Apr 25 at 12:16
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/51097042/how-to-find-and-replace-every-nth-character-occurrence-using-regex/51097127#51097127">
-         How to find and replace every nth character occurrence using regex?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-04-23 20:11:17Z">
-          Apr 23 at 20:11
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/16991428/bash-how-to-put-each-line-within-quotation/16992043#16992043">
-         Bash - how to put each line within quotation
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-04-17 19:52:07Z">
-          Apr 17 at 19:52
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/20844666/setting-the-output-field-separator-in-awk/20844755#20844755">
-         setting the output field separator in awk
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-04-08 18:41:32Z">
-          Apr 8 at 18:41
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/19597962/bash-illegal-number/19597983#19597983">
-         bash : Illegal number
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-04-08 12:26:52Z">
-          Apr 8 at 12:26
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/34447818/the-result-of-docker-exec-command/34448681#34448681">
-         The result of docker exec command
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-04-01 18:42:49Z">
-          Apr 1 at 18:42
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/25646051/bash-check-if-the-string-starts-with-a-predefined-string-substring/25646076#25646076">
-         Bash - Check if the string starts with a predefined string (substring)
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-03-10 04:56:24Z">
-          Mar 10 at 4:56
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/22117937/how-can-the-arguments-to-bash-script-be-copied-for-separate-processing/22117981#22117981">
-         How can the arguments to bash script be copied for separate processing?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-03-08 15:25:44Z">
-          Mar 8 at 15:25
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/34799161/difference-between-linux-variables-bash-subshell-vs-shlvl/34799591#34799591">
-         Difference between linux variables $BASH_SUBSHELL vs $SHLVL
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-03-01 17:57:12Z">
-          Mar 1 at 17:57
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/44785374/python-re-split-string-by-commas-and-space/44785447#44785447">
-         python re split string by commas and space
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-02-14 18:42:02Z">
-          Feb 14 at 18:42
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/10236717/how-to-prevent-a-file-from-direct-url-access/10236763#10236763">
-         How to prevent a file from direct URL Access?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-02-12 14:04:52Z">
-          Feb 12 at 14:04
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/28225650/need-to-split-a-string-in-bash-separated-by-a-colon-and-assign-to-variables/28225752#28225752">
-         Need to split a string in Bash separated by a colon and assign to variables
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-02-11 17:55:37Z">
-          Feb 11 at 17:55
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/38952714/rewriterule-htaccess-in-subfolder/39066726#39066726">
-         Rewriterule .htaccess in subfolder
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2022-01-12 10:56:08Z">
-          Jan 12 at 10:56
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/16011245/source-files-in-a-bash-script/16011414#16011414">
-         Source files in a bash script
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-12-09 14:50:51Z">
-          Dec 9, 2021 at 14:50
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/26881104/extract-date-from-a-file-name-in-unix-using-shell-scripting/26881267#26881267">
-         extract date from a file name in unix using shell scripting
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-11-30 05:17:17Z">
-          Nov 30, 2021 at 5:17
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/46411970/add-x-days-to-a-particular-date-in-bash/46412019#46412019">
-         Add X days to a particular date in BASH
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-11-16 14:06:56Z">
-          Nov 16, 2021 at 14:06
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/21051151/why-can-i-not-use-an-exclamation-mark-in-bash-echo-not-even-when-it-is-escaped/21051177#21051177">
-         Why can I not use an exclamation mark in bash' echo, not even when it is escaped?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-10-25 17:50:08Z">
-          Oct 25, 2021 at 17:50
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/69486648/python-regex-where-a-set-of-options-can-occur-at-most-once-in-a-list-in-any-ord/69486804#69486804">
-         python regex where a set of options can occur at most once in a list, in any order
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-10-08 14:07:21Z">
-          Oct 8, 2021 at 14:07
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/50613030/scripted-concatenation-of-strings-in-curl-command-payload/50613209#50613209">
-         Scripted concatenation of strings in curl command payload
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-09-27 17:48:43Z">
-          Sep 27, 2021 at 17:48
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/19661267/replace-spaces-with-underscores-via-bash/19661345#19661345">
-         Replace spaces with underscores via BASH
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-09-22 06:27:06Z">
-          Sep 22, 2021 at 6:27
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/22516804/how-to-get-a-substring-after-the-last-underscore-in-unix-shell-script/22516857#22516857">
-         How to get a substring after the last underscore (_) in unix shell script
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-09-15 08:50:56Z">
-          Sep 15, 2021 at 8:50
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/31546680/how-to-pipe-grep-output-to-paste-input/31546711#31546711">
-         How to pipe grep output to paste input?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-09-06 09:50:26Z">
-          Sep 6, 2021 at 9:50
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/18030828/mac-os-change-creation-and-last-modification-dates-of-a-folder/18030890#18030890">
-         Mac OS change creation and last modification dates of a folder
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-08-16 07:18:11Z">
-          Aug 16, 2021 at 7:18
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/37605218/what-double-colon-does-in-rewritecond/37605723#37605723">
-         What Double Colon does in RewriteCond?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-08-12 16:34:31Z">
-          Aug 12, 2021 at 16:34
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/17142971/apache-multiple-rewrite-rules/17144329#17144329">
-         Apache Multiple Rewrite Rules
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-08-12 11:48:11Z">
-          Aug 12, 2021 at 11:48
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/57884111/how-chain-sleep-command-in-docker-compose/57884258#57884258">
-         How chain sleep command in docker compose?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-08-11 05:04:29Z">
-          Aug 11, 2021 at 5:04
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/35693980/test-for-regex-in-string-with-a-posix-shell/35694108#35694108">
-         test for regex in string with a posix shell
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-08-04 21:52:14Z">
-          Aug 4, 2021 at 21:52
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/18462916/does-mean-something-in-shell-scripting/18463014#18463014">
-         Does $! mean something in shell scripting
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-07-16 11:38:31Z">
-          Jul 16, 2021 at 11:38
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/37751545/finding-the-nth-occurrence-of-a-number-using-regex/37751641#37751641">
-         Finding the nth occurrence of a number using regex
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-06-24 12:55:06Z">
-          Jun 24, 2021 at 12:55
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/26925905/in-bash-test-if-associative-array-is-declared/26925971#26925971">
-         In Bash test if associative array is declared
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-06-19 23:57:02Z">
-          Jun 19, 2021 at 23:57
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/67996578/remove-duplicate-lines-only-if-the-duplicate-items-are-within-5-lines-of-each-ot/67996878#67996878">
-         Remove duplicate lines only if the duplicate items are within 5 lines of each other
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-06-16 18:50:21Z">
-          Jun 16, 2021 at 18:50
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/24833364/how-to-check-a-string-contains-only-digits-and-decimal-points/24833397#24833397">
-         How to check a string contains only digits and decimal points?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-06-04 11:18:37Z">
-          Jun 4, 2021 at 11:18
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/29088257/htaccess-redirect-domain-to-https-subdomain-to-http-and-www-to-non-www/29092295#29092295">
-         htaccess redirect domain to https, subdomain to http and www to non-www
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-05-29 12:55:36Z">
-          May 29, 2021 at 12:55
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/31327403/count-the-number-of-digits-in-a-bash-variable/31327477#31327477">
-         Count the number of digits in a bash variable
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-05-17 08:45:35Z">
-          May 17, 2021 at 8:45
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/15908537/ampersand-in-string-causing-incorrect-length-comparison/15908714#15908714">
-         Ampersand in String causing incorrect length/comparison
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-05-11 12:36:59Z">
-          May 11, 2021 at 12:36
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/19254611/how-to-grep-only-words-which-consist-of-capital-characters/19254751#19254751">
-         How to grep only words which consist of capital characters
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-04-27 15:31:41Z">
-          Apr 27, 2021 at 15:31
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/36223802/store-for-loop-results-as-a-variable-in-bash/36223855#36223855">
-         Store for loop results as a variable in bash
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-04-22 21:37:00Z">
-          Apr 22, 2021 at 21:37
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/37711062/using-sed-to-delete-lines-containing-slashes/37711125#37711125">
-         using sed to delete lines containing slashes /
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-04-15 16:47:57Z">
-          Apr 15, 2021 at 16:47
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/50259869/how-to-replace-multiple-spaces-with-a-single-space-using-bash/50259959#50259959">
-         How to replace multiple spaces with a single space using Bash?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-04-13 14:52:32Z">
-          Apr 13, 2021 at 14:52
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/19323366/how-can-i-redirect-from-one-subdomain-to-another-in-htaccess/19323457#19323457">
-         How can I redirect from one subdomain to another in .htaccess?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-04-06 08:26:56Z">
-          Apr 6, 2021 at 8:26
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/66813185/regex-to-validate-subtract-equations-like-abc-b-ac/66813440#66813440">
-         Regex to validate subtract equations like "abc-b=ac"
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-03-30 18:42:37Z">
-          Mar 30, 2021 at 18:42
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/25063248/regex-to-not-allow-string-start-or-end-with-special-character-and-should-not-hav/25063656#25063656">
-         Regex to not allow String Start or End With Special Character and should not have consecutive special characters
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-03-18 12:05:22Z">
-          Mar 18, 2021 at 12:05
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/18271348/sed-to-remove-single-and-double-quotes-at-the-same-time/18274451#18274451">
-         sed to remove single and double quotes at the same time
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-03-17 22:33:52Z">
-          Mar 17, 2021 at 22:33
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/23120346/in-sed-how-to-represent-alphanumeric-or-or/23120383#23120383">
-         In sed, how to represent "alphanumeric or _ or -"
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-03-08 19:48:31Z">
-          Mar 8, 2021 at 19:48
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/44106842/case-insensitive-regex-in-bash/44107086#44107086">
-         Case insensitive regex in Bash
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-03-04 07:49:15Z">
-          Mar 4, 2021 at 7:49
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/48831106/javascript-split-string-and-keep-separator-as-own-array-value/48831129#48831129">
-         javascript Split string and keep separator as own array value
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-03-01 15:51:52Z">
-          Mar 1, 2021 at 15:51
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/24552144/find-using-regex-with-variables/24552202#24552202">
-         'find' using regex with variables
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-02-22 05:41:31Z">
-          Feb 22, 2021 at 5:41
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/26980897/invalid-regular-expression-unterminated-group/26980940#26980940">
-         Invalid regular expression: /(/: Unterminated group
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-02-10 03:42:22Z">
-          Feb 10, 2021 at 3:42
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/22993538/regex-matching-on-word-boundary-or-non-digit/22993615#22993615">
-         Regex matching on word boundary OR non-digit
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-02-08 10:32:07Z">
-          Feb 8, 2021 at 10:32
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/16394248/shell-script-sed-doesnt-work/16394306#16394306">
-         Shell script - sed doesn't work
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-02-04 05:55:56Z">
-          Feb 4, 2021 at 5:55
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/18438931/match-a-string-and-the-5-characters-before-and-after/18439104#18439104">
-         Match a string and the 5 characters before and after
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-02-02 05:20:11Z">
-          Feb 2, 2021 at 5:20
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/27000814/in-bash-how-to-make-a-comparison-and-assign-to-variable/27001066#27001066">
-         In bash, how to make a comparison and assign to variable
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-01-28 19:28:09Z">
-          Jan 28, 2021 at 19:28
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/22097252/regex-to-detect-consecutive-characters/22097421#22097421">
-         Regex to detect consecutive characters
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-01-21 05:27:16Z">
-          Jan 21, 2021 at 5:27
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/10031476/how-to-disable-access-logs-in-apache-via-htaccess/10031488#10031488">
-         How to disable access logs in apache via htaccess?
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-01-19 10:40:37Z">
-          Jan 19, 2021 at 10:40
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/65536137/convert-all-number-abbreviations-to-numeric-values-in-a-text-file/65536346#65536346">
-         Convert all number abbreviations to numeric values in a text file
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-01-08 15:47:26Z">
-          Jan 8, 2021 at 15:47
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/30784013/one-or-two-letters-followed-by-3-4-numbers/30784070#30784070">
-         One or Two Letters followed by 3-4 numbers
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-01-07 06:11:56Z">
-          Jan 7, 2021 at 6:11
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/34046756/regex-for-words-formed-with-specific-characters/34046806#34046806">
-         Regex for words formed with specific characters
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-01-04 08:37:21Z">
-          Jan 4, 2021 at 8:37
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-      <div class="single-badge-row-question">
-       <div class="single-badge-summary">
-        <a class="answer-hyperlink" href="/questions/6010559/how-to-replace-n-by-n-in-java/6010573#6010573">
-         How to replace \\n by \n in Java
-        </a>
-       </div>
-       <div class="single-badge-rightblock">
-        <div class="single-badge-awarded">
-         Awarded
-         <span class="relativetime" title="2021-01-02 17:04:57Z">
-          Jan 2, 2021 at 17:04
-         </span>
-        </div>
-        <div class="single-badge-user">
-        </div>
-       </div>
-      </div>
-     </div>
-     <div class="s-pagination site1 themed pager float-left">
-      <div class="s-pagination--item is-selected">
-       1
-      </div>
-      <a class="s-pagination--item js-pagination-item" href="/help/badges/23?page=2&amp;userid=548225" rel="" title="Go to page 2">
-       2
-      </a>
-      <a class="s-pagination--item js-pagination-item" href="/help/badges/23?page=3&amp;userid=548225" rel="" title="Go to page 3">
-       3
-      </a>
-      <a class="s-pagination--item js-pagination-item" href="/help/badges/23?page=4&amp;userid=548225" rel="" title="Go to page 4">
-       4
-      </a>
-      <a class="s-pagination--item js-pagination-item" href="/help/badges/23?page=5&amp;userid=548225" rel="" title="Go to page 5">
-       5
-      </a>
-      <div class="s-pagination--item s-pagination--item__clear">
-       …
-      </div>
-      <a class="s-pagination--item js-pagination-item" href="/help/badges/23?page=8&amp;userid=548225" rel="" title="Go to page 8">
-       8
-      </a>
-      <a class="s-pagination--item js-pagination-item" href="/help/badges/23?page=2&amp;userid=548225" rel="next" title="Go to page 2">
-       Next
-      </a>
-     </div>
-     <p style="padding-top: 2em;">
-      <a href="/help/badges/23/nice-answer">
-       Others with this badge
-      </a>
-     </p>
     </div>
-    <div class="faq-page" id="sidebar">
+    <div class="help-center" id="sidebar">
      <nav class="s-sidebarwidget mb24" id="toc">
       <ul class="s-sidebarwidget--content s-sidebarwidget__items">
        <li class="s-sidebarwidget--item">
@@ -1651,7 +534,7 @@
         </a>
        </li>
        <li class="s-sidebarwidget--item">
-        <a aria-current="page" href="/help/badges">
+        <a aria-current="false" href="/help/badges">
          Badges
         </a>
        </li>
@@ -1680,14 +563,71 @@
          Review Queues
         </a>
        </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/collectives">
+       <li class="s-sidebarwidget--item d-block">
+        <a aria-current="true" href="/help/collectives">
          Collectives on Stack Overflow
         </a>
+        <ul class="s-sidebarwidget--subnav ml8">
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/collectives-what-are">
+           What is Collectives on Stack Overflow?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/propose-article">
+           How do I propose and review new articles?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/collectives-join">
+           How do I join a Collective?
+          </a>
+         </li>
+         <li aria-current="page">
+          <a href="https://stackoverflow.com/help/collectives-tags">
+           How do you determine which tags are included in a Collective?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/collectives-user-types">
+           What are the different types of users in a Collective?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/collectives-recognized-member">
+           How can I become a Recognized Member?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/collectives-recommended-answer">
+           What is a recommended answer?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/collectives-visual-labels">
+           What are visual labels in a Collective?
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/article-feedback">
+           How to provide feedback on an article
+          </a>
+         </li>
+         <li aria-current="false">
+          <a href="https://stackoverflow.com/help/article-guidelines">
+           Article guidelines
+          </a>
+         </li>
+        </ul>
        </li>
       </ul>
      </nav>
     </div>
+    <script>
+     StackExchange.ready(function () {
+        styleCode.initializeSpoilers();
+    });
+    </script>
    </div>
   </div>
   <footer class="site-footer js-footer" id="footer" role="contentinfo">
@@ -1892,13 +832,41 @@
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.5.42046
+       rev 2022.5.9.42071
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
+   (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                StackExchange.ga.init({
+                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: [
+                        'UA-108242619-1'
+                    ],
+                        checkDimension: 'dimension42'
+                });
+
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Help/SlugRouter');
+
+
+                StackExchange.ga.setDimension('dimension7', "1652175630.569219242");
+
+                StackExchange.ga.trackPageView();
+            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">
