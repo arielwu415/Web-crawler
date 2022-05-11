@@ -11,10 +11,13 @@ import numpy as np
 
 
 class pageRank:
-    def __int__(self, filename):
+    def __init__(self):
+        self.pr = []
+
+    def create_pageRank(self, filename):
         A = self.read_edge_list(filename)
         pA = self.probability_matrix(A)
-        self.pr = self.get_pageRank(pA)
+        self.pr = self.get_pageRank(pA, )
 
     def read_edge_list(self, filename):
         # read edge_list file and create a graph G
@@ -37,9 +40,9 @@ class pageRank:
 
         for row in range(len(A)):
             for column in range(len(A[row])):
-                print("matrix value", A[row, column])
-                print("count", count[column])
-                if (count[column] != 0):
+                # print("matrix value", A[row, column])
+                # print("count", count[column])
+                if count[column] != 0:
                     A[row, column] /= count[column]
 
         return A
