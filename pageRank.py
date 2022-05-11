@@ -93,15 +93,3 @@ def create_edge_list(seed_edges):
                 with open(filename, 'a', newline='', encoding="utf-8") as csvfile:
                     _writer = csv.writer(csvfile)
                     _writer.writerow([center_node, neighbors[i]])
-
-
-
-    
-
-
-
-
-
-
-
-    

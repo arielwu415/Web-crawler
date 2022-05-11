@@ -2,24 +2,22 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   python - Add costum widget to the QTreeWidget column in pyqt5 - Stack Overflow
+   python - Opencv rotate camera mode - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/questions/72183924/add-costum-widget-to-the-qtreewidget-column-in-pyqt5" rel="canonical">
+  <link href="https://stackoverflow.com/questions/72193828/opencv-rotate-camera-mode" rel="canonical">
    <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
    <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/questions/72183924/add-costum-widget-to-the-qtreewidget-column-in-pyqt5" property="og:url"/>
+    <meta content="https://stackoverflow.com/questions/72193828/opencv-rotate-camera-mode" property="og:url"/>
     <meta content="Stack Overflow" property="og:site_name"/>
     <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
     <meta content="summary" name="twitter:card"/>
     <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="Add costum widget to the QTreeWidget column in pyqt5" itemprop="name" name="twitter:title" property="og:title"/>
-    <meta content="I want to have a QTreeWidget with hierarchical items where one column of contains a custom widget.
-I created a custom widget that contains a QLabel and a QSpinBox in a horizontal layout.
-MySlider.py " itemprop="description" name="twitter:description" property="og:description"/>
+    <meta content="Opencv rotate camera mode" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="I want to rotate the camera view by 90 degree clockwise with an interrupt button. But the button's state goes back to it's default state when I click once and unpress the button. As a result, on cl..." itemprop="description" name="twitter:description" property="og:description"/>
     <script id="webpack-public-path" type="text/uri-list">
      https://cdn.sstatic.net/
     </script>
@@ -31,16 +29,16 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
     </script>
     <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
-    <link href="/feeds/question/72183924" rel="alternate" title="Feed for question 'Add costum widget to the QTreeWidget column in pyqt5'" type="application/atom+xml"/>
+    <link href="/feeds/question/72193828" rel="alternate" title="Feed for question 'Opencv rotate camera mode'" type="application/atom+xml"/>
     <meta content="US" name="twitter:app:country"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:iphone"/>
     <meta content="871299723" name="twitter:app:id:iphone"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183924/add-costum-widget-to-the-qtreewidget-column-in-pyqt5" name="twitter:app:url:iphone"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193828/opencv-rotate-camera-mode" name="twitter:app:url:iphone"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:ipad"/>
     <meta content="871299723" name="twitter:app:id:ipad"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183924/add-costum-widget-to-the-qtreewidget-column-in-pyqt5" name="twitter:app:url:ipad"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193828/opencv-rotate-camera-mode" name="twitter:app:url:ipad"/>
     <meta content="Stack Exchange Android" name="twitter:app:name:googleplay"/>
-    <meta content="https://stackoverflow.com/questions/72183924/add-costum-widget-to-the-qtreewidget-column-in-pyqt5" name="twitter:app:url:googleplay"/>
+    <meta content="https://stackoverflow.com/questions/72193828/opencv-rotate-camera-mode" name="twitter:app:url:googleplay"/>
     <meta content="com.stackexchange.marvin" name="twitter:app:id:googleplay"/>
     <script>
      StackExchange.ready(function () {
@@ -54,11 +52,11 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
                 });
 
 
-                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72183924});
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72193828});
 
                 styleCode();
 
-                    StackExchange.realtime.subscribeToQuestion('1', '72183924');
+                    StackExchange.realtime.subscribeToQuestion('1', '72193828');
                     StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.js-post-body'); });
 
 
@@ -66,7 +64,7 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
     </script>
     <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
     <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1652175667,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+     {"options":{"locale":"en","serverTime":1652225058,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
     </script>
     <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
      {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -75,7 +73,7 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
      StackExchange.init();
     </script>
     <script>
-     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -265,11 +263,11 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183924%2fadd-costum-widget-to-the-qtreewidget-column-in-pyqt5">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193828%2fopencv-rotate-camera-mode">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183924%2fadd-costum-widget-to-the-qtreewidget-column-in-pyqt5">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193828%2fopencv-rotate-camera-mode">
           log in
          </a>
          to customize your list.
@@ -300,12 +298,12 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183924%2fadd-costum-widget-to-the-qtreewidget-column-in-pyqt5" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193828%2fopencv-rotate-camera-mode" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183924%2fadd-costum-widget-to-the-qtreewidget-column-in-pyqt5" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193828%2fopencv-rotate-camera-mode" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -520,8 +518,8 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
      <div class="inner-content clearfix">
       <div class="d-flex sm:fd-column" id="question-header">
        <h1 class="fs-headline1 ow-break-word mb8 flex--item fl1" itemprop="name">
-        <a class="question-hyperlink" href="/questions/72183924/add-costum-widget-to-the-qtreewidget-column-in-pyqt5">
-         Add costum widget to the QTreeWidget column in pyqt5
+        <a class="question-hyperlink" href="/questions/72193828/opencv-rotate-camera-mode">
+         Opencv rotate camera mode
         </a>
        </h1>
        <div class="ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end">
@@ -531,11 +529,11 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
        </div>
       </div>
       <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075">
-       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 09:34:16Z">
+       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 23:11:05Z">
         <span class="fc-light mr2">
          Asked
         </span>
-        <time datetime="2022-05-10T09:34:16" itemprop="dateCreated">
+        <time datetime="2022-05-10T23:11:05" itemprop="dateCreated">
          today
         </time>
        </div>
@@ -543,7 +541,7 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
         <span class="fc-light mr2">
          Modified
         </span>
-        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 09:34:16Z">
+        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 23:17:59Z">
          today
         </a>
        </div>
@@ -555,7 +553,7 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
        </div>
       </div>
       <div aria-label="question and answers" id="mainbar" role="main">
-       <div class="question" data-position-on-page="0" data-questionid="72183924" data-score="0" id="question">
+       <div class="question" data-position-on-page="0" data-questionid="72193828" data-score="0" id="question">
         <style>
         </style>
         <div class="js-zone-container zone-container-main">
@@ -566,7 +564,7 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
         </div>
         <div class="post-layout">
          <div class="votecell post-layout--left">
-          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72183924">
+          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72193828">
            <button aria-label="Up vote" aria-pressed="false" class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This question shows research effort; it is useful and clear">
             <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
              <path d="M2 25h32L18 9 2 25Z">
@@ -590,7 +588,7 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
             <div class="js-bookmark-count mt4 d-none" data-value="">
             </div>
            </button>
-           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72183924/timeline" title="Show activity on this post.">
+           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72193828/timeline" title="Show activity on this post.">
             <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" height="18" viewbox="0 0 19 18" width="19">
              <path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z">
              </path>
@@ -601,75 +599,27 @@ MySlider.py " itemprop="description" name="twitter:description" property="og:des
          <div class="postcell post-layout--right">
           <div class="s-prose js-post-body" itemprop="text">
            <p>
-            I want to have a QTreeWidget with hierarchical items where one column of contains a custom widget.
+            I want to rotate the camera view by 90 degree clockwise with an interrupt button. But the button's state goes back to it's default state when I click once and unpress the button. As a result, on clicking the button, the camera rotates for an instance and then goes back to the default mode in the while loop. How to solve this issue?
            </p>
            <p>
-            I created a custom widget that contains a QLabel and a QSpinBox in a horizontal layout.
-MySlider.py looks like this:
+            Here is my snippet:
            </p>
-           <pre><code>from PyQt5 import QtWidgets 
-from PyQt5 import QtCore 
-from PyQt5.Qt import Qt 
-import sys
+           <pre><code>import cv2
 
-class MySlider(QtWidgets.QWidget):
-    def __init__(self, parent=None):
-        super(self.__class__, self).__init__(parent)
+cap = cv2. VideoCapture(0) 
+
+while True:
+    ret, frame = cap.read()
+    cv2.imshow('null', frame)
+    
+    if (button):
+        frame = cv2.rotate(frame, cv2.ROTATE_90_CLOCKWISE)
+        cv2.imshow('null', frame)
         
-        self.horizontalLayoutWidget = QtWidgets.QWidget(parent)
-        self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
-
-        self.label = QtWidgets.QLabel(self.horizontalLayoutWidget)
-        self.label.setText('Spinbox:')
-        self.spinBox1 = QtWidgets.QSpinBox(self.horizontalLayoutWidget)
-
-        self.horizontalLayout.addWidget(self.label)
-        self.horizontalLayout.addWidget(self.spinBox1)
+cap.release()
 </code></pre>
            <p>
-            Then I want to create a QTreeWidget where the third column is filled with MySlider widget. The application looks like this:
-           </p>
-           <pre><code>import sys
-from PyQt5 import QtWidgets, QtCore
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QAbstractItemView
-from MySlider import MySlider
-
-def main():
-    _translate = QtCore.QCoreApplication.translate
-    app = QtWidgets.QApplication(sys.argv)
-    tree = QtWidgets.QTreeWidget()
-    tree.setColumnCount(3)
-    headerItem = QtWidgets.QTreeWidgetItem()
-    headerItem.setText(0, _translate("MainWindow", "md-name"))
-    headerItem.setText(1, _translate("MainWindow", "md_value"))
-    headerItem.setText(2, _translate("MainWindow", "others"))
-    tree.setHeaderItem(headerItem)
-
-    parent = QtWidgets.QTreeWidgetItem(tree)
-    parent.setText(0, "Parent 1")
-    parent.setText(1, "")
-    parent.setFlags(parent.flags() | Qt.ItemIsTristate | Qt.ItemIsEditable)
-
-    for x in range(3):
-        child = QtWidgets.QTreeWidgetItem(parent)
-        child.setFlags(child.flags() | Qt.ItemIsEditable)
-        child.setText(0, "Child {}".format(x))
-        line_edit = QtWidgets.QLineEdit(tree)
-
-        rs = MySlider(tree)
-        tree.setItemWidget(child, 1, line_edit)
-        tree.setItemWidget(child, 2, rs)
-
-    tree.setEditTriggers(QAbstractItemView.AllEditTriggers)
-    tree.show()
-    sys.exit(app.exec_())
-
-if __name__ == '__main__':
-    main()
-</code></pre>
-           <p>
-            The problem is: the custom widget is not placed in the thirds column as wished, but is shown in the left up corner of the window. Has any body an idea why it goes wrong?
+            Any help would be appreciated.
            </p>
           </div>
           <div class="mt24 mb12">
@@ -678,8 +628,11 @@ if __name__ == '__main__':
              <a class="post-tag" href="/questions/tagged/python" rel="tag" title="show questions tagged 'python'">
               python
              </a>
-             <a class="post-tag" href="/questions/tagged/pyqt5" rel="tag" title="show questions tagged 'pyqt5'">
-              pyqt5
+             <a class="post-tag" href="/questions/tagged/opencv" rel="tag" title="show questions tagged 'opencv'">
+              opencv
+             </a>
+             <a class="post-tag" href="/questions/tagged/interrupt" rel="tag" title="show questions tagged 'interrupt'">
+              interrupt
              </a>
             </div>
            </div>
@@ -687,15 +640,20 @@ if __name__ == '__main__':
           <div class="mb0">
            <div class="mt16 d-flex gs8 gsy fw-wrap jc-end ai-start pt4 mb16">
             <div class="flex--item mr16 fl1 w96">
-             <div class="js-post-menu pt2" data-post-id="72183924">
+             <div class="js-post-menu pt2" data-post-id="72193828">
               <div class="d-flex gs8 s-anchors s-anchors__muted fw-wrap">
                <div class="flex--item">
-                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72183924" itemprop="url" rel="nofollow" title="Short permalink to this question">
+                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72193828" itemprop="url" rel="nofollow" title="Short permalink to this question">
                  Share
                 </a>
                </div>
                <div class="flex--item">
-                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72183924" title="Follow this question to receive notifications" type="button">
+                <a class="js-suggest-edit-post js-gps-track" data-gps-track="post.click({ item: 6, priv: 0, post_type: 1 })" href="/posts/72193828/edit" title="">
+                 Improve this question
+                </a>
+               </div>
+               <div class="flex--item">
+                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72193828" title="Follow this question to receive notifications" type="button">
                  Follow
                 </button>
                </div>
@@ -704,51 +662,62 @@ if __name__ == '__main__':
               </div>
              </div>
             </div>
+            <div class="post-signature flex--item">
+             <div class="user-info">
+              <div class="user-action-time truncate">
+               <a class="js-gps-track" data-gps-track="post.click({ item: 4, priv: 0, post_type: 1 })" href="/posts/72193828/revisions" title="show all edits to this post">
+                edited
+                <span class="relativetime" title="2022-05-10 23:17:59Z">
+                 6 mins ago
+                </span>
+               </a>
+              </div>
+              <div class="user-gravatar32">
+              </div>
+              <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+               <span class="d-none" itemprop="name">
+                Purulence
+               </span>
+               <div class="-flair">
+               </div>
+              </div>
+             </div>
+            </div>
             <div class="post-signature owner flex--item">
              <div class="user-info">
               <div class="user-action-time truncate">
                asked
-               <span class="relativetime" title="2022-05-10 09:34:16Z">
-                6 mins ago
+               <span class="relativetime" title="2022-05-10 23:11:05Z">
+                13 mins ago
                </span>
               </div>
               <div class="user-gravatar32">
-               <a href="/users/3252542/farzad">
+               <a href="/users/11157798/purulence">
                 <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/B5Qcb.jpg?s=64&amp;g=1" width="32"/>
                 </div>
                </a>
               </div>
               <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-               <a href="/users/3252542/farzad">
-                Farzad
+               <a href="/users/11157798/purulence">
+                Purulence
                </a>
                <span class="d-none" itemprop="name">
-                Farzad
+                Purulence
                </span>
                <div class="-flair">
                 <span class="reputation-score" dir="ltr" title="reputation score ">
-                 101
+                 3
                 </span>
-                <span aria-hidden="true" title="2 silver badges">
-                 <span class="badge2">
+                <span aria-hidden="true" title="2 bronze badges">
+                 <span class="badge3">
                  </span>
                  <span class="badgecount">
                   2
                  </span>
                 </span>
                 <span class="v-visible-sr">
-                 2 silver badges
-                </span>
-                <span aria-hidden="true" title="9 bronze badges">
-                 <span class="badge3">
-                 </span>
-                 <span class="badgecount">
-                  9
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 9 bronze badges
+                 2 bronze badges
                 </span>
                </div>
               </div>
@@ -760,11 +729,11 @@ if __name__ == '__main__':
          <span class="d-none" itemprop="commentCount">
          </span>
          <div class="post-layout--right js-post-comments-component">
-          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72183924" id="comments-72183924">
+          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72193828" id="comments-72193828">
            <ul class="comments-list js-comments-list" data-addlink-disabled="true" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-remaining-comments-count="0">
            </ul>
           </div>
-          <div data-anon="true" data-rep="50" id="comments-link-72183924">
+          <div data-anon="true" data-rep="50" id="comments-link-72193828">
            <a class="js-add-link comments-link disabled-link" href="#" role="button" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">
             Add a comment
            </a>
@@ -801,7 +770,7 @@ if __name__ == '__main__':
              <label class="flex--item fs-caption" for="answer-sort-dropdown-select-menu">
               Sorted by:
              </label>
-             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72183924/add-costum-widget-to-the-qtreewidget-column-in-pyqt5?answertab=scoredesc#tab-top">
+             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72193828/opencv-rotate-camera-mode?answertab=scoredesc#tab-top">
               Reset to default
              </a>
             </div>
@@ -824,27 +793,27 @@ if __name__ == '__main__':
         </div>
         <h2 class="bottom-notice bottom-share-links" style="padding-top: 8px; margin-bottom: -8px;">
          Know someone who can answer? Share a link to this
-         <a href="https://stackoverflow.com/questions/72183924/add-costum-widget-to-the-qtreewidget-column-in-pyqt5">
+         <a href="https://stackoverflow.com/questions/72193828/opencv-rotate-camera-mode">
           question
          </a>
          via
-         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=Add%20costum%20widget%20to%20the%20QTreeWidget%20column%20in%20pyqt5%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72183924%3fsem%3d2">
+         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=Opencv%20rotate%20camera%20mode%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72193828%3fsem%3d2">
           email
          </a>
          ,
-         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72183924%3fstw%3d2">
+         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72193828%3fstw%3d2">
           Twitter
          </a>
          , or
-         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72183924%3fsfb%3d2">
+         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72193828%3fsfb%3d2">
           Facebook
          </a>
          .
         </h2>
         <a name="new-answer">
         </a>
-        <form action="/questions/72183924/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
-         <input id="post-id" type="hidden" value="72183924"/>
+        <form action="/questions/72193828/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
+         <input id="post-id" type="hidden" value="72193828"/>
          <input id="qualityBanWarningShown" name="qualityBanWarningShown" type="hidden" value="false"/>
          <input name="referrer" type="hidden" value=""/>
          <h2 class="space">
@@ -973,7 +942,7 @@ if __name__ == '__main__':
           <div>
           </div>
           <div class="edit-block">
-           <input id="fkey" name="fkey" type="hidden" value="8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded"/>
+           <input id="fkey" name="fkey" type="hidden" value="bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2"/>
            <input id="author" name="author" type="text"/>
           </div>
          </div>
@@ -983,14 +952,28 @@ if __name__ == '__main__':
             <div class="d-flex fd-column w50 md:w-auto gsy gs8 jc-space-between new-login-left">
              <h3 class="flex--item fs-title">
               Sign up or
-              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183924%2fadd-costum-widget-to-the-qtreewidget-column-in-pyqt5%23new-answer" id="login-link">
+              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193828%2fopencv-rotate-camera-mode%23new-answer" id="login-link">
                log in
               </a>
              </h3>
              <script>
               StackExchange.ready(function () {
                                 StackExchange.helpers.onClickDraftSave('#login-link');
-                            });
+
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                                                });
              </script>
              <div class="flex--item s-btn s-btn__muted s-btn__outlined s-btn__icon google-login" data-ga='["sign up","Sign Up Started - Google","New Post",null,null]'>
               <svg aria-hidden="true" class="native svg-icon iconGoogle" height="18" viewbox="0 0 18 18" width="18">
@@ -1066,7 +1049,7 @@ if __name__ == '__main__':
           <script>
            StackExchange.ready(
                     function () {
-                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72183924%2fadd-costum-widget-to-the-qtreewidget-column-in-pyqt5%23new-answer', 'question_page');
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72193828%2fopencv-rotate-camera-mode%23new-answer', 'question_page');
                     }
                 );
           </script>
@@ -1134,8 +1117,11 @@ if __name__ == '__main__':
          <a class="post-tag" href="/questions/tagged/python" rel="tag" title="show questions tagged 'python'">
           python
          </a>
-         <a class="post-tag" href="/questions/tagged/pyqt5" rel="tag" title="show questions tagged 'pyqt5'">
-          pyqt5
+         <a class="post-tag" href="/questions/tagged/opencv" rel="tag" title="show questions tagged 'opencv'">
+          opencv
+         </a>
+         <a class="post-tag" href="/questions/tagged/interrupt" rel="tag" title="show questions tagged 'interrupt'">
+          interrupt
          </a>
          or
          <a href="/questions/ask">
@@ -1164,19 +1150,6 @@ if __name__ == '__main__':
            </a>
           </div>
          </li>
-         <li class="s-sidebarwidget--item d-flex px16">
-          <div class="flex--item1 fl-shrink0">
-           <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-            <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-            </path>
-           </svg>
-          </div>
-          <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","The Overflow Blog","https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/",null,null]' data-gps-track="communitybulletin.click({ priority: 1, position: 1 })" href="https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/">
-            Security needs to shift left into the software development lifecycle
-           </a>
-          </div>
-         </li>
          <div class="s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1">
           Featured on Meta
          </div>
@@ -1186,7 +1159,7 @@ if __name__ == '__main__':
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 1 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
             Staging Ground: Reviewer Motivation, Scaling, and Open Questions
            </a>
           </div>
@@ -1197,7 +1170,7 @@ if __name__ == '__main__':
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 3 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
             Overhauling our community's closure reasons and guidance
            </a>
           </div>
@@ -1224,43 +1197,43 @@ if __name__ == '__main__':
         </h4>
         <div class="related js-gps-related-questions" data-tracker="rq=1">
          <div class="spacer">
-          <a href="/q/12555323" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted extra-large">
-            1238
+          <a href="/q/33054711" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes default">
+            1
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/12555323/how-to-add-a-new-column-to-an-existing-dataframe">
-           How to add a new column to an existing DataFrame?
+          <a class="question-hyperlink" href="/questions/33054711/subtracting-background-from-image-using-opencv-in-python">
+           Subtracting Background From Image using Opencv in Python
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/67241243" title="Question score (upvotes - downvotes)">
+          <a href="/q/34769260" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted default">
+            0
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/34769260/python-opencv-intermittent-error">
+           Python / OpenCV - Intermittent error
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/46393671" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes default">
+            1
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/46393671/issue-with-aptina-camera-with-opencv">
+           issue with aptina camera with opencv
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/47189785" title="Question score (upvotes - downvotes)">
            <div class="answer-votes default">
             0
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/67241243/python-pyinstaller-msys-problem-with-pyqtwebkit">
-           Python Pyinstaller MSYS problem with PyQtWebKit
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/68316364" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            0
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/68316364/pyqt5-qgraphicsview-width-and-height">
-           PyQt5 QgraphicsView width and height
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/70411185" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            0
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/70411185/how-do-i-open-another-qt-designer-file-after-i-press-a-button-in-the-current-fil">
-           How do I open another qt designer file after I press a button in the current file?
+          <a class="question-hyperlink" href="/questions/47189785/opencv-returning-error-message-when-webcam-is-not-connected">
+           OpenCV Returning error message when webcam is not connected
           </a>
          </div>
         </div>
@@ -1273,157 +1246,122 @@ if __name__ == '__main__':
         </h4>
         <ul>
          <li>
-          <div class="favicon favicon-biology" title="Biology Stack Exchange">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:375 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://biology.stackexchange.com/questions/108084/do-photosynthesis-and-respiration-violate-the-law-of-conservation-of-energy">
-           Do photosynthesis and respiration violate the law of conservation of energy?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stackoverflow.com/questions/72177535/how-can-i-include-a-c-header-that-uses-a-c-keyword-as-an-identifier-in-c">
+           How can I include a C header that uses a C++ keyword as an identifier in C++?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-bricks" title="Bricks">
+          <div class="favicon favicon-law" title="Law Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:336 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bricks.stackexchange.com/questions/17115/which-bricks-are-still-protected-by-copyright-trademark-patent-law">
-           Which bricks are still protected by copyright / trademark / patent law?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80086/what-is-the-nature-and-purpose-of-the-uk-highway-code">
+           What is the nature and purpose of the UK highway code?
           </a>
          </li>
          <li>
           <div class="favicon favicon-aviation" title="Aviation Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://aviation.stackexchange.com/questions/93074/what-does-15-13-mean-with-pilot-schedule">
-           What does 15/13 mean with pilot schedule?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://aviation.stackexchange.com/questions/93068/what-aircraft-is-shown-in-this-cockpit-picture">
+           What aircraft is shown in this cockpit picture?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-codegolf" title="Code Golf Stack Exchange">
+          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codegolf.stackexchange.com/questions/247104/euler-characteristic-of-a-binary-matrix">
-           Euler characteristic of a binary matrix
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184698/should-the-company-pay-the-tips-i-gave">
+           Should the company pay the tips I gave?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-ux" title="User Experience Stack Exchange">
+          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:102 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ux.stackexchange.com/questions/143319/how-to-make-important-unhighlighted-tab-more-visible-without-conflicting-with-cu">
-           How to make important unhighlighted tab more visible without conflicting with current layout and color scheme?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643682/tikz-complete-and-progressive-horizontal-fading-possible">
+           TikZ - Complete and progressive horizontal fading possible?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange">
+          <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268040/working-around-memory-leak-from-hermitedecomposition">
-           Working around Memory Leak from HermiteDecomposition
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mathoverflow" title="MathOverflow">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422091/does-permission-always-work">
-           Does permission always work?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229708/muggle-military-tactics-against-mind-controlling-wizards">
-           Muggle military tactics against mind-controlling wizards
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-cs" title="Computer Science Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:419 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://cs.stackexchange.com/questions/151400/finding-a-dfa-for-concatenation">
-           Finding a DFA for concatenation
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://unix.stackexchange.com/questions/701944/bash-how-to-compare-arg-to-one-of-the-disks-in-linux-machine">
+           bash + how to compare arg to one of the disks in linux machine
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-physics" title="Physics Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707698/at-which-point-is-the-magnetic-field-in-a-current-carrying-loop-the-strongest">
-           At which point is the magnetic field in a current carrying loop the strongest?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-superuser" title="Super User">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720216/chown-operation-not-permitted-even-as-root-user">
-           chown - Operation not permitted even as root user
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-blender" title="Blender Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://blender.stackexchange.com/questions/263072/are-render-results-hardware-dependent">
-           Are render results hardware dependent?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229739/can-a-birch-planet-send-information-out">
-           Can a Birch planet send information out?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-german" title="German Language Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://german.stackexchange.com/questions/70546/unexpected-use-of-kater-instead-of-katze">
-           Unexpected use of 'Kater' instead of 'Katze'
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-askubuntu" title="Ask Ubuntu">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://askubuntu.com/questions/1407597/check-if-process-exits-or-doesnt-exists">
-           Check if process exits or doesn't exists
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/249002/safe-breakout-for-an-rv-outlet">
-           Safe breakout for an RV outlet
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707942/intuition-behind-the-differential-equation-for-forced-oscillations">
+           Intuition behind the differential equation for forced oscillations
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263081/murder-in-cult-of-identical-people">
-           Murder in cult of identical people
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263049/why-were-mordos-group-of-heroes-so-disastrously-overconfident-in-confronting-th">
+           Why were Mordo's group of heroes so disastrously overconfident in confronting this enemy?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          <div class="favicon favicon-history" title="History Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229766/my-creature-mixes-lye-and-sal-ammoniac-to-cool-its-blood-how-cold-can-its-blood">
-           My creature mixes lye and sal ammoniac to cool its blood. How cold can its blood get before it stops working as blood?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mathoverflow" title="MathOverflow">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422158/is-the-ring-of-power-series-with-coefficients-in-a-field-free-as-a-module-over-t">
-           is the ring of power series with coefficients in a field free as a module over the polynomials subring?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mathoverflow" title="MathOverflow">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422128/why-does-representing-functors-help-solving-diophantine-equations">
-           Why does representing functors help solving Diophantine equations?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://history.stackexchange.com/questions/68935/when-did-horseback-riding-start-are-doosheh-cave-petroglyphs-authentic-and-corr">
+           When did horseback riding start? Are Doosheh cave petroglyphs authentic and correctly dated?
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619014/why-dont-simulators-work-with-a-self-oscillating-voltage-booster-circuit-using">
-           Why don't simulators work with a self-oscillating voltage booster circuit using a transformer and a transistor?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619042/why-does-the-current-carrying-capability-of-a-cable-increase-with-temperature">
+           Why does the current carrying capability of a cable increase with temperature
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-bicycles" title="Bicycles Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bicycles.stackexchange.com/questions/83819/do-rotational-symmetric-looking-front-lights-usually-throw-half-their-light-into">
+           Do rotational-symmetric-looking front lights usually throw half their light into oncoming traffic? How To dinstiguish?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314813/my-dad-doesnt-want-me-to-touch-alcohol">
+           My dad doesn't want me to TOUCH alcohol
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-law" title="Law Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80047/after-buying-from-a-brick-mortar-shop-theyve-contacted-me-to-say-buying-thing">
-           After buying from a brick &amp; mortar shop they've contacted me to say buying things from them is consent to arbitration. Is this legal?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80081/how-is-an-animal-defined-as-in-rule-286-of-the-uk-highway-code">
+           How is an animal defined as in rule 286 of the UK highway code?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-mattermodeling" title="Matter Modeling Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:704 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mattermodeling.stackexchange.com/questions/9056/transiesta-output-through-a-single-gold-atom">
+           Transiesta output through a single gold atom
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-physics" title="Physics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707721/am-i-in-a-superposition">
+           Am I in a superposition?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-skeptics" title="Skeptics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://skeptics.stackexchange.com/questions/53294/was-ukraine-planning-an-attack-in-donbas-crimea-prior-to-the-2022-russian-invasi">
+           Was Ukraine planning an attack in Donbas/Crimea prior to the 2022 Russian invasion of Ukraine?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-stats" title="Cross Validated">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stats.stackexchange.com/questions/574590/negative-prediction-values-from-linear-regression-in-r">
+           Negative prediction values from linear regression in R
           </a>
          </li>
          <li class="dno js-hidden">
@@ -1434,10 +1372,45 @@ if __name__ == '__main__':
           </a>
          </li>
          <li class="dno js-hidden">
+          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263081/murder-in-cult-of-identical-people">
+           Murder in cult of identical people
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-academia" title="Academia Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185085/what-is-the-meaning-when-the-editor-says-a-paper-is-provocative">
+           What is the meaning when the editor says a paper is "provocative"?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198187/why-shouldnt-one-make-changes-to-concentration-in-homebrew">
+           Why shouldn't one make changes to concentration in homebrew?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-boardgames" title="Board &amp; Card Games Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:147 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://boardgames.stackexchange.com/questions/57404/why-can-rufous-banded-honeyeater-be-played-using-invertebrate-or-nectars-when-n">
+           Why can rufous-banded honeyeater be played using invertebrate or nectars, when nectar is a wild resource?
+          </a>
+         </li>
+         <li class="dno js-hidden">
           <div class="favicon favicon-politics" title="Politics Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73044/why-can-water-not-be-transferred-within-california">
-           Why can water not be transferred within California?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73043/do-any-cities-formalize-preferential-homeless-services-to-locals">
+           Do any cities formalize preferential homeless services to "locals"?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stackoverflow.com/questions/72188017/why-does-my-c-compiler-want-to-instantiate-my-parameter-pack-class-when-usin">
+           Why does my (C++) compiler want to instantiate my parameter pack class when using std::endl?
           </a>
          </li>
         </ul>
@@ -1446,7 +1419,7 @@ if __name__ == '__main__':
         </a>
        </div>
        <div class="js-feed-link" id="feed-link">
-        <a href="/feeds/question/72183924" title="Feed of this question and its answers">
+        <a href="/feeds/question/72193828" title="Feed of this question and its answers">
          <svg aria-hidden="true" class="fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
           <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
           </path>
@@ -1469,7 +1442,7 @@ if __name__ == '__main__':
            </label>
           </div>
           <div class="d-flex ps-relative">
-           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72183924"/>
+           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72193828"/>
            <svg aria-hidden="true" class="s-input-icon fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
             <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
             </path>
@@ -1487,11 +1460,11 @@ if __name__ == '__main__':
       </div>
      </div>
      <script>
-      StackExchange.ready(function(){$.get('/posts/72183924/ivc/e944');});
+      StackExchange.ready(function(){$.get('/posts/72193828/ivc/bb37');});
      </script>
      <noscript>
       <div>
-       <img alt="" class="dno" height="0" src="/posts/72183924/ivc/e944" width="0"/>
+       <img alt="" class="dno" height="0" src="/posts/72193828/ivc/bb37" width="0"/>
       </div>
      </noscript>
      <div id="js-codeblock-lang" style="display:none">
@@ -1514,9 +1487,9 @@ if __name__ == '__main__':
     clc.options.targeting_consent = !1;
     clc.options.performance_consent = !1;
         clc.cmd = clc.cmd || [];
-        clc.cmd.push(function () { window.clc_request='A6UHZDVpMtoIAAAAAHRwTQQCAAAAAgAAAAAADgAAAHxweXRob258cHlxdDV8AKCBp4cdonqk4G4'; clc.load(); });
+        clc.cmd.push(function () { window.clc_request='A1jP6DTcMtoIAAAAACSXTQQCAAAAAgAAAAAAGQAAAHxweXRob258b3BlbmN2fGludGVycnVwdHwA1aAIHdhFNEdBGA'; clc.load(); });
         clc.dfp = clc.dfp || {};
-        clc.dfp.targeting = {Registered:['false'],'so-tag':['python','pyqt5'],'tag-reportable':['python','pyqt5'],'tag-non-reportable':['python','pyqt5'],NumberOfAnswers:['0']};
+        clc.dfp.targeting = {Registered:['false'],'so-tag':['python','opencv','interrupt'],'tag-reportable':['python','opencv','interrupt'],'tag-non-reportable':['python','opencv','interrupt'],NumberOfAnswers:['0']};
 
         if (window.location.hash.indexOf('ads:cat=cp') >= 0)
         {
@@ -1738,42 +1711,13 @@ if __name__ == '__main__':
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-                    StackExchange.ga.setDimension('dimension2', '|python|pyqt5|');
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175667.692577591");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

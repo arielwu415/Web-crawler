@@ -2,24 +2,26 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   r - How to calculate RMSE and standard deviation between a coordinate point and a non-linear regression under the same abscissa value? - Stack Overflow
+   django - Python mixin: Why is my serialized field not coming through? - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/questions/72183918/how-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no" rel="canonical">
+  <link href="https://stackoverflow.com/questions/72193868/python-mixin-why-is-my-serialized-field-not-coming-through" rel="canonical">
    <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
    <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/questions/72183918/how-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no" property="og:url"/>
+    <meta content="https://stackoverflow.com/questions/72193868/python-mixin-why-is-my-serialized-field-not-coming-through" property="og:url"/>
     <meta content="Stack Overflow" property="og:site_name"/>
     <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
     <meta content="summary" name="twitter:card"/>
     <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="How to calculate RMSE and standard deviation between a coordinate point and a non-linear regression under the same abscissa value?" itemprop="name" name="twitter:title" property="og:title"/>
-    <meta content="The original data is as below:
-ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;quot;X41&amp;quot;, &amp;quot;Y27&amp;quot;, &amp;quot;Z24&amp;quot;, 
-                                       &amp;quot;Y27&amp;qu..." itemprop="description" name="twitter:description" property="og:description"/>
+    <meta content="Python mixin: Why is my serialized field not coming through?" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="Trying to write a very simple python mixin for setting ReadOnly status'. This is what i have
+class ReadOnlyMixin:
+    readonly_fields = serializers.SerializerMethodField()
+
+    def __init__(self, *..." itemprop="description" name="twitter:description" property="og:description"/>
     <script id="webpack-public-path" type="text/uri-list">
      https://cdn.sstatic.net/
     </script>
@@ -31,16 +33,16 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
     </script>
     <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
-    <link href="/feeds/question/72183918" rel="alternate" title="Feed for question 'How to calculate RMSE and standard deviation between a coordinate point and a non-linear regression under the same abscissa value?'" type="application/atom+xml"/>
+    <link href="/feeds/question/72193868" rel="alternate" title="Feed for question 'Python mixin: Why is my serialized field not coming through?'" type="application/atom+xml"/>
     <meta content="US" name="twitter:app:country"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:iphone"/>
     <meta content="871299723" name="twitter:app:id:iphone"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183918/how-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no" name="twitter:app:url:iphone"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193868/python-mixin-why-is-my-serialized-field-not-coming-through" name="twitter:app:url:iphone"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:ipad"/>
     <meta content="871299723" name="twitter:app:id:ipad"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183918/how-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no" name="twitter:app:url:ipad"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193868/python-mixin-why-is-my-serialized-field-not-coming-through" name="twitter:app:url:ipad"/>
     <meta content="Stack Exchange Android" name="twitter:app:name:googleplay"/>
-    <meta content="https://stackoverflow.com/questions/72183918/how-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no" name="twitter:app:url:googleplay"/>
+    <meta content="https://stackoverflow.com/questions/72193868/python-mixin-why-is-my-serialized-field-not-coming-through" name="twitter:app:url:googleplay"/>
     <meta content="com.stackexchange.marvin" name="twitter:app:id:googleplay"/>
     <script>
      StackExchange.ready(function () {
@@ -54,11 +56,11 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
                 });
 
 
-                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72183918});
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72193868});
 
                 styleCode();
 
-                    StackExchange.realtime.subscribeToQuestion('1', '72183918');
+                    StackExchange.realtime.subscribeToQuestion('1', '72193868');
                     StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.js-post-body'); });
 
 
@@ -66,7 +68,7 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
     </script>
     <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
     <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1652175641,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+     {"options":{"locale":"en","serverTime":1652225033,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
     </script>
     <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
      {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -75,7 +77,7 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
      StackExchange.init();
     </script>
     <script>
-     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -265,11 +267,11 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183918%2fhow-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193868%2fpython-mixin-why-is-my-serialized-field-not-coming-through">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183918%2fhow-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193868%2fpython-mixin-why-is-my-serialized-field-not-coming-through">
           log in
          </a>
          to customize your list.
@@ -300,12 +302,12 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183918%2fhow-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193868%2fpython-mixin-why-is-my-serialized-field-not-coming-through" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183918%2fhow-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193868%2fpython-mixin-why-is-my-serialized-field-not-coming-through" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -520,8 +522,8 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
      <div class="inner-content clearfix">
       <div class="d-flex sm:fd-column" id="question-header">
        <h1 class="fs-headline1 ow-break-word mb8 flex--item fl1" itemprop="name">
-        <a class="question-hyperlink" href="/questions/72183918/how-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no">
-         How to calculate RMSE and standard deviation between a coordinate point and a non-linear regression under the same abscissa value?
+        <a class="question-hyperlink" href="/questions/72193868/python-mixin-why-is-my-serialized-field-not-coming-through">
+         Python mixin: Why is my serialized field not coming through?
         </a>
        </h1>
        <div class="ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end">
@@ -531,11 +533,11 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
        </div>
       </div>
       <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075">
-       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 09:33:54Z">
+       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 23:19:03Z">
         <span class="fc-light mr2">
          Asked
         </span>
-        <time datetime="2022-05-10T09:33:54" itemprop="dateCreated">
+        <time datetime="2022-05-10T23:19:03" itemprop="dateCreated">
          today
         </time>
        </div>
@@ -543,19 +545,19 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
         <span class="fc-light mr2">
          Modified
         </span>
-        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 09:34:49Z">
+        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 23:19:03Z">
          today
         </a>
        </div>
-       <div class="flex--item ws-nowrap mb8" title="Viewed 5 times">
+       <div class="flex--item ws-nowrap mb8" title="Viewed 3 times">
         <span class="fc-light mr2">
          Viewed
         </span>
-        5 times
+        3 times
        </div>
       </div>
       <div aria-label="question and answers" id="mainbar" role="main">
-       <div class="question" data-position-on-page="0" data-questionid="72183918" data-score="0" id="question">
+       <div class="question" data-position-on-page="0" data-questionid="72193868" data-score="0" id="question">
         <style>
         </style>
         <div class="js-zone-container zone-container-main">
@@ -566,7 +568,7 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
         </div>
         <div class="post-layout">
          <div class="votecell post-layout--left">
-          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72183918">
+          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72193868">
            <button aria-label="Up vote" aria-pressed="false" class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This question shows research effort; it is useful and clear">
             <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
              <path d="M2 25h32L18 9 2 25Z">
@@ -590,7 +592,7 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
             <div class="js-bookmark-count mt4 d-none" data-value="">
             </div>
            </button>
-           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72183918/timeline" title="Show activity on this post.">
+           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72193868/timeline" title="Show activity on this post.">
             <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" height="18" viewbox="0 0 19 18" width="19">
              <path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z">
              </path>
@@ -601,97 +603,71 @@ ISIDOR &amp;lt;- structure(list(Pos_heliaphen = c(&amp;quot;W30&amp;quot;, &amp;
          <div class="postcell post-layout--right">
           <div class="s-prose js-post-body" itemprop="text">
            <p>
-            The original data is as below:
+            Trying to write a very simple python mixin for setting ReadOnly status'. This is what i have
            </p>
-           <pre><code>ISIDOR &lt;- structure(list(Pos_heliaphen = c("W30", "X41", "Y27", "Z24", 
-                                       "Y27", "W30", "W30", "X41", "Y27", "W30", "X41", "Z40", "Z99"
-), traitement = c("WW", "WW", "WW", "WW", "WW", "WW", "WW", "WW", 
-                  "WW", "WW", "WW", "WW", "WW"), Variete = c("Isidor", "Isidor", 
-                                                             "Isidor", "Isidor", "Isidor", "Isidor", "Isidor", "Isidor", "Isidor", 
-                                                             "Isidor", "Isidor", "Isidor", "Cali"), FTSW_apres_arros = c(0.462837958498518, 
-                                                                                                                         0.400045032939416, 0.352560790392534, 0.377856799586057, 0.170933345859364, 
-                                                                                                                         0.315689846065931, 0.116825600914318, 0.0332444780173884, 0.00966070114456602, 
-                                                                                                                         0.0871102539376406, 0.0107280083093036, 0.195548432729584, 1), 
-NLE = c(0.903498791068124, 0.954670066942938, 0.970762905436272, 
-        0.873838605282389, 0.647875257025359, 0.53056603773585, 0.0384548155916796, 
-        0.0470924009989314, 0.00403163281128882, 0.193696514297641, 
-        0.0718450645564359, 0.295346695941639, 1)), class = c("tbl_df", 
-                                                              "tbl", "data.frame"), row.names = c(NA, -13L))
+           <pre><code>class ReadOnlyMixin:
+    readonly_fields = serializers.SerializerMethodField()
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        for field in self.get_readonly_fields():
+            self.fields[field].read_only = True
+
+    def get_readonly_fields(self):
+        raise NotImplementedError(
+            "Classes subclassing ReadOnlyMixin must implement a "
+            "`get_readonly_fields` method"
+        )
 </code></pre>
            <p>
-            Here is the code:
+            and in my serializer class, I have
            </p>
-           <pre><code>pred_df &lt;- data.frame(FTSW_apres_arros = seq(min(ISIDOR$FTSW_apres_arros), 
-                                             max(ISIDOR$FTSW_apres_arros),
-                                             length.out = 100))
+           <pre><code>class TestSerializer(mixins.ReadOnlyMixin, serializers.ModelSerializer):
+    class Meta:
+        model = models.Test
+        fields = '__all__'
 
-pred_df$NLE &lt;- predict(mod, newdata = pred_df)
-
-ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) + 
-  geom_point(aes(color = Variete), pch = 19, cex = 3) +
-  geom_line(data = pred_df) +
-  scale_color_manual(values = c("red3","blue3"))+
-  scale_y_continuous(limits = c(0, 1.0)) +
-  scale_x_continuous(limits = c(0, 1)) +
-  labs(title = "Isidor", 
-       y = "Expansion folliaire totale relative",
-       x = "FTSW",
-       subtitle = paste0("y = 2/(1 + exp(", round(a, 3), "* x)) -1)","\n",
-                         "R^2 = ", round(Rsquared, 3),"  RMSE = ",
-                         round(RMSE, 3), "   MSE = ", round(MSE, 3)))+
-  theme(plot.title = element_text(hjust = 0, size = 14, face = "bold", 
-                                  colour = "black"),
-        plot.subtitle = element_text(hjust = 0,size=10, face = "italic", 
-                                     colour = "black"),
-        legend.position = "none")
+    def get_readonly_fields(self):
+        exp = self.instance
+        return ['status'] if exp.status != 'Pending' else []
 </code></pre>
            <p>
-            Then I get the figure below:
-            <a href="https://i.stack.imgur.com/l65y5.png" rel="nofollow noreferrer">
-             <img alt="enter image description here" src="https://i.stack.imgur.com/l65y5.png"/>
-            </a>
+            Other fields in the serializer come thru, but
+            <code>
+             readonly_fields
+            </code>
+            does not. Everything is getting called as well because my
+            <code>
+             self.fields['status'].read_only
+            </code>
+            is getting upddated to
+            <code>
+             True
+            </code>
+            .
            </p>
            <p>
-            Now I want to calculate
-            <strong>
-             RMSE
-            </strong>
-            and
-            <strong>
-             standard deviation
-            </strong>
-            between the coordinate point circled by orange (
-            <strong>
-             0.352560790, 0.970762905
-            </strong>
-            ) and the
-            <strong>
-             non-linear regression
-            </strong>
-            y = 2/(1 + exp(-5.674* x))-1 (the coordinate point in the regression line with the same abscissa
-            <strong>
-             0.352560790
-            </strong>
-            ). Could anyone please give me suggestions?
+            Even if I just assign
+            <code>
+             readonly_fields = ['status']
+            </code>
+            , it still doesnt come thru.
            </p>
            <p>
-            Thank you so much!
+            What am i doing wrong?
            </p>
           </div>
           <div class="mt24 mb12">
            <div class="post-taglist d-flex gs4 gsy fd-column">
             <div class="d-flex ps-relative fw-wrap">
-             <a class="post-tag" href="/questions/tagged/r" rel="tag" title="show questions tagged 'r'">
-              r
+             <a class="post-tag" href="/questions/tagged/python" rel="tag" title="show questions tagged 'python'">
+              python
              </a>
-             <a class="post-tag" href="/questions/tagged/ggplot2" rel="tag" title="show questions tagged 'ggplot2'">
-              ggplot2
+             <a class="post-tag" href="/questions/tagged/django" rel="tag" title="show questions tagged 'django'">
+              django
              </a>
-             <a class="post-tag" href="/questions/tagged/standard-deviation" rel="tag" title="show questions tagged 'standard-deviation'">
-              standard-deviation
-             </a>
-             <a class="post-tag" href="/questions/tagged/non-linear-regression" rel="tag" title="show questions tagged 'non-linear-regression'">
-              non-linear-regression
+             <a class="post-tag" href="/questions/tagged/serialization" rel="tag" title="show questions tagged 'serialization'">
+              serialization
              </a>
             </div>
            </div>
@@ -699,15 +675,15 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
           <div class="mb0">
            <div class="mt16 d-flex gs8 gsy fw-wrap jc-end ai-start pt4 mb16">
             <div class="flex--item mr16 fl1 w96">
-             <div class="js-post-menu pt2" data-post-id="72183918">
+             <div class="js-post-menu pt2" data-post-id="72193868">
               <div class="d-flex gs8 s-anchors s-anchors__muted fw-wrap">
                <div class="flex--item">
-                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72183918" itemprop="url" rel="nofollow" title="Short permalink to this question">
+                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72193868" itemprop="url" rel="nofollow" title="Short permalink to this question">
                  Share
                 </a>
                </div>
                <div class="flex--item">
-                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72183918" title="Follow this question to receive notifications" type="button">
+                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72193868" title="Follow this question to receive notifications" type="button">
                  Follow
                 </button>
                </div>
@@ -716,100 +692,41 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
               </div>
              </div>
             </div>
-            <div class="post-signature flex--item">
-             <div class="user-info user-hover">
-              <div class="user-action-time truncate">
-               <a class="js-gps-track" data-gps-track="post.click({ item: 4, priv: 0, post_type: 1 })" href="/posts/72183918/revisions" title="show all edits to this post">
-                edited
-                <span class="relativetime" title="2022-05-10 09:34:49Z">
-                 5 mins ago
-                </span>
-               </a>
-              </div>
-              <div class="user-gravatar32">
-               <a href="/users/14282714/quinten">
-                <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/2030282b744f8bf9669705296a503c4d?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
-                </div>
-               </a>
-              </div>
-              <div class="user-details">
-               <a href="/users/14282714/quinten">
-                Quinten
-               </a>
-               <div class="-flair">
-                <span class="reputation-score" dir="ltr" title="reputation score ">
-                 4,124
-                </span>
-                <span aria-hidden="true" title="2 gold badges">
-                 <span class="badge1">
-                 </span>
-                 <span class="badgecount">
-                  2
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 2 gold badges
-                </span>
-                <span aria-hidden="true" title="5 silver badges">
-                 <span class="badge2">
-                 </span>
-                 <span class="badgecount">
-                  5
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 5 silver badges
-                </span>
-                <span aria-hidden="true" title="24 bronze badges">
-                 <span class="badge3">
-                 </span>
-                 <span class="badgecount">
-                  24
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 24 bronze badges
-                </span>
-               </div>
-              </div>
-             </div>
-            </div>
             <div class="post-signature owner flex--item">
              <div class="user-info">
               <div class="user-action-time truncate">
                asked
-               <span class="relativetime" title="2022-05-10 09:33:54Z">
-                6 mins ago
+               <span class="relativetime" title="2022-05-10 23:19:03Z">
+                4 mins ago
                </span>
               </div>
               <div class="user-gravatar32">
-               <a href="/users/12822656/lin-kang">
+               <a href="/users/13342713/cth">
                 <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/-EwvD_wDRssU/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rc0jxgTYmgwJTsPdcpYXIJVOjffMA/photo.jpg?sz=64" width="32"/>
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/d8b74afcc161b424e2d6cce24c5e4c1f?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
                 </div>
                </a>
               </div>
               <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-               <a href="/users/12822656/lin-kang">
-                LIN KANG
+               <a href="/users/13342713/cth">
+                CTH
                </a>
                <span class="d-none" itemprop="name">
-                LIN KANG
+                CTH
                </span>
                <div class="-flair">
                 <span class="reputation-score" dir="ltr" title="reputation score ">
-                 47
+                 57
                 </span>
-                <span aria-hidden="true" title="5 bronze badges">
+                <span aria-hidden="true" title="4 bronze badges">
                  <span class="badge3">
                  </span>
                  <span class="badgecount">
-                  5
+                  4
                  </span>
                 </span>
                 <span class="v-visible-sr">
-                 5 bronze badges
+                 4 bronze badges
                 </span>
                </div>
               </div>
@@ -821,11 +738,11 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
          <span class="d-none" itemprop="commentCount">
          </span>
          <div class="post-layout--right js-post-comments-component">
-          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72183918" id="comments-72183918">
+          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72193868" id="comments-72193868">
            <ul class="comments-list js-comments-list" data-addlink-disabled="true" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-remaining-comments-count="0">
            </ul>
           </div>
-          <div data-anon="true" data-rep="50" id="comments-link-72183918">
+          <div data-anon="true" data-rep="50" id="comments-link-72193868">
            <a class="js-add-link comments-link disabled-link" href="#" role="button" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">
             Add a comment
            </a>
@@ -862,7 +779,7 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
              <label class="flex--item fs-caption" for="answer-sort-dropdown-select-menu">
               Sorted by:
              </label>
-             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72183918/how-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no?answertab=scoredesc#tab-top">
+             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72193868/python-mixin-why-is-my-serialized-field-not-coming-through?answertab=scoredesc#tab-top">
               Reset to default
              </a>
             </div>
@@ -885,27 +802,27 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
         </div>
         <h2 class="bottom-notice bottom-share-links" style="padding-top: 8px; margin-bottom: -8px;">
          Know someone who can answer? Share a link to this
-         <a href="https://stackoverflow.com/questions/72183918/how-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no">
+         <a href="https://stackoverflow.com/questions/72193868/python-mixin-why-is-my-serialized-field-not-coming-through">
           question
          </a>
          via
-         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=How%20to%20calculate%20RMSE%20and%20standard%20deviation%20between%20a%20coordinate%20point%20and%20a%20non-linear%20regression%20under%20the%20same%20abscissa%20value%3f%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72183918%3fsem%3d2">
+         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=Python%20mixin%3a%20Why%20is%20my%20serialized%20field%20not%20coming%20through%3f%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72193868%3fsem%3d2">
           email
          </a>
          ,
-         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72183918%3fstw%3d2">
+         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72193868%3fstw%3d2">
           Twitter
          </a>
          , or
-         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72183918%3fsfb%3d2">
+         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72193868%3fsfb%3d2">
           Facebook
          </a>
          .
         </h2>
         <a name="new-answer">
         </a>
-        <form action="/questions/72183918/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
-         <input id="post-id" type="hidden" value="72183918"/>
+        <form action="/questions/72193868/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
+         <input id="post-id" type="hidden" value="72193868"/>
          <input id="qualityBanWarningShown" name="qualityBanWarningShown" type="hidden" value="false"/>
          <input name="referrer" type="hidden" value=""/>
          <h2 class="space">
@@ -1034,7 +951,7 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
           <div>
           </div>
           <div class="edit-block">
-           <input id="fkey" name="fkey" type="hidden" value="8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded"/>
+           <input id="fkey" name="fkey" type="hidden" value="bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2"/>
            <input id="author" name="author" type="text"/>
           </div>
          </div>
@@ -1044,14 +961,28 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
             <div class="d-flex fd-column w50 md:w-auto gsy gs8 jc-space-between new-login-left">
              <h3 class="flex--item fs-title">
               Sign up or
-              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183918%2fhow-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no%23new-answer" id="login-link">
+              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193868%2fpython-mixin-why-is-my-serialized-field-not-coming-through%23new-answer" id="login-link">
                log in
               </a>
              </h3>
              <script>
               StackExchange.ready(function () {
                                 StackExchange.helpers.onClickDraftSave('#login-link');
-                            });
+
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                                                });
              </script>
              <div class="flex--item s-btn s-btn__muted s-btn__outlined s-btn__icon google-login" data-ga='["sign up","Sign Up Started - Google","New Post",null,null]'>
               <svg aria-hidden="true" class="native svg-icon iconGoogle" height="18" viewbox="0 0 18 18" width="18">
@@ -1127,7 +1058,7 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
           <script>
            StackExchange.ready(
                     function () {
-                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72183918%2fhow-to-calculate-rmse-and-standard-deviation-between-a-coordinate-point-and-a-no%23new-answer', 'question_page');
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72193868%2fpython-mixin-why-is-my-serialized-field-not-coming-through%23new-answer', 'question_page');
                     }
                 );
           </script>
@@ -1192,17 +1123,14 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
         </form>
         <h2 class="bottom-notice" data-loc="1">
          Browse other questions tagged
-         <a class="post-tag" href="/questions/tagged/r" rel="tag" title="show questions tagged 'r'">
-          r
+         <a class="post-tag" href="/questions/tagged/python" rel="tag" title="show questions tagged 'python'">
+          python
          </a>
-         <a class="post-tag" href="/questions/tagged/ggplot2" rel="tag" title="show questions tagged 'ggplot2'">
-          ggplot2
+         <a class="post-tag" href="/questions/tagged/django" rel="tag" title="show questions tagged 'django'">
+          django
          </a>
-         <a class="post-tag" href="/questions/tagged/standard-deviation" rel="tag" title="show questions tagged 'standard-deviation'">
-          standard-deviation
-         </a>
-         <a class="post-tag" href="/questions/tagged/non-linear-regression" rel="tag" title="show questions tagged 'non-linear-regression'">
-          non-linear-regression
+         <a class="post-tag" href="/questions/tagged/serialization" rel="tag" title="show questions tagged 'serialization'">
+          serialization
          </a>
          or
          <a href="/questions/ask">
@@ -1231,19 +1159,6 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
            </a>
           </div>
          </li>
-         <li class="s-sidebarwidget--item d-flex px16">
-          <div class="flex--item1 fl-shrink0">
-           <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-            <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-            </path>
-           </svg>
-          </div>
-          <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","The Overflow Blog","https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/",null,null]' data-gps-track="communitybulletin.click({ priority: 1, position: 1 })" href="https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/">
-            Security needs to shift left into the software development lifecycle
-           </a>
-          </div>
-         </li>
          <div class="s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1">
           Featured on Meta
          </div>
@@ -1253,7 +1168,7 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 1 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
             Staging Ground: Reviewer Motivation, Scaling, and Open Questions
            </a>
           </div>
@@ -1264,7 +1179,7 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 3 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
             Overhauling our community's closure reasons and guidance
            </a>
           </div>
@@ -1291,83 +1206,93 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
         </h4>
         <div class="related js-gps-related-questions" data-tracker="rq=1">
          <div class="spacer">
-          <a href="/q/30383270" title="Question score (upvotes - downvotes)">
+          <a href="/q/533631" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1214
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/533631/what-is-a-mixin-and-why-is-it-useful">
+           What is a mixin and why is it useful?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/2429511" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes extra-large">
+            1241
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/2429511/why-do-people-write-usr-bin-env-python-on-the-first-line-of-a-python-script">
+           Why do people write #!/usr/bin/env python on the first line of a Python script?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/4015417" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1550
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/4015417/why-do-python-classes-inherit-object">
+           Why do Python classes inherit object?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/9371238" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2079
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/9371238/why-is-reading-lines-from-stdin-much-slower-in-c-than-python">
+           Why is reading lines from stdin much slower in C++ than Python?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/30081275" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2702
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/30081275/why-is-1000000000000000-in-range1000000000000001-so-fast-in-python-3">
+           Why is "1000000000000000 in range(1000000000000001)" so fast in Python 3?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/39059827" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted default">
-            8
+            3
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/30383270/how-do-i-calculate-the-standard-deviation-between-weighted-measurements">
-           How do I calculate the standard deviation between weighted measurements?
+          <a class="question-hyperlink" href="/questions/39059827/serializer-as-field-is-not-visible-in-json">
+           Serializer as Field is not visible in json
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/37019023" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            8
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/37019023/distinction-between-linear-and-non-linear-regression">
-           Distinction between linear and non linear regression?
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/38750356" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            1
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/38750356/subscript-a-title-in-a-graph-ggplot2-with-label-of-another-file">
-           Subscript a title in a Graph (ggplot2) with label of another file
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/43417321" title="Question score (upvotes - downvotes)">
+          <a href="/q/42775784" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted default">
-            2
+            18
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/43417321/how-does-r-calculate-the-standard-deviation-and-variance-for-non-numeric-data">
-           How does r calculate the standard deviation and variance for non numeric data?
+          <a class="question-hyperlink" href="/questions/42775784/how-can-i-serialize-a-queryset-from-an-unrelated-model-as-a-nested-serializer">
+           How can I serialize a queryset from an unrelated model as a nested serializer?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/48284701" title="Question score (upvotes - downvotes)">
+          <a href="/q/48616888" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted default">
-            1
+            4
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/48284701/r-calculate-standard-deviation-for-the-columns-with-same-names">
-           R calculate standard deviation for the columns with same names
+          <a class="question-hyperlink" href="/questions/48616888/python-decorator-for-class-methods">
+           python decorator for class methods
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/57553242" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes default">
-            1
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/57553242/how-to-add-superscript-to-a-complex-axis-label-in-r">
-           How to add superscript to a complex axis label in R
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/59579434" title="Question score (upvotes - downvotes)">
+          <a href="/q/67561010" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted default">
-            1
+            0
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/59579434/linear-regression-with-independent-variable-plus-1-standard-deviation">
-           Linear regression with independent variable plus 1 Standard Deviation
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/64276516" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            1
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/64276516/how-to-calculate-standard-deviation-per-row">
-           How to calculate standard deviation per row?
+          <a class="question-hyperlink" href="/questions/67561010/django-widgets-and-date-fields">
+           Django widgets and date fields
           </a>
          </div>
         </div>
@@ -1380,52 +1305,45 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
         </h4>
         <ul>
          <li>
-          <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange">
+          <div class="favicon favicon-superuser" title="Super User">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268011/fast-element-extraction">
-           Fast element extraction
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720172/what-does-tar-cannot-connect-to-resolve-failed-mean">
+           What does `tar: Cannot connect to …: resolve failed` mean?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          <div class="favicon favicon-skeptics" title="Skeptics Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229759/do-androids-left-on-their-own-have-any-hope-of-replicating">
-           Do androids left on their own have any hope of replicating?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://skeptics.stackexchange.com/questions/53294/was-ukraine-planning-an-attack-in-donbas-crimea-prior-to-the-2022-russian-invasi">
+           Was Ukraine planning an attack in Donbas/Crimea prior to the 2022 Russian invasion of Ukraine?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229773/how-would-an-adult-artificial-human-behave-after-they-exit-the-biofabricator">
-           How would an adult artificial human behave after they exit the biofabricator?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184698/should-the-company-pay-the-tips-i-gave">
+           Should the company pay the tips I gave?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
+          <div class="favicon favicon-codereview" title="Code Review Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619014/why-dont-simulators-work-with-a-self-oscillating-voltage-booster-circuit-using">
-           Why don't simulators work with a self-oscillating voltage booster circuit using a transformer and a transistor?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:196 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codereview.stackexchange.com/questions/276443/naming-a-method-that-gets-the-next-enum-value-or-starts-from-the-beginning-if-th">
+           Naming a method that gets the next enum value or starts from the beginning if the given value is the last
           </a>
          </li>
          <li>
-          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
+          <div class="favicon favicon-politics" title="Politics Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619031/charging-supercapacitors-with-reversed-polarity">
-           Charging supercapacitors with reversed polarity
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73037/legality-of-nato-countries-freezing-assets-of-friends-and-family-of-putin">
+           Legality of NATO countries freezing assets of friends and family of Putin
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-academia" title="Academia Stack Exchange">
+          <div class="favicon favicon-space" title="Space Exploration Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185044/grading-on-a-curve-in-required-doctoral-course-failing-as-a-result">
-           Grading on a curve in required doctoral course, failing as a result
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-cs" title="Computer Science Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:419 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://cs.stackexchange.com/questions/151400/finding-a-dfa-for-concatenation">
-           Finding a DFA for concatenation
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:508 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://space.stackexchange.com/questions/59155/why-doesn-t-nasa-build-their-rockets-out-of-graphene">
+           Why doesn’t NASA build their rockets out of graphene?
           </a>
          </li>
          <li class="dno js-hidden">
@@ -1436,115 +1354,122 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange">
+          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:93 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://money.stackexchange.com/questions/150834/can-you-just-cancel-a-health-insurance-plan-and-buy-a-new-one-at-any-time">
-           Can you just cancel a health insurance plan and buy a new one at any time?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198187/why-shouldnt-one-make-changes-to-concentration-in-homebrew">
+           Why shouldn't one make changes to concentration in homebrew?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-biology" title="Biology Stack Exchange">
+          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:375 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://biology.stackexchange.com/questions/108084/do-photosynthesis-and-respiration-violate-the-law-of-conservation-of-energy">
-           Do photosynthesis and respiration violate the law of conservation of energy?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619042/why-does-the-current-carrying-capability-of-a-cable-increase-with-temperature">
+           Why does the current carrying capability of a cable increase with temperature
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-askubuntu" title="Ask Ubuntu">
+          <div class="favicon favicon-hermeneutics" title="Biblical Hermeneutics Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://askubuntu.com/questions/1407597/check-if-process-exits-or-doesnt-exists">
-           Check if process exits or doesn't exists
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263076/why-did-this-character-need-america-chavez">
-           Why did this character need America Chavez?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-aviation" title="Aviation Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://aviation.stackexchange.com/questions/93068/what-aircraft-is-shown-in-this-cockpit-picture">
-           What aircraft is shown in this cockpit picture?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-superuser" title="Super User">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1719973/what-exactly-does-ntfs-compression-do-to-files">
-           What exactly does NTFS compression do to files?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-codereview" title="Code Review Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:196 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codereview.stackexchange.com/questions/276417/battle-terminal-based-game">
-           Battle terminal-based game
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/248999/ceiling-fan-light-has-max-9w-led-sticker-but-doesnt-mention-incandescent">
-           Ceiling fan light has "MAX 9w LED" sticker, but doesn't mention incandescent
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184717/how-can-i-support-parallel-development-on-a-code-porting-project">
-           How can I support parallel development on a code porting project?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707636/alternate-sky-colors">
-           Alternate sky colors?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mathoverflow" title="MathOverflow">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422128/why-does-representing-functors-help-solving-diophantine-equations">
-           Why does representing functors help solving Diophantine equations?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-superuser" title="Super User">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720216/chown-operation-not-permitted-even-as-root-user">
-           chown - Operation not permitted even as root user
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707721/am-i-in-a-superposition">
-           Am I in a superposition?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229739/can-a-birch-planet-send-information-out">
-           Can a Birch planet send information out?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643555/write-some-text-under-physic-chemistry-formula">
-           Write some text under physic-chemistry formula
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:320 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://hermeneutics.stackexchange.com/questions/76203/what-does-jesus-mean-by-hot-cold-and-lukewarm-in-revelation-316">
+           What does Jesus mean by "hot", "cold" and "lukewarm" in Revelation 3:16?
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-politics" title="Politics Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73019/is-there-any-value-for-russians-in-completely-eliminating-the-ukrainian-resistan">
-           Is there any value for Russians in completely eliminating the Ukrainian resistance at Azovstal, Mariupol?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73044/why-can-water-not-be-transferred-within-california">
+           Why can water not be transferred within California?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229773/how-would-an-adult-artificial-human-behave-after-they-exit-the-biofabricator">
+           How would an adult artificial human behave after they exit the biofabricator?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229800/airwarships-and-the-wet-navy">
+           Air(warships) and the 'wet navy'
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-academia" title="Academia Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185102/im-the-1st-author-of-a-paper-in-a-top-conference-in-my-field-and-even-then-my">
+           I'm the 1st author of a paper in a top conference in my field, and even then my PhD application got rejected from 5 out of 6 programs, is this normal?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-bicycles" title="Bicycles Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bicycles.stackexchange.com/questions/83819/do-rotational-symmetric-looking-front-lights-usually-throw-half-their-light-into">
+           Do rotational-symmetric-looking front lights usually throw half their light into oncoming traffic? How To dinstiguish?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-history" title="History Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://history.stackexchange.com/questions/68935/when-did-horseback-riding-start-are-doosheh-cave-petroglyphs-authentic-and-corr">
+           When did horseback riding start? Are Doosheh cave petroglyphs authentic and correctly dated?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-travel" title="Travel Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173537/help-identifying-this-landmark-and-road-in-los-angeles-1940s-residential-area">
+           Help identifying this landmark and road in "Los Angeles 1940s, Residential Area in color"
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-proofassistants" title="Proof Assistants Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:708 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://proofassistants.stackexchange.com/questions/1376/construction-of-inductive-types-the-hard-way">
+           Construction of inductive types "the hard way"
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-bricks" title="Bricks">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:336 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bricks.stackexchange.com/questions/17115/which-bricks-are-still-protected-by-copyright-trademark-patent-law">
+           Which bricks are still protected by copyright / trademark / patent law?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-academia" title="Academia Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185122/should-recommendation-letters-mention-a-candidates-weaknesses">
+           Should recommendation letters mention a candidate's weaknesses?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-stats" title="Cross Validated">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stats.stackexchange.com/questions/574444/if-p-values-are-random-why-not-decide-using-the-test-statistic-instead">
+           If p-values are random, why not decide using the test statistic instead?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-dba" title="Database Administrators Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:182 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://dba.stackexchange.com/questions/311933/sql-server-timeout-on-db-and-into-connection-string">
+           SQL Server timeout on DB and into connection string
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263049/why-were-mordos-group-of-heroes-so-disastrously-overconfident-in-confronting-th">
+           Why were Mordo's group of heroes so disastrously overconfident in confronting this enemy?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619091/are-microphones-with-flatter-frequency-response-charts-better-at-picking-up-freq">
+           Are microphones with flatter frequency response charts better at picking up frequencies?
           </a>
          </li>
         </ul>
@@ -1553,7 +1478,7 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
         </a>
        </div>
        <div class="js-feed-link" id="feed-link">
-        <a href="/feeds/question/72183918" title="Feed of this question and its answers">
+        <a href="/feeds/question/72193868" title="Feed of this question and its answers">
          <svg aria-hidden="true" class="fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
           <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
           </path>
@@ -1576,7 +1501,7 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
            </label>
           </div>
           <div class="d-flex ps-relative">
-           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72183918"/>
+           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72193868"/>
            <svg aria-hidden="true" class="s-input-icon fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
             <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
             </path>
@@ -1594,15 +1519,15 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
       </div>
      </div>
      <script>
-      StackExchange.ready(function(){$.get('/posts/72183918/ivc/e944');});
+      StackExchange.ready(function(){$.get('/posts/72193868/ivc/bb37');});
      </script>
      <noscript>
       <div>
-       <img alt="" class="dno" height="0" src="/posts/72183918/ivc/e944" width="0"/>
+       <img alt="" class="dno" height="0" src="/posts/72193868/ivc/bb37" width="0"/>
       </div>
      </noscript>
      <div id="js-codeblock-lang" style="display:none">
-      lang-r
+      lang-py
      </div>
     </div>
    </div>
@@ -1621,9 +1546,9 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
     clc.options.targeting_consent = !1;
     clc.options.performance_consent = !1;
         clc.cmd = clc.cmd || [];
-        clc.cmd.push(function () { window.clc_request='A6bjFiZpMtoIAAAAAG5wTQQCAAAAAgAAAAAANAAAAHxyfGdncGxvdDJ8c3RhbmRhcmQtZGV2aWF0aW9ufG5vbi1saW5lYXItcmVncmVzc2lvbnwAC-AQrAy6N1koVQ'; clc.load(); });
+        clc.cmd.push(function () { window.clc_request='AzFkuyXcMtoIAAAAAEyXTQQCAAAAAgAAAAAAHQAAAHxweXRob258ZGphbmdvfHNlcmlhbGl6YXRpb258AD64JXAl1R8d2Kg'; clc.load(); });
         clc.dfp = clc.dfp || {};
-        clc.dfp.targeting = {Registered:['false'],'so-tag':['r','ggplot2','standard-deviation','non-linear-regression'],'tag-reportable':['r','ggplot2','standard-deviation','non-linear-regression'],'tag-non-reportable':['r','ggplot2','standard-deviation','non-linear-regression'],NumberOfAnswers:['0']};
+        clc.dfp.targeting = {Registered:['false'],'so-tag':['python','django','serialization'],'tag-reportable':['python','django','serialization'],'tag-non-reportable':['python','django','serialization'],NumberOfAnswers:['0']};
 
         if (window.location.hash.indexOf('ads:cat=cp') >= 0)
         {
@@ -1845,42 +1770,13 @@ ggplot(ISIDOR, aes(FTSW_apres_arros, NLE)) +
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-                    StackExchange.ga.setDimension('dimension2', '|r|ggplot2|standard-deviation|non-linear-regression|');
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175641.382903692");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

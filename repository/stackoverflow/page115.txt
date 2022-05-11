@@ -2,23 +2,24 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   ios - Get all console content into a file - Stack Overflow
+   powerquery - How to know when Regex requires 2 arguments or 3 (with text replacement) - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/questions/72183925/get-all-console-content-into-a-file" rel="canonical">
+  <link href="https://stackoverflow.com/questions/72193807/how-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement" rel="canonical">
    <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
    <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/questions/72183925/get-all-console-content-into-a-file" property="og:url"/>
+    <meta content="https://stackoverflow.com/questions/72193807/how-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement" property="og:url"/>
     <meta content="Stack Overflow" property="og:site_name"/>
     <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
     <meta content="summary" name="twitter:card"/>
     <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="Get all console content into a file" itemprop="name" name="twitter:title" property="og:title"/>
-    <meta content="Im trying to get all console logs into a file.
-I found posts like this. I have been testing this: no content displayed with NSLog (its displayed with print) but no data is written into the file, ne..." itemprop="description" name="twitter:description" property="og:description"/>
+    <meta content="How to know when Regex requires 2 arguments or 3 (with text replacement)" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="In past questions have been offered solutions to extracting data using regex functions based on:
+https://gist.github.com/Hugoberry/4948d96b45d6799c47b4b9fa1b08eadf
+https://www.mathscinotes.com/2020..." itemprop="description" name="twitter:description" property="og:description"/>
     <script id="webpack-public-path" type="text/uri-list">
      https://cdn.sstatic.net/
     </script>
@@ -30,16 +31,16 @@ I found posts like this. I have been testing this: no content displayed with NSL
     </script>
     <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
-    <link href="/feeds/question/72183925" rel="alternate" title="Feed for question 'Get all console content into a file'" type="application/atom+xml"/>
+    <link href="/feeds/question/72193807" rel="alternate" title="Feed for question 'How to know when Regex requires 2 arguments or 3 (with text replacement)'" type="application/atom+xml"/>
     <meta content="US" name="twitter:app:country"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:iphone"/>
     <meta content="871299723" name="twitter:app:id:iphone"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183925/get-all-console-content-into-a-file" name="twitter:app:url:iphone"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193807/how-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement" name="twitter:app:url:iphone"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:ipad"/>
     <meta content="871299723" name="twitter:app:id:ipad"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183925/get-all-console-content-into-a-file" name="twitter:app:url:ipad"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193807/how-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement" name="twitter:app:url:ipad"/>
     <meta content="Stack Exchange Android" name="twitter:app:name:googleplay"/>
-    <meta content="https://stackoverflow.com/questions/72183925/get-all-console-content-into-a-file" name="twitter:app:url:googleplay"/>
+    <meta content="https://stackoverflow.com/questions/72193807/how-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement" name="twitter:app:url:googleplay"/>
     <meta content="com.stackexchange.marvin" name="twitter:app:id:googleplay"/>
     <script>
      StackExchange.ready(function () {
@@ -53,11 +54,11 @@ I found posts like this. I have been testing this: no content displayed with NSL
                 });
 
 
-                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72183925});
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72193807});
 
                 styleCode();
 
-                    StackExchange.realtime.subscribeToQuestion('1', '72183925');
+                    StackExchange.realtime.subscribeToQuestion('1', '72193807');
                     StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.js-post-body'); });
 
 
@@ -65,7 +66,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
     </script>
     <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
     <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1652175637,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+     {"options":{"locale":"en","serverTime":1652225028,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
     </script>
     <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
      {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -74,7 +75,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
      StackExchange.init();
     </script>
     <script>
-     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -264,11 +265,11 @@ I found posts like this. I have been testing this: no content displayed with NSL
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183925%2fget-all-console-content-into-a-file">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193807%2fhow-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183925%2fget-all-console-content-into-a-file">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193807%2fhow-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement">
           log in
          </a>
          to customize your list.
@@ -299,12 +300,12 @@ I found posts like this. I have been testing this: no content displayed with NSL
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183925%2fget-all-console-content-into-a-file" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193807%2fhow-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183925%2fget-all-console-content-into-a-file" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193807%2fhow-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -519,8 +520,8 @@ I found posts like this. I have been testing this: no content displayed with NSL
      <div class="inner-content clearfix">
       <div class="d-flex sm:fd-column" id="question-header">
        <h1 class="fs-headline1 ow-break-word mb8 flex--item fl1" itemprop="name">
-        <a class="question-hyperlink" href="/questions/72183925/get-all-console-content-into-a-file">
-         Get all console content into a file
+        <a class="question-hyperlink" href="/questions/72193807/how-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement">
+         How to know when Regex requires 2 arguments or 3 (with text replacement)
         </a>
        </h1>
        <div class="ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end">
@@ -530,11 +531,11 @@ I found posts like this. I have been testing this: no content displayed with NSL
        </div>
       </div>
       <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075">
-       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 09:34:21Z">
+       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 23:07:58Z">
         <span class="fc-light mr2">
          Asked
         </span>
-        <time datetime="2022-05-10T09:34:21" itemprop="dateCreated">
+        <time datetime="2022-05-10T23:07:58" itemprop="dateCreated">
          today
         </time>
        </div>
@@ -542,7 +543,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
         <span class="fc-light mr2">
          Modified
         </span>
-        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 09:34:21Z">
+        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 23:07:58Z">
          today
         </a>
        </div>
@@ -554,7 +555,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
        </div>
       </div>
       <div aria-label="question and answers" id="mainbar" role="main">
-       <div class="question" data-position-on-page="0" data-questionid="72183925" data-score="0" id="question">
+       <div class="question" data-position-on-page="0" data-questionid="72193807" data-score="0" id="question">
         <style>
         </style>
         <div class="js-zone-container zone-container-main">
@@ -565,7 +566,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
         </div>
         <div class="post-layout">
          <div class="votecell post-layout--left">
-          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72183925">
+          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72193807">
            <button aria-label="Up vote" aria-pressed="false" class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This question shows research effort; it is useful and clear">
             <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
              <path d="M2 25h32L18 9 2 25Z">
@@ -589,7 +590,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
             <div class="js-bookmark-count mt4 d-none" data-value="">
             </div>
            </button>
-           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72183925/timeline" title="Show activity on this post.">
+           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72193807/timeline" title="Show activity on this post.">
             <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" height="18" viewbox="0 0 19 18" width="19">
              <path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z">
              </path>
@@ -600,30 +601,171 @@ I found posts like this. I have been testing this: no content displayed with NSL
          <div class="postcell post-layout--right">
           <div class="s-prose js-post-body" itemprop="text">
            <p>
-            Im trying to get all console logs into a file.
+            In past questions have been offered solutions to extracting data using regex functions based on:
            </p>
            <p>
-            I found posts like
-            <a href="https://stackoverflow.com/questions/54071992/how-to-programmatically-get-the-log-messages-in-an-ios-app">
-             this
+            <a href="https://gist.github.com/Hugoberry/4948d96b45d6799c47b4b9fa1b08eadf" rel="nofollow noreferrer">
+             https://gist.github.com/Hugoberry/4948d96b45d6799c47b4b9fa1b08eadf
             </a>
-            . I have been testing this: no content displayed with NSLog (its displayed with print) but no data is written into the file, neither the NSLog nor the print ones.
+            <a href="https://www.mathscinotes.com/2020/02/power-query-regular-expression-hack/" rel="nofollow noreferrer">
+             https://www.mathscinotes.com/2020/02/power-query-regular-expression-hack/
+            </a>
            </p>
            <p>
-            When the app closes i close the file.
+            These appear to be the main functions existing to get regex to work with excel.
            </p>
            <p>
-            What am i missing here?
+            The first function requires 2 arguments (Text from Column, Regex):
            </p>
+           <p>
+            <strong>
+             fnRegexExtr2
+            </strong>
+           </p>
+           <pre><code>let   fx=(text,regex)=&gt;
+    Web.Page(
+        "&lt;script&gt;
+            var x='"&amp;text&amp;"';
+            var y=new RegExp('"&amp;regex&amp;"','g');
+            
+            var b=x.match(y);
+            document.write(b);
+        &lt;/script&gt;")[Data]{0}[Children]{0}[Children]{1}[Text]{0}
+
+in
+fx
+</code></pre>
+           <p>
+            The second function requires 3: (X(Text From Column), Y(Regex) Z(Text to Replace))
+           </p>
+           <p>
+            <strong>
+             fnRegexExtr3
+            </strong>
+           </p>
+           <pre><code>(x,y,z)=&gt;
+let 
+   Source = Web.Page(
+                     "&lt;script&gt;
+                     var x="&amp;"'"&amp;x&amp;"'"&amp;";
+                     var z="&amp;"'"&amp;z&amp;"'"&amp;";
+                     var y=new RegExp('"&amp;y&amp;"','g');
+                     
+                     var b=x.replace(y,z);document.write(b);&lt;/script&gt;")
+                     [Data]{0}[Children]{0}[Children]{1}[Text]{0}
+in 
+   Source
+</code></pre>
+           <p>
+            Building on an answer to my previous question the second function works well to separate out Pressure values from a string of text as shown:
+           </p>
+           <ul>
+            <li>
+             x - Input Text from Column
+            </li>
+            <li>
+             y -
+             <code>
+              (\\d+(?:-\\d+)?)\\D*mmHg|.
+             </code>
+            </li>
+            <li>
+             z -
+             <code>
+              $1
+             </code>
+            </li>
+           </ul>
+           <p>
+            <strong>
+             M Code:
+            </strong>
+           </p>
+           <pre><code>let
+    Source = Excel.CurrentWorkbook(){[Name="Table3"]}[Content],
+    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+    #"Invoked Custom Function" = Table.AddColumn(#"Changed Type", "fnRegexExtr3", each fnRegexExtr3([Column1], "(\\d+(?:-\\d+)?)\\D*mmHg|.", "$1 "))
+in
+    #"Invoked Custom Function"
+</code></pre>
+           <p>
+            <a href="https://i.stack.imgur.com/X8TQe.png" rel="nofollow noreferrer">
+             <img alt="enter image description here" src="https://i.stack.imgur.com/X8TQe.png"/>
+            </a>
+           </p>
+           <p>
+            When I apply the same Regex to the first function that only takes two parameters, the letters are completely separated out:
+           </p>
+           <p>
+            <strong>
+             M Code:
+            </strong>
+           </p>
+           <pre><code>let
+    Source = Excel.CurrentWorkbook(){[Name="Table3"]}[Content],
+    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+    #"Invoked Custom Function" = Table.AddColumn(#"Changed Type", "fnRegexExtr2", each fnRegexExtr2([Column1], "(\\d+(?:-\\d+)?)\\D*mmHg|."))
+in
+    #"Invoked Custom Function"
+</code></pre>
+           <p>
+            <a href="https://i.stack.imgur.com/GGILs.png" rel="nofollow noreferrer">
+             <img alt="enter image description here" src="https://i.stack.imgur.com/GGILs.png"/>
+            </a>
+           </p>
+           <p>
+            Clearly, I'm misunderstanding something, why are the behaviours so different? My current understanding is that
+            <code>
+             $1
+            </code>
+            replaces the text with that of the group(), however I don't quite see why any replacement needs to take place?
+           </p>
+           <p>
+            I have been playing around with the above snippet of data as a newbie to regex and can apply common rules with fnRegexExtr2, i.e. without text replacement, quite straightforwardly. I don't currently know how to do the same with fnRegexExtr3 because of the third text replacement argument. I just don't know what to do with if but the function fails without it.
+           </p>
+           <p>
+            I would have thought entering
+            <code>
+             (\\d+(?:-\\d+)?)\\D*mmHg|.
+            </code>
+            as rule to work with the first function would yield a similar result. Why does it work when both
+            <code>
+             (\\d+(?:-\\d+)?)\\D*mmHg|.
+            </code>
+            and
+            <code>
+             $1
+            </code>
+            arguments are applied to the second function. Is it possible to yield the same result achieved with fnRegexExtr3 but with fnRegexExtr2? If not it would be great to understand why.
+           </p>
+           <p>
+            More of a learning opportunity rather than requesting any help with a specific question.
+           </p>
+           <p>
+            <strong>
+             Data if you want to repeat any of the above tests:
+            </strong>
+           </p>
+           <pre><code>On a positive note, the intraocular pressure had dropped to 10mmHg in this eye showing that the topical Azopt is effective in reducing the intraocular pressure.
+
+At the moment the IOP is normal at 16mmHg in both eyes.Anincidental finding was an optic nerve coloboma in the left eye, a congenital abnormality, for which notreatment is indicated.
+
+The eye was uncomfortable as the intraocular pressurewas 60mmHg (normal range for the dog is 15-25mmHg).
+
+Examination of the right eye confirmed that it was comfortable and visual with a normal intraocular pressure(20mmHg).
+</code></pre>
           </div>
           <div class="mt24 mb12">
            <div class="post-taglist d-flex gs4 gsy fd-column">
             <div class="d-flex ps-relative fw-wrap">
-             <a class="post-tag" href="/questions/tagged/ios" rel="tag" title="show questions tagged 'ios'">
-              ios
+             <a class="post-tag" href="/questions/tagged/regex" rel="tag" title="show questions tagged 'regex'">
+              regex
              </a>
-             <a class="post-tag" href="/questions/tagged/logging" rel="tag" title="show questions tagged 'logging'">
-              logging
+             <a class="post-tag" href="/questions/tagged/powerquery" rel="tag" title="show questions tagged 'powerquery'">
+              powerquery
+             </a>
+             <a class="post-tag" href="/questions/tagged/custom-functions-excel" rel="tag" title="show questions tagged 'custom-functions-excel'">
+              custom-functions-excel
              </a>
             </div>
            </div>
@@ -631,15 +773,20 @@ I found posts like this. I have been testing this: no content displayed with NSL
           <div class="mb0">
            <div class="mt16 d-flex gs8 gsy fw-wrap jc-end ai-start pt4 mb16">
             <div class="flex--item mr16 fl1 w96">
-             <div class="js-post-menu pt2" data-post-id="72183925">
+             <div class="js-post-menu pt2" data-post-id="72193807">
               <div class="d-flex gs8 s-anchors s-anchors__muted fw-wrap">
                <div class="flex--item">
-                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72183925" itemprop="url" rel="nofollow" title="Short permalink to this question">
+                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72193807" itemprop="url" rel="nofollow" title="Short permalink to this question">
                  Share
                 </a>
                </div>
                <div class="flex--item">
-                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72183925" title="Follow this question to receive notifications" type="button">
+                <a class="js-suggest-edit-post js-gps-track" data-gps-track="post.click({ item: 6, priv: 0, post_type: 1 })" href="/posts/72193807/edit" title="">
+                 Improve this question
+                </a>
+               </div>
+               <div class="flex--item">
+                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72193807" title="Follow this question to receive notifications" type="button">
                  Follow
                 </button>
                </div>
@@ -649,50 +796,50 @@ I found posts like this. I have been testing this: no content displayed with NSL
              </div>
             </div>
             <div class="post-signature owner flex--item">
-             <div class="user-info user-hover">
+             <div class="user-info">
               <div class="user-action-time truncate">
                asked
-               <span class="relativetime" title="2022-05-10 09:34:21Z">
-                6 mins ago
+               <span class="relativetime" title="2022-05-10 23:07:58Z">
+                15 mins ago
                </span>
               </div>
               <div class="user-gravatar32">
-               <a href="/users/4611361/cobolero">
+               <a href="/users/13562186/nick">
                 <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/AGFYq.png?s=64&amp;g=1" width="32"/>
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/93aa26c0adc2930f9d9d5ae39aaf919e?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
                 </div>
                </a>
               </div>
               <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-               <a href="/users/4611361/cobolero">
-                cobolero
+               <a href="/users/13562186/nick">
+                Nick
                </a>
                <span class="d-none" itemprop="name">
-                cobolero
+                Nick
                </span>
                <div class="-flair">
                 <span class="reputation-score" dir="ltr" title="reputation score ">
-                 352
+                 587
                 </span>
-                <span aria-hidden="true" title="4 silver badges">
+                <span aria-hidden="true" title="1 silver badge">
                  <span class="badge2">
                  </span>
                  <span class="badgecount">
-                  4
+                  1
                  </span>
                 </span>
                 <span class="v-visible-sr">
-                 4 silver badges
+                 1 silver badge
                 </span>
-                <span aria-hidden="true" title="13 bronze badges">
+                <span aria-hidden="true" title="11 bronze badges">
                  <span class="badge3">
                  </span>
                  <span class="badgecount">
-                  13
+                  11
                  </span>
                 </span>
                 <span class="v-visible-sr">
-                 13 bronze badges
+                 11 bronze badges
                 </span>
                </div>
               </div>
@@ -704,11 +851,11 @@ I found posts like this. I have been testing this: no content displayed with NSL
          <span class="d-none" itemprop="commentCount">
          </span>
          <div class="post-layout--right js-post-comments-component">
-          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72183925" id="comments-72183925">
+          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72193807" id="comments-72193807">
            <ul class="comments-list js-comments-list" data-addlink-disabled="true" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-remaining-comments-count="0">
            </ul>
           </div>
-          <div data-anon="true" data-rep="50" id="comments-link-72183925">
+          <div data-anon="true" data-rep="50" id="comments-link-72193807">
            <a class="js-add-link comments-link disabled-link" href="#" role="button" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">
             Add a comment
            </a>
@@ -745,7 +892,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
              <label class="flex--item fs-caption" for="answer-sort-dropdown-select-menu">
               Sorted by:
              </label>
-             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72183925/get-all-console-content-into-a-file?answertab=scoredesc#tab-top">
+             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72193807/how-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement?answertab=scoredesc#tab-top">
               Reset to default
              </a>
             </div>
@@ -768,27 +915,27 @@ I found posts like this. I have been testing this: no content displayed with NSL
         </div>
         <h2 class="bottom-notice bottom-share-links" style="padding-top: 8px; margin-bottom: -8px;">
          Know someone who can answer? Share a link to this
-         <a href="https://stackoverflow.com/questions/72183925/get-all-console-content-into-a-file">
+         <a href="https://stackoverflow.com/questions/72193807/how-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement">
           question
          </a>
          via
-         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=Get%20all%20console%20content%20into%20a%20file%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72183925%3fsem%3d2">
+         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=How%20to%20know%20when%20Regex%20requires%202%20arguments%20or%203%20(with%20text%20replacement)%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72193807%3fsem%3d2">
           email
          </a>
          ,
-         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72183925%3fstw%3d2">
+         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72193807%3fstw%3d2">
           Twitter
          </a>
          , or
-         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72183925%3fsfb%3d2">
+         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72193807%3fsfb%3d2">
           Facebook
          </a>
          .
         </h2>
         <a name="new-answer">
         </a>
-        <form action="/questions/72183925/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
-         <input id="post-id" type="hidden" value="72183925"/>
+        <form action="/questions/72193807/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
+         <input id="post-id" type="hidden" value="72193807"/>
          <input id="qualityBanWarningShown" name="qualityBanWarningShown" type="hidden" value="false"/>
          <input name="referrer" type="hidden" value=""/>
          <h2 class="space">
@@ -917,7 +1064,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
           <div>
           </div>
           <div class="edit-block">
-           <input id="fkey" name="fkey" type="hidden" value="8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded"/>
+           <input id="fkey" name="fkey" type="hidden" value="bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2"/>
            <input id="author" name="author" type="text"/>
           </div>
          </div>
@@ -927,14 +1074,28 @@ I found posts like this. I have been testing this: no content displayed with NSL
             <div class="d-flex fd-column w50 md:w-auto gsy gs8 jc-space-between new-login-left">
              <h3 class="flex--item fs-title">
               Sign up or
-              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183925%2fget-all-console-content-into-a-file%23new-answer" id="login-link">
+              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193807%2fhow-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement%23new-answer" id="login-link">
                log in
               </a>
              </h3>
              <script>
               StackExchange.ready(function () {
                                 StackExchange.helpers.onClickDraftSave('#login-link');
-                            });
+
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                                                });
              </script>
              <div class="flex--item s-btn s-btn__muted s-btn__outlined s-btn__icon google-login" data-ga='["sign up","Sign Up Started - Google","New Post",null,null]'>
               <svg aria-hidden="true" class="native svg-icon iconGoogle" height="18" viewbox="0 0 18 18" width="18">
@@ -1010,7 +1171,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
           <script>
            StackExchange.ready(
                     function () {
-                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72183925%2fget-all-console-content-into-a-file%23new-answer', 'question_page');
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72193807%2fhow-to-know-when-regex-requires-2-arguments-or-3-with-text-replacement%23new-answer', 'question_page');
                     }
                 );
           </script>
@@ -1075,11 +1236,14 @@ I found posts like this. I have been testing this: no content displayed with NSL
         </form>
         <h2 class="bottom-notice" data-loc="1">
          Browse other questions tagged
-         <a class="post-tag" href="/questions/tagged/ios" rel="tag" title="show questions tagged 'ios'">
-          ios
+         <a class="post-tag" href="/questions/tagged/regex" rel="tag" title="show questions tagged 'regex'">
+          regex
          </a>
-         <a class="post-tag" href="/questions/tagged/logging" rel="tag" title="show questions tagged 'logging'">
-          logging
+         <a class="post-tag" href="/questions/tagged/powerquery" rel="tag" title="show questions tagged 'powerquery'">
+          powerquery
+         </a>
+         <a class="post-tag" href="/questions/tagged/custom-functions-excel" rel="tag" title="show questions tagged 'custom-functions-excel'">
+          custom-functions-excel
          </a>
          or
          <a href="/questions/ask">
@@ -1108,19 +1272,6 @@ I found posts like this. I have been testing this: no content displayed with NSL
            </a>
           </div>
          </li>
-         <li class="s-sidebarwidget--item d-flex px16">
-          <div class="flex--item1 fl-shrink0">
-           <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-            <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-            </path>
-           </svg>
-          </div>
-          <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","The Overflow Blog","https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/",null,null]' data-gps-track="communitybulletin.click({ priority: 1, position: 1 })" href="https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/">
-            Security needs to shift left into the software development lifecycle
-           </a>
-          </div>
-         </li>
          <div class="s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1">
           Featured on Meta
          </div>
@@ -1130,7 +1281,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 1 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
             Staging Ground: Reviewer Motivation, Scaling, and Open Questions
            </a>
           </div>
@@ -1141,7 +1292,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 3 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
             Overhauling our community's closure reasons and guidance
            </a>
           </div>
@@ -1162,116 +1313,89 @@ I found posts like this. I have been testing this: no content displayed with NSL
        </div>
        <div id="hireme">
        </div>
-       <div class="module sidebar-linked">
-        <h4 id="h-linked">
-         Linked
-        </h4>
-        <div class="linked" data-tracker="lq=1">
-         <div class="spacer js-gps-track" data-gps-track="linkedquestion.click({ source_post_id: 72183925, target_question_id: 54071992, position: 0 })">
-          <a href="/q/54071992" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            4
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/54071992/how-to-programmatically-get-the-log-messages-in-an-ios-app?noredirect=1">
-           How to programmatically get the log messages in an iOS app?
-          </a>
-         </div>
-        </div>
-       </div>
        <div class="module sidebar-related">
         <h4 id="h-related">
          Related
         </h4>
         <div class="related js-gps-related-questions" data-tracker="rq=1">
          <div class="spacer">
-          <a href="/q/9081" title="Question score (upvotes - downvotes)">
+          <a href="/q/80357" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted large">
+            630
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/80357/how-to-match-all-occurrences-of-a-regex">
+           How to match all occurrences of a regex
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/123559" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted extra-large">
-            3910
+            1012
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/9081/grep-a-file-but-show-several-surrounding-lines">
-           grep a file, but show several surrounding lines?
+          <a class="question-hyperlink" href="/questions/123559/how-to-validate-phone-numbers-using-regex">
+           How to validate phone numbers using regex
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/960099" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            87
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/960099/how-to-set-up-java-logging-using-a-properties-file-java-util-logging">
-           How to set up java logging using a properties file? (java.util.logging)
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/2671454" title="Question score (upvotes - downvotes)">
+          <a href="/q/136505" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            524
+            316
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/2671454/heroku-how-to-see-all-the-logs">
-           heroku - how to see all the logs
+          <a class="question-hyperlink" href="/questions/136505/searching-for-uuids-in-text-with-regex">
+           Searching for UUIDs in text with regex
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/3198343" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            0
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/3198343/continually-output-file-content-to-console">
-           Continually output file content to console?
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/7952154" title="Question score (upvotes - downvotes)">
+          <a href="/q/1981349" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            250
+            695
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/7952154/spring-resttemplate-how-to-enable-full-debugging-logging-of-requests-responses">
-           Spring RestTemplate - how to enable full debugging/logging of requests/responses?
+          <a class="question-hyperlink" href="/questions/1981349/regex-to-replace-multiple-spaces-with-a-single-space">
+           Regex to replace multiple spaces with a single space
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/14058453" title="Question score (upvotes - downvotes)">
+          <a href="/q/6844785" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            595
+            384
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/14058453/making-python-loggers-output-all-messages-to-stdout-in-addition-to-log-file">
-           Making Python loggers output all messages to stdout in addition to log file
+          <a class="question-hyperlink" href="/questions/6844785/how-to-use-regex-with-find-command">
+           How to use regex with find command?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/15892946" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            48
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/15892946/python-logging-module-is-not-writing-anything-to-file">
-           python logging module is not writing anything to file
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/24333981" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted large">
-            632
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/24333981/ios-app-with-framework-crashed-on-device-dyld-library-not-loaded-xcode-6-beta">
-           iOS app with framework crashed on device, dyld: Library not loaded, Xcode 6 Beta
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/60489850" title="Question score (upvotes - downvotes)">
+          <a href="/q/7585564" title="Question score (upvotes - downvotes)">
            <div class="answer-votes default">
-            0
+            7
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/60489850/why-debug-logs-are-not-getting-printed-in-console-and-in-file">
-           Why debug logs are not getting printed in console and in file
+          <a class="question-hyperlink" href="/questions/7585564/multiple-regex-replacement-on-variable-in-bash">
+           multiple regex replacement on variable in bash?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/22542834" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted large">
+            706
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/22542834/how-to-use-regular-expressions-regex-in-microsoft-excel-both-in-cell-and-loops">
+           How to use Regular Expressions (Regex) in Microsoft Excel both in-cell and loops
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/41863717" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes default">
+            1
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/41863717/regex-replacement-strings-to-function-call">
+           Regex replacement: strings to function call
           </a>
          </div>
         </div>
@@ -1284,52 +1408,80 @@ I found posts like this. I have been testing this: no content displayed with NSL
         </h4>
         <ul>
          <li>
-          <div class="favicon favicon-travel" title="Travel Stack Exchange">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173526/booking-tickets-to-the-us-from-india-with-a-single-name">
-           Booking tickets to the US from India with a single name
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stackoverflow.com/questions/72177535/how-can-i-include-a-c-header-that-uses-a-c-keyword-as-an-identifier-in-c">
+           How can I include a C header that uses a C++ keyword as an identifier in C++?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-cs" title="Computer Science Stack Exchange">
+          <div class="favicon favicon-retrocomputing" title="Retrocomputing Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:419 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://cs.stackexchange.com/questions/151400/finding-a-dfa-for-concatenation">
-           Finding a DFA for concatenation
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:648 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://retrocomputing.stackexchange.com/questions/24471/why-didnt-the-original-commodore-pet-computer-use-a-standard-typewriter-style-k">
+           Why didn't the original Commodore PET computer use a standard typewriter style keyboard?
           </a>
          </li>
          <li>
-          <div class="favicon favicon-superuser" title="Super User">
+          <div class="favicon favicon-mattermodeling" title="Matter Modeling Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1719973/what-exactly-does-ntfs-compression-do-to-files">
-           What exactly does NTFS compression do to files?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:704 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mattermodeling.stackexchange.com/questions/9056/transiesta-output-through-a-single-gold-atom">
+           Transiesta output through a single gold atom
           </a>
          </li>
          <li>
-          <div class="favicon favicon-aviation" title="Aviation Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://aviation.stackexchange.com/questions/93068/what-aircraft-is-shown-in-this-cockpit-picture">
-           What aircraft is shown in this cockpit picture?
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:431 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://chemistry.stackexchange.com/questions/165033/converting-benzaldehyde-to-benzophenone-in-no-more-than-two-steps">
-           Converting benzaldehyde to benzophenone in no more than two steps
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707452/wouldnt-the-cosmic-background-radiation-cmb-produce-drag-and-thus-create-a-pr">
-           Wouldn't the cosmic background radiation (CMB) produce drag and thus create a preferential inertial frame?
-          </a>
-         </li>
-         <li class="dno js-hidden">
           <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643476/how-can-i-draw-a-table-with-4-numbers-around-a-cross-x-shape-for-the-diamond-m">
-           How can I draw a "table" with 4 numbers around a cross/X-shape for the diamond method?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643665/tikz-prevent-overlapping-boxes-when-using-fit">
+           TikZ: prevent overlapping boxes when using fit
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-physics" title="Physics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707942/intuition-behind-the-differential-equation-for-forced-oscillations">
+           Intuition behind the differential equation for forced oscillations
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184698/should-the-company-pay-the-tips-i-gave">
+           Should the company pay the tips I gave?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-academia" title="Academia Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185102/im-the-1st-author-of-a-paper-in-a-top-conference-in-my-field-and-even-then-my">
+           I'm the 1st author of a paper in a top conference in my field, and even then my PhD application got rejected from 5 out of 6 programs, is this normal?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-codegolf" title="Code Golf Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codegolf.stackexchange.com/questions/247104/euler-characteristic-of-a-binary-matrix">
+           Euler characteristic of a binary matrix
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263049/why-were-mordos-group-of-heroes-so-disastrously-overconfident-in-confronting-th">
+           Why were Mordo's group of heroes so disastrously overconfident in confronting this enemy?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-law" title="Law Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80086/what-is-the-nature-and-purpose-of-the-uk-highway-code">
+           What is the nature and purpose of the UK highway code?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-retrocomputing" title="Retrocomputing Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:648 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://retrocomputing.stackexchange.com/questions/24465/fastest-8-bit-microprocessor-for-multiply-accumulate">
+           Fastest 8-bit microprocessor for multiply-accumulate?
           </a>
          </li>
          <li class="dno js-hidden">
@@ -1340,115 +1492,87 @@ I found posts like this. I have been testing this: no content displayed with NSL
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
+          <div class="favicon favicon-german" title="German Language Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198242/can-i-rest-while-under-the-effects-of-the-meld-into-stone-spell">
-           Can I rest while under the effects of the Meld into Stone spell?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-law" title="Law Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80047/after-buying-from-a-brick-mortar-shop-theyve-contacted-me-to-say-buying-thing">
-           After buying from a brick &amp; mortar shop they've contacted me to say buying things from them is consent to arbitration. Is this legal?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314832/heavens-gate-vs-the-gates-of-hell">
-           "Heaven's Gate" vs "The Gates of Hell"
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/248999/ceiling-fan-light-has-max-9w-led-sticker-but-doesnt-mention-incandescent">
-           Ceiling fan light has "MAX 9w LED" sticker, but doesn't mention incandescent
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198230/how-to-help-a-player-create-a-character-with-more-long-term-motivations">
-           How to help a player create a character with more long term motivations?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-biology" title="Biology Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:375 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://biology.stackexchange.com/questions/108084/do-photosynthesis-and-respiration-violate-the-law-of-conservation-of-energy">
-           Do photosynthesis and respiration violate the law of conservation of energy?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-blender" title="Blender Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://blender.stackexchange.com/questions/263072/are-render-results-hardware-dependent">
-           Are render results hardware dependent?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://german.stackexchange.com/questions/70546/unexpected-use-of-kater-instead-of-katze">
+           Unexpected use of 'Kater' instead of 'Katze'
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229739/can-a-birch-planet-send-information-out">
-           Can a Birch planet send information out?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229782/why-would-vampires-sire-vampires-of-lesser-blood-than-they-have-to">
+           Why would vampires sire vampires of lesser blood than they have to?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          <div class="favicon favicon-travel" title="Travel Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263076/why-did-this-character-need-america-chavez">
-           Why did this character need America Chavez?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173546/i-have-2-flights-by-ryanair-funchal-stansted-and-stansted-bologna-do-i-need-to">
+           I have 2 flights by Ryanair. Funchal-Stansted and Stansted-Bologna. Do I need to do passport control in Stansted? Or I can stay airside?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
+          <div class="favicon favicon-anime" title="Anime &amp; Manga Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/249002/safe-breakout-for-an-rv-outlet">
-           Safe breakout for an RV outlet
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:477 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://anime.stackexchange.com/questions/66771/what-does-eat-this-mean-in-gurenn-lagann">
+           What does "Eat this!" mean in Gurenn Lagann?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-mathoverflow" title="MathOverflow">
+          <div class="favicon favicon-ux" title="User Experience Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422158/is-the-ring-of-power-series-with-coefficients-in-a-field-free-as-a-module-over-t">
-           is the ring of power series with coefficients in a field free as a module over the polynomials subring?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-stats" title="Cross Validated">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stats.stackexchange.com/questions/574444/if-p-values-are-random-why-not-decide-using-the-test-statistic-instead">
-           If p-values are random, why not decide using the test statistic instead?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-codereview" title="Code Review Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:196 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codereview.stackexchange.com/questions/276417/battle-terminal-based-game">
-           Battle terminal-based game
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-skeptics" title="Skeptics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://skeptics.stackexchange.com/questions/53294/was-ukraine-planning-an-attack-in-donbas-crimea-prior-to-the-2022-russian-invasi">
-           Was Ukraine planning an attack in Donbas/Crimea prior to the 2022 Russian invasion of Ukraine?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mattermodeling" title="Matter Modeling Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:704 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mattermodeling.stackexchange.com/questions/9048/how-to-do-simulation-when-two-atoms-exist-in-the-same-coordinate-position-in-the">
-           How to do simulation when two atoms exist in the same coordinate position in the lattice?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:102 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ux.stackexchange.com/questions/143319/how-to-make-important-unhighlighted-tab-more-visible-without-conflicting-with-cu">
+           How to make important unhighlighted tab more visible without conflicting with current layout and color scheme?
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-history" title="History Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://history.stackexchange.com/questions/68953/did-ancient-polytheistic-religions-believe-theirs-was-the-only-pantheon">
-           Did ancient polytheistic religions believe theirs was the only pantheon?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://history.stackexchange.com/questions/68935/when-did-horseback-riding-start-are-doosheh-cave-petroglyphs-authentic-and-corr">
+           When did horseback riding start? Are Doosheh cave petroglyphs authentic and correctly dated?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://unix.stackexchange.com/questions/701944/bash-how-to-compare-arg-to-one-of-the-disks-in-linux-machine">
+           bash + how to compare arg to one of the disks in linux machine
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-codereview" title="Code Review Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:196 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codereview.stackexchange.com/questions/276443/naming-a-method-that-gets-the-next-enum-value-or-starts-from-the-beginning-if-th">
+           Naming a method that gets the next enum value or starts from the beginning if the given value is the last
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-movies" title="Movies &amp; TV Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:367 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://movies.stackexchange.com/questions/117534/who-is-the-father-in-doctor-strange-in-the-multiverse-of-madness">
+           Who is the father in Doctor Strange in the Multiverse of Madness?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-law" title="Law Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80081/how-is-an-animal-defined-as-in-rule-286-of-the-uk-highway-code">
+           How is an animal defined as in rule 286 of the UK highway code?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643682/tikz-complete-and-progressive-horizontal-fading-possible">
+           TikZ - Complete and progressive horizontal fading possible?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-linguistics" title="Linguistics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:312 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://linguistics.stackexchange.com/questions/44440/ncuti-gatwa-is-according-to-wikipedia-pronounced-%cb%88%ca%83u%cb%90ti-%cb%88%c9%a1%c3%a6tw%c9%91%cb%90-where-is-t">
+           Ncuti Gatwa is, according to Wikipedia, pronounced /ˈʃuːti ˈɡætwɑː/ - where is the NC orthography derived from?
           </a>
          </li>
         </ul>
@@ -1457,7 +1581,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
         </a>
        </div>
        <div class="js-feed-link" id="feed-link">
-        <a href="/feeds/question/72183925" title="Feed of this question and its answers">
+        <a href="/feeds/question/72193807" title="Feed of this question and its answers">
          <svg aria-hidden="true" class="fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
           <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
           </path>
@@ -1480,7 +1604,7 @@ I found posts like this. I have been testing this: no content displayed with NSL
            </label>
           </div>
           <div class="d-flex ps-relative">
-           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72183925"/>
+           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72193807"/>
            <svg aria-hidden="true" class="s-input-icon fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
             <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
             </path>
@@ -1498,11 +1622,11 @@ I found posts like this. I have been testing this: no content displayed with NSL
       </div>
      </div>
      <script>
-      StackExchange.ready(function(){$.get('/posts/72183925/ivc/e944');});
+      StackExchange.ready(function(){$.get('/posts/72193807/ivc/bb37');});
      </script>
      <noscript>
       <div>
-       <img alt="" class="dno" height="0" src="/posts/72183925/ivc/e944" width="0"/>
+       <img alt="" class="dno" height="0" src="/posts/72193807/ivc/bb37" width="0"/>
       </div>
      </noscript>
      <div id="js-codeblock-lang" style="display:none">
@@ -1525,9 +1649,9 @@ I found posts like this. I have been testing this: no content displayed with NSL
     clc.options.targeting_consent = !1;
     clc.options.performance_consent = !1;
         clc.cmd = clc.cmd || [];
-        clc.cmd.push(function () { window.clc_request='Ax6YnyNpMtoIAAAAAHVwTQQCAAAAAgAAAAAADQAAAHxpb3N8bG9nZ2luZ3wA8H2e5u9cBDQEtw'; clc.load(); });
+        clc.cmd.push(function () { window.clc_request='A1EW_yLcMtoIAAAAAA-XTQQCAAAAAgAAAAAAKQAAAHxyZWdleHxwb3dlcnF1ZXJ5fGN1c3RvbS1mdW5jdGlvbnMtZXhjZWx8AMZ5qVFxl_7uyb4'; clc.load(); });
         clc.dfp = clc.dfp || {};
-        clc.dfp.targeting = {Registered:['false'],'so-tag':['ios','logging'],'tag-reportable':['ios','logging'],'tag-non-reportable':['ios','logging'],NumberOfAnswers:['0']};
+        clc.dfp.targeting = {Registered:['false'],'so-tag':['regex','powerquery','custom-functions-excel'],'tag-reportable':['regex','powerquery','custom-functions-excel'],'tag-non-reportable':['regex','powerquery','custom-functions-excel'],NumberOfAnswers:['0']};
 
         if (window.location.hash.indexOf('ads:cat=cp') >= 0)
         {
@@ -1749,42 +1873,13 @@ I found posts like this. I have been testing this: no content displayed with NSL
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-                    StackExchange.ga.setDimension('dimension2', '|ios|logging|');
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175637.958811791");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

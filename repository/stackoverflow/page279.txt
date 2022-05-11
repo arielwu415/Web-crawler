@@ -2,7 +2,7 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   Privileges - Edit community wikis - Stack Overflow
+   Privileges - Answer protected questions - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/privileges/edit-community-wiki" property="og:url"/>
+   <meta content="https://stackoverflow.com/help/privileges/new-user" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="Privileges - Edit community wikis" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Privileges - Answer protected questions" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -31,7 +31,7 @@
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1652175854,"routeName":"Privileges/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652225244,"routeName":"Privileges/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,7 +40,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -229,11 +229,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fedit-community-wiki">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fnew-user">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fedit-community-wiki">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fnew-user">
           log in
          </a>
          to customize your list.
@@ -264,12 +264,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fedit-community-wiki" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fnew-user" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fedit-community-wiki" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2fprivileges%2fnew-user" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -508,53 +508,90 @@
         </div>
        </nav>
        <h1 class="s-page-title--header">
-        edit community wiki
+        remove new user restrictions
        </h1>
        <p class="s-page-title--description">
-        <svg aria-hidden="true" class="svg-icon iconPencil" height="18" viewbox="0 0 18 18" width="18">
-         <path d="m13.68 2.15 2.17 2.17c.2.2.2.51 0 .71L14.5 6.39l-2.88-2.88 1.35-1.36c.2-.2.51-.2.71 0ZM2 13.13l8.5-8.5 2.88 2.88-8.5 8.5H2v-2.88Z">
+        <svg aria-hidden="true" class="svg-icon iconAchievements" height="18" viewbox="0 0 18 18" width="18">
+         <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3ZM3 7c-.5 0-1-.5-1-1V4h1v3Zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1ZM16 6c0 .5-.5 1-1 1V4h1v2Z">
          </path>
         </svg>
-        Creation privilege
-                awarded at 100 reputation
+        Milestone privilege
+                awarded at 10 reputation
        </p>
       </div>
      </div>
      <div class="page-description s-prose js-post-body w100">
       <h3>
-       What are Community Wiki posts?
+       What are the new user restrictions?
       </h3>
       <p>
-       Community wiki posts are more easily editable by all users, and do not confer any reputation.
+       New users cannot:
+      </p>
+      <ul>
+       <li>
+        post more than eight hyperlinks at a time, either in a post or their user profile
+       </li>
+       <li>
+        contribute answers to protected questions
+       </li>
+       <li>
+        ask or answer questions too rapidly
+       </li>
+      </ul>
+      <h3>
+       Why are restrictions placed on new users?
+      </h3>
+      <p>
+       Because we allow participation from anonymous internet users, we must take some precautions to ensure that the rare malicious or spammy anonymous user doesn't ruin the experience for everyone else.
+      </p>
+      <p>
+       We're sorry that we have to sandbox new users, but the first few upvotes on your questions or answers will quickly elevate you out of it!
       </p>
       <h3>
-       When should I edit Community Wiki posts?
+       What are protected questions?
       </h3>
       <p>
-       Community wiki posts have been donated to the community in hopes that others will edit them to keep them up to date, to add useful information, and generally improve their quality.
+       Questions may be protected when more than 3 new users have posted poor answers or if more than 5 new users have posted non-answers like "I have the same problem." and "thanks!"
       </p>
       <p>
-       Take us up on that offer -- whenever you see a community wiki post and have something useful to contribute,
-       <em>
-        edit it!
-       </em>
+       Once you’ve earned 10 reputation points from participating on this site, you’ll be able to answer a protected question.
       </p>
       <h3>
-       How do I edit a Community Wiki post?
+       How do I add links to my posts?
       </h3>
       <p>
-       To edit a Community Wiki post, look at the bottom of the post for the
-       <code>
-        edit
-       </code>
-       menu. Also, once you're done editing, provide a brief one sentence summary of your changes in the edit summary field.
+       We use
+       <a href="https://en.wikipedia.org/wiki/Markdown" rel="nofollow noreferrer">
+        Markdown
+       </a>
+       to format posts, so there are a variety of ways of adding links:
       </p>
-      <h3>
-       What happens when I edit a Community Wiki post?
-      </h3>
-      <p>
-       All edits are stored in a revision history for the post, along with the author of the revision. Additionally, community wiki posts show the editor with the highest percentage of the remaining post in the current version in the author field.
-      </p>
+      <ul>
+       <li>
+        bare urls
+        <code>
+         https://example.com
+        </code>
+       </li>
+       <li>
+        HTML
+        <code>
+         &lt;a href="https://example.com"&gt;example link&lt;/a&gt;
+        </code>
+       </li>
+       <li>
+        Markdown
+        <code>
+         [example link](https://example.com)
+        </code>
+       </li>
+       <li>
+        the editor toolbar button
+        <a href="https://i.stack.imgur.com/WiCqc.png" rel="nofollow noreferrer">
+         <img alt="enter image description here" src="https://i.stack.imgur.com/WiCqc.png"/>
+        </a>
+       </li>
+      </ul>
      </div>
     </div>
     <div class="faq-page" id="sidebar">
@@ -612,7 +649,7 @@
        This privilege
       </h4>
       <p>
-       Collaborate on the editing and improvement of wiki posts
+       Post more links, answer protected questions
       </p>
       <div class="d-flex ai-center">
        <div class="s-progress flex--item">
@@ -620,7 +657,7 @@
         </div>
        </div>
        <div class="flex--item ml12">
-        0/100
+        0/10
        </div>
       </div>
      </div>
@@ -834,41 +871,13 @@
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Privileges/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175854.58953717");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

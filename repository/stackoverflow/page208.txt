@@ -2,22 +2,24 @@
 <html class="html__responsive" lang="en">
  <head>
   <title>
-   database - R dplyr use a character vector to build a new dataframe containing rows in which strings from that vector are found - Stack Overflow
+   Removing background from video with threshold Python openCV - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/questions/72183971/r-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which" rel="canonical">
+  <link href="https://stackoverflow.com/questions/72193812/removing-background-from-video-with-threshold-python-opencv" rel="canonical">
    <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
    <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/questions/72183971/r-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which" property="og:url"/>
+    <meta content="https://stackoverflow.com/questions/72193812/removing-background-from-video-with-threshold-python-opencv" property="og:url"/>
     <meta content="Stack Overflow" property="og:site_name"/>
     <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
     <meta content="summary" name="twitter:card"/>
     <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="R dplyr use a character vector to build a new dataframe containing rows in which strings from that vector are found" itemprop="name" name="twitter:title" property="og:title"/>
-    <meta content="I want to query a database using a character vector query_list, and return a dataframe query_output. In this two-column output dataframe, each row corresponds to a single string from the query vect..." itemprop="description" name="twitter:description" property="og:description"/>
+    <meta content="Removing background from video with threshold Python openCV" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="I am trying to extract foreground mask and then remove background of detected mask.
+My foreground object is shaded white and the background is showing in my final result.
+I want to do the opposite of " itemprop="description" name="twitter:description" property="og:description"/>
     <script id="webpack-public-path" type="text/uri-list">
      https://cdn.sstatic.net/
     </script>
@@ -29,16 +31,16 @@
     </script>
     <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
-    <link href="/feeds/question/72183971" rel="alternate" title="Feed for question 'R dplyr use a character vector to build a new dataframe containing rows in which strings from that vector are found'" type="application/atom+xml"/>
+    <link href="/feeds/question/72193812" rel="alternate" title="Feed for question 'Removing background from video with threshold Python openCV'" type="application/atom+xml"/>
     <meta content="US" name="twitter:app:country"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:iphone"/>
     <meta content="871299723" name="twitter:app:id:iphone"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183971/r-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which" name="twitter:app:url:iphone"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193812/removing-background-from-video-with-threshold-python-opencv" name="twitter:app:url:iphone"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:ipad"/>
     <meta content="871299723" name="twitter:app:id:ipad"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183971/r-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which" name="twitter:app:url:ipad"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193812/removing-background-from-video-with-threshold-python-opencv" name="twitter:app:url:ipad"/>
     <meta content="Stack Exchange Android" name="twitter:app:name:googleplay"/>
-    <meta content="https://stackoverflow.com/questions/72183971/r-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which" name="twitter:app:url:googleplay"/>
+    <meta content="https://stackoverflow.com/questions/72193812/removing-background-from-video-with-threshold-python-opencv" name="twitter:app:url:googleplay"/>
     <meta content="com.stackexchange.marvin" name="twitter:app:id:googleplay"/>
     <script>
      StackExchange.ready(function () {
@@ -52,11 +54,11 @@
                 });
 
 
-                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72183971});
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72193812});
 
                 styleCode();
 
-                    StackExchange.realtime.subscribeToQuestion('1', '72183971');
+                    StackExchange.realtime.subscribeToQuestion('1', '72193812');
                     StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.js-post-body'); });
 
 
@@ -64,7 +66,7 @@
     </script>
     <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
     <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1652175676,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+     {"options":{"locale":"en","serverTime":1652225067,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
     </script>
     <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
      {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -73,7 +75,7 @@
      StackExchange.init();
     </script>
     <script>
-     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -263,11 +265,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183971%2fr-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193812%2fremoving-background-from-video-with-threshold-python-opencv">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183971%2fr-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193812%2fremoving-background-from-video-with-threshold-python-opencv">
           log in
          </a>
          to customize your list.
@@ -298,12 +300,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183971%2fr-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193812%2fremoving-background-from-video-with-threshold-python-opencv" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183971%2fr-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193812%2fremoving-background-from-video-with-threshold-python-opencv" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -518,8 +520,8 @@
      <div class="inner-content clearfix">
       <div class="d-flex sm:fd-column" id="question-header">
        <h1 class="fs-headline1 ow-break-word mb8 flex--item fl1" itemprop="name">
-        <a class="question-hyperlink" href="/questions/72183971/r-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which">
-         R dplyr use a character vector to build a new dataframe containing rows in which strings from that vector are found
+        <a class="question-hyperlink" href="/questions/72193812/removing-background-from-video-with-threshold-python-opencv">
+         Removing background from video with threshold Python openCV
         </a>
        </h1>
        <div class="ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end">
@@ -529,11 +531,11 @@
        </div>
       </div>
       <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075">
-       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 09:37:28Z">
+       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 23:08:48Z">
         <span class="fc-light mr2">
          Asked
         </span>
-        <time datetime="2022-05-10T09:37:28" itemprop="dateCreated">
+        <time datetime="2022-05-10T23:08:48" itemprop="dateCreated">
          today
         </time>
        </div>
@@ -541,19 +543,19 @@
         <span class="fc-light mr2">
          Modified
         </span>
-        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 09:37:28Z">
+        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 23:08:48Z">
          today
         </a>
        </div>
-       <div class="flex--item ws-nowrap mb8" title="Viewed 10 times">
+       <div class="flex--item ws-nowrap mb8" title="Viewed 4 times">
         <span class="fc-light mr2">
          Viewed
         </span>
-        10 times
+        4 times
        </div>
       </div>
       <div aria-label="question and answers" id="mainbar" role="main">
-       <div class="question" data-position-on-page="0" data-questionid="72183971" data-score="0" id="question">
+       <div class="question" data-position-on-page="0" data-questionid="72193812" data-score="0" id="question">
         <style>
         </style>
         <div class="js-zone-container zone-container-main">
@@ -564,7 +566,7 @@
         </div>
         <div class="post-layout">
          <div class="votecell post-layout--left">
-          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72183971">
+          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72193812">
            <button aria-label="Up vote" aria-pressed="false" class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This question shows research effort; it is useful and clear">
             <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
              <path d="M2 25h32L18 9 2 25Z">
@@ -588,7 +590,7 @@
             <div class="js-bookmark-count mt4 d-none" data-value="">
             </div>
            </button>
-           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72183971/timeline" title="Show activity on this post.">
+           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72193812/timeline" title="Show activity on this post.">
             <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" height="18" viewbox="0 0 19 18" width="19">
              <path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z">
              </path>
@@ -599,89 +601,64 @@
          <div class="postcell post-layout--right">
           <div class="s-prose js-post-body" itemprop="text">
            <p>
-            I want to query a
-            <code>
-             database
-            </code>
-            using a character vector
-            <code>
-             query_list
-            </code>
-            , and return a dataframe
-            <code>
-             query_output
-            </code>
-            . In this two-column output dataframe, each row corresponds to a single string from the query vector. First of the two columns in the output dataframe (called
-            <code>
-             term
-            </code>
-            ) names this string, and the second column (called
-            <code>
-             enzyme
-            </code>
-            ) lists all rows of the
-            <code>
-             database
-            </code>
-            in which the query string was found, defined by the column
-            <code>
-             enzyme
-            </code>
-            from the database).
+            I am trying to extract foreground mask and then remove background of detected mask.
            </p>
            <p>
-            My query and database look as follows:
+            My foreground object is shaded white and the background is showing in my final result.
+I want to do the opposite of this., making my background white and displaying the foreground object.
            </p>
-           <pre><code>query_list &lt;- c("term(A)", "term(B)", "term(C)", "term(D15)")
-database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
-                       ,term = c("term(A);herm(K);term(Y);term(G);term(F);"
-                                 ,"term(A);herm(K);term(Y);term(G);term(F);"
-                                 ,"term(H);term(K);term(Y);term(C);herm(F);"
-                                 ,"term(H);term(B);herm(Y);term(C);herm(F);"
-                                 ,"term(H);term(K);term(D15);herm(G);term(F);"))
+           <p>
+            Here is my code below:
+           </p>
+           <pre><code>import numpy as np
+import cv2
+ 
+cap = cv2.VideoCapture('video.mp4')
+ 
+while(1):
+    ret, frame = cap.read()
+ 
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+    lower_blue = np.array([0, 0, 120])
+    upper_blue = np.array([180, 38, 255])
+    mask = cv2.inRange(hsv, lower_blue, upper_blue)
+    result = cv2.bitwise_and(frame, frame, mask=mask)
+    b, g, r = cv2.split(result)  
+    filter = g.copy()
+    ret,mask = cv2.threshold(filter,10,255, 1)
+    frame[ mask == 0] = 255
+    
+    cv2.imshow('frame',frame)
+    cv2.imshow('mask',mask)
+
+ 
+     
+    k = cv2.waitKey(30) &amp; 0xff
+    if k == 27:
+        break
+     
+ 
+cap.release()
+cv2.destroyAllWindows()
 </code></pre>
-           <p>
-            the database looks like this:
-           </p>
-           <pre><code>  enzyme                                       term
-1     A1   term(A);herm(K);term(Y);term(G);term(F);
-2     B1   term(A);herm(K);term(Y);term(G);term(F);
-3     C1   term(H);term(K);term(Y);term(C);herm(F);
-4     D1   term(H);term(B);herm(Y);term(C);herm(F);
-5     E1   term(H);term(K);term(D15);herm(G);term(F);
-</code></pre>
-           <p>
-            The resulting dataframe
-            <code>
-             query_output
-            </code>
-            :
-           </p>
-           <pre><code>&gt; query_output 
-       term  enzyme
-1   term(A)  A1, B1
-2   term(B)      D1
-3   term(C)  C1, D1
-4 term(D15)      E1
-</code></pre>
-           <p>
-            Optimally, the solution would be pipeable, and not a loop (although anything will be appreciated). I don't say what I have tried because I don't really know how to go about it in a concise way.
-           </p>
           </div>
           <div class="mt24 mb12">
            <div class="post-taglist d-flex gs4 gsy fd-column">
             <div class="d-flex ps-relative fw-wrap">
-             <a class="post-tag" href="/questions/tagged/r" rel="tag" title="show questions tagged 'r'">
-              r
+             <a class="post-tag" href="/questions/tagged/python" rel="tag" title="show questions tagged 'python'">
+              python
              </a>
-             <a class="post-tag" href="/questions/tagged/database" rel="tag" title="show questions tagged 'database'">
-              database
+             <a class="post-tag" href="/questions/tagged/opencv" rel="tag" title="show questions tagged 'opencv'">
+              opencv
              </a>
-             <a class="post-tag" href="/questions/tagged/dataframe" rel="tag" title="show questions tagged 'dataframe'">
-              dataframe
+             <a class="post-tag" href="/questions/tagged/computer-vision" rel="tag" title="show questions tagged 'computer-vision'">
+              computer-vision
              </a>
-             <a class="post-tag" href="/questions/tagged/dplyr" rel="tag" title="show questions tagged 'dplyr'">
-              dplyr
+             <a class="post-tag" href="/questions/tagged/mask" rel="tag" title="show questions tagged 'mask'">
+              mask
+             </a>
+             <a class="post-tag" href="/questions/tagged/background-subtraction" rel="tag" title="show questions tagged 'background-subtraction'">
+              background-subtraction
              </a>
             </div>
            </div>
@@ -689,15 +666,20 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
           <div class="mb0">
            <div class="mt16 d-flex gs8 gsy fw-wrap jc-end ai-start pt4 mb16">
             <div class="flex--item mr16 fl1 w96">
-             <div class="js-post-menu pt2" data-post-id="72183971">
+             <div class="js-post-menu pt2" data-post-id="72193812">
               <div class="d-flex gs8 s-anchors s-anchors__muted fw-wrap">
                <div class="flex--item">
-                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72183971" itemprop="url" rel="nofollow" title="Short permalink to this question">
+                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72193812" itemprop="url" rel="nofollow" title="Short permalink to this question">
                  Share
                 </a>
                </div>
                <div class="flex--item">
-                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72183971" title="Follow this question to receive notifications" type="button">
+                <a class="js-suggest-edit-post js-gps-track" data-gps-track="post.click({ item: 6, priv: 0, post_type: 1 })" href="/posts/72193812/edit" title="">
+                 Improve this question
+                </a>
+               </div>
+               <div class="flex--item">
+                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72193812" title="Follow this question to receive notifications" type="button">
                  Follow
                 </button>
                </div>
@@ -710,47 +692,37 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
              <div class="user-info">
               <div class="user-action-time truncate">
                asked
-               <span class="relativetime" title="2022-05-10 09:37:28Z">
-                3 mins ago
+               <span class="relativetime" title="2022-05-10 23:08:48Z">
+                15 mins ago
                </span>
               </div>
               <div class="user-gravatar32">
-               <a href="/users/9283607/wera">
+               <a href="/users/18599484/devman3211">
                 <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/7f94ba47cb5b2ff6d64d4161923cf5f4?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://lh3.googleusercontent.com/a/AATXAJwjNR99XJMytX0Xnyv-NaxRFwDwom_lw4xORkjC=k-s64" width="32"/>
                 </div>
                </a>
               </div>
               <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-               <a href="/users/9283607/wera">
-                Wera
+               <a href="/users/18599484/devman3211">
+                devman3211
                </a>
                <span class="d-none" itemprop="name">
-                Wera
+                devman3211
                </span>
                <div class="-flair">
                 <span class="reputation-score" dir="ltr" title="reputation score ">
-                 227
+                 85
                 </span>
-                <span aria-hidden="true" title="2 silver badges">
-                 <span class="badge2">
-                 </span>
-                 <span class="badgecount">
-                  2
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 2 silver badges
-                </span>
-                <span aria-hidden="true" title="9 bronze badges">
+                <span aria-hidden="true" title="5 bronze badges">
                  <span class="badge3">
                  </span>
                  <span class="badgecount">
-                  9
+                  5
                  </span>
                 </span>
                 <span class="v-visible-sr">
-                 9 bronze badges
+                 5 bronze badges
                 </span>
                </div>
               </div>
@@ -762,11 +734,11 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
          <span class="d-none" itemprop="commentCount">
          </span>
          <div class="post-layout--right js-post-comments-component">
-          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72183971" id="comments-72183971">
+          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72193812" id="comments-72193812">
            <ul class="comments-list js-comments-list" data-addlink-disabled="true" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-remaining-comments-count="0">
            </ul>
           </div>
-          <div data-anon="true" data-rep="50" id="comments-link-72183971">
+          <div data-anon="true" data-rep="50" id="comments-link-72193812">
            <a class="js-add-link comments-link disabled-link" href="#" role="button" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">
             Add a comment
            </a>
@@ -803,7 +775,7 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
              <label class="flex--item fs-caption" for="answer-sort-dropdown-select-menu">
               Sorted by:
              </label>
-             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72183971/r-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which?answertab=scoredesc#tab-top">
+             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72193812/removing-background-from-video-with-threshold-python-opencv?answertab=scoredesc#tab-top">
               Reset to default
              </a>
             </div>
@@ -826,27 +798,27 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
         </div>
         <h2 class="bottom-notice bottom-share-links" style="padding-top: 8px; margin-bottom: -8px;">
          Know someone who can answer? Share a link to this
-         <a href="https://stackoverflow.com/questions/72183971/r-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which">
+         <a href="https://stackoverflow.com/questions/72193812/removing-background-from-video-with-threshold-python-opencv">
           question
          </a>
          via
-         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=R%20dplyr%20use%20a%20character%20vector%20to%20build%20a%20new%20dataframe%20containing%20rows%20in%20which%20strings%20from%20that%20vector%20are%20found%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72183971%3fsem%3d2">
+         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=Removing%20background%20from%20video%20with%20threshold%20Python%20openCV%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72193812%3fsem%3d2">
           email
          </a>
          ,
-         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72183971%3fstw%3d2">
+         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72193812%3fstw%3d2">
           Twitter
          </a>
          , or
-         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72183971%3fsfb%3d2">
+         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72193812%3fsfb%3d2">
           Facebook
          </a>
          .
         </h2>
         <a name="new-answer">
         </a>
-        <form action="/questions/72183971/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
-         <input id="post-id" type="hidden" value="72183971"/>
+        <form action="/questions/72193812/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
+         <input id="post-id" type="hidden" value="72193812"/>
          <input id="qualityBanWarningShown" name="qualityBanWarningShown" type="hidden" value="false"/>
          <input name="referrer" type="hidden" value=""/>
          <h2 class="space">
@@ -975,7 +947,7 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
           <div>
           </div>
           <div class="edit-block">
-           <input id="fkey" name="fkey" type="hidden" value="8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded"/>
+           <input id="fkey" name="fkey" type="hidden" value="bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2"/>
            <input id="author" name="author" type="text"/>
           </div>
          </div>
@@ -985,14 +957,28 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
             <div class="d-flex fd-column w50 md:w-auto gsy gs8 jc-space-between new-login-left">
              <h3 class="flex--item fs-title">
               Sign up or
-              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183971%2fr-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which%23new-answer" id="login-link">
+              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193812%2fremoving-background-from-video-with-threshold-python-opencv%23new-answer" id="login-link">
                log in
               </a>
              </h3>
              <script>
               StackExchange.ready(function () {
                                 StackExchange.helpers.onClickDraftSave('#login-link');
-                            });
+
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                                                });
              </script>
              <div class="flex--item s-btn s-btn__muted s-btn__outlined s-btn__icon google-login" data-ga='["sign up","Sign Up Started - Google","New Post",null,null]'>
               <svg aria-hidden="true" class="native svg-icon iconGoogle" height="18" viewbox="0 0 18 18" width="18">
@@ -1068,7 +1054,7 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
           <script>
            StackExchange.ready(
                     function () {
-                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72183971%2fr-dplyr-use-a-character-vector-to-build-a-new-dataframe-containing-rows-in-which%23new-answer', 'question_page');
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72193812%2fremoving-background-from-video-with-threshold-python-opencv%23new-answer', 'question_page');
                     }
                 );
           </script>
@@ -1133,17 +1119,20 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
         </form>
         <h2 class="bottom-notice" data-loc="1">
          Browse other questions tagged
-         <a class="post-tag" href="/questions/tagged/r" rel="tag" title="show questions tagged 'r'">
-          r
+         <a class="post-tag" href="/questions/tagged/python" rel="tag" title="show questions tagged 'python'">
+          python
          </a>
-         <a class="post-tag" href="/questions/tagged/database" rel="tag" title="show questions tagged 'database'">
-          database
+         <a class="post-tag" href="/questions/tagged/opencv" rel="tag" title="show questions tagged 'opencv'">
+          opencv
          </a>
-         <a class="post-tag" href="/questions/tagged/dataframe" rel="tag" title="show questions tagged 'dataframe'">
-          dataframe
+         <a class="post-tag" href="/questions/tagged/computer-vision" rel="tag" title="show questions tagged 'computer-vision'">
+          computer-vision
          </a>
-         <a class="post-tag" href="/questions/tagged/dplyr" rel="tag" title="show questions tagged 'dplyr'">
-          dplyr
+         <a class="post-tag" href="/questions/tagged/mask" rel="tag" title="show questions tagged 'mask'">
+          mask
+         </a>
+         <a class="post-tag" href="/questions/tagged/background-subtraction" rel="tag" title="show questions tagged 'background-subtraction'">
+          background-subtraction
          </a>
          or
          <a href="/questions/ask">
@@ -1172,19 +1161,6 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
            </a>
           </div>
          </li>
-         <li class="s-sidebarwidget--item d-flex px16">
-          <div class="flex--item1 fl-shrink0">
-           <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-            <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-            </path>
-           </svg>
-          </div>
-          <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","The Overflow Blog","https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/",null,null]' data-gps-track="communitybulletin.click({ priority: 1, position: 1 })" href="https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/">
-            Security needs to shift left into the software development lifecycle
-           </a>
-          </div>
-         </li>
          <div class="s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1">
           Featured on Meta
          </div>
@@ -1194,7 +1170,7 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 1 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
             Staging Ground: Reviewer Motivation, Scaling, and Open Questions
            </a>
           </div>
@@ -1205,7 +1181,7 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 3 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
             Overhauling our community's closure reasons and guidance
            </a>
           </div>
@@ -1232,83 +1208,83 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
         </h4>
         <div class="related js-gps-related-questions" data-tracker="rq=1">
          <div class="spacer">
-          <a href="/q/2641653" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted large">
-            152
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/2641653/pass-a-data-frame-column-name-to-a-function">
-           Pass a data.frame column name to a function
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/4048151" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes extra-large">
-            1510
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/4048151/what-are-the-options-for-storing-hierarchical-data-in-a-relational-database">
-           What are the options for storing hierarchical data in a relational database?
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/12096252" title="Question score (upvotes - downvotes)">
+          <a href="/q/541390" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted extra-large">
-            1094
+            1647
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/12096252/use-a-list-of-values-to-select-rows-from-a-pandas-dataframe">
-           Use a list of values to select rows from a Pandas dataframe
+          <a class="question-hyperlink" href="/questions/541390/extracting-extension-from-filename-in-python">
+           Extracting extension from filename in Python
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/21025609" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            76
+          <a href="/q/1534210" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1445
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/21025609/how-do-i-extract-a-single-column-from-a-data-frame-as-a-data-frame">
-           How do I extract a single column from a data.frame as a data.frame?
+          <a class="question-hyperlink" href="/questions/1534210/use-different-python-version-with-virtualenv">
+           Use different Python version with virtualenv
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/28901683" title="Question score (upvotes - downvotes)">
+          <a href="/q/2720014" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2489
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/2720014/how-to-upgrade-all-python-packages-with-pip">
+           How to upgrade all Python packages with pip
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/9371238" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2079
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/9371238/why-is-reading-lines-from-stdin-much-slower-in-c-than-python">
+           Why is reading lines from stdin much slower in C++ than Python?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/9413216" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            345
+            418
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/28901683/pandas-get-rows-which-are-not-in-other-dataframe">
-           pandas get rows which are NOT in other dataframe
+          <a class="question-hyperlink" href="/questions/9413216/simple-digit-recognition-ocr-in-opencv-python">
+           Simple Digit Recognition OCR in OpenCV-Python
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/33228146" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            2
+          <a href="/q/11277432" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2534
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/33228146/eliminate-dataframe-rows-that-match-a-character-string">
-           Eliminate dataframe rows that match a character string
+          <a class="question-hyperlink" href="/questions/11277432/how-can-i-remove-a-key-from-a-python-dictionary">
+           How can I remove a key from a Python dictionary?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/69456357" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted default">
-            2
+          <a href="/q/33054711" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes default">
+            1
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/69456357/dplyr-add-multiple-columns-with-mutate-across-from-character-vector">
-           Dplyr: add multiple columns with mutate/across from character vector
+          <a class="question-hyperlink" href="/questions/33054711/subtracting-background-from-image-using-opencv-in-python">
+           Subtracting Background From Image using Opencv in Python
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/70265147" title="Question score (upvotes - downvotes)">
+          <a href="/q/34769260" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted default">
-            2
+            0
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/70265147/r-add-new-column-based-on-character-vector-and-existing-column-in-dataframe-wit">
-           R: Add new column based on character vector and existing column in dataframe with unique items
+          <a class="question-hyperlink" href="/questions/34769260/python-opencv-intermittent-error">
+           Python / OpenCV - Intermittent error
           </a>
          </div>
         </div>
@@ -1321,171 +1297,171 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
         </h4>
         <ul>
          <li>
+          <div class="favicon favicon-skeptics" title="Skeptics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:212 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://skeptics.stackexchange.com/questions/53294/was-ukraine-planning-an-attack-in-donbas-crimea-prior-to-the-2022-russian-invasi">
+           Was Ukraine planning an attack in Donbas/Crimea prior to the 2022 Russian invasion of Ukraine?
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-boardgames" title="Board &amp; Card Games Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:147 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://boardgames.stackexchange.com/questions/57404/why-can-rufous-banded-honeyeater-be-played-using-invertebrate-or-nectars-when-n">
+           Why can rufous-banded honeyeater be played using invertebrate or nectars, when nectar is a wild resource?
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-mathoverflow" title="MathOverflow">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422128/why-does-representing-functors-help-solving-diophantine-equations">
+           Why does representing functors help solving Diophantine equations?
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-superuser" title="Super User">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720172/what-does-tar-cannot-connect-to-resolve-failed-mean">
+           What does `tar: Cannot connect to …: resolve failed` mean?
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-mathoverflow" title="MathOverflow">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422196/amateur-research-in-mathematics">
+           Amateur research in mathematics
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263076/why-did-this-character-need-america-chavez">
+           Why did this character need America Chavez?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229782/why-would-vampires-sire-vampires-of-lesser-blood-than-they-have-to">
+           Why would vampires sire vampires of lesser blood than they have to?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198250/what-is-the-difference-between-unconscious-and-asleep">
+           What is the difference between "Unconscious" and "Asleep"?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-travel" title="Travel Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173547/traveling-from-germany-to-austria-without-a-passport-at-hand-with-blue-card-p">
+           Traveling from Germany to Austria without a passport at hand, with Blue card - plastic card "Aufenthaltstitel" but also says Pass(Ersatz)
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263097/novel-about-a-teenage-female-protagonist-on-a-ftl-spaceflight-in-a-deterministic">
+           Novel about a teenage female protagonist on a FTL spaceflight in a deterministic universe
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263081/murder-in-cult-of-identical-people">
+           Murder in cult of identical people
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-codegolf" title="Code Golf Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codegolf.stackexchange.com/questions/247087/ascii-art-nth-root">
+           ASCII-Art n'th Root
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229800/airwarships-and-the-wet-navy">
+           Air(warships) and the 'wet navy'
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268051/monitoring-apply-over-large-lists">
+           Monitoring Apply / @@@ over large lists
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314813/my-dad-doesnt-want-me-to-touch-alcohol">
+           My dad doesn't want me to TOUCH alcohol
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-blender" title="Blender Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://blender.stackexchange.com/questions/263176/no-rgba-option-in-render-output-panel">
+           No RGBA option in Render Output panel
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263049/why-were-mordos-group-of-heroes-so-disastrously-overconfident-in-confronting-th">
+           Why were Mordo's group of heroes so disastrously overconfident in confronting this enemy?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198279/how-many-people-can-be-poisoned-with-ingested-poison-in-pathfinder-2e">
+           How many people can be poisoned with ingested poison in Pathfinder 2e?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-physics" title="Physics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707721/am-i-in-a-superposition">
+           Am I in a superposition?
+          </a>
+         </li>
+         <li class="dno js-hidden">
           <div class="favicon favicon-linguistics" title="Linguistics Stack Exchange">
           </div>
           <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:312 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://linguistics.stackexchange.com/questions/44440/ncuti-gatwa-is-according-to-wikipedia-pronounced-%cb%88%ca%83u%cb%90ti-%cb%88%c9%a1%c3%a6tw%c9%91%cb%90-where-is-t">
            Ncuti Gatwa is, according to Wikipedia, pronounced /ˈʃuːti ˈɡætwɑː/ - where is the NC orthography derived from?
           </a>
          </li>
-         <li>
-          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619031/charging-supercapacitors-with-reversed-polarity">
-           Charging supercapacitors with reversed polarity
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-travel" title="Travel Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173524/travelling-from-usa-to-canada-by-ship">
-           Travelling from USA to Canada by Ship
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/248999/ceiling-fan-light-has-max-9w-led-sticker-but-doesnt-mention-incandescent">
-           Ceiling fan light has "MAX 9w LED" sticker, but doesn't mention incandescent
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-academia" title="Academia Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185102/im-the-1st-author-of-a-paper-in-a-top-conference-in-my-field-and-even-then-my">
-           I'm the 1st author of a paper in a top conference in my field, and even then my PhD application got rejected from 5 out of 6 programs, is this normal?
-          </a>
-         </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
+          <div class="favicon favicon-unix" title="Unix &amp; Linux Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707452/wouldnt-the-cosmic-background-radiation-cmb-produce-drag-and-thus-create-a-pr">
-           Wouldn't the cosmic background radiation (CMB) produce drag and thus create a preferential inertial frame?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-superuser" title="Super User">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720216/chown-operation-not-permitted-even-as-root-user">
-           chown - Operation not permitted even as root user
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-japanese" title="Japanese Language Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:257 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://japanese.stackexchange.com/questions/94444/can-%e3%81%99%e3%82%8b-substitute-a-previously-used-verb">
-           Can する substitute a previously used verb?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643555/write-some-text-under-physic-chemistry-formula">
-           Write some text under physic-chemistry formula
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-academia" title="Academia Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185044/grading-on-a-curve-in-required-doctoral-course-failing-as-a-result">
-           Grading on a curve in required doctoral course, failing as a result
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-travel" title="Travel Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173534/esta-for-italian-spouse">
-           ESTA for Italian spouse
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268040/working-around-memory-leak-from-hermitedecomposition">
-           Working around Memory Leak from HermiteDecomposition
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707636/alternate-sky-colors">
-           Alternate sky colors?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://tex.stackexchange.com/questions/643476/how-can-i-draw-a-table-with-4-numbers-around-a-cross-x-shape-for-the-diamond-m">
-           How can I draw a "table" with 4 numbers around a cross/X-shape for the diamond method?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-bicycles" title="Bicycles Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bicycles.stackexchange.com/questions/83819/do-rotational-symmetric-looking-front-lights-usually-throw-half-their-light-into">
-           Do rotational-symmetric-looking front lights usually throw half their light into oncoming traffic? How To dinstiguish?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/618848/what-is-the-ideal-method-of-sensing-whether-4-points-on-the-bottom-of-a-device-a">
-           What is the ideal method of sensing whether 4 points on the bottom of a device are all depressed to indicate contact?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-cooking" title="Seasoned Advice">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:49 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://cooking.stackexchange.com/questions/120561/how-does-the-folding-make-the-dough-stronger">
-           How does the folding make the dough stronger?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-politics" title="Politics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73044/why-can-water-not-be-transferred-within-california">
-           Why can water not be transferred within California?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314851/must-i-use-my-when-referring-to-my-own-bodypart-or-can-i-use-the-without-tec">
-           Must I use "my" when referring to my own bodypart or can I use "the" without technically breaking any rules?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:106 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://unix.stackexchange.com/questions/701944/bash-how-to-compare-arg-to-one-of-the-disks-in-linux-machine">
+           bash + how to compare arg to one of the disks in linux machine
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-stats" title="Cross Validated">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stats.stackexchange.com/questions/574642/is-the-probability-of-a-continuous-variable-obtained-via-integrating-over-an-int">
-           Is the probability of a continuous variable obtained via integrating over an interval of the probability density curve *cumulative* probability?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stats.stackexchange.com/questions/574444/if-p-values-are-random-why-not-decide-using-the-test-statistic-instead">
+           If p-values are random, why not decide using the test statistic instead?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stackoverflow.com/questions/72177535/how-can-i-include-a-c-header-that-uses-a-c-keyword-as-an-identifier-in-c">
+           How can I include a C header that uses a C++ keyword as an identifier in C++?
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-workplace" title="The Workplace Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184698/should-the-company-pay-the-tips-i-gave">
-           Should the company pay the tips I gave?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-proofassistants" title="Proof Assistants Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:708 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://proofassistants.stackexchange.com/questions/1376/construction-of-recursive-types-the-hard-way">
-           Construction of recursive types "the hard way"
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-travel" title="Travel Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173537/help-identifying-this-landmark-and-road-in-los-angeles-1940s-residential-area">
-           Help identifying this landmark and road in "Los Angeles 1940s, Residential Area in color"
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-mattermodeling" title="Matter Modeling Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:704 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mattermodeling.stackexchange.com/questions/9048/how-to-do-simulation-when-two-atoms-exist-in-the-same-coordinate-position-in-the">
-           How to do simulation when two atoms exist in the same coordinate position in the lattice?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184681/invited-to-give-talk-but-want-to-refuse">
+           Invited to give talk but want to refuse
           </a>
          </li>
         </ul>
@@ -1494,7 +1470,7 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
         </a>
        </div>
        <div class="js-feed-link" id="feed-link">
-        <a href="/feeds/question/72183971" title="Feed of this question and its answers">
+        <a href="/feeds/question/72193812" title="Feed of this question and its answers">
          <svg aria-hidden="true" class="fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
           <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
           </path>
@@ -1517,7 +1493,7 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
            </label>
           </div>
           <div class="d-flex ps-relative">
-           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72183971"/>
+           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72193812"/>
            <svg aria-hidden="true" class="s-input-icon fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
             <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
             </path>
@@ -1535,15 +1511,15 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
       </div>
      </div>
      <script>
-      StackExchange.ready(function(){$.get('/posts/72183971/ivc/e944');});
+      StackExchange.ready(function(){$.get('/posts/72193812/ivc/bb37');});
      </script>
      <noscript>
       <div>
-       <img alt="" class="dno" height="0" src="/posts/72183971/ivc/e944" width="0"/>
+       <img alt="" class="dno" height="0" src="/posts/72193812/ivc/bb37" width="0"/>
       </div>
      </noscript>
      <div id="js-codeblock-lang" style="display:none">
-      lang-r
+      lang-py
      </div>
     </div>
    </div>
@@ -1562,9 +1538,9 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
     clc.options.targeting_consent = !1;
     clc.options.performance_consent = !1;
         clc.cmd = clc.cmd || [];
-        clc.cmd.push(function () { window.clc_request='A02_uTppMtoIAAAAAKNwTQQCAAAAAgAAAAAAHAAAAHxyfGRhdGFiYXNlfGRhdGFmcmFtZXxkcGx5cnwAxU99rwlYUt4N5A'; clc.load(); });
+        clc.cmd.push(function () { window.clc_request='A16J1jncMtoIAAAAABSXTQQCAAAAAgAAAAAAOwAAAHxweXRob258b3BlbmN2fGNvbXB1dGVyLXZpc2lvbnxtYXNrfGJhY2tncm91bmQtc3VidHJhY3Rpb258AAZytKy00Racxqg'; clc.load(); });
         clc.dfp = clc.dfp || {};
-        clc.dfp.targeting = {Registered:['false'],'so-tag':['r','database','dataframe','dplyr'],'tag-reportable':['r','database','dataframe','dplyr'],'tag-non-reportable':['r','database','dataframe','dplyr'],NumberOfAnswers:['0']};
+        clc.dfp.targeting = {Registered:['false'],'so-tag':['python','opencv','computer-vision','mask','background-subtraction'],'tag-reportable':['python','opencv','computer-vision','mask','background-subtraction'],'tag-non-reportable':['python','opencv','computer-vision','mask','background-subtraction'],NumberOfAnswers:['0']};
 
         if (window.location.hash.indexOf('ads:cat=cp') >= 0)
         {
@@ -1786,42 +1762,13 @@ database &lt;- data.frame(enzyme = c("A1", "B1", "C1", "D1", "E1")
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-                    StackExchange.ga.setDimension('dimension2', '|r|database|dataframe|dplyr|');
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175676.478740268");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

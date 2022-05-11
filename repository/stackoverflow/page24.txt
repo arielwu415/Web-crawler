@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html class="html__responsive" lang="en">
+<html class="html__responsive html__unpinned-leftnav" lang="en">
  <head>
   <title>
-   Reputation &amp; Moderation - Help Center - Stack Overflow
+   Tour - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
@@ -10,12 +10,12 @@
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
   <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
   <meta content="website" property="og:type">
-   <meta content="https://stackoverflow.com/help/reputation" property="og:url"/>
+   <meta content="https://stackoverflow.com/tour" property="og:url"/>
    <meta content="Stack Overflow" property="og:site_name"/>
    <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
    <meta content="summary" name="twitter:card"/>
    <meta content="stackoverflow.com" name="twitter:domain"/>
-   <meta content="Reputation &amp; Moderation - Help Center" itemprop="name" name="twitter:title" property="og:title"/>
+   <meta content="Tour" itemprop="name" name="twitter:title" property="og:title"/>
    <meta content="Stack Overflow | The World’s Largest Online Community for Developers" itemprop="description" name="twitter:description" property="og:description"/>
    <script id="webpack-public-path" type="text/uri-list">
     https://cdn.sstatic.net/
@@ -29,9 +29,11 @@
    <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
    <link href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=dab6781814d9" rel="stylesheet" type="text/css"/>
+   <script defer="" src="https://cdn.sstatic.net/Js/about.en.js?v=b971e305cbc9">
+   </script>
    <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
    <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-    {"options":{"locale":"en","serverTime":1652175542,"routeName":"Help/SlugRouter","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"252456f6a885fda9025f72e165b8e624e824152447a6ce4167aace0c15d85d0a","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":3}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+    {"options":{"locale":"en","serverTime":1652224938,"routeName":"Home/Tour","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
    </script>
    <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
     {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -40,7 +42,7 @@
     StackExchange.init();
    </script>
    <script>
-    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+    StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -52,7 +54,7 @@
    </noscript>
   </meta>
  </head>
- <body class="faq-page unified-theme">
+ <body class="col1-page about-page unified-theme">
   <div id="notify-container">
   </div>
   <div id="custom-header">
@@ -64,27 +66,27 @@
      </span>
     </a>
     <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
-     <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm">
+     <div class="left-sidebar js-unpinned-left-sidebar" data-can-be="left-sidebar" data-is-here-when="sm md lg">
      </div>
     </div>
-    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:7, destination:8})" href="https://stackoverflow.com">
+    <a class="s-topbar--logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:6, destination:8})" href="https://stackoverflow.com">
      <span class="-img _glyph">
       Stack Overflow
      </span>
     </a>
     <ol class="s-navigation" role="presentation">
      <li class="md:d-none">
-      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:7})" href="https://stackoverflow.co/">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","about menu click",null,null,null]' data-gps-track="top_nav.products.click({location:6, destination:7})" href="https://stackoverflow.co/">
        About
       </a>
      </li>
      <li>
-      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
+      <a aria-controls="products-popover" class="s-navigation--item js-gps-track js-products-menu" data-action="s-popover#toggle" data-controller="s-popover" data-ga='["top navigation","products menu click",null,null,null]' data-gps-track="top_nav.products.click({location:6, destination:1})" data-s-popover-placement="bottom" data-s-popover-toggle-class="is-selected" href="#">
        Products
       </a>
      </li>
      <li class="md:d-none">
-      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:7})" href="/teams">
+      <a class="s-navigation--item js-gps-track" data-ga='["top navigation","learn more - teams",null,null,null]' data-gps-track="top_nav.products.click({location:6, destination:7})" href="/teams">
        For Teams
       </a>
      </li>
@@ -94,7 +96,7 @@
      </div>
      <ol class="list-reset s-anchors s-anchors__inherit">
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:2})" href="/questions">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","public qa submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:6, destination:2})" href="/questions">
         <span class="fs-body1 d-block">
          Stack Overflow
         </span>
@@ -104,7 +106,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:3})" href="/teams">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","teams submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:6, destination:3})" href="/teams">
         <span class="fs-body1 d-block">
          Stack Overflow for Teams
         </span>
@@ -114,7 +116,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:5})" href="https://stackoverflow.co/talent">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","talent submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:6, destination:5})" href="https://stackoverflow.co/talent">
         <span class="fs-body1 d-block">
          Talent
         </span>
@@ -124,7 +126,7 @@
        </a>
       </li>
       <li class="m6">
-       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:6})" href="https://stackoverflow.co/advertising">
+       <a class="bar-sm p6 d-block h:bg-black-100 js-gps-track" data-ga='["top navigation","advertising submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:6, destination:6})" href="https://stackoverflow.co/advertising">
         <span class="fs-body1 d-block">
          Advertising
         </span>
@@ -134,7 +136,7 @@
        </a>
       </li>
       <li class="bg-black-025 bt bc-black-075 py6 px6 bbr-md">
-       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:7, destination:7})" href="https://stackoverflow.co/">
+       <a class="fc-light d-block py6 px6 h:fc-black-800 js-gps-track" data-ga='["top navigation","about submenu click",null,null,null]' data-gps-track="top_nav.products.click({location:6, destination:7})" href="https://stackoverflow.co/">
         About the company
        </a>
       </li>
@@ -229,11 +231,11 @@
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2freputation">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftour">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2freputation">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftour">
           log in
          </a>
          to customize your list.
@@ -264,12 +266,12 @@
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2freputation" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftour" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fhelp%2freputation" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftour" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -281,12 +283,12 @@
         StackExchange.scrollPadding.setPaddingTop(50, 10);
   </script>
   <div class="container">
-   <div class="left-sidebar js-pinned-left-sidebar ps-relative" data-is-here-when="md lg" id="left-sidebar">
+   <div class="left-sidebar js-pinned-left-sidebar ps-relative" data-is-here-when="" id="left-sidebar">
     <div class="left-sidebar--sticky-container js-sticky-leftnav">
      <nav role="navigation">
       <ol class="nav-links">
        <li class="ps-relative">
-        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
+        <a aria-controls="" class="pl8 js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:6, destination:8})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/">
          <div class="d-flex ai-center">
           <div class="flex--item truncate">
            Home
@@ -300,7 +302,7 @@
           Public
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
+          <a aria-controls="" class="pl8 js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:6, destination:1})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/questions" id="nav-questions">
            <svg aria-hidden="true" class="svg-icon iconGlobe" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9 1C4.64 1 1 4.64 1 9c0 4.36 3.64 8 8 8 4.36 0 8-3.64 8-8 0-4.36-3.64-8-8-8ZM8 15.32a6.46 6.46 0 0 1-4.3-2.74 6.46 6.46 0 0 1-.93-5.01L7 11.68v.8c0 .88.12 1.32 1 1.32v1.52Zm5.72-2c-.2-.66-1-1.32-1.72-1.32h-1v-2c0-.44-.56-1-1-1H6V7h1c.44 0 1-.56 1-1V5h2c.88 0 1.4-.72 1.4-1.6v-.33a6.45 6.45 0 0 1 3.83 4.51 6.45 6.45 0 0 1-1.51 5.73v.01Z">
             </path>
@@ -311,7 +313,7 @@
           </a>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:6, destination:2})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/tags" id="nav-tags">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Tags
@@ -320,7 +322,7 @@
           </a>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:6, destination:3})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/users" id="nav-users">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Users
@@ -329,7 +331,7 @@
           </a>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
+          <a aria-controls="" class="js-gps-track nav-links--link" data-controller="" data-gps-track="top_nav.click({is_current:false, location:6, destination:12})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="https://stackoverflow.com/jobs/companies?so_medium=stackoverflow&amp;so_source=SiteNav" id="nav-companies">
            <div class="d-flex ai-center">
             <div class="flex--item truncate">
              Companies
@@ -342,7 +344,7 @@
            Collectives
           </div>
           <div class="flex--item fs-fine fc-light">
-           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:7, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
+           <a aria-controls="popover-discover-collectives" class="s-link s-link__inherit mr8 js-gps-track js-collectives-navcta-toggle" data-action="s-popover#toggle" data-controller="s-popover" data-gps-track="top_nav.click({is_current:false, location:6, destination:17})" data-s-popover-placement="top" data-s-popover-toggle-class="is-selected" href="javascript:void(0)" role="button">
             <svg aria-hidden="true" class="svg-icon iconInfoSm" height="14" viewbox="0 0 14 14" width="14">
              <path d="M7 1a6 6 0 1 1 0 12A6 6 0 0 1 7 1Zm1 10V6H6v5h2Zm0-6V3H6v2h2Z">
              </path>
@@ -351,7 +353,7 @@
           </div>
          </li>
          <li class="ps-relative">
-          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:7, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
+          <a aria-controls="" class="pl8 ai-center js-collectives-navcta-toggle js-gps-track nav-links--link -link__with-icon" data-controller="" data-gps-track="top_nav.click({is_current:false, location:6, destination:18})" data-s-popover-auto-show="true" data-s-popover-hide-on-outside-click="never" data-s-popover-placement="right" href="/collectives" id="nav-collective-discover">
            <svg aria-hidden="true" class="mt-auto fc-orange-400 svg-icon iconStarVerified" height="18" viewbox="0 0 18 18" width="18">
             <path d="M9.86.89a1.14 1.14 0 0 0-1.72 0l-.5.58c-.3.35-.79.48-1.23.33l-.72-.25a1.14 1.14 0 0 0-1.49.85l-.14.76c-.1.45-.45.8-.9.9l-.76.14c-.67.14-1.08.83-.85 1.49l.25.72c.15.44.02.92-.33 1.23l-.58.5a1.14 1.14 0 0 0 0 1.72l.58.5c.35.3.48.79.33 1.23l-.25.72c-.23.66.18 1.35.85 1.49l.76.14c.45.1.8.45.9.9l.14.76c.14.67.83 1.08 1.49.85l.72-.25c.44-.15.92-.02 1.23.33l.5.58c.46.52 1.26.52 1.72 0l.5-.58c.3-.35.79-.48 1.23-.33l.72.25c.66.23 1.35-.18 1.49-.85l.14-.76c.1-.45.45-.8.9-.9l.76-.14c.67-.14 1.08-.83.85-1.49l-.25-.72c-.15-.44-.02-.92.33-1.23l.58-.5c.52-.46.52-1.26 0-1.72l-.58-.5c-.35-.3-.48-.79-.33-1.23l.25-.72a1.14 1.14 0 0 0-.85-1.49l-.76-.14c-.45-.1-.8-.45-.9-.9l-.14-.76a1.14 1.14 0 0 0-1.49-.85l-.72.25c-.44.15-.92.02-1.23-.33l-.5-.58Zm-.49 2.67L10.6 6.6c.05.15.19.24.34.25l3.26.22c.36.03.5.48.23.71l-2.5 2.1a.4.4 0 0 0-.14.4l.8 3.16a.4.4 0 0 1-.6.44L9.2 12.13a.4.4 0 0 0-.42 0l-2.77 1.74a.4.4 0 0 1-.6-.44l.8-3.16a.4.4 0 0 0-.13-.4l-2.5-2.1a.4.4 0 0 1 .22-.7l3.26-.23a.4.4 0 0 0 .34-.25l1.22-3.03a.4.4 0 0 1 .74 0Z">
             </path>
@@ -369,7 +371,7 @@
           <div class="fs-fine tt-uppercase ml8 mt16 mb8 fc-light">
            Teams
           </div>
-          <div class="bt bl bb bc-black-075 p12 pb6 fc-black-600 blr-sm overflow-hidden">
+          <div class="px32 pt16 pb0 fc-black-600 blr-sm overflow-hidden">
            <strong class="fc-black-750 mb6">
             Stack Overflow for Teams
            </strong>
@@ -440,7 +442,7 @@
       <p class="my16 fs-caption fc-medium">
        Find centralized, trusted content and collaborate around the technologies you use most.
       </p>
-      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:7, destination:18})" href="/collectives">
+      <a class="js-gps-track s-btn s-btn__primary s-btn__xs" data-gps-track="top_nav.click({is_current:false, location:6, destination:18})" href="/collectives">
        Learn more
       </a>
      </div>
@@ -479,217 +481,1155 @@
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div id="mainbar">
-     <div class="s-page-title mb16">
-      <div class="s-page-title--text">
-       <nav aria-label="breadcrumb" class="s-breadcrumbs mb6 sm:mb2">
-        <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/">
-          Stack Overflow
-         </a>
-         <svg aria-hidden="true" class="s-breadcrumbs--divider svg-icon iconArrowRightAltSm" height="14" viewbox="0 0 13 14" width="13">
-          <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z">
-          </path>
-         </svg>
+    <div id="mainbar-full">
+     <div class="content-page new-about-content-page about-content-page w-auto wmx8">
+      <div class="about-intro">
+       <h2 class="about-title">
+        Welcome to Stack Overflow
+       </h2>
+       <img class="site-icon" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded">
+        <div class="ta-center">
+         <p>
+          <div class="wiki-ph" data-placeholder="WikiPlaceholder-AboutThisSite">
+           <div class="wiki-ph-content">
+            <p>
+             <strong>
+              Stack Overflow
+             </strong>
+             is a question and answer site for professional and enthusiast programmers. It's built and run
+             <em>
+              by you
+             </em>
+             as part of the
+             <a href="http://stackexchange.com">
+              Stack Exchange
+             </a>
+             network of Q&amp;A sites. With your help, we're working together to build a library of detailed, high-quality answers to every question about programming.
+            </p>
+           </div>
+          </div>
+         </p>
+         <p class="helper-text">
+          We're a little bit different from other sites. Here's how:
+         </p>
         </div>
-        <div class="s-breadcrumbs--item">
-         <a class="s-breadcrumbs--link" href="/help">
-          Help center
+       </img>
+      </div>
+      <hr/>
+      <div class="about-qa">
+       <h2 class="about-title">
+        Ask questions, get answers, no distractions
+       </h2>
+       <div class="d-flex g24 ai-center jc-space-between md:fd-column">
+        <div class="flex--item">
+         <p>
+          This site is all about
+          <b>
+           getting answers
+          </b>
+          . It's not a discussion forum. There's no chit-chat.
+         </p>
+         <p class="d-flex flex__center g4 mt48">
+          <svg aria-hidden="true" class="svg-spot spotQuestion" height="48" viewbox="0 0 48 48" width="48">
+           <path d="M40 5H10c-2.64 0-5 2.99-5 5.64V45l6-6h29.5c2.44 0 4.5-2.85 4.5-5.1V10.63C45.09 7.69 43.09 5 40 5Zm-4.83 29.1c-1.74-.54-4.05-1.48-5.36-2.8-4.35 1.72-9.76.94-13.15-2.34-6.64-7.13-2.43-21.57 8.31-21.04a11.02 11.02 0 0 1 8.27 3.22c2.08 2.15 3.07 5.14 3.07 8.89a16 16 0 0 1-.84 5.26c-.37.94-.87 1.89-1.55 2.76 1.11.7 2.33 1.14 3.56 1.59l-2.3 4.46Z" opacity=".2">
+           </path>
+           <path d="M9.97 35H36.8c.76 0 1.47-.01 2.1-.12.65-.1.93-.28 1.03-.38A3.63 3.63 0 0 0 41 31.94V6.62A3.63 3.63 0 0 0 37.37 3H8.64A3.64 3.64 0 0 0 5 6.63v34.05L9.97 35ZM3 46V6.62A5.65 5.65 0 0 1 8.63 1h28.74A5.63 5.63 0 0 1 43 6.63v25.3c0 1.5-.6 2.93-1.65 3.98C40.3 36.98 38.3 37 36.81 37H10.87L3 46Zm30.2-22.84c.5-1.43.8-3.12.8-5.03 0-3.63-1-6.44-2.9-8.44a10.3 10.3 0 0 0-7.83-3 10.4 10.4 0 0 0-7.87 3 11.67 11.67 0 0 0-2.9 8.44c0 3.63.99 6.44 2.9 8.44a10.58 10.58 0 0 0 8.02 3c1.74 0 3.37-.3 4.8-.95l.64.43a33 33 0 0 0 2.35 1.54c.64.36 1.29.64 1.96.84l1.66-3.18a14.63 14.63 0 0 1-3.6-1.85 10.02 10.02 0 0 0 1.97-3.24Zm-9.95-12.65a5.62 5.62 0 0 0-4.42 1.88c-1.12 1.3-1.69 3.2-1.69 5.74 0 2.59.57 4.53 1.7 5.82a5.31 5.31 0 0 0 4.28 1.91c.63 0 1.25-.11 1.81-.3a15.04 15.04 0 0 0-2.75-1.41l1.26-2.53c1.52.52 2.94 1.28 4.22 2.25a5.95 5.95 0 0 0 1.02-1.74 10.7 10.7 0 0 0 .7-4c0-2.56-.56-4.47-1.69-5.74a5.62 5.62 0 0 0-4.44-1.88ZM26.96 21a18.4 18.4 0 0 0-2.86-1.29l-1.66-.57-1.86 3.73a4.37 4.37 0 0 1-.25-.25c-.67-.79-1.19-2.17-1.19-4.5 0-2.27.51-3.63 1.2-4.42a3.63 3.63 0 0 1 2.83-1.2h.16a3.62 3.62 0 0 1 2.87 1.2c.66.76 1.18 2.1 1.18 4.42a8.9 8.9 0 0 1-.35 2.67l-.01.03-.01.02-.05.17ZM23.28 4.69a12.3 12.3 0 0 1 9.23 3.6l.01.01.02.02c2.36 2.46 3.45 5.83 3.45 9.82 0 2.1-.3 4.02-.9 5.7v.02l-.01.01c-.25.67-.57 1.32-.94 1.94.44.21.9.4 1.36.57l2.18.76-3.5 6.68-1.56-.46a11.17 11.17 0 0 1-2.5-1.07l-.26-.15-.63-.42-1.26-.85c-1.42.49-2.94.71-4.5.71A12.58 12.58 0 0 1 14 28l-.02-.02-.02-.02c-2.35-2.45-3.45-5.8-3.46-9.76-.2-3.6 1.02-7.12 3.4-9.82l.04-.05.05-.05a12.4 12.4 0 0 1 9.29-3.6Z">
+           </path>
+          </svg>
+          Just questions...
+         </p>
+         <p class="d-flex flex__center g4 mb48">
+          <svg aria-hidden="true" class="svg-spot spotAnswer" height="49" viewbox="0 0 48 49" width="48">
+           <path d="M35 39H12c-2.72 0-5-2.28-5-5V9.3C7 6.57 8.13 5 10.88 5H40c2.72 0 5 2.28 5 5v38.5L35 39Zm-.33-7L26 10.8h-4.48L13.46 32h5.09l1.62-4.48h8.73L30.63 32h4.04Z" opacity=".2">
+           </path>
+           <path d="M36.29 35H8c-.15 0-.43-.06-.86-.33a7.43 7.43 0 0 1-1.26-1.05A3 3 0 0 1 5 31.5V6a3 3 0 0 1 3-3h30a3 3 0 0 1 3 3v33.4L36.29 35ZM43 6a5 5 0 0 0-5-5H8C5.25 1 3 3.25 3 6v25.5a5 5 0 0 0 1.46 3.54C5.4 35.97 6.67 37 8 37h27.5l7.5 7V6Zm-7.11 25L26.41 7h-6.94L10.3 31h8.51l1.63-4.48h5.1L27.25 31h8.64Zm-16.87-6.48L17.4 29h-4.2l7.65-20h4.2l7.9 20h-4.33l-1.72-4.48h-7.88Zm6.6-3.32-2.72-7.3-2.65 7.3h5.38Z">
+           </path>
+          </svg>
+          ...and answers.
+         </p>
+         <div class="d-flex g16">
+          <div class="flex--item">
+           <svg aria-hidden="true" class="fc-theme-primary-400 svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
+            <path d="M2 25h32L18 9 2 25Z">
+            </path>
+           </svg>
+          </div>
+          <div class="flex--item">
+           <p class="mb12">
+            Good answers are voted up and
+            <b>
+             rise to the top
+            </b>
+            .
+           </p>
+           <p class="fs-italic fs-body2 fc-light">
+            The best answers show up first so that they are always easy to find.
+           </p>
+          </div>
+         </div>
+         <div class="d-flex g16">
+          <div class="flex--item">
+           <svg aria-hidden="true" class="fc-green-500 svg-icon iconCheckmarkLg" height="36" viewbox="0 0 36 36" width="36">
+            <path d="m6 14 8 8L30 6v8L14 30l-8-8v-8Z">
+            </path>
+           </svg>
+          </div>
+          <div class="flex--item">
+           <p class="mb12">
+            The person who asked can mark one answer as "accepted".
+           </p>
+           <p class="fs-italic fs-body2 fc-light">
+            Accepting doesn't mean it's the best answer, it just means that it worked for the person who asked.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="flex--item6 fl-shrink0 overflow-hidden shadow md:d-none">
+         <div class="qa-block p16 bar-lg bs-none mrn12">
+          <div id="question-header">
+           <h1 class="question-hyperlink">
+            Do Swift-based applications work on OS X 10.9/iOS 7 and lower?
+           </h1>
+          </div>
+          <div class="about-q d-flex">
+           <div class="votecell flex--item">
+            <div class="d-flex fd-column ai-center g4 fc-black-300">
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 25h32L18 9 2 25Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item fs-title fc-light">
+              14
+             </div>
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowDownLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 11h32L18 27 2 11Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconBookmark" height="18" viewbox="0 0 18 18" width="18">
+               <path d="M6 1a2 2 0 0 0-2 2v14l5-4 5 4V3a2 2 0 0 0-2-2H6Zm3.9 3.83h2.9l-2.35 1.7.9 2.77L9 7.59l-2.35 1.7.9-2.76-2.35-1.7h2.9L9 2.06l.9 2.77Z">
+               </path>
+              </svg>
+             </div>
+            </div>
+           </div>
+           <div class="postcell flex--item">
+            <div class="s-prose mb16 v-truncate4">
+             <p>
+              Will Swift-based applications work on
+              <a href="http://en.wikipedia.org/wiki/OS_X_Mavericks" rel="noreferrer">
+               OS X 10.9
+              </a>
+              (Mavericks)/iOS 7 and lower?
+             </p>
+             <p>
+              For example, I have a machine running
+              <a href="http://en.wikipedia.org/wiki/OS_X_Mountain_Lion" rel="noreferrer">
+               OS X 10.8
+              </a>
+              (Mountain Lion), and I am wondering if an application I write in Swift will run on it.
+             </p>
+             <p>
+              Or what should I have to create a Swift application using Mac OS?
+             </p>
+            </div>
+            <div class="post-taglist">
+             <a class="post-tag" href="/questions/tagged/swift" rel="tag" title="show questions tagged 'swift'">
+              swift
+             </a>
+             <a class="post-tag" href="/questions/tagged/xcode" rel="tag" title="show questions tagged 'xcode'">
+              xcode
+             </a>
+             <a class="post-tag" href="/questions/tagged/macos" rel="tag" title="show questions tagged 'macos'">
+              macos
+             </a>
+            </div>
+            <div class="post-signature owner float-right">
+             <div class="user-info">
+              <div class="user-action-time">
+               asked
+               <span class="relativetime" title="2014-06-02 19:25:57Z">
+                Jun 2, 2014 at 19:25
+               </span>
+              </div>
+              <div class="user-gravatar32">
+               <div class="about-user1">
+                <div class="gravatar-wrapper-32">
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/xDQHx.jpg?s=32&amp;g=1" width="32"/>
+                </div>
+               </div>
+              </div>
+              <div class="user-details">
+               MeIr
+               <br/>
+               <span class="reputation-score" dir="ltr" title="reputation score ">
+                7,136
+               </span>
+               <span aria-hidden="true" title="6 gold badges">
+                <span class="badge1">
+                </span>
+                <span class="badgecount">
+                 6
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                6 gold badges
+               </span>
+               <span aria-hidden="true" title="46 silver badges">
+                <span class="badge2">
+                </span>
+                <span class="badgecount">
+                 46
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                46 silver badges
+               </span>
+               <span aria-hidden="true" title="75 bronze badges">
+                <span class="badge3">
+                </span>
+                <span class="badgecount">
+                 75
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                75 bronze badges
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="subheader answers-subheader">
+           <h3>
+            2 Answers
+           </h3>
+          </div>
+          <div class="about-a d-flex">
+           <div class="votecell flex--item">
+            <div class="d-flex fd-column ai-center g4 fc-black-300">
+             <div class="flex--item fc-theme-primary-400">
+              <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 25h32L18 9 2 25Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item fs-title fc-light">
+              4
+             </div>
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowDownLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 11h32L18 27 2 11Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item fc-green-500">
+              <svg aria-hidden="true" class="svg-icon iconCheckmarkLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="m6 14 8 8L30 6v8L14 30l-8-8v-8Z">
+               </path>
+              </svg>
+             </div>
+            </div>
+           </div>
+           <div class="postcell flex--item">
+            <div class="s-prose mb16 v-truncate4">
+             <p>
+              Swift code can be deployed to OS X 10.9 and iOS 7.0. It will usually crash at launch on older OS versions.
+             </p>
+            </div>
+            <div class="post-signature float-right">
+             <div class="user-info">
+              <div class="user-action-time">
+               answered
+               <span class="relativetime" title="2014-06-03 08:25:37Z">
+                Jun 3, 2014 at 8:25
+               </span>
+              </div>
+              <div class="user-gravatar32">
+               <div class="about-user2">
+                <div class="gravatar-wrapper-32">
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/haS4F.png?s=32&amp;g=1" width="32"/>
+                </div>
+               </div>
+              </div>
+              <div class="user-details">
+               Greg Parker
+               <br/>
+               <span class="reputation-score" dir="ltr" title="reputation score ">
+                7,884
+               </span>
+               <span aria-hidden="true" title="2 gold badges">
+                <span class="badge1">
+                </span>
+                <span class="badgecount">
+                 2
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                2 gold badges
+               </span>
+               <span aria-hidden="true" title="22 silver badges">
+                <span class="badge2">
+                </span>
+                <span class="badgecount">
+                 22
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                22 silver badges
+               </span>
+               <span aria-hidden="true" title="21 bronze badges">
+                <span class="badge3">
+                </span>
+                <span class="badgecount">
+                 21
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                21 bronze badges
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="about-a d-flex">
+           <div class="votecell flex--item">
+            <div class="d-flex fd-column ai-center g4 fc-black-300">
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 25h32L18 9 2 25Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item fs-title fc-light">
+              3
+             </div>
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowDownLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 11h32L18 27 2 11Z">
+               </path>
+              </svg>
+             </div>
+            </div>
+           </div>
+           <div class="postcell flex--item">
+            <div class="s-prose mb16 v-truncate4">
+             <p>
+              Apple has announced that Swift apps will be backward compatible with iOS 7 and OS X Mavericks. The WWDC app is written in Swift.
+             </p>
+            </div>
+            <div class="post-signature float-right">
+             <div class="user-info">
+              <div class="user-action-time">
+               answered
+               <span class="relativetime" title="2014-06-03 00:03:37Z">
+                Jun 3, 2014 at 0:03
+               </span>
+              </div>
+              <div class="user-gravatar32">
+               <div class="about-user2">
+                <div class="gravatar-wrapper-32">
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/3d2bec5d4578ac8965bb8610fe890237?s=32&amp;d=identicon&amp;r=PG" width="32"/>
+                </div>
+               </div>
+              </div>
+              <div class="user-details">
+               Ben Gottlieb
+               <br/>
+               <span class="reputation-score" dir="ltr" title="reputation score 84,866">
+                84.9k
+               </span>
+               <span aria-hidden="true" title="22 gold badges">
+                <span class="badge1">
+                </span>
+                <span class="badgecount">
+                 22
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                22 gold badges
+               </span>
+               <span aria-hidden="true" title="172 silver badges">
+                <span class="badge2">
+                </span>
+                <span class="badgecount">
+                 172
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                172 silver badges
+               </span>
+               <span aria-hidden="true" title="171 bronze badges">
+                <span class="badge3">
+                </span>
+                <span class="badgecount">
+                 171
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                171 bronze badges
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <hr/>
+      <div class="about-offtopic">
+       <h2 class="about-title">
+        Get answers to practical, detailed questions
+       </h2>
+       <div class="d-flex ai-center g32 md:fd-column">
+        <div class="flex--item">
+         <p class="m0">
+          Focus on questions about an
+          <b>
+           actual problem
+          </b>
+          you have faced. Include details about what you have tried and exactly what you are trying to do.
+         </p>
+        </div>
+        <div class="flex--item6 fl-shrink0 w100">
+         <div class="on-topic-examples content-block bar-lg bs-none p16">
+          <p>
+           Ask about...
+          </p>
+          <div class="wiki-ph" data-placeholder="WikiPlaceholder-AboutOnTopic">
+           <div class="wiki-ph-content">
+            <ul>
+             <li>
+              Specific programming problems
+             </li>
+             <li>
+              Software algorithms
+             </li>
+             <li>
+              Coding techniques
+             </li>
+             <li>
+              Software development tools
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="d-flex ai-center mt32 g32 md:fd-column">
+        <div class="flex--item">
+         <p>
+          Not all questions work well in our format. Avoid questions that are
+          <b>
+           primarily opinion-based
+          </b>
+          , or that are likely to
+          <b>
+           generate discussion
+          </b>
+          rather than answers.
+         </p>
+         <p class="fs-italic fs-body2 fc-light mb0">
+          Questions that need improvement may be
+          <b>
+           closed
+          </b>
+          until someone fixes them.
+         </p>
+        </div>
+        <div class="flex--item6 fl-shrink0 w100">
+         <div class="off-topic-examples content-block bar-lg bs-none p16">
+          <p>
+           Don't ask about...
+          </p>
+          <div class="wiki-ph" data-placeholder="WikiPlaceholder-AboutOffTopic">
+           <div class="wiki-ph-content">
+            <ul>
+             <li>
+              Questions you haven't
+              <em>
+               tried
+              </em>
+              to find an answer for (show your work!)
+             </li>
+             <li>
+              Product or service recommendations or comparisons
+             </li>
+             <li>
+              Requests for lists of things, polls, opinions, discussions, etc.
+             </li>
+            </ul>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <hr/>
+      <div class="about-tags">
+       <h2 class="about-title">
+        Tags make it easy to find interesting questions
+       </h2>
+       <div class="d-flex g24 ai-center jc-space-between md:fd-column">
+        <div class="flex--item">
+         <p>
+          All questions are
+          <b>
+           tagged
+          </b>
+          with their subject areas. Each can have up to 5 tags, since a question might be related to several subjects.
+         </p>
+         <p>
+          <b>
+           Click any tag
+          </b>
+          to see a list of questions with that tag, or go to the
+          <a href="/tags">
+           tag list
+          </a>
+          to browse for topics that interest you.
+         </p>
+        </div>
+        <div class="flex--item5 fl-shrink0 overflow-hidden shadow sm:d-none">
+         <div class="qa-block p16 bar-lg bs-none mrn12">
+          <div id="question-header">
+           <h1 class="question-hyperlink">
+            Do Swift-based applications work on OS X 10.9/iOS 7 and lower?
+           </h1>
+          </div>
+          <div class="about-q d-flex">
+           <div class="votecell flex--item">
+            <div class="d-flex fd-column ai-center g4 fc-black-300">
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 25h32L18 9 2 25Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item fs-title fc-light">
+              14
+             </div>
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowDownLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 11h32L18 27 2 11Z">
+               </path>
+              </svg>
+             </div>
+            </div>
+           </div>
+           <div class="postcell flex--item">
+            <div class="s-prose mb16 v-truncate4">
+             <p>
+              Will Swift-based applications work on
+              <a href="http://en.wikipedia.org/wiki/OS_X_Mavericks" rel="noreferrer">
+               OS X 10.9
+              </a>
+              (Mavericks)/iOS 7 and lower?
+             </p>
+             <p>
+              For example, I have a machine running
+              <a href="http://en.wikipedia.org/wiki/OS_X_Mountain_Lion" rel="noreferrer">
+               OS X 10.8
+              </a>
+              (Mountain Lion), and I am wondering if an application I write in Swift will run on it.
+             </p>
+             <p>
+              Or what should I have to create a Swift application using Mac OS?
+             </p>
+            </div>
+            <div class="post-taglist">
+             <a class="post-tag" href="/questions/tagged/swift" rel="tag" title="show questions tagged 'swift'">
+              swift
+             </a>
+             <a class="post-tag" href="/questions/tagged/xcode" rel="tag" title="show questions tagged 'xcode'">
+              xcode
+             </a>
+             <a class="post-tag" href="/questions/tagged/macos" rel="tag" title="show questions tagged 'macos'">
+              macos
+             </a>
+            </div>
+            <div class="post-signature owner float-right">
+             <div class="user-info">
+              <div class="user-action-time">
+               asked
+               <span class="relativetime" title="2014-06-02 19:25:57Z">
+                Jun 2, 2014 at 19:25
+               </span>
+              </div>
+              <div class="user-gravatar32">
+               <div class="about-user1">
+                <div class="gravatar-wrapper-32">
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/xDQHx.jpg?s=32&amp;g=1" width="32"/>
+                </div>
+               </div>
+              </div>
+              <div class="user-details">
+               MeIr
+               <br/>
+               <span class="reputation-score" dir="ltr" title="reputation score ">
+                7,136
+               </span>
+               <span aria-hidden="true" title="6 gold badges">
+                <span class="badge1">
+                </span>
+                <span class="badgecount">
+                 6
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                6 gold badges
+               </span>
+               <span aria-hidden="true" title="46 silver badges">
+                <span class="badge2">
+                </span>
+                <span class="badgecount">
+                 46
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                46 silver badges
+               </span>
+               <span aria-hidden="true" title="75 bronze badges">
+                <span class="badge3">
+                </span>
+                <span class="badgecount">
+                 75
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                75 bronze badges
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <hr/>
+      <div class="about-reputation">
+       <h2 class="about-title">
+        You earn reputation when people vote on your posts
+       </h2>
+       <div class="d-flex ai-center g32 mb32 md:fd-column">
+        <div class="flex--item">
+         <p class="m0">
+          Your reputation score goes up when others
+          <b>
+           vote up
+          </b>
+          your questions, answers and edits.
+         </p>
+        </div>
+        <div class="flex--item7 fl-shrink0 w100">
+         <div class="all-rep-block d-flex g16 ai-center md:jc-center sm:fd-column">
+          <div class="flex--item user-info-rep mr-auto bar-lg bs-none md:mr8">
+           <div class="about-gravatar">
+           </div>
+           <div class="user-details">
+            John Doe
+            <br/>
+            United States
+            <br>
+             <span class="reputation-score" dir="ltr" title="reputation score">
+              245
+             </span>
+             <span title="3 gold badges">
+              <span class="badge1">
+              </span>
+              <span class="badgecount">
+               3
+              </span>
+             </span>
+             <span title="22 silver badges">
+              <span class="badge2">
+              </span>
+              <span class="badgecount">
+               22
+              </span>
+             </span>
+             <span title="74 bronze badges">
+              <span class="badge3">
+              </span>
+              <span class="badgecount">
+               74
+              </span>
+             </span>
+            </br>
+           </div>
+          </div>
+          <div class="rep-block flex--item">
+           <span class="rep-up">
+            +10
+           </span>
+           question voted up
+          </div>
+          <div class="rep-block flex--item">
+           <span class="rep-up">
+            +10
+           </span>
+           answer voted up
+          </div>
+          <div class="rep-block flex--item">
+           <span class="rep-up">
+            +15
+           </span>
+           answer is accepted
+          </div>
+          <div class="rep-block flex--item">
+           <span class="rep-up">
+            +2
+           </span>
+           edit approved
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="d-flex ai-center g32 mb32 md:fd-column">
+        <div class="flex--item">
+         <p class="m0">
+          As you earn reputation, you'll
+          <a href="/help/privileges">
+           unlock new privileges
+          </a>
+          like the ability to vote, comment, and even edit other people's posts.
+         </p>
+        </div>
+        <div class="flex--item7 fl-shrink0 w100">
+         <div class="content-block bar-lg bs-none p16">
+          <table>
+           <thead>
+            <tr>
+             <th>
+              Reputation
+             </th>
+             <th>
+              Privilege
+             </th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+             <th>
+              15
+             </th>
+             <td>
+              Vote up
+             </td>
+            </tr>
+            <tr>
+             <th>
+              50
+             </th>
+             <td>
+              Leave comments
+             </td>
+            </tr>
+            <tr>
+             <th>
+              125
+             </th>
+             <td>
+              Vote down (costs
+              <b>
+               1
+              </b>
+              rep on answers)
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+        </div>
+       </div>
+       <div class="d-flex ai-center g32 md:fd-column">
+        <div class="flex--item">
+         <p class="m0">
+          At the highest levels, you'll have access to special
+          <b>
+           moderation tools
+          </b>
+          . You'll be able to work alongside our
+          <a href="/users?tab=moderators">
+           community moderators
+          </a>
+          to keep the site focused and helpful.
+         </p>
+        </div>
+        <div class="flex--item7 fl-shrink0 w100">
+         <div class="content-block bar-lg bs-none p16">
+          <table>
+           <thead>
+            <tr>
+             <th>
+              Reputation
+             </th>
+             <th>
+              Privilege
+             </th>
+            </tr>
+           </thead>
+           <tbody>
+            <tr>
+             <th>
+              2000
+             </th>
+             <td>
+              Edit other people's posts
+             </td>
+            </tr>
+            <tr>
+             <th>
+              3000
+             </th>
+             <td>
+              Vote to close, reopen, or migrate questions
+             </td>
+            </tr>
+            <tr>
+             <th>
+              10000
+             </th>
+             <td>
+              Access to moderation tools
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <a href="/help/privileges">
+           see all privileges
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <hr/>
+      <div class="about-editing">
+       <h2 class="about-title">
+        Improve posts by editing or commenting
+       </h2>
+       <div class="d-flex ai-center g32 md:fd-column">
+        <div class="flex--item">
+         <p>
+          Our goal is to have the
+          <b>
+           best answers
+          </b>
+          to every question, so if you see questions or answers that can be improved, you can
+          <b>
+           edit
+          </b>
+          them.
+         </p>
+         <p class="fs-italic fs-body2 fc-light">
+          Use edits to fix mistakes, improve formatting, or clarify the meaning of a post.
+         </p>
+         <p>
+          Use
+          <b>
+           comments
+          </b>
+          to ask for more information or clarify a question or answer.
+         </p>
+         <p class="fs-italic fs-body2 fc-light">
+          You can always comment on
+          <b>
+           your own
+          </b>
+          questions and answers.  Once you earn 50 reputation, you can comment on anybody's post.
+         </p>
+         <p>
+          Remember: we're all here to learn, so be friendly and helpful!
+         </p>
+        </div>
+        <div class="flex--item7 fl-shrink0 overflow-hidden shadow sm:d-none">
+         <div class="qa-block qa-answer p16 bar-lg bs-none mrn12">
+          <div class="about-a d-flex">
+           <div class="votecell flex--item">
+            <div class="d-flex fd-column ai-center g4 fc-black-300">
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 25h32L18 9 2 25Z">
+               </path>
+              </svg>
+             </div>
+             <div class="flex--item fs-title fc-light">
+              9
+             </div>
+             <div class="flex--item">
+              <svg aria-hidden="true" class="svg-icon iconArrowDownLg" height="36" viewbox="0 0 36 36" width="36">
+               <path d="M2 11h32L18 27 2 11Z">
+               </path>
+              </svg>
+             </div>
+            </div>
+           </div>
+           <div class="postcell flex--item">
+            <div class="s-prose mb16 v-truncate4">
+             <p>
+              Swift code can be deployed to OS X 10.9 and iOS 7.0. It will usually crash at launch on older OS versions.
+             </p>
+            </div>
+            <p class="post-menu">
+             <a style="cursor: default;">
+              edit
+             </a>
+            </p>
+            <div class="post-signature float-right">
+             <div class="user-info">
+              <div class="user-action-time">
+               answered
+               <span class="relativetime" title="2014-06-03 08:25:37Z">
+                Jun 3, 2014 at 8:25
+               </span>
+              </div>
+              <div class="user-gravatar32">
+               <div class="about-user2">
+                <div class="gravatar-wrapper-32">
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/haS4F.png?s=32&amp;g=1" width="32"/>
+                </div>
+               </div>
+              </div>
+              <div class="user-details">
+               Greg Parker
+               <br/>
+               <span class="reputation-score" dir="ltr" title="reputation score ">
+                7,884
+               </span>
+               <span aria-hidden="true" title="2 gold badges">
+                <span class="badge1">
+                </span>
+                <span class="badgecount">
+                 2
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                2 gold badges
+               </span>
+               <span aria-hidden="true" title="22 silver badges">
+                <span class="badge2">
+                </span>
+                <span class="badgecount">
+                 22
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                22 silver badges
+               </span>
+               <span aria-hidden="true" title="21 bronze badges">
+                <span class="badge3">
+                </span>
+                <span class="badgecount">
+                 21
+                </span>
+               </span>
+               <span class="v-visible-sr">
+                21 bronze badges
+               </span>
+              </div>
+             </div>
+            </div>
+            <div class="comments">
+             <div class="comment-entry border-red">
+              Swift sets some bits in the Objective-C metadata to mark Swift classes. libobjc in OS X 10.9 and iOS 7.0 was changed to ignore these bits in preparation for Swift's arrival. Older OS versions will be confused by these bits. - Greg Parker
+              <span class="relativetime" title="2014-06-21 01:05:52Z">
+               Jun 21, 2014 at 1:05
+              </span>
+             </div>
+            </div>
+            <p>
+             <a class="comments-link" style="cursor: default;">
+              add a comment
+             </a>
+            </p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <hr/>
+      <div class="about-badges">
+       <h2 class="about-title">
+        Unlock badges for special achievements
+       </h2>
+       <div class="d-flex g24 ai-center jc-space-between md:fd-column">
+        <div class="flex--item">
+         <p>
+          Badges are special achievements you earn for participating on the site. They come in three levels: bronze, silver, and gold.
+         </p>
+         <div class="informed-badge">
+          <p>
+           In fact, you can earn a badge just for reading this page:
+          </p>
+          <table class="badges-page">
+           <tr>
+            <td class="badge-cell">
+             <a class="badge" href="/help/badges/2600/informed" title="bronze badge: Read the entire tour page">
+              <span class="badge3">
+              </span>
+              Informed
+             </a>
+            </td>
+            <td>
+             Read the entire
+             <a href="https://stackoverflow.com/tour">
+              tour
+             </a>
+             page
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="flex--item6 fl-shrink0 overflow-hidden shadow sm:d-none">
+         <div class="qa-block p16 bar-lg bs-none mrn12">
+          <table class="badges-page">
+           <tbody>
+            <tr>
+             <td class="badge-cell">
+              <a class="badge" href="/help/badges/2/student" title="bronze badge: First question with score of 1 or more">
+               <span class="badge3">
+               </span>
+               Student
+              </a>
+             </td>
+             <td>
+              First question with score of 1 or more
+             </td>
+            </tr>
+            <tr>
+             <td class="badge-cell">
+              <a class="badge" href="/help/badges/3/editor" title="bronze badge: First edit">
+               <span class="badge3">
+               </span>
+               Editor
+              </a>
+             </td>
+             <td>
+              First edit
+             </td>
+            </tr>
+            <tr>
+             <td class="badge-cell">
+              <a class="badge" href="/help/badges/24/good-answer" title="silver badge: Answer score of 25 or more">
+               <span class="badge2">
+               </span>
+               Good Answer
+              </a>
+             </td>
+             <td>
+              Answer score of 25 or more
+             </td>
+            </tr>
+            <tr>
+             <td class="badge-cell">
+              <a class="badge" href="/help/badges/32/civic-duty" title="silver badge: Vote 300 or more times">
+               <span class="badge2">
+               </span>
+               Civic Duty
+              </a>
+             </td>
+             <td>
+              Vote 300 or more times
+             </td>
+            </tr>
+            <tr>
+             <td class="badge-cell">
+              <a class="badge" href="/help/badges/28/famous-question" title="gold badge: Question with 10,000 views">
+               <span class="badge1">
+               </span>
+               Famous Question
+              </a>
+             </td>
+             <td>
+              Question with 10,000 views
+             </td>
+            </tr>
+           </tbody>
+          </table>
+          <p>
+           <a href="/help/badges">
+            see all badges
+           </a>
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <hr/>
+      <a name="cta">
+      </a>
+      <div class="about-newuser about-cta">
+       <h2 class="about-title">
+        Sign up to get started
+       </h2>
+       <div class="col-full">
+        <div class="mx-auto">
+         <a class="s-btn s-btn__primary s-btn__md" href="/users/signup?ssrc=about&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftour%23cta" id="signup">
+          Sign up
          </a>
         </div>
-       </nav>
-       <h1 class="s-page-title--header">
-        Reputation &amp; Moderation
-       </h1>
+        <div class="col-center mt64">
+         <p class="tag-line">
+          Signing up allows you to:
+         </p>
+         <ul>
+          <li>
+           Earn reputation when you help others with questions, answers and edits.
+          </li>
+          <li>
+           Select favorite tags to customize your home page.
+          </li>
+          <li>
+           Claim your first badge:
+           <a class="badge" href="/help/badges/2600/informed" title="bronze badge: Read the entire tour page">
+            <span class="badge3">
+            </span>
+            Informed
+           </a>
+          </li>
+         </ul>
+        </div>
+        <div class="col-full ta-center mt64">
+         Looking for more in-depth information on the site?
+         <a class="s-btn s-btn__primary s-btn__md ml12" href="/help" id="visit-the-faq">
+          Visit the Help Center
+         </a>
+        </div>
+       </div>
+      </div>
+      <hr/>
+      <div class="about-se">
+       <div class="col-full">
+        <h2 class="about-title">
+         Stack Overflow is part of the Stack Exchange network
+        </h2>
+        <p>
+         Like this site? Stack Exchange is a network of 179 Q&amp;A sites just like it. Check out the
+         <a href="https://stackexchange.com/sites" id="full_list_of_sites">
+          full list of sites
+         </a>
+         .
+        </p>
+        <p>
+         <a href="https://stackexchange.com">
+          <img alt="Stack Exchange" class="site-icon" src="https://cdn.sstatic.net/Sites/stackexchange/Img/apple-touch-icon@2.png?v=7512a9aa351b"/>
+         </a>
+        </p>
+       </div>
       </div>
      </div>
-     <div class="help-center">
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/site-moderators">
-         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-          </path>
-         </svg>
-         Who are the site moderators, and what is their role here?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/why-vote">
-         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-          </path>
-         </svg>
-         Why is voting important?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/whats-reputation">
-         <svg aria-hidden="true" class="svg-icon iconTack" height="18" viewbox="0 0 18 18" width="18">
-          <path d="m6.79 12.67 3.53 3.53a6 6 0 0 0 1.18-6.83l2.03-2.03A4 4 0 0 0 18 5.5L12.53.03A4 4 0 0 0 10.7 4.5L8.67 6.54a6 6 0 0 0-6.83 1.18l3.53 3.53-3.18 3.18-1.77 3.19 3.18-1.77 3.19-3.18Z">
-          </path>
-         </svg>
-         What is reputation? How do I earn (and lose) it?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/mod-agreement-policies">
-         Moderator Agreement policies
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/staff">
-         Who are the staff, and what is their role here?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/serial-voting-reversed">
-         Why do I have a reputation change on my reputation page that says "voting corrected"?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/locked-posts">
-         What is a locked post?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/bounty">
-         What is a bounty? How can I start one?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/user-was-removed">
-         Why do I have a reputation change on my reputation page that says 'User was removed'?
-        </a>
-       </p>
-      </div>
-      <div class="col-section">
-       <p>
-        <a href="https://stackoverflow.com/help/declined-flags">
-         What are declined flags, and what should I do about them?
-        </a>
-       </p>
-      </div>
-     </div>
-    </div>
-    <div class="help-center" id="sidebar">
-     <nav class="s-sidebarwidget mb24" id="toc">
-      <ul class="s-sidebarwidget--content s-sidebarwidget__items">
-       <li class="s-sidebarwidget--item">
-        <a href="/help/asking">
-         Asking
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a aria-current="false" href="/help/privileges">
-         Privileges
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a aria-current="false" href="/help/badges">
-         Badges
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/stackexchange">
-         Our model
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item d-block">
-        <a aria-current="true" href="/help/reputation">
-         Reputation &amp; Moderation
-        </a>
-        <ul class="s-sidebarwidget--subnav ml8">
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/site-moderators">
-           Who are the site moderators, and what is their role here?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/why-vote">
-           Why is voting important?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/whats-reputation">
-           What is reputation? How do I earn (and lose) it?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/mod-agreement-policies">
-           Moderator Agreement policies
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/staff">
-           Who are the staff, and what is their role here?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/serial-voting-reversed">
-           Why do I have a reputation change on my reputation page that says "voting corrected"?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/locked-posts">
-           What is a locked post?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/bounty">
-           What is a bounty? How can I start one?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/user-was-removed">
-           Why do I have a reputation change on my reputation page that says 'User was removed'?
-          </a>
-         </li>
-         <li aria-current="false">
-          <a href="https://stackoverflow.com/help/declined-flags">
-           What are declined flags, and what should I do about them?
-          </a>
-         </li>
-        </ul>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/answering">
-         Answering
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/account">
-         My Account
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/review-queues">
-         Review Queues
-        </a>
-       </li>
-       <li class="s-sidebarwidget--item">
-        <a href="/help/collectives">
-         Collectives on Stack Overflow
-        </a>
-       </li>
-      </ul>
-     </nav>
     </div>
    </div>
   </div>
@@ -708,18 +1648,18 @@
     <nav class="site-footer--nav">
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 7, link: 15})" href="https://stackoverflow.com">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 6, link: 15})" href="https://stackoverflow.com">
         Stack Overflow
        </a>
       </h5>
       <ul class="-list js-primary-footer-links">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 16})" href="/questions">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 16})" href="/questions">
          Questions
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 3 })" href="/help">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 3 })" href="/help">
          Help
         </a>
        </li>
@@ -727,28 +1667,28 @@
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 7, link: 19 })" href="https://stackoverflow.com/?products">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 6, link: 19 })" href="https://stackoverflow.com/?products">
         Products
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 7, link: 29 })" href="https://stackoverflow.co/teams">
+        <a class="js-gps-track -link" data-ga='["teams traffic","footer - site nav","stackoverflow.com/teams",null,{"dimension4":"teams"}]' data-gps-track="footer.click({ location: 6, link: 29 })" href="https://stackoverflow.co/teams">
          Teams
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 21 })" href="https://stackoverflow.co/advertising">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 21 })" href="https://stackoverflow.co/advertising">
          Advertising
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 40 })" href="https://stackoverflow.co/collectives">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 40 })" href="https://stackoverflow.co/collectives">
          Collectives
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 20 })" href="https://stackoverflow.co/talent">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 20 })" href="https://stackoverflow.co/talent">
          Talent
         </a>
        </li>
@@ -756,53 +1696,53 @@
      </div>
      <div class="site-footer--col">
       <h5 class="-title">
-       <a class="js-gps-track" data-gps-track="footer.click({ location: 7, link: 1 })" href="https://stackoverflow.co/">
+       <a class="js-gps-track" data-gps-track="footer.click({ location: 6, link: 1 })" href="https://stackoverflow.co/">
         Company
        </a>
       </h5>
       <ul class="-list">
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 1 })" href="https://stackoverflow.co/">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 1 })" href="https://stackoverflow.co/">
          About
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 27 })" href="https://stackoverflow.co/company/press">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 27 })" href="https://stackoverflow.co/company/press">
          Press
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 9 })" href="https://stackoverflow.co/company/work-here">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 9 })" href="https://stackoverflow.co/company/work-here">
          Work Here
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 7 })" href="https://stackoverflow.com/legal">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 7 })" href="https://stackoverflow.com/legal">
          Legal
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 8 })" href="https://stackoverflow.com/legal/privacy-policy">
          Privacy Policy
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 37 })" href="https://stackoverflow.com/legal/terms-of-service">
          Terms of Service
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 13 })" href="https://stackoverflow.co/company/contact">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 13 })" href="https://stackoverflow.co/company/contact">
          Contact Us
         </a>
        </li>
        <li class="" id="consent-footer-link">
-        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 7, link: 38 })" href="#">
+        <a class="js-gps-track -link js-cookie-settings" data-consent-popup-loader="footer" data-gps-track="footer.click({ location: 6, link: 38 })" href="#">
          Cookie Settings
         </a>
        </li>
        <li>
-        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
+        <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link: 39 })" href="https://stackoverflow.com/legal/cookie-policy">
          Cookie Policy
         </a>
        </li>
@@ -811,48 +1751,48 @@
      <div class="site-footer--col site-footer--categories-nav">
       <div>
        <h5 class="-title">
-        <a data-gps-track="footer.click({ location: 7, link: 30 })" href="https://stackexchange.com">
+        <a data-gps-track="footer.click({ location: 6, link: 30 })" href="https://stackexchange.com">
          Stack Exchange Network
         </a>
        </h5>
        <ul class="-list">
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#technology">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 24 })" href="https://stackexchange.com/sites#technology">
           Technology
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 24 })" href="https://stackexchange.com/sites#culturerecreation">
           Culture &amp; recreation
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#lifearts">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 24 })" href="https://stackexchange.com/sites#lifearts">
           Life &amp; arts
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#science">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 24 })" href="https://stackexchange.com/sites#science">
           Science
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#professional">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 24 })" href="https://stackexchange.com/sites#professional">
           Professional
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://stackexchange.com/sites#business">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 24 })" href="https://stackexchange.com/sites#business">
           Business
          </a>
         </li>
         <li class="mt16 md:mt0">
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://api.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 24 })" href="https://api.stackexchange.com/">
           API
          </a>
         </li>
         <li>
-         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 24 })" href="https://data.stackexchange.com/">
+         <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 24 })" href="https://data.stackexchange.com/">
           Data
          </a>
         </li>
@@ -863,27 +1803,27 @@
     <div class="site-footer--copyright fs-fine md:mt24">
      <ul class="-list -social md:mb8">
       <li>
-       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 7, link:4 })" href="https://stackoverflow.blog?blb=1">
+       <a class="js-gps-track -link" data-gps-track="footer.click({ location: 6, link:4 })" href="https://stackoverflow.blog?blb=1">
         Blog
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 31 })" href="https://www.facebook.com/officialstackoverflow/">
         Facebook
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 32 })" href="https://twitter.com/stackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 32 })" href="https://twitter.com/stackoverflow">
         Twitter
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 33 })" href="https://linkedin.com/company/stack-overflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 33 })" href="https://linkedin.com/company/stack-overflow">
         LinkedIn
        </a>
       </li>
       <li>
-       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 7, link: 36 })" href="https://www.instagram.com/thestackoverflow">
+       <a class="-link js-gps-track" data-gps-track="footer.click({ location: 6, link: 36 })" href="https://www.instagram.com/thestackoverflow">
         Instagram
        </a>
       </li>
@@ -895,41 +1835,13 @@
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Help/SlugRouter');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175542.2008951509");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">

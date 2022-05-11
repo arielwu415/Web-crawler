@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html class="html__responsive" itemscope="" itemtype="https://schema.org/QAPage" lang="en">
+<html class="html__responsive" lang="en">
  <head>
   <title>
-   javascript - Error: Too many re-renders in my react app - Stack Overflow
+   json - C# Deserialization - Map specific property to its child property - Stack Overflow
   </title>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" rel="shortcut icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="apple-touch-icon"/>
   <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" rel="image_src"/>
   <link href="/opensearch.xml" rel="search" title="Stack Overflow" type="application/opensearchdescription+xml"/>
-  <link href="https://stackoverflow.com/questions/72183892/error-too-many-re-renders-in-my-react-app" rel="canonical">
+  <link href="https://stackoverflow.com/questions/72193781/c-sharp-deserialization-map-specific-property-to-its-child-property" rel="canonical">
    <meta content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
    <meta content="website" property="og:type">
-    <meta content="https://stackoverflow.com/questions/72183892/error-too-many-re-renders-in-my-react-app" property="og:url"/>
+    <meta content="https://stackoverflow.com/questions/72193781/c-sharp-deserialization-map-specific-property-to-its-child-property" property="og:url"/>
     <meta content="Stack Overflow" property="og:site_name"/>
     <meta content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded" itemprop="image primaryImageOfPage" property="og:image"/>
     <meta content="summary" name="twitter:card"/>
     <meta content="stackoverflow.com" name="twitter:domain"/>
-    <meta content="Error: Too many re-renders in my react app" itemprop="name" name="twitter:title" property="og:title"/>
-    <meta content="I tried to update the loading state to false after fetching data from database. Is there anything I am missing.
-The error occurred in the setLoading function inside useEffect
-    const [product, " itemprop="description" name="twitter:description" property="og:description"/>
+    <meta content="C# Deserialization - Map specific property to its child property" itemprop="name" name="twitter:title" property="og:title"/>
+    <meta content="My JSON object is structured as follows:
+{
+  pastOrders: [
+    { { orderId: { val: &amp;quot;A1&amp;quot; } },
+    { { orderId: { val: &amp;quot;B2&amp;quot; } },
+  ],
+
+  id: {
+    { val: &amp;quot;C3&amp;quot; }
+  }
+}
+
+I'd " itemprop="description" name="twitter:description" property="og:description"/>
     <script id="webpack-public-path" type="text/uri-list">
      https://cdn.sstatic.net/
     </script>
@@ -31,16 +41,16 @@ The error occurred in the setLoading function inside useEffect
     </script>
     <link href="https://cdn.sstatic.net/Shared/stacks.css?v=b56cf48c9205" rel="stylesheet" type="text/css"/>
     <link href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7" rel="stylesheet" type="text/css"/>
-    <link href="/feeds/question/72183892" rel="alternate" title="Feed for question 'Error: Too many re-renders in my react app'" type="application/atom+xml"/>
+    <link href="/feeds/question/72193781" rel="alternate" title="Feed for question 'C# Deserialization - Map specific property to its child property'" type="application/atom+xml"/>
     <meta content="US" name="twitter:app:country"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:iphone"/>
     <meta content="871299723" name="twitter:app:id:iphone"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183892/error-too-many-re-renders-in-my-react-app" name="twitter:app:url:iphone"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193781/c-sharp-deserialization-map-specific-property-to-its-child-property" name="twitter:app:url:iphone"/>
     <meta content="Stack Exchange iOS" name="twitter:app:name:ipad"/>
     <meta content="871299723" name="twitter:app:id:ipad"/>
-    <meta content="se-zaphod://stackoverflow.com/questions/72183892/error-too-many-re-renders-in-my-react-app" name="twitter:app:url:ipad"/>
+    <meta content="se-zaphod://stackoverflow.com/questions/72193781/c-sharp-deserialization-map-specific-property-to-its-child-property" name="twitter:app:url:ipad"/>
     <meta content="Stack Exchange Android" name="twitter:app:name:googleplay"/>
-    <meta content="https://stackoverflow.com/questions/72183892/error-too-many-re-renders-in-my-react-app" name="twitter:app:url:googleplay"/>
+    <meta content="https://stackoverflow.com/questions/72193781/c-sharp-deserialization-map-specific-property-to-its-child-property" name="twitter:app:url:googleplay"/>
     <meta content="com.stackexchange.marvin" name="twitter:app:id:googleplay"/>
     <script>
      StackExchange.ready(function () {
@@ -54,11 +64,11 @@ The error occurred in the setLoading function inside useEffect
                 });
 
 
-                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:4,shownCommentCount:4,enableTables:true,questionId:72183892});
+                StackExchange.question.init({showAnswerHelp:true,totalCommentCount:0,shownCommentCount:0,enableTables:true,questionId:72193781});
 
                 styleCode();
 
-                    StackExchange.realtime.subscribeToQuestion('1', '72183892');
+                    StackExchange.realtime.subscribeToQuestion('1', '72193781');
                     StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.js-post-body'); });
 
 
@@ -66,7 +76,7 @@ The error occurred in the setLoading function inside useEffect
     </script>
     <link href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7" rel="stylesheet" type="text/css"/>
     <script data-module-name="Shared/options.mod" data-role="module-args" type="application/json">
-     {"options":{"locale":"en","serverTime":1652175671,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded","tid":"44a7c4d7-4184-2519-85a3-fe7a90907e6f","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":4}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
+     {"options":{"locale":"en","serverTime":1652225062,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2","tid":"0d07d400-8798-5906-7c32-cb3356575c47","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true,"ab":{"hot_questions_sidebar":{"v":"signupoptincopy","g":2}}},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"8667b5d4a480"}}
     </script>
     <script data-module-name="Shared/settings.mod" data-role="module-args" type="application/json">
      {"settings":{"userProfile":{"openGraphAPIKey":"4a307e43-b625-49bb-af15-ffadf2bda017"},"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}
@@ -75,7 +85,7 @@ The error occurred in the setLoading function inside useEffect
      StackExchange.init();
     </script>
     <script>
-     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"b5a8ca8be147","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"ef8614d8b623","Js/full.en.js":"9fb7b39ddbcf","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"5b8e395b37ba","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+     StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"7ff9a9068fd6","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"977ec0a0b497","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"9606ab73611c","Js/full.en.js":"73d258849978","Js/highlightjs-loader.en.js":"3c37abf5cb6d","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"5dfbf70d3623","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"b588001d0a66","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"7c971287f03c","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"857acd8b77e4","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"7014572a759f","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -265,11 +275,11 @@ The error occurred in the setLoading function inside useEffect
        </div>
        <div class="modal-content" id="your-communities-section">
         <div class="call-to-login">
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183892%2ferror-too-many-re-renders-in-my-react-app">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })" href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193781%2fc-sharp-deserialization-map-specific-property-to-its-child-property">
           Sign up
          </a>
          or
-         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183892%2ferror-too-many-re-renders-in-my-react-app">
+         <a class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })" href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193781%2fc-sharp-deserialization-map-specific-property-to-its-child-property">
           log in
          </a>
          to customize your list.
@@ -300,12 +310,12 @@ The error occurred in the setLoading function inside useEffect
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183892%2ferror-too-many-re-renders-in-my-react-app" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset s-btn s-btn__filled ws-nowrap js-gps-track" data-ga='["top navigation","login button click",null,null,null]' data-gps-track="login.click" href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193781%2fc-sharp-deserialization-map-specific-property-to-its-child-property" rel="nofollow">
        Log in
       </a>
      </li>
      <li>
-      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183892%2ferror-too-many-re-renders-in-my-react-app" rel="nofollow">
+      <a class="s-topbar--item s-topbar--item__unset ml4 s-btn s-btn__primary ws-nowrap" data-ga='["sign up","Sign Up Navigation","Header",null,null]' href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193781%2fc-sharp-deserialization-map-specific-property-to-its-child-property" rel="nofollow">
        Sign up
       </a>
      </li>
@@ -515,13 +525,13 @@ The error occurred in the setLoading function inside useEffect
     </div>
    </div>
    <div class="snippet-hidden" id="content">
-    <div itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
+    <div itemscope="">
      <link href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" itemprop="image"/>
      <div class="inner-content clearfix">
       <div class="d-flex sm:fd-column" id="question-header">
        <h1 class="fs-headline1 ow-break-word mb8 flex--item fl1" itemprop="name">
-        <a class="question-hyperlink" href="/questions/72183892/error-too-many-re-renders-in-my-react-app">
-         Error: Too many re-renders in my react app
+        <a class="question-hyperlink" href="/questions/72193781/c-sharp-deserialization-map-specific-property-to-its-child-property">
+         C# Deserialization - Map specific property to its child property
         </a>
        </h1>
        <div class="ml12 aside-cta flex--item print:d-none sm:ml0 sm:mb12 sm:order-first sm:as-end">
@@ -531,11 +541,11 @@ The error occurred in the setLoading function inside useEffect
        </div>
       </div>
       <div class="d-flex fw-wrap pb8 mb16 bb bc-black-075">
-       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 09:32:31Z">
+       <div class="flex--item ws-nowrap mr16 mb8" title="2022-05-10 23:03:40Z">
         <span class="fc-light mr2">
          Asked
         </span>
-        <time datetime="2022-05-10T09:32:31" itemprop="dateCreated">
+        <time datetime="2022-05-10T23:03:40" itemprop="dateCreated">
          today
         </time>
        </div>
@@ -543,19 +553,19 @@ The error occurred in the setLoading function inside useEffect
         <span class="fc-light mr2">
          Modified
         </span>
-        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 09:41:02Z">
+        <a class="s-link s-link__inherit" href="?lastactivity" title="2022-05-10 23:03:40Z">
          today
         </a>
        </div>
-       <div class="flex--item ws-nowrap mb8" title="Viewed 25 times">
+       <div class="flex--item ws-nowrap mb8" title="Viewed 5 times">
         <span class="fc-light mr2">
          Viewed
         </span>
-        25 times
+        5 times
        </div>
       </div>
       <div aria-label="question and answers" id="mainbar" role="main">
-       <div class="question" data-position-on-page="0" data-questionid="72183892" data-score="0" id="question">
+       <div class="question" data-position-on-page="0" data-questionid="72193781" data-score="0" id="question">
         <style>
         </style>
         <div class="js-zone-container zone-container-main">
@@ -566,7 +576,7 @@ The error occurred in the setLoading function inside useEffect
         </div>
         <div class="post-layout">
          <div class="votecell post-layout--left">
-          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72183892">
+          <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72193781">
            <button aria-label="Up vote" aria-pressed="false" class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This question shows research effort; it is useful and clear">
             <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
              <path d="M2 25h32L18 9 2 25Z">
@@ -590,7 +600,7 @@ The error occurred in the setLoading function inside useEffect
             <div class="js-bookmark-count mt4 d-none" data-value="">
             </div>
            </button>
-           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72183892/timeline" title="Show activity on this post.">
+           <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72193781/timeline" title="Show activity on this post.">
             <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" height="18" viewbox="0 0 19 18" width="19">
              <path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z">
              </path>
@@ -601,62 +611,99 @@ The error occurred in the setLoading function inside useEffect
          <div class="postcell post-layout--right">
           <div class="s-prose js-post-body" itemprop="text">
            <p>
-            I tried to update the loading state to false after fetching data from database. Is there anything I am missing.
+            My JSON object is structured as follows:
+           </p>
+           <pre><code>{
+  pastOrders: [
+    { { orderId: { val: "A1" } },
+    { { orderId: { val: "B2" } },
+  ],
+
+  id: {
+    { val: "C3" }
+  }
+}
+</code></pre>
+           <p>
+            I'd like to deserialize to the following object:
+           </p>
+           <pre class="lang-cs prettyprint-override"><code>class Order {
+
+  public List&lt;PastOrders&gt; PastOrders { get; set; }
+
+  public string Id { get; set; }
+}
+
+class PastOrders {
+
+  int Count { get; set; }
+
+  String OrderId { get; set; }
+}
+</code></pre>
+           <p>
+            Basically, just map
+            <code>
+             obj
+            </code>
+            to
+            <code>
+             obj.val
+            </code>
+            .
            </p>
            <p>
-            The error occurred in the setLoading function inside useEffect
+            <a href="https://stackoverflow.com/a/33094930/6118986">
+             https://stackoverflow.com/a/33094930/6118986
+            </a>
+            is close - it doesn't work with the
+            <code>
+             PastOrders
+            </code>
+            list but it works fine for mapping
+            <code>
+             OrderId
+            </code>
+            as
+            <code>
+             orderId.val
+            </code>
+            . The solution is also is more powerful than what I need because it can work with any number of child properties at any depth in the JSON.
            </p>
-           <pre><code>    const [product, setProduct]= useState([]);
-    const [loading, setLoading] = useState(true);
-
-    // The line of code helps to convert hyphenated text to a spaced out text for database reading.
-    const convertedProductName = convertToDefaultProductName(productName);
-
-    
-
-    useEffect(() =&gt; {
-        const getProduct = async () =&gt; {
-            try{
-                const result = await publicRequest.get(`products/find/${convertedProductName}`)
-                
-                setProduct(result.data);
-                setLoading(false);  // BIG BUG IN THIS LINE.
-            }catch(err){
-                setLoading(false);
-            }
-        };
-
-        getProduct();
-
-    }, [productName]);
-
-    console.log(product, loading);
-    const reOrderedProduct = sortSimilarProduct(product);
-
-    return (
-        &lt;Container loading={loading}&gt;
-            {
-                loading ? 
-                &lt;CircularProgress size="8rem"/&gt;
-                :
-                &lt;SingleProductDetails productName={convertedProductName} productDetails={reOrderedProduct}/&gt;
-            }
-        &lt;/Container&gt;
-    );
-};```
-</code></pre>
+           <p>
+            I am looking for a way to write a
+            <code>
+             JsonConverter
+            </code>
+            such that if
+            <code>
+             obj
+            </code>
+            is of type
+            <code>
+             { val: string }
+            </code>
+            , use
+            <code>
+             obj.val
+            </code>
+            . Otherwise, deserialize obj normally.
+           </p>
           </div>
           <div class="mt24 mb12">
            <div class="post-taglist d-flex gs4 gsy fd-column">
             <div class="d-flex ps-relative fw-wrap">
-             <a class="post-tag" href="/questions/tagged/javascript" rel="tag" title="show questions tagged 'javascript'">
-              javascript
+             <a class="post-tag" href="/questions/tagged/c%23" rel="tag" title="show questions tagged 'c#'">
+              c#
              </a>
-             <a class="post-tag" href="/questions/tagged/reactjs" rel="tag" title="show questions tagged 'reactjs'">
-              reactjs
+             <a class="post-tag" href="/questions/tagged/json" rel="tag" title="show questions tagged 'json'">
+              json
              </a>
-             <a class="post-tag" href="/questions/tagged/axios" rel="tag" title="show questions tagged 'axios'">
-              axios
+             <a class="post-tag" href="/questions/tagged/json.net" rel="tag" title="show questions tagged 'json.net'">
+              json.net
+             </a>
+             <a class="post-tag" href="/questions/tagged/deserialization" rel="tag" title="show questions tagged 'deserialization'">
+              deserialization
              </a>
             </div>
            </div>
@@ -664,15 +711,20 @@ The error occurred in the setLoading function inside useEffect
           <div class="mb0">
            <div class="mt16 d-flex gs8 gsy fw-wrap jc-end ai-start pt4 mb16">
             <div class="flex--item mr16 fl1 w96">
-             <div class="js-post-menu pt2" data-post-id="72183892">
+             <div class="js-post-menu pt2" data-post-id="72193781">
               <div class="d-flex gs8 s-anchors s-anchors__muted fw-wrap">
                <div class="flex--item">
-                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72183892" itemprop="url" rel="nofollow" title="Short permalink to this question">
+                <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 1 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="1" data-se-share-sheet-post-type="question" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this question" href="/q/72193781" itemprop="url" rel="nofollow" title="Short permalink to this question">
                  Share
                 </a>
                </div>
                <div class="flex--item">
-                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72183892" title="Follow this question to receive notifications" type="button">
+                <a class="js-suggest-edit-post js-gps-track" data-gps-track="post.click({ item: 6, priv: 0, post_type: 1 })" href="/posts/72193781/edit" title="">
+                 Improve this question
+                </a>
+               </div>
+               <div class="flex--item">
+                <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-question js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 1 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72193781" title="Follow this question to receive notifications" type="button">
                  Follow
                 </button>
                </div>
@@ -681,90 +733,41 @@ The error occurred in the setLoading function inside useEffect
               </div>
              </div>
             </div>
-            <div class="post-signature flex--item">
-             <div class="user-info user-hover">
-              <div class="user-action-time truncate">
-               <a class="js-gps-track" data-gps-track="post.click({ item: 4, priv: 0, post_type: 1 })" href="/posts/72183892/revisions" title="show all edits to this post">
-                edited
-                <span class="relativetime" title="2022-05-10 09:37:05Z">
-                 4 mins ago
-                </span>
-               </a>
-              </div>
-              <div class="user-gravatar32">
-               <a href="/users/1377002/andy">
-                <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://i.stack.imgur.com/oDeF7.jpg?s=64&amp;g=1" width="32"/>
-                </div>
-               </a>
-              </div>
-              <div class="user-details">
-               <a href="/users/1377002/andy">
-                Andy
-               </a>
-               <div class="-flair">
-                <span class="reputation-score" dir="ltr" title="reputation score 52,115">
-                 52.1k
-                </span>
-                <span aria-hidden="true" title="11 gold badges">
-                 <span class="badge1">
-                 </span>
-                 <span class="badgecount">
-                  11
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 11 gold badges
-                </span>
-                <span aria-hidden="true" title="63 silver badges">
-                 <span class="badge2">
-                 </span>
-                 <span class="badgecount">
-                  63
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 63 silver badges
-                </span>
-                <span aria-hidden="true" title="87 bronze badges">
-                 <span class="badge3">
-                 </span>
-                 <span class="badgecount">
-                  87
-                 </span>
-                </span>
-                <span class="v-visible-sr">
-                 87 bronze badges
-                </span>
-               </div>
-              </div>
-             </div>
-            </div>
             <div class="post-signature owner flex--item">
              <div class="user-info">
               <div class="user-action-time truncate">
                asked
-               <span class="relativetime" title="2022-05-10 09:32:31Z">
-                8 mins ago
+               <span class="relativetime" title="2022-05-10 23:03:40Z">
+                20 mins ago
                </span>
               </div>
               <div class="user-gravatar32">
-               <a href="/users/14825781/folorunsho-ayomide">
+               <a href="/users/6118986/user6118986">
                 <div class="gravatar-wrapper-32">
-                 <img alt="user avatar" class="bar-sm" height="32" src="https://lh4.googleusercontent.com/-2TFndTyntag/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfa6gX_cuI7F9Br3Ey2ytMDRu7Q8g/mo/photo.jpg?sz=64" width="32"/>
+                 <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/fefc22f088216dcf0b6d9ae21bdbc2b3?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
                 </div>
                </a>
               </div>
               <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-               <a href="/users/14825781/folorunsho-ayomide">
-                Folorunsho Ayomide
+               <a href="/users/6118986/user6118986">
+                user6118986
                </a>
                <span class="d-none" itemprop="name">
-                Folorunsho Ayomide
+                user6118986
                </span>
                <div class="-flair">
                 <span class="reputation-score" dir="ltr" title="reputation score ">
-                 1
+                 169
+                </span>
+                <span aria-hidden="true" title="13 bronze badges">
+                 <span class="badge3">
+                 </span>
+                 <span class="badgecount">
+                  13
+                 </span>
+                </span>
+                <span class="v-visible-sr">
+                 13 bronze badges
                 </span>
                </div>
               </div>
@@ -774,155 +777,13 @@ The error occurred in the setLoading function inside useEffect
           </div>
          </div>
          <span class="d-none" itemprop="commentCount">
-          4
          </span>
          <div class="post-layout--right js-post-comments-component">
-          <div class="comments js-comments-container bt bc-black-075 mt12" data-min-length="15" data-post-id="72183892" id="comments-72183892">
+          <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72193781" id="comments-72193781">
            <ul class="comments-list js-comments-list" data-addlink-disabled="true" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-remaining-comments-count="0">
-            <li class="comment js-comment" data-comment-id="127536829" data-comment-owner-id="1377002" data-comment-score="0" id="comment-127536829">
-             <div class="js-comment-actions comment-actions">
-              <div class="comment-score js-comment-edit-hide">
-              </div>
-             </div>
-             <div class="comment-text js-comment-text-and-form">
-              <div class="comment-body js-comment-edit-hide">
-               <span class="comment-copy">
-                Why have you initialised
-                <code>
-                 loading
-                </code>
-                to
-                <code>
-                 true
-                </code>
-                ? It should be
-                <code>
-                 false
-                </code>
-                to start with. Only when you do your fetch set it to
-                <code>
-                 true
-                </code>
-                , and then when the fetch is complete set it back to
-                <code>
-                 false
-                </code>
-                . Also, why are you passing
-                <code>
-                 loading
-                </code>
-                into the Container as a prop?
-               </span>
-               <div class="d-inline-flex ai-center">
-                –
-                <a class="comment-user" href="/users/1377002/andy" title="52,115 reputation">
-                 Andy
-                </a>
-               </div>
-               <span class="comment-date" dir="ltr">
-                <span class="relativetime-clean" title="2022-05-10 09:36:19Z, License: CC BY-SA 4.0">
-                 4 mins ago
-                </span>
-               </span>
-               <span title="this comment was edited 1 time">
-                <svg aria-hidden="true" class="va-text-bottom o50 svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-                 <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-                 </path>
-                </svg>
-               </span>
-              </div>
-             </div>
-            </li>
-            <li class="comment js-comment" data-comment-id="127536834" data-comment-owner-id="8792439" data-comment-score="1" id="comment-127536834">
-             <div class="js-comment-actions comment-actions">
-              <div class="comment-score js-comment-edit-hide">
-               <span class="cool" title="number of 'useful comment' votes received">
-                1
-               </span>
-              </div>
-             </div>
-             <div class="comment-text js-comment-text-and-form">
-              <div class="comment-body js-comment-edit-hide">
-               <span class="comment-copy">
-                May I know what is
-                <code>
-                 productName
-                </code>
-                in your useEffect dependency args, where did you get that from?
-               </span>
-               <div class="d-inline-flex ai-center">
-                –
-                <a class="comment-user" href="/users/8792439/amr" title="471 reputation">
-                 Amr
-                </a>
-               </div>
-               <span class="comment-date" dir="ltr">
-                <span class="relativetime-clean" title="2022-05-10 09:36:26Z, License: CC BY-SA 4.0">
-                 4 mins ago
-                </span>
-               </span>
-               <span title="this comment was edited 1 time">
-                <svg aria-hidden="true" class="va-text-bottom o50 svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-                 <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-                 </path>
-                </svg>
-               </span>
-              </div>
-             </div>
-            </li>
-            <li class="comment js-comment" data-comment-id="127536868" data-comment-owner-id="14825781" data-comment-score="0" id="comment-127536868">
-             <div class="js-comment-actions comment-actions">
-              <div class="comment-score js-comment-edit-hide">
-              </div>
-             </div>
-             <div class="comment-text js-comment-text-and-form">
-              <div class="comment-body js-comment-edit-hide">
-               <span class="comment-copy">
-                <code>
-                 const SingleProduct = ({productName}) =&gt; {
-                </code>
-               </span>
-               <div class="d-inline-flex ai-center">
-                –
-                <a class="comment-user owner" href="/users/14825781/folorunsho-ayomide" title="1 reputation">
-                 Folorunsho Ayomide
-                </a>
-               </div>
-               <span class="comment-date" dir="ltr">
-                <span class="relativetime-clean" title="2022-05-10 09:37:54Z, License: CC BY-SA 4.0">
-                 3 mins ago
-                </span>
-               </span>
-              </div>
-             </div>
-            </li>
-            <li class="comment js-comment" data-comment-id="127536910" data-comment-owner-id="14825781" data-comment-score="0" id="comment-127536910">
-             <div class="js-comment-actions comment-actions">
-              <div class="comment-score js-comment-edit-hide">
-              </div>
-             </div>
-             <div class="comment-text js-comment-text-and-form">
-              <div class="comment-body js-comment-edit-hide">
-               <span class="comment-copy">
-                @Andy I wanted my application to load initially before the data is fetched.
-               </span>
-               <div class="d-inline-flex ai-center">
-                –
-                <a class="comment-user owner" href="/users/14825781/folorunsho-ayomide" title="1 reputation">
-                 Folorunsho Ayomide
-                </a>
-               </div>
-               <span class="comment-date" dir="ltr">
-                <span class="relativetime-clean" title="2022-05-10 09:39:29Z, License: CC BY-SA 4.0">
-                 1 min ago
-                </span>
-               </span>
-              </div>
-             </div>
-            </li>
            </ul>
           </div>
-          <div data-anon="true" data-rep="50" id="comments-link-72183892">
+          <div data-anon="true" data-rep="50" id="comments-link-72193781">
            <a class="js-add-link comments-link disabled-link" href="#" role="button" title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">
             Add a comment
            </a>
@@ -941,26 +802,25 @@ The error occurred in the setLoading function inside useEffect
         <div class="js-report-ad-button-container mx-auto" style="width: 300px">
         </div>
        </div>
-       <div id="answers">
+       <div class="no-answers" id="answers">
         <a name="tab-top">
         </a>
         <div id="answers-header">
          <div class="answers-subheader d-flex ai-center mb8">
           <div class="flex--item fl1">
-           <h2 class="mb0" data-answercount="1">
-            1 Answer
+           <h2 class="mb0" data-answercount="0">
             <span itemprop="answerCount" style="display:none;">
-             1
+             0
             </span>
            </h2>
           </div>
-          <div class="flex--item">
+          <div class="flex--item d-none">
            <div class="d-flex g4 gsx ai-center sm:fd-column sm:ai-start">
             <div class="d-flex fd-column ai-end sm:ai-start">
              <label class="flex--item fs-caption" for="answer-sort-dropdown-select-menu">
               Sorted by:
              </label>
-             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72183892/error-too-many-re-renders-in-my-react-app?answertab=scoredesc#tab-top">
+             <a class="js-sort-preference-change s-link flex--item fs-fine d-none" data-value="ScoreDesc" href="/questions/72193781/c-sharp-deserialization-map-specific-property-to-its-child-property?answertab=scoredesc#tab-top">
               Reset to default
              </a>
             </div>
@@ -981,179 +841,29 @@ The error occurred in the setLoading function inside useEffect
           </div>
          </div>
         </div>
-        <a name="72184021">
-        </a>
-        <div class="answer js-answer" data-answerid="72184021" data-highest-scored="1" data-parentid="72183892" data-position-on-page="1" data-question-has-accepted-highest-score="0" data-score="0" id="answer-72184021" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
-         <div class="post-layout">
-          <div class="votecell post-layout--left">
-           <div class="js-voting-container d-flex jc-center fd-column ai-stretch gs4 fc-black-200" data-post-id="72184021">
-            <button aria-label="Up vote" aria-pressed="false" class="js-vote-up-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This answer is useful">
-             <svg aria-hidden="true" class="svg-icon iconArrowUpLg" height="36" viewbox="0 0 36 36" width="36">
-              <path d="M2 25h32L18 9 2 25Z">
-              </path>
-             </svg>
-            </button>
-            <div class="js-vote-count flex--item d-flex fd-column ai-center fc-black-500 fs-title" data-value="0" itemprop="upvoteCount">
-             0
-            </div>
-            <button aria-label="Down vote" aria-pressed="false" class="js-vote-down-btn flex--item s-btn s-btn__unset c-pointer" data-controller="s-tooltip" data-s-tooltip-placement="right" data-selected-classes="fc-theme-primary" data-unselected-classes="" title="This answer is not useful">
-             <svg aria-hidden="true" class="svg-icon iconArrowDownLg" height="36" viewbox="0 0 36 36" width="36">
-              <path d="M2 11h32L18 27 2 11Z">
-              </path>
-             </svg>
-            </button>
-            <div aria-label="Accepted" class="js-accepted-answer-indicator flex--item fc-green-500 py6 mtn8 d-none" data-s-tooltip-placement="right" role="note" tabindex="0" title="Loading when this answer was accepted…">
-             <div class="ta-center">
-              <svg aria-hidden="true" class="svg-icon iconCheckmarkLg" height="36" viewbox="0 0 36 36" width="36">
-               <path d="m6 14 8 8L30 6v8L14 30l-8-8v-8Z">
-               </path>
-              </svg>
-             </div>
-            </div>
-            <a aria-label="Timeline" class="js-post-issue flex--item s-btn s-btn__unset c-pointer py6 mx-auto" data-controller="s-tooltip" data-ks-title="timeline" data-s-tooltip-placement="right" data-shortcut="T" href="/posts/72184021/timeline" title="Show activity on this post.">
-             <svg aria-hidden="true" class="mln2 mr0 svg-icon iconHistory" height="18" viewbox="0 0 19 18" width="19">
-              <path d="M3 9a8 8 0 1 1 3.73 6.77L8.2 14.3A6 6 0 1 0 5 9l3.01-.01-4 4-4-4h3L3 9Zm7-4h1.01L11 9.36l3.22 2.1-.6.93L10 10V5Z">
-              </path>
-             </svg>
-            </a>
-           </div>
-          </div>
-          <div class="answercell post-layout--right">
-           <div class="s-prose js-post-body" itemprop="text">
-            <p>
-             You have product as a dependency, but you are updating product in the same
-             <code>
-              useEffect
-             </code>
-             . You are getting a new
-             <code>
-              data
-             </code>
-             object and that will trigger the use Effect again.
-            </p>
-            <p>
-             You need to add
-             <code>
-              loading
-             </code>
-             as a dep also and add a check based on the value and skip the call.
-            </p>
-           </div>
-           <div class="mt24">
-            <div class="d-flex fw-wrap ai-start jc-end gs8 gsy">
-             <time datetime="2022-05-10T09:41:02" itemprop="dateCreated">
-             </time>
-             <div class="flex--item mr16" style="flex: 1 1 100px;">
-              <div class="js-post-menu pt2" data-post-id="72184021">
-               <div class="d-flex gs8 s-anchors s-anchors__muted fw-wrap">
-                <div class="flex--item">
-                 <a class="js-share-link js-gps-track" data-controller="se-share-sheet" data-gps-track="post.click({ item: 2, priv: 0, post_type: 2 })" data-s-popover-placement="bottom-start" data-se-share-sheet-license-name="CC BY-SA 4.0" data-se-share-sheet-license-url="https%3a%2f%2fcreativecommons.org%2flicenses%2fby-sa%2f4.0%2f" data-se-share-sheet-location="2" data-se-share-sheet-post-type="answer" data-se-share-sheet-social="facebook twitter " data-se-share-sheet-subtitle="" data-se-share-sheet-title="Share a link to this answer" href="/a/72184021" itemprop="url" rel="nofollow" title="Short permalink to this answer">
-                  Share
-                 </a>
-                </div>
-                <div class="flex--item">
-                 <button aria-controls="" class="s-btn s-btn__link js-follow-post js-follow-answer js-gps-track" data-controller="s-tooltip " data-gps-track="post.click({ item: 14, priv: 0, post_type: 2 })" data-s-popover-placement="bottom" data-s-tooltip-placement="bottom" id="btnFollowPost-72184021" title="Follow this answer to receive notifications" type="button">
-                  Follow
-                 </button>
-                </div>
-               </div>
-               <div class="js-menu-popup-container">
-               </div>
-              </div>
-             </div>
-             <div class="post-signature flex--item fl0">
-              <div class="user-info user-hover">
-               <div class="user-action-time truncate">
-                answered
-                <span class="relativetime" title="2022-05-10 09:41:02Z">
-                 8 secs ago
-                </span>
-               </div>
-               <div class="user-gravatar32">
-                <a href="/users/2054602/radu-di%c8%9b%c4%83">
-                 <div class="gravatar-wrapper-32">
-                  <img alt="user avatar" class="bar-sm" height="32" src="https://www.gravatar.com/avatar/aa714b545cf57418ee53dc5c6c9517b5?s=64&amp;d=identicon&amp;r=PG&amp;f=1" width="32"/>
-                 </div>
-                </a>
-               </div>
-               <div class="user-details" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-                <a href="/users/2054602/radu-di%c8%9b%c4%83">
-                 Radu Diță
-                </a>
-                <span class="d-none" itemprop="name">
-                 Radu Diță
-                </span>
-                <div class="-flair">
-                 <span class="reputation-score" dir="ltr" title="reputation score 10,485">
-                  10.5k
-                 </span>
-                 <span aria-hidden="true" title="1 gold badge">
-                  <span class="badge1">
-                  </span>
-                  <span class="badgecount">
-                   1
-                  </span>
-                 </span>
-                 <span class="v-visible-sr">
-                  1 gold badge
-                 </span>
-                 <span aria-hidden="true" title="22 silver badges">
-                  <span class="badge2">
-                  </span>
-                  <span class="badgecount">
-                   22
-                  </span>
-                 </span>
-                 <span class="v-visible-sr">
-                  22 silver badges
-                 </span>
-                 <span aria-hidden="true" title="31 bronze badges">
-                  <span class="badge3">
-                  </span>
-                  <span class="badgecount">
-                   31
-                  </span>
-                 </span>
-                 <span class="v-visible-sr">
-                  31 bronze badges
-                 </span>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-          <span class="d-none" itemprop="commentCount">
-          </span>
-          <div class="post-layout--right js-post-comments-component">
-           <div class="comments js-comments-container bt bc-black-075 mt12 dno" data-min-length="15" data-post-id="72184021" id="comments-72184021">
-            <ul class="comments-list js-comments-list" data-addlink-disabled="true" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-remaining-comments-count="0">
-            </ul>
-           </div>
-           <div data-anon="true" data-rep="50" id="comments-link-72184021">
-            <a class="js-add-link comments-link disabled-link" href="#" role="button" title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">
-             Add a comment
-            </a>
-            <span class="js-link-separator dno">
-             |
-            </span>
-            <a class="js-show-link comments-link dno" href="#" onclick="" role="button" title="Expand to show all comments on this post">
-            </a>
-           </div>
-          </div>
-         </div>
-        </div>
-        <div class="js-zone-container zone-container-main">
-         <div class="everyonelovesstackoverflow everyoneloves__bot-mid-leaderboard everyoneloves__leaderboard" id="dfp-bmlb">
-         </div>
-         <div class="js-report-ad-button-container" style="width: 728px">
-         </div>
-        </div>
+        <h2 class="bottom-notice bottom-share-links" style="padding-top: 8px; margin-bottom: -8px;">
+         Know someone who can answer? Share a link to this
+         <a href="https://stackoverflow.com/questions/72193781/c-sharp-deserialization-map-specific-property-to-its-child-property">
+          question
+         </a>
+         via
+         <a href="mailto:?subject=Stack%20Overflow%20Question&amp;body=C%23%20Deserialization%20-%20Map%20specific%20property%20to%20its%20child%20property%0Ahttps%3a%2f%2fstackoverflow.com%2fq%2f72193781%3fsem%3d2">
+          email
+         </a>
+         ,
+         <a href="https://twitter.com/share?url=https%3a%2f%2fstackoverflow.com%2fq%2f72193781%3fstw%3d2">
+          Twitter
+         </a>
+         , or
+         <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fstackoverflow.com%2fq%2f72193781%3fsfb%3d2">
+          Facebook
+         </a>
+         .
+        </h2>
         <a name="new-answer">
         </a>
-        <form action="/questions/72183892/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
-         <input id="post-id" type="hidden" value="72183892"/>
+        <form action="/questions/72193781/answer/submit" class="js-add-answer-component post-form" id="post-form" method="post">
+         <input id="post-id" type="hidden" value="72193781"/>
          <input id="qualityBanWarningShown" name="qualityBanWarningShown" type="hidden" value="false"/>
          <input name="referrer" type="hidden" value=""/>
          <h2 class="space">
@@ -1282,7 +992,7 @@ The error occurred in the setLoading function inside useEffect
           <div>
           </div>
           <div class="edit-block">
-           <input id="fkey" name="fkey" type="hidden" value="8e355e081fc74a97f12a489d5238dcefb64c3a92e4e409fa831207c2d9947ded"/>
+           <input id="fkey" name="fkey" type="hidden" value="bedbfc06937eebb6fbfe18e35b202a6bcbbae1acd6ca69f700f1247c4ebe99c2"/>
            <input id="author" name="author" type="text"/>
           </div>
          </div>
@@ -1292,14 +1002,28 @@ The error occurred in the setLoading function inside useEffect
             <div class="d-flex fd-column w50 md:w-auto gsy gs8 jc-space-between new-login-left">
              <h3 class="flex--item fs-title">
               Sign up or
-              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72183892%2ferror-too-many-re-renders-in-my-react-app%23new-answer" id="login-link">
+              <a href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f72193781%2fc-sharp-deserialization-map-specific-property-to-its-child-property%23new-answer" id="login-link">
                log in
               </a>
              </h3>
              <script>
               StackExchange.ready(function () {
                                 StackExchange.helpers.onClickDraftSave('#login-link');
-                            });
+
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                                                });
              </script>
              <div class="flex--item s-btn s-btn__muted s-btn__outlined s-btn__icon google-login" data-ga='["sign up","Sign Up Started - Google","New Post",null,null]'>
               <svg aria-hidden="true" class="native svg-icon iconGoogle" height="18" viewbox="0 0 18 18" width="18">
@@ -1375,7 +1099,7 @@ The error occurred in the setLoading function inside useEffect
           <script>
            StackExchange.ready(
                     function () {
-                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72183892%2ferror-too-many-re-renders-in-my-react-app%23new-answer', 'question_page');
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f72193781%2fc-sharp-deserialization-map-specific-property-to-its-child-property%23new-answer', 'question_page');
                     }
                 );
           </script>
@@ -1439,15 +1163,18 @@ The error occurred in the setLoading function inside useEffect
          </div>
         </form>
         <h2 class="bottom-notice" data-loc="1">
-         Not the answer you're looking for? Browse other questions tagged
-         <a class="post-tag" href="/questions/tagged/javascript" rel="tag" title="show questions tagged 'javascript'">
-          javascript
+         Browse other questions tagged
+         <a class="post-tag" href="/questions/tagged/c%23" rel="tag" title="show questions tagged 'c#'">
+          c#
          </a>
-         <a class="post-tag" href="/questions/tagged/reactjs" rel="tag" title="show questions tagged 'reactjs'">
-          reactjs
+         <a class="post-tag" href="/questions/tagged/json" rel="tag" title="show questions tagged 'json'">
+          json
          </a>
-         <a class="post-tag" href="/questions/tagged/axios" rel="tag" title="show questions tagged 'axios'">
-          axios
+         <a class="post-tag" href="/questions/tagged/json.net" rel="tag" title="show questions tagged 'json.net'">
+          json.net
+         </a>
+         <a class="post-tag" href="/questions/tagged/deserialization" rel="tag" title="show questions tagged 'deserialization'">
+          deserialization
          </a>
          or
          <a href="/questions/ask">
@@ -1476,19 +1203,6 @@ The error occurred in the setLoading function inside useEffect
            </a>
           </div>
          </li>
-         <li class="s-sidebarwidget--item d-flex px16">
-          <div class="flex--item1 fl-shrink0">
-           <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" height="14" viewbox="0 0 14 14" width="14">
-            <path d="m11.1 1.71 1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0ZM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88Z">
-            </path>
-           </svg>
-          </div>
-          <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","The Overflow Blog","https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/",null,null]' data-gps-track="communitybulletin.click({ priority: 1, position: 1 })" href="https://stackoverflow.blog/2022/05/05/security-needs-to-shift-left-into-the-software-development-lifecycle/">
-            Security needs to shift left into the software development lifecycle
-           </a>
-          </div>
-         </li>
          <div class="s-sidebarwidget--header s-sidebarwidget__small-bold-text fc-light d:fc-black-900 bb bbw1">
           Featured on Meta
          </div>
@@ -1498,7 +1212,7 @@ The error occurred in the setLoading function inside useEffect
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 1 })" href="https://meta.stackoverflow.com/questions/417932/staging-ground-reviewer-motivation-scaling-and-open-questions">
             Staging Ground: Reviewer Motivation, Scaling, and Open Questions
            </a>
           </div>
@@ -1509,7 +1223,7 @@ The error occurred in the setLoading function inside useEffect
            </div>
           </div>
           <div class="flex--item wmn0 ow-break-word">
-           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 3 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
+           <a class="js-gps-track" data-ga='["community bulletin board","Featured on Meta","https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance",null,null]' data-gps-track="communitybulletin.click({ priority: 6, position: 2 })" href="https://meta.stackoverflow.com/questions/417008/overhauling-our-communitys-closure-reasons-and-guidance">
             Overhauling our community's closure reasons and guidance
            </a>
           </div>
@@ -1530,109 +1244,126 @@ The error occurred in the setLoading function inside useEffect
        </div>
        <div id="hireme">
        </div>
+       <div class="module sidebar-linked">
+        <h4 id="h-linked">
+         Linked
+        </h4>
+        <div class="linked" data-tracker="lq=1">
+         <div class="spacer js-gps-track" data-gps-track="linkedquestion.click({ source_post_id: 72193781, target_question_id: 33088462, position: 0 })">
+          <a href="/q/33088462" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted default">
+            63
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/33088462/can-i-specify-a-path-in-an-attribute-to-map-a-property-in-my-class-to-a-child-pr?noredirect=1">
+           Can I specify a path in an attribute to map a property in my class to a child property in my JSON?
+          </a>
+         </div>
+        </div>
+       </div>
        <div class="module sidebar-related">
         <h4 id="h-related">
          Related
         </h4>
         <div class="related js-gps-related-questions" data-tracker="rq=1">
          <div class="spacer">
-          <a href="/q/19917401" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted large">
-            678
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/19917401/error-request-entity-too-large">
-           Error: request entity too large
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/20035101" title="Question score (upvotes - downvotes)">
+          <a href="/q/40730" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted extra-large">
-            3021
+            2202
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/20035101/why-does-my-javascript-code-receive-a-no-access-control-allow-origin-header-i">
-           Why does my JavaScript code receive a "No 'Access-Control-Allow-Origin' header is present on the requested resource" error, while Postman does not?
+          <a class="question-hyperlink" href="/questions/40730/what-is-the-best-way-to-give-a-c-sharp-auto-property-an-initial-value">
+           What is the best way to give a C# auto-property an initial value?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/22876978" title="Question score (upvotes - downvotes)">
+          <a href="/q/295104" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted extra-large">
-            1730
+            1391
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/22876978/loop-inside-react-jsx">
-           Loop inside React JSX
+          <a class="question-hyperlink" href="/questions/295104/what-is-the-difference-between-a-field-and-a-property">
+           What is the difference between a field and a property?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/24502898" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted large">
-            742
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/24502898/show-or-hide-element-in-react">
-           Show or hide element in React
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/27928372" title="Question score (upvotes - downvotes)">
+          <a href="/q/489258" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted extra-large">
-            1052
+            1358
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually">
-           React-router URLs don't work when refreshing or writing manually
+          <a class="question-hyperlink" href="/questions/489258/linqs-distinct-on-a-particular-property">
+           LINQ's Distinct() on a particular property
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/29810914" title="Question score (upvotes - downvotes)">
+          <a href="/q/1207731" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            842
+            794
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/29810914/react-js-onclick-cant-pass-value-to-method">
-           React js onClick can't pass value to method
+          <a class="question-hyperlink" href="/questions/1207731/how-can-i-deserialize-json-to-a-simple-dictionarystring-string-in-asp-net">
+           How can I deserialize JSON to a simple Dictionary&lt;string,string&gt; in ASP.NET?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/31048953" title="Question score (upvotes - downvotes)">
+          <a href="/q/3309188" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted extra-large">
-            1317
+            1500
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/31048953/what-do-these-three-dots-in-react-do">
-           What do these three dots in React do?
+          <a class="question-hyperlink" href="/questions/3309188/how-to-sort-a-listt-by-a-property-in-the-object">
+           How to Sort a List&lt;T&gt; by a property in the object
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/31079081" title="Question score (upvotes - downvotes)">
-           <div class="answer-votes answered-accepted extra-large">
-            2018
-           </div>
-          </a>
-          <a class="question-hyperlink" href="/questions/31079081/programmatically-navigate-using-react-router">
-           Programmatically navigate using React router
-          </a>
-         </div>
-         <div class="spacer">
-          <a href="/q/31163693" title="Question score (upvotes - downvotes)">
+          <a href="/q/5554217" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            857
+            498
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/31163693/how-do-i-conditionally-add-attributes-to-react-components">
-           How do I conditionally add attributes to React components?
+          <a class="question-hyperlink" href="/questions/5554217/deserialize-a-listt-object-with-gson">
+           Deserialize a List&lt;T&gt; object with Gson?
           </a>
          </div>
          <div class="spacer">
-          <a href="/q/34641582" title="Question score (upvotes - downvotes)">
+          <a href="/q/6507889" title="Question score (upvotes - downvotes)">
            <div class="answer-votes answered-accepted large">
-            927
+            637
            </div>
           </a>
-          <a class="question-hyperlink" href="/questions/34641582/what-is-the-difference-between-react-native-and-react">
-           What is the difference between React Native and React?
+          <a class="question-hyperlink" href="/questions/6507889/how-to-ignore-a-property-in-class-if-null-using-json-net">
+           How to ignore a property in class if null, using json.net
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/15915503" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted large">
+            341
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/15915503/net-newtonsoft-json-deserialize-map-to-a-different-property-name">
+           .NET NewtonSoft JSON deserialize map to a different property name
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/28026386" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted default">
+            3
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/28026386/how-can-i-deserialize-a-child-instance-as-a-parent-object-without-losing-its-spe">
+           How can I deserialize a child instance as a parent object without losing its specific property?
+          </a>
+         </div>
+         <div class="spacer">
+          <a href="/q/51348779" title="Question score (upvotes - downvotes)">
+           <div class="answer-votes default">
+            3
+           </div>
+          </a>
+          <a class="question-hyperlink" href="/questions/51348779/how-to-deserialize-non-array-json-to-child-class-that-implements-listt">
+           How to deserialize non-array json to child class that implements List&lt;T&gt;?
           </a>
          </div>
         </div>
@@ -1645,20 +1376,6 @@ The error occurred in the setLoading function inside useEffect
         </h4>
         <ul>
          <li>
-          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229773/how-would-an-adult-artificial-human-behave-after-they-exit-the-biofabricator">
-           How would an adult artificial human behave after they exit the biofabricator?
-          </a>
-         </li>
-         <li>
-          <div class="favicon favicon-superuser" title="Super User">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:3 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://superuser.com/questions/1720216/chown-operation-not-permitted-even-as-root-user">
-           chown - Operation not permitted even as root user
-          </a>
-         </li>
-         <li>
           <div class="favicon favicon-stats" title="Cross Validated">
           </div>
           <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:65 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stats.stackexchange.com/questions/574590/negative-prediction-values-from-linear-regression-in-r">
@@ -1666,13 +1383,76 @@ The error occurred in the setLoading function inside useEffect
           </a>
          </li>
          <li>
-          <div class="favicon favicon-codegolf" title="Code Golf Stack Exchange">
+          <div class="favicon favicon-law" title="Law Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://codegolf.stackexchange.com/questions/247087/ascii-art-nth-root">
-           ASCII-Art n'th Root
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80086/what-is-the-nature-and-purpose-of-the-uk-highway-code">
+           What is the nature and purpose of the UK highway code?
           </a>
          </li>
          <li>
+          <div class="favicon favicon-physics" title="Physics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707721/am-i-in-a-superposition">
+           Am I in a superposition?
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-hermeneutics" title="Biblical Hermeneutics Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:320 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://hermeneutics.stackexchange.com/questions/76219/peace-and-jesus">
+           Peace and Jesus
+          </a>
+         </li>
+         <li>
+          <div class="favicon favicon-opensource" title="Open Source Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:619 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://opensource.stackexchange.com/questions/12857/agpl-library-usage-for-an-internal-software">
+           AGPL library usage for an internal software
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-softwareengineering" title="Software Engineering Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:131 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://softwareengineering.stackexchange.com/questions/438534/is-it-true-that-switching-programming-languages-will-have-little-impact-on-the-s">
+           Is it true that switching programming languages will have little impact on the scalability of a CRUD API?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://workplace.stackexchange.com/questions/184681/invited-to-give-talk-but-want-to-refuse">
+           Invited to give talk but want to refuse
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-apple" title="Ask Different">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:118 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://apple.stackexchange.com/questions/440882/why-does-previews-export-to-pdf-only-export-one-page">
+           Why does Preview's export to PDF only export one page?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-academia" title="Academia Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185122/should-recommendation-letters-mention-a-candidates-weaknesses">
+           Should recommendation letters mention a candidate's weaknesses?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314813/my-dad-doesnt-want-me-to-touch-alcohol">
+           My dad doesn't want me to TOUCH alcohol
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198250/what-is-the-difference-between-unconscious-and-asleep">
+           What is the difference between "Unconscious" and "Asleep"?
+          </a>
+         </li>
+         <li class="dno js-hidden">
           <div class="favicon favicon-stackoverflow" title="Stack Overflow">
           </div>
           <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stackoverflow.com/questions/72177535/how-can-i-include-a-c-header-that-uses-a-c-keyword-as-an-identifier-in-c">
@@ -1680,136 +1460,87 @@ The error occurred in the setLoading function inside useEffect
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-diy" title="Home Improvement Stack Exchange">
+          <div class="favicon favicon-aviation" title="Aviation Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:73 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://diy.stackexchange.com/questions/249003/whats-the-cheapest-way-to-wire-these-lights">
-           What's the cheapest way to wire these lights?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:528 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://aviation.stackexchange.com/questions/93068/what-aircraft-is-shown-in-this-cockpit-picture">
+           What aircraft is shown in this cockpit picture?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
+          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314851/must-i-use-my-when-referring-to-my-own-bodypart-or-can-i-use-the-without-tec">
-           Must I use "my" when referring to my own bodypart or can I use "the" without technically breaking any rules?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://electronics.stackexchange.com/questions/619091/are-microphones-with-flatter-frequency-response-charts-better-at-picking-up-freq">
+           Are microphones with flatter frequency response charts better at picking up frequencies?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-ell" title="English Language Learners Stack Exchange">
+          <div class="favicon favicon-mathoverflow" title="MathOverflow">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:481 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://ell.stackexchange.com/questions/314832/heavens-gate-vs-the-gates-of-hell">
-           "Heaven's Gate" vs "The Gates of Hell"
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathoverflow.net/questions/422198/complex-vector-bundles-on-compact-complex-manifolds">
+           Complex vector bundles on compact complex manifolds
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-latin" title="Latin Language Stack Exchange">
+          <div class="favicon favicon-politics" title="Politics Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:644 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://latin.stackexchange.com/questions/18220/quae-haec-mihi-d%c5%8dna-dedist%c4%ab">
-           "quae haec mihi dōna dedistī"
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-blender" title="Blender Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:502 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://blender.stackexchange.com/questions/263072/are-render-results-hardware-dependent">
-           Are render results hardware dependent?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-law" title="Law Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80056/what-possible-penalties-can-there-be-for-failing-to-comply-with-rule-286-of-the">
-           What possible penalties can there be for failing to comply with rule 286 of the UK highway code?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:186 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://scifi.stackexchange.com/questions/263081/murder-in-cult-of-identical-people">
-           Murder in cult of identical people
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707827/why-arent-runge-kutta-methods-used-for-molecular-dynamics-simulations">
-           Why aren't Runge-Kutta methods used for molecular dynamics simulations?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-bicycles" title="Bicycles Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bicycles.stackexchange.com/questions/83819/do-rotational-symmetric-looking-front-lights-usually-throw-half-their-light-into">
-           Do rotational-symmetric-looking front lights usually throw half their light into oncoming traffic? How To dinstiguish?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-academia" title="Academia Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://academia.stackexchange.com/questions/185044/grading-on-a-curve-in-required-doctoral-course-failing-as-a-result">
-           Grading on a curve in required doctoral course, failing as a result
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-askubuntu" title="Ask Ubuntu">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:89 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://askubuntu.com/questions/1407597/check-if-process-exits-or-doesnt-exists">
-           Check if process exits or doesn't exists
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-physics" title="Physics Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://physics.stackexchange.com/questions/707698/at-which-point-is-the-magnetic-field-in-a-current-carrying-loop-the-strongest">
-           At which point is the magnetic field in a current carrying loop the strongest?
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-travel" title="Travel Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://travel.stackexchange.com/questions/173537/help-identifying-this-landmark-and-road-in-los-angeles-1940s-residential-area">
-           Help identifying this landmark and road in "Los Angeles 1940s, Residential Area in color"
-          </a>
-         </li>
-         <li class="dno js-hidden">
-          <div class="favicon favicon-history" title="History Stack Exchange">
-          </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://history.stackexchange.com/questions/68953/did-ancient-polytheistic-religions-believe-theirs-was-the-only-pantheon">
-           Did ancient polytheistic religions believe theirs was the only pantheon?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:475 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://politics.stackexchange.com/questions/73031/could-the-same-person-be-first-minister-in-northern-ireland-and-taoiseach-in-the">
+           Could the same person be First Minister in Northern Ireland and Taoiseach in the Republic of Ireland?
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268040/working-around-memory-leak-from-hermitedecomposition">
-           Working around Memory Leak from HermiteDecomposition
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:387 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://mathematica.stackexchange.com/questions/268060/writing-code-for-a-diagram">
+           Writing code for a diagram
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange">
+          <div class="favicon favicon-or" title="Operations Research Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://worldbuilding.stackexchange.com/questions/229766/my-creature-mixes-lye-and-sal-ammoniac-to-cool-its-blood-how-cold-can-its-blood">
-           My creature mixes lye and sal ammoniac to cool its blood. How cold can its blood get before it stops working as blood?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:700 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://or.stackexchange.com/questions/8377/quadratically-constrained-convex-optimisation">
+           Quadratically constrained convex optimisation
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-bicycles" title="Bicycles Stack Exchange">
+          <div class="favicon favicon-law" title="Law Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:126 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://bicycles.stackexchange.com/questions/83826/searching-a-new-city-tyre-for-two-old-bikes-one-has-26x1-90-tyre-on-it-and-anot">
-           Searching a new city tyre for Two old bikes, one has 26x1,90 tyre on it and another has 37-622(28x1 3/8x1 5/8)
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:617 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://law.stackexchange.com/questions/80081/how-is-an-animal-defined-as-in-rule-286-of-the-uk-highway-code">
+           How is an animal defined as in rule 286 of the UK highway code?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:1 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://stackoverflow.com/questions/72188017/why-does-my-c-compiler-want-to-instantiate-my-parameter-pack-class-when-usin">
+           Why does my (C++) compiler want to instantiate my parameter pack class when using std::endl?
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://puzzling.stackexchange.com/questions/116084/a-group-of-animals-missing">
+           A group of animals (missing)
+          </a>
+         </li>
+         <li class="dno js-hidden">
+          <div class="favicon favicon-dba" title="Database Administrators Stack Exchange">
+          </div>
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:182 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://dba.stackexchange.com/questions/311933/sql-server-timeout-on-db-and-into-connection-string">
+           SQL Server timeout on DB and into connection string
           </a>
          </li>
          <li class="dno js-hidden">
           <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198236/does-a-barbarians-danger-sense-work-for-saves-against-falling">
-           Does a barbarian's danger sense work for saves against falling?
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:122 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://rpg.stackexchange.com/questions/198230/how-to-help-a-player-create-a-character-with-more-long-term-motivations">
+           How to help a player create a character with more long term motivations?
           </a>
          </li>
          <li class="dno js-hidden">
-          <div class="favicon favicon-german" title="German Language Stack Exchange">
+          <div class="favicon favicon-substrate" title="Substrate and Polkadot Stack Exchange">
           </div>
-          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:253 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://german.stackexchange.com/questions/70546/unexpected-use-of-kater-instead-of-katze">
-           Unexpected use of 'Kater' instead of 'Katze'
+          <a class="js-gps-track question-hyperlink mb0" data-gps-track="site.switch({ item_type:11, target_site:710 }); posts_hot_network.click({ item_type:2, location:11 })" href="https://substrate.stackexchange.com/questions/2500/how-to-make-zombienet-test-files-from-a-docker-compose-yaml-file">
+           How to make Zombienet test files from a docker-compose yaml file?
           </a>
          </li>
         </ul>
@@ -1818,7 +1549,7 @@ The error occurred in the setLoading function inside useEffect
         </a>
        </div>
        <div class="js-feed-link" id="feed-link">
-        <a href="/feeds/question/72183892" title="Feed of this question and its answers">
+        <a href="/feeds/question/72193781" title="Feed of this question and its answers">
          <svg aria-hidden="true" class="fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
           <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
           </path>
@@ -1841,7 +1572,7 @@ The error occurred in the setLoading function inside useEffect
            </label>
           </div>
           <div class="d-flex ps-relative">
-           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72183892"/>
+           <input class="s-input" id="feed-url" name="feed-url" readonly="readonly" type="text" value="https://stackoverflow.com/feeds/question/72193781"/>
            <svg aria-hidden="true" class="s-input-icon fc-orange-400 svg-icon iconRss" height="18" viewbox="0 0 18 18" width="18">
             <path d="M3 1a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H3Zm0 1.5c6.9 0 12.5 5.6 12.5 12.5H13C13 9.55 8.45 5 3 5V2.5Zm0 5c4.08 0 7.5 3.41 7.5 7.5H8c0-2.72-2.28-5-5-5V7.5Zm0 5c1.36 0 2.5 1.14 2.5 2.5H3v-2.5Z">
             </path>
@@ -1859,15 +1590,15 @@ The error occurred in the setLoading function inside useEffect
       </div>
      </div>
      <script>
-      StackExchange.ready(function(){$.get('/posts/72183892/ivc/e944');});
+      StackExchange.ready(function(){$.get('/posts/72193781/ivc/bb37');});
      </script>
      <noscript>
       <div>
-       <img alt="" class="dno" height="0" src="/posts/72183892/ivc/e944" width="0"/>
+       <img alt="" class="dno" height="0" src="/posts/72193781/ivc/bb37" width="0"/>
       </div>
      </noscript>
      <div id="js-codeblock-lang" style="display:none">
-      lang-js
+      lang-cs
      </div>
     </div>
    </div>
@@ -1886,9 +1617,9 @@ The error occurred in the setLoading function inside useEffect
     clc.options.targeting_consent = !1;
     clc.options.performance_consent = !1;
         clc.cmd = clc.cmd || [];
-        clc.cmd.push(function () { window.clc_request='A8tRlDdpMtoIAAAAAFRwTQQCAAAAAgAAAAAAGgAAAHxqYXZhc2NyaXB0fHJlYWN0anN8YXhpb3N8AHXMx7Rgo0hG7Pc'; clc.load(); });
+        clc.cmd.push(function () { window.clc_request='Az0ePzfcMtoIAAAAAPWWTQQCAAAAAgAAAAAAIgAAAHxjI3xqc29ufGpzb24ubmV0fGRlc2VyaWFsaXphdGlvbnwAxGoSIbn2MzQIyw'; clc.load(); });
         clc.dfp = clc.dfp || {};
-        clc.dfp.targeting = {Registered:['false'],'so-tag':['javascript','reactjs','axios'],'tag-reportable':['javascript','reactjs','axios'],'tag-non-reportable':['javascript','reactjs','axios'],NumberOfAnswers:['1']};
+        clc.dfp.targeting = {Registered:['false'],'so-tag':['c_sharp','json','json.net','deserialization'],'tag-reportable':['c_sharp','json','json.net','deserialization'],'tag-non-reportable':['c_sharp','json','json.net','deserialization'],NumberOfAnswers:['0']};
 
         if (window.location.hash.indexOf('ads:cat=cp') >= 0)
         {
@@ -2110,42 +1841,13 @@ The error occurred in the setLoading function inside useEffect
       </a>
       .
       <span id="svnrev">
-       rev 2022.5.9.42071
+       rev 2022.5.10.42086
       </span>
      </p>
     </div>
    </div>
   </footer>
   <script>
-   (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-            StackExchange.ready(function () {
-
-                StackExchange.ga.init({
-                    autoLink: ["stackoverflow.blog","info.stackoverflowsolutions.com","stackoverflowsolutions.com"],
-                    sendTitles: true,
-                    tracker: window.ga,
-                    trackingCodes: [
-                        'UA-108242619-1'
-                    ],
-                        checkDimension: 'dimension42'
-                });
-
-
-
-                    StackExchange.ga.setDimension('dimension2', '|javascript|reactjs|axios|');
-
-
-                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
-
-
-                StackExchange.ga.setDimension('dimension7', "1652175671.936774282");
-
-                StackExchange.ga.trackPageView();
-            });
   </script>
   <div class="ff-sans ps-fixed z-nav-fixed ws4 sm:w-auto p32 sm:p16 bg-black-750 fc-white bar-lg b16 l16 r16 js-consent-banner">
    <svg aria-hidden="true" class="mln4 mb24 sm:d-none svg-spot spotCookieLg" height="96" style="color: var(--theme-button-filled-background-color)" viewbox="0 0 96 96" width="96">
