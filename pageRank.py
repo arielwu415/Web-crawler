@@ -6,19 +6,20 @@ Created on Sun May 1 15:27:04 2022
 """
 import csv
 import networkx as nx
-import numpy
 import numpy as np
 
 
 class pageRank:
     def __init__(self):
         self.pr = []
-
+    
     def create_pageRank(self, filename):
-        A = self.read_edge_list(filename)
+        A, nodes = self.read_edge_list(filename)
+        v = np.ones(nodes, 1) / nodes
         pA = self.probability_matrix(A)
-        self.pr = self.get_pageRank(pA, )
-
+        
+        self.pr = self.get_pageRank(pA, v)
+    
     def read_edge_list(self, filename):
         # read edge_list file and create a graph G
         with open(filename, "rb") as edges:
@@ -26,8 +27,9 @@ class pageRank:
 
         # make an adjacency matrix
         A = nx.to_numpy_array(G)
-
-        return A
+        nodes = G.get_node_number()
+        
+        return A, nodes
 
     # A[:, 1] : second column
     # len(A[:,1]) <-- size of column
@@ -48,8 +50,8 @@ class pageRank:
         return A
 
         # numpy.savetxt("prob_matrix.csv", A, delimiter=",")
-
-    def get_pageRank(self, matrix, vector):
+    
+    def get_pageRank(self, matrix, v):
         # First iteration:
         #     matrix        v      result
         # |[0.33 0.5 0]|   |v0|   |new_v0|
@@ -63,9 +65,6 @@ class pageRank:
         # |[0.33 0.5 1]|   |[0.33 0.5 1]|   |v2|   |new_v2|
         #                  ^ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
         #                 result from first iteration
-
-        # trun vector into numpy ndarray object
-        v = numpy.array(vector).reshape(len(vector), 1)
         result = v
 
         # iterating until it converges
@@ -76,7 +75,7 @@ class pageRank:
             result = matrix.dot(v)
 
             # if result doesn't change much, break the loop
-            if numpy.subtract(result, v).all() <= 0.0001:
+            if np.subtract(result, v).all() <= 0.0001:
                 break
 
         return result
