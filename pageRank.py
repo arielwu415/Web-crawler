@@ -15,7 +15,7 @@ class pageRank:
     
     def create_pageRank(self, filename):
         A, nodes = self.read_edge_list(filename)
-        v = np.ones(nodes, 1) / nodes
+        v = np.ones((nodes, 1)) / nodes
         pA = self.probability_matrix(A)
         
         self.pr = self.get_pageRank(pA, v)
@@ -27,7 +27,7 @@ class pageRank:
 
         # make an adjacency matrix
         A = nx.to_numpy_array(G)
-        nodes = G.get_node_number()
+        nodes = G.number_of_nodes()
         
         return A, nodes
 
@@ -36,7 +36,7 @@ class pageRank:
 
     def probability_matrix(self, A):
         for x in range(A.shape[1]):
-            # counting number of page occurence
+            # counting number of page occurrence
             count = np.count_nonzero(A == 1, axis=0)
             # print(count)
 
