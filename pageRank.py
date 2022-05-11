@@ -6,7 +6,7 @@ Created on Sun May 1 15:27:04 2022
 """
 import csv
 import networkx as nx
-import numpy 
+import numpy
 import numpy as np
 from outlinks_count import clear_report_file
 
@@ -32,7 +32,7 @@ def get_pageRank(matrix, vector):
     # |[0.33 0.5 0]|   |v0|   |new_v0|
     # |[0.33  0  0]| x |v1| = |new_v1|
     # |[0.33 0.5 1]|   |v2|   |new_v2|
-    
+
     # Second iteration:
     #     matrix           matrix        v      result
     # |[0.33 0.5 0]|   |[0.33 0.5 0]|   |v0|   |new_v0|
@@ -40,31 +40,29 @@ def get_pageRank(matrix, vector):
     # |[0.33 0.5 1]|   |[0.33 0.5 1]|   |v2|   |new_v2|
     #                  ^ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
     #                 result from first iteration
-    
+
     # trun vector into numpy ndarray object
     v = numpy.array(vector).reshape(len(vector), 1)
     result = v
-    
+
     # iterating until it converges
     while True:
         # current v = previous result
         v = result
         # calculate new result
         result = matrix.dot(v)
-        
+
         # if result doesn't change much, break the loop
         if numpy.subtract(result, v).all() <= 0.0001:
             break
-    
-    return result
-    
 
+    return result
 
 
 # read edge_list file and create a graph G
 with open("edge_list1.csv", "rb") as edges:
     G = nx.read_edgelist(edges, delimiter=",", create_using=nx.DiGraph, encoding="utf-8")
-    
+
 # make an adjacency matrix
 A = nx.to_numpy_array(G)
 print(A)
@@ -111,21 +109,19 @@ def get_pageRank(matrix, v):
 
 
 for x in range(A.shape[1]):
-    #counting number of page occurence
-    count = np.count_nonzero(A == 1, axis = 0)
-    #print(count)
-            
+    # counting number of page occurrence
+    count = np.count_nonzero(A == 1, axis=0)
+    # print(count)
+
 print(count)
-    
+
 for row in range(len(A)):
     for column in range(len(A[row])):
-        print("matrix value", A[row,column])
+        print("matrix value", A[row, column])
         print("count", count[column])
-        if (count[column] != 0):
-            A[row,column] /= count[column]
-        
-print(A)
-    
-#numpy.savetxt("prob_matrix.csv", A, delimiter=",")
+        if count[column] != 0:
+            A[row, column] /= count[column]
 
-    
+print(A)
+
+# numpy.savetxt("prob_matrix.csv", A, delimiter=",")

@@ -4,9 +4,10 @@ from indexer import Index
 
 
 class SearchEngine:
-    def __init__(self, index):
+    def __init__(self, index, page_ranks):
         """ use Index instance as its argument """
         self.index = index
+        self.page_ranks = page_ranks
         self.results = []
 
     def search(self, search_type='BM25'):
