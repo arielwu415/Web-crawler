@@ -1,12 +1,14 @@
 import math
 
 from indexer import Index
+from pageRank import pageRank
 
 
 class SearchEngine:
-    def __init__(self, index):
+    def __init__(self, index, page_ranks):
         """ use Index instance as its argument """
         self.index = index
+        self.page_ranks = page_ranks
         self.results = []
 
     def search(self, search_type='BM25'):
@@ -68,6 +70,7 @@ class SearchEngine:
         # <--  Multiply page ranks with BM25 scores -->
 
         results = list(reversed(ranked_scores.keys()))
+        breakpoint()
 
         # print out results (unsorted)
         self.results = list(results)
@@ -79,8 +82,10 @@ class SearchEngine:
    
 
 index = Index()
+pageRank = pageRank()
+pageRank.create_pageRank("edge_list1.csv")
 index.create_index("wordcount1.csv")
-SE = SearchEngine(index)
+SE = SearchEngine(index, pageRank)
 print(SE.search())
 quit()
 

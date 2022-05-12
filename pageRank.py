@@ -11,7 +11,6 @@ from outlinks_count import clear_report_file
 
 
 class pageRank:
-    
     def __init__(self):
         self.pr = []
         self.node_list = []
@@ -24,7 +23,7 @@ class pageRank:
         
         self.pr = self.get_pageRank(pA, v)
     
-    
+
     def read_edge_list(self, filename):
         G = nx.DiGraph()
         
@@ -64,8 +63,8 @@ class pageRank:
                     A[row, column] /= count[column]
 
         return A
-    
-    
+
+
     def get_pageRank(self, matrix, v):
         # First iteration:
         #     matrix        v      result
