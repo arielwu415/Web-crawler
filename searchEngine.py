@@ -67,11 +67,11 @@ class SearchEngine:
                         scores[doc] = score
             ranked_scores = {k: v for k, v in sorted(scores.items(), key=lambda item: item[1])}
 
-        # <--  Multiply page ranks with BM25 scores -->
+        for key in ranked_scores:
+            ranked_scores[key] *= self.page_ranks.pr[int(key.removeprefix('doc')) - 1]
 
         results = list(reversed(ranked_scores.keys()))
         breakpoint()
-
         # print out results (unsorted)
         self.results = list(results)
         documents = "Relevant documents are: "
@@ -87,7 +87,6 @@ pageRank.create_pageRank("edge_list1.csv")
 index.create_index("wordcount1.csv")
 SE = SearchEngine(index, pageRank)
 print(SE.search())
-quit()
 
 index.create_index("wordcount2.csv")
 SE = SearchEngine(index)
